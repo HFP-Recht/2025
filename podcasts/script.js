@@ -348,21 +348,22 @@ document.addEventListener('DOMContentLoaded', () => {
   function initialize() {
     setZoomHintText();
     attachBasicAudioListeners(audioPlayer);
-    if (window.self === window.top) {
-      const id = new URLSearchParams(location.search).get('Id') || 'layouts_test';
-      const slidesFile = `${id}.json`;
-      fetch(`json/${slidesFile}`)
-        .then(response => {
-          if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-          return response.json();
-        })
-        .then(rawData => loadPresentation(id, rawData))
-        .catch(error => {
-          console.error("Error loading presentation data:", error);
-          slideTextContent.innerHTML = `<p style="color:red;">Fehler: Konnte die Slides nicht laden (${escapeHTML(slidesFile)}).</p>`;
-        });
-    }
-  }
 
-  initialize();
-});
+    // The "if (window.self === window.top)" check has been removed from here.
+    // This logic will now run even inside an iframe.
+    const id = new URLSearchParams(location.search).get('Id') || 'layouts_test';
+    const slidesFile = `${id}.json`;
+    fetch(`json/${slidesFile}`)
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        return response.json();
+      })
+      .then(rawData => loadPresentation(id, rawData))
+      .catch(error => {
+        console.error("Error loading presentation data:", error);
+        slideTextContent.innerHTML = `<p style="color:red;">Fehler: Konnte die Slides nicht laden (${escapeHTML(slidesFile)}).</p>`;
+      });
+}
+
+initialize();
+
