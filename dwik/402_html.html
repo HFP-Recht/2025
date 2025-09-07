@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertragsform: Wann ein Handschlag genügt und wann nicht</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f8f9fa;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #bdc3c7;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        
+        .slide {
+            width: 1280px;
+            min-height: 720px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        
+        .content {
+            flex-grow: 1;
+            padding: 30px 40px;
+            overflow-y: auto;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 20px;
+        }
+        
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .subsection {
+            margin-bottom: 20px;
+        }
+        
+        .subsection-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        p, ul {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+        
+        .three-column {
+            display: flex;
+            gap: 25px;
+        }
+        
+        .column {
+            flex: 1;
+        }
+        
+        .concept-box {
+            background-color: var(--light-gray);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            height: 100%;
+        }
+        
+        .concept-box-title {
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+            font-size: 20px;
+        }
+        
+        .dropdown {
+            margin-top: 20px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .dropdown-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+        }
+        
+        .dropdown-content {
+            padding: 15px;
+            background-color: #fdfdfd;
+            display: none;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown.active .dropdown-header .material-icons {
+            transform: rotate(180deg);
+        }
+        
+        .question {
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .answer {
+            margin-bottom: 18px;
+            padding-left: 20px;
+            font-style: italic;
+            color: #555;
+        }
+        code {
+            background-color: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="header">
+            <h1>Vertragsform: Wann ein Handschlag genügt und wann nicht</h1>
+        </div>
+        
+        <div class="content">
+            <!-- 1. Grundsatz der Formfreiheit -->
+            <div class="section">
+                <h2 class="section-title">Grundsatz der Formfreiheit (Art. 11 OR)</h2>
+                <div class="subsection">
+                    <p>Im Schweizer Vertragsrecht gilt der Grundsatz, dass Verträge zu ihrer Gültigkeit <span class="highlight">keiner besonderen Form</span> bedürfen. Das bedeutet, ein Vertrag kann gültig abgeschlossen werden durch:</p>
+                    <ul>
+                        <li><strong>Mündliche Abmachung</strong> (z.B. am Telefon)</li>
+                        <li><strong>Schriftliche Vereinbarung</strong> (z.B. per E-Mail oder Vertrag)</li>
+                        <li><strong>Stillschweigendes (konkludentes) Handeln</strong> (z.B. das Einsteigen in ein Taxi)</li>
+                    </ul>
+                    <p>Dieser Grundsatz gemäss <code>Art. 11 Abs. 1 OR</code> erleichtert den Rechtsverkehr im Alltag erheblich. Für die meisten alltäglichen Geschäfte, wie den Kauf einer Maschine, ist ein Handschlag rechtlich bindend.</p>
+                </div>
+            </div>
+            <!-- 2. Gesetzliche Formvorschriften (Ausnahmen) -->
+            <div class="section">
+                <h2 class="section-title">Gesetzliche Formvorschriften: Die Ausnahmen vom Grundsatz</h2>
+                <p>Für bestimmte, besonders wichtige oder risikoreiche Verträge schreibt das Gesetz ausnahmsweise eine spezielle Form vor (<code>Art. 11 Abs. 1 OR</code>). Diese Vorschriften dienen zwei Hauptzwecken:</p>
+                <ul>
+                    <li><strong>Warnfunktion:</strong> Die Parteien sollen vor übereilten Entscheidungen geschützt werden.</li>
+                    <li><strong>Beweisfunktion:</strong> Die Form schafft Klarheit über den Vertragsinhalt und erleichtert den Beweis im Streitfall.</li>
+                </ul>
+                <div class="three-column">
+                    <div class="column">
+                        <div class="concept-box">
+                            <div class="concept-box-title">1. Einfache Schriftlichkeit</div>
+                            <p>Der Vertrag muss schriftlich festgehalten und von der Person, die sich verpflichtet, <span class="highlight">eigenhändig unterschrieben</span> werden (<code>Art. 13 OR</code>).</p>
+                            <p><strong>Beispiele:</strong></p>
+                            <ul>
+                                <li>Konkurrenzverbot (Art. 340 OR)</li>
+                                <li>Schenkungsversprechen (Art. 243 OR)</li>
+                                <li>Abtretung einer Forderung (Art. 165 OR)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="concept-box">
+                            <div class="concept-box-title">2. Qualifizierte Schriftlichkeit</div>
+                            <p>Hier gelten die Regeln der einfachen Schriftlichkeit, aber es kommen <span class="highlight">zusätzliche Anforderungen</span> hinzu. Das können sein:</p>
+                            <ul>
+                                <li>Bestimmte Mindestangaben im Vertrag</li>
+                                <li>Verwendung eines offiziellen Formulars</li>
+                                <li>Vollständig von Hand geschriebene Teile</li>
+                            </ul>
+                            <p><strong>Beispiele:</strong></p>
+                            <ul>
+                                <li>Lehrvertrag (Art. 344a OR)</li>
+                                <li>Bürgschaftsvertrag (Art. 493 OR)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="concept-box">
+                            <div class="concept-box-title">3. Öffentliche Beurkundung</div>
+                            <p>Dies ist die strengste Form. Der Vertrag wird unter Mitwirkung einer staatlich anerkannten <span class="highlight">Urkundsperson (Notar)</span> aufgesetzt und beurkundet.</p>
+                            <p><strong>Beispiele:</strong></p>
+                            <ul>
+                                <li>Grundstückkaufvertrag (Art. 216 OR)</li>
+                                <li>Ehe- und Erbverträge (ZGB)</li>
+                                <li>Gründung einer AG oder GmbH</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown1">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                        <span>Kompetenz-Check: Grundsatz und Ausnahmen</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Was besagt der Grundsatz der Formfreiheit gemäss Art. 11 OR?</div>
+                        <div class="answer">Er besagt, dass Verträge grundsätzlich ohne eine bestimmte Form (also auch mündlich oder stillschweigend) gültig abgeschlossen werden können, sofern das Gesetz nicht ausnahmsweise eine Form vorschreibt.</div>
+                        
+                        <div class="question">2. Nennen Sie die drei Arten von gesetzlichen Formvorschriften.</div>
+                        <div class="answer">Einfache Schriftlichkeit, qualifizierte Schriftlichkeit und öffentliche Beurkundung.</div>
+                        
+                        <div class="question">3. Erklären Sie mit eigenen Worten, warum das Gesetz für bestimmte Verträge eine spezielle Form vorschreibt. Welche zwei Hauptzwecke werden damit verfolgt?</div>
+                        <div class="answer">Das Gesetz will die Vertragsparteien vor übereilten Entscheidungen schützen (Warnfunktion) und für Rechtssicherheit sorgen, indem der Vertragsinhalt klar festgehalten wird (Beweisfunktion).</div>
+                        <div class="question">4. Beschreiben Sie den Unterschied zwischen der einfachen und der qualifizierten Schriftlichkeit anhand der Beispiele 'Konkurrenzverbot' und 'Lehrvertrag'.</div>
+                        <div class="answer">Beim Konkurrenzverbot genügt die einfache Schriftlichkeit (schriftlicher Vertrag mit Unterschrift). Beim Lehrvertrag verlangt die qualifizierte Schriftlichkeit zusätzlich zwingende Inhaltsangaben, die im Gesetz vorgeschrieben sind (z.B. Art und Dauer der Lehre, Lohn, Ferien).</div>
+                        <div class="question">5. Ein Kunde kauft bei Ihnen eine gebrauchte Baumaschine im Wert von CHF 40'000.- per Handschlag. Ist dieser Kaufvertrag gültig? Begründen Sie Ihre Antwort.</div>
+                        <div class="answer">Ja, der Vertrag ist gültig. Der Kauf einer beweglichen Sache (Fahrniskauf) unterliegt dem Grundsatz der Formfreiheit. Ein mündlicher Vertrag per Handschlag ist daher ausreichend.</div>
+                        <div class="question">6. Sie möchten einem Mitarbeiter eine Forderung über CHF 5'000.- abtreten. Ist dies mündlich möglich? Begründen Sie Ihre Antwort.</div>
+                        <div class="answer">Nein, das ist nicht möglich. Für die Abtretung einer Forderung (Zession) schreibt das Gesetz die einfache Schriftlichkeit vor (Art. 165 Abs. 1 OR). Eine mündliche Abtretung wäre ungültig.</div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3. Nichtigkeit bei Formmangel -->
+            <div class="section">
+                <h2 class="section-title">Rechtsfolge bei Formmangel: Nichtigkeit (Art. 11 Abs. 2 OR)</h2>
+                <div class="subsection">
+                    <div class="concept-box" style="background-color: #fadbd8; border-color: var(--accent-color);">
+                        <div class="concept-box-title" style="color: var(--accent-color);">Definition: Nichtigkeit</div>
+                        <p>Wird eine gesetzlich vorgeschriebene Form nicht eingehalten, ist der Vertrag von Anfang an <span class="highlight">ungültig</span>, also <strong>nichtig</strong>. Das bedeutet:</p>
+                        <ul>
+                            <li>Der Vertrag hat <strong>nie rechtliche Wirkungen</strong> entfaltet.</li>
+                            <li>Es ist so, als hätte der Vertrag <strong>nie existiert</strong>.</li>
+                            <li>Bereits erbrachte Leistungen (z.B. eine Anzahlung) können zurückgefordert werden.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown" id="dropdown2">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                        <span>Kompetenz-Check: Folgen von Formmängeln</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Was ist die rechtliche Folge, wenn eine gesetzlich vorgeschriebene Form für einen Vertrag nicht eingehalten wird?</div>
+                        <div class="answer">Der Vertrag ist von Anfang an ungültig, also nichtig (Art. 11 Abs. 2 OR).</div>
+                        
+                        <div class="question">2. Was bedeutet der Begriff 'nichtig' im rechtlichen Kontext?</div>
+                        <div class="answer">'Nichtig' bedeutet, dass der Vertrag keine rechtlichen Wirkungen entfaltet und so behandelt wird, als wäre er nie abgeschlossen worden.</div>
+                        
+                        <div class="question">3. Erklären Sie am Beispiel des Bauern, der sein Land per Handschlag verkauft, was die Nichtigkeit des Vertrags für beide Parteien konkret bedeutet.</div>
+                        <div class="answer">Da ein Grundstückkauf öffentlich beurkundet werden muss, ist der Vertrag per Handschlag nichtig. Der Bauer ist rechtlich gesehen immer noch Eigentümer des Landes. Der Käufer kann den bereits bezahlten Kaufpreis zurückfordern, hat aber keinen Anspruch auf die Übertragung des Landes.</div>
+                        <div class="question">4. Vergleichen Sie die Rechtsfolge der 'Nichtigkeit' (bei Formmängeln) mit der 'Unverbindlichkeit' (bei Willensmängeln). Worin liegt der wesentliche Unterschied?</div>
+                        <div class="answer">Ein nichtiger Vertrag ist von Anfang an und automatisch ungültig. Ein unverbindlicher (anfechtbarer) Vertrag ist zunächst gültig, kann aber von der betroffenen Partei innerhalb einer Frist (meist ein Jahr) angefochten und für ungültig erklärt werden. Wird er nicht angefochten, bleibt er gültig.</div>
+                        <div class="question">5. Ein Mitarbeiter vereinbart mit Ihnen mündlich, dass er nach Austritt aus Ihrer Firma für zwei Jahre keine konkurrenzierende Tätigkeit aufnehmen wird. Ist diese Abmachung rechtlich durchsetzbar? Begründen Sie Ihre Antwort.</div>
+                        <div class="answer">Nein, diese Abmachung ist nicht durchsetzbar. Ein Konkurrenzverbot im Arbeitsrecht erfordert die einfache Schriftlichkeit (Art. 340 Abs. 1 OR). Da diese Form nicht eingehalten wurde, ist die Vereinbarung nichtig.</div>
+                        <div class="question">6. Sie bürgen mündlich für einen Kredit Ihres besten Mitarbeiters über CHF 5'000.-. Später fordert die Bank das Geld von Ihnen. Müssen Sie bezahlen? Begründen Sie Ihre Antwort.</div>
+                        <div class="answer">Nein, Sie müssen nicht bezahlen. Ein Bürgschaftsvertrag erfordert mindestens die qualifizierte Schriftlichkeit (bei Beträgen über CHF 2'000 sogar die öffentliche Beurkundung). Eine mündliche Bürgschaft ist formungültig und somit nichtig.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
