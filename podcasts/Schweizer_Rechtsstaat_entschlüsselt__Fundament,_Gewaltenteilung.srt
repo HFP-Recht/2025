@@ -1,0 +1,1587 @@
+1
+00:00:00,060 --> 00:00:02,600
+Willkommen bei das Recht anders erzählt.
+
+2
+00:00:03,700 --> 00:00:06,420
+Heute tauchen wir mal richtig tief ein.
+
+3
+00:00:07,060 --> 00:00:10,260
+Ins Fundament des Schweizerischen Rechtssystems.
+
+4
+00:00:10,740 --> 00:00:11,580
+Wir wollen verstehen,
+
+5
+00:00:12,340 --> 00:00:14,100
+was sind denn so die Grundfeiler,
+
+6
+00:00:15,020 --> 00:00:17,120
+die unser Zusammenleben hier prägen?
+
+7
+00:00:17,760 --> 00:00:20,330
+Und wie sind die unzähligen Regeln geordnet?
+
+8
+00:00:20,840 --> 00:00:21,800
+Unser Ziel heute,
+
+9
+00:00:22,440 --> 00:00:24,560
+ihnen eine klare Skitze,
+
+10
+00:00:24,860 --> 00:00:26,260
+dieser Grundstruktur zu geben.
+
+11
+00:00:26,840 --> 00:00:29,240
+Man hört oft Begriffe wie Rechtsstaat,
+
+12
+00:00:29,840 --> 00:00:30,760
+Gewaltenteilung,
+
+13
+00:00:31,220 --> 00:00:31,800
+Föderalismus.
+
+14
+00:00:32,480 --> 00:00:35,280
+Aber was heißt das jetzt ganz konkret bei uns in der Schweiz?
+
+15
+00:00:36,140 --> 00:00:38,390
+Und wie hängt das alles zusammen mit Verfassung,
+
+16
+00:00:38,800 --> 00:00:39,000
+Gesetz,
+
+17
+00:00:39,440 --> 00:00:39,720
+Verordnung?
+
+18
+00:00:40,600 --> 00:00:43,620
+Wir geben ihnen sozusagen ein Kompass an die Hand.
+
+19
+00:00:44,020 --> 00:00:44,360
+Absolut.
+
+20
+00:00:44,840 --> 00:00:48,960
+Man kann sich das vielleicht wie den Bauplan für ein Haus vorstellen.
+
+21
+00:00:49,720 --> 00:00:51,760
+Jedes Haus braucht ja ein stabiles Fundament,
+
+22
+00:00:52,260 --> 00:00:53,080
+eine klare Struktur,
+
+23
+00:00:53,800 --> 00:00:55,680
+sonst funktioniert es nicht, ist nicht sicher.
+
+24
+00:00:56,520 --> 00:00:58,100
+Und wo das schauen wir uns heute für die Schweiz an.
+
+25
+00:00:58,640 --> 00:00:59,160
+Das Gerüst,
+
+26
+00:00:59,380 --> 00:01:00,980
+das unser staatliches Handeln,
+
+27
+00:01:01,260 --> 00:01:02,360
+unser Miteinander ordnet.
+
+28
+00:01:02,700 --> 00:01:03,580
+Es geht nicht nur darum,
+
+29
+00:01:03,680 --> 00:01:04,580
+was geregelt ist,
+
+30
+00:01:04,760 --> 00:01:05,480
+sondern eben auch,
+
+31
+00:01:05,860 --> 00:01:06,500
+warum es so ist.
+
+32
+00:01:07,020 --> 00:01:08,320
+Welche Ideen stecken dahinter?
+
+33
+00:01:08,860 --> 00:01:11,040
+Okay, fangen wir mal mit dem großen Ganzen an.
+
+34
+00:01:11,420 --> 00:01:12,880
+Ein Begriff, der da immer fällt,
+
+35
+00:01:13,420 --> 00:01:13,920
+Rechtsstaat.
+
+36
+00:01:14,780 --> 00:01:15,740
+Klingt ja erst mal gut,
+
+37
+00:01:16,100 --> 00:01:18,610
+aber was genau macht die Schweiz zu einem Rechtsstaat?
+
+38
+00:01:19,200 --> 00:01:20,640
+Was bedeutet das für sie im Alltag?
+
+39
+00:01:21,040 --> 00:01:23,400
+Also der Kern des Rechtsstaats ist eigentlich eine,
+
+40
+00:01:23,400 --> 00:01:24,780
+ja,
+
+41
+00:01:25,040 --> 00:01:25,440
+einfache,
+
+42
+00:01:25,700 --> 00:01:26,270
+aber unglaubliche,
+
+43
+00:01:26,960 --> 00:01:27,480
+wichtige Idee.
+
+44
+00:01:28,300 --> 00:01:31,380
+Nicht Wilkür soll herrschen, sondern das Recht.
+
+45
+00:01:32,740 --> 00:01:33,940
+Das ist der entscheidende Punkt.
+
+46
+00:01:34,700 --> 00:01:34,980
+Und ganz
+
+47
+00:01:35,260 --> 00:01:36,950
+zentral dafür ist das Legalitätsprinzip.
+
+48
+00:01:38,280 --> 00:01:42,130
+Findet man in Artikel 5 Absatz 1 der Bundesverfassung.
+
+49
+00:01:43,080 --> 00:01:44,320
+Das besagt im Grunde,
+
+50
+00:01:44,500 --> 00:01:45,100
+alles,
+
+51
+00:01:45,240 --> 00:01:46,080
+was der Staat tut,
+
+52
+00:01:46,380 --> 00:01:48,120
+braucht eine Grundlage im Gesetz.
+
+53
+00:01:49,320 --> 00:01:49,980
+Eine Behörde darf
+
+54
+00:01:50,160 --> 00:01:51,300
+nicht einfach so handeln,
+
+55
+00:01:51,640 --> 00:01:52,400
+nach Lust und Laune,
+
+56
+00:01:52,640 --> 00:01:53,120
+sondern nur,
+
+57
+00:01:53,740 --> 00:01:55,800
+wenn und wie es das Recht erlaubt.
+
+58
+00:01:56,780 --> 00:01:59,760
+Das ist quasi ihr Schutzchild gegen unberechenbare Eingriffe.
+
+59
+00:02:00,580 --> 00:02:01,000
+Verstehe.
+
+60
+00:02:01,900 --> 00:02:04,520
+Der Staat muss sich also selbst an die Spielregeln halten,
+
+61
+00:02:04,680 --> 00:02:05,110
+die ja aufstellt.
+
+62
+00:02:05,660 --> 00:02:06,220
+Ganz genau.
+
+63
+00:02:06,600 --> 00:02:09,400
+Und das zweite große Element sind die Grundrechte.
+
+64
+00:02:10,320 --> 00:02:12,000
+Das sind diese fundamentalen Freiheiten,
+
+65
+00:02:12,640 --> 00:02:14,170
+die ihnen als Mensch zustehen.
+
+66
+00:02:15,060 --> 00:02:17,060
+Also Meinungsfreiheit,
+
+67
+00:02:17,180 --> 00:02:18,140
+Versammlungsfreiheit,
+
+68
+00:02:18,320 --> 00:02:19,350
+Schutz der Privatsphäre,
+
+69
+00:02:20,080 --> 00:02:21,920
+die Eigentumsgarantie, die Liste ist lang.
+
+70
+00:02:22,840 --> 00:02:24,460
+Der Staat musste nicht nur achten,
+
+71
+00:02:24,860 --> 00:02:26,040
+sondern aktiv schützen.
+
+72
+00:02:26,900 --> 00:02:29,650
+Und diese Kombination, Bindung angesetzt,
+
+73
+00:02:30,500 --> 00:02:32,440
+plus Garantie der Grundfreiheiten,
+
+74
+00:02:32,900 --> 00:02:34,530
+das ist das Herzstück des Rechtsstaats.
+
+75
+00:02:35,020 --> 00:02:37,380
+Schafft Berechenbarkeit, schützt ihre Freiheit.
+
+76
+00:02:38,020 --> 00:02:39,980
+Okay, das Fundament steht also.
+
+77
+00:02:40,820 --> 00:02:42,120
+Aber wer sorgt jetzt dafür,
+
+78
+00:02:42,260 --> 00:02:45,180
+dass dieses Recht gemacht und dann auch angewendet wird?
+
+79
+00:02:45,780 --> 00:02:47,820
+Das bringt uns wohl zur Gewaltenteilung, oder?
+
+80
+00:02:50,080 --> 00:02:51,920
+Aber eine Macht wäre in einer Hand.
+
+81
+00:02:52,440 --> 00:02:54,670
+Also bei einer Person oder einer Institution,
+
+82
+00:02:55,120 --> 00:02:56,960
+die Gefahr von Missbrauch wäre riesig.
+
+83
+00:02:57,480 --> 00:02:59,660
+Deshalb teilt man die Staatsmacht bewusst auf.
+
+84
+00:03:00,280 --> 00:03:01,340
+Das ist diese klassische,
+
+85
+00:03:01,480 --> 00:03:03,080
+horizontale Gewaltenteilung.
+
+86
+00:03:03,340 --> 00:03:03,820
+Ein Prinzip,
+
+87
+00:03:03,980 --> 00:03:05,900
+das man ja in vielen Demokratien findet.
+
+88
+00:03:06,460 --> 00:03:08,760
+Wir unterscheiden drei unabhängige Gewalten,
+
+89
+00:03:09,200 --> 00:03:11,240
+die sich gegenseitig im Schach halten sollen.
+
+90
+00:03:11,760 --> 00:03:14,200
+Dieses berühmte System der Checks and Balance ist.
+
+91
+00:03:15,000 --> 00:03:16,360
+Da ist zuerst die Legislative,
+
+92
+00:03:16,900 --> 00:03:18,320
+also die Gesetzgebende Gewalt.
+
+93
+00:03:19,000 --> 00:03:19,940
+Bei uns auf Bundesebene
+
+94
+00:03:20,080 --> 00:03:20,880
+ist das die Bundesversammlung,
+
+95
+00:03:21,640 --> 00:03:22,580
+also national und ständerat,
+
+96
+00:03:23,580 --> 00:03:24,500
+die machen die Gesetze.
+
+97
+00:03:26,060 --> 00:03:28,860
+Dann die Exekutive, die ausführende Gewalt.
+
+98
+00:03:29,340 --> 00:03:31,660
+Das sind der Bundesrat und die ganze Verwaltung.
+
+99
+00:03:32,220 --> 00:03:33,420
+Die setzen die Gesetze um.
+
+100
+00:03:34,100 --> 00:03:34,510
+Und ganz wichtig,
+
+101
+00:03:34,880 --> 00:03:37,180
+erlassen auch die Detailregeln die Verordnungen.
+
+102
+00:03:37,500 --> 00:03:37,820
+Okay.
+
+103
+00:03:38,160 --> 00:03:40,240
+Und schließlich die Judikative,
+
+104
+00:03:40,900 --> 00:03:42,100
+die Rechtsprechende Gewalt,
+
+105
+00:03:42,600 --> 00:03:43,210
+also die Gerichte,
+
+106
+00:03:43,640 --> 00:03:45,080
+mit dem Bundesgericht ganz oben,
+
+107
+00:03:45,620 --> 00:03:48,020
+die entscheiden bei Streitigkeiten und kontrollieren,
+
+108
+00:03:48,240 --> 00:03:49,480
+ob sich alle ans Recht halten.
+
+109
+00:03:50,100 --> 00:03:51,200
+Auch Parlament und Regierung.
+
+110
+00:03:52,000 --> 00:03:53,980
+Die schauen sich also gegenseitig auf die Finger.
+
+111
+00:03:54,680 --> 00:03:55,360
+Klingt logisch,
+
+112
+00:03:55,560 --> 00:03:57,040
+um Macht zu bündeln,
+
+113
+00:03:57,540 --> 00:03:58,620
+zu verhindern.
+
+114
+00:03:59,160 --> 00:04:00,040
+Genau, zu verhindern.
+
+115
+00:04:00,860 --> 00:04:03,600
+Aber die Schweiz ist ja nicht nur Bergen.
+
+116
+00:04:04,060 --> 00:04:05,680
+Wir haben ja Kantone, Gemeinden.
+
+117
+00:04:06,500 --> 00:04:09,440
+Das klingt als Gerbistar noch eine andere Art der Machtteilung.
+
+118
+00:04:09,720 --> 00:04:11,380
+Das ist ein ganz entscheidender Punkt.
+
+119
+00:04:12,160 --> 00:04:13,220
+Und typisch Schweizerisch.
+
+120
+00:04:14,160 --> 00:04:18,140
+Neben der Horizontalenteilung gibt's die vertikale Gewaltenteilung.
+
+121
+00:04:18,700 --> 00:04:19,780
+Und das ist bei uns dafür
+
+122
+00:04:19,860 --> 00:04:20,320
+der Rallismus.
+
+123
+00:04:21,260 --> 00:04:23,700
+Die staatlichen Aufgaben sind nicht nur auf
+
+124
+00:04:23,700 --> 00:04:26,440
+verschiedene Organe auf derselbe Ebene verteilt,
+
+125
+00:04:26,980 --> 00:04:28,850
+sondern eben auch auf verschiedene Ebenen.
+
+126
+00:04:29,780 --> 00:04:31,040
+Ganz oben steht der Bund.
+
+127
+00:04:31,840 --> 00:04:33,040
+Der ist nur für das zuständig,
+
+128
+00:04:33,660 --> 00:04:35,460
+was ihm die Verfassung ausdrücklich gibt.
+
+129
+00:04:36,120 --> 00:04:37,180
+Also Außenpolitik,
+
+130
+00:04:37,740 --> 00:04:38,020
+Armee,
+
+131
+00:04:38,580 --> 00:04:39,920
+Nationalstraßen solche Dinge.
+
+132
+00:04:41,080 --> 00:04:41,700
+Und hier gilt,
+
+133
+00:04:42,340 --> 00:04:44,400
+Bundesrecht, Brichtkantonales Recht.
+
+134
+00:04:45,020 --> 00:04:46,340
+Das hält den Laden zusammen sozusagen.
+
+135
+00:04:50,200 --> 00:04:50,700
+Da
+
+136
+00:04:51,300 --> 00:04:53,400
+runterkommen dann die 26 Kantone.
+
+137
+00:04:54,580 --> 00:04:55,560
+Die sind historisch gesehen,
+
+138
+00:04:55,740 --> 00:04:57,420
+die eigentlichen Staaten gewesen und
+
+139
+00:04:57,420 --> 00:04:59,340
+haben viel Eigenständigkeit bewahrt.
+
+140
+00:05:00,160 --> 00:05:01,120
+Die sind für alles zuständig,
+
+141
+00:05:01,220 --> 00:05:02,700
+was die Verfassung nicht dem Bund gibt.
+
+142
+00:05:03,660 --> 00:05:04,640
+Und das ist enorm viel.
+
+143
+00:05:05,420 --> 00:05:07,900
+Denken Sie ans Schulwesen, Spitaler, Polizei,
+
+144
+00:05:08,700 --> 00:05:09,100
+Baurecht.
+
+145
+00:05:09,900 --> 00:05:11,380
+Jeder Kanton hat eine eigene Verfassung,
+
+146
+00:05:11,760 --> 00:05:11,980
+Parlament,
+
+147
+00:05:12,580 --> 00:05:13,460
+Regierung, Gerichte.
+
+148
+00:05:14,220 --> 00:05:17,180
+Das sorgt für Vielfalt manchmal auch für Komplexität klar.
+
+149
+00:05:17,740 --> 00:05:18,940
+Und dann noch die Gemeinden?
+
+150
+00:05:19,840 --> 00:05:22,100
+Ja, das ist richtig. Über 2000 Gemeinden gibt es.
+
+151
+00:05:22,700 --> 00:05:23,500
+Das sind die Einheiten,
+
+152
+00:05:23,760 --> 00:05:25,000
+die am nächsten bei ihnen dran sind.
+
+153
+00:05:25,720 --> 00:05:26,930
+Die haben eine gewisse Autonomie,
+
+154
+00:05:27,500 --> 00:05:29,140
+meist durch Kantonales Recht geregelt
+
+155
+00:05:29,420 --> 00:05:30,900
+und kümmern sich um lokale Sachen.
+
+156
+00:05:31,420 --> 00:05:32,860
+Ortsplanung, Feuerwehr,
+
+157
+00:05:33,420 --> 00:05:34,740
+Kerichtabfuhr, Gemeinde-Straßen.
+
+158
+00:05:49,840 --> 00:05:52,140
+Gibt es dann Reihenfolge, was wichtiger ist?
+
+159
+00:05:52,560 --> 00:05:53,160
+Ja, die gibt es.
+
+160
+00:05:53,660 --> 00:05:54,580
+Absolut zentral.
+
+161
+00:05:55,240 --> 00:05:56,820
+Also erst mal die Rechtsquellen.
+
+162
+00:05:57,640 --> 00:05:58,680
+Wo finden wir das Recht?
+
+163
+00:05:59,680 --> 00:06:03,060
+Die wichtigste Quelle mit Abstand ist das geschriebene Recht.
+
+164
+00:06:03,680 --> 00:06:04,100
+Also alles,
+
+165
+00:06:04,100 --> 00:06:06,840
+was in Verfassungen gesetzten Verordnungen steht.
+
+166
+00:06:08,020 --> 00:06:09,830
+daneben gibt es theoretisch noch Gewohnheitsrecht,
+
+167
+00:06:10,640 --> 00:06:11,160
+also alte,
+
+168
+00:06:11,360 --> 00:06:13,920
+ungeschriebene Regeln und Richterrecht,
+
+169
+00:06:14,140 --> 00:06:15,840
+wenn Gerichte gesetzes Lücken füllen.
+
+170
+00:06:16,480 --> 00:06:18,340
+Spielen heute aber eine viel kleinerere Rolle.
+
+171
+00:06:18,880 --> 00:06:19,420
+Okay,
+
+172
+00:06:20,140 --> 00:06:21,920
+also das geschriebene Recht ist entscheidend.
+
+173
+00:06:22,380 --> 00:06:22,640
+Genau.
+
+174
+00:06:23,060 --> 00:06:26,280
+Und dieses geschriebene Recht ist nicht einfach ein Haufen Papier,
+
+175
+00:06:26,800 --> 00:06:29,420
+sondern klar geordnet wie eine Pyramide.
+
+176
+00:06:30,040 --> 00:06:31,840
+Das nennen wir die Normen hier reichi.
+
+177
+00:06:32,520 --> 00:06:35,300
+Ganz oben an der Spitze steht die Verfassung.
+
+178
+00:06:35,980 --> 00:06:38,940
+Auf Bundesebene die Bundesverfassung kurz BV,
+
+179
+00:06:39,680 --> 00:06:40,450
+das ist das Grundgesetz.
+
+180
+00:06:41,700 --> 00:06:43,520
+Da stehen die wichtigsten Spielregeln drin.
+
+181
+00:06:44,080 --> 00:06:44,660
+Grundrechte,
+
+182
+00:06:44,980 --> 00:06:45,640
+Staatsaufbau,
+
+183
+00:06:46,140 --> 00:06:46,660
+Zuständigkeiten,
+
+184
+00:06:47,120 --> 00:06:47,600
+politische Richte.
+
+185
+00:06:48,880 --> 00:06:51,460
+So fundamentales kann man sie auch nicht einfach so ändern.
+
+186
+00:06:52,060 --> 00:06:53,760
+Man braucht Volksmehr und Stände mehr.
+
+187
+00:06:54,520 --> 00:06:56,220
+Das ist das obligatorische Referendum.
+
+188
+00:06:56,980 --> 00:06:59,980
+Das heißt, Volk und Kantone müssen ja sagen.
+
+189
+00:07:00,160 --> 00:07:00,340
+Richtig.
+
+190
+00:07:01,240 --> 00:07:02,900
+Eine Stufe drunter stehen die Gesetze.
+
+191
+00:07:03,460 --> 00:07:06,140
+Auf Bundesebene die Bundesgesetze wie das ZGB,
+
+192
+00:07:06,520 --> 00:07:06,660
+OR,
+
+193
+00:07:07,260 --> 00:07:07,680
+Strafgesetzbuch.
+
+194
+00:07:08,480 --> 00:07:11,220
+Die konkretisieren die ehe allgemeinen Verfassungsartikel.
+
+195
+00:07:11,980 --> 00:07:13,200
+Beschlossen werden sie vom Parlament.
+
+196
+00:07:14,020 --> 00:07:16,120
+Und hier haben sie als Bürger ein wichtiges Werkzeug,
+
+197
+00:07:16,580 --> 00:07:17,920
+das fakultative Referendum.
+
+198
+00:07:21,410 --> 00:07:22,980
+Das heißt,
+
+199
+00:07:23,800 --> 00:07:25,940
+man kann ein Gesetz zur Abstimmung bringen.
+
+200
+00:07:26,300 --> 00:07:26,500
+Genau.
+
+201
+00:07:26,900 --> 00:07:28,040
+Wenn genug Leute das wollen.
+
+202
+00:07:28,860 --> 00:07:30,980
+Und auf der untersten Stufe finden wir die Verordnungen.
+
+203
+00:07:31,520 --> 00:07:32,320
+Das sind die Detailregelungen,
+
+204
+00:07:32,920 --> 00:07:34,460
+die es braucht um Gesetze umzusetzen.
+
+205
+00:07:34,880 --> 00:07:36,140
+Die erlässt meist die Regierung,
+
+206
+00:07:36,420 --> 00:07:37,840
+der Bundesrat oder ein Departament.
+
+207
+00:07:38,600 --> 00:07:39,220
+Ganz wichtig hier.
+
+208
+00:07:39,680 --> 00:07:42,260
+Eine Verordnung braucht immer eine Grundlage in einem Gesetz.
+
+209
+00:07:42,800 --> 00:07:44,720
+Sie darf nicht direkt auf die Verfassung gestützt
+
+210
+00:07:44,720 --> 00:07:46,550
+sein und erst recht nicht im Gesetz widersprechen.
+
+211
+00:07:47,140 --> 00:07:48,630
+Und hier gibt es normalerweise kein Referendum.
+
+212
+00:07:48,880 --> 00:07:48,980
+Ah,
+
+213
+00:07:49,680 --> 00:07:52,300
+okay. Das entscheidende Prinzip dieser Pyramide ist.
+
+214
+00:07:52,880 --> 00:07:54,840
+Höherrangiges Recht geht immer vor.
+
+215
+00:07:55,720 --> 00:07:56,780
+Gesetz schlägt Verordnung,
+
+216
+00:07:57,360 --> 00:07:58,240
+Verfassung schlägt Gesetz.
+
+217
+00:07:59,040 --> 00:07:59,660
+Das sorgt für Ordnung.
+
+218
+00:08:00,500 --> 00:08:02,660
+Und es zeigt auch was über die demokratische Legitimation.
+
+219
+00:08:03,640 --> 00:08:04,640
+Je wichtiger die Regel,
+
+220
+00:08:04,960 --> 00:08:05,890
+je höher in der Pyramide,
+
+221
+00:08:06,400 --> 00:08:08,220
+desto direkter können sie in der Regel mitreden.
+
+222
+00:08:09,420 --> 00:08:11,300
+Das ist jetzt viel Theorie gewesen,
+
+223
+00:08:11,520 --> 00:08:14,580
+aber es zeichnet doch ein klare Bild dieser Struktur.
+
+224
+00:08:15,580 --> 00:08:17,780
+Damit wir uns das noch besser vorstellen können,
+
+225
+00:08:18,160 --> 00:08:18,780
+schauen wir doch mal
+
+226
+00:08:18,880 --> 00:08:20,050
+wie das im Alltag aussieht.
+
+227
+00:08:20,660 --> 00:08:22,040
+Wir haben drei Fälle vorbereitet.
+
+228
+00:08:22,860 --> 00:08:23,420
+Fall Nummer eins.
+
+229
+00:08:24,080 --> 00:08:26,020
+Normenche Rarchie und Föderalismus.
+
+230
+00:08:27,240 --> 00:08:27,920
+Stellen Sie sich vor.
+
+231
+00:08:28,440 --> 00:08:30,530
+Der Bund erleicht ein neues Umweltschutzgesetz.
+
+232
+00:08:31,400 --> 00:08:33,440
+Klare Mindestgrenzwerte für Fabriken,
+
+233
+00:08:33,940 --> 00:08:34,500
+Schweizweit.
+
+234
+00:08:35,340 --> 00:08:37,200
+Jetzt will aber ein Kanton mit viel
+
+235
+00:08:37,200 --> 00:08:40,220
+Industrie diese Grenzwerte näher lockern.
+
+236
+00:08:40,700 --> 00:08:42,120
+Mit einem Kantonalen Gesetz.
+
+237
+00:08:42,760 --> 00:08:43,080
+Argument,
+
+238
+00:08:43,740 --> 00:08:44,460
+Wirtschaftschützen,
+
+239
+00:08:45,040 --> 00:08:45,420
+Arbeitsplätze.
+
+240
+00:08:46,180 --> 00:08:46,460
+Dett das.
+
+241
+00:08:49,200 --> 00:08:50,580
+Und die Antwort ist ein klare Stein.
+
+242
+00:08:51,340 --> 00:08:52,740
+Hier greift eben dieser Grundsatz.
+
+243
+00:08:53,160 --> 00:08:54,880
+Bundesrecht, Brichtkantonalesrecht.
+
+244
+00:08:55,760 --> 00:08:57,960
+Wenn der Bund zuständig ist und Umweltschutz
+
+245
+00:08:57,960 --> 00:09:00,340
+ist er und Mindeststandard Sest legt,
+
+246
+00:09:00,900 --> 00:09:02,800
+dann gelten die für alle Kantone Punkt.
+
+247
+00:09:03,520 --> 00:09:05,900
+Die Kantone können also nicht einfach weniger machen.
+
+248
+00:09:06,280 --> 00:09:06,500
+Genau.
+
+249
+00:09:07,140 --> 00:09:09,120
+Sie dürften aber oft strengere Regeln machen,
+
+250
+00:09:09,400 --> 00:09:10,060
+wenn sie das wollen.
+
+251
+00:09:10,280 --> 00:09:11,780
+Also die Umwelt noch besser schützen.
+
+252
+00:09:12,500 --> 00:09:14,030
+Es sei denn der Bund sagt explizit,
+
+253
+00:09:14,760 --> 00:09:14,920
+nein,
+
+254
+00:09:15,220 --> 00:09:16,780
+es soll überall genau gleich sein.
+
+255
+00:09:17,400 --> 00:09:18,720
+Aber weniger streng geht nicht.
+
+256
+00:09:19,320 --> 00:09:21,180
+Die Kantonelle Regel wäre ungültig,
+
+257
+00:09:21,340 --> 00:09:22,760
+soweit sie den Bundesgesetz widerspricht.
+
+258
+00:09:23,700 --> 00:09:25,420
+Das sichert halt eine gewisse Einheitlichkeit.
+
+259
+00:09:26,140 --> 00:09:26,480
+Verstanden.
+
+260
+00:09:27,190 --> 00:09:28,140
+Mindestrahmen vom Bund.
+
+261
+00:09:28,760 --> 00:09:29,180
+Fall zwei.
+
+262
+00:09:29,640 --> 00:09:31,680
+Der geht es um Gewaltenteilung und Rechtsstaat.
+
+263
+00:09:32,640 --> 00:09:33,440
+Nehmen wir mal an.
+
+264
+00:09:34,000 --> 00:09:34,680
+Der Bundesrat,
+
+265
+00:09:35,000 --> 00:09:36,460
+also die Exikutive,
+
+266
+00:09:36,960 --> 00:09:39,000
+erlässt eine Verordnung zur Telefonüberwachung.
+
+267
+00:09:39,700 --> 00:09:40,200
+Ziemlich umfassend.
+
+268
+00:09:40,960 --> 00:09:41,540
+Begründung.
+
+269
+00:09:41,920 --> 00:09:42,580
+Nationale Sicherheit.
+
+270
+00:09:43,820 --> 00:09:44,300
+Das Problem.
+
+271
+00:09:45,140 --> 00:09:47,220
+Das Gesetz auf das sich der Bundesrat stürzt,
+
+272
+00:09:47,540 --> 00:09:48,500
+ist da sehr Waage.
+
+273
+00:09:48,880 --> 00:09:50,180
+Oder sagt gar nichts dazu.
+
+274
+00:09:50,960 --> 00:09:53,060
+Die Verordnung geht also viel weiter als das,
+
+275
+00:09:53,120 --> 00:09:55,100
+was das Parlament eigentlich beschlossen hat.
+
+276
+00:09:55,600 --> 00:09:56,240
+Was passiert dann?
+
+277
+00:09:56,820 --> 00:09:56,960
+Ja,
+
+278
+00:09:57,020 --> 00:09:59,300
+hier sieht man diese Checks in Balance am Werk.
+
+279
+00:09:59,920 --> 00:10:02,400
+Vor allem die Kontrolle der Exikutive durch die Gerichte,
+
+280
+00:10:02,700 --> 00:10:03,060
+die Judikative.
+
+281
+00:10:04,160 --> 00:10:05,720
+Das Legalitätsprinzip sagt ja,
+
+282
+00:10:05,960 --> 00:10:08,940
+auch Verordnungen brauchen eine klare gesetzliche Grundlage.
+
+283
+00:10:09,700 --> 00:10:11,140
+Sie dürfen das Gesetz umsetzen,
+
+284
+00:10:11,480 --> 00:10:13,100
+aber nicht erweitern oder ihm widersprechen.
+
+285
+00:10:13,980 --> 00:10:16,240
+Und jetzt kommt was interessantes im Schweizer System.
+
+286
+00:10:16,660 --> 00:10:18,400
+Das Bundesgericht kann Bundesgesetze
+
+287
+00:10:18,960 --> 00:10:21,360
+nur sehr beschränkt auf Verfassungsmäßigkeit prüfen.
+
+288
+00:10:21,780 --> 00:10:23,760
+Ach so! Ja, das ist eine Besonderheit.
+
+289
+00:10:24,760 --> 00:10:27,140
+Aber bei Verordnungen ist das anders.
+
+290
+00:10:27,960 --> 00:10:30,940
+Wenn eine Verordnung klar über das Gesetz hinausgeht,
+
+291
+00:10:31,580 --> 00:10:35,040
+oder Grundrechte verletzt ohne ausreichende Basis im Gesetz,
+
+292
+00:10:35,680 --> 00:10:37,280
+dann können Gerichte einschreiten.
+
+293
+00:10:38,340 --> 00:10:39,280
+Im konkreten Fall,
+
+294
+00:10:39,800 --> 00:10:42,000
+wenn also jemand betroffen wäre und klagt,
+
+295
+00:10:42,460 --> 00:10:43,580
+könnten die Gerichte sagen,
+
+296
+00:10:44,120 --> 00:10:46,120
+diese Verordnung oder zumindest die
+
+297
+00:10:46,120 --> 00:10:48,680
+problematischen Teile wenden wir nicht an.
+
+298
+00:10:49,600 --> 00:10:52,580
+Weil sie eben Gesetzes oder Verfassungswidrig ist.
+
+299
+00:10:53,380 --> 00:10:55,120
+Das ist ein wichtiges Korrektiv,
+
+300
+00:10:55,520 --> 00:10:56,500
+damit die Regierung nicht
+
+301
+00:10:56,500 --> 00:10:57,720
+am Parlament vorbei regiert.
+
+302
+00:10:58,180 --> 00:10:58,560
+Sehr spannend!
+
+303
+00:10:59,100 --> 00:11:01,520
+Die Gerichte als Hüter der Gesetze gerade bei Verordnungen?
+
+304
+00:11:02,820 --> 00:11:04,380
+Gut, dann zum dritten Fall.
+
+305
+00:11:05,180 --> 00:11:06,920
+Der führt uns noch mal durch die Ebenen.
+
+306
+00:11:07,380 --> 00:11:11,360
+Eine Gemeinde möchte das Betteln auf ihrem ganzen Gebiet verbieten.
+
+307
+00:11:12,020 --> 00:11:14,560
+Gründe, öffentliche Ordnung, Image.
+
+308
+00:11:15,340 --> 00:11:15,460
+Im
+
+309
+00:11:15,610 --> 00:11:17,840
+Kantonalen Recht steht nichts Spezielles dazu.
+
+310
+00:11:18,920 --> 00:11:20,800
+Aber in der Bundesverfassung gibt es
+
+311
+00:11:20,800 --> 00:11:22,490
+ja Grundrechte wie Meinungsfreiheit,
+
+312
+00:11:23,160 --> 00:11:24,180
+vielleicht auch Wirtschaftsfreiheit,
+
+313
+00:11:25,180 --> 00:11:27,060
+die eventuell das Betteln schützen könnten.
+
+314
+00:11:27,920 --> 00:11:29,370
+Kann die Gemeinde so ein generelles
+
+315
+00:11:29,620 --> 00:11:30,480
+Verbot einfach beschließen?
+
+316
+00:11:31,200 --> 00:11:32,660
+Der Fall ist komplex, stinkt.
+
+317
+00:11:33,260 --> 00:11:36,240
+Weil alle Ebenen, Gemeinde, Kanton, Bund und die
+
+318
+00:11:36,420 --> 00:11:37,540
+Normenäerach hier reinspielen.
+
+319
+00:11:38,280 --> 00:11:40,800
+Zuerst braucht die Gemeinde überhaupt die Kompetenz dafür.
+
+320
+00:11:41,660 --> 00:11:42,140
+Das steht im
+
+321
+00:11:42,240 --> 00:11:42,960
+Kantonalen Recht.
+
+322
+00:11:43,380 --> 00:11:44,740
+Stichwort Gemeindeautonomie.
+
+323
+00:11:45,500 --> 00:11:47,740
+Nehmen wir mal an, sie darf das grundsätzlich.
+
+324
+00:11:48,380 --> 00:11:49,260
+Aber selbst dann ist
+
+325
+00:11:49,260 --> 00:11:49,740
+sie nicht frei.
+
+326
+00:11:50,280 --> 00:11:53,700
+Jede Regel der Gemeinde muss nicht nur zum Kantonalen Recht passen,
+
+327
+00:11:54,080 --> 00:11:54,980
+sondern vor allem zum
+
+328
+00:11:55,240 --> 00:11:55,460
+Bundesrecht.
+
+329
+00:11:56,220 --> 00:11:57,960
+Dazu gehören die Grundrechte in der Bundesverfassung.
+
+330
+00:11:58,760 --> 00:11:59,640
+Und da wird es eben heikel.
+
+331
+00:12:00,180 --> 00:12:00,320
+Ein
+
+332
+00:12:00,500 --> 00:12:01,620
+generelles pauschales Battleverbot.
+
+333
+00:12:02,380 --> 00:12:03,180
+Das sehen Gerichte,
+
+334
+00:12:03,480 --> 00:12:05,250
+auch das Bundesgericht und sogar der Europäische
+
+335
+00:12:05,680 --> 00:12:08,480
+Gericht zur für Menschenrechte oft als unverhältnismäßig an.
+
+336
+00:12:08,900 --> 00:12:09,280
+Warum?
+
+337
+00:12:09,960 --> 00:12:11,540
+Weil es die Ärmsten trifft und nicht
+
+338
+00:12:11,560 --> 00:12:11,660
+unterscheidet,
+
+339
+00:12:12,180 --> 00:12:14,380
+auch jemand stillbettelt oder aggressiv auftritt.
+
+340
+00:12:14,800 --> 00:12:15,860
+Es ist zu indifferenziert.
+
+341
+00:12:16,860 --> 00:12:18,660
+Deshalb ist so ein pauschales Verbot sehr
+
+342
+00:12:18,660 --> 00:12:19,920
+wahrscheinlich Bundesverfassungsiedrig.
+
+343
+00:12:20,760 --> 00:12:23,400
+Es könnte also gerichtlich angefochten und aufgehoben werden,
+
+344
+00:12:23,600 --> 00:12:25,960
+auch wenn die Gemeinde es vom Melkorekt beschlossen hat.
+
+345
+00:12:26,760 --> 00:12:27,540
+Das zeigt schön,
+
+346
+00:12:28,160 --> 00:12:29,840
+auch die unterste Ebene muss sich immer
+
+347
+00:12:29,840 --> 00:12:31,500
+an die obersten Spielregeln halten.
+
+348
+00:12:32,140 --> 00:12:35,900
+Das waren wirklich drei sehr erhellende Beispiele.
+
+349
+00:12:36,440 --> 00:12:38,520
+Fassen wir die Kernpunkte für sie noch mal zusammen.
+
+350
+00:12:39,360 --> 00:12:41,040
+Das Fundament ist der Rechtsstaat.
+
+351
+00:12:41,560 --> 00:12:41,660
+Die Recht herrscht,
+
+352
+00:12:42,320 --> 00:12:42,980
+nicht Wilkür,
+
+353
+00:12:43,520 --> 00:12:46,240
+garantiert durch Legalitätsprinzip und Grundrechte.
+
+354
+00:12:47,340 --> 00:12:48,000
+Die Macht ist geteilt.
+
+355
+00:12:48,760 --> 00:12:50,260
+Horizontal zwischen Parlament,
+
+356
+00:12:50,820 --> 00:12:52,780
+Regierung und Gerichten, die kontrollieren sich.
+
+357
+00:12:52,920 --> 00:12:55,480
+Und vertikal im Fördererismus.
+
+358
+00:12:56,200 --> 00:12:56,420
+Wund,
+
+359
+00:12:56,720 --> 00:12:57,080
+Kantone,
+
+360
+00:12:57,440 --> 00:12:59,160
+Gemeinden teilen sich die Aufgaben.
+
+361
+00:12:59,700 --> 00:13:02,060
+Jede Ebene hat ihre Zuständigkeiten aber
+
+362
+00:13:02,060 --> 00:13:04,520
+immer im Rahmen des übergeordneten Rechts.
+
+363
+00:13:04,760 --> 00:13:04,980
+Genau.
+
+364
+00:13:05,600 --> 00:13:06,520
+Und die Regeln selbst,
+
+365
+00:13:06,660 --> 00:13:07,480
+die Rechtsquellen,
+
+366
+00:13:07,940 --> 00:13:08,760
+sind klar hierarchisch.
+
+367
+00:13:12,500 --> 00:13:13,560
+Hörrangiges geht vor.
+
+368
+00:13:14,000 --> 00:13:14,300
+Exakt.
+
+369
+00:13:14,960 --> 00:13:17,760
+Dieses fein austarierte System aus Kontrolle,
+
+370
+00:13:18,240 --> 00:13:18,800
+Machtteilung,
+
+371
+00:13:19,240 --> 00:13:19,720
+Hierarchie.
+
+372
+00:13:20,380 --> 00:13:21,520
+Das breckt die Schweiz sehr stark.
+
+373
+00:13:22,420 --> 00:13:24,780
+Es fördert Stabilität, Bürgernähe,
+
+374
+00:13:25,400 --> 00:13:26,540
+erlaubt regionale Lösungen.
+
+375
+00:13:27,660 --> 00:13:29,260
+Gleichzeitig muss man aber auch sagen.
+
+376
+00:13:29,980 --> 00:13:31,740
+Es kann Entscheidungen verlangsamen.
+
+377
+00:13:32,420 --> 00:13:34,420
+Diese Komplexität, die vielen Kontrollen,
+
+378
+00:13:35,400 --> 00:13:36,200
+die Kompromisssuche.
+
+379
+00:13:36,880 --> 00:13:37,620
+Das braucht Zeit.
+
+380
+00:13:38,340 --> 00:13:40,360
+Mehr als in zentralistischen Staaten vielleicht.
+
+381
+00:13:41,620 --> 00:13:44,400
+Es ist halt auf Ausgleich und Konsens ausgelegt.
+
+382
+00:13:44,980 --> 00:13:46,920
+Und das führt uns zu einer letzten Frage,
+
+383
+00:13:46,920 --> 00:13:49,980
+die wir Ihnen einfach mal mitgeben möchten zum Nachdenken.
+
+384
+00:13:50,780 --> 00:13:52,360
+Dieses vielschichtige System,
+
+385
+00:13:52,760 --> 00:13:54,440
+Kontrollengleichgewichte,
+
+386
+00:13:55,340 --> 00:13:58,200
+verteiltemacht auf Bund, Kantone, Gemeinden.
+
+387
+00:13:59,060 --> 00:14:02,340
+Wie beeinflusst das Ihrer Meinung nach die Fähigkeit der Schweiz,
+
+388
+00:14:02,940 --> 00:14:06,760
+schnell und effizient auf neue Herausforderungen zu reagieren?
+
+389
+00:14:07,560 --> 00:14:08,700
+Gibt es da einen Zielkonflikt?
+
+390
+00:14:09,720 --> 00:14:11,520
+Zwischen dieser demokratischen Gründlichen
+
+391
+00:14:11,560 --> 00:14:11,980
+oder die Möglichkeit,
+
+392
+00:14:12,140 --> 00:14:13,700
+dem Föderalismus einerseits
+
+393
+00:14:14,280 --> 00:14:16,580
+und der Notwendigkeit in einer sich schnell
+
+394
+00:14:16,580 --> 00:14:18,920
+wandelnden Welt doch handlungsfähig zu bleiben?
+
+395
+00:14:19,560 --> 00:14:20,440
+Wo liegt da der...
+
+396
+00:14:20,700 --> 00:14:23,180
+ja, der Sweet-Sport, der optimale Mittelweg?
+
+397
+00:14:24,080 --> 00:14:26,400
+Bis zum nächsten Fall bei Das Recht anders erzählt.

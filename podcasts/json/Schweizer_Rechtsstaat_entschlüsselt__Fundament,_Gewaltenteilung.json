@@ -1,0 +1,126 @@
+{
+  "source": "",
+  "mp3": "",
+  "entries": [
+    {
+      "concept": "Einführung",
+      "timestamp": "00:00.060",
+      "layout": "title",
+      "explanation": "Das Fundament des Schweizerischen Rechtssystems",
+      "slide_content": "Eine Einführung in Rechtsstaat, Gewaltenteilung und Föderalismus.",
+      "image_filename": "swiss_law_foundation.png"
+    },
+    {
+      "concept": "Der Bauplan des Staates",
+      "timestamp": "00:44.840",
+      "layout": "classic_bullet_point",
+      "explanation": "Warum eine klare rechtliche Struktur entscheidend ist",
+      "slide_content": "Title: Das Gerüst unseres Zusammenlebens\n- Wie ein Haus braucht auch ein Staat ein stabiles Fundament und eine klare Struktur.\n- Regeln ordnen das staatliche Handeln und das gesellschaftliche Miteinander.\n- Es geht nicht nur darum, *was* geregelt ist, sondern auch, *welche Ideen* dahinterstecken.",
+      "image_filename": "blueprint_switzerland.png"
+    },
+    {
+      "concept": "Der Rechtsstaat",
+      "timestamp": "01:11.420",
+      "layout": "classic_bullet_point",
+      "explanation": "Kernprinzip: Das Recht herrscht, nicht die Willkür.",
+      "slide_content": "Title: Was ist ein Rechtsstaat?\n- **Legalitätsprinzip:** Jedes staatliche Handeln braucht eine Grundlage im Gesetz (Art. 5 Abs. 1 BV).\n- **Grundrechte:** Fundamentale Freiheiten (z.B. Meinungsfreiheit), die der Staat aktiv schützen muss.\n- Diese Kombination schafft Berechenbarkeit und schützt die Freiheit.",
+      "image_filename": "scales_of_justice.png"
+    },
+    {
+      "concept": "Gewaltenteilung",
+      "timestamp": "02:45.780",
+      "layout": "only_text",
+      "explanation": "Horizontale Gewaltenteilung: Checks and Balances",
+      "slide_content": "Um Machtmissbrauch zu verhindern, wird die Staatsmacht auf drei unabhängige Gewalten aufgeteilt. Diese kontrollieren sich gegenseitig, was als \"Checks and Balances\" bezeichnet wird.",
+      "image_filename": ""
+    },
+    {
+      "concept": "Die drei Gewalten",
+      "timestamp": "03:15.000",
+      "layout": "classic_bullet_point",
+      "explanation": "Die drei Gewalten im Schweizer System",
+      "slide_content": "Title: Wer macht was?\n- **Legislative (Parlament):** Macht die Gesetze (Bundesversammlung).\n- **Exekutive (Regierung):** Führt Gesetze aus und erlässt Verordnungen (Bundesrat).\n- **Judikative (Gerichte):** Spricht Recht und kontrolliert die anderen Gewalten (Bundesgericht).",
+      "image_filename": "three_branches_of_government.png"
+    },
+    {
+      "concept": "Föderalismus",
+      "timestamp": "04:09.719",
+      "layout": "classic_bullet_point",
+      "explanation": "Vertikale Gewaltenteilung: Der Föderalismus",
+      "slide_content": "Title: Bund, Kantone und Gemeinden\n- **Bund:** Zuständig für das, was die Verfassung ihm ausdrücklich zuweist (z.B. Aussenpolitik, Armee).\n- **Kantone:** Zuständig für alles andere, mit grosser Eigenständigkeit (z.B. Schulwesen, Polizei).\n- **Gemeinden:** Kümmern sich um lokale Aufgaben (z.B. Ortsplanung, Feuerwehr).",
+      "image_filename": "switzerland_federalism.png"
+    },
+    {
+      "concept": "Hierarchie der Rechtsquellen",
+      "timestamp": "05:52.560",
+      "layout": "only_image",
+      "explanation": "",
+      "slide_content": "",
+      "image_filename": "pyramid_of_law.png"
+    },
+    {
+      "concept": "Die Normenpyramide",
+      "timestamp": "06:23.060",
+      "layout": "classic_bullet_point",
+      "explanation": "Die hierarchische Ordnung des geschriebenen Rechts",
+      "slide_content": "Title: Von oben nach unten\n- **Verfassung (Spitze):** Das Grundgesetz. Änderung nur mit Volks- und Ständemehr.\n- **Gesetze (Mitte):** Konkretisieren die Verfassung. Unterliegen dem fakultativen Referendum.\n- **Verordnungen (Basis):** Detailregeln der Regierung. Benötigen immer eine Gesetzesgrundlage.",
+      "image_filename": "law_pyramid_details.png"
+    },
+    {
+      "concept": "Grundprinzip der Hierarchie",
+      "timestamp": "07:50.180",
+      "layout": "only_text",
+      "explanation": "Der Grundsatz: Höherrangiges Recht geht vor",
+      "slide_content": "Das entscheidende Prinzip der Pyramide lautet: Eine rangniedere Regel darf einer ranghöheren nicht widersprechen. Ein Gesetz darf nicht gegen die Verfassung verstossen. Dies sorgt für Ordnung und demokratische Legitimation, da die Mitbestimmung umso direkter ist, je höher eine Regel in der Pyramide steht.",
+      "image_filename": ""
+    },
+    {
+      "concept": "Fallbeispiel 1: Föderalismus",
+      "timestamp": "08:22.860",
+      "layout": "classic_bullet_point",
+      "explanation": "Fall 1: Bundesrecht bricht kantonales Recht",
+      "slide_content": "Title: Umweltschutzgesetz\n- **Szenario:** Der Bund erlässt Mindestgrenzwerte für Fabriken. Ein Kanton will diese lockern.\n- **Frage:** Geht das?\n- **Antwort:** Nein. Der Grundsatz \"Bundesrecht bricht kantonales Recht\" gilt. Kantone dürfen strengere, aber keine lockereren Regeln erlassen.",
+      "image_filename": "factory_environment.png"
+    },
+    {
+      "concept": "Fallbeispiel 2: Gewaltenteilung",
+      "timestamp": "09:29.639",
+      "layout": "classic_bullet_point",
+      "explanation": "Fall 2: Kontrolle der Exekutive durch die Justiz",
+      "slide_content": "Title: Verordnung zur Telefonüberwachung\n- **Szenario:** Der Bundesrat erlässt eine weitreichende Verordnung ohne klare Gesetzesgrundlage.\n- **Problem:** Verstoss gegen Legalitätsprinzip und Gewaltenteilung.\n- **Lösung:** Gerichte können die Anwendung solcher Verordnungen verweigern, da sie gesetzeswidrig sind.",
+      "image_filename": "surveillance_phone.png"
+    },
+    {
+      "concept": "Fallbeispiel 3: Grundrechte",
+      "timestamp": "11:05.179",
+      "layout": "classic_bullet_point",
+      "explanation": "Fall 3: Gemeindeautonomie vs. Grundrechte",
+      "slide_content": "Title: Generelles Bettelverbot\n- **Szenario:** Eine Gemeinde will das Betteln generell verbieten.\n- **Problem:** Ein pauschales Verbot kann übergeordnete Grundrechte der Bundesverfassung verletzen.\n- **Lösung:** Auch die Gemeinde muss sich an die Verfassung halten. Gerichte würden ein solches Verbot wahrscheinlich als unverhältnismässig aufheben.",
+      "image_filename": "begging_ban_sign.png"
+    },
+    {
+      "concept": "Zusammenfassung",
+      "timestamp": "12:36.440",
+      "layout": "classic_bullet_point",
+      "explanation": "Die Kernpunkte des Schweizer Rechtssystems",
+      "slide_content": "Title: Das Wichtigste im Überblick\n- **Rechtsstaat:** Legalitätsprinzip & Grundrechte als Fundament.\n- **Gewaltenteilung:** Horizontal (Parlament, Regierung, Gerichte) und vertikal (Bund, Kantone, Gemeinden).\n- **Normenhierarchie:** Klare Rangordnung (Verfassung > Gesetz > Verordnung).",
+      "image_filename": "summary_switzerland.png"
+    },
+    {
+      "concept": "Vor- und Nachteile",
+      "timestamp": "13:14.960",
+      "layout": "a_vs_b",
+      "explanation": "Das Schweizer System: Eine Abwägung",
+      "slide_content": "Vorteile\n- Fördert Stabilität und Bürgernähe\n- Erlaubt regionale Lösungen\n- Auf Ausgleich und Konsens ausgelegt\n---\nNachteile\n- Kann Entscheidungen verlangsamen\n- Führt zu hoher Komplexität\n- Zeitintensive Kompromisssuche",
+      "image_filename": ""
+    },
+    {
+      "concept": "Frage zum Nachdenken",
+      "timestamp": "13:44.980",
+      "layout": "only_text",
+      "explanation": "Eine Frage zum Mitnehmen",
+      "slide_content": "Wie beeinflusst das vielschichtige Schweizer System die Fähigkeit, schnell auf neue Herausforderungen zu reagieren? Wo liegt der optimale Mittelweg zwischen demokratischer Gründlichkeit und staatlicher Handlungsfähigkeit in einer sich schnell wandelnden Welt?",
+      "image_filename": "question_mark_gears.png"
+    }
+  ]
+}

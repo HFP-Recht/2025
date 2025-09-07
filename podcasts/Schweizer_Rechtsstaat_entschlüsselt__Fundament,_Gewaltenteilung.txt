@@ -1,0 +1,797 @@
+[00:00:00.060] -> Willkommen bei das Recht anders erzählt.
+
+[00:00:03.700] -> Heute tauchen wir mal richtig tief ein.
+
+[00:00:07.059] -> Ins Fundament des Schweizerischen Rechtssystems.
+
+[00:00:10.740] -> Wir wollen verstehen,
+
+[00:00:12.339] -> was sind denn so die Grundfeiler,
+
+[00:00:15.019] -> die unser Zusammenleben hier prägen?
+
+[00:00:17.760] -> Und wie sind die unzähligen Regeln geordnet?
+
+[00:00:20.839] -> Unser Ziel heute,
+
+[00:00:22.440] -> ihnen eine klare Skitze,
+
+[00:00:24.859] -> dieser Grundstruktur zu geben.
+
+[00:00:26.839] -> Man hört oft Begriffe wie Rechtsstaat,
+
+[00:00:29.839] -> Gewaltenteilung,
+
+[00:00:31.219] -> Föderalismus.
+
+[00:00:32.479] -> Aber was heißt das jetzt ganz konkret bei uns in der Schweiz?
+
+[00:00:36.140] -> Und wie hängt das alles zusammen mit Verfassung,
+
+[00:00:38.799] -> Gesetz,
+
+[00:00:39.439] -> Verordnung?
+
+[00:00:40.600] -> Wir geben ihnen sozusagen ein Kompass an die Hand.
+
+[00:00:44.020] -> Absolut.
+
+[00:00:44.840] -> Man kann sich das vielleicht wie den Bauplan für ein Haus vorstellen.
+
+[00:00:49.719] -> Jedes Haus braucht ja ein stabiles Fundament,
+
+[00:00:52.259] -> eine klare Struktur,
+
+[00:00:53.799] -> sonst funktioniert es nicht, ist nicht sicher.
+
+[00:00:56.520] -> Und wo das schauen wir uns heute für die Schweiz an.
+
+[00:00:58.640] -> Das Gerüst,
+
+[00:00:59.380] -> das unser staatliches Handeln,
+
+[00:01:01.259] -> unser Miteinander ordnet.
+
+[00:01:02.700] -> Es geht nicht nur darum,
+
+[00:01:03.679] -> was geregelt ist,
+
+[00:01:04.760] -> sondern eben auch,
+
+[00:01:05.859] -> warum es so ist.
+
+[00:01:07.019] -> Welche Ideen stecken dahinter?
+
+[00:01:08.859] -> Okay, fangen wir mal mit dem großen Ganzen an.
+
+[00:01:11.420] -> Ein Begriff, der da immer fällt,
+
+[00:01:13.420] -> Rechtsstaat.
+
+[00:01:14.780] -> Klingt ja erst mal gut,
+
+[00:01:16.099] -> aber was genau macht die Schweiz zu einem Rechtsstaat?
+
+[00:01:19.200] -> Was bedeutet das für sie im Alltag?
+
+[00:01:21.040] -> Also der Kern des Rechtsstaats ist eigentlich eine,
+
+[00:01:23.400] -> ja,
+
+[00:01:25.040] -> einfache,
+
+[00:01:25.700] -> aber unglaubliche,
+
+[00:01:26.959] -> wichtige Idee.
+
+[00:01:28.299] -> Nicht Wilkür soll herrschen, sondern das Recht.
+
+[00:01:32.739] -> Das ist der entscheidende Punkt.
+
+[00:01:34.700] -> Und ganz
+
+[00:01:35.260] -> zentral dafür ist das Legalitätsprinzip.
+
+[00:01:38.280] -> Findet man in Artikel 5 Absatz 1 der Bundesverfassung.
+
+[00:01:43.079] -> Das besagt im Grunde,
+
+[00:01:44.500] -> alles,
+
+[00:01:45.239] -> was der Staat tut,
+
+[00:01:46.379] -> braucht eine Grundlage im Gesetz.
+
+[00:01:49.319] -> Eine Behörde darf
+
+[00:01:50.159] -> nicht einfach so handeln,
+
+[00:01:51.640] -> nach Lust und Laune,
+
+[00:01:52.640] -> sondern nur,
+
+[00:01:53.739] -> wenn und wie es das Recht erlaubt.
+
+[00:01:56.780] -> Das ist quasi ihr Schutzchild gegen unberechenbare Eingriffe.
+
+[00:02:00.579] -> Verstehe.
+
+[00:02:01.900] -> Der Staat muss sich also selbst an die Spielregeln halten,
+
+[00:02:04.680] -> die ja aufstellt.
+
+[00:02:05.659] -> Ganz genau.
+
+[00:02:06.599] -> Und das zweite große Element sind die Grundrechte.
+
+[00:02:10.319] -> Das sind diese fundamentalen Freiheiten,
+
+[00:02:12.639] -> die ihnen als Mensch zustehen.
+
+[00:02:15.060] -> Also Meinungsfreiheit,
+
+[00:02:17.180] -> Versammlungsfreiheit,
+
+[00:02:18.319] -> Schutz der Privatsphäre,
+
+[00:02:20.080] -> die Eigentumsgarantie, die Liste ist lang.
+
+[00:02:22.840] -> Der Staat musste nicht nur achten,
+
+[00:02:24.860] -> sondern aktiv schützen.
+
+[00:02:26.900] -> Und diese Kombination, Bindung angesetzt,
+
+[00:02:30.500] -> plus Garantie der Grundfreiheiten,
+
+[00:02:32.900] -> das ist das Herzstück des Rechtsstaats.
+
+[00:02:35.020] -> Schafft Berechenbarkeit, schützt ihre Freiheit.
+
+[00:02:38.020] -> Okay, das Fundament steht also.
+
+[00:02:40.819] -> Aber wer sorgt jetzt dafür,
+
+[00:02:42.259] -> dass dieses Recht gemacht und dann auch angewendet wird?
+
+[00:02:45.780] -> Das bringt uns wohl zur Gewaltenteilung, oder?
+
+[00:02:50.080] -> Aber eine Macht wäre in einer Hand.
+
+[00:02:52.439] -> Also bei einer Person oder einer Institution,
+
+[00:02:55.120] -> die Gefahr von Missbrauch wäre riesig.
+
+[00:02:57.479] -> Deshalb teilt man die Staatsmacht bewusst auf.
+
+[00:03:00.280] -> Das ist diese klassische,
+
+[00:03:01.479] -> horizontale Gewaltenteilung.
+
+[00:03:03.340] -> Ein Prinzip,
+
+[00:03:03.979] -> das man ja in vielen Demokratien findet.
+
+[00:03:06.460] -> Wir unterscheiden drei unabhängige Gewalten,
+
+[00:03:09.199] -> die sich gegenseitig im Schach halten sollen.
+
+[00:03:11.759] -> Dieses berühmte System der Checks and Balance ist.
+
+[00:03:15.000] -> Da ist zuerst die Legislative,
+
+[00:03:16.900] -> also die Gesetzgebende Gewalt.
+
+[00:03:19.000] -> Bei uns auf Bundesebene
+
+[00:03:20.080] -> ist das die Bundesversammlung,
+
+[00:03:21.639] -> also national und ständerat,
+
+[00:03:23.580] -> die machen die Gesetze.
+
+[00:03:26.060] -> Dann die Exekutive, die ausführende Gewalt.
+
+[00:03:29.340] -> Das sind der Bundesrat und die ganze Verwaltung.
+
+[00:03:32.219] -> Die setzen die Gesetze um.
+
+[00:03:34.099] -> Und ganz wichtig,
+
+[00:03:34.879] -> erlassen auch die Detailregeln die Verordnungen.
+
+[00:03:37.500] -> Okay.
+
+[00:03:38.159] -> Und schließlich die Judikative,
+
+[00:03:40.900] -> die Rechtsprechende Gewalt,
+
+[00:03:42.599] -> also die Gerichte,
+
+[00:03:43.639] -> mit dem Bundesgericht ganz oben,
+
+[00:03:45.620] -> die entscheiden bei Streitigkeiten und kontrollieren,
+
+[00:03:48.240] -> ob sich alle ans Recht halten.
+
+[00:03:50.099] -> Auch Parlament und Regierung.
+
+[00:03:52.000] -> Die schauen sich also gegenseitig auf die Finger.
+
+[00:03:54.680] -> Klingt logisch,
+
+[00:03:55.560] -> um Macht zu bündeln,
+
+[00:03:57.539] -> zu verhindern.
+
+[00:03:59.159] -> Genau, zu verhindern.
+
+[00:04:00.860] -> Aber die Schweiz ist ja nicht nur Bergen.
+
+[00:04:04.060] -> Wir haben ja Kantone, Gemeinden.
+
+[00:04:06.500] -> Das klingt als Gerbistar noch eine andere Art der Machtteilung.
+
+[00:04:09.719] -> Das ist ein ganz entscheidender Punkt.
+
+[00:04:12.159] -> Und typisch Schweizerisch.
+
+[00:04:14.159] -> Neben der Horizontalenteilung gibt's die vertikale Gewaltenteilung.
+
+[00:04:18.699] -> Und das ist bei uns dafür
+
+[00:04:19.860] -> der Rallismus.
+
+[00:04:21.259] -> Die staatlichen Aufgaben sind nicht nur auf
+
+[00:04:23.699] -> verschiedene Organe auf derselbe Ebene verteilt,
+
+[00:04:26.980] -> sondern eben auch auf verschiedene Ebenen.
+
+[00:04:29.779] -> Ganz oben steht der Bund.
+
+[00:04:31.839] -> Der ist nur für das zuständig,
+
+[00:04:33.660] -> was ihm die Verfassung ausdrücklich gibt.
+
+[00:04:36.120] -> Also Außenpolitik,
+
+[00:04:37.740] -> Armee,
+
+[00:04:38.579] -> Nationalstraßen solche Dinge.
+
+[00:04:41.079] -> Und hier gilt,
+
+[00:04:42.339] -> Bundesrecht, Brichtkantonales Recht.
+
+[00:04:45.019] -> Das hält den Laden zusammen sozusagen.
+
+[00:04:50.199] -> Da
+
+[00:04:51.300] -> runterkommen dann die 26 Kantone.
+
+[00:04:54.579] -> Die sind historisch gesehen,
+
+[00:04:55.740] -> die eigentlichen Staaten gewesen und
+
+[00:04:57.420] -> haben viel Eigenständigkeit bewahrt.
+
+[00:05:00.160] -> Die sind für alles zuständig,
+
+[00:05:01.220] -> was die Verfassung nicht dem Bund gibt.
+
+[00:05:03.660] -> Und das ist enorm viel.
+
+[00:05:05.420] -> Denken Sie ans Schulwesen, Spitaler, Polizei,
+
+[00:05:08.699] -> Baurecht.
+
+[00:05:09.899] -> Jeder Kanton hat eine eigene Verfassung,
+
+[00:05:11.759] -> Parlament,
+
+[00:05:12.579] -> Regierung, Gerichte.
+
+[00:05:14.220] -> Das sorgt für Vielfalt manchmal auch für Komplexität klar.
+
+[00:05:17.740] -> Und dann noch die Gemeinden?
+
+[00:05:19.839] -> Ja, das ist richtig.
+
+[00:05:20.459] -> Über 2000 Gemeinden gibt es.
+
+[00:05:22.699] -> Das sind die Einheiten,
+
+[00:05:23.759] -> die am nächsten bei ihnen dran sind.
+
+[00:05:25.720] -> Die haben eine gewisse Autonomie,
+
+[00:05:27.500] -> meist durch Kantonales Recht geregelt
+
+[00:05:29.420] -> und kümmern sich um lokale Sachen.
+
+[00:05:31.420] -> Ortsplanung, Feuerwehr,
+
+[00:05:33.420] -> Kerichtabfuhr, Gemeinde-Straßen.
+
+[00:05:49.839] -> Gibt es dann Reihenfolge, was wichtiger ist?
+
+[00:05:52.560] -> Ja, die gibt es.
+
+[00:05:53.660] -> Absolut zentral.
+
+[00:05:55.240] -> Also erst mal die Rechtsquellen.
+
+[00:05:57.639] -> Wo finden wir das Recht?
+
+[00:05:59.680] -> Die wichtigste Quelle mit Abstand ist das geschriebene Recht.
+
+[00:06:03.680] -> Also alles,
+
+[00:06:04.100] -> was in Verfassungen gesetzten Verordnungen steht.
+
+[00:06:08.019] -> daneben gibt es theoretisch noch Gewohnheitsrecht,
+
+[00:06:10.639] -> also alte,
+
+[00:06:11.360] -> ungeschriebene Regeln und Richterrecht,
+
+[00:06:14.139] -> wenn Gerichte gesetzes Lücken füllen.
+
+[00:06:16.480] -> Spielen heute aber eine viel kleinerere Rolle.
+
+[00:06:18.879] -> Okay,
+
+[00:06:20.139] -> also das geschriebene Recht ist entscheidend.
+
+[00:06:22.379] -> Genau.
+
+[00:06:23.060] -> Und dieses geschriebene Recht ist nicht einfach ein Haufen Papier,
+
+[00:06:26.800] -> sondern klar geordnet wie eine Pyramide.
+
+[00:06:30.040] -> Das nennen wir die Normen hier reichi.
+
+[00:06:32.519] -> Ganz oben an der Spitze steht die Verfassung.
+
+[00:06:35.980] -> Auf Bundesebene die Bundesverfassung kurz BV,
+
+[00:06:39.680] -> das ist das Grundgesetz.
+
+[00:06:41.699] -> Da stehen die wichtigsten Spielregeln drin.
+
+[00:06:44.079] -> Grundrechte,
+
+[00:06:44.980] -> Staatsaufbau,
+
+[00:06:46.139] -> Zuständigkeiten,
+
+[00:06:47.120] -> politische Richte.
+
+[00:06:48.879] -> So fundamentales kann man sie auch nicht einfach so ändern.
+
+[00:06:52.060] -> Man braucht Volksmehr und Stände mehr.
+
+[00:06:54.519] -> Das ist das obligatorische Referendum.
+
+[00:06:56.980] -> Das heißt, Volk und Kantone müssen ja sagen.
+
+[00:07:00.160] -> Richtig.
+
+[00:07:01.240] -> Eine Stufe drunter stehen die Gesetze.
+
+[00:07:03.459] -> Auf Bundesebene die Bundesgesetze wie das ZGB,
+
+[00:07:06.519] -> OR,
+
+[00:07:07.259] -> Strafgesetzbuch.
+
+[00:07:08.480] -> Die konkretisieren die ehe allgemeinen Verfassungsartikel.
+
+[00:07:11.980] -> Beschlossen werden sie vom Parlament.
+
+[00:07:14.019] -> Und hier haben sie als Bürger ein wichtiges Werkzeug,
+
+[00:07:16.579] -> das fakultative Referendum.
+
+[00:07:21.410] -> Das heißt,
+
+[00:07:23.800] -> man kann ein Gesetz zur Abstimmung bringen.
+
+[00:07:26.300] -> Genau.
+
+[00:07:26.899] -> Wenn genug Leute das wollen.
+
+[00:07:28.860] -> Und auf der untersten Stufe finden wir die Verordnungen.
+
+[00:07:31.519] -> Das sind die Detailregelungen,
+
+[00:07:32.920] -> die es braucht um Gesetze umzusetzen.
+
+[00:07:34.879] -> Die erlässt meist die Regierung,
+
+[00:07:36.420] -> der Bundesrat oder ein Departament.
+
+[00:07:38.600] -> Ganz wichtig hier.
+
+[00:07:39.680] -> Eine Verordnung braucht immer eine Grundlage in einem Gesetz.
+
+[00:07:42.800] -> Sie darf nicht direkt auf die Verfassung gestützt
+
+[00:07:44.720] -> sein und erst recht nicht im Gesetz widersprechen.
+
+[00:07:47.139] -> Und hier gibt es normalerweise kein Referendum.
+
+[00:07:48.879] -> Ah,
+
+[00:07:49.680] -> okay.
+
+[00:07:50.180] -> Das entscheidende Prinzip dieser Pyramide ist.
+
+[00:07:52.879] -> Höherrangiges Recht geht immer vor.
+
+[00:07:55.720] -> Gesetz schlägt Verordnung,
+
+[00:07:57.360] -> Verfassung schlägt Gesetz.
+
+[00:07:59.040] -> Das sorgt für Ordnung.
+
+[00:08:00.500] -> Und es zeigt auch was über die demokratische Legitimation.
+
+[00:08:03.639] -> Je wichtiger die Regel,
+
+[00:08:04.959] -> je höher in der Pyramide,
+
+[00:08:06.399] -> desto direkter können sie in der Regel mitreden.
+
+[00:08:09.420] -> Das ist jetzt viel Theorie gewesen,
+
+[00:08:11.519] -> aber es zeichnet doch ein klare Bild dieser Struktur.
+
+[00:08:15.579] -> Damit wir uns das noch besser vorstellen können,
+
+[00:08:18.160] -> schauen wir doch mal
+
+[00:08:18.879] -> wie das im Alltag aussieht.
+
+[00:08:20.660] -> Wir haben drei Fälle vorbereitet.
+
+[00:08:22.860] -> Fall Nummer eins.
+
+[00:08:24.079] -> Normenche Rarchie und Föderalismus.
+
+[00:08:27.240] -> Stellen Sie sich vor.
+
+[00:08:28.439] -> Der Bund erleicht ein neues Umweltschutzgesetz.
+
+[00:08:31.399] -> Klare Mindestgrenzwerte für Fabriken,
+
+[00:08:33.940] -> Schweizweit.
+
+[00:08:35.340] -> Jetzt will aber ein Kanton mit viel
+
+[00:08:37.200] -> Industrie diese Grenzwerte näher lockern.
+
+[00:08:40.700] -> Mit einem Kantonalen Gesetz.
+
+[00:08:42.759] -> Argument,
+
+[00:08:43.740] -> Wirtschaftschützen,
+
+[00:08:45.039] -> Arbeitsplätze.
+
+[00:08:46.179] -> Dett das.
+
+[00:08:49.200] -> Und die Antwort ist ein klare Stein.
+
+[00:08:51.340] -> Hier greift eben dieser Grundsatz.
+
+[00:08:53.159] -> Bundesrecht, Brichtkantonalesrecht.
+
+[00:08:55.759] -> Wenn der Bund zuständig ist und Umweltschutz
+
+[00:08:57.960] -> ist er und Mindeststandard Sest legt,
+
+[00:09:00.899] -> dann gelten die für alle Kantone Punkt.
+
+[00:09:03.519] -> Die Kantone können also nicht einfach weniger machen.
+
+[00:09:06.279] -> Genau.
+
+[00:09:07.139] -> Sie dürften aber oft strengere Regeln machen,
+
+[00:09:09.399] -> wenn sie das wollen.
+
+[00:09:10.279] -> Also die Umwelt noch besser schützen.
+
+[00:09:12.500] -> Es sei denn der Bund sagt explizit,
+
+[00:09:14.759] -> nein,
+
+[00:09:15.220] -> es soll überall genau gleich sein.
+
+[00:09:17.399] -> Aber weniger streng geht nicht.
+
+[00:09:19.320] -> Die Kantonelle Regel wäre ungültig,
+
+[00:09:21.340] -> soweit sie den Bundesgesetz widerspricht.
+
+[00:09:23.700] -> Das sichert halt eine gewisse Einheitlichkeit.
+
+[00:09:26.139] -> Verstanden.
+
+[00:09:27.190] -> Mindestrahmen vom Bund.
+
+[00:09:28.759] -> Fall zwei.
+
+[00:09:29.639] -> Der geht es um Gewaltenteilung und Rechtsstaat.
+
+[00:09:32.639] -> Nehmen wir mal an.
+
+[00:09:34.000] -> Der Bundesrat,
+
+[00:09:35.000] -> also die Exikutive,
+
+[00:09:36.960] -> erlässt eine Verordnung zur Telefonüberwachung.
+
+[00:09:39.700] -> Ziemlich umfassend.
+
+[00:09:40.960] -> Begründung.
+
+[00:09:41.919] -> Nationale Sicherheit.
+
+[00:09:43.820] -> Das Problem.
+
+[00:09:45.139] -> Das Gesetz auf das sich der Bundesrat stürzt,
+
+[00:09:47.539] -> ist da sehr Waage.
+
+[00:09:48.879] -> Oder sagt gar nichts dazu.
+
+[00:09:50.960] -> Die Verordnung geht also viel weiter als das,
+
+[00:09:53.120] -> was das Parlament eigentlich beschlossen hat.
+
+[00:09:55.600] -> Was passiert dann?
+
+[00:09:56.820] -> Ja,
+
+[00:09:57.019] -> hier sieht man diese Checks in Balance am Werk.
+
+[00:09:59.919] -> Vor allem die Kontrolle der Exikutive durch die Gerichte,
+
+[00:10:02.700] -> die Judikative.
+
+[00:10:04.159] -> Das Legalitätsprinzip sagt ja,
+
+[00:10:05.960] -> auch Verordnungen brauchen eine klare gesetzliche Grundlage.
+
+[00:10:09.700] -> Sie dürfen das Gesetz umsetzen,
+
+[00:10:11.480] -> aber nicht erweitern oder ihm widersprechen.
+
+[00:10:13.980] -> Und jetzt kommt was interessantes im Schweizer System.
+
+[00:10:16.659] -> Das Bundesgericht kann Bundesgesetze
+
+[00:10:18.960] -> nur sehr beschränkt auf Verfassungsmäßigkeit prüfen.
+
+[00:10:21.779] -> Ach so! Ja, das ist eine Besonderheit.
+
+[00:10:24.759] -> Aber bei Verordnungen ist das anders.
+
+[00:10:27.960] -> Wenn eine Verordnung klar über das Gesetz hinausgeht,
+
+[00:10:31.580] -> oder Grundrechte verletzt ohne ausreichende Basis im Gesetz,
+
+[00:10:35.679] -> dann können Gerichte einschreiten.
+
+[00:10:38.340] -> Im konkreten Fall,
+
+[00:10:39.799] -> wenn also jemand betroffen wäre und klagt,
+
+[00:10:42.460] -> könnten die Gerichte sagen,
+
+[00:10:44.120] -> diese Verordnung oder zumindest die
+
+[00:10:46.120] -> problematischen Teile wenden wir nicht an.
+
+[00:10:49.600] -> Weil sie eben Gesetzes oder Verfassungswidrig ist.
+
+[00:10:53.379] -> Das ist ein wichtiges Korrektiv,
+
+[00:10:55.519] -> damit die Regierung nicht
+
+[00:10:56.500] -> am Parlament vorbei regiert.
+
+[00:10:58.179] -> Sehr spannend!
+
+[00:10:59.100] -> Die Gerichte als Hüter der Gesetze gerade bei Verordnungen?
+
+[00:11:02.820] -> Gut, dann zum dritten Fall.
+
+[00:11:05.179] -> Der führt uns noch mal durch die Ebenen.
+
+[00:11:07.379] -> Eine Gemeinde möchte das Betteln auf ihrem ganzen Gebiet verbieten.
+
+[00:11:12.019] -> Gründe, öffentliche Ordnung, Image.
+
+[00:11:15.340] -> Im
+
+[00:11:15.610] -> Kantonalen Recht steht nichts Spezielles dazu.
+
+[00:11:18.919] -> Aber in der Bundesverfassung gibt es
+
+[00:11:20.799] -> ja Grundrechte wie Meinungsfreiheit,
+
+[00:11:23.159] -> vielleicht auch Wirtschaftsfreiheit,
+
+[00:11:25.179] -> die eventuell das Betteln schützen könnten.
+
+[00:11:27.919] -> Kann die Gemeinde so ein generelles
+
+[00:11:29.620] -> Verbot einfach beschließen?
+
+[00:11:31.200] -> Der Fall ist komplex, stinkt.
+
+[00:11:33.259] -> Weil alle Ebenen, Gemeinde, Kanton, Bund und die
+
+[00:11:36.419] -> Normenäerach hier reinspielen.
+
+[00:11:38.279] -> Zuerst braucht die Gemeinde überhaupt die Kompetenz dafür.
+
+[00:11:41.659] -> Das steht im
+
+[00:11:42.240] -> Kantonalen Recht.
+
+[00:11:43.379] -> Stichwort Gemeindeautonomie.
+
+[00:11:45.500] -> Nehmen wir mal an, sie darf das grundsätzlich.
+
+[00:11:48.379] -> Aber selbst dann ist
+
+[00:11:49.259] -> sie nicht frei.
+
+[00:11:50.279] -> Jede Regel der Gemeinde muss nicht nur zum Kantonalen Recht passen,
+
+[00:11:54.080] -> sondern vor allem zum
+
+[00:11:55.240] -> Bundesrecht.
+
+[00:11:56.220] -> Dazu gehören die Grundrechte in der Bundesverfassung.
+
+[00:11:58.759] -> Und da wird es eben heikel.
+
+[00:12:00.179] -> Ein
+
+[00:12:00.500] -> generelles pauschales Battleverbot.
+
+[00:12:02.379] -> Das sehen Gerichte,
+
+[00:12:03.480] -> auch das Bundesgericht und sogar der Europäische
+
+[00:12:05.679] -> Gericht zur für Menschenrechte oft als unverhältnismäßig an.
+
+[00:12:08.899] -> Warum?
+
+[00:12:09.960] -> Weil es die Ärmsten trifft und nicht
+
+[00:12:11.559] -> unterscheidet,
+
+[00:12:12.179] -> auch jemand stillbettelt oder aggressiv auftritt.
+
+[00:12:14.799] -> Es ist zu indifferenziert.
+
+[00:12:16.860] -> Deshalb ist so ein pauschales Verbot sehr
+
+[00:12:18.659] -> wahrscheinlich Bundesverfassungsiedrig.
+
+[00:12:20.759] -> Es könnte also gerichtlich angefochten und aufgehoben werden,
+
+[00:12:23.600] -> auch wenn die Gemeinde es vom Melkorekt beschlossen hat.
+
+[00:12:26.759] -> Das zeigt schön,
+
+[00:12:28.159] -> auch die unterste Ebene muss sich immer
+
+[00:12:29.840] -> an die obersten Spielregeln halten.
+
+[00:12:32.139] -> Das waren wirklich drei sehr erhellende Beispiele.
+
+[00:12:36.440] -> Fassen wir die Kernpunkte für sie noch mal zusammen.
+
+[00:12:39.360] -> Das Fundament ist der Rechtsstaat.
+
+[00:12:41.559] -> Die Recht herrscht,
+
+[00:12:42.320] -> nicht Wilkür,
+
+[00:12:43.519] -> garantiert durch Legalitätsprinzip und Grundrechte.
+
+[00:12:47.340] -> Die Macht ist geteilt.
+
+[00:12:48.759] -> Horizontal zwischen Parlament,
+
+[00:12:50.820] -> Regierung und Gerichten, die kontrollieren sich.
+
+[00:12:52.919] -> Und vertikal im Fördererismus.
+
+[00:12:56.200] -> Wund,
+
+[00:12:56.720] -> Kantone,
+
+[00:12:57.440] -> Gemeinden teilen sich die Aufgaben.
+
+[00:12:59.700] -> Jede Ebene hat ihre Zuständigkeiten aber
+
+[00:13:02.059] -> immer im Rahmen des übergeordneten Rechts.
+
+[00:13:04.759] -> Genau.
+
+[00:13:05.600] -> Und die Regeln selbst,
+
+[00:13:06.659] -> die Rechtsquellen,
+
+[00:13:07.940] -> sind klar hierarchisch.
+
+[00:13:12.500] -> Hörrangiges geht vor.
+
+[00:13:14.000] -> Exakt.
+
+[00:13:14.960] -> Dieses fein austarierte System aus Kontrolle,
+
+[00:13:18.240] -> Machtteilung,
+
+[00:13:19.240] -> Hierarchie.
+
+[00:13:20.379] -> Das breckt die Schweiz sehr stark.
+
+[00:13:22.419] -> Es fördert Stabilität, Bürgernähe,
+
+[00:13:25.399] -> erlaubt regionale Lösungen.
+
+[00:13:27.659] -> Gleichzeitig muss man aber auch sagen.
+
+[00:13:29.980] -> Es kann Entscheidungen verlangsamen.
+
+[00:13:32.419] -> Diese Komplexität, die vielen Kontrollen,
+
+[00:13:35.399] -> die Kompromisssuche.
+
+[00:13:36.879] -> Das braucht Zeit.
+
+[00:13:38.340] -> Mehr als in zentralistischen Staaten vielleicht.
+
+[00:13:41.620] -> Es ist halt auf Ausgleich und Konsens ausgelegt.
+
+[00:13:44.980] -> Und das führt uns zu einer letzten Frage,
+
+[00:13:46.919] -> die wir Ihnen einfach mal mitgeben möchten zum Nachdenken.
+
+[00:13:50.779] -> Dieses vielschichtige System,
+
+[00:13:52.759] -> Kontrollengleichgewichte,
+
+[00:13:55.340] -> verteiltemacht auf Bund, Kantone, Gemeinden.
+
+[00:13:59.059] -> Wie beeinflusst das Ihrer Meinung nach die Fähigkeit der Schweiz,
+
+[00:14:02.940] -> schnell und effizient auf neue Herausforderungen zu reagieren?
+
+[00:14:07.559] -> Gibt es da einen Zielkonflikt?
+
+[00:14:09.720] -> Zwischen dieser demokratischen Gründlichen
+
+[00:14:11.559] -> oder die Möglichkeit,
+
+[00:14:12.139] -> dem Föderalismus einerseits
+
+[00:14:14.279] -> und der Notwendigkeit in einer sich schnell
+
+[00:14:16.580] -> wandelnden Welt doch handlungsfähig zu bleiben?
+
+[00:14:19.559] -> Wo liegt da der...
+
+[00:14:20.700] -> ja, der Sweet-Sport, der optimale Mittelweg?
+
+[00:14:24.080] -> Bis zum nächsten Fall bei Das Recht anders erzählt.
