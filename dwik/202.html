@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personen und ihre Handlungsfähigkeit: Zusammenfassung</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f8f9fa;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #bdc3c7;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        
+		.slide {
+		    max-width: 1280px;
+		    width: 100%;   /* allow shrinking to fit container */
+		    min-height: 720px;
+		    margin: 20px auto;
+		    background-color: white;
+		    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		    display: flex;
+		    flex-direction: column;
+		}
+        
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        
+        .content {
+            flex-grow: 1;
+            padding: 30px 40px;
+            overflow-y: auto;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 20px;
+        }
+        
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .subsection {
+            margin-bottom: 20px;
+        }
+        
+        .subsection-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            margin: 5px 0;
+            padding-left: 25px;
+            list-style-type: disc;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+        
+        .two-column {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .column {
+            flex: 1;
+        }
+        
+        .concept-box {
+            background-color: var(--light-gray);
+            border-radius: 4px;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .concept-box-title {
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--primary-color);
+            font-size: 20px;
+        }
+        
+        .dropdown {
+            margin-top: 15px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .dropdown-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+        }
+        
+        .dropdown-content {
+            padding: 15px;
+            background-color: #fdfdfd;
+            display: none;
+        }
+        
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown.active .dropdown-header .material-icons {
+            transform: rotate(180deg);
+        }
+        
+        .question {
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+        
+        .answer {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="header">
+            <h1>Personen und ihre Handlungsfähigkeit im Geschäftsverkehr</h1>
+        </div>
+        
+        <div class="content">
+            <!-- 1. Die Vertragsparteien (Rechtssubjekte) -->
+            <div class="section">
+                <h2 class="section-title">1. Die Vertragsparteien (Rechtssubjekte)</h2>
+                <p>Rechtssubjekte sind Träger von Rechten und Pflichten. Sie können Verträge abschliessen, Eigentum erwerben und verklagt werden. Das Gesetz unterscheidet zwei Arten von Rechtssubjekten.</p>
+                
+                <div class="two-column">
+                    <div class="column">
+                        <div class="concept-box">
+                            <div class="concept-box-title">Natürliche Person (ZGB Art. 11 ff.)</div>
+                            <p>Jeder Mensch aus Fleisch und Blut. Eine natürliche Person ist von der Geburt bis zum Tod Träger von Rechten und Pflichten.</p>
+                            <ul>
+                                <li><strong>Beispiel:</strong> Ein Kunde, eine Mitarbeiterin, ein Landwirt als Einzelunternehmer.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="concept-box">
+                            <div class="concept-box-title">Juristische Person (ZGB Art. 52 ff.)</div>
+                            <p>Ein vom Recht geschaffenes, künstliches Gebilde, das wie eine natürliche Person Rechte und Pflichten haben kann.</p>
+                            <ul>
+                                <li><strong>Beispiele:</strong> Eine AG, eine GmbH, ein Verein, eine Stiftung.</li>
+                                <li>Entsteht meist durch Eintrag ins Handelsregister.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown1">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Was versteht das Gesetz unter einer 'natürlichen Person'?</div>
+                        <div class="answer">Jeder Mensch aus Fleisch und Blut.</div>
+                        
+                        <div class="question">2. Nennen Sie zwei Beispiele für 'juristische Personen', die in Ihrem Berufsalltag als Kunden oder Lieferanten auftreten.</div>
+                        <div class="answer">Eine Aktiengesellschaft (AG) oder eine Gesellschaft mit beschränkter Haftung (GmbH).</div>
+                        
+                        <div class="question">3. Erklären Sie, warum Ihr Reparaturbetrieb (sofern es eine GmbH oder AG ist) selbst Verträge abschliessen kann und nicht Sie als Werkstattleiter persönlich haften.</div>
+                        <div class="answer">Weil die GmbH/AG eine eigenständige juristische Person ist, die selbst Trägerin von Rechten und Pflichten ist. Sie haftet mit ihrem eigenen Geschäftsvermögen.</div>
+                        
+                        <div class="question">4. Was ist der Unterschied zwischen einem Rechtssubjekt und einem Rechtsobjekt? Geben Sie je ein Beispiel aus Ihrer Werkstatt.</div>
+                        <div class="answer">Rechtssubjekte sind Träger von Rechten (z.B. der Kunde, die Werkstatt-GmbH). Rechtsobjekte sind Gegenstände, auf die sich Rechte beziehen (z.B. der Traktor, ein Ersatzteil).</div>
+
+                        <div class="question">5. Ein Landwirt (Einzelunternehmer) kauft bei Ihnen eine Maschine. Wer ist in diesem Fall die Vertragspartei?</div>
+                        <div class="answer">Der Landwirt als natürliche Person (Einzelunternehmer).</div>
+
+                        <div class="question">6. Die 'Müller Landtechnik AG' bestellt bei Ihnen Ersatzteile. Wer ist hier die Vertragspartei und wer muss die Rechnung bezahlen?</div>
+                        <div class="answer">Die Vertragspartei ist die 'Müller Landtechnik AG' als juristische Person. Sie muss die Rechnung bezahlen.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Rechts- und Handlungsfähigkeit -->
+            <div class="section">
+                <h2 class="section-title">2. Rechts- und Handlungsfähigkeit</h2>
+                <p>Um gültige Verträge abschliessen zu können, müssen Personen bestimmte Voraussetzungen erfüllen. Hier sind zwei zentrale Begriffe zu unterscheiden:</p>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Rechtsfähigkeit (ZGB Art. 11)</h3>
+                    <div class="concept-box">
+                        <p>Die Fähigkeit, Träger von Rechten und Pflichten zu sein. Jede natürliche Person ist von Geburt an rechtsfähig. Man kann also schon als Baby Eigentum erben, aber nicht selbstständig darüber verfügen.</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Handlungsfähigkeit (ZGB Art. 12)</h3>
+                    <div class="concept-box">
+                        <p>Die Fähigkeit, durch <span class="highlight">eigenes Handeln</span> Rechte und Pflichten zu begründen, also z.B. gültige Verträge abzuschliessen. Dies ist die entscheidende Voraussetzung für den Geschäftsverkehr.</p>
+                        <p><strong>Voraussetzungen für die volle Handlungsfähigkeit:</strong></p>
+                        <ul>
+                            <li><span class="highlight">Volljährigkeit:</span> Mit Vollendung des 18. Lebensjahres (ZGB Art. 14).</li>
+                            <li><span class="highlight">Urteilsfähigkeit:</span> Die Fähigkeit, vernunftgemäss zu handeln und die Konsequenzen der eigenen Handlungen abzuschätzen (ZGB Art. 16). Diese ist situationsabhängig und kann z.B. durch Rausch, Drogen oder eine psychische Störung beeinträchtigt sein.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Abstufungen der Handlungs(un)fähigkeit</h3>
+                    <div class="concept-box">
+                        <div class="concept-box-title">Beschränkte Handlungsunfähigkeit (ZGB Art. 19)</div>
+                        <p>Dies betrifft Personen, die zwar <span class="highlight">urteilsfähig</span>, aber noch nicht volljährig sind (Minderjährige).</p>
+                        <ul>
+                            <li>Für den Abschluss von Verträgen benötigen sie grundsätzlich die <span class="highlight">Zustimmung ihrer gesetzlichen Vertreter</span> (i.d.R. die Eltern).</li>
+                            <li>Ohne Zustimmung abgeschlossene Verträge sind schwebend unwirksam und können nachträglich genehmigt werden.</li>
+                            <li><strong>Ausnahmen (Verträge sind auch ohne Zustimmung gültig):</strong>
+                                <ul>
+                                    <li>Erlangung unentgeltlicher Vorteile (z.B. Annahme einer Schenkung).</li>
+                                    <li>Geringfügige Angelegenheiten des täglichen Lebens (z.B. Kauf eines Pausenbrots).</li>
+                                    <li>Verfügung über den eigenen Arbeitserwerb oder das Taschengeld (im angemessenen Rahmen).</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>Personen, die <strong>urteilsunfähig</strong> sind (z.B. Kleinkinder, stark alkoholisierte Personen), sind <strong>voll handlungsunfähig</strong>. Ihre Handlungen haben keine rechtliche Wirkung; Verträge sind nichtig.</p>
+                </div>
+
+                <div class="dropdown" id="dropdown2">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welche zwei Voraussetzungen müssen für die volle Handlungsfähigkeit einer natürlichen Person erfüllt sein?</div>
+                        <div class="answer">Volljährigkeit (18 Jahre alt) und Urteilsfähigkeit.</div>
+                        
+                        <div class="question">2. Was bedeutet 'beschränkte Handlungsunfähigkeit' und welche Personengruppe ist typischerweise davon betroffen?</div>
+                        <div class="answer">Das bedeutet, dass eine Person urteilsfähig, aber noch nicht volljährig ist. Typischerweise sind Minderjährige (z.B. Lernende) betroffen.</div>
+                        
+                        <div class="question">3. Erklären Sie den Unterschied zwischen Rechtsfähigkeit und Handlungsfähigkeit an einem Beispiel eines Kleinkindes, das von seinem Grossvater eine Liegenschaft erbt.</div>
+                        <div class="answer">Das Kleinkind ist rechtsfähig und kann daher Eigentümer der Liegenschaft werden. Es ist aber nicht handlungsfähig und kann die Liegenschaft nicht selbst verwalten oder verkaufen; dafür braucht es seine gesetzlichen Vertreter.</div>
+                        
+                        <div class="question">4. Warum ist die Urteilsfähigkeit situationsabhängig? Erläutern Sie dies am Beispiel eines Kunden, der unter starkem Medikamenteneinfluss steht.</div>
+                        <div class="answer">Weil die Fähigkeit, vernunftgemäss zu handeln, durch äussere oder innere Umstände temporär beeinträchtigt sein kann. Ein Kunde unter starken Medikamenten kann die Tragweite eines teuren Reparaturauftrags möglicherweise nicht erfassen und ist in diesem Moment urteilsunfähig.</div>
+
+                        <div class="question">5. Beurteilen Sie den Fall aus dem 'Praxisbezug': Ist der Kaufvertrag über das Diagnosegerät, den Ihr 17-jähriger Lernender abgeschlossen hat, gültig? Begründen Sie Ihre Antwort mit den Begriffen aus dem Lehrmittel.</div>
+                        <div class="answer">Nein, der Vertrag ist nicht gültig. Der Lernende ist minderjährig und somit beschränkt handlungsunfähig. Der Kauf eines teuren Diagnosegeräts übersteigt seine Befugnisse (keine geringfügige Angelegenheit, nicht mit Taschengeld bezahlbar). Der Vertrag ist nur gültig, wenn der gesetzliche Vertreter (oder hier der Arbeitgeber) ihn nachträglich genehmigt.</div>
+
+                        <div class="question">6. Ein 15-jähriger Schüler möchte sein Mofa bei Ihnen für CHF 80.- reparieren lassen. Er bezahlt aus seinem Sackgeld. Dürfen Sie den Auftrag ohne Zustimmung der Eltern annehmen? Begründen Sie.</div>
+                        <div class="answer">Ja, das ist wahrscheinlich zulässig. Der Schüler ist zwar beschränkt handlungsunfähig, aber er darf über sein Taschengeld oder seinen Lohn aus einem Ferienjob frei verfügen. Eine Mofareparatur für CHF 80.- kann als im Rahmen seines frei verfügbaren Geldes liegend betrachtet werden.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grundlagen des Schweizer Rechtssystems: Zusammenfassung der prüfungsrelevanten Konzepte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f8f9fa;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #bdc3c7;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        
+		.slide {
+		    max-width: 1280px;
+		    width: 100%;   /* allow shrinking to fit container */
+		    min-height: 720px;
+		    margin: 20px auto;
+		    background-color: white;
+		    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		    display: flex;
+		    flex-direction: column;
+		}
+        
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        
+        .content {
+            flex-grow: 1;
+            padding: 30px 40px;
+            overflow-y: auto;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 15px;
+        }
+        
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .subsection {
+            margin-bottom: 15px;
+        }
+        
+        .subsection-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        
+        ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+        
+        .image-container {
+            margin: 15px 0;
+            text-align: center;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+        }
+        
+        .two-column {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .column {
+            flex: 1;
+        }
+        
+        .concept-box {
+            background-color: var(--light-gray);
+            border-radius: 4px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+        }
+        
+        .concept-box-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+        
+        .dropdown {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .dropdown-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .dropdown-content {
+            padding: 15px;
+            background-color: #f9f9f9;
+            display: none;
+        }
+        
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown.active .dropdown-header .material-icons {
+            transform: rotate(180deg);
+        }
+        
+        .question {
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        .answer {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="header">
+            <h1>Grundlagen des Schweizer Rechtssystems: Zusammenfassung der prüfungsrelevanten Konzepte</h1>
+        </div>
+        
+        <div class="content">
+            <!-- 1. Rechtsquellen -->
+            <div class="section">
+                <h2 class="section-title">1. Rechtsquellen</h2>
+                <div class="subsection">
+                    <p>Die Lösung eines Rechtsproblems basiert auf drei Quellen, wie in Art. 1 ZGB festgehalten:</p>
+                    <ul>
+                        <li><span class="highlight">Geschriebenes Recht</span>: Die wichtigste Quelle. Umfasst alle vom Staat erlassenen Regeln wie Verfassung, Gesetze und Verordnungen.</li>
+                        <li><span class="highlight">Gewohnheitsrecht</span>: Ungeschriebene Regeln, die durch langjährige, allgemeine Übung entstanden sind. Hat heute nur noch geringe praktische Bedeutung.</li>
+                        <li><span class="highlight">Richterrecht</span>: Von Gerichten geschaffenes Recht zur Füllung von Gesetzeslücken. Das Gericht entscheidet so, wie es als Gesetzgeber entscheiden würde.</li>
+                    </ul>
+                </div>
+                
+                <div class="dropdown" id="dropdown1">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welches sind die drei offiziellen Rechtsquellen in der Schweiz?</div>
+                        <div class="answer">Geschriebenes Recht, Gewohnheitsrecht und Richterrecht.</div>
+                        
+                        <div class="question">2. Welche Rechtsquelle hat heute die grösste praktische Bedeutung?</div>
+                        <div class="answer">Das geschriebene Recht (Gesetzesrecht).</div>
+                        
+                        <div class="question">3. Erklären Sie in eigenen Worten, wann ein Gericht auf das 'Richterrecht' zurückgreift.</div>
+                        <div class="answer">Ein Gericht greift auf das Richterrecht zurück, wenn für einen konkreten Fall weder im geschriebenen Recht noch im Gewohnheitsrecht eine passende Regelung zu finden ist. Man spricht von einer Gesetzeslücke.</div>
+                        
+                        <div class="question">4. Warum hat das 'Gewohnheitsrecht' im heutigen Geschäftsalltag kaum noch Bedeutung?</div>
+                        <div class="answer">Weil das moderne Leben sehr komplex ist und die meisten Bereiche durch detaillierte geschriebene Gesetze geregelt sind, was wenig Raum für ungeschriebene Bräuche als Rechtsquelle lässt.</div>
+
+                        <div class="question">5. Stellen Sie sich vor, es gibt keine klare gesetzliche Regelung zur Haftung bei Schäden durch autonom fahrende Baumaschinen. Welche Rechtsquelle müsste ein Gericht heranziehen, um einen solchen Fall zu entscheiden?</div>
+                        <div class="answer">Das Gericht müsste das Richterrecht heranziehen und eine Regel aufstellen, wie sie der Gesetzgeber für diesen Fall schaffen würde.</div>
+
+                        <div class="question">6. Ein langjähriger Brauch in der Branche ist, dass mündliche Zusagen für Kleinreparaturen verbindlich sind. Handelt es sich hierbei um eine anwendbare Rechtsquelle? Begründen Sie Ihre Antwort.</div>
+                        <div class="answer">Nein, dies ist kein Gewohnheitsrecht. Es handelt sich um einen Brauch oder eine Sitte. Die Verbindlichkeit mündlicher Zusagen ergibt sich in der Regel aus dem geschriebenen Recht (Formfreiheit bei Verträgen gemäss OR), nicht aus Gewohnheitsrecht.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Normenhierarchie -->
+            <div class="section">
+                <h2 class="section-title">2. Normenhierarchie</h2>
+                <div class="subsection">
+                    <p>Die Schweizer Rechtsordnung ist hierarchisch aufgebaut. Eine tiefere Stufe darf einer höheren nicht widersprechen.</p>
+                    <div class="concept-box">
+                        <div class="concept-box-title">1. Stufe: Verfassung</div>
+                        <p>Das Grundgesetz des Staates. Sie enthält die wichtigsten Prinzipien und Grundrechte. Änderungen benötigen in der Regel eine Volksabstimmung (Volks- und Ständemehr).</p>
+                    </div>
+                    <div class="concept-box">
+                        <div class="concept-box-title">2. Stufe: Gesetz</div>
+                        <p>Führt die allgemeinen Verfassungsartikel aus und konkretisiert sie. Gesetze werden vom Parlament (Legislative) erlassen und unterliegen oft dem fakultativen Referendum.</p>
+                    </div>
+                    <div class="concept-box">
+                        <div class="concept-box-title">3. Stufe: Verordnung</div>
+                        <p>Enthält Detailbestimmungen zur Umsetzung der Gesetze. Verordnungen werden meist von der Regierung (Exekutive) erlassen.</p>
+                    </div>
+                </div>
+                
+                <div class="dropdown" id="dropdown2">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die drei Stufen der Normenhierarchie in der korrekten Reihenfolge.</div>
+                        <div class="answer">1. Verfassung, 2. Gesetz, 3. Verordnung.</div>
+                        
+                        <div class="question">2. Welche Ebene enthält die grundlegendsten Prinzipien des Staates?</div>
+                        <div class="answer">Die Verfassung.</div>
+                        
+                        <div class="question">3. Erklären Sie, warum eine Verordnung nicht im Widerspruch zu einem Bundesgesetz stehen darf.</div>
+                        <div class="answer">Weil die Verordnung in der Normenhierarchie unter dem Gesetz steht. Sie dient nur dessen Detaillierung und darf den Rahmen, den das Gesetz vorgibt, nicht verlassen oder ihm widersprechen.</div>
+                        
+                        <div class="question">4. Beschreiben Sie den Zusammenhang zwischen einem Verfassungsartikel und einem dazugehörigen Gesetz am Beispiel des Strassenverkehrs.</div>
+                        <div class="answer">Die Bundesverfassung (z.B. Art. 82 BV) gibt dem Bund die grundsätzliche Kompetenz, Gesetze über den Strassenverkehr zu erlassen. Das Strassenverkehrsgesetz (SVG) ist dann die konkrete Ausführung dieses Verfassungsauftrags.</div>
+
+                        <div class="question">5. Ihr Kanton erlässt eine neue Vorschrift (Verordnung), die den Import von Baumaschinen verbietet, die eine bestimmte EU-Norm nicht erfüllen. Auf welcher übergeordneten Rechtsgrundlage (Gesetz, Verfassung) könnte diese Verordnung basieren?</div>
+                        <div class="answer">Die Verordnung müsste sich auf ein kantonales oder eidgenössisches Gesetz stützen (z.B. ein Umweltschutzgesetz), welches wiederum seine Legitimation aus einem Artikel der Kantons- oder Bundesverfassung erhält.</div>
+
+                        <div class="question">6. Ein Mitarbeiter argumentiert, eine neue kommunale Parkplatzregelung für Firmenfahrzeuge sei ungültig, weil sie seinem 'Recht auf freie Fahrt' widerspricht. Auf welcher Stufe der Normenhierarchie müsste sein 'Recht auf freie Fahrt' verankert sein, damit seine Argumentation eine Chance hätte?</div>
+                        <div class="answer">Auf der höchsten Stufe, der Verfassung. Nur ein in der Verfassung verankertes Grundrecht könnte eine gesetzeskonforme kommunale Regelung (Verordnung) potenziell aushebeln.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Grundstruktur des Rechtsstaates -->
+            <div class="section">
+                <h2 class="section-title">3. Grundstruktur des Rechtsstaates</h2>
+                <div class="subsection">
+                    <p>Der <span class="highlight">Rechtsstaat</span> ist ein Staat, in dem die Ausübung der Staatsgewalt an das Recht gebunden ist (Legalitätsprinzip, Art. 5 Abs. 1 BV). Seine Struktur basiert auf zwei fundamentalen Prinzipien: der Gewaltenteilung und dem Föderalismus.</p>
+                </div>
+                <div class="two-column">
+                    <div class="column">
+                        <div class="subsection">
+                            <h3 class="subsection-title">Gewaltenteilung (horizontale Gliederung)</h3>
+                            <p>Die Staatsmacht ist auf drei unabhängige Gewalten aufgeteilt, um Machtmissbrauch zu verhindern und eine gegenseitige Kontrolle zu gewährleisten.</p>
+                            <ul>
+                                <li><b>Legislative (gesetzgebende Gewalt):</b> Erlässt die Gesetze (z.B. National- und Ständerat auf Bundesebene).</li>
+                                <li><b>Exekutive (ausführende Gewalt):</b> Setzt die Gesetze um und regiert (z.B. Bundesrat, Verwaltung).</li>
+                                <li><b>Judikative (richterliche Gewalt):</b> Spricht Recht und entscheidet bei Streitigkeiten (z.B. Bundesgericht, kantonale Gerichte).</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="subsection">
+                            <h3 class="subsection-title">Föderalismus (vertikale Gliederung)</h3>
+                            <p>Die staatlichen Aufgaben sind auf drei politische Ebenen verteilt. Grundsätzlich sind die Kantone zuständig, ausser die Bundesverfassung weist eine Aufgabe dem Bund zu.</p>
+                            <ul>
+                                <li><b>Bund:</b> Zuständig für Aufgaben von nationalem Interesse (z.B. Aussenpolitik, Militär, Berufsbildung).</li>
+                                <li><b>Kantone:</b> Souverän in ihren eigenen Angelegenheiten, soweit die Bundesverfassung ihre Kompetenzen nicht einschränkt (z.B. Schulwesen, Baurecht, Gesundheitswesen).</li>
+                                <li><b>Gemeinden:</b> Erfüllen lokale Aufgaben, die ihnen von Bund und Kanton zugewiesen werden (z.B. Feuerwehr, Kehrichtabfuhr).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dropdown" id="dropdown3">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown3')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welches sind die drei Gewalten im Staat und was sind ihre Hauptfunktionen?</div>
+                        <div class="answer">Legislative (Gesetze erlassen), Exekutive (Gesetze ausführen/regieren) und Judikative (Recht sprechen/urteilen).</div>
+                        
+                        <div class="question">2. Nennen Sie die drei Ebenen des Föderalismus in der Schweiz.</div>
+                        <div class="answer">Bund, Kantone und Gemeinden.</div>
+                        
+                        <div class="question">3. Erklären Sie, warum die Trennung der Gewalten ein wichtiges Merkmal eines Rechtsstaates ist.</div>
+                        <div class="answer">Sie verhindert die Konzentration von zu viel Macht bei einer einzigen Person oder Institution. Die drei Gewalten kontrollieren sich gegenseitig und sichern so Freiheit und Rechtsgleichheit.</div>
+                        
+                        <div class="question">4. Beschreiben Sie einen Vorteil und einen Nachteil des Föderalismus für einen national tätigen Baumaschinenhändler.</div>
+                        <div class="answer">Vorteil: Nähe zu den lokalen Behörden und Berücksichtigung regionaler Bedürfnisse. Nachteil: Unterschiedliche Vorschriften in den Kantonen (z.B. im Baurecht oder bei Umweltauflagen) führen zu administrativem Mehraufwand.</div>
+
+                        <div class="question">5. Das Bundesamt für Strassen (ASTRA) erlässt neue technische Vorschriften für Fahrzeugkrane. Welche der drei Gewalten ist hier auf Bundesebene tätig?</div>
+                        <div class="answer">Die Exekutive (ausführende Gewalt). Das ASTRA ist als Bundesamt Teil der Bundesverwaltung, die dem Bundesrat untersteht.</div>
+
+                        <div class="question">6. Ihr Betrieb hat Standorte in den Kantonen Bern und Zürich. Sie stellen fest, dass die Vorschriften für die Lehrlingsausbildung leicht unterschiedlich sind. Welches Prinzip des Schweizer Rechtssystems ist dafür verantwortlich?</div>
+                        <div class="answer">Der Föderalismus. Obwohl die Berufsbildung grundsätzlich Bundessache ist, haben die Kantone bei der Umsetzung und in bestimmten Bereichen (z.B. Berufsfachschulen) eigene Zuständigkeiten, was zu Unterschieden führen kann.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
