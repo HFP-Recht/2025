@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grundlagen der korrekten Vertragserfüllung</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+:root {
+--primary-color: #1a5276;
+--secondary-color: #3498db;
+--accent-color: #e74c3c;
+--background-color: #f8f9fa;
+--text-color: #2c3e50;
+--light-gray: #ecf0f1;
+--border-color: #bdc3c7;
+}
+
+code
+Code
+download
+content_copy
+expand_less
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: var(--text-color);
+        background-color: var(--background-color);
+    }
+    
+.slide {
+    max-width: 1280px;
+    width: 100%;
+    min-height: 720px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+    
+    .header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+    }
+    
+    .header h1 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .content {
+        flex-grow: 1;
+        padding: 30px 40px;
+        overflow-y: auto;
+    }
+    
+    .section {
+        margin-bottom: 30px;
+        border-left: 4px solid var(--secondary-color);
+        padding-left: 20px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+        font-weight: 600;
+        color: var(--primary-color);
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    
+    .subsection {
+        margin-bottom: 20px;
+    }
+    
+    .subsection-title {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    ul {
+        margin: 5px 0;
+        padding-left: 25px;
+        list-style-type: disc;
+    }
+    
+    li {
+        margin-bottom: 8px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    
+    .highlight {
+        color: var(--accent-color);
+        font-weight: 600;
+    }
+    
+    .two-column {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .column {
+        flex: 1;
+        min-width: 300px;
+    }
+    
+    .concept-box {
+        background-color: var(--light-gray);
+        border-radius: 4px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        border: 1px solid var(--border-color);
+    }
+    
+    .concept-box-title {
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+    
+    .dropdown {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    
+    .dropdown-header {
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 10px 15px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .dropdown-content {
+        padding: 20px;
+        background-color: #fdfdfd;
+        display: none;
+    }
+    
+    .dropdown.active .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown.active .dropdown-header .material-icons {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease;
+    }
+
+    .dropdown-header .material-icons {
+        transition: transform 0.3s ease;
+    }
+    
+    .question {
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: var(--primary-color);
+    }
+    
+    .answer {
+        margin-bottom: 20px;
+        padding-left: 20px;
+        font-style: italic;
+        border-left: 2px solid var(--secondary-color);
+    }
+
+    .intro-text {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="slide">
+<div class="header">
+<h1>Grundlagen der korrekten Vertragserfüllung</h1>
+</div>
+<div class="content">
+        <!-- 1. Erfüllungsmodalitäten -->
+        <div class="section">
+            <h2 class="section-title">1. Erfüllungsmodalitäten: Die 5 W-Fragen der Vertragserfüllung</h2>
+            <div class="subsection">
+                <div class="concept-box">
+                    <div class="concept-box-title">Dispositives Recht</div>
+                    <p class="intro-text">Die gesetzlichen Regeln zur Vertragserfüllung im Obligationenrecht (OR) sind <span class="highlight">dispositiv</span>. Das bedeutet, sie gelten nur dann, wenn die Vertragsparteien nichts anderes vereinbart haben. Durch klare vertragliche Abmachungen können diese Standardregeln individuell angepasst werden.</p>
+                </div>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Wer muss leisten? (Art. 68 OR)</div>
+                        <p>Der Schuldner muss nur dann persönlich leisten, wenn es auf seine Persönlichkeit ankommt (z.B. Künstler, Arbeitnehmer). Bei Geld- oder Sachschulden kann die Leistung auch durch einen Dritten erbracht werden.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Was muss geleistet werden? (Art. 71 OR)</div>
+                        <p>Der Gegenstand der Erfüllung wird im Vertrag festgelegt. Man unterscheidet:</p>
+                        <ul>
+                            <li><b>Speziesschuld:</b> Eine individuell bestimmte Sache (z.B. ein spezifisches Occasionsfahrzeug).</li>
+                            <li><b>Gattungsschuld:</b> Eine nur der Art nach bestimmte Sache (z.B. ein Neuwagen eines bestimmten Typs). Hier muss mindestens mittlere Qualität geliefert werden.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Wo muss geleistet werden? (Art. 74 OR)</div>
+                        <p>Wenn kein Ort vereinbart wurde, gilt:</p>
+                        <ul>
+                            <li><span class="highlight">Holschuld (Regelfall):</span> Warenschulden sind am Wohnsitz des Schuldners zu erfüllen. Der Käufer muss die Ware abholen.</li>
+                            <li><span class="highlight">Bringschuld (Ausnahme):</span> Geldschulden sind am Wohnsitz des Gläubigers zu bezahlen. Der Schuldner muss das Geld übermitteln.</li>
+                            <li><b>Spezialfall Speziesschuld:</b> Die Sache ist dort zu übergeben, wo sie sich bei Vertragsabschluss befand.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Wann muss geleistet werden? (Art. 75 ff. OR)</div>
+                        <p>Ohne vertragliche Vereinbarung ist die Leistung sofort nach Vertragsabschluss fällig und kann gefordert werden (<span class="highlight">Fälligkeit</span>).</p>
+                        <p>Bei gegenseitigen Leistungen gilt das Prinzip <span class="highlight">"Zug-um-Zug"</span>: Die Leistungen müssen grundsätzlich gleichzeitig ausgetauscht werden (z.B. Ware gegen Geld).</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dropdown" id="dropdown1">
+                <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                    <span>Kompetenz-Check: Erfüllungsmodalitäten</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">1. Welche vier zentralen Fragen regeln die Erfüllungsmodalitäten laut OR?</div>
+                    <div class="answer">Wer muss leisten? Was muss geleistet werden? Wo muss geleistet werden? Wann muss geleistet werden?</div>
+                    
+                    <div class="question">2. Was ist der gesetzliche Unterschied zwischen einer Holschuld und einer Bringschuld?</div>
+                    <div class="answer">Bei der Holschuld muss der Gläubiger die Leistung am Wohnsitz des Schuldners abholen (Regelfall für Waren). Bei der Bringschuld muss der Schuldner die Leistung zum Gläubiger bringen (Regelfall für Geldschulden).</div>
+                    
+                    <div class="question">3. Erklären Sie, warum die Regeln zu den Erfüllungsmodalitäten als 'dispositiv' bezeichnet werden und was das für Ihre Verträge bedeutet.</div>
+                    <div class="answer">'Dispositiv' bedeutet, dass die gesetzlichen Regeln abänderbar sind. Sie gelten nur als Standardlösung, falls die Parteien nichts anderes vereinbaren. Für Verträge bedeutet das, dass man diese Punkte (z.B. Lieferort, Zahlungsfrist) aktiv und zu eigenen Gunsten regeln kann und sollte.</div>
+
+                    <div class="question">4. Erläutern Sie das Prinzip 'Zug um Zug' anhand des Beispiels einer Maschinenreparatur gegen Barzahlung.</div>
+                    <div class="answer">Das Prinzip 'Zug um Zug' bedeutet, dass Leistung und Gegenleistung gleichzeitig ausgetauscht werden. Bei einer Maschinenreparatur heisst das: Der Kunde erhält die reparierte Maschine zurück und muss im selben Moment den Rechnungsbetrag bar bezahlen.</div>
+
+                    <div class="question">5. Ein Kunde lässt eine Baumaschine reparieren. Im Auftrag wurde kein Zahlungsziel vereinbart. Wann muss der Kunde die Rechnung bezahlen?</div>
+                    <div class="answer">Gemäss Art. 75 OR ist die Leistung sofort fällig, da kein anderer Termin vereinbart wurde. Der Kunde muss die Rechnung also sofort bezahlen.</div>
+
+                    <div class="question">6. Sie verkaufen einem Landwirt eine gebrauchte Maschine 'ab Platz'. Wo ist der Erfüllungsort für die Übergabe der Maschine, wenn nichts anderes vereinbart wurde?</div>
+                    <div class="answer">Es handelt sich um eine Speziesschuld. Der Erfüllungsort ist der Ort, an dem sich die Maschine bei Vertragsabschluss befand (Art. 74 OR). Die Klausel 'ab Platz' bestätigt dies. Der Landwirt muss die Maschine bei Ihnen abholen (Holschuld).</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Untergang der Obligation -->
+        <div class="section">
+            <h2 class="section-title">2. Untergang der Obligation durch Erfüllung</h2>
+            <div class="subsection">
+                <div class="concept-box">
+                    <div class="concept-box-title">Rechtsfolge der korrekten Erfüllung (Art. 114 OR)</div>
+                    <p class="intro-text">Werden die vertraglichen Pflichten von beiden Seiten korrekt erfüllt, ist der Zweck des Vertrags erreicht. Die Obligationen (also die Forderungen und Schulden) gehen unter, sie <span class="highlight">erlöschen</span>. Das bedeutet, dass keine Partei die Leistung ein zweites Mal fordern kann. Dies schafft Rechtssicherheit und schliesst das Vertragsverhältnis ab.</p>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h3 class="subsection-title">Weitere Gründe für den Untergang einer Obligation</h3>
+                <ul>
+                    <li><b>Aufhebungsvertrag (Art. 115 OR):</b> Die Parteien können jederzeit gemeinsam vereinbaren, den Vertrag oder einzelne Pflichten aufzuheben.</li>
+                    <li><b>Verrechnung (Art. 120 ff. OR):</b> Schulden sich zwei Parteien gegenseitig gleichartige Leistungen (z.B. Geld), können sie ihre Forderungen gegenseitig tilgen, soweit sie sich decken.</li>
+                </ul>
+            </div>
+            
+            <div class="dropdown" id="dropdown2">
+                <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                    <span>Kompetenz-Check: Untergang der Obligation</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">1. Was ist die rechtliche Hauptfolge der korrekten Vertragserfüllung?</div>
+                    <div class="answer">Die Obligation geht unter, d.h. die gegenseitigen Forderungen und Schulden erlöschen. Die Leistung kann nicht erneut gefordert werden.</div>
+                    
+                    <div class="question">2. Welche zwei weiteren Gründe für den Untergang einer Obligation werden auf Seite 60 erwähnt?</div>
+                    <div class="answer">Der Aufhebungsvertrag (Schulderlass) und die Verrechnung.</div>
+                    
+                    <div class="question">3. Erklären Sie in eigenen Worten, warum eine erfüllte Forderung nicht ein zweites Mal verlangt werden kann.</div>
+                    <div class="answer">Weil mit der Erfüllung der Zweck des Vertrags erreicht und das Schuldverhältnis beendet ist. Die rechtliche Grundlage für die Forderung existiert nicht mehr.</div>
+                    
+                    <div class="question">4. Welche praktische Bedeutung haben Zahlungsbelege und Quittungen im Zusammenhang mit dem 'Untergang der Obligation'?</div>
+                    <div class="answer">Sie dienen als Beweismittel dafür, dass die Schuld erfüllt wurde und die Obligation somit untergegangen ist. Sie schützen den Schuldner vor ungerechtfertigten Zweitforderungen.</div>
+
+                    <div class="question">5. Ein Kunde bezahlt eine Reparaturrechnung bar und erhält eine Quittung. Zwei Wochen später erhält er von Ihrer Buchhaltung versehentlich eine Mahnung. Wie ist die rechtliche Lage?</div>
+                    <div class="answer">Die Forderung ist durch die Barzahlung bereits erloschen (untergegangen). Der Kunde kann mit der Quittung beweisen, dass er bezahlt hat. Die Mahnung ist daher gegenstandslos und rechtlich nicht durchsetzbar.</div>
+
+                    <div class="question">6. Sie schulden einem Lieferanten CHF 1'000 für Ersatzteile. Gleichzeitig hat dieser bei Ihnen eine Reparatur für CHF 800 durchführen lassen. Erklären Sie, wie hier eine Verrechnung als Alternative zur vollständigen Zahlung funktioniert.</div>
+                    <div class="answer">Sie können eine Verrechnungserklärung abgeben. Ihre Forderung von CHF 800 wird mit Ihrer Schuld von CHF 1'000 verrechnet. Dadurch erlöschen beide Forderungen bis zur Höhe von CHF 800. Sie schulden dem Lieferanten danach nur noch die Restschuld von CHF 200.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        dropdown.classList.toggle('active');
+    }
+</script>
+</body>
+</html>

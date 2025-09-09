@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grundlagen des Vertragsrechts: Eine Übersicht</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+:root {
+--primary-color: #1a5276;
+--secondary-color: #3498db;
+--accent-color: #e74c3c;
+--background-color: #f8f9fa;
+--text-color: #2c3e50;
+--light-gray: #ecf0f1;
+--border-color: #bdc3c7;
+}
+
+code
+Code
+download
+content_copy
+expand_less
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: var(--text-color);
+        background-color: var(--background-color);
+    }
+    
+    .slide {
+        width: 1280px;
+        min-height: 720px;
+        margin: 20px auto;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+    }
+    
+    .header h1 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .content {
+        flex-grow: 1;
+        padding: 30px 40px;
+        overflow-y: auto;
+    }
+    
+    .section {
+        margin-bottom: 30px;
+        border-left: 4px solid var(--secondary-color);
+        padding-left: 20px;
+    }
+    
+    .section-title {
+        font-size: 26px;
+        font-weight: 600;
+        color: var(--primary-color);
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    
+    .subsection {
+        margin-bottom: 20px;
+    }
+    
+    .subsection-title {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    p, ul {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    ul {
+        margin: 10px 0;
+        padding-left: 25px;
+    }
+    
+    li {
+        margin-bottom: 8px;
+    }
+    
+    .highlight {
+        color: var(--accent-color);
+        font-weight: 600;
+    }
+    
+    .concept-box {
+        background-color: var(--light-gray);
+        border-radius: 4px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        border: 1px solid var(--border-color);
+    }
+    
+    .concept-box-title {
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: var(--primary-color);
+        font-size: 20px;
+    }
+    
+    .two-column {
+        display: flex;
+        gap: 30px;
+    }
+    
+    .column {
+        flex: 1;
+    }
+    
+    .dropdown {
+        margin-top: 15px;
+        border: 1px solid var(--border-color);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    
+    .dropdown-header {
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 10px 15px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+    }
+    
+    .dropdown-content {
+        padding: 15px;
+        background-color: #fdfdfd;
+        display: none;
+    }
+    
+    .dropdown.active .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown.active .dropdown-header .material-icons {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease;
+    }
+
+    .dropdown-header .material-icons {
+        transition: transform 0.3s ease;
+    }
+    
+    .question {
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+    
+    .answer {
+        margin-bottom: 15px;
+        padding-left: 20px;
+        font-style: italic;
+        border-left: 2px solid var(--secondary-color);
+    }
+</style>
+</head>
+<body>
+<div class="slide">
+<div class="header">
+<h1>Grundlagen des Vertragsrechts: Eine Übersicht</h1>
+</div>
+<div class="content">
+        <!-- 1. Obligation & Gläubiger / Schuldner -->
+        <div class="section">
+            <h2 class="section-title">1. Die Obligation: Das Fundament jeder Verpflichtung</h2>
+            <div class="concept-box">
+                <div class="concept-box-title">Definition</div>
+                <p>Eine <span class="highlight">Obligation</span> ist ein Rechtsverhältnis zwischen mindestens zwei Personen. Sie verpflichtet eine Person (den <span class="highlight">Schuldner</span>) zu einer bestimmten Leistung, während die andere Person (der <span class="highlight">Gläubiger</span>) das Recht hat, diese Leistung zu fordern.</p>
+            </div>
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Gläubiger</div>
+                        <p>Der Gläubiger hat eine <span class="highlight">Forderung</span>. Er ist berechtigt, die Leistung vom Schuldner zu verlangen.</p>
+                        <p><strong>Beispiel:</strong> Die Werkstatt hat eine Forderung auf Bezahlung der Reparatur.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Schuldner</div>
+                        <p>Der Schuldner hat eine <span class="highlight">Schuld</span>. Er ist verpflichtet, die vereinbarte Leistung zu erbringen.</p>
+                        <p><strong>Beispiel:</strong> Der Kunde hat die Schuld, die Rechnung für die Reparatur zu bezahlen.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dropdown" id="dropdown1">
+                <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                    <span>Kompetenz-Check</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">1. Was versteht das Gesetz unter einer 'Obligation'?</div>
+                    <div class="answer">Ein Rechtsverhältnis, bei dem eine Person (Schuldner) einer anderen Person (Gläubiger) zu einer Leistung verpflichtet ist.</div>
+                    <div class="question">2. Wer ist bei einem Reparaturauftrag Gläubiger bezüglich der Zahlung und wer ist Schuldner?</div>
+                    <div class="answer">Die Werkstatt ist Gläubigerin der Zahlung, der Kunde ist Schuldner der Zahlung.</div>
+                    <div class="question">3. Erklären Sie, warum bei einem Kaufvertrag über ein Ersatzteil zwei Obligationen entstehen.</div>
+                    <div class="answer">Es entsteht eine Warenobligation (Verkäufer schuldet das Teil, Käufer fordert es) und eine Kaufpreisobligation (Käufer schuldet das Geld, Verkäufer fordert es).</div>
+                    <div class="question">4. Beschreiben Sie den Unterschied zwischen einer 'Forderung' und einer 'Schuld' anhand eines Beispiels aus Ihrer Werkstatt.</div>
+                    <div class="answer">Die Werkstatt hat die Forderung auf den Lohn für die Reparatur. Der Kunde hat die Schuld, diesen Lohn zu bezahlen. Umgekehrt hat der Kunde die Forderung auf die Reparaturleistung, und die Werkstatt hat die Schuld, diese zu erbringen.</div>
+                    <div class="question">5. Ein Landwirt kauft bei Ihnen einen gebrauchten Traktor. Identifizieren Sie die beiden Obligationen und benennen Sie jeweils Gläubiger und Schuldner.</div>
+                    <div class="answer">1. Warenobligation: Sie (Verkäufer) sind Schuldner des Traktors, der Landwirt ist Gläubiger. 2. Kaufpreisobligation: Der Landwirt ist Schuldner des Kaufpreises, Sie sind Gläubiger.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Konsens (Antrag & Annahme) -->
+        <div class="section">
+            <h2 class="section-title">2. Konsens: Die Einigung als Vertragsgrundlage</h2>
+            <div class="concept-box">
+                <p>Ein Vertrag entsteht durch <span class="highlight">Konsens</span>, also eine übereinstimmende gegenseitige Willensäusserung der Parteien (Art. 1 Abs. 1 OR). Diese Einigung muss die wesentlichen Vertragspunkte (z.B. Leistung und Preis) umfassen.</p>
+                <ul>
+                    <li><strong>Antrag (Offerte):</strong> Die erste Willenserklärung, mit der der Abschluss eines Vertrags angeboten wird.</li>
+                    <li><strong>Annahme:</strong> Die zweite, zustimmende Willenserklärung, durch die der Vertrag zustande kommt.</li>
+                </ul>
+            </div>
+            <div class="subsection">
+                <h3 class="subsection-title">Verbindlichkeit von Anträgen</h3>
+                <ul>
+                    <li><span class="highlight">Verbindlich:</span> Grundsätzlich ist jeder Antrag verbindlich. Besonders die Auslage von Waren mit Preisangabe gilt als verbindlicher Antrag.</li>
+                    <li><span class="highlight">Unverbindlich:</span> Anträge mit entsprechenden Hinweisen ("freibleibend") sowie Preislisten, Inserate und Prospekte sind unverbindlich.</li>
+                </ul>
+            </div>
+            <div class="dropdown" id="dropdown2">
+                <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                    <span>Kompetenz-Check</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">1. Welche zwei Willenserklärungen sind für eine Einigung notwendig?</div>
+                    <div class="answer">Antrag (Offerte) und Annahme.</div>
+                    <div class="question">2. Sind Preislisten und Inserate gemäss Gesetz verbindliche Anträge?</div>
+                    <div class="answer">Nein, sie sind unverbindlich und gelten als Einladung zur Angebotsstellung.</div>
+                    <div class="question">3. Erklären Sie den Unterschied zwischen einem Antrag 'unter Anwesenden' und 'unter Abwesenden' bezüglich der Bindungsdauer.</div>
+                    <div class="answer">Unter Anwesenden (z.B. im Gespräch, am Telefon) muss der Antrag sofort angenommen werden. Unter Abwesenden (z.B. per E-Mail, Brief) ist der Antragsteller eine angemessene Frist gebunden.</div>
+                    <div class="question">4. Warum ist die Auslage einer Maschine mit Preisangabe im Showroom ein verbindlicher Antrag, ein Prospekt mit der gleichen Maschine aber nicht?</div>
+                    <div class="answer">Die Auslage richtet sich an eine konkrete Person, die den Laden betritt, und der Verkäufer kann die Leistung erbringen. Ein Prospekt richtet sich an eine unbestimmte Vielzahl von Personen, und der Verkäufer könnte nicht alle Verträge erfüllen.</div>
+                    <div class="question">5. Ein Kunde fragt per E-Mail die Kosten für einen Service an. Sie antworten mit einem Kostenvoranschlag von CHF 1'500.-. Der Kunde antwortet nicht. Ist ein Vertrag zustande gekommen? Begründen Sie.</div>
+                    <div class="answer">Nein, es fehlt die Annahme durch den Kunden. Ihr Kostenvoranschlag ist der Antrag.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Handlungsfähigkeit -->
+        <div class="section">
+            <h2 class="section-title">3. Handlungsfähigkeit: Wer darf Verträge schliessen?</h2>
+            <div class="concept-box">
+                <p>Damit ein Vertrag gültig ist, müssen die Parteien <span class="highlight">handlungsfähig</span> sein. Handlungsfähigkeit setzt zwei Dinge voraus:</p>
+                <ul>
+                    <li><strong>Volljährigkeit:</strong> Die Person muss das 18. Lebensjahr vollendet haben.</li>
+                    <li><strong>Urteilsfähigkeit:</strong> Die Person muss in der Lage sein, vernunftgemäss zu handeln.</li>
+                </ul>
+                <p>Fehlt eine dieser Voraussetzungen, hat das Konsequenzen für den Vertrag.</p>
+            </div>
+             <div class="dropdown" id="dropdown3">
+                <div class="dropdown-header" onclick="toggleDropdown('dropdown3')">
+                    <span>Kompetenz-Check</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">1. Welche zwei Merkmale definieren die Handlungsfähigkeit einer Person?</div>
+                    <div class="answer">Volljährigkeit und Urteilsfähigkeit.</div>
+                    <div class="question">2. Welche Folge hat ein Vertragsabschluss mit einer urteilsunfähigen Person?</div>
+                    <div class="answer">Der Vertrag ist von Anfang an nichtig (ungültig).</div>
+                    <div class="question">3. Erklären Sie, warum ein 17-jähriger Lernender nur beschränkt handlungsfähig ist.</div>
+                    <div class="answer">Er ist zwar urteilsfähig, aber noch nicht volljährig. Er kann sich nur mit Zustimmung seiner gesetzlichen Vertreter (Eltern) verpflichten, ausser bei geringfügigen Angelegenheiten des Alltags.</div>
+                    <div class="question">4. Ein 16-jähriger Schüler möchte sein Mofa bei Ihnen für CHF 500.- reparieren lassen. Dürfen Sie den Vertrag abschliessen? Was müssen Sie beachten?</div>
+                    <div class="answer">Nein, nicht ohne Weiteres. Da dies keine geringfügige Alltagsangelegenheit ist, benötigen Sie für einen gültigen Vertrag die Zustimmung der Eltern (gesetzliche Vertreter).</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Formfreiheit und Formzwang -->
+        <div class="section">
+            <h2 class="section-title">4. Formfreiheit und Formzwang: Die Form des Vertrags</h2>
+            <div class="concept-box">
+                <div class="concept-box-title">Grundsatz: Formfreiheit (Art. 11 Abs. 1 OR)</div>
+                <p>Verträge können grundsätzlich in jeder Form abgeschlossen werden: <span class="highlight">mündlich, schriftlich oder sogar stillschweigend</span> (durch schlüssiges Verhalten). Ein Handschlag genügt oft für einen gültigen Vertrag.</p>
+            </div>
+            <div class="concept-box">
+                <div class="concept-box-title">Ausnahme: Formzwang</div>
+                <p>Für bestimmte, wichtige Verträge schreibt das Gesetz eine spezielle Form vor, um die Parteien zu schützen und Beweise zu sichern. Man unterscheidet z.B.:</p>
+                <ul>
+                    <li><strong>Einfache Schriftlichkeit:</strong> Vertrag muss schriftlich sein und von den Verpflichteten unterschrieben werden (z.B. Schenkungsversprechen, Konkurrenzverbot).</li>
+                    <li><strong>Öffentliche Beurkundung:</strong> Eine Urkundsperson (Notar) muss den Vertrag aufsetzen und beglaubigen (z.B. Grundstückkauf, Ehevertrag).</li>
+                </ul>
+            </div>
+            <div class="dropdown" id="dropdown4">
+                <div class="dropdown-header" onclick="toggleDropdown('dropdown4')">
+                    <span>Kompetenz-Check</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">1. Was besagt der Grundsatz der Formfreiheit?</div>
+                    <div class="answer">Dass Verträge grundsätzlich in jeder beliebigen Form gültig abgeschlossen werden können, also auch mündlich.</div>
+                    <div class="question">2. Nennen Sie zwei Beispiele für Verträge, die eine gesetzlich vorgeschriebene Form erfordern.</div>
+                    <div class="answer">Grundstückkauf (öffentliche Beurkundung), Lehrvertrag (qualifizierte Schriftlichkeit), Konkurrenzverbot (einfache Schriftlichkeit).</div>
+                    <div class="question">3. Sie vereinbaren mit einem Mitarbeiter mündlich ein Konkurrenzverbot nach Austritt aus der Firma. Ist diese Abmachung gültig? Begründen Sie.</div>
+                    <div class="answer">Nein, die Abmachung ist ungültig (nichtig). Das Gesetz (Art. 340 Abs. 1 OR) verlangt für ein Konkurrenzverbot die einfache Schriftlichkeit.</div>
+                    <div class="question">4. Sie verkaufen einem Kunden eine Motorsäge für CHF 800.- per Handschlag. Ist dieser Kaufvertrag gültig?</div>
+                    <div class="answer">Ja, dieser Kaufvertrag ist gültig. Für den Kauf einer beweglichen Sache (Fahrniskauf) gilt Formfreiheit.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. Nichtigkeit eines Vertrages -->
+        <div class="section">
+            <h2 class="section-title">5. Nichtigkeit eines Vertrages: Wann ist ein Vertrag ungültig?</h2>
+            <div class="concept-box">
+                <p>Ein Vertrag ist <span class="highlight">nichtig</span>, wenn er an einem schweren Mangel leidet. Er gilt dann von Anfang an als rechtlich unwirksam, so als hätte er nie existiert. Bereits erbrachte Leistungen müssen zurückerstattet werden. Gründe für die Nichtigkeit sind:</p>
+                <ul>
+                    <li><strong>Fehlende Handlungsfähigkeit:</strong> Eine urteilsunfähige Person schliesst einen Vertrag ab.</li>
+                    <li><strong>Formmangel:</strong> Eine gesetzliche Formvorschrift (z.B. Schriftlichkeit) wird nicht eingehalten.</li>
+                    <li><strong>Unmöglicher Inhalt:</strong> Die versprochene Leistung kann objektiv von niemandem erbracht werden (z.B. Verkauf einer bereits zerstörten Maschine).</li>
+                    <li><strong>Widerrechtlicher Inhalt:</strong> Der Vertrag verstösst gegen zwingende Gesetze (z.B. Verkauf von Drogen, Vereinbarung von Schwarzarbeit).</li>
+                    <li><strong>Sittenwidriger Inhalt:</strong> Der Vertrag verstösst gegen die allgemeine Moralvorstellung (z.B. Bezahlung für das Verschweigen einer Straftat).</li>
+                </ul>
+            </div>
+            <div class="dropdown" id="dropdown5">
+                <div class="dropdown-header" onclick="toggleDropdown('dropdown5')">
+                    <span>Kompetenz-Check</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">1. Welche drei inhaltlichen Schranken setzt das Gesetz der Vertragsfreiheit?</div>
+                    <div class="answer">Der Vertragsinhalt darf nicht unmöglich, widerrechtlich oder sittenwidrig sein.</div>
+                    <div class="question">2. Was ist die Rechtsfolge eines Vertrags mit widerrechtlichem Inhalt?</div>
+                    <div class="answer">Der Vertrag ist von Anfang an nichtig (ungültig).</div>
+                    <div class="question">3. Erklären Sie den Unterschied zwischen einem 'widerrechtlichen' und einem 'sittenwidrigen' Vertragsinhalt.</div>
+                    <div class="answer">Widerrechtlich bedeutet, der Inhalt verstösst direkt gegen ein Gesetz (z.B. Betäubungsmittelgesetz). Sittenwidrig bedeutet, der Inhalt verstösst gegen die allgemeine Moral und die guten Sitten, ohne direkt gegen ein spezifisches Gesetz zu verstossen.</div>
+                    <div class="question">4. Ein Kunde bietet Ihnen Geld, damit Sie bei der nächsten MFK-Prüfung seines Fahrzeugs 'ein Auge zudrücken'. Sie schliessen darüber eine schriftliche Vereinbarung ab. Beurteilen Sie die Gültigkeit.</div>
+                    <div class="answer">Der Vertrag ist nichtig. Der Inhalt ist widerrechtlich (Anstiftung zu einer unkorrekten amtlichen Handlung) und zudem sittenwidrig.</div>
+                    <div class="question">5. Sie verkaufen eine Maschine, von der Sie nicht wissen, dass sie bereits durch einen Brand in Ihrem Aussenlager zerstört wurde. Ist der Kaufvertrag gültig?</div>
+                    <div class="answer">Nein, der Vertrag ist nichtig. Er hat einen unmöglichen Inhalt, da die Leistung (Übergabe der Maschine) bereits bei Vertragsabschluss objektiv unmöglich war.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        dropdown.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
