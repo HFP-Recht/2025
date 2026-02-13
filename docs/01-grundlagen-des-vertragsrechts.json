@@ -1,0 +1,294 @@
+{
+  "assignmentTitle": "01 Grundlagen des Vertragsrechts",
+  "solution_keys": [
+    "teacher2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "A. Das Konzept der Obligation": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q1",
+          "text": "Was versteht das Gesetz unter einer 'Obligation'?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q2",
+          "text": "Wer ist bei einem Reparaturauftrag Gläubiger bezüglich der Zahlung und wer ist Schuldner?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q3",
+          "text": "Erklären Sie, warum bei einem Kaufvertrag über ein Ersatzteil zwei Obligationen entstehen."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q4",
+          "text": "Beschreiben Sie den Unterschied zwischen einer 'Forderung' und einer 'Schuld' anhand eines Beispiels aus Ihrer Werkstatt."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q5",
+          "text": "Ein Landwirt kauft bei Ihnen einen gebrauchten Traktor. Identifizieren Sie die beiden Obligationen und benennen Sie jeweils Gläubiger und Schuldner."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q6",
+          "text": "Sie vereinbaren mit einem Mitarbeiter einen Bonus für besonders gute Leistungen. Welche Obligation entsteht hier und wer sind die Parteien?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q1",
+            "answer": "<p>Eine Obligation ist ein Rechtsverhältnis zwischen zwei oder mehreren Personen. Dabei ist eine Person (der Schuldner) verpflichtet, der anderen Person (dem Gläubiger) eine bestimmte Leistung zu erbringen.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q2",
+            "answer": "<p>Bezüglich der Zahlung ist die Werkstatt der Gläubiger (hat Anspruch auf das Geld) und der Kunde ist der Schuldner (ist zur Zahlung verpflichtet).</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q3",
+            "answer": "<p>Bei einem Kaufvertrag entstehen zwei Obligationen, weil beide Parteien sowohl eine Leistungspflicht haben als auch einen Leistungsanspruch. 1. Die Warenobligation: Der Verkäufer schuldet die Übergabe des Ersatzteils. 2. Die Kaufpreisobligation: Der Käufer schuldet die Bezahlung des Kaufpreises. Die Rollen von Gläubiger und Schuldner sind bei jeder Obligation vertauscht.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q4",
+            "answer": "<p>Eine Forderung ist das Recht des Gläubigers, eine Leistung zu verlangen. Eine Schuld ist die Pflicht des Schuldners, diese Leistung zu erbringen. Beispiel: Nach einer Reparatur hat die Werkstatt eine Forderung auf Bezahlung der Rechnung. Der Kunde hat die Schuld, diese Rechnung zu begleichen.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q5",
+            "answer": "<p>1. Obligation (Übergabe des Traktors): Der Landwirt ist Gläubiger, Sie (der Verkäufer) sind Schuldner. 2. Obligation (Bezahlung des Kaufpreises): Sie (der Verkäufer) sind Gläubiger, der Landwirt ist Schuldner.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q6",
+            "answer": "<p>Es entsteht eine Obligation zur Zahlung des Bonus. Sie (der Arbeitgeber) sind der Schuldner und der Mitarbeiter ist der Gläubiger der Bonuszahlung.</p>"
+          }
+        ]
+      }
+    },
+    "B. Voraussetzung 1: Einigung über den Vertragsinhalt (Konsens)": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q7",
+          "text": "Welche zwei Willenserklärungen sind für eine Einigung notwendig?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q8",
+          "text": "Sind Preislisten und Inserate gemäss Gesetz verbindliche Anträge?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q9",
+          "text": "Erklären Sie den Unterschied zwischen einem Antrag 'unter Anwesenden' und 'unter Abwesenden' bezüglich der Bindungsdauer."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q10",
+          "text": "Warum ist die Auslage einer Maschine mit Preisangabe im Showroom ein verbindlicher Antrag, ein Prospekt mit der gleichen Maschine aber nicht?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q11",
+          "text": "Ein Kunde fragt per E-Mail die Kosten für einen Service an. Sie antworten mit einem Kostenvoranschlag von CHF 1'500.-. Der Kunde antwortet nicht. Ist ein Vertrag zustande gekommen? Begründen Sie."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q12",
+          "text": "Sie bieten einem Kunden mündlich eine gebrauchte Maschine für CHF 20'000.- an. Er sagt: 'Ich überlege es mir.' Am nächsten Tag ruft er an und will die Maschine kaufen. Sind Sie noch an Ihr Angebot gebunden?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q7",
+            "answer": "<p>Für eine Einigung sind Antrag (auch Offerte oder Angebot genannt) und Annahme notwendig (Art. 1 Abs. 1 OR).</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q8",
+            "answer": "<p>Nein, gemäss Gesetz (Art. 7 OR) sind Preislisten, Inserate, Prospekte und Ähnliches unverbindlich. Sie gelten nur als Einladung zur Angebotsstellung.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q9",
+            "answer": "<p>Ein Antrag unter Anwesenden (z.B. im Gespräch, am Telefon) muss sofort angenommen werden, sonst verliert er seine Gültigkeit. Ein Antrag unter Abwesenden (z.B. per Brief, E-Mail) bleibt für eine angemessene Frist verbindlich, die die Übermittlungs- und Bedenkzeit umfasst.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q10",
+            "answer": "<p>Die Auslage von Waren mit Preisangabe ist ein verbindlicher Antrag, da sie sich an die anwesende Person richtet und der Verkäufer die Ware vorrätig hat. Ein Prospekt ist unverbindlich, da er sich an eine unbestimmte Vielzahl von Personen richtet und der Anbieter möglicherweise nicht in der Lage wäre, alle zu beliefern.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q11",
+            "answer": "<p>Nein, es ist kein Vertrag zustande gekommen. Ihr Kostenvoranschlag ist der Antrag. Für einen Vertragsabschluss fehlt die Annahme durch den Kunden. Schweigen gilt grundsätzlich nicht als Annahme.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q12",
+            "answer": "<p>Nein, Sie sind nicht mehr an Ihr Angebot gebunden. Bei einem mündlichen Angebot (Antrag unter Anwesenden) muss die Annahme sofort erfolgen. Da der Kunde das Angebot nicht sofort angenommen hat, ist es erloschen.</p>"
+          }
+        ]
+      }
+    },
+    "C. Voraussetzung 2: Handlungsfähigkeit der Parteien": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q13",
+          "text": "Welche zwei Merkmale definieren die Handlungsfähigkeit einer Person?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q14",
+          "text": "Welche Folge hat ein Vertragsabschluss mit einer urteilsunfähigen Person?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q15",
+          "text": "Erklären Sie, warum ein 17-jähriger Lernender nur beschränkt handlungsfähig ist."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q16",
+          "text": "Warum ist die Zustimmung der gesetzlichen Vertreter bei Verträgen mit Minderjährigen so wichtig?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q17",
+          "text": "Ein 16-jähriger Schüler möchte sein Mofa bei Ihnen für CHF 500.- reparieren lassen. Dürfen Sie den Vertrag abschliessen? Was müssen Sie beachten?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q18",
+          "text": "Ein offensichtlich stark alkoholisierter Kunde will einen Kaufvertrag für eine teure Baumaschine unterschreiben. Beurteilen Sie die Gültigkeit dieses Vertrags."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q13",
+            "answer": "<p>Die Handlungsfähigkeit wird durch die Urteilsfähigkeit (die Fähigkeit, vernunftgemäss zu handeln) und die Mündigkeit (Vollendung des 18. Lebensjahres) definiert.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q14",
+            "answer": "<p>Ein Vertragsabschluss mit einer urteilsunfähigen Person ist von Anfang an nichtig, also rechtlich unwirksam (Art. 18 ZGB).</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q15",
+            "answer": "<p>Ein 17-jähriger Lernender ist zwar urteilsfähig, aber noch nicht mündig (volljährig). Daher ist er nur beschränkt handlungsunfähig und benötigt für die meisten Verträge die Zustimmung seiner gesetzlichen Vertreter (Eltern).</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q16",
+            "answer": "<p>Die Zustimmung ist wichtig, weil der Vertrag ohne sie nichtig ist (Art. 19 ZGB). Sie dient dem Schutz des Minderjährigen vor übereilten oder nachteiligen Vertragsabschlüssen.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q17",
+            "answer": "<p>Sie dürfen den Vertrag abschliessen, aber um sicherzustellen, dass er gültig ist, müssen Sie die Zustimmung der gesetzlichen Vertreter (Eltern) des Schülers einholen. Ohne diese Zustimmung ist der Vertrag für den Schüler unverbindlich und Sie tragen das Risiko, dass die Eltern die Genehmigung verweigern.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q18",
+            "answer": "<p>Der Vertrag ist nichtig. Eine stark alkoholisierte Person ist vorübergehend urteilsunfähig. Verträge, die von urteilsunfähigen Personen abgeschlossen werden, entfalten keine rechtliche Wirkung.</p>"
+          }
+        ]
+      }
+    },
+    "D. Voraussetzung 3: Einhaltung von Formvorschriften": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q19",
+          "text": "Was besagt der Grundsatz der Formfreiheit?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q20",
+          "text": "Nennen Sie zwei Beispiele für Verträge, die eine gesetzlich vorgeschriebene Form erfordern."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q21",
+          "text": "Erklären Sie die zwei Hauptzwecke von Formvorschriften (Warn- und Beweisfunktion)."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q22",
+          "text": "Was ist der Unterschied zwischen einfacher Schriftlichkeit und öffentlicher Beurkundung?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q23",
+          "text": "Sie vereinbaren mit einem Mitarbeiter mündlich ein Konkurrenzverbot nach Austritt aus der Firma. Ist diese Abmachung gültig? Begründen Sie mit Hilfe des Lehrmittels."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q24",
+          "text": "Sie verkaufen einem Kunden eine Motorsäge für CHF 800.- per Handschlag. Ist dieser Kaufvertrag gültig?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q19",
+            "answer": "<p>Der Grundsatz der Formfreiheit (Art. 11 OR) besagt, dass Verträge in jeder beliebigen Form (mündlich, schriftlich, stillschweigend) abgeschlossen werden können, solange das Gesetz nicht ausnahmsweise eine bestimmte Form vorschreibt.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q20",
+            "answer": "<p>1. Grundstückkaufvertrag (erfordert öffentliche Beurkundung). 2. Lehrvertrag (erfordert qualifizierte Schriftlichkeit).</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q21",
+            "answer": "<p>Warnfunktion: Die Parteien sollen vor übereilten Vertragsabschlüssen geschützt werden, indem der formale Akt zum Innehalten und Überlegen zwingt. Beweisfunktion: Die Formvorschrift schafft Rechtssicherheit, da der Vertragsabschluss und der genaue Inhalt im Streitfall einfach bewiesen werden können.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q22",
+            "answer": "<p>Bei der einfachen Schriftlichkeit muss der Vertrag schriftlich abgefasst und von den verpflichteten Parteien eigenhändig unterschrieben werden. Bei der öffentlichen Beurkundung muss der Vertrag zusätzlich unter Mitwirkung einer staatlich anerkannten Urkundsperson (Notar) abgeschlossen werden.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q23",
+            "answer": "<p>Nein, die Abmachung ist nicht gültig. Gemäss Lehrmittel (Tabelle S. 54) und Art. 340 Abs. 1 OR erfordert ein Konkurrenzverbot die einfache Schriftlichkeit. Da diese Form nicht eingehalten wurde, ist die Vereinbarung nichtig (Art. 11 Abs. 2 OR).</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q24",
+            "answer": "<p>Ja, dieser Kaufvertrag ist gültig. Für den Kauf einer beweglichen Sache wie einer Motorsäge schreibt das Gesetz keine besondere Form vor. Es gilt der Grundsatz der Formfreiheit, daher ist ein mündlicher Vertrag bzw. ein Vertrag per Handschlag rechtsgültig.</p>"
+          }
+        ]
+      }
+    },
+    "E. Voraussetzung 4: Zulässiger Vertragsinhalt": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q25",
+          "text": "Welche drei inhaltlichen Schranken setzt das Gesetz der Vertragsfreiheit?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q26",
+          "text": "Was ist die Rechtsfolge eines Vertrags mit widerrechtlichem Inhalt?"
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q27",
+          "text": "Erklären Sie den Unterschied zwischen einem 'widerrechtlichen' und einem 'sittenwidrigen' Vertragsinhalt."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q28",
+          "text": "Geben Sie ein eigenes Beispiel für einen Vertrag mit 'unmöglichem' Inhalt."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q29",
+          "text": "Ein Kunde bietet Ihnen Geld, damit Sie bei der nächsten MFK-Prüfung seines Fahrzeugs 'ein Auge zudrücken'. Sie schliessen darüber eine schriftliche Vereinbarung ab. Beurteilen Sie die Gültigkeit."
+        },
+        {
+          "id": "01_Grundlagen_des_Vertragsrechts_q30",
+          "text": "Sie verkaufen eine Maschine, von der Sie nicht wissen, dass sie bereits durch einen Brand in Ihrem Aussenlager zerstört wurde. Ist der Kaufvertrag gültig?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q25",
+            "answer": "<p>Das Gesetz setzt der Vertragsfreiheit drei Schranken (Art. 20 OR): Der Vertragsinhalt darf nicht unmöglich, widerrechtlich oder sittenwidrig sein.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q26",
+            "answer": "<p>Ein Vertrag mit widerrechtlichem Inhalt ist von Anfang an nichtig, das heisst rechtlich unwirksam.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q27",
+            "answer": "<p>Ein widerrechtlicher Inhalt verstösst direkt gegen eine zwingende gesetzliche Vorschrift (z.B. Verkauf von Drogen). Ein sittenwidriger Inhalt verstösst gegen die anerkannten Moralvorstellungen der Gesellschaft, ohne zwingend ein spezifisches Gesetz zu verletzen (z.B. Bezahlung für das Nichtanzeigen einer Straftat).</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q28",
+            "answer": "<p>Ein Vertrag über den Verkauf des Matterhorns oder ein Vertrag, der jemanden verpflichtet, ohne Hilfsmittel auf den Mond zu fliegen. Die versprochene Leistung ist objektiv für niemanden erbringbar.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q29",
+            "answer": "<p>Die Vereinbarung ist ungültig. Ihr Inhalt ist sowohl widerrechtlich (Verstoss gegen Strassenverkehrsgesetze, evtl. Urkundenfälschung/Bestechung) als auch sittenwidrig. Ein solcher Vertrag ist gemäss Art. 20 OR nichtig.</p>"
+          },
+          {
+            "id": "01_Grundlagen_des_Vertragsrechts_q30",
+            "answer": "<p>Nein, der Kaufvertrag ist nicht gültig. Es handelt sich um einen Fall der anfänglichen objektiven Unmöglichkeit, da die Leistung (Übergabe der spezifischen Maschine) bereits bei Vertragsabschluss unmöglich war. Der Vertrag ist daher gemäss Art. 20 OR nichtig.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

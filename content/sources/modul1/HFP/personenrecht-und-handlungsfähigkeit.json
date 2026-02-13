@@ -1,0 +1,123 @@
+{
+  "assignmentTitle": "Personenrecht und Handlungsfähigkeit",
+  "solution_keys": [
+    "teacher2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "A. Die Vertragsparteien: Natürliche und Juristische Personen": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q1",
+          "text": "Was versteht das Gesetz unter einer 'natürlichen Person'?"
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q2",
+          "text": "Nennen Sie zwei Beispiele für 'juristische Personen', die in Ihrem Berufsalltag als Kunden oder Lieferanten auftreten."
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q3",
+          "text": "Erklären Sie, warum Ihr Reparaturbetrieb (sofern es eine GmbH oder AG ist) selbst Verträge abschliessen kann und nicht Sie als Werkstattleiter persönlich haften."
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q4",
+          "text": "Was ist der Unterschied zwischen einem Rechtssubjekt und einem Rechtsobjekt? Geben Sie je ein Beispiel aus Ihrer Werkstatt."
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q5",
+          "text": "Ein Landwirt (Einzelunternehmer) kauft bei Ihnen eine Maschine. Wer ist in diesem Fall die Vertragspartei?"
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q6",
+          "text": "Die 'Müller Landtechnik AG' bestellt bei Ihnen Ersatzteile. Wer ist hier die Vertragspartei und wer muss die Rechnung bezahlen?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q1",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q2",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q3",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q4",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q5",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q6",
+            "answer": "<p></p>"
+          }
+        ]
+      }
+    },
+    "B. Rechts- und Handlungsfähigkeit": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q7",
+          "text": "Welche zwei Voraussetzungen müssen für die volle Handlungsfähigkeit einer natürlichen Person erfüllt sein?"
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q8",
+          "text": "Was bedeutet 'beschränkte Handlungsunfähigkeit' und welche Personengruppe ist typischerweise davon betroffen?"
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q9",
+          "text": "Erklären Sie den Unterschied zwischen Rechtsfähigkeit und Handlungsfähigkeit an einem Beispiel eines Kleinkindes, das von seinem Grossvater eine Liegenschaft erbt."
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q10",
+          "text": "Warum ist die Urteilsfähigkeit situationsabhängig? Erläutern Sie dies am Beispiel eines Kunden, der unter starkem Medikamenteneinfluss steht."
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q11",
+          "text": "Beurteilen Sie den Fall aus dem 'Praxisbezug': Ist der Kaufvertrag über das Diagnosegerät, den Ihr 17-jähriger Lernender abgeschlossen hat, gültig? Begründen Sie Ihre Antwort mit den Begriffen aus dem Lehrmittel."
+        },
+        {
+          "id": "Personenrecht_und_Handlungsfähigkeit_q12",
+          "text": "Ein 15-jähriger Schüler möchte sein Mofa bei Ihnen für CHF 80.- reparieren lassen. Er bezahlt aus seinem Sackgeld. Dürfen Sie den Auftrag ohne Zustimmung der Eltern annehmen? Begründen Sie."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q7",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q8",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q9",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q10",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q11",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Personenrecht_und_Handlungsfähigkeit_q12",
+            "answer": "<p></p>"
+          }
+        ]
+      }
+    }
+  }
+}

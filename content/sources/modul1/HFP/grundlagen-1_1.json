@@ -1,0 +1,234 @@
+{
+  "assignmentTitle": "Grundlagen des Schweizer Rechtssystems",
+  "solution_keys": [],
+  "subAssignments": {
+    "A. Recht, Sitte und Moral": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q1",
+          "text": "Was ist der entscheidende Unterschied zwischen Recht einerseits und Sitte und Moral andererseits?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q2",
+          "text": "Welche der drei Verhaltensregeln befasst sich mit der inneren Einstellung einer Person?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q3",
+          "text": "Erklären Sie, warum ein funktionierender Staat nicht allein auf Sitte und Moral basieren kann."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q4",
+          "text": "Inwiefern ähneln sich Recht und Sitte, und wo liegt der fundamentale Unterschied?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q5",
+          "text": "Ein Kunde grüsst beim Betreten Ihrer Werkstatt nie. Ordnen Sie dieses Verhalten einer der drei Kategorien (Recht, Sitte, Moral) zu und begründen Sie Ihre Wahl."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q6",
+          "text": "Ein Mitarbeiter verkauft wissentlich defekte Ersatzteile als neuwertig. Welche Verhaltensregeln verletzt er damit? Begründen Sie."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q1",
+            "answer": "<p>Der entscheidende Unterschied ist die Erzwingbarkeit. Das Recht kann vom Staat mit Zwang durchgesetzt werden, während die Einhaltung von Sitte und Moral nicht erzwungen werden kann.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q2",
+            "answer": "<p>Die Moral befasst sich mit der inneren Einstellung einer Person.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q3",
+            "answer": "<p>Ein Staat kann nicht allein auf Sitte und Moral basieren, weil diese nicht erzwingbar sind. Das Recht schafft eine verbindliche und durchsetzbare Ordnung, die für das geordnete Zusammenleben und die Konfliktlösung in einer komplexen Gesellschaft notwendig ist.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q4",
+            "answer": "<p>Recht und Sitte ähneln sich darin, dass sie sich beide auf das äussere Verhalten der Menschen beziehen. Der fundamentale Unterschied liegt in der Erzwingbarkeit: Das Recht ist staatlich erzwingbar, die Sitte hingegen nicht.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q5",
+            "answer": "<p>Dieses Verhalten ist ein Verstoss gegen die Sitte. Grüssen ist eine Höflichkeitsregel, deren Einhaltung zwar erwartet wird, aber nicht rechtlich erzwungen werden kann. Es ist kein rechtliches Vergehen und betrifft nicht primär die innere moralische Haltung, sondern das äussere Benehmen.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q6",
+            "answer": "<p>Der Mitarbeiter verletzt alle drei Verhaltensregeln:</p><ul><li><strong>Recht:</strong> Er begeht wahrscheinlich einen Betrug, was strafbar ist. Der Verkauf unterliegt zudem den privatrechtlichen Regeln des Kaufvertrags (Gewährleistung), die er verletzt.</li><li><strong>Moral:</strong> Er handelt unehrlich und täuscht den Kunden wissentlich, was moralisch verwerflich ist.</li><li><strong>Sitte:</strong> Er verstösst gegen die anständigen und fairen Gepflogenheiten des Geschäftslebens.</li></ul>"
+          }
+        ]
+      }
+    },
+    "B. Die Normenhierarchie": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q7",
+          "text": "Nennen Sie die drei Stufen der Normenhierarchie in der korrekten Reihenfolge."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q8",
+          "text": "Welche Norm bildet die Grundlage für alle Gesetze?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q9",
+          "text": "Erklären Sie mit eigenen Worten, warum es eine Normenhierarchie braucht."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q10",
+          "text": "Was ist der Zweck einer Verordnung im Verhältnis zu einem Gesetz?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q11",
+          "text": "Das Strassenverkehrsgesetz (Gesetzesstufe) schreibt vor, dass der Bund Vorschriften über die technische Sicherheit von Fahrzeugen erlässt. Auf welcher Stufe der Normenhierarchie finden Sie die detaillierten Angaben zur erforderlichen Profiltiefe von Reifen?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q12",
+          "text": "Stellen Sie sich vor, Ihr Kanton erlässt ein Gesetz, das den Import von Baumaschinen einer bestimmten Marke verbietet, obwohl dies gemäss Bundesverfassung erlaubt ist. Welches Recht geht vor und warum?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q7",
+            "answer": "<p>1. Verfassung, 2. Gesetz, 3. Verordnung.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q8",
+            "answer": "<p>Die Verfassung bildet die Grundlage für alle Gesetze.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q9",
+            "answer": "<p>Die Normenhierarchie schafft eine klare Rangordnung der Rechtsregeln. Sie stellt sicher, dass grundlegende Prinzipien (in der Verfassung) nicht durch detailliertere Regelungen (in Gesetzen oder Verordnungen) ausgehebelt werden können. Jede untergeordnete Regel muss mit der übergeordneten übereinstimmen, was für Stabilität und Widerspruchsfreiheit im Rechtssystem sorgt.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q10",
+            "answer": "<p>Eine Verordnung konkretisiert und detailliert die allgemeinen Bestimmungen eines Gesetzes. Sie enthält die notwendigen Ausführungsbestimmungen, um das Gesetz in der Praxis anwenden zu können.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q11",
+            "answer": "<p>Die detaillierten Angaben zur Profiltiefe von Reifen finden sich auf der Stufe der Verordnung. Das Gesetz gibt den Rahmen vor, während die Verordnung die technischen Details regelt.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q12",
+            "answer": "<p>Das Bundesrecht geht vor. Der Grundsatz \"Bundesrecht bricht kantonales Recht\" besagt, dass kantonale Gesetze nicht im Widerspruch zur Bundesverfassung oder zu Bundesgesetzen stehen dürfen. Das kantonale Gesetz wäre daher nicht anwendbar.</p>"
+          }
+        ]
+      }
+    },
+    "C. Der Rechtsstaat und die Gewaltenteilung": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q13",
+          "text": "Nennen Sie die vier Elemente des Rechtsstaates gemäss Lehrmittel."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q14",
+          "text": "Wie heissen die drei Gewalten auf Bundesebene?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q15",
+          "text": "Erklären Sie den Zweck der Gewaltenteilung in einem Rechtsstaat."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q16",
+          "text": "Was ist der Unterschied zwischen der horizontalen und der vertikalen Gewaltenteilung (Föderalismus)?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q17",
+          "text": "Wenn das nationale Parlament (National- und Ständerat) ein neues Gesetz zur Berufsbildung verabschiedet, welche der drei Gewalten ist hier auf Bundesebene tätig?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q18",
+          "text": "Ihre Gemeinde erlässt ein neues Kehrichtreglement. Ordnen Sie diesen Vorgang der vertikalen Gewaltenteilung zu und begründen Sie, warum dies eine typische Gemeindeaufgabe ist."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q13",
+            "answer": "<p>Die vier Elemente sind: Legalitätsprinzip, Gewaltentrennung, Menschenrechte und politische Rechte.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q14",
+            "answer": "<p>Auf Bundesebene heissen die drei Gewalten: National- und Ständerat (Legislative), Bundesrat (Exekutive) und Bundesgericht (Judikative).</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q15",
+            "answer": "<p>Der Zweck der Gewaltenteilung ist die Verhinderung von Machtkonzentration und Machtmissbrauch. Indem die staatliche Macht auf drei unabhängige Organe (Legislative, Exekutive, Judikative) aufgeteilt wird, kontrollieren und beschränken sich diese gegenseitig.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q16",
+            "answer": "<p>Die horizontale Gewaltenteilung teilt die Staatsmacht auf der gleichen Ebene in die drei Funktionen Gesetzgebung (Legislative), Ausführung (Exekutive) und Rechtsprechung (Judikative). Die vertikale Gewaltenteilung (Föderalismus) teilt die staatlichen Aufgaben und Kompetenzen auf verschiedene staatliche Ebenen auf, in der Schweiz sind dies Bund, Kantone und Gemeinden.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q17",
+            "answer": "<p>Hier ist die Legislative (gesetzgebende Behörde) tätig. Auf Bundesebene sind dies der National- und Ständerat.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q18",
+            "answer": "<p>Dieser Vorgang ist der vertikalen Gewaltenteilung zuzuordnen, da die Kompetenz zur Regelung der Kehrichtabfuhr der untersten staatlichen Ebene, der Gemeinde, zugewiesen ist. Es ist eine typische Gemeindeaufgabe, weil sie lokale Gegebenheiten betrifft und am besten vor Ort organisiert und verwaltet werden kann.</p>"
+          }
+        ]
+      }
+    },
+    "D. Rechtsquellen": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q19",
+          "text": "Welches ist heute die wichtigste Rechtsquelle?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q20",
+          "text": "Nennen Sie die drei Rechtsquellen in der Reihenfolge ihrer Anwendung."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q21",
+          "text": "Erklären Sie, unter welchen Umständen ein Gericht selbst eine Regel aufstellen muss (Richterrecht)."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q22",
+          "text": "Warum hat das Gewohnheitsrecht heute an Bedeutung verloren?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q23",
+          "text": "Ein Kunde beruft sich auf einen 'Handelsbrauch' in der Baumaschinenbranche, der aber in keinem Gesetz steht. Um welche Art von Rechtsquelle könnte es sich hier handeln?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q24",
+          "text": "Sie suchen die gesetzliche Regelung zur Garantie (Gewährleistung) bei einem Kaufvertrag. In welcher der drei Rechtsquellen werden Sie primär nachschlagen?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q19",
+            "answer": "<p>Die wichtigste Rechtsquelle ist das geschriebene Recht (Verfassung, Gesetze, Verordnungen).</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q20",
+            "answer": "<p>1. Geschriebenes Recht, 2. Gewohnheitsrecht, 3. Richterrecht.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q21",
+            "answer": "<p>Ein Gericht muss selbst eine Regel aufstellen (Richterrecht anwenden), wenn es für einen konkreten Fall weder im geschriebenen Recht noch im Gewohnheitsrecht eine passende Vorschrift findet. Es muss dann eine Gesetzeslücke füllen.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q22",
+            "answer": "<p>Das Gewohnheitsrecht hat an Bedeutung verloren, weil die meisten Lebensbereiche heute umfassend durch das geschriebene Recht (Gesetze und Verordnungen) geregelt sind, welches das ungeschriebene Gewohnheitsrecht weitgehend verdrängt hat.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q23",
+            "answer": "<p>Es könnte sich um Gewohnheitsrecht handeln, da es sich um eine ungeschriebene Regel handelt, die durch langjährige Übung und allgemeine Anerkennung in einer bestimmten Branche entstanden ist.</p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q24",
+            "answer": "<p>Man wird primär im geschriebenen Recht nachschlagen, genauer gesagt im Obligationenrecht (OR), welches die Bestimmungen zum Kaufvertrag und zur Gewährleistung enthält.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

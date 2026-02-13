@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "pilot-vertragsrecht",
+  "title": "Pilotmodul Vertragsrecht und Rechtsquellen",
+  "description": "Pilotmodul fuer den neuen AI-gestuetzten Erstellungs- und Review-Prozess mit Fokus auf Vertragsrecht und Fallanalyse.",
+  "outcomes": [
+    "Die Lernenden erklaeren den Vertragsabschluss nach OR Art. 1.",
+    "Die Lernenden pruefen Formvorschriften und gueltige Vertragsinhalte.",
+    "Die Lernenden wenden die 4-Schritt-Fallanalyse auf Werkstattfaelle an."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [
+    {
+      "id": "or-art-1",
+      "citation": "OR Art. 1"
+    },
+    {
+      "id": "or-art-11",
+      "citation": "OR Art. 11"
+    },
+    {
+      "id": "zgb-art-1",
+      "citation": "ZGB Art. 1"
+    },
+    {
+      "id": "bv-art-49",
+      "citation": "BV Art. 49"
+    }
+  ],
+  "metadata": {
+    "language": "de-CH",
+    "estimatedMinutes": 55
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "docs/01-grundlagen-des-vertragsrechts.json",
+      "docs/fallstudien-zu-schweizer-rechtsystem.json",
+      "docs/01 Vertragsform.md",
+      "docs/03 Rechtsfalle.md"
+    ],
+    "generatedBy": "prompt-engine-fallback-v1",
+    "generatedAt": "2026-02-11T16:00:00.000Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "lesson_1",
+      "title": "Vertragsrecht kompakt",
+      "blocks": [
+        {
+          "id": "theory_1",
+          "type": "theory",
+          "title": "Vertragsabschluss und Form",
+          "content": "Ein Vertrag entsteht durch Antrag und Annahme gemaess OR Art. 1. Grundsaetzlich gilt die Formfreiheit nach OR Art. 11. Bei gesetzlich vorgesehenen Ausnahmen fuehrt ein Formmangel zur Nichtigkeit.\n\nIm Werkstattalltag sind klare Absprachen, dokumentierte Auftragsaenderungen und nachvollziehbare Kommunikation entscheidend, damit Leistungen, Preise und Verantwortlichkeiten rechtssicher bleiben."
+        },
+        {
+          "id": "check_1",
+          "type": "competence-check",
+          "title": "Kompetenzcheck Vertragsgrundlagen",
+          "introduction": "Beantworten Sie die Fragen in ganzen Saetzen und begruenden Sie Ihre Aussage mit mindestens einer Rechtsgrundlage.",
+          "questions": [
+            {
+              "id": "q_01",
+              "prompt": "Was sind die zwei notwendigen Willenserklaerungen fuer den Vertragsabschluss und welche Bedeutung hat OR Art. 1 dabei?",
+              "hint": "Nennen Sie Antrag und Annahme und beschreiben Sie den Moment des Konsenses.",
+              "solution": "Eine vollstaendige Antwort nennt Antrag und Annahme als notwendige Willenserklaerungen. Sie erklaert, dass nach OR Art. 1 ein Vertrag zustande kommt, wenn beide Parteien inhaltlich uebereinstimmen.",
+              "requiredLegalReferences": [
+                "or-art-1"
+              ]
+            },
+            {
+              "id": "q_02",
+              "prompt": "Wann ist ein Formmangel rechtlich relevant und welche Folge ergibt sich aus OR Art. 11?",
+              "hint": "Unterscheiden Sie Formfreiheit und gesetzliche Formpflicht.",
+              "solution": "Ein Formmangel ist relevant, wenn das Gesetz fuer einen Vertrag eine bestimmte Form vorschreibt. Wird diese Form nicht eingehalten, ist der Vertrag nach OR Art. 11 nichtig.",
+              "requiredLegalReferences": [
+                "or-art-11"
+              ]
+            },
+            {
+              "id": "q_03",
+              "prompt": "Wie hilft ZGB Art. 1, wenn ein Vertrag oder Gesetz eine konkrete Frage nicht direkt beantwortet?",
+              "hint": "Denken Sie an die Reihenfolge Gesetz, Gewohnheitsrecht und richterliche Rechtsfindung.",
+              "solution": "ZGB Art. 1 gibt die Reihenfolge der Rechtsfindung vor: zuerst Gesetz, dann Gewohnheitsrecht, sonst richterliche Lueckenfuellung nach bewahrter Lehre und Ueberlieferung.",
+              "requiredLegalReferences": [
+                "zgb-art-1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson_2",
+      "title": "Fallanalyse im Werkstattkontext",
+      "blocks": [
+        {
+          "id": "lawcase_1",
+          "type": "law-case-4-step",
+          "title": "Der Konflikt zwischen Verordnung und Gesetz",
+          "caseText": "Eine Werkstatt erhaelt von einer kommunalen Stelle eine Anweisung, bestimmte Sicherheitspruefungen nur alle vier Jahre durchzufuehren. Das einschlaegige Bundesgesetz verlangt jedoch eine Pruefung alle zwei Jahre. Die Betriebsleitung will wissen, welche Regel verbindlich ist und wie sie gegenueber den Kunden kommunizieren muss.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Welche Beteiligten, Normen und Konfliktpunkte liegen vor?",
+              "hint": "Trennen Sie Tatsachen von rechtlicher Bewertung.",
+              "solution": "Die Loesung nennt die Werkstatt, die kommunale Stelle und das Bundesgesetz als zentrale Bezugspunkte. Sie beschreibt den Widerspruch zwischen vierjaehriger und zweijaehriger Prueffrist."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welche Rechtsquellen sind relevant und wie ist ihre Hierarchie?",
+              "hint": "Beruecksichtigen Sie insbesondere BV Art. 49.",
+              "solution": "Die Antwort ordnet kommunales Recht unter kantonalem und Bundesrecht ein. Sie verweist auf den Vorrang des Bundesrechts gemaess BV Art. 49."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen pruefen",
+              "prompt": "Welche Voraussetzungen muessen fuer die Anwendung des Vorrangprinzips gegeben sein?",
+              "hint": "Pruefen Sie, ob dieselbe Materie geregelt ist und ein echter Normkonflikt besteht.",
+              "solution": "Die Loesung zeigt, dass beide Normen dieselbe Prueffrist regeln und die kommunale Vorgabe dem Bundesrecht widerspricht. Daher greift das Vorrangprinzip."
+            },
+            {
+              "id": "step_4",
+              "title": "Rechtsfolge ableiten",
+              "prompt": "Welche konkrete Entscheidung folgt fuer die Werkstatt und wie sollte sie kommuniziert werden?",
+              "hint": "Formulieren Sie eine klare Handlungsanweisung fuer Betrieb und Kundenkommunikation.",
+              "solution": "Massgebend bleibt die zweijaehrige Prueffrist des Bundesgesetzes. Die Werkstatt dokumentiert den Entscheid intern und kommuniziert die bundesrechtliche Verpflichtung transparent gegenueber Kunden und Behoerden."
+            }
+          ]
+        },
+        {
+          "id": "solution_1",
+          "type": "solution-unlock",
+          "title": "Musterloesungen",
+          "unlockMode": "role-based",
+          "allowedRoles": [
+            "teacher",
+            "admin",
+            "editor"
+          ],
+          "solutions": [
+            {
+              "id": "sol_q_01",
+              "title": "Musterloesung Frage 1",
+              "content": "Ein Vertrag entsteht durch Antrag und Annahme, sobald inhaltlicher Konsens vorliegt. OR Art. 1 bildet die zentrale Grundlage fuer diesen Abschlussmechanismus.",
+              "relatedQuestionIds": [
+                "q_01"
+              ]
+            },
+            {
+              "id": "sol_q_02",
+              "title": "Musterloesung Frage 2",
+              "content": "Formmangel ist nur dort entscheidend, wo das Gesetz eine bestimmte Form verlangt. Wird diese Pflicht verletzt, ist der Vertrag nach OR Art. 11 nichtig.",
+              "relatedQuestionIds": [
+                "q_02"
+              ]
+            },
+            {
+              "id": "sol_q_03",
+              "title": "Musterloesung Frage 3",
+              "content": "ZGB Art. 1 strukturiert die Rechtsfindung bei Luecken: Gesetz, Gewohnheitsrecht und richterliche Entscheidung nach bewahrter Lehre.",
+              "relatedQuestionIds": [
+                "q_03"
+              ]
+            },
+            {
+              "id": "sol_step_4",
+              "title": "Musterloesung Fallanalyse",
+              "content": "Bei Normkonflikt geht Bundesrecht vor. Die Werkstatt setzt die zweijaehrige Frist um und begruendet den Entscheid mit BV Art. 49 sowie den einschlaegigen Spezialnormen.",
+              "relatedQuestionIds": [
+                "step_4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "discussion_1",
+          "type": "discussion-prompt",
+          "title": "Reflexion und Transfer",
+          "prompts": [
+            {
+              "id": "d_1",
+              "prompt": "Welche organisatorischen Massnahmen braucht ein Betrieb, um gesetzliche Aenderungen fruehzeitig umzusetzen?"
+            },
+            {
+              "id": "d_2",
+              "prompt": "Wie sollte die Werkstatt kommunizieren, wenn eine lokale Behoerde eine unzutreffende Anweisung erteilt?"
+            },
+            {
+              "id": "d_3",
+              "prompt": "Welche Risiken entstehen, wenn Auftragsaenderungen nur muendlich vereinbart werden?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

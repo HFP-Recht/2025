@@ -1,0 +1,294 @@
+{
+  "assignmentTitle": "Vertragsabschluss",
+  "solution_keys": [
+    "teacher2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "A. 1. Übereinstimmende Willensäusserung": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Vertragsabschluss_q1",
+          "text": "Was ist ein Antrag (Offerte) und was ist eine Annahme?"
+        },
+        {
+          "id": "Vertragsabschluss_q2",
+          "text": "Welche Anträge sind gemäss Gesetz unverbindlich?"
+        },
+        {
+          "id": "Vertragsabschluss_q3",
+          "text": "Erklären Sie den Unterschied zwischen einem verbindlichen Antrag (z.B. eine spezifische Offerte) und einem unverbindlichen Antrag (z.B. eine Preisliste in Ihrem Katalog)."
+        },
+        {
+          "id": "Vertragsabschluss_q4",
+          "text": "Beschreiben Sie eine Situation in Ihrer Werkstatt, in der ein Vertrag ohne Worte, also durch konkludentes Verhalten, zustande kommt."
+        },
+        {
+          "id": "Vertragsabschluss_q5",
+          "text": "Ein Kunde fragt per E-Mail die Kosten für einen Service an einer Baumaschine an. Sie antworten: 'Der Service kostet CHF 1'800.-'. Der Kunde antwortet: 'Ok, passt.' Beurteilen Sie, ob ein gültiger Vertrag zustande gekommen ist."
+        },
+        {
+          "id": "Vertragsabschluss_q6",
+          "text": "Formulieren Sie für eine Reparaturofferte einen kurzen Satz, der die Gültigkeit Ihres Angebots auf 14 Tage befristet."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Vertragsabschluss_q1",
+            "answer": "<p>Die erste Willensäusserung zum Abschluss eines Vertrags wird Antrag (auch Offerte oder Angebot) genannt. Die zweite, zustimmende Willensäusserung heisst Annahme.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q2",
+            "answer": "<p>Unverbindlich sind laut Gesetz Anträge, die sich an viele Empfänger richten, wie Tarife, Preislisten, Inserate, Prospekte und Kataloge.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q3",
+            "answer": "<p>Ein <strong>verbindlicher Antrag</strong> (z.B. eine spezifische Offerte oder die Auslage von Waren mit Preisangabe) bindet den Antragsteller. Nimmt die andere Partei an, kommt der Vertrag zustande. Ein <strong>unverbindlicher Antrag</strong> (z.B. eine Preisliste) ist rechtlich nur eine Einladung zur Offertstellung. Der Antragsteller ist nicht gebunden und kann frei entscheiden, ob er einen Vertrag mit der Person, die darauf reagiert, abschliessen will.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q4",
+            "answer": "<p>Ein Kunde fährt mit seinem Traktor, der einen offensichtlich platten Reifen hat, in die Werkstatt und zeigt dem Mechaniker wortlos auf den Reifen. Der Mechaniker nickt und beginnt mit der Reparatur. Das Zeigen auf den Reifen ist der Antrag, die Reparatur durchzuführen, und das Nicken sowie der Beginn der Arbeit ist die Annahme durch konkludentes Verhalten.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q5",
+            "answer": "<p>Ja, es ist ein gültiger Vertrag zustande gekommen. Ihre Antwort per E-Mail mit dem Preis von CHF 1'800.- ist ein klarer Antrag. Die Antwort des Kunden 'Ok, passt.' ist die übereinstimmende Annahme. Damit liegt eine übereinstimmende gegenseitige Willensäusserung über die wesentlichen Vertragspunkte (Dienstleistung und Preis) vor.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q6",
+            "answer": "<p>Mögliche Formulierungen: \"Dieses Angebot ist 14 Tage gültig.\" oder \"An diese Offerte halten wir uns 14 Tage gebunden.\"</p>"
+          }
+        ]
+      }
+    },
+    "B. 2. Handlungsfähigkeit der Parteien": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Vertragsabschluss_q7",
+          "text": "Welche zwei Kriterien müssen für die volle Handlungsfähigkeit einer natürlichen Person erfüllt sein?"
+        },
+        {
+          "id": "Vertragsabschluss_q8",
+          "text": "Was bedeutet 'beschränkte Handlungsunfähigkeit' bei Jugendlichen?"
+        },
+        {
+          "id": "Vertragsabschluss_q9",
+          "text": "Erläutern Sie, warum ein Vertrag mit einer urteilsunfähigen Person (z.B. stark alkoholisiert) für Ihren Betrieb ein grosses Risiko darstellt."
+        },
+        {
+          "id": "Vertragsabschluss_q10",
+          "text": "Erklären Sie die Konsequenzen, wenn Sie mit einem 16-jährigen Lehrling einen Reparaturvertrag über CHF 800.- ohne Zustimmung seiner Eltern abschliessen."
+        },
+        {
+          "id": "Vertragsabschluss_q11",
+          "text": "Der 17-jährige Sohn eines Landwirts bringt den Hoflader für einen Pneuwechsel (Kosten: CHF 1'200.-). Beurteilen Sie die Gültigkeit dieses Auftrags."
+        },
+        {
+          "id": "Vertragsabschluss_q12",
+          "text": "Ein Kunde, der Ihnen als geistig beeinträchtigt bekannt ist, möchte eine komplexe und teure Maschine kaufen. Wie gehen Sie vor, um einen rechtlich gültigen Vertrag sicherzustellen?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Vertragsabschluss_q7",
+            "answer": "<p>Für die volle Handlungsfähigkeit müssen zwei Kriterien erfüllt sein: <strong>Mündigkeit</strong> (Volljährigkeit) und <strong>Urteilsfähigkeit</strong> (Fähigkeit, vernunftgemäss zu handeln).</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q8",
+            "answer": "<p>Beschränkte Handlungsunfähigkeit bedeutet, dass eine Person zwar urteilsfähig, aber noch nicht mündig ist (z.B. Jugendliche). Solche Personen können nur mit der Zustimmung ihrer gesetzlichen Vertreter (z.B. Eltern) rechtsgültige Verträge abschliessen, ausser in gesetzlich vorgesehenen Ausnahmefällen.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q9",
+            "answer": "<p>Ein Vertrag mit einer urteilsunfähigen Person ist von Gesetzes wegen <strong>nichtig</strong>. Das bedeutet, er entfaltet keine rechtliche Wirkung. Für den Betrieb heisst das, dass er keine Zahlung für erbrachte Leistungen fordern kann. Wurde bereits eine Leistung erbracht (z.B. eine Reparatur), kann der Betrieb den Lohn dafür nicht einklagen. Bereits erhaltenes Geld müsste sogar zurückerstattet werden.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q10",
+            "answer": "<p>Der 16-jährige Lehrling ist beschränkt handlungsunfähig. Der Vertrag ist daher nur gültig, wenn seine gesetzlichen Vertreter (Eltern) zustimmen. Verweigern die Eltern die Zustimmung, ist der Vertrag von Anfang an nichtig. Sie können die Bezahlung der CHF 800.- dann nicht vom Lehrling fordern.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q11",
+            "answer": "<p>Der 17-Jährige ist beschränkt handlungsunfähig. Ein Auftrag über CHF 1'200.- übersteigt den Rahmen alltäglicher Geschäfte. Der Vertrag ist deshalb nur gültig, wenn seine Eltern als gesetzliche Vertreter zustimmen. Ohne ihre Zustimmung ist der Vertrag ungültig. Die Werkstatt sollte die Zustimmung der Eltern einholen, bevor sie die Arbeit ausführt.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q12",
+            "answer": "<p>Da die Person als geistig beeinträchtigt bekannt ist, besteht das Risiko der Urteilsunfähigkeit oder dass sie unter Beistandschaft steht. Um einen rechtlich gültigen Vertrag sicherzustellen, muss der gesetzliche Vertreter (Beistand) in den Vertragsabschluss einbezogen werden. Der Vertrag sollte mit der Zustimmung oder direkt mit dem Beistand abgeschlossen werden, um die Nichtigkeit des Vertrags zu vermeiden.</p>"
+          }
+        ]
+      }
+    },
+    "C. 3. Einhaltung der Formvorschriften": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Vertragsabschluss_q13",
+          "text": "Was besagt der Grundsatz der Formfreiheit?"
+        },
+        {
+          "id": "Vertragsabschluss_q14",
+          "text": "Nennen Sie die drei Arten von gesetzlichen Formvorschriften aus der Tabelle auf Seite 54."
+        },
+        {
+          "id": "Vertragsabschluss_q15",
+          "text": "Erklären Sie, warum es trotz Formfreiheit sinnvoll ist, Reparaturaufträge über CHF 1'000.- schriftlich festzuhalten."
+        },
+        {
+          "id": "Vertragsabschluss_q16",
+          "text": "Was ist die rechtliche Folge, wenn eine gesetzlich vorgeschriebene Form (z.B. Schriftlichkeit für ein Konkurrenzverbot) nicht eingehalten wird?"
+        },
+        {
+          "id": "Vertragsabschluss_q17",
+          "text": "Sie möchten mit einem neuen Mechaniker ein Konkurrenzverbot im Arbeitsvertrag vereinbaren. Ist dies mündlich möglich? Begründen Sie Ihre Antwort mit Hilfe des Lehrmittels."
+        },
+        {
+          "id": "Vertragsabschluss_q18",
+          "text": "Sie verkaufen eine gebrauchte Baumaschine für CHF 50'000.- per Handschlag. Ist dieser Kaufvertrag gültig?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Vertragsabschluss_q13",
+            "answer": "<p>Der Grundsatz der Formfreiheit besagt, dass Verträge in jeder beliebigen Form abgeschlossen werden können (mündlich, schriftlich, stillschweigend), solange das Gesetz nicht ausnahmsweise eine besondere Form vorschreibt.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q14",
+            "answer": "<p>Die drei Arten von gesetzlichen Formvorschriften sind: 1. Einfache Schriftlichkeit, 2. Qualifizierte Schriftlichkeit, 3. Öffentliche Beurkundung.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q15",
+            "answer": "<p>Es ist sinnvoll, solche Aufträge schriftlich festzuhalten, weil das schriftliche Dokument als <strong>Beweismittel</strong> dient. Bei späteren Unstimmigkeiten über den Umfang der Arbeiten, den Preis oder andere Bedingungen kann der schriftliche Vertrag Klarheit schaffen und Streitigkeiten vermeiden oder einfacher beilegen.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q16",
+            "answer": "<p>Wenn eine gesetzlich vorgeschriebene Form nicht eingehalten wird, ist der Vertrag oder die betreffende Klausel <strong>nichtig</strong> und somit rechtlich unwirksam.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q17",
+            "answer": "<p>Nein, das ist nicht möglich. Gemäss der Tabelle auf Seite 54 erfordert ein Konkurrenzverbot im Arbeitsverhältnis die <strong>einfache Schriftlichkeit</strong>. Eine mündliche Vereinbarung wäre wegen des Formmangels nichtig.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q18",
+            "answer": "<p>Ja, dieser Kaufvertrag ist gültig. Für den Kauf einer beweglichen Sache (Fahrniskauf) wie einer Baumaschine schreibt das Gesetz keine besondere Form vor. Es gilt der Grundsatz der Formfreiheit, weshalb ein mündlicher Vertrag per Handschlag rechtlich bindend ist.</p>"
+          }
+        ]
+      }
+    },
+    "D. 4. Zulässiger Vertragsinhalt": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Vertragsabschluss_q19",
+          "text": "Nennen Sie die drei Grenzen der Vertragsfreiheit bezüglich des Inhalts."
+        },
+        {
+          "id": "Vertragsabschluss_q20",
+          "text": "Was ist die Rechtsfolge eines Vertrags mit widerrechtlichem Inhalt?"
+        },
+        {
+          "id": "Vertragsabschluss_q21",
+          "text": "Erklären Sie den Unterschied zwischen einem widerrechtlichen und einem sittenwidrigen Vertragsinhalt anhand je eines Beispiels."
+        },
+        {
+          "id": "Vertragsabschluss_q22",
+          "text": "Eine spezifische Occasionsmaschine wird vor der Übergabe an den Käufer durch einen unverschuldeten Brand zerstört. Erklären Sie, warum die Leistung des Verkäufers 'unmöglich' geworden ist."
+        },
+        {
+          "id": "Vertragsabschluss_q23",
+          "text": "Ein Kunde verlangt von Ihnen, das Abgasreinigungssystem einer Landmaschine zu deaktivieren, was gegen die Umweltvorschriften verstösst. Beurteilen Sie die Gültigkeit einer solchen Abmachung."
+        },
+        {
+          "id": "Vertragsabschluss_q24",
+          "text": "Sie schliessen einen Vertrag über den Verkauf eines Ersatzteils, von dem Sie nicht wissen, dass es bereits seit Jahren nicht mehr produziert wird und unauffindbar ist. Beurteilen Sie die Gültigkeit des Vertrags."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Vertragsabschluss_q19",
+            "answer": "<p>Die drei Grenzen sind: 1. Unmöglichkeit, 2. Widerrechtlichkeit, 3. Sittenwidrigkeit.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q20",
+            "answer": "<p>Ein Vertrag mit widerrechtlichem Inhalt ist <strong>nichtig</strong>, also rechtlich unwirksam.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q21",
+            "answer": "<p>Ein <strong>widerrechtlicher</strong> Inhalt verstösst direkt gegen eine gesetzliche Vorschrift (z.B. der Verkauf von Drogen, was gegen das Betäubungsmittelgesetz verstösst). Ein <strong>sittenwidriger</strong> Inhalt verstösst gegen die anerkannten Moralvorstellungen der Gesellschaft, ohne zwingend ein spezifisches Gesetz zu verletzen (z.B. ein Vertrag über die Bezahlung von Schweigegeld, um eine Straftat zu vertuschen).</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q22",
+            "answer": "<p>Die Leistung ist unmöglich geworden, weil es sich bei der verkauften Maschine um eine Speziessache handelt. Das heisst, es war genau dieses eine, individuelle Objekt geschuldet. Da dieses zerstört wurde, kann es nicht durch ein anderes ersetzt werden, womit die Erfüllung des Vertrags objektiv unmöglich ist.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q23",
+            "answer": "<p>Eine solche Abmachung wäre <strong>nichtig</strong>. Der Inhalt des Vertrags (die Deaktivierung des Abgasreinigungssystems) ist <strong>widerrechtlich</strong>, da er gegen geltende Umweltvorschriften verstösst. Ein Vertrag mit widerrechtlichem Inhalt ist rechtlich unwirksam.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q24",
+            "answer": "<p>Der Vertrag ist <strong>nichtig</strong>. Es handelt sich um einen Fall der <strong>anfänglichen Unmöglichkeit</strong>, da die Leistung (Lieferung des Ersatzteils) bereits bei Vertragsabschluss objektiv unmöglich war. Verträge mit unmöglichem Inhalt sind von Anfang an ungültig.</p>"
+          }
+        ]
+      }
+    },
+    "E. 5. Keine Willensmängel": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Vertragsabschluss_q25",
+          "text": "Was ist der Unterschied zwischen einem nichtigen und einem anfechtbaren Vertrag?"
+        },
+        {
+          "id": "Vertragsabschluss_q26",
+          "text": "Welche vier Arten von Willensmängeln werden im Lehrmittel aufgeführt?"
+        },
+        {
+          "id": "Vertragsabschluss_q27",
+          "text": "Erklären Sie, warum ein Vertrag mit einem Willensmangel aktiv (innerhalb eines Jahres) angefochten werden muss und nicht automatisch ungültig ist."
+        },
+        {
+          "id": "Vertragsabschluss_q28",
+          "text": "Erläutern Sie den Unterschied zwischen einem wesentlichen Irrtum (z.B. Grundlagenirrtum) und einem unwesentlichen Motivirrtum."
+        },
+        {
+          "id": "Vertragsabschluss_q29",
+          "text": "Beim Erstellen einer Offerte für eine gebrauchte Maschine verschreiben Sie sich und bieten sie für CHF 15'700.- statt CHF 17'500.- an. Der Kunde nimmt sofort an. Können Sie den Vertrag anfechten? Begründen Sie."
+        },
+        {
+          "id": "Vertragsabschluss_q30",
+          "text": "Ein Verkäufer sichert Ihnen beim Kauf eines Occasions-Baggers mündlich zu, dass der Motor erst 500 Betriebsstunden hat. Später stellt sich heraus, dass es über 2000 sind. Was können Sie unternehmen?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Vertragsabschluss_q25",
+            "answer": "<p>Ein <strong>nichtiger Vertrag</strong> ist von Anfang an absolut ungültig und entfaltet keine Rechtswirkungen (z.B. bei Formmangel oder widerrechtlichem Inhalt). Ein <strong>anfechtbarer Vertrag</strong> ist zunächst gültig. Die vom Willensmangel betroffene Partei hat jedoch das Recht, den Vertrag innerhalb eines Jahres anzufechten. Tut sie dies, wird der Vertrag für sie unverbindlich. Unterlässt sie die Anfechtung, gilt der Vertrag als genehmigt.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q26",
+            "answer": "<p>Die vier Arten von Willensmängeln sind: 1. Wesentlicher Irrtum, 2. Absichtliche Täuschung, 3. Furchterregung (Drohung), 4. Übervorteilung.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q27",
+            "answer": "<p>Der Vertrag ist nicht automatisch ungültig, weil das Gesetz der betroffenen Partei die Wahl lassen will. Es kann sein, dass sie den Vertrag trotz des Mangels (z.B. eines Irrtums) halten möchte. Durch die Anfechtungsfrist von einem Jahr hat die Partei Zeit zu entscheiden. Wenn sie nichts unternimmt, wird angenommen, dass sie den Vertrag genehmigt.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q28",
+            "answer": "<p>Ein <strong>wesentlicher Irrtum</strong> (z.B. Grundlagenirrtum) betrifft eine notwendige Grundlage des Vertrags (z.B. die Echtheit eines Kunstwerks). Nur ein wesentlicher Irrtum berechtigt zur Anfechtung. Ein <strong>unwesentlicher Motivirrtum</strong> betrifft nur den persönlichen Beweggrund für den Vertragsabschluss, der für die Gegenpartei nicht erkennbar war (z.B. Kauf eines Hochzeitsgeschenks für ein Paar, das sich getrennt hat). Ein solcher Irrtum berechtigt nicht zur Anfechtung.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q29",
+            "answer": "<p>Ja, Sie können den Vertrag anfechten. Es liegt ein <strong>wesentlicher Erklärungsirrtum</strong> über den Umfang der Gegenleistung (Preis) vor. Sie wollten einen anderen Preis erklären, als Sie es tatsächlich taten. Da der Preisunterschied erheblich ist, können Sie sich auf Irrtum berufen und den Vertrag innerhalb eines Jahres nach Entdeckung des Fehlers anfechten.</p>"
+          },
+          {
+            "id": "Vertragsabschluss_q30",
+            "answer": "<p>Hier liegt eine <strong>absichtliche Täuschung</strong> vor. Der Verkäufer hat bewusst falsche Angaben über eine wesentliche Eigenschaft des Baggers gemacht. Sie können den Vertrag innerhalb eines Jahres, nachdem Sie die Täuschung entdeckt haben, anfechten. Bei erfolgreicher Anfechtung wird der Kauf rückabgewickelt: Sie geben den Bagger zurück und erhalten den Kaufpreis erstattet.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

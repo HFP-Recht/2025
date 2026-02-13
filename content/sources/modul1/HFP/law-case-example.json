@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "assignmentTitle": "OR Fallstudie: Verbindlichkeit einer Offerte",
+  "solution_keys": ["modul1"],
+  "subAssignments": {
+    "offerte-werkstatt": {
+      "title": "Fall: Verbindlichkeit einer Offerte",
+      "type": "law_case",
+      "caseText": "Eine Werkstatt schickt einem Kunden eine detaillierte Offerte für die Reparatur einer Baumaschine. In der Offerte steht kein Hinweis auf „unverbindlich“. Einige Tage später meldet sich der Kunde und will den Auftrag erteilen. Der Werkstattleiter sagt, der Preis habe sich geändert und die Offerte sei nicht verbindlich gewesen.",
+      "hints": [
+        {
+          "id": "step_2",
+          "text": "Suchen Sie im <strong>Obligationenrecht (OR)</strong> im Abschnitt über den Vertragsabschluss. Der relevante Artikel ist einstellig."
+        }
+      ],
+      "solution": {
+        "page": 1,
+        "solutions": [
+          { "id": "step_1", "answer": "<p><strong>Beteiligte:</strong> Werkstatt (Anbieter), Kunde (Empfänger).<br><strong>Geltendmachung:</strong> Kunde will Reparatur zum offerierten Preis.<br><strong>Rechtsfrage:</strong> Ist die Werkstatt an die Offerte gebunden?</p>" },
+          { "id": "step_2", "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, spezifisch Obligationenrecht (OR).<br><strong>Rechtsvorschrift:</strong> Art. 7 OR regelt die Verbindlichkeit eines Antrags (Offerte).</p>" },
+          { "id": "step_3", "answer": "<p><strong>Tatbestandsmerkmale (Art. 7 Abs. 1 OR):</strong> Der Antragsteller (Werkstatt) wird gebunden, wenn er nicht seinen Willen zur Unverbindlichkeit äussert.<br><strong>Rechtsfolge:</strong> Bindung an den Antrag.</p>" },
+          { "id": "step_4", "answer": "<p>Die Werkstatt hat keinen Hinweis wie 'unverbindlich' angebracht. Die Tatbestandsmerkmale von Art. 7 OR sind erfüllt. <strong>Rechtsfolge:</strong> Die Werkstatt ist an ihre Offerte gebunden und muss die Reparatur zum ursprünglich genannten Preis durchführen.</p>" }
+        ]
+      }
+    }
+  }
+}

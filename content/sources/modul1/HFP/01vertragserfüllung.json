@@ -1,0 +1,123 @@
+{
+  "assignmentTitle": "01Vertragserfüllung",
+  "solution_keys": [
+    "teacher2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "A. Die fünf Erfüllungsmodalitäten": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01Vertragserfüllung_q1",
+          "text": "Welche fünf Fragen regeln die Erfüllungsmodalitäten laut OR?"
+        },
+        {
+          "id": "01Vertragserfüllung_q2",
+          "text": "Was ist der gesetzliche Unterschied zwischen einer Holschuld und einer Bringschuld?"
+        },
+        {
+          "id": "01Vertragserfüllung_q3",
+          "text": "Erklären Sie, warum die Regeln zu den Erfüllungsmodalitäten als 'dispositiv' bezeichnet werden und was das für Ihre Verträge bedeutet."
+        },
+        {
+          "id": "01Vertragserfüllung_q4",
+          "text": "Erläutern Sie das Prinzip 'Zug um Zug' anhand des Beispiels einer Maschinenreparatur gegen Barzahlung."
+        },
+        {
+          "id": "01Vertragserfüllung_q5",
+          "text": "Ein Kunde lässt eine Baumaschine reparieren. Im Auftrag wurde kein Zahlungsziel vereinbart. Wann muss der Kunde die Rechnung bezahlen?"
+        },
+        {
+          "id": "01Vertragserfüllung_q6",
+          "text": "Sie verkaufen einem Landwirt eine gebrauchte Maschine 'ab Platz'. Wo ist der Erfüllungsort für die Übergabe der Maschine, wenn nichts anderes vereinbart wurde?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01Vertragserfüllung_q1",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q2",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q3",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q4",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q5",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q6",
+            "answer": "<p></p>"
+          }
+        ]
+      }
+    },
+    "B. Untergang der Obligation durch Erfüllung": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01Vertragserfüllung_q7",
+          "text": "Was ist die rechtliche Hauptfolge der korrekten Vertragserfüllung?"
+        },
+        {
+          "id": "01Vertragserfüllung_q8",
+          "text": "Welche zwei weiteren Gründe für den Untergang einer Obligation werden auf Seite 60 erwähnt?"
+        },
+        {
+          "id": "01Vertragserfüllung_q9",
+          "text": "Erklären Sie in eigenen Worten, warum eine erfüllte Forderung nicht ein zweites Mal verlangt werden kann."
+        },
+        {
+          "id": "01Vertragserfüllung_q10",
+          "text": "Welche praktische Bedeutung haben Zahlungsbelege und Quittungen im Zusammenhang mit dem 'Untergang der Obligation'?"
+        },
+        {
+          "id": "01Vertragserfüllung_q11",
+          "text": "Ein Kunde bezahlt eine Reparaturrechnung bar und erhält eine Quittung. Zwei Wochen später erhält er von Ihrer Buchhaltung versehentlich eine Mahnung. Wie ist die rechtliche Lage?"
+        },
+        {
+          "id": "01Vertragserfüllung_q12",
+          "text": "Sie schulden einem Lieferanten CHF 1'000 für Ersatzteile. Gleichzeitig hat dieser bei Ihnen eine Reparatur für CHF 800 durchführen lassen. Erklären Sie, wie hier eine Verrechnung als Alternative zur vollständigen Zahlung funktioniert."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01Vertragserfüllung_q7",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q8",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q9",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q10",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q11",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Vertragserfüllung_q12",
+            "answer": "<p></p>"
+          }
+        ]
+      }
+    }
+  }
+}

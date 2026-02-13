@@ -1,0 +1,23 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+*.log
+*.local
+.env
+.env.*
+!.env.example
+
+# Firebase service account keys
+*adminsdk*.json
+docs/*adminsdk*.json
+
+# Firebase emulator artifacts
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Build outputs
+apps/*/dist/
+packages/*/dist/
+functions/lib/

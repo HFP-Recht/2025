@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "grundlagen-vertragsrecht",
+  "title": "Grundlagen des Vertragsrechts",
+  "description": "Ein Einstiegsmodul zu Obligation, Konsens und Fallanalyse im Schweizer Recht.",
+  "outcomes": [
+    "Die Lernenden erklaeren den Begriff Obligation.",
+    "Die Lernenden analysieren Rechtsfaelle strukturiert in vier Schritten.",
+    "Die Lernenden begruenden Vertragsgueltigkeit anhand der gesetzlichen Grundlagen."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [
+    {
+      "id": "or-art-1",
+      "citation": "OR Art. 1"
+    },
+    {
+      "id": "or-art-11",
+      "citation": "OR Art. 11"
+    },
+    {
+      "id": "zgb-art-1",
+      "citation": "ZGB Art. 1"
+    }
+  ],
+  "metadata": {
+    "language": "de-CH",
+    "estimatedMinutes": 45
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "docs/01-grundlagen-des-vertragsrechts.json",
+      "docs/fallstudien-zu-schweizer-rechtsystem.json"
+    ],
+    "generatedBy": "manual-seed",
+    "generatedAt": "2026-02-11T00:00:00.000Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "lesson-1",
+      "title": "Kernbegriffe",
+      "blocks": [
+        {
+          "id": "theory-1",
+          "type": "theory",
+          "title": "Obligation und Konsens",
+          "content": "Eine Obligation ist ein Rechtsverhaeltnis zwischen Glaeubiger und Schuldner. Ein Vertrag entsteht durch Antrag und Annahme gemaess OR Art. 1."
+        },
+        {
+          "id": "check-1",
+          "type": "competence-check",
+          "title": "Kompetenzcheck Grundlagen",
+          "introduction": "Beantworte die Fragen in ganzen Saetzen.",
+          "questions": [
+            {
+              "id": "q-obligation",
+              "prompt": "Was versteht das Gesetz unter einer Obligation?",
+              "hint": "Nutze die Begriffe Rechtsverhaeltnis, Glaeubiger und Schuldner.",
+              "solution": "Eine Obligation ist ein Rechtsverhaeltnis, in dem der Schuldner dem Glaeubiger eine Leistung schuldet.",
+              "requiredLegalReferences": [
+                "or-art-1"
+              ]
+            },
+            {
+              "id": "q-formfreiheit",
+              "prompt": "Was bedeutet der Grundsatz der Formfreiheit?",
+              "hint": "Denke an OR Art. 11.",
+              "solution": "Vertraege sind grundsaetzlich formfrei, sofern das Gesetz keine besondere Form vorschreibt.",
+              "requiredLegalReferences": [
+                "or-art-11"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "lesson-2",
+      "title": "Fallbearbeitung",
+      "blocks": [
+        {
+          "id": "lawcase-1",
+          "type": "law-case-4-step",
+          "title": "Die widerspruechliche Verordnung",
+          "caseText": "Eine Verordnung verlangt Sicherheitspruefungen alle vier Jahre. Das zugrunde liegende Bundesgesetz schreibt zwei Jahre vor. Ein Werkstattleiter fragt, welche Regel gilt.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt analysieren",
+              "prompt": "Wer ist beteiligt und welche Normen stehen im Konflikt?",
+              "hint": "Nenne Verordnung und Bundesgesetz.",
+              "solution": "Im Konflikt stehen eine Verordnung des Bundesrates und ein Bundesgesetz des Parlaments."
+            },
+            {
+              "id": "step_2",
+              "title": "Relevante Regel finden",
+              "prompt": "Welches Prinzip steuert die Rangfolge?",
+              "hint": "Stichwort Normenhierarchie.",
+              "solution": "Massgebend ist die Normenhierarchie: Hoeherrangiges Recht geht vor."
+            },
+            {
+              "id": "step_3",
+              "title": "Regel analysieren",
+              "prompt": "Welche Folge ergibt sich bei Widerspruch?",
+              "hint": "Vergleiche Gesetz und Verordnung.",
+              "solution": "Eine Verordnung darf einem Gesetz nicht widersprechen; das Gesetz hat Vorrang."
+            },
+            {
+              "id": "step_4",
+              "title": "Anwenden und Rechtsfolge bestimmen",
+              "prompt": "Welche Prueffrist ist gueltig?",
+              "hint": "Leite aus Schritt 3 ab.",
+              "solution": "Gueltig ist die zweijaehrige Frist nach Bundesgesetz."
+            }
+          ]
+        },
+        {
+          "id": "solution-1",
+          "type": "solution-unlock",
+          "title": "Musterloesungen",
+          "unlockMode": "role-based",
+          "allowedRoles": [
+            "teacher",
+            "admin"
+          ],
+          "solutions": [
+            {
+              "id": "sol-1",
+              "title": "Musterloesung Kompetenzcheck",
+              "content": "Eine Obligation ist ein Rechtsverhaeltnis mit Leistungspflichten zwischen Glaeubiger und Schuldner.",
+              "relatedQuestionIds": [
+                "q-obligation"
+              ]
+            },
+            {
+              "id": "sol-2",
+              "title": "Musterloesung Rechtsfall",
+              "content": "Das Bundesgesetz geht der Verordnung vor; die zweijaehrige Frist bleibt verbindlich.",
+              "relatedQuestionIds": [
+                "step_4"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "discussion-1",
+          "type": "discussion-prompt",
+          "title": "Reflexion",
+          "prompts": [
+            {
+              "id": "d-1",
+              "prompt": "Welche Risiken entstehen in der Praxis, wenn Verordnung und Gesetz verwechselt werden?"
+            },
+            {
+              "id": "d-2",
+              "prompt": "Wie kann ein Betrieb rechtliche Aenderungen fruehzeitig absichern?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

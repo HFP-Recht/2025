@@ -1,0 +1,41 @@
+{
+  "name": "hfp-course-platform",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Unified React + Firebase course platform",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "functions"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev:web": "npm run dev -w @hfp/course-web",
+    "dev:admin": "npm run dev -w @hfp/course-admin",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "validate:module": "tsx scripts/validate-module.ts content/modules/sample-module.v1.json",
+    "validate:pilot": "tsx scripts/validate-module.ts content/modules/pilot/pilot-vertragsrecht.v1.generated.json",
+    "migrate:module": "tsx scripts/migrate-module.ts",
+    "seed:firestore": "tsx scripts/seed-firestore.ts",
+    "emulators": "firebase emulators:start --only auth,firestore,functions,storage",
+    "test:rules": "firebase emulators:exec --only firestore \"npm run test:rules -w @hfp/functions\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "cheerio": "^1.2.0",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "assignmentTitle": "Grundlagen des Schweizer Rechtssystems",
+  "solution_keys": [
+    "teacher2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "A. Die drei Rechtsquellen": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q1",
+          "text": "Welches sind die drei offiziellen Rechtsquellen in der Schweiz?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q2",
+          "text": "Welche Rechtsquelle hat heute die grösste praktische Bedeutung?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q3",
+          "text": "Erklären Sie in eigenen Worten, wann ein Gericht auf das 'Richterrecht' zurückgreift."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q4",
+          "text": "Warum hat das 'Gewohnheitsrecht' im heutigen Geschäftsalltag kaum noch Bedeutung?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q5",
+          "text": "Stellen Sie sich vor, es gibt keine klare gesetzliche Regelung zur Haftung bei Schäden durch autonom fahrende Baumaschinen. Welche Rechtsquelle müsste ein Gericht heranziehen, um einen solchen Fall zu entscheiden?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q6",
+          "text": "Ein langjähriger Brauch in der Branche ist, dass mündliche Zusagen für Kleinreparaturen verbindlich sind. Handelt es sich hierbei um eine anwendbare Rechtsquelle? Begründen Sie Ihre Antwort."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q1",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q2",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q3",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q4",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q5",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q6",
+            "answer": "<p></p>"
+          }
+        ]
+      }
+    },
+    "B. Die Hierarchie der Rechtsnormen": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q7",
+          "text": "Nennen Sie die drei Stufen der Normenhierarchie in der korrekten Reihenfolge."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q8",
+          "text": "Welche Ebene enthält die grundlegendsten Prinzipien des Staates?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q9",
+          "text": "Erklären Sie, warum eine Verordnung nicht im Widerspruch zu einem Bundesgesetz stehen darf."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q10",
+          "text": "Beschreiben Sie den Zusammenhang zwischen einem Verfassungsartikel und einem dazugehörigen Gesetz am Beispiel des Strassenverkehrs (S. 12)."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q11",
+          "text": "Ihr Kanton erlässt eine neue Vorschrift (Verordnung), die den Import von Baumaschinen verbietet, die eine bestimmte EU-Norm nicht erfüllen. Auf welcher übergeordneten Rechtsgrundlage (Gesetz, Verfassung) könnte diese Verordnung basieren?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q12",
+          "text": "Ein Mitarbeiter argumentiert, eine neue kommunale Parkplatzregelung für Firmenfahrzeuge sei ungültig, weil sie seinem 'Recht auf freie Fahrt' widerspricht. Auf welcher Stufe der Normenhierarchie müsste sein 'Recht auf freie Fahrt' verankert sein, damit seine Argumentation eine Chance hätte?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q7",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q8",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q9",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q10",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q11",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q12",
+            "answer": "<p></p>"
+          }
+        ]
+      }
+    },
+    "C. Grundstruktur des Rechtsstaates": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q13",
+          "text": "Welches sind die drei Gewalten im Staat und was sind ihre Hauptfunktionen?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q14",
+          "text": "Nennen Sie die drei Ebenen des Föderalismus in der Schweiz."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q15",
+          "text": "Erklären Sie, warum die Trennung der Gewalten ein wichtiges Merkmal eines Rechtsstaates ist."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q16",
+          "text": "Beschreiben Sie einen Vorteil und einen Nachteil des Föderalismus für einen national tätigen Baumaschinenhändler."
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q17",
+          "text": "Das Bundesamt für Strassen (ASTRA) erlässt neue technische Vorschriften für Fahrzeugkrane. Welche der drei Gewalten ist hier auf Bundesebene tätig?"
+        },
+        {
+          "id": "Grundlagen_des_Schweizer_Rechtssystems_q18",
+          "text": "Ihr Betrieb hat Standorte in den Kantonen Bern und Zürich. Sie stellen fest, dass die Vorschriften für die Lehrlingsausbildung leicht unterschiedlich sind. Welches Prinzip des Schweizer Rechtssystems ist dafür verantwortlich?"
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q13",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q14",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q15",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q16",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q17",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "Grundlagen_des_Schweizer_Rechtssystems_q18",
+            "answer": "<p></p>"
+          }
+        ]
+      }
+    }
+  }
+}

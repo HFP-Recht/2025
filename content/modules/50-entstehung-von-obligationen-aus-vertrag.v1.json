@@ -1,0 +1,1022 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "50-entstehung-von-obligationen-aus-vertrag",
+  "title": "Entstehung von Obligationen aus Vertrag",
+  "description": "Schwerpunktthema: Entstehung von Obligationen aus Vertrag",
+  "outcomes": [
+    "den Begriff der **Obligation** zu definieren und den **Vertrag** als wichtigsten Entstehungsgrund zu benennen.",
+    "die zentralen Konzepte von **Gläubiger, Schuldner, Forderung und Schuld** im Kontext eines Werkstattauftrags zu verstehen.",
+    "die vier grundlegenden **Voraussetzungen für einen gültigen Vertragsabschluss** zu kennen und diese auf Beispiele aus Ihrem Berufsalltag anzuwenden.",
+    "potenzielle Probleme bei der Vertragsentstehung (z.B. mit Minderjährigen, bei formungültigen Abmachungen) zu erkennen und korrekt zu handeln."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-1",
+      "citation": "OR Art. 1"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-2",
+      "citation": "OR Art. 11"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-3",
+      "citation": "OR Art. 41"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-4",
+      "citation": "OR Art. 184"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-5",
+      "citation": "OR Art. 210"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-6",
+      "citation": "ZGB Art. 13"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-7",
+      "citation": "ZGB Art. 14"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-8",
+      "citation": "ZGB Art. 19"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-9",
+      "citation": "ZGB Art. 323"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-10",
+      "citation": "OR Art. 23"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-11",
+      "citation": "OR Art. 24"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-12",
+      "citation": "OR Art. 31"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-13",
+      "citation": "OR Art. 26"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-14",
+      "citation": "OR Art. 28"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-15",
+      "citation": "OR Art. 340"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-16",
+      "citation": "OR Art. 20"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-17",
+      "citation": "ZGB Art. 27"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-18",
+      "citation": "OR Art. 197"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-19",
+      "citation": "OR Art. 21"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-20",
+      "citation": "OR Art. 6"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-21",
+      "citation": "OR Art. 368"
+    },
+    {
+      "id": "ref-50-entstehung-von-obligationen-aus-vertrag-22",
+      "citation": "OR Art. 97"
+    }
+  ],
+  "metadata": {
+    "language": "de-CH"
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "50 Entstehung von Obligationen aus Vertrag"
+    ],
+    "generatedBy": "migrate-module.ts",
+    "generatedAt": "2026-02-12T07:06:11.102Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "50-entstehung-von-obligationen-aus-vertrag-grundlagen",
+      "title": "Grundlagen",
+      "pageType": "theory",
+      "blocks": [
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-theory-1",
+          "type": "theory",
+          "title": "Das Konzept der Obligation",
+          "content": "Eine **Obligation** ist ein Rechtsverhältnis, bei dem eine Person (**Schuldner**) einer anderen Person (**Gläubiger**) zu einer Leistung verpflichtet ist. Der **Gläubiger hat eine Forderung** auf die Leistung, während der **Schuldner eine Schuld** zu erbringen hat."
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-theory-2",
+          "type": "theory",
+          "title": "Voraussetzung 1: Einigung über den Vertragsinhalt (Konsens)",
+          "content": "Ein Vertrag kommt durch eine **übereinstimmende gegenseitige Willensäusserung** der Parteien zustande (OR#Art. 1 Abs. 1). Diese Einigung, auch **Konsens** genannt, besteht aus einem **Antrag (Offerte)** und einer **Annahme** und muss sich auf die wesentlichen Vertragspunkte wie Leistung und Preis beziehen (OR#Art. 2 Abs. 1)."
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-theory-3",
+          "type": "theory",
+          "title": "Voraussetzung 2: Handlungsfähigkeit der Parteien",
+          "content": "Damit ein Vertrag gültig ist, müssen die Vertragsparteien **handlungsfähig** sein. Handlungsfähig ist, wer **volljährig und urteilsfähig** ist. Verträge, die von einer urteilsunfähigen Person abgeschlossen werden, sind **nichtig** (ZGB#Art. 18). Beschränkt handlungsunfähige Personen (z.B. Minderjährige) benötigen die Zustimmung ihrer gesetzlichen Vertreter (ZGB#Art. 19)."
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-theory-4",
+          "type": "theory",
+          "title": "Voraussetzung 3: Einhaltung von Formvorschriften",
+          "content": "Grundsätzlich gilt im Vertragsrecht die **Formfreiheit** (OR#Art. 11 Abs. 1), das heisst, Verträge können auch mündlich gültig abgeschlossen werden. Für bestimmte Rechtsgeschäfte schreibt das Gesetz jedoch eine **spezielle Form** vor (z.B. Schriftlichkeit), um die Parteien zu schützen und Beweissicherheit zu schaffen. Die Missachtung einer Formvorschrift führt zur **Nichtigkeit** des Vertrags."
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-theory-5",
+          "type": "theory",
+          "title": "Voraussetzung 4: Zulässiger Vertragsinhalt",
+          "content": "Die Parteien sind im Rahmen der **Vertragsfreiheit** grundsätzlich frei, den Inhalt eines Vertrages zu bestimmen (OR#Art. 19). Diese Freiheit wird jedoch durch zwingendes Recht begrenzt: Ein Vertrag darf keinen **unmöglichen, widerrechtlichen oder sittenwidrigen Inhalt** haben. Solche Verträge sind von Anfang an **nichtig** (OR#Art. 20)."
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-discussion-6",
+          "type": "discussion-prompt",
+          "title": "Reflexionsfragen zum Einstieg",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-refl-1",
+              "prompt": "Tauschen Sie sich in der Gruppe über Situationen aus, in denen eine mündliche Zusage eines Kunden später zu **Diskussionen über den Auftragsumfang oder die Kosten** geführt hat. *Wie haben Sie diese Situation gelöst? Was hätten Sie im Nachhinein anders gemacht, um Klarheit zu schaffen?*"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-refl-2",
+              "prompt": "Diskutieren Sie, wie Sie in Ihrem Betrieb sicherstellen, dass bei **telefonischen oder mündlichen Aufträgen** ein klares Einverständnis über die wesentlichen Punkte (Arbeit, Kostenrahmen) besteht. *Welche internen Prozesse oder Formulare nutzen Sie dafür? Wie gehen Sie mit unklaren oder pauschalen Aussagen von Kunden wie \"machen Sie es einfach wieder gut\" um?*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "50-entstehung-von-obligationen-aus-vertrag-zusammenfassung",
+      "title": "Zusammenfassung",
+      "pageType": "summary",
+      "blocks": [
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-theory-1",
+          "type": "theory",
+          "title": "1. Die Obligation: Das Fundament jeder Verpflichtung",
+          "content": "Definition: Eine Obligation ist ein Rechtsverhältnis zwischen mindestens zwei Personen. Sie verpflichtet eine Person (den Schuldner) zu einer bestimmten Leistung, während die andere Person (der Gläubiger) das Recht hat, diese Leistung zu fordern.\n\nGläubiger\n                        Der Gläubiger hat eine Forderung. Er ist berechtigt, die Leistung vom Schuldner zu verlangen.\n                        Beispiel: Die Werkstatt hat eine Forderung auf Bezahlung der Reparatur.\n\nSchuldner\n                        Der Schuldner hat eine Schuld. Er ist verpflichtet, die vereinbarte Leistung zu erbringen.\n                        Beispiel: Der Kunde hat die Schuld, die Rechnung für die Reparatur zu bezahlen."
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-check-2",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 1. Die Obligation: Das Fundament jeder Verpflichtung",
+          "questions": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q1-1",
+              "prompt": "1. Was versteht das Gesetz unter einer 'Obligation'?",
+              "solution": "Ein Rechtsverhältnis, bei dem eine Person (Schuldner) einer anderen Person (Gläubiger) zu einer Leistung verpflichtet ist."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q1-2",
+              "prompt": "2. Wer ist bei einem Reparaturauftrag Gläubiger bezüglich der Zahlung und wer ist Schuldner?",
+              "solution": "Die Werkstatt ist Gläubigerin der Zahlung, der Kunde ist Schuldner der Zahlung."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q1-3",
+              "prompt": "3. Erklären Sie, warum bei einem Kaufvertrag über ein Ersatzteil zwei Obligationen entstehen.",
+              "solution": "Es entsteht eine Warenobligation (Verkäufer schuldet das Teil, Käufer fordert es) und eine Kaufpreisobligation (Käufer schuldet das Geld, Verkäufer fordert es)."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q1-4",
+              "prompt": "4. Beschreiben Sie den Unterschied zwischen einer 'Forderung' und einer 'Schuld' anhand eines Beispiels aus Ihrer Werkstatt.",
+              "solution": "Die Werkstatt hat die Forderung auf den Lohn für die Reparatur. Der Kunde hat die Schuld, diesen Lohn zu bezahlen. Umgekehrt hat der Kunde die Forderung auf die Reparaturleistung, und die Werkstatt hat die Schuld, diese zu erbringen."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q1-5",
+              "prompt": "5. Ein Landwirt kauft bei Ihnen einen gebrauchten Traktor. Identifizieren Sie die beiden Obligationen und benennen Sie jeweils Gläubiger und Schuldner.",
+              "solution": "1. Warenobligation: Sie (Verkäufer) sind Schuldner des Traktors, der Landwirt ist Gläubiger. 2. Kaufpreisobligation: Der Landwirt ist Schuldner des Kaufpreises, Sie sind Gläubiger."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q1-6",
+              "prompt": "6. Sie vereinbaren mit einem Mitarbeiter einen Bonus für besonders gute Leistungen. Welche Obligation entsteht hier und wer sind die Parteien?",
+              "solution": "Es entsteht eine Obligation zur Zahlung des Bonus. Sie (der Arbeitgeber) sind der Schuldner und der Mitarbeiter ist der Gläubiger der Bonuszahlung."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-theory-3",
+          "type": "theory",
+          "title": "2. Konsens: Die Einigung als Vertragsgrundlage",
+          "content": ": Ein Vertrag entsteht durch Konsens, also eine übereinstimmende gegenseitige Willensäusserung der Parteien (Art. 1 Abs. 1 OR). Diese Einigung muss die wesentlichen Vertragspunkte (z.B. Leistung und Preis) umfassen.\n\nVerbindlichkeit von Anträgen\n                \n                    Verbindlich: Grundsätzlich ist jeder Antrag verbindlich. Besonders die Auslage von Waren mit Preisangabe gilt als verbindlicher Antrag.\n                    Unverbindlich: Anträge mit entsprechenden Hinweisen (\"freibleibend\") sowie Preislisten, Inserate und Prospekte sind unverbindlich."
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-check-4",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 2. Konsens: Die Einigung als Vertragsgrundlage",
+          "questions": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q3-1",
+              "prompt": "1. Welche zwei Willenserklärungen sind für eine Einigung notwendig?",
+              "solution": "Antrag (Offerte) und Annahme."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q3-2",
+              "prompt": "2. Sind Preislisten und Inserate gemäss Gesetz verbindliche Anträge?",
+              "solution": "Nein, sie sind unverbindlich und gelten als Einladung zur Angebotsstellung."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q3-3",
+              "prompt": "3. Erklären Sie den Unterschied zwischen einem Antrag 'unter Anwesenden' und 'unter Abwesenden' bezüglich der Bindungsdauer.",
+              "solution": "Unter Anwesenden (z.B. im Gespräch, am Telefon) muss der Antrag sofort angenommen werden. Unter Abwesenden (z.B. per E-Mail, Brief) ist der Antragsteller eine angemessene Frist gebunden."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q3-4",
+              "prompt": "4. Warum ist die Auslage einer Maschine mit Preisangabe im Showroom ein verbindlicher Antrag, ein Prospekt mit der gleichen Maschine aber nicht?",
+              "solution": "Die Auslage richtet sich an eine konkrete Person, die den Laden betritt, und der Verkäufer kann die Leistung erbringen. Ein Prospekt richtet sich an eine unbestimmte Vielzahl von Personen, und der Verkäufer könnte nicht alle Verträge erfüllen."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q3-5",
+              "prompt": "5. Ein Kunde fragt per E-Mail die Kosten für einen Service an. Sie antworten mit einem Kostenvoranschlag von CHF 1'500.-. Der Kunde antwortet nicht. Ist ein Vertrag zustande gekommen? Begründen Sie.",
+              "solution": "Nein, es fehlt die Annahme durch den Kunden. Ihr Kostenvoranschlag ist der Antrag."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q3-6",
+              "prompt": "6. Sie bieten einem Kunden mündlich eine gebrauchte Maschine für CHF 20'000.- an. Er sagt: 'Ich überlege es mir.' Am nächsten Tag ruft er an und will die Maschine kaufen. Sind Sie noch an Ihr Angebot gebunden?",
+              "solution": "Nein, Sie sind nicht mehr gebunden. Bei einem mündlichen Angebot (Antrag unter Anwesenden) muss die Annahme sofort erfolgen. Da der Kunde das Angebot nicht sofort angenommen hat, ist es erloschen."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-theory-5",
+          "type": "theory",
+          "title": "3. Handlungsfähigkeit: Wer darf Verträge schliessen?",
+          "content": ": Damit ein Vertrag gültig ist, müssen die Parteien handlungsfähig sein. Handlungsfähigkeit setzt zwei Dinge voraus:Fehlt eine dieser Voraussetzungen, hat das Konsequenzen für den Vertrag."
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-check-6",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 3. Handlungsfähigkeit: Wer darf Verträge schliessen?",
+          "questions": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q5-1",
+              "prompt": "1. Welche zwei Merkmale definieren die Handlungsfähigkeit einer Person?",
+              "solution": "Volljährigkeit und Urteilsfähigkeit."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q5-2",
+              "prompt": "2. Welche Folge hat ein Vertragsabschluss mit einer urteilsunfähigen Person?",
+              "solution": "Der Vertrag ist von Anfang an nichtig (ungültig)."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q5-3",
+              "prompt": "3. Erklären Sie, warum ein 17-jähriger Lernender nur beschränkt handlungsfähig ist.",
+              "solution": "Er ist zwar urteilsfähig, aber noch nicht volljährig. Er kann sich nur mit Zustimmung seiner gesetzlichen Vertreter (Eltern) verpflichten."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q5-4",
+              "prompt": "4. Warum ist die Zustimmung der gesetzlichen Vertreter bei Verträgen mit Minderjährigen so wichtig?",
+              "solution": "Die Zustimmung ist wichtig, weil der Vertrag ohne sie nichtig ist. Sie dient dem Schutz des Minderjährigen vor übereilten oder nachteiligen Vertragsabschlüssen."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q5-5",
+              "prompt": "5. Ein 16-jähriger Schüler möchte sein Mofa bei Ihnen für CHF 500.- reparieren lassen. Dürfen Sie den Vertrag abschliessen? Was müssen Sie beachten?",
+              "solution": "Sie dürfen den Vertrag abschliessen, aber um sicherzustellen, dass er gültig ist, müssen Sie die Zustimmung der gesetzlichen Vertreter (Eltern) des Schülers einholen. Ohne diese Zustimmung ist der Vertrag für den Schüler unverbindlich."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q5-6",
+              "prompt": "6. Ein offensichtlich stark alkoholisierter Kunde will einen Kaufvertrag für eine teure Baumaschine unterschreiben. Beurteilen Sie die Gültigkeit dieses Vertrags.",
+              "solution": "Der Vertrag ist nichtig. Eine stark alkoholisierte Person ist vorübergehend urteilsunfähig. Verträge, die von urteilsunfähigen Personen abgeschlossen werden, entfalten keine rechtliche Wirkung."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-theory-7",
+          "type": "theory",
+          "title": "4. Formfreiheit und Formzwang: Die Form des Vertrags",
+          "content": "Grundsatz: Formfreiheit (Art. 11 Abs. 1 OR): Verträge können grundsätzlich in jeder Form abgeschlossen werden: mündlich, schriftlich oder sogar stillschweigend (durch schlüssiges Verhalten). Ein Handschlag genügt oft für einen gültigen Vertrag.\n\nAusnahme: Formzwang: Für bestimmte, wichtige Verträge schreibt das Gesetz eine spezielle Form vor. Dies dient einerseits als Warnfunktion (Schutz vor Übereilung) und andererseits der Beweissicherung. Man unterscheidet z.B.:"
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-check-8",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 4. Formfreiheit und Formzwang: Die Form des Vertrags",
+          "questions": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q7-1",
+              "prompt": "1. Was besagt der Grundsatz der Formfreiheit?",
+              "solution": "Dass Verträge grundsätzlich in jeder beliebigen Form gültig abgeschlossen werden können, also auch mündlich, solange das Gesetz nichts anderes vorschreibt."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q7-2",
+              "prompt": "2. Nennen Sie zwei Beispiele für Verträge, die eine gesetzlich vorgeschriebene Form erfordern.",
+              "solution": "Grundstückkauf (öffentliche Beurkundung), Lehrvertrag (qualifizierte Schriftlichkeit), Konkurrenzverbot (einfache Schriftlichkeit)."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q7-3",
+              "prompt": "3. Erklären Sie die zwei Hauptzwecke von Formvorschriften (Warn- und Beweisfunktion).",
+              "solution": "Warnfunktion: Schutz der Parteien vor übereilten Vertragsabschlüssen. Beweisfunktion: Schaffung von Rechtssicherheit, da der Vertragsinhalt klar beweisbar ist."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q7-4",
+              "prompt": "4. Was ist der Unterschied zwischen einfacher Schriftlichkeit und öffentlicher Beurkundung?",
+              "solution": "Einfache Schriftlichkeit erfordert ein schriftliches Dokument mit eigenhändiger Unterschrift. Bei der öffentlichen Beurkundung muss zusätzlich eine staatlich anerkannte Urkundsperson (Notar) mitwirken."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q7-5",
+              "prompt": "5. Sie vereinbaren mit einem Mitarbeiter mündlich ein Konkurrenzverbot nach Austritt aus der Firma. Ist diese Abmachung gültig? Begründen Sie.",
+              "solution": "Nein, die Abmachung ist ungültig (nichtig). Das Gesetz (Art. 340 Abs. 1 OR) verlangt für ein Konkurrenzverbot die einfache Schriftlichkeit."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q7-6",
+              "prompt": "6. Sie verkaufen einem Kunden eine Motorsäge für CHF 800.- per Handschlag. Ist dieser Kaufvertrag gültig?",
+              "solution": "Ja, dieser Kaufvertrag ist gültig. Für den Kauf einer beweglichen Sache (Fahrniskauf) gilt Formfreiheit."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-theory-9",
+          "type": "theory",
+          "title": "5. Nichtigkeit eines Vertrages: Wann ist ein Vertrag ungültig?",
+          "content": ": Ein Vertrag ist nichtig, wenn er an einem schweren Mangel leidet. Er gilt dann von Anfang an als rechtlich unwirksam, so als hätte er nie existiert. Bereits erbrachte Leistungen müssen zurückerstattet werden. Gründe für die Nichtigkeit sind:"
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-sum-check-10",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 5. Nichtigkeit eines Vertrages: Wann ist ein Vertrag ungültig?",
+          "questions": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q9-1",
+              "prompt": "1. Welche drei inhaltlichen Schranken setzt das Gesetz der Vertragsfreiheit?",
+              "solution": "Der Vertragsinhalt darf nicht unmöglich, widerrechtlich oder sittenwidrig sein."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q9-2",
+              "prompt": "2. Was ist die Rechtsfolge eines Vertrags mit widerrechtlichem Inhalt?",
+              "solution": "Der Vertrag ist von Anfang an nichtig (ungültig)."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q9-3",
+              "prompt": "3. Erklären Sie den Unterschied zwischen einem 'widerrechtlichen' und einem 'sittenwidrigen' Vertragsinhalt.",
+              "solution": "Widerrechtlich bedeutet, der Inhalt verstösst direkt gegen ein Gesetz (z.B. Betäubungsmittelgesetz). Sittenwidrig bedeutet, der Inhalt verstösst gegen die allgemeine Moral und die guten Sitten, ohne direkt gegen ein spezifisches Gesetz zu verstossen."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q9-4",
+              "prompt": "4. Geben Sie ein eigenes Beispiel für einen Vertrag mit 'unmöglichem' Inhalt.",
+              "solution": "Ein Vertrag über den Verkauf des Matterhorns oder ein Vertrag, der jemanden verpflichtet, ohne Hilfsmittel auf den Mond zu fliegen."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q9-5",
+              "prompt": "5. Ein Kunde bietet Ihnen Geld, damit Sie bei der nächsten MFK-Prüfung seines Fahrzeugs 'ein Auge zudrücken'. Sie schliessen darüber eine schriftliche Vereinbarung ab. Beurteilen Sie die Gültigkeit.",
+              "solution": "Der Vertrag ist nichtig. Der Inhalt ist widerrechtlich (Anstiftung zu einer unkorrekten amtlichen Handlung) und zudem sittenwidrig."
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-sum-q9-6",
+              "prompt": "6. Sie verkaufen eine Maschine, von der Sie nicht wissen, dass sie bereits durch einen Brand in Ihrem Aussenlager zerstört wurde. Ist der Kaufvertrag gültig?",
+              "solution": "Nein, der Vertrag ist nichtig. Er hat einen unmöglichen Inhalt, da die Leistung (Übergabe der Maschine) bereits bei Vertragsabschluss objektiv unmöglich war."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "50-entstehung-von-obligationen-aus-vertrag-rechtsfaelle",
+      "title": "Rechtsfälle",
+      "pageType": "cases",
+      "blocks": [
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-1",
+          "type": "law-case-4-step",
+          "title": "Fall 1 (Grundlagen): Der geplatzte Hydraulikschlauch",
+          "caseText": "Landwirt Huber bringt seinen Traktor in die Werkstatt von Frau Keller. Ein Hydraulikschlauch ist geplatzt. Frau Keller sagt: \"Das ersetzen wir Ihnen, kostet inklusive Arbeit rund CHF 350.\" Landwirt Huber nickt und sagt: \"In Ordnung, machen Sie das bitte.\"\nNach der Reparatur weigert sich Huber zu zahlen, da er nie etwas Schriftliches unterschrieben habe.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Was haben die beiden Parteien (Frau Keller und Herr Huber) zueinander gesagt und getan?",
+              "hint": "Was haben die beiden Parteien (Frau Keller und Herr Huber) zueinander gesagt und getan?",
+              "solution": "Beteiligte: Werkstattinhaberin Frau Keller, Landwirt Herr Huber.\nWas ist passiert: Huber erteilt mündlich einen Reparaturauftrag für seinen Traktor zu einem geschätzten Preis von CHF 350. Nach der Reparatur verweigert er die Zahlung.\nRechtsfrage: Ist durch die mündliche Absprache ein gültiger Vertrag entstanden?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welcher Artikel im Obligationenrecht regelt den Abschluss eines Vertrages? Gesetzeslage: OR Art. 1, OR Art. 11.",
+              "hint": "Welcher Artikel im Obligationenrecht regelt den Abschluss eines Vertrages? Gesetzeslage: OR Art. 1, OR Art. 11.",
+              "solution": "Rechtsgebiet: Vertragsrecht (Werkvertrag).\nRechtsvorschrift: Die Entstehung eines Vertrages ist in OR Art. 1 geregelt (übereinstimmende gegenseitige Willensäusserung). Der Grundsatz der Formfreiheit ist in OR Art. 11 festgehalten."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was sind die Voraussetzungen für einen gültigen Vertragsschluss? Braucht es immer eine Unterschrift?",
+              "hint": "Was sind die Voraussetzungen für einen gültigen Vertragsschluss? Braucht es immer eine Unterschrift?",
+              "solution": "Tatbestandsmerkmale: Gemäss OR Art. 1 kommt ein Vertrag durch den Austausch übereinstimmender Willenserklärungen (Antrag und Annahme) zustande. Gemäss OR Art. 11 ist dafür grundsätzlich keine besondere Form (z.B. Schriftlichkeit) erforderlich, ausser das Gesetz schreibt es vor.\nRechtsfolge: Liegt eine Einigung vor, ist der Vertrag gültig und die daraus entstehenden Pflichten (Reparatur gegen Bezahlung) müssen erfüllt werden."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Vergleichen Sie die Aussagen der Parteien mit den rechtlichen Voraussetzungen. Ist ein Vertrag entstanden und muss Herr Huber bezahlen?",
+              "hint": "Vergleichen Sie die Aussagen der Parteien mit den rechtlichen Voraussetzungen. Ist ein Vertrag entstanden und muss Herr Huber bezahlen?",
+              "solution": "Prüfung: Frau Keller hat einen Antrag gemacht (Reparatur für ca. CHF 350). Herr Huber hat diesen Antrag angenommen (\"In Ordnung, machen Sie das bitte.\"). Es liegt eine übereinstimmende Willensäusserung vor. Für einen Werkvertrag schreibt das Gesetz keine besondere Form vor.\nKonsequenz: Der Vertrag ist gültig zustande gekommen. Herr Huber ist verpflichtet, die Rechnung zu bezahlen. Es sind zwei Obligationen entstanden: Frau Keller schuldet die Reparatur, Herr Huber schuldet die Bezahlung."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-2",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 1 (Grundlagen): Der geplatzte Hydraulikschlauch",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-1-1",
+              "prompt": "Warum ist es aus kaufmännischer Sicht trotzdem sinnvoll, bei grösseren Aufträgen eine schriftliche Auftragsbestätigung zu verlangen?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-1-2",
+              "prompt": "Was ist der Unterschied zwischen einem Werkvertrag und einem Kaufvertrag in diesem Kontext?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-3",
+          "type": "law-case-4-step",
+          "title": "Fall 2 (Grundlagen): Der umgestossene Werkzeugwagen",
+          "caseText": "Ein Kunde besucht die Werkstatt von Herrn Moser, um sich eine neue Baumaschine anzusehen. Während Herr Moser kurz telefoniert, stolpert der Kunde unachtsam über einen Druckluftschlauch und stösst dabei einen voll bestückten Werkzeugwagen um. Spezialwerkzeug im Wert von CHF 2'800 wird dabei irreparabel beschädigt. Herr Moser verlangt vom Kunden Schadenersatz.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Fassen Sie zusammen, wer wem einen Schaden zugefügt hat und was gefordert wird. Gab es einen Vertrag zwischen den beiden?",
+              "hint": "Fassen Sie zusammen, wer wem einen Schaden zugefügt hat und was gefordert wird. Gab es einen Vertrag zwischen den beiden?",
+              "solution": "Beteiligte: Werkstattinhaber Herr Moser, ein Kunde.\nWas ist passiert: Ein Kunde beschädigt durch Unachtsamkeit Eigentum von Herrn Moser. Es besteht noch kein Vertrag über eine Maschine.\nRechtsfrage: Muss der Kunde für den Schaden aufkommen, obwohl kein Vertrag verletzt wurde?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie im Obligationenrecht nach dem Artikel, der die Haftung für Schäden ausserhalb eines Vertrages regelt. Gesetzeslage: OR Art. 41.",
+              "hint": "Suchen Sie im Obligationenrecht nach dem Artikel, der die Haftung für Schäden ausserhalb eines Vertrages regelt. Gesetzeslage: OR Art. 41.",
+              "solution": "Rechtsgebiet: Ausservertragliches Haftpflichtrecht.\nRechtsvorschrift: Die Haftung aus unerlaubter Handlung ist in OR Art. 41 geregelt. Hier entsteht eine Obligation nicht durch Vertrag, sondern durch eine schädigende Handlung."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche vier Voraussetzungen müssen gemäss diesem Artikel erfüllt sein, damit jemand schadenersatzpflichtig wird?",
+              "hint": "Welche vier Voraussetzungen müssen gemäss diesem Artikel erfüllt sein, damit jemand schadenersatzpflichtig wird?",
+              "solution": "Tatbestandsmerkmale (OR Art. 41): Damit eine Schadenersatzpflicht entsteht, müssen vier Voraussetzungen kumulativ erfüllt sein:\n1. Schaden: Eine unfreiwillige Vermögensverminderung (hier: kaputtes Werkzeug im Wert von CHF 2'800).\n2. Widerrechtlichkeit: Verletzung eines absoluten Rechts (hier: Eigentum von Herrn Moser).\n3. Adäquater Kausalzusammenhang: Das Verhalten (Stolpern) war eine wesentliche Ursache für den Schaden.\n4. Verschulden: Die Handlung war absichtlich oder fahrlässig (hier: unachtsam, also fahrlässig).\nRechtsfolge: Der Schädiger muss dem Geschädigten den entstandenen Schaden ersetzen."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Prüfen Sie, ob alle vier Voraussetzungen im Fall des Kunden erfüllt sind. Was ist die rechtliche Konsequenz?",
+              "hint": "Prüfen Sie, ob alle vier Voraussetzungen im Fall des Kunden erfüllt sind. Was ist die rechtliche Konsequenz?",
+              "solution": "Prüfung: Alle vier Voraussetzungen sind erfüllt. Es liegt ein Schaden (CHF 2'800) vor, das Eigentum wurde widerrechtlich verletzt, das Stolpern war kausal für den Schaden und der Kunde handelte fahrlässig (unachtsam).\nKonsequenz: Der Kunde ist gemäss OR Art. 41 schadenersatzpflichtig. Es ist eine Obligation auf Bezahlung von CHF 2'800 entstanden, ohne dass je ein Vertrag geschlossen wurde."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-4",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 2 (Grundlagen): Der umgestossene Werkzeugwagen",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-2-1",
+              "prompt": "Welche Versicherung des Kunden würde für einen solchen Schaden typischerweise aufkommen?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-2-2",
+              "prompt": "Was wäre, wenn Herr Moser den Druckluftschlauch an einer schlecht sichtbaren Stelle quer durch den Kundenbereich gelegt hätte?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-5",
+          "type": "law-case-4-step",
+          "title": "Fall 3 (Grundlagen): Die Rollen beim Ersatzteilkauf",
+          "caseText": "Ein Bauunternehmen bestellt bei der Werkstatt von Herrn Schmid telefonisch einen spezifischen Baggerlöffel für CHF 4'000. Herr Schmid bestätigt die Bestellung und sagt, der Löffel sei in zwei Tagen abholbereit. Definieren Sie die Rollen der Parteien in Bezug auf die beiden Hauptpflichten, die durch diesen Vertrag entstehen.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die beiden Hauptleistungen, die ausgetauscht werden: die Ware und das Geld.",
+              "hint": "Identifizieren Sie die beiden Hauptleistungen, die ausgetauscht werden: die Ware und das Geld.",
+              "solution": "Beteiligte: Werkstattinhaber Herr Schmid (Verkäufer), Bauunternehmen (Käufer).\nWas ist passiert: Ein Kaufvertrag über einen Baggerlöffel wird abgeschlossen.\nRechtsfrage: Welche Partei ist Gläubiger und welche Schuldner in Bezug auf die Ware und den Kaufpreis?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welcher Vertragstyp liegt hier vor? Gesetzeslage: OR Art. 184.",
+              "hint": "Welcher Vertragstyp liegt hier vor? Gesetzeslage: OR Art. 184.",
+              "solution": "Rechtsgebiet: Vertragsrecht.\nRechtsvorschrift: Es handelt sich um einen Kaufvertrag gemäss OR Art. 184."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Wer hat ein Recht auf eine Leistung (Gläubiger) und wer muss eine Leistung erbringen (Schuldner)? Analysieren Sie dies für jede der beiden Hauptpflichten separat.",
+              "hint": "Wer hat ein Recht auf eine Leistung (Gläubiger) und wer muss eine Leistung erbringen (Schuldner)? Analysieren Sie dies für jede der beiden Hauptpflichten separat.",
+              "solution": "Regelanalyse: Bei einem zweiseitigen Vertrag wie dem Kaufvertrag entstehen mindestens zwei Obligationen. Jede Partei ist gleichzeitig Gläubigerin und Schuldnerin.\n1. Obligation (Warenlieferung): Die Pflicht zur Übergabe der Ware. Derjenige, der die Ware liefern muss, ist der Schuldner. Derjenige, der einen Anspruch auf die Ware hat, ist der Gläubiger.\n2. Obligation (Kaufpreiszahlung): Die Pflicht zur Bezahlung des Kaufpreises. Derjenige, der zahlen muss, ist der Schuldner. Derjenige, der Anspruch auf das Geld hat, ist der Gläubiger."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Fassen Sie zusammen, wer in Bezug auf den Baggerlöffel Gläubiger/Schuldner ist und wer in Bezug auf den Kaufpreis.",
+              "hint": "Fassen Sie zusammen, wer in Bezug auf den Baggerlöffel Gläubiger/Schuldner ist und wer in Bezug auf den Kaufpreis.",
+              "solution": "Konsequenz:\n1. In Bezug auf den Baggerlöffel: Herr Schmid ist der Schuldner (er schuldet die Übergabe des Löffels). Das Bauunternehmen ist der Gläubiger (es hat eine Forderung auf den Löffel).\n2. In Bezug auf den Kaufpreis (CHF 4'000): Das Bauunternehmen ist der Schuldner (es schuldet das Geld). Herr Schmid ist der Gläubiger (er hat eine Forderung auf das Geld)."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-6",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 3 (Grundlagen): Die Rollen beim Ersatzteilkauf",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-3-1",
+              "prompt": "Ändern sich diese Rollen, wenn der Baggerlöffel per Vorauskasse bezahlt werden muss?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-3-2",
+              "prompt": "Was passiert, wenn Herr Schmid den Löffel liefert, das Bauunternehmen aber nicht zahlt? Welche Rolle nimmt Herr Schmid dann wahr?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-7",
+          "type": "law-case-4-step",
+          "title": "Fall 4 (Anwenden): Die mündliche Garantie",
+          "caseText": "Werkstattleiter Bieri verkauft einem Privatkunden, Herrn Frei, einen gebrauchten Rasenmähertraktor. Herr Frei ist skeptisch bezüglich der Haltbarkeit des Motors. Bieri sichert ihm mündlich zu: \"Ich gebe Ihnen eine Garantie von drei Jahren auf den Motor. Wenn was ist, reparieren wir das kostenlos.\" Ein Jahr später hat der Motor einen Defekt. Als Herr Frei die Garantie in Anspruch nehmen will, meint Bieri, eine so lange Garantie hätte schriftlich festgehalten werden müssen und sei daher ungültig.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die zentrale Abmachung zwischen Bieri und Frei, die nun strittig ist.",
+              "hint": "Identifizieren Sie die zentrale Abmachung zwischen Bieri und Frei, die nun strittig ist.",
+              "solution": "Beteiligte: Werkstattleiter Bieri, Privatkunde Herr Frei.\nWas ist passiert: Bieri gibt eine mündliche Garantie von drei Jahren auf einen gebrauchten Motor. Später bestreitet er die Gültigkeit dieser Zusage wegen eines Formmangels.\nRechtsfrage: Ist die mündlich abgegebene Garantie über drei Jahre gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie den Grundsatz der Formfreiheit und suchen Sie nach möglichen gesetzlichen Ausnahmen, insbesondere im Konsumentenschutz. Gesetzeslage: OR Art. 11, OR Art. 210 Abs. 4.",
+              "hint": "Prüfen Sie den Grundsatz der Formfreiheit und suchen Sie nach möglichen gesetzlichen Ausnahmen, insbesondere im Konsumentenschutz. Gesetzeslage: OR Art. 11, OR Art. 210 Abs. 4.",
+              "solution": "Rechtsgebiet: Kaufvertragsrecht, Formvorschriften.\nRechtsvorschrift: Grundsätzlich gilt die Formfreiheit nach OR Art. 11. Eine spezielle Regelung findet sich jedoch in OR Art. 210 Abs. 4. Diese betrifft die Verjährung der Gewährleistungsansprüche beim Kauf von beweglichen Sachen, die dem persönlichen oder familiären Gebrauch dienen (Konsumgüterkauf)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Lesen Sie den relevanten Gesetzesartikel genau. Welche Form wird für eine Verlängerung der Verjährungsfrist (Garantie) bei Konsumentengeschäften verlangt?",
+              "hint": "Lesen Sie den relevanten Gesetzesartikel genau. Welche Form wird für eine Verlängerung der Verjährungsfrist (Garantie) bei Konsumentengeschäften verlangt?",
+              "solution": "Regelanalyse: Gemäss OR Art. 210 Abs. 1 beträgt die gesetzliche Gewährleistungsfrist (Verjährungsfrist) zwei Jahre. Gemäss Abs. 4 desselben Artikels ist eine Verlängerung dieser Frist (also eine Garantie von mehr als zwei Jahren) bei Konsumgüterkäufen nur gültig, wenn sie schriftlich oder in einer anderen Form, die den Nachweis durch Text ermöglicht, erfolgt. Eine rein mündliche Zusage genügt nicht.\nRechtsfolge bei Formmangel: Die Abrede ist nichtig."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wurde die gesetzlich vorgeschriebene Form im Sachverhalt eingehalten? Was bedeutet das für die Gültigkeit der Garantie-Zusage?",
+              "hint": "Wurde die gesetzlich vorgeschriebene Form im Sachverhalt eingehalten? Was bedeutet das für die Gültigkeit der Garantie-Zusage?",
+              "solution": "Prüfung: Der Rasenmähertraktor ist ein Konsumgut für Herrn Frei. Die Garantie von drei Jahren verlängert die gesetzliche Frist von zwei Jahren. Diese Zusage erfolgte jedoch nur mündlich und nicht in der gesetzlich vorgeschriebenen Form (z.B. schriftlich, per E-Mail).\nKonsequenz: Die Garantie-Zusage über drei Jahre ist ungültig (nichtig). Herr Frei kann sich nicht darauf berufen. Es gilt die gesetzliche Gewährleistungsfrist von zwei Jahren. Da der Defekt nach einem Jahr auftrat, hat Herr Frei aber immer noch seine normalen Gewährleistungsansprüche (z.B. Reparatur, Minderung, Wandelung)."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-8",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 4 (Anwenden): Die mündliche Garantie",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-4-1",
+              "prompt": "Was bedeutet 'eine andere Form, die den Nachweis durch Text ermöglicht'?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-4-2",
+              "prompt": "Wäre die Situation anders, wenn der Käufer ein Gärtnerei-Unternehmen gewesen wäre?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-9",
+          "type": "law-case-4-step",
+          "title": "Fall 5 (Anwenden): Der übereifrige Töffli-Tuner",
+          "caseText": "Der 15-jährige Kevin ist begeisterter Mofa-Fahrer. Er bringt sein Töffli in die Werkstatt von Herrn Egger und bestellt ein professionelles Motortuning für CHF 950, um es schneller zu machen. Er erzählt Herrn Egger, er werde das von seinem Sackgeld und den Ersparnissen vom Grossvater bezahlen. Herr Egger führt das Tuning durch. Als Kevins Eltern die Rechnung sehen, sind sie entsetzt und verweigern die Genehmigung des Geschäfts.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Fokus auf das Alter von Kevin und die Art und den Preis der Dienstleistung. Wer ist beteiligt und was wird gefordert?",
+              "hint": "Fokus auf das Alter von Kevin und die Art und den Preis der Dienstleistung. Wer ist beteiligt und was wird gefordert?",
+              "solution": "Beteiligte: Der 15-jährige Kevin, Werkstattinhaber Herr Egger, Kevins Eltern.\nWas ist passiert: Ein Minderjähriger schliesst einen Werkvertrag über CHF 950 ab. Die Eltern verweigern nachträglich die Zustimmung.\nRechtsfrage: Ist der Vertrag gültig und muss die Rechnung bezahlt werden?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welche Artikel im Zivilgesetzbuch regeln die Geschäftsfähigkeit von Minderjährigen? Gesetzeslage: ZGB Art. 13, ZGB Art. 14, ZGB Art. 19.",
+              "hint": "Welche Artikel im Zivilgesetzbuch regeln die Geschäftsfähigkeit von Minderjährigen? Gesetzeslage: ZGB Art. 13, ZGB Art. 14, ZGB Art. 19.",
+              "solution": "Rechtsgebiet: Personenrecht, Handlungsfähigkeit.\nRechtsvorschrift: Die Handlungsfähigkeit ist in ZGB Art. 13 definiert. Minderjährigkeit in ZGB Art. 14. Die beschränkte Handlungsunfähigkeit von Minderjährigen wird in ZGB Art. 19 geregelt."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Unter welchen Umständen kann ein Minderjähriger Verträge abschliessen? Welche Rolle spielt die Zustimmung der Eltern? Was ist der Unterschied zwischen eigenem Lohn und Sackgeld/Geschenken?",
+              "hint": "Unter welchen Umständen kann ein Minderjähriger Verträge abschliessen? Welche Rolle spielt die Zustimmung der Eltern? Was ist der Unterschied zwischen eigenem Lohn und Sackgeld/Geschenken?",
+              "solution": "Regelanalyse: Urteilsfähige Minderjährige sind beschränkt handlungsunfähig (ZGB Art. 19 Abs. 1). Sie können Verträge nur mit Zustimmung ihrer gesetzlichen Vertreter (Eltern) abschliessen. Ohne diese Zustimmung ist der Vertrag 'schwebend unwirksam'. Die Eltern können ihn nachträglich genehmigen oder ablehnen. Ausnahmen bestehen für geringfügige Angelegenheiten des täglichen Lebens und für den Umgang mit dem eigenen Arbeitslohn (ZGB Art. 323). Sackgeld oder Geld von den Grosseltern fällt nicht unter den eigenen Arbeitserwerb.\nRechtsfolge bei Verweigerung: Der Vertrag wird endgültig ungültig. Bereits erbrachte Leistungen müssen zurückerstattet werden (Rückabwicklung)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Ist Kevin handlungsfähig für dieses Geschäft? Liegt eine Zustimmung der Eltern vor? Was ist die Folge der Verweigerung?",
+              "hint": "Ist Kevin handlungsfähig für dieses Geschäft? Liegt eine Zustimmung der Eltern vor? Was ist die Folge der Verweigerung?",
+              "solution": "Prüfung: Kevin ist 15 und somit minderjährig. Ein Motortuning für CHF 950 ist keine geringfügige Angelegenheit des täglichen Lebens. Er bezahlt es nicht von seinem eigenen Lohn. Die Zustimmung der Eltern lag nicht vor und wurde nachträglich verweigert.\nKonsequenz: Der Vertrag ist ungültig. Herr Egger kann die Bezahlung nicht fordern. Er muss das Tuning auf eigene Kosten rückgängig machen, und Kevin (bzw. seine Eltern) muss das Mofa in diesem Zustand zurücknehmen. Herr Egger trägt das Geschäftsrisiko."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-10",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 5 (Anwenden): Der übereifrige Töffli-Tuner",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-5-1",
+              "prompt": "Was hätte Herr Egger tun müssen, um auf der sicheren Seite zu sein?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-5-2",
+              "prompt": "Könnte Herr Egger Schadenersatz von Kevin verlangen, weil er seine Arbeit umsonst gemacht hat?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-11",
+          "type": "law-case-4-step",
+          "title": "Fall 6 (Anwenden): Der Tippfehler im Angebot",
+          "caseText": "Die Werkstatt von Frau Kunz erstellt für die Baufirma Gross AG ein schriftliches Angebot für die Generalüberholung eines Motors. Versehentlich tippt der zuständige Mitarbeiter den Preis auf CHF 8'700 anstatt der korrekt kalkulierten CHF 18'700. Die Gross AG bemerkt den günstigen Preis, freut sich und nimmt das Angebot sofort schriftlich an. Als Frau Kunz den Fehler bemerkt, will sie den Vertrag nicht gelten lassen.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Analysieren Sie den Prozess des Vertragsabschlusses: Gab es ein Angebot und eine Annahme? Welches Problem liegt vor?",
+              "hint": "Analysieren Sie den Prozess des Vertragsabschlusses: Gab es ein Angebot und eine Annahme? Welches Problem liegt vor?",
+              "solution": "Beteiligte: Werkstatt von Frau Kunz, Baufirma Gross AG.\nWas ist passiert: Ein Vertrag kommt aufgrund eines Angebots mit einem offensichtlichen Tippfehler im Preis zustande. Die Werkstatt bemerkt den Fehler nach Vertragsabschluss.\nRechtsfrage: Ist die Werkstatt an den Preis von CHF 8'700 gebunden oder kann sie den Vertrag aufheben?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie im OR nach den Regeln über Willensmängel, insbesondere den Irrtum. Welcher Typ von Irrtum könnte hier vorliegen? Gesetzeslage: OR Art. 23 ff., insbesondere OR Art. 24 Abs. 1 Ziff. 3.",
+              "hint": "Suchen Sie im OR nach den Regeln über Willensmängel, insbesondere den Irrtum. Welcher Typ von Irrtum könnte hier vorliegen? Gesetzeslage: OR Art. 23 ff., insbesondere OR Art. 24 Abs. 1 Ziff. 3.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Willensmängel.\nRechtsvorschrift: Die Regeln über den Irrtum finden sich in OR Art. 23 ff.. Konkret handelt es sich hier um einen Erklärungsirrtum, da der erklärte Wille (CHF 8'700) vom wirklichen Willen (CHF 18'700) abweicht. Ein solcher Irrtum ist nur beachtlich, wenn er wesentlich ist."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was ist ein 'wesentlicher Erklärungsirrtum'? Was sind die Voraussetzungen und was ist die Rechtsfolge, wenn ein solcher Irrtum vorliegt?",
+              "hint": "Was ist ein 'wesentlicher Erklärungsirrtum'? Was sind die Voraussetzungen und was ist die Rechtsfolge, wenn ein solcher Irrtum vorliegt?",
+              "solution": "Regelanalyse: Ein Irrtum ist gemäss OR Art. 24 Abs. 1 Ziff. 3 wesentlich, wenn er eine erheblich grössere Leistung betrifft, als versprochen wurde. Ein Tippfehler im Preis, der diesen mehr als halbiert, ist ein klassischer Fall eines wesentlichen Erklärungsirrtums. \nRechtsfolge: Der Vertrag ist für den Irrenden einseitig unverbindlich (anfechtbar). Er muss den Irrtum geltend machen und den Vertrag anfechten. Die Anfechtung muss innerhalb eines Jahres seit Entdeckung des Irrtums erfolgen (OR Art. 31)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Liegt im Fall von Frau Kunz ein wesentlicher Irrtum vor? Was muss sie tun, um den Vertrag anzufechten, und welche Frist muss sie beachten?",
+              "hint": "Liegt im Fall von Frau Kunz ein wesentlicher Irrtum vor? Was muss sie tun, um den Vertrag anzufechten, und welche Frist muss sie beachten?",
+              "solution": "Prüfung: Der Unterschied zwischen CHF 8'700 und CHF 18'700 ist erheblich. Es liegt ein wesentlicher Erklärungsirrtum vor. Der Vertrag ist somit für die Werkstatt von Frau Kunz einseitig unverbindlich.\nKonsequenz: Frau Kunz muss der Gross AG unverzüglich mitteilen, dass sie sich im Preis geirrt hat und den Vertrag wegen wesentlichem Irrtum nicht halten will (Anfechtungserklärung). Der Vertrag wird dadurch rückwirkend aufgehoben. Eventuell muss sie der Gross AG Schadenersatz für das Dahinfallen des Vertrages leisten, wenn sie den Irrtum fahrlässig verursacht hat (OR Art. 26)."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-12",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 6 (Anwenden): Der Tippfehler im Angebot",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-6-1",
+              "prompt": "Was wäre, wenn der Tippfehler nur geringfügig gewesen wäre, z.B. CHF 18'600 statt CHF 18'700?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-6-2",
+              "prompt": "Spielt es eine Rolle, dass die Gross AG den Fehler hätte bemerken müssen?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-13",
+          "type": "law-case-4-step",
+          "title": "Fall 7 (Analysieren): Der falsche Filter",
+          "caseText": "Ein Kunde kauft in der Werkstatt von Herrn Meier einen teuren Partikelfilter für seine Baumaschine vom Typ 'Mammut X'. Er erwähnt beiläufig, dass er den Filter für seinen alten 'Mammut X' aus dem Jahr 2010 braucht. Herr Meier weiss, dass der verkaufte Filter nur für Modelle ab 2015 passt, sagt aber nichts, da er den alten Filter nicht an Lager hat. Zu Hause stellt der Kunde fest, dass der Filter nicht passt. Er will den Kauf rückgängig machen und wirft Herrn Meier Täuschung vor.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Der Kern des Problems ist, dass der Verkäufer wichtige Informationen zurückhält. Unterscheiden Sie zwischen dem, was der Kunde dachte, und dem, was der Verkäufer wusste.",
+              "hint": "Der Kern des Problems ist, dass der Verkäufer wichtige Informationen zurückhält. Unterscheiden Sie zwischen dem, was der Kunde dachte, und dem, was der Verkäufer wusste.",
+              "solution": "Beteiligte: Werkstattinhaber Herr Meier (Verkäufer), Kunde (Käufer).\nWas ist passiert: Der Verkäufer verkauft wissentlich ein unpassendes Ersatzteil, ohne den Kunden über die Inkompatibilität aufzuklären, obwohl er dessen Absicht kennt.\nRechtsfrage: Kann der Kunde den Vertrag anfechten, und wenn ja, auf welcher rechtlichen Grundlage?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie zwei mögliche Willensmängel: Absichtliche Täuschung durch Schweigen und Grundlagenirrtum. Gesetzeslage: OR Art. 28 und OR Art. 24 Abs. 1 Ziff. 4.",
+              "hint": "Prüfen Sie zwei mögliche Willensmängel: Absichtliche Täuschung durch Schweigen und Grundlagenirrtum. Gesetzeslage: OR Art. 28 und OR Art. 24 Abs. 1 Ziff. 4.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Willensmängel.\nRechtsvorschrift: Zwei Grundlagen kommen in Frage:\n1. Absichtliche Täuschung nach OR Art. 28. Eine Täuschung kann auch durch Verschweigen von Tatsachen erfolgen, wenn eine Aufklärungspflicht besteht.\n2. Grundlagenirrtum nach OR Art. 24 Abs. 1 Ziff. 4. Der Käufer irrt sich über eine wesentliche Eigenschaft der Kaufsache (die Passgenauigkeit)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was sind die Voraussetzungen für eine 'Täuschung durch Schweigen'? Wann besteht eine Aufklärungspflicht? Was ist ein 'Grundlagenirrtum' und wann ist er wesentlich?",
+              "hint": "Was sind die Voraussetzungen für eine 'Täuschung durch Schweigen'? Wann besteht eine Aufklärungspflicht? Was ist ein 'Grundlagenirrtum' und wann ist er wesentlich?",
+              "solution": "Regelanalyse:\nTäuschung (OR Art. 28): Setzt eine Täuschungsabsicht voraus. Das Verschweigen von Tatsachen ist dann eine Täuschung, wenn eine Aufklärungspflicht besteht. Diese besteht, wenn eine Partei erkennt, dass sich die andere in einem wesentlichen Irrtum befindet und sie nach Treu und Glauben aufklären müsste.\nGrundlagenirrtum (OR Art. 24): Setzt voraus, dass sich eine Partei über einen Sachverhalt geirrt hat, der für sie eine notwendige Grundlage des Vertrages war (subjektive Wesentlichkeit) und den sie nach Treu und Glauben im Geschäftsverkehr als gegeben voraussetzen durfte (objektive Wesentlichkeit). Die Passgenauigkeit eines Ersatzteils ist ein klassischer Fall dafür.\nRechtsfolge: In beiden Fällen ist der Vertrag für die betroffene Partei einseitig unverbindlich (anfechtbar) innert Jahresfrist seit Entdeckung (OR Art. 31)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Analysieren Sie, ob die Voraussetzungen für eine Täuschung oder einen Grundlagenirrtum erfüllt sind. Was ist die Konsequenz für den Kunden?",
+              "hint": "Analysieren Sie, ob die Voraussetzungen für eine Täuschung oder einen Grundlagenirrtum erfüllt sind. Was ist die Konsequenz für den Kunden?",
+              "solution": "Analyse:\nTäuschung: Herr Meier wusste, dass der Kunde den Filter für ein altes Modell braucht und dass der verkaufte Filter nicht passt. Er hat absichtlich geschwiegen, um den Verkauf zu tätigen. Es bestand eine Aufklärungspflicht. Die Voraussetzungen für eine absichtliche Täuschung sind erfüllt.\nGrundlagenirrtum: Der Kunde ging davon aus, dass der Filter passt. Dies war für ihn eine notwendige Vertragsgrundlage, was für Herr Meier auch erkennbar war. Die Voraussetzungen für einen Grundlagenirrtum sind ebenfalls erfüllt.\nKonsequenz: Der Kunde kann den Vertrag anfechten, wahlweise gestützt auf Täuschung oder Irrtum. Er kann den Filter zurückgeben und erhält den Kaufpreis zurück. Bei Täuschung könnte er zusätzlich Schadenersatz fordern (OR Art. 28 Abs. 2 i.V.m. OR Art. 41)."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-14",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 7 (Analysieren): Der falsche Filter",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-7-1",
+              "prompt": "Warum ist es für den Kunden vorteilhafter, sich auf Täuschung statt auf Irrtum zu berufen?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-7-2",
+              "prompt": "Was wäre, wenn der Kunde nichts über das Baujahr seines Modells gesagt hätte?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-15",
+          "type": "law-case-4-step",
+          "title": "Fall 8 (Analysieren): Das überrissene Konkurrenzverbot",
+          "caseText": "Ein sehr erfahrener und gesuchter Baumaschinenmechaniker, Herr Sutter, wird von der Grossgarage AG angestellt. Sein Arbeitsvertrag enthält eine Klausel, wonach es ihm nach Beendigung des Arbeitsverhältnisses für eine Dauer von fünf Jahren verboten ist, in der ganzen Schweiz in einer konkurrenzierenden Werkstatt zu arbeiten oder eine eigene zu gründen. Als Herr Sutter nach zwei Jahren kündigt, um sich in einem anderen Kanton selbstständig zu machen, pocht die Grossgarage AG auf das Verbot.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die strittige Vertragsklausel und die Interessen der beiden Parteien.",
+              "hint": "Identifizieren Sie die strittige Vertragsklausel und die Interessen der beiden Parteien.",
+              "solution": "Beteiligte: Baumaschinenmechaniker Herr Sutter, Arbeitgeberin Grossgarage AG.\nWas ist passiert: Ein Arbeitsvertrag enthält ein sehr weitreichendes Konkurrenzverbot. Der Arbeitgeber will es nach der Kündigung durchsetzen.\nRechtsfrage: Ist das vertraglich vereinbarte Konkurrenzverbot in diesem Umfang gültig und durchsetzbar?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welche Gesetzesartikel regeln das Konkurrenzverbot im Arbeitsrecht und die allgemeine Vertragsfreiheit und ihre Grenzen? Gesetzeslage: OR Art. 340 ff. und OR Art. 20, ZGB Art. 27.",
+              "hint": "Welche Gesetzesartikel regeln das Konkurrenzverbot im Arbeitsrecht und die allgemeine Vertragsfreiheit und ihre Grenzen? Gesetzeslage: OR Art. 340 ff. und OR Art. 20, ZGB Art. 27.",
+              "solution": "Rechtsgebiet: Arbeitsvertragsrecht, Persönlichkeitsschutz.\nRechtsvorschrift: Die spezifischen Regeln für das Konkurrenzverbot finden sich in OR Art. 340 ff.. Die allgemeinen Grenzen der Vertragsfreiheit sind in OR Art. 20 (Nichtigkeit bei widerrechtlichem/sittenwidrigem Inhalt) und ZGB Art. 27 (Schutz der Persönlichkeit vor übermässiger Bindung) geregelt."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die Voraussetzungen für ein gültiges Konkurrenzverbot. Welche Kriterien (Ort, Zeit, Gegenstand) müssen erfüllt sein, damit es nicht 'unbillig' ist?",
+              "hint": "Analysieren Sie die Voraussetzungen für ein gültiges Konkurrenzverbot. Welche Kriterien (Ort, Zeit, Gegenstand) müssen erfüllt sein, damit es nicht 'unbillig' ist?",
+              "solution": "Regelanalyse: Ein Konkurrenzverbot ist nur gültig, wenn der Arbeitnehmer Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse hat und deren Verwendung den Arbeitgeber erheblich schädigen könnte (OR Art. 340 Abs. 2). Zudem muss das Verbot nach Ort, Zeit und Gegenstand angemessen beschränkt sein, um das wirtschaftliche Fortkommen des Arbeitnehmers nicht 'unbillig' zu erschweren (OR Art. 340a Abs. 1). Ein übermässiges Verbot ist nicht zwingend ganz nichtig, sondern kann vom Richter auf das zulässige Mass reduziert werden."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Ist die Klausel im Arbeitsvertrag von Herrn Sutter in ihrer Gesamtheit gültig? Was kann ein Richter tun, wenn ein Konkurrenzverbot übermässig ist?",
+              "hint": "Ist die Klausel im Arbeitsvertrag von Herrn Sutter in ihrer Gesamtheit gültig? Was kann ein Richter tun, wenn ein Konkurrenzverbot übermässig ist?",
+              "solution": "Analyse: Das vorliegende Verbot ist klar übermässig und damit unbillig. \nZeitlich: Fünf Jahre sind deutlich mehr als die üblichen 1-3 Jahre.\nÖrtlich: Die ganze Schweiz ist für einen Mechaniker, dessen Kundenkreis meist regional ist, viel zu weit gefasst.\nGegenständlich: Ein generelles Verbot, in einer konkurrenzierenden Werkstatt zu arbeiten, ist zu breit.\nKonsequenz: Das Konkurrenzverbot ist in dieser Form nicht durchsetzbar. Herr Sutter kann sich an ein Gericht wenden. Der Richter wird das Verbot auf ein zulässiges Mass reduzieren, z.B. auf 1-2 Jahre und auf eine bestimmte Region (z.B. den Kanton, in dem die Grossgarage AG hauptsächlich tätig ist). Da Herr Sutter in einem anderen Kanton eine Werkstatt gründen will, würde ihn das reduzierte Verbot wahrscheinlich nicht mehr betreffen."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-16",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 8 (Analysieren): Das überrissene Konkurrenzverbot",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-8-1",
+              "prompt": "Unter welchen Umständen fällt ein Konkurrenzverbot komplett dahin, auch wenn es angemessen formuliert wäre?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-8-2",
+              "prompt": "Muss der Arbeitgeber dem Arbeitnehmer für die Einhaltung des Konkurrenzverbots eine Entschädigung (Karenzentschädigung) zahlen?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-17",
+          "type": "law-case-4-step",
+          "title": "Fall 9 (Analysieren): Die 'fast neuen' Raupenketten",
+          "caseText": "Ein Werkstattleiter verkauft einem Kunden einen gebrauchten Minibagger. Im Verkaufsgespräch preist er die Raupenketten als 'praktisch neuwertig' an und verweist auf den Betriebsstundenzähler, der nur 50 Stunden seit dem letzten Wechsel anzeigt. Der Kunde kauft den Bagger. Nach kurzer Zeit stellt ein anderer Mechaniker fest, dass die Ketten bereits stark abgenutzt sind und der Betriebsstundenzähler offensichtlich manipuliert wurde. Der Verkäufer meint, 'neuwertig' sei eine subjektive Einschätzung und kein Garantiewert.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Der Kern liegt in der Diskrepanz zwischen der Anpreisung des Verkäufers und der Realität. Welche Handlungen hat der Verkäufer vorgenommen?",
+              "hint": "Der Kern liegt in der Diskrepanz zwischen der Anpreisung des Verkäufers und der Realität. Welche Handlungen hat der Verkäufer vorgenommen?",
+              "solution": "Beteiligte: Werkstattleiter (Verkäufer), Kunde (Käufer).\nWas ist passiert: Ein Verkäufer macht falsche Angaben über die Qualität einer Maschine und untermauert diese durch einen manipulierten Zähler, um den Käufer zum Vertragsabschluss zu bewegen.\nRechtsfrage: Liegt hier eine blosse Anpreisung oder eine anfechtbare, absichtliche Täuschung vor?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie, ob hier eine absichtliche Täuschung vorliegt. Welche Alternative gäbe es (Sachmangel)? Gesetzeslage: OR Art. 28 und Gewährleistungsrecht OR Art. 197 ff.",
+              "hint": "Prüfen Sie, ob hier eine absichtliche Täuschung vorliegt. Welche Alternative gäbe es (Sachmangel)? Gesetzeslage: OR Art. 28 und Gewährleistungsrecht OR Art. 197 ff.",
+              "solution": "Rechtsgebiet: Vertragsrecht (Willensmängel) und Kaufvertragsrecht (Gewährleistung).\nRechtsvorschrift: Primär ist die absichtliche Täuschung gemäss OR Art. 28 zu prüfen. Alternativ könnte der Käufer auch die Mängelrechte der kaufrechtlichen Gewährleistung (OR Art. 197 ff.) geltend machen, da die Ketten nicht die zugesicherte Eigenschaft ('neuwertig') aufweisen."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was sind die Tatbestandsmerkmale der absichtlichen Täuschung? Was unterscheidet eine Täuschung von einer zulässigen 'Reklame-Anpreisung'?",
+              "hint": "Was sind die Tatbestandsmerkmale der absichtlichen Täuschung? Was unterscheidet eine Täuschung von einer zulässigen 'Reklame-Anpreisung'?",
+              "solution": "Regelanalyse: Eine absichtliche Täuschung liegt vor, wenn jemand durch absichtliche Vorspiegelung falscher oder Unterdrückung von wahren Tatsachen einen anderen zu einem Vertragsabschluss verleitet. Die blosse Anpreisung von Ware in allgemeinen Redewendungen ('das beste Modell auf dem Markt') ist in der Regel keine Täuschung. Die Grenze ist überschritten, wenn über objektiv nachprüfbare Eigenschaften falsche Angaben gemacht werden. Die Manipulation eines Zählers ist eine aktive Handlung zur Untermauerung der falschen Angabe und ein klares Indiz für eine Täuschungsabsicht.\nRechtsfolge: Der Vertrag ist für den Getäuschten unverbindlich (anfechtbar)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Waren die Handlungen des Verkäufers (Aussage plus Manipulation) eine Täuschung? Welche Rechte hat der Käufer, wenn er den Vertrag anficht?",
+              "hint": "Waren die Handlungen des Verkäufers (Aussage plus Manipulation) eine Täuschung? Welche Rechte hat der Käufer, wenn er den Vertrag anficht?",
+              "solution": "Analyse: Die Aussage 'praktisch neuwertig' allein könnte noch als Anpreisung durchgehen. In Kombination mit dem Verweis auf den manipulierten Betriebsstundenzähler wird daraus aber eine klare Vorspiegelung falscher Tatsachen. Der Verkäufer wollte den Käufer aktiv über eine wesentliche Eigenschaft der Maschine täuschen. Die Voraussetzungen von OR Art. 28 sind erfüllt.\nKonsequenz: Der Käufer kann den Vertrag innerhalb eines Jahres seit Entdeckung der Täuschung anfechten (OR Art. 31). Der Vertrag wird dann rückabgewickelt: Der Käufer gibt den Bagger zurück und erhält den vollen Kaufpreis. Zusätzlich kann er Schadenersatz für allfällige weitere Kosten verlangen."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-18",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 9 (Analysieren): Die 'fast neuen' Raupenketten",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-9-1",
+              "prompt": "Warum könnte die Anfechtung wegen Täuschung für den Käufer besser sein als die Geltendmachung von Gewährleistungsrechten (z.B. Minderung)?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-9-2",
+              "prompt": "Welche strafrechtlichen Konsequenzen könnte das Verhalten des Verkäufers haben?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-19",
+          "type": "law-case-4-step",
+          "title": "Fall 10 (Transfer/Beurteilung): Die Notlage des Bauunternehmers",
+          "caseText": "An einem Freitagnachmittag fällt auf einer Grossbaustelle ein zentraler Hydraulikgenerator aus. Ohne diesen steht die gesamte Baustelle still, was zu Konventionalstrafen von CHF 20'000 pro Tag führt. Der Bauunternehmer ruft verzweifelt den einzigen verfügbaren Werkstattleiter in der Region an. Dieser erkennt die Notlage und bietet an, den Generator über das Wochenende zu reparieren, verlangt dafür aber einen Pauschalpreis von CHF 25'000, obwohl die Reparatur normalerweise höchstens CHF 8'000 kosten würde. Unter Druck stimmt der Bauunternehmer zu. Am Montag will er die Rechnung nicht in voller Höhe bezahlen.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Analysieren Sie die besondere Situation des Bauunternehmers (Zwangslage) und das Angebot des Werkstattleiters (Preis). Was ist das Missverhältnis?",
+              "hint": "Analysieren Sie die besondere Situation des Bauunternehmers (Zwangslage) und das Angebot des Werkstattleiters (Preis). Was ist das Missverhältnis?",
+              "solution": "Beteiligte: Bauunternehmer, Werkstattleiter.\nWas ist passiert: Ein Werkstattleiter nutzt die Zwangslage eines Bauunternehmers aus, um einen massiv überhöhten Preis für eine dringende Reparatur durchzusetzen. Der Bauunternehmer stimmt unter Druck zu.\nProblemstellung: Ist der Vertrag über CHF 25'000 gültig oder kann der Bauunternehmer die Zahlung des überhöhten Teils verweigern?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welcher Willensmangel könnte hier vorliegen, der speziell auf die Ausnutzung einer Zwangslage abzielt? Gesetzeslage: OR Art. 21.",
+              "hint": "Welcher Willensmangel könnte hier vorliegen, der speziell auf die Ausnutzung einer Zwangslage abzielt? Gesetzeslage: OR Art. 21.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Willensmängel.\nRechtsvorschrift: Der relevante Tatbestand ist die Übervorteilung gemäss OR Art. 21."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was sind die drei Tatbestandsmerkmale der Übervorteilung? (Missverhältnis, Schwächesituation, Ausbeutung).",
+              "hint": "Was sind die drei Tatbestandsmerkmale der Übervorteilung? (Missverhältnis, Schwächesituation, Ausbeutung).",
+              "solution": "Regelanalyse (Tatbestandsmerkmale OR Art. 21):\n1. Offenbares Missverhältnis zwischen Leistung und Gegenleistung (objektives Merkmal). Hier: CHF 25'000 für eine Reparatur im Wert von CHF 8'000.\n2. Schwächesituation bei der übervorteilten Partei (subjektives Merkmal). Hier: Notlage des Bauunternehmers wegen drohender Konventionalstrafen.\n3. Ausbeutung dieser Schwächesituation durch die andere Partei (subjektives Merkmal). Hier: Der Werkstattleiter erkennt die Notlage und setzt den Preis bewusst überhöht an.\nRechtsfolge: Der Übervorteilte kann innerhalb eines Jahres erklären, dass er den Vertrag nicht hält (Anfechtung), und das Geleistete zurückfordern."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Beurteilen Sie, ob alle drei Merkmale erfüllt sind. Welche rechtlichen Optionen hat der Bauunternehmer und welche kaufmännischen Risiken geht der Werkstattleiter mit seinem Verhalten ein?",
+              "hint": "Beurteilen Sie, ob alle drei Merkmale erfüllt sind. Welche rechtlichen Optionen hat der Bauunternehmer und welche kaufmännischen Risiken geht der Werkstattleiter mit seinem Verhalten ein?",
+              "solution": "Beurteilung und Konsequenzen:\nRechtliche Beurteilung: Alle drei Tatbestandsmerkmale der Übervorteilung sind hier klar erfüllt. Das Missverhältnis ist offensichtlich, die Notlage ist gravierend und der Werkstattleiter hat diese bewusst ausgenutzt. Der Bauunternehmer kann den Vertrag anfechten. Er muss eine angemessene Vergütung (z.B. die CHF 8'000 plus einen angemessenen Zuschlag für die Wochenendarbeit) bezahlen, aber nicht die vollen CHF 25'000.\nKaufmännische Beurteilung (Risiken für den Werkstattleiter):\n1. Rechtliches Risiko: Er riskiert, dass der Vertrag angefochten wird und er nur einen Bruchteil des geforderten Betrags erhält.\n2. Reputationsrisiko: Solch ein Verhalten spricht sich in der Branche herum und schädigt den Ruf des Betriebs nachhaltig. Langfristig verliert er dadurch mehr Kunden und Aufträge, als er mit diesem einen Geschäft gewinnt.\n3. Kundenbeziehungsrisiko: Er zerstört die Geschäftsbeziehung zum Bauunternehmer, der ein potenziell wichtiger Kunde sein könnte.\nFazit: Das Verhalten des Werkstattleiters ist sowohl rechtlich anfechtbar als auch kaufmännisch extrem kurzsichtig und schädlich."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-20",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 10 (Transfer/Beurteilung): Die Notlage des Bauunternehmers",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-10-1",
+              "prompt": "Wie hoch dürfte ein 'angemessener' Preis in dieser Situation sein?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-10-2",
+              "prompt": "Was ist der Unterschied zwischen Übervorteilung und Wucher im Strafrecht?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-21",
+          "type": "law-case-4-step",
+          "title": "Fall 11 (Transfer/Beurteilung): Die 'Gratisprobe' mit Folgen",
+          "caseText": "Ein Vertreter eines Werkzeugherstellers besucht Werkstattleiterin Gerber und überlässt ihr ein neues, teures Diagnosegerät im Wert von CHF 10'000. Er sagt: \"Testen Sie es mal 30 Tage. Wenn wir nichts von Ihnen hören, gehen wir davon aus, dass Sie es behalten wollen und schicken die Rechnung.\" Frau Gerber ist sehr beschäftigt, stellt das Gerät in die Ecke und vergisst es. Nach 40 Tagen trifft die Rechnung ein. Der Hersteller beharrt auf dem Kaufvertrag, da Schweigen in diesem Fall als Annahme gelte.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Fassen Sie die Vereinbarung oder den Vorschlag des Vertreters zusammen. Hat Frau Gerber aktiv zugestimmt?",
+              "hint": "Fassen Sie die Vereinbarung oder den Vorschlag des Vertreters zusammen. Hat Frau Gerber aktiv zugestimmt?",
+              "solution": "Beteiligte: Werkzeughersteller (vertreten durch Vertreter), Werkstattleiterin Frau Gerber.\nWas ist passiert: Ein Verkäufer überlässt eine Ware zur Probe mit der Bedingung, dass Schweigen nach 30 Tagen als Kauf gilt. Die potenzielle Käuferin reagiert nicht.\nProblemstellung: Ist durch das Schweigen ein Kaufvertrag zustande gekommen?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welcher Gesetzesartikel regelt die Zusendung unbestellter Sachen? Gilt dieser auch, wenn die Sache nicht zugesendet, sondern dagelassen wird? Gesetzeslage: OR Art. 6a.",
+              "hint": "Welcher Gesetzesartikel regelt die Zusendung unbestellter Sachen? Gilt dieser auch, wenn die Sache nicht zugesendet, sondern dagelassen wird? Gesetzeslage: OR Art. 6a.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Vertragsabschluss.\nRechtsvorschrift: Der zentrale Artikel ist OR Art. 6a, der die Zusendung unbestellter Sachen regelt. Obwohl die Sache hier nicht zugesendet, sondern dagelassen wurde, ist der Schutzzweck der Norm derselbe: Niemand soll durch Schweigen gegen seinen Willen zu einem Vertrag verpflichtet werden."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die Regel von OR Art. 6a. Gilt Schweigen grundsätzlich als Annahme? Gibt es Ausnahmen?",
+              "hint": "Analysieren Sie die Regel von OR Art. 6a. Gilt Schweigen grundsätzlich als Annahme? Gibt es Ausnahmen?",
+              "solution": "Regelanalyse: OR Art. 6a Abs. 1 stellt klar, dass die Zusendung einer unbestellten Sache nicht als Antrag gilt. Der Empfänger ist nicht verpflichtet, die Sache zurückzusenden oder aufzubewahren (Abs. 2). Schweigen bedeutet also keine Annahme. Ein Vertrag kommt nicht zustande. Eine Ausnahme besteht nur, wenn es sich um eine offensichtlich irrtümlich zugestellte Sache handelt (Abs. 3), was hier nicht der Fall ist."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Beurteilen Sie, ob durch das Schweigen von Frau Gerber ein Vertrag zustande gekommen ist. Welche strategischen Überlegungen sollte sie anstellen, bevor sie antwortet?",
+              "hint": "Beurteilen Sie, ob durch das Schweigen von Frau Gerber ein Vertrag zustande gekommen ist. Welche strategischen Überlegungen sollte sie anstellen, bevor sie antwortet?",
+              "solution": "Beurteilung und Strategie:\nRechtliche Beurteilung: Es ist kein Vertrag zustande gekommen. Die Klausel 'Schweigen gilt als Annahme' ist eine einseitige Bedingung des Verkäufers, die rechtlich nicht haltbar ist. Frau Gerber ist nicht zur Zahlung verpflichtet. Sie muss das Gerät nicht einmal aufbewahren oder zurückschicken. Sie könnte es theoretisch sogar wegwerfen.\nStrategische Überlegungen für Frau Gerber:\n1. Nichtstun und nicht zahlen: Rechtlich ist sie auf der sicheren Seite. Sie kann die Rechnung und allfällige Mahnungen ignorieren.\n2. Professionelle Kommunikation: Aus kaufmännischer Sicht ist es besser, dem Hersteller kurz schriftlich (per E-Mail) mitzuteilen, dass kein Vertrag zustande gekommen ist, sie das Angebot nicht annimmt und das Gerät zur Abholung bereitsteht. Dies vermeidet unnötigen administrativen Aufwand (Mahnungen, Betreibungsdrohungen) und erhält eine potenziell wichtige Geschäftsbeziehung aufrecht.\n3. Verhandeln: Wenn sie das Gerät doch interessant findet, könnte sie die Situation nutzen, um einen Rabatt auszuhandeln ('Ich wollte es eigentlich nicht, aber für CHF 7'000 würde ich es nehmen.').\nEmpfehlung: Option 2 ist die professionellste und sicherste Vorgehensweise."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-22",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 11 (Transfer/Beurteilung): Die 'Gratisprobe' mit Folgen",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-11-1",
+              "prompt": "Was wäre, wenn Frau Gerber das Gerät während der 30 Tage aktiv in ihrer Werkstatt eingesetzt und damit Geld verdient hätte?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-11-2",
+              "prompt": "Gibt es Situationen, in denen Schweigen doch als Annahme gilt?"
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-case-23",
+          "type": "law-case-4-step",
+          "title": "Fall 12 (Transfer/Beurteilung): Der Motorschaden in der Werkstatt",
+          "caseText": "Ein grosses Transportunternehmen bringt einen LKW zur Reparatur in die Werkstatt von Herrn Frei. In den AGB des Transportunternehmens, auf die im Auftrag verwiesen wird, steht: 'Die Werkstatt haftet für alle Schäden, die während der Reparatur am Fahrzeug entstehen, unbeschränkt.' In den AGB von Herrn Frei, die im Betrieb aushängen, steht: 'Jede Haftung für Schäden am Fahrzeug während der Reparatur, ausser bei Grobfahrlässigkeit, wird wegbedungen.' Während der Reparatur macht ein Mitarbeiter von Herrn Frei aus leichter Unachtsamkeit einen Fehler, der zu einem teuren Motorschaden führt. Das Transportunternehmen verlangt vollen Ersatz.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Kernproblem ist der Widerspruch zwischen den AGB der beiden Vertragspartner ('Battle of the Forms').",
+              "hint": "Das Kernproblem ist der Widerspruch zwischen den AGB der beiden Vertragspartner ('Battle of the Forms').",
+              "solution": "Beteiligte: Werkstatt von Herrn Frei, grosses Transportunternehmen.\nWas ist passiert: Zwei Unternehmen schliessen einen Reparaturvertrag, wobei beide auf ihre eigenen, sich in der Haftungsfrage widersprechenden AGB verweisen. Während der Reparatur entsteht ein Schaden durch leichte Fahrlässigkeit.\nProblemstellung: Welche AGB-Klausel gilt? Muss die Werkstatt für den Schaden haften?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Dieses Problem ist im Gesetz nicht explizit geregelt. Die Lösung ergibt sich aus der Lehre und Gerichtspraxis zum Vertragsabschluss. Gesetzeslage: OR Art. 1 ff.",
+              "hint": "Dieses Problem ist im Gesetz nicht explizit geregelt. Die Lösung ergibt sich aus der Lehre und Gerichtspraxis zum Vertragsabschluss. Gesetzeslage: OR Art. 1 ff.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Einbezug von Allgemeinen Geschäftsbedingungen (AGB).\nRechtsvorschrift: Es gibt keine spezifische Gesetzesnorm zur 'Battle of the Forms'. Die Lösung wird aus den allgemeinen Regeln über den Konsens (OR Art. 1 ff.) und der Gerichtspraxis abgeleitet."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Recherchieren Sie die in der Schweiz vorherrschende 'Knock-Out-Theorie' (auch 'Restgültigkeitstheorie') bei sich widersprechenden AGB. Was besagt sie?",
+              "hint": "Recherchieren Sie die in der Schweiz vorherrschende 'Knock-Out-Theorie' (auch 'Restgültigkeitstheorie') bei sich widersprechenden AGB. Was besagt sie?",
+              "solution": "Regelanalyse (Lehre und Praxis): In der Schweiz gilt bei sich widersprechenden AGB die 'Knock-Out-Theorie'. Das bedeutet:\n1. Der Vertrag kommt trotzdem zustande, da sich die Parteien über die wesentlichen Punkte (Reparatur gegen Entgelt) einig sind.\n2. Die AGB-Bestandteile, die in beiden AGB übereinstimmen, werden Vertragsinhalt.\n3. Die Klauseln, die sich widersprechen (hier die Haftungsregeln), heben sich gegenseitig auf ('knock out').\n4. An die Stelle der unwirksamen, widersprüchlichen Klauseln tritt die dispositive gesetzliche Regelung."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Theorie auf den Fall an. Welche Regelung gilt anstelle der widersprüchlichen Haftungsklauseln? Beurteilen Sie die Situation und geben Sie eine kaufmännische Empfehlung ab.",
+              "hint": "Wenden Sie die Theorie auf den Fall an. Welche Regelung gilt anstelle der widersprüchlichen Haftungsklauseln? Beurteilen Sie die Situation und geben Sie eine kaufmännische Empfehlung ab.",
+              "solution": "Beurteilung und Strategie:\nRechtliche Beurteilung: Die Haftungsklauseln in den AGB beider Parteien sind widersprüchlich und heben sich gegenseitig auf. Es gilt daher das dispositive Gesetzesrecht des Werkvertrags. Gemäss OR Art. 368 i.V.m. OR Art. 97 haftet der Unternehmer (Werkstatt) für die mangelhafte Ausführung des Werkes. Diese Haftung umfasst auch Schäden, die durch leichte Fahrlässigkeit entstehen. Herr Frei haftet also für den Motorschaden, obwohl seine AGB dies ausschliessen wollten.\nKaufmännische Empfehlung:\n1. Schaden anerkennen: Herr Frei sollte den Schaden anerkennen und nicht versuchen, sich auf seine unwirksame AGB-Klausel zu berufen. Ein Rechtsstreit wäre teuer und er würde ihn wahrscheinlich verlieren.\n2. Versicherung einschalten: Er sollte den Schaden sofort seiner Betriebshaftpflichtversicherung melden. Diese ist genau für solche Fälle da und wird die Regulierung übernehmen.\n3. Kundenkommunikation: Er sollte proaktiv und transparent mit dem Transportunternehmen kommunizieren, den Fehler zugeben und die Abwicklung über die Versicherung zusichern. So kann er versuchen, den wichtigen Kunden trotz des Vorfalls zu halten.\nPrävention: Für zukünftige Geschäfte mit grossen Partnern sollte er versuchen, die Haftungsfrage explizit im Hauptvertrag zu regeln, anstatt sich auf einen AGB-Konflikt einzulassen."
+            }
+          ]
+        },
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-disc-block-24",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 12 (Transfer/Beurteilung): Der Motorschaden in der Werkstatt",
+          "prompts": [
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-12-1",
+              "prompt": "Was ist die Alternative zur 'Knock-Out-Theorie' und warum wird sie in der Schweiz meist abgelehnt?"
+            },
+            {
+              "id": "50-entstehung-von-obligationen-aus-vertrag-disc-fall-id-12-2",
+              "prompt": "Hätte Herr Frei seine Haftung für leichte Fahrlässigkeit wirksam ausschliessen können?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "50-entstehung-von-obligationen-aus-vertrag-mindmap",
+      "title": "Mindmap",
+      "pageType": "mindmap",
+      "blocks": [
+        {
+          "id": "50-entstehung-von-obligationen-aus-vertrag-mindmap-block",
+          "type": "mindmap",
+          "title": "Mindmap: Entstehung von Obligationen aus Vertrag",
+          "content": "mindmap\n  root((Die Obligation))\n    Gläubiger\n      Berechtigter (kann Leistung fordern)\n    Schuldner\n      Verpflichteter (muss Leistung erbringen)\n    Forderung\n      Recht des Gläubigers auf Leistung\n    Schuld\n      Pflicht des Schuldners zur Leistung\n    Mit dem Willen der Parteien\n        Durch Vertrag (Art. 1-40 OR)\n    Von Gesetzes wegen\n        Unerlaubte Handlung (Art. 41-61 OR)\n        Ungerechtfertigte Bereicherung (Art. 62-67 OR)\n    1 Einigung (Konsens)\n        Antrag\n        Annahme\n        Wesentliche Vertragspunkte\n    2 Handlungsfähigkeit\n        Volljährigkeit\n        Urteilsfähigkeit\n        Folgen bei Mängeln\n    3 Formvorschriften\n        Grundsatz: Formfreiheit\n        Gesetzliche Ausnahmen\n        Folge: Nichtigkeit\n    4 Zulässiger Inhalt\n        Nicht unmöglich\n        Nicht widerrechtlich\n        Nicht sittenwidrig\n        Nichtigkeit\n    Vertragsarten\n        Veräußerungsverträge (z.B. Kaufvertrag)\n        Verträge auf Gebrauchüberlassung (z.B. Mietvertrag)\n        Verträge auf Arbeitsleistung (z.B. Arbeitsvertrag)\n    Vertragsphasen\n        Vertragsabschluss\n        Vertragserfüllung\n        Vertragsverletzungen\n        Sicherung der Vertragserfüllung\n        Verjährung\n        Abtretung und Schuldübernahme"
+        }
+      ]
+    }
+  ]
+}

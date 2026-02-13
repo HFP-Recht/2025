@@ -1,0 +1,180 @@
+{
+  "assignmentTitle": "01 Obligationenentstehung",
+  "solution_keys": [
+    "teacher2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "A. Der Kaufvertrag: Entstehung gegenseitiger Obligationen": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01_Obligationenentstehung_q1",
+          "text": "Welche zwei Hauptpflichten (Obligationen) entstehen durch den Abschluss eines Kaufvertrags?"
+        },
+        {
+          "id": "01_Obligationenentstehung_q2",
+          "text": "Definieren Sie die Begriffe 'Spezieskauf' und 'Gattungskauf' mit je einem Beispiel aus dem Land- oder Baumaschinenhandel."
+        },
+        {
+          "id": "01_Obligationenentstehung_q3",
+          "text": "Erklären Sie, warum beim Kaufvertrag beide Parteien gleichzeitig Gläubiger und Schuldner sind. Beziehen Sie sich dabei auf die Waren- und die Kaufpreisobligation."
+        },
+        {
+          "id": "01_Obligationenentstehung_q4",
+          "text": "Erläutern Sie den wesentlichen Unterschied zwischen einem Fahrniskauf und einem Grundstückkauf bezüglich der Formvorschriften."
+        },
+        {
+          "id": "01_Obligationenentstehung_q5",
+          "text": "Ein Kunde bestellt einen neuen Radlader vom Typ XY (Gattungskauf). Benennen Sie die Waren- und Kaufpreisobligation und bestimmen Sie jeweils, wer Gläubiger und wer Schuldner ist."
+        },
+        {
+          "id": "01_Obligationenentstehung_q6",
+          "text": "Sie verkaufen einem Kunden einen gebrauchten Minibagger mit der Seriennummer 12345 (Spezieskauf). Welche Art von Fahrniskauf liegt vor? Begründen Sie Ihre Antwort."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01_Obligationenentstehung_q1",
+            "answer": "<p>Durch den Abschluss eines Kaufvertrags entstehen die Warenobligation (Pflicht des Verkäufers zur Übergabe der Ware) und die Kaufpreisobligation (Pflicht des Käufers zur Bezahlung des Kaufpreises).</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q2",
+            "answer": "<p><b>Spezieskauf:</b> Der Kaufgegenstand ist eine individuell bestimmte, einzigartige Sache. Beispiel: Der Kauf eines spezifischen Occasions-Traktors mit der Fahrgestellnummer XYZ.</p><p><b>Gattungskauf:</b> Der Kaufgegenstand ist nur der Art oder Gattung nach bestimmt und somit austauschbar. Beispiel: Die Bestellung eines neuen Mähdreschers vom Modell ABC aus dem Katalog des Herstellers.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q3",
+            "answer": "<p>Beim Kaufvertrag ist jede Partei gleichzeitig Gläubiger und Schuldner. Bezüglich der Warenobligation ist der Verkäufer der Schuldner (muss die Ware liefern) und der Käufer der Gläubiger (hat Anspruch auf die Ware). Bezüglich der Kaufpreisobligation ist der Käufer der Schuldner (muss den Preis bezahlen) und der Verkäufer der Gläubiger (hat Anspruch auf den Preis). Da jede Partei sowohl eine Pflicht (Schuldner) als auch ein Recht (Gläubiger) hat, sind sie beides zugleich.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q4",
+            "answer": "<p>Der wesentliche Unterschied liegt in der Formvorschrift. Ein Fahrniskauf (Kauf einer beweglichen Sache) ist formfrei und kann sogar mündlich abgeschlossen werden. Ein Grundstückkauf hingegen bedarf zu seiner Gültigkeit zwingend der öffentlichen Beurkundung durch einen Notar.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q5",
+            "answer": "<p><b>Warenobligation:</b> Der Verkäufer ist Schuldner (muss einen Radlader Typ XY liefern), der Kunde ist Gläubiger (hat Anspruch auf den Radlader).</p><p><b>Kaufpreisobligation:</b> Der Kunde ist Schuldner (muss den Kaufpreis bezahlen), der Verkäufer ist Gläubiger (hat Anspruch auf das Geld).</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q6",
+            "answer": "<p>Es liegt ein Spezieskauf vor. Begründung: Der Kaufgegenstand, der gebrauchte Minibagger, ist durch die Angabe der Seriennummer 12345 individuell bestimmt und einzigartig. Es handelt sich um genau dieses eine Gerät und nicht um irgendein anderes vom gleichen Typ.</p>"
+          }
+        ]
+      }
+    },
+    "B. Übergang von Nutzen und Gefahr": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01_Obligationenentstehung_q7",
+          "text": "Wann gehen Nutzen und Gefahr beim Spezieskauf auf den Käufer über?"
+        },
+        {
+          "id": "01_Obligationenentstehung_q8",
+          "text": "Wann gehen Nutzen und Gefahr beim Gattungskauf auf den Käufer über, wenn die Ware versendet wird (Distanzkauf)?"
+        },
+        {
+          "id": "01_Obligationenentstehung_q9",
+          "text": "Erklären Sie, warum das Gesetz zwischen dem Zeitpunkt des Vertragsabschlusses und dem Übergang von Nutzen und Gefahr unterscheidet."
+        },
+        {
+          "id": "01_Obligationenentstehung_q10",
+          "text": "Vergleichen Sie den Übergang von Nutzen und Gefahr bei einem Spezieskauf mit dem bei einem Gattungskauf (Platzkauf, d.h. Abholung durch Käufer). Worin liegt die logische Begründung für den Unterschied?"
+        },
+        {
+          "id": "01_Obligationenentstehung_q11",
+          "text": "Beurteilen Sie den Fall aus dem 'Praxisbezug' (Occasions-Traktor wird durch Hochwasser beschädigt). Muss der Landwirt den Kaufpreis bezahlen? Begründen Sie Ihre Antwort mit dem korrekten Gesetzesartikel."
+        },
+        {
+          "id": "01_Obligationenentstehung_q12",
+          "text": "Ein Bauunternehmer kauft bei Ihnen 10 neue, identische Rüttelplatten (Gattungskauf), die er am nächsten Tag abholen will. Sie stellen die 10 Geräte für ihn bereit. In der Nacht werden genau diese 10 Geräte gestohlen. Wer trägt den finanziellen Schaden? Begründen Sie."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01_Obligationenentstehung_q7",
+            "answer": "<p>Beim Spezieskauf gehen Nutzen und Gefahr bereits mit dem Abschluss des Kaufvertrags auf den Käufer über (Art. 185 Abs. 1 OR).</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q8",
+            "answer": "<p>Beim Gattungskauf, bei dem die Ware versendet wird (Distanzkauf), gehen Nutzen und Gefahr in dem Moment auf den Käufer über, in dem die Ware zum Versand aufgegeben wird (Art. 185 Abs. 2 OR).</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q9",
+            "answer": "<p>Das Gesetz unterscheidet diese Zeitpunkte, um das Risiko eines zufälligen Untergangs oder einer unverschuldeten Verschlechterung der Ware klar zuzuordnen. Solange der Verkäufer die Ware noch nicht für den Käufer ausgeschieden oder versendet hat (Gattungskauf), kann er seine Pflicht noch mit einer anderen Ware erfüllen und trägt daher das Risiko. Sobald er aber alles seinerseits Erforderliche getan hat, geht das Risiko auf den Käufer über, der dann auch den wirtschaftlichen Nutzen aus der Sache ziehen kann.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q10",
+            "answer": "<p>Beim Spezieskauf gehen Nutzen und Gefahr sofort bei Vertragsabschluss über. Beim Gattungskauf (Platzkauf) gehen sie erst über, wenn die Ware für den Käufer bereitgestellt (ausgeschieden) wird. Die logische Begründung liegt darin, dass beim Spezieskauf das Kaufobjekt von Anfang an individuell bestimmt ist. Beim Gattungskauf hingegen muss der Verkäufer erst ein konkretes Stück aus der Gattung auswählen, um seine Leistung zu erbringen. Erst mit dieser Konkretisierung (dem Bereitstellen) geht das Risiko auf den Käufer über.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q11",
+            "answer": "<p>Ja, der Landwirt muss den Kaufpreis bezahlen. Es handelt sich um einen Spezieskauf (ein bestimmter Occasions-Traktor). Gemäss Art. 185 Abs. 1 OR gehen Nutzen und Gefahr beim Spezieskauf bereits mit dem Abschluss des Vertrags auf den Käufer über. Da die Zerstörung nach Vertragsabschluss, aber vor der Übergabe erfolgte, trägt der Käufer (der Landwirt) das Risiko des zufälligen Untergangs der Sache.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q12",
+            "answer": "<p>Der Bauunternehmer trägt den finanziellen Schaden. Es handelt sich um einen Gattungskauf (Platzkauf). Gemäss Art. 185 Abs. 2 OR gehen Nutzen und Gefahr auf den Käufer über, sobald die Ware für ihn bereitgestellt (ausgeschieden) wird. Da Sie die 10 Rüttelplatten für den Kunden bereitgestellt hatten, war der Übergang von Nutzen und Gefahr bereits erfolgt. Der Käufer muss den Kaufpreis bezahlen, obwohl die Geräte gestohlen wurden.</p>"
+          }
+        ]
+      }
+    },
+    "C. Tausch- und Schenkungsvertrag": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01_Obligationenentstehung_q13",
+          "text": "Worin unterscheidet sich der Tauschvertrag vom Kaufvertrag?"
+        },
+        {
+          "id": "01_Obligationenentstehung_q14",
+          "text": "Welche Formvorschrift gilt für ein Schenkungsversprechen über eine bewegliche Sache (z.B. ein Werkzeugkoffer)?"
+        },
+        {
+          "id": "01_Obligationenentstehung_q15",
+          "text": "Erklären Sie, warum die Schenkung rechtlich als Vertrag und nicht als einseitige Handlung gilt."
+        },
+        {
+          "id": "01_Obligationenentstehung_q16",
+          "text": "Begründen Sie, warum beim Tauschvertrag die Regeln des Kaufvertrags 'sinngemäss' angewendet werden können."
+        },
+        {
+          "id": "01_Obligationenentstehung_q17",
+          "text": "Sie tauschen mit einem Berufskollegen einen alten Diagnose-Laptop gegen einen Satz Spezialschlüssel. Welche vertraglichen Obligationen entstehen für Sie und Ihren Kollegen?"
+        },
+        {
+          "id": "01_Obligationenentstehung_q18",
+          "text": "Ihr pensionierter Vorgänger verspricht Ihnen mündlich, Ihnen seine wertvolle Sammlung technischer Fachliteratur zu schenken. Ist dieses Versprechen rechtlich verbindlich? Begründen Sie."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01_Obligationenentstehung_q13",
+            "answer": "<p>Der wesentliche Unterschied liegt in der Gegenleistung. Beim Kaufvertrag wird eine Sache gegen Geld (Bezahlung) übereignet. Beim Tauschvertrag wird eine Sache gegen eine andere Sache getauscht.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q14",
+            "answer": "<p>Ein Schenkungsversprechen über eine bewegliche Sache bedarf zu seiner Gültigkeit der einfachen Schriftlichkeit (Art. 243 Abs. 1 OR).</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q15",
+            "answer": "<p>Die Schenkung ist ein Vertrag, weil sie das Einverständnis beider Parteien erfordert: den Antrag des Schenkers und die Annahme durch den Beschenkten. Niemand kann gezwungen werden, eine Schenkung anzunehmen; der Beschenkte muss der Zuwendung zustimmen. Deshalb ist es ein zweiseitiges Rechtsgeschäft (Vertrag) und keine einseitige Handlung.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q16",
+            "answer": "<p>Beim Tauschvertrag ist jede Partei gleichzeitig Verkäufer (bezüglich der Sache, die sie hingibt) und Käufer (bezüglich der Sache, die sie erhält). Die Interessenlage und die Pflichten (Übergabe des Eigentums, Haftung für Mängel) sind daher sehr ähnlich wie beim Kaufvertrag. Deshalb ist es logisch und effizient, die detaillierten Regeln des Kaufvertrags sinngemäss auf den Tausch anzuwenden.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q17",
+            "answer": "<p>Für Sie entsteht die Obligation, dem Kollegen den Diagnose-Laptop zu übergeben und ihm das Eigentum daran zu verschaffen. Für Ihren Kollegen entsteht die Obligation, Ihnen den Satz Spezialschlüssel zu übergeben und Ihnen das Eigentum daran zu verschaffen. Jede Partei ist Schuldner der eigenen Sache und Gläubiger der anderen Sache.</p>"
+          },
+          {
+            "id": "01_Obligationenentstehung_q18",
+            "answer": "<p>Nein, dieses mündliche Versprechen ist rechtlich nicht verbindlich. Gemäss Art. 243 Abs. 1 OR muss ein Schenkungsversprechen schriftlich erfolgen, um gültig zu sein. Da die Zusage nur mündlich gemacht wurde, ist die gesetzliche Formvorschrift nicht erfüllt und das Versprechen ist somit ungültig.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

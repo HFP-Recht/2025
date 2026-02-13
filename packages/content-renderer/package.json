@@ -1,0 +1,37 @@
+{
+  "name": "@hfp/content-renderer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": "./src/styles.css"
+  },
+  "scripts": {
+    "build": "npm run build -w @hfp/content-schema && tsc -p tsconfig.json",
+    "lint": "eslint \"src/**/*.ts\" \"src/**/*.tsx\"",
+    "typecheck": "npm run build -w @hfp/content-schema && tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@hfp/content-schema": "0.1.0",
+    "mermaid": "^11.12.2",
+    "quill": "^2.0.3",
+    "react-quill": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.7"
+  }
+}

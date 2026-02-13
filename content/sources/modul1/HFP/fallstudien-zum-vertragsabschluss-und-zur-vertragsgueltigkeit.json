@@ -1,0 +1,662 @@
+{
+  "status": "success",
+  "assignmentTitle": "Fallstudien zum Vertragsabschluss und zur Vertragsgültigkeit",
+  "solution_keys": [
+    "master2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "fall-id-1": {
+      "title": "Fall 1 (Grundlagen): Der motivierte Lernende",
+      "type": "law_case",
+      "caseText": "Der 17-jährige Lernende zum Baumaschinenmechaniker, Jonas, möchte sich eine professionelle Werkzeugkiste zulegen. Er findet ein passendes Modell für CHF 2'800. Da er in den letzten zwei Jahren seinen gesamten Lehrlingslohn gespart hat, kann er die Summe problemlos bezahlen. Er unterschreibt den Kaufvertrag beim Händler, ohne seine Eltern zu fragen. Als seine Eltern davon erfahren, sind sie nicht einverstanden und verlangen vom Händler, den Kauf rückgängig zu machen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Fokussieren Sie auf das Alter von Jonas und den Umstand, dass er den Kauf mit seinem eigenen Lohn bezahlen will."
+        },
+        {
+          "id": "step_2",
+          "text": "Die zentralen Begriffe sind 'Handlungsfähigkeit' und die Verfügungsgewalt über den eigenen Lohn. Gesetzeslage: <strong>ZGB Art. 13</strong>, <strong>ZGB Art. 19</strong> und <strong>ZGB Art. 323</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Prüfen Sie die Voraussetzungen der Handlungsfähigkeit. Welche besondere Regelung gilt für urteilsfähige Minderjährige in Bezug auf ihren Arbeitserwerb?"
+        },
+        {
+          "id": "step_4",
+          "text": "Ist Jonas für dieses Geschäft handlungsfähig, obwohl er minderjährig ist? Wenden Sie die spezielle Regelung auf den Sachverhalt an."
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Der 17-jährige Lernende Jonas, der Werkzeughändler, Jonas' Eltern.<br><strong>Was ist passiert:</strong> Jonas schliesst einen Kaufvertrag über CHF 2'800 ab und bezahlt mit seinem Lohn. Seine Eltern sind dagegen.<br><strong>Rechtsfrage:</strong> Ist der Kaufvertrag gültig, obwohl Jonas minderjährig ist und seine Eltern nicht zugestimmt haben?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Personenrecht / Vertragsrecht.<br><strong>Rechtsvorschrift:</strong> Handlungsfähigkeit gemäss Zivilgesetzbuch, insbesondere die beschränkte Handlungsunfähigkeit (<strong>ZGB Art. 19</strong>) und die Sonderregel zum Eigenerwerb des Kindes (<strong>ZGB Art. 323</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Grundsätzlich benötigen urteilsfähige Minderjährige für Verträge die Zustimmung ihrer gesetzlichen Vertreter (<strong>ZGB Art. 19</strong>). Eine wichtige Ausnahme bildet <strong>ZGB Art. 323 Abs. 1</strong>: Über seinen Arbeitserwerb (Lohn) kann das Kind frei verfügen.<br><strong>Rechtsfolge:</strong> Soweit ein Minderjähriger über seinen Lohn verfügt, gilt er als voll handlungsfähig.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Jonas ist 17 und urteilsfähig, aber minderjährig. Er bezahlt die Werkzeugkiste mit seinem ersparten Lehrlingslohn. Gemäss <strong>ZGB Art. 323</strong> darf er über dieses Geld frei verfügen.<br><strong>Konsequenz:</strong> Der Kaufvertrag ist <strong>gültig</strong>. Die Eltern können den Kauf nicht rückgängig machen, da Jonas für dieses Geschäft als handlungsfähig gilt.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn Jonas die Werkzeugkiste auf Raten gekauft hätte und die Raten von seinem zukünftigen Lohn bezahlen wollte?",
+            "answer": "<p>In diesem Fall wäre der Vertrag wahrscheinlich <strong>ungültig</strong> ohne die Zustimmung der Eltern. <strong>ZGB Art. 323</strong> bezieht sich auf bereits verdientes und vorhandenes Vermögen. Ein Ratenkauf stellt eine Verpflichtung für die Zukunft dar, welche die Handlungsfähigkeit des Minderjährigen übersteigt und daher der Zustimmung der gesetzlichen Vertreter bedarf.</p>"
+          },
+          {
+            "question": "Spielt die Höhe des Kaufpreises (CHF 2'800) eine Rolle?",
+            "answer": "<p>Nicht direkt, solange der Betrag durch den eigenen Lohn gedeckt ist. Die Regelung in <strong>ZGB Art. 323</strong> kennt keine betragsmässige Obergrenze. Es geht darum, dass der Minderjährige über sein selbst verdientes Geld verfügen kann. Wäre der Betrag unverhältnismässig hoch und würde die finanzielle Zukunft von Jonas gefährden, könnten die Eltern allenfalls über das Kindesschutzrecht eingreifen, aber der Vertrag an sich bliebe gültig.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-2": {
+      "title": "Fall 2 (Grundlagen): Das Inserat für den Hoflader",
+      "type": "law_case",
+      "caseText": "Werkstattleiter Meier sieht in einer Fachzeitschrift ein Inserat: \"Gebrauchter Hoflader Marke 'Stark', Jg. 2018, guter Zustand, Preis CHF 19'500. Kontakt: Garage Bruni\". Meier ruft sofort bei Bruni an und sagt: \"Ich nehme den Hoflader aus Ihrem Inserat für CHF 19'500.\" Herr Bruni antwortet, dass er bereits einen anderen Interessenten habe, der vielleicht mehr bezahle. Meier ist verärgert und meint, durch seinen Anruf sei ein verbindlicher Kaufvertrag zustande gekommen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Analysieren Sie die beiden Handlungen: das Inserat in der Zeitschrift und den Anruf von Herrn Meier."
+        },
+        {
+          "id": "step_2",
+          "text": "Es geht um das Zustandekommen eines Vertrages durch Antrag und Annahme. Ist ein Inserat ein verbindlicher Antrag? Gesetzeslage: <strong>OR Art. 1</strong> und <strong>OR Art. 7 Abs. 2</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Was ist gemäss Gesetz ein verbindlicher Antrag und was nicht? Unterscheiden Sie zwischen der Auslage von Waren und dem Versand von Preislisten, Katalogen oder Inseraten."
+        },
+        {
+          "id": "step_4",
+          "text": "Wenden Sie die Regel auf das Inserat an. Was ist das Inserat rechtlich gesehen? Und was ist der Anruf von Herrn Meier?"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Meier, Garage Bruni.<br><strong>Was ist passiert:</strong> Meier reagiert auf ein Inserat und erklärt, die Maschine kaufen zu wollen. Bruni lehnt vorerst ab.<br><strong>Rechtsfrage:</strong> Ist durch das Inserat und den Anruf ein gültiger Kaufvertrag zustande gekommen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht (Vertragsabschluss).<br><strong>Rechtsvorschrift:</strong> Zustandekommen des Vertrages (<strong>OR Art. 1</strong>) und die Verbindlichkeit des Antrags, insbesondere die Regelung für Tarife, Preislisten und Inserate (<strong>OR Art. 7 Abs. 2</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Ein Vertrag erfordert einen Antrag und eine Annahme (<strong>OR Art. 1</strong>). Ein Antrag ist grundsätzlich verbindlich. Gemäss <strong>OR Art. 7 Abs. 2</strong> gilt jedoch der Versand von Tarifen, Preislisten und Ähnlichem sowie die Inserierung nicht als Antrag.<br><strong>Rechtsfolge:</strong> Ein Inserat ist rechtlich gesehen nur eine <strong>Einladung zur Offertstellung</strong> (invitatio ad offerendum).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Das Inserat der Garage Bruni ist kein verbindlicher Antrag, sondern lediglich eine Einladung an potenzielle Käufer, ihrerseits ein Angebot zu machen. Der Anruf von Herrn Meier (\"Ich nehme den Hoflader...\") ist der eigentliche, verbindliche <strong>Antrag</strong> zum Kauf. Herr Bruni hat diesen Antrag am Telefon (noch) nicht angenommen.<br><strong>Konsequenz:</strong> Es ist <strong>kein Vertrag</strong> zustande gekommen, da die Annahme durch Herrn Bruni fehlt. Meier hat keinen Anspruch auf den Hoflader.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie wäre die Situation, wenn der Hoflader mit einem Preisschild auf dem Hof der Garage Bruni ausgestellt wäre?",
+            "answer": "<p>In diesem Fall würde es sich um eine 'Auslage von Waren mit Angabe des Preises' handeln. Dies gilt gemäss <strong>OR Art. 7 Abs. 3</strong> in der Regel als <strong>verbindlicher Antrag</strong>. Wenn Herr Meier dann sagen würde, er kaufe die Maschine, käme ein Vertrag zustande, sofern die Garage Bruni keinen Widerrufsgrund geltend machen könnte (z.B. ein offensichtlicher Irrtum beim Preis).</p>"
+          },
+          {
+            "question": "Hätte Herr Bruni im Inserat schreiben können, dass das Angebot verbindlich ist?",
+            "answer": "<p>Ja. Die Regel in <strong>OR Art. 7 Abs. 2</strong> ist dispositiv, das heisst, sie kann durch eine anderslautende Erklärung abgeändert werden. Ein Zusatz wie 'verbindliches Angebot, es gilt die erste Zusage' würde das Inserat zu einem Antrag machen. Dies ist in der Praxis aber sehr unüblich und riskant.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-3": {
+      "title": "Fall 3 (Grundlagen): Der mündliche Serviceauftrag",
+      "type": "law_case",
+      "caseText": "Landwirt Huber bringt seinen Traktor zur Werkstatt von Frau Keller. Er sagt zu ihr: \"Machen Sie bitte den jährlichen Service, wie immer.\" Frau Keller nickt und sagt: \"Geht klar, ist in zwei Tagen erledigt.\" Sie sprechen nicht über den Preis. Als Huber den Traktor abholt, präsentiert ihm Keller eine Rechnung über CHF 1'800. Huber ist schockiert und meint, ein Vertrag sei ohne schriftliche Vereinbarung und ohne Preisabsprache gar nicht gültig.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Identifizieren Sie die Art der Vereinbarung zwischen Huber und Keller. Gab es eine Einigung über die zu erbringende Leistung?"
+        },
+        {
+          "id": "step_2",
+          "text": "Das Thema ist die Form des Vertrages und die Einigung über die wesentlichen Vertragspunkte. Gesetzeslage: <strong>OR Art. 11</strong> (Formfreiheit), <strong>OR Art. 1</strong> und <strong>OR Art. 2</strong> (Einigung über Hauptpunkte)."
+        },
+        {
+          "id": "step_3",
+          "text": "Welcher Grundsatz gilt für die Form von Verträgen in der Schweiz? Müssen sich die Parteien über alle Details, inklusive Preis, einigen, damit ein Vertrag zustande kommt?"
+        },
+        {
+          "id": "step_4",
+          "text": "Wurde hier eine Formvorschrift missachtet? Haben sich die Parteien über die wesentlichen Punkte (hier: die Durchführung des Service) geeinigt? Was gilt bezüglich des Preises?"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Landwirt Huber, Werkstattleiterin Keller.<br><strong>Was ist passiert:</strong> Ein mündlicher Auftrag für einen Traktorservice wurde erteilt und ausgeführt. Anschliessend gibt es Streit über die Gültigkeit des Vertrags und den Preis.<br><strong>Rechtsfrage:</strong> Ist ein mündlicher Serviceauftrag ohne Preisabsprache ein gültiger Vertrag?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht (Vertragsabschluss).<br><strong>Rechtsvorschrift:</strong> Grundsatz der Formfreiheit (<strong>OR Art. 11</strong>), Zustandekommen des Vertrages (<strong>OR Art. 1</strong>) und Einigung über die objektiv wesentlichen Vertragspunkte (<strong>OR Art. 2</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Gemäss <strong>OR Art. 11</strong> können Verträge in jeder Form abgeschlossen werden (mündlich, schriftlich, stillschweigend), sofern das Gesetz nicht eine bestimmte Form vorschreibt. Für einen Werkvertrag (Serviceauftrag) gibt es keine Formvorschrift. Für das Zustandekommen genügt die Einigung über die wesentlichen Vertragspunkte (hier: die auszuführende Arbeit). Der Preis ist nicht zwingend ein wesentlicher Punkt.<br><strong>Rechtsfolge:</strong> Der Vertrag ist auch ohne Schriftlichkeit und Preisabsprache gültig. Der Preis bestimmt sich dann nach dem 'Wert der Arbeit und den Auslagen des Unternehmers' (<strong>OR Art. 374</strong>).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Huber und Keller haben sich mündlich über die zu erbringende Leistung ('jährlicher Service') geeinigt. Da das Gesetz keine Schriftform vorschreibt, ist der Vertrag formgültig. Die fehlende Preisabsprache hindert das Zustandekommen des Vertrages nicht.<br><strong>Konsequenz:</strong> Der Vertrag ist <strong>gültig</strong>. Huber muss die Rechnung bezahlen. Sollte der Preis von CHF 1'800 aber überhöht sein, könnte er diesen bestreiten. Dann müsste Frau Keller beweisen, dass der Preis dem Wert der Arbeit und dem Materialaufwand entspricht.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was hätte Frau Keller tun können, um diesen Streit von vornherein zu vermeiden?",
+            "answer": "<p>Sie hätte aus kaufmännischer Vorsicht einen schriftlichen Kostenvoranschlag oder eine Auftragsbestätigung erstellen und vom Kunden unterzeichnen lassen sollen. Dies schafft Klarheit und dient als Beweismittel für die Preisabsprache.</p>"
+          },
+          {
+            "question": "Angenommen, die Rechnung wäre CHF 5'000, weil eine unerwartete, grosse Reparatur nötig war. Müsste Huber das auch bezahlen?",
+            "answer": "<p>Nein, nicht ohne Weiteres. Der Auftrag lautete auf 'jährlicher Service'. Eine wesentliche Ausweitung des Auftrags, die zu einer massiven Kostensteigerung führt, bedarf der Zustimmung des Auftraggebers. Frau Keller hätte Huber kontaktieren und seine Genehmigung für die Zusatzarbeiten und die damit verbundenen Kosten einholen müssen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-4": {
+      "title": "Fall 4 (Anwenden): Der Ratenkauf des Quads",
+      "type": "law_case",
+      "caseText": "Die Werkstatt 'Moto-Tech' verkauft einem Privatkunden, Herrn Frei, ein gebrauchtes Quad für CHF 8'000. Da Herr Frei den Betrag nicht auf einmal aufbringen kann, vereinbaren sie mündlich eine Zahlung in 16 monatlichen Raten à CHF 500. Herr Frei nimmt das Quad sofort mit. Nach drei pünktlich bezahlten Raten verliert er seine Stelle und stellt die Zahlungen ein. Als 'Moto-Tech' ihn mahnt, meint er, der Vertrag sei sowieso ungültig, da er nicht schriftlich abgeschlossen wurde.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Identifizieren Sie die Vertragsart und die besondere Zahlungsmodalität. Beachten Sie, dass der Käufer eine Privatperson ist."
+        },
+        {
+          "id": "step_2",
+          "text": "Prüfen Sie, ob für diese Art von Vertrag (Kauf auf Raten an einen Konsumenten) ein Spezialgesetz mit Formvorschriften zur Anwendung kommt. Gesetzeslage: <strong>OR Art. 11</strong> und das <strong>Konsumkreditgesetz (KKG)</strong>, insbesondere <strong>KKG Art. 1</strong>, <strong>KKG Art. 9</strong> und <strong>KKG Art. 15</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Welche Form verlangt das KKG für Verträge, die unter seinen Geltungsbereich fallen? Was ist die Rechtsfolge, wenn diese Form nicht eingehalten wird?"
+        },
+        {
+          "id": "step_4",
+          "text": "Fällt der vorliegende Fall unter das KKG? Wurde die gesetzlich vorgeschriebene Form eingehalten? Leiten Sie daraus die Konsequenz für die Gültigkeit des Vertrages ab."
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstatt 'Moto-Tech' (Verkäuferin), Herr Frei (Käufer/Konsument).<br><strong>Was ist passiert:</strong> Ein Quad wird mündlich auf Raten an eine Privatperson verkauft. Der Käufer stellt die Zahlungen ein.<br><strong>Rechtsfrage:</strong> Ist der mündlich abgeschlossene Ratenkaufvertrag gültig?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Konsumentenschutz.<br><strong>Rechtsvorschrift:</strong> Das Konsumkreditgesetz (KKG) ist als Spezialgesetz anwendbar. Relevant sind der Geltungsbereich (<strong>KKG Art. 1</strong>, <strong>Art. 7</strong>), die Formvorschriften (<strong>KKG Art. 9</strong>) und die Folgen von Formmängeln (<strong>KKG Art. 15</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Das KKG gilt für Kredite an Konsumenten (natürliche Personen, privater Zweck). Ein Abzahlungsgeschäft (Ratenkauf) ist eine Form des Konsumkredits. Gemäss <strong>KKG Art. 9</strong> bedarf ein Konsumkreditvertrag der <strong>qualifizierten Schriftlichkeit</strong>. Er muss bestimmte, im Gesetz genannte Angaben enthalten.<br><strong>Rechtsfolge bei Formmangel:</strong> Die Nichteinhaltung der Formvorschriften führt zur <strong>Nichtigkeit</strong> des Vertrages (<strong>KKG Art. 15</strong>).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Herr Frei ist eine Privatperson (Konsument). Der Ratenkauf ist ein Abzahlungsgeschäft, das unter das KKG fällt. Der Vertrag wurde nur mündlich abgeschlossen, die gesetzlich vorgeschriebene qualifizierte Schriftlichkeit wurde nicht eingehalten.<br><strong>Konsequenz:</strong> Der Vertrag ist <strong>nichtig</strong>. Herr Frei hat mit seiner Behauptung recht. Er muss das Quad zurückgeben, und die Werkstatt muss ihm die bereits bezahlten Raten (3 x CHF 500 = CHF 1'500) zurückerstatten. Die Werkstatt kann allenfalls eine Entschädigung für die Nutzung des Quads verlangen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wäre die Situation anders, wenn Herr Frei das Quad für sein Gartenbau-Einzelunternehmen gekauft hätte?",
+            "answer": "<p>Ja, sehr wahrscheinlich. Das KKG schützt Konsumenten, die einen Kredit für einen privaten Zweck aufnehmen (<strong>KKG Art. 7</strong>). Hätte er das Quad für seine geschäftliche Tätigkeit gekauft, wäre das KKG nicht anwendbar. Dann würde der Grundsatz der Formfreiheit (<strong>OR Art. 11</strong>) gelten und der mündliche Ratenkaufvertrag wäre <strong>gültig</strong> gewesen.</p>"
+          },
+          {
+            "question": "Welchen Zweck verfolgt das Gesetz mit dieser strengen Formvorschrift?",
+            "answer": "<p>Die Formvorschrift hat eine <strong>Warn- und Schutzfunktion</strong>. Der Konsument soll vor übereilten Vertragsabschlüssen und der damit verbundenen Verschuldung geschützt werden. Die Pflicht, alle wichtigen Vertragsdetails schriftlich festzuhalten, schafft Transparenz und ermöglicht es dem Konsumenten, die Konditionen (z.B. effektiver Jahreszins) zu prüfen und zu vergleichen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-5": {
+      "title": "Fall 5 (Anwenden): Das falsche Ersatzteil",
+      "type": "law_case",
+      "caseText": "Ein Kunde benötigt dringend eine neue Wasserpumpe für seinen Mähdrescher, Modell 'Agro-Cut 5000', Baujahr 2022. In der Werkstatt von Herrn Schmid erklärt er genau, für welches Modell er die Pumpe braucht. Herr Schmid schaut im System nach und verkauft ihm eine Pumpe, die gemäss seiner Datenbank für dieses Modell passen sollte. Beide, Kunde und Verkäufer, gehen davon aus, dass es die richtige Pumpe ist. Beim Einbau stellt der Kunde fest, dass die Anschlüsse nicht passen, da der Hersteller für das Modelljahr 2022 eine Änderung vorgenommen hat, die in Schmids Datenbank noch nicht erfasst war. Der Kunde will den Kauf rückgängig machen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Der Kern des Problems ist, dass beide Parteien von einer falschen, aber übereinstimmenden Vorstellung über eine wesentliche Eigenschaft des Kaufgegenstandes (die Passgenauigkeit) ausgingen."
+        },
+        {
+          "id": "step_2",
+          "text": "Dieses Szenario betrifft die Willensmängel, spezifisch den wesentlichen Irrtum. Gesetzeslage: <strong>OR Art. 23</strong> und <strong>OR Art. 24 Abs. 1 Ziff. 4</strong> (Grundlagenirrtum)."
+        },
+        {
+          "id": "step_3",
+          "text": "Was sind die Voraussetzungen für einen Grundlagenirrtum? Der Irrtum muss sich auf einen Sachverhalt beziehen, der (1) subjektiv wesentlich, (2) objektiv wesentlich und (3) für die Gegenpartei erkennbar war."
+        },
+        {
+          "id": "step_4",
+          "text": "Prüfen Sie, ob die Passgenauigkeit der Pumpe eine notwendige Grundlage des Vertrages war. War dieser Umstand für beide Parteien entscheidend? Kann der Kunde den Vertrag anfechten?"
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Kunde (Käufer), Werkstattleiter Schmid (Verkäufer).<br><strong>Was ist passiert:</strong> Beide Parteien irren sich über eine wesentliche Eigenschaft des Kaufgegenstandes (Passgenauigkeit der Wasserpumpe).<br><strong>Rechtsfrage:</strong> Kann der Kunde den Kaufvertrag wegen Irrtums anfechten und rückgängig machen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Willensmängel.<br><strong>Rechtsvorschrift:</strong> Anfechtung wegen wesentlichen Irrtums, insbesondere der Grundlagenirrtum gemäss <strong>OR Art. 23</strong> und <strong>OR Art. 24 Abs. 1 Ziff. 4</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Ein Grundlagenirrtum liegt vor, wenn sich eine Partei über einen bestimmten Sachverhalt geirrt hat, den sie nach Treu und Glauben als eine notwendige Grundlage des Vertrages betrachten durfte. Der Irrtum muss <strong>subjektiv wesentlich</strong> sein (die Partei hätte den Vertrag so nicht geschlossen), <strong>objektiv wesentlich</strong> (auch ein vernünftiger Dritter hätte dem Sachverhalt diese Bedeutung beigemessen) und die Wichtigkeit des Sachverhalts muss für die Gegenpartei <strong>erkennbar</strong> gewesen sein.<br><strong>Rechtsfolge:</strong> Der Vertrag ist für den Irrenden einseitig unverbindlich und kann angefochten werden.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die Passgenauigkeit der Pumpe für das spezifische Mähdreschermodell war die notwendige Grundlage des Vertrages. Ohne diese Eigenschaft ist die Pumpe für den Kunden nutzlos (subjektiv wesentlich). Auch objektiv ist die Passgenauigkeit bei einem Ersatzteil entscheidend. Da der Kunde das genaue Modell nannte, war die Wichtigkeit für Herrn Schmid klar erkennbar. Beide Parteien befanden sich im selben Irrtum.<br><strong>Konsequenz:</strong> Der Kunde kann den Vertrag wegen eines wesentlichen Grundlagenirrtums <strong>anfechten</strong> (<strong>OR Art. 23</strong>). Er muss dies innerhalb eines Jahres seit Entdeckung des Irrtums tun (<strong>OR Art. 31</strong>). Nach erfolgreicher Anfechtung kann er die Pumpe zurückgeben und erhält den Kaufpreis zurück.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Spielt es eine Rolle, wer den Irrtum 'verschuldet' hat (z.B. die veraltete Datenbank von Herrn Schmid)?",
+            "answer": "<p>Für die Anfechtung wegen Irrtums spielt das Verschulden zunächst keine Rolle. Der Vertrag ist auch bei einem unverschuldeten Irrtum anfechtbar. Allerdings könnte derjenige, der den Vertrag anficht, schadenersatzpflichtig werden, wenn er den Irrtum seiner eigenen Fahrlässigkeit zuzuschreiben hat (<strong>OR Art. 26</strong>). In diesem Fall ist aber eher dem Verkäufer ein Vorwurf zu machen, weshalb eine Schadenersatzpflicht des Kunden unwahrscheinlich ist.</p>"
+          },
+          {
+            "question": "Könnte man hier auch von einer Sachmängelgewährleistung (Garantie) ausgehen?",
+            "answer": "<p>Ja, das ist eine alternative rechtliche Begründung. Die fehlende Passgenauigkeit stellt einen Sachmangel dar, da der Pumpe eine 'zugesicherte Eigenschaft' fehlt. Der Kunde könnte also auch seine Mängelrechte (Wandelung, Minderung, Ersatzlieferung) gemäss <strong>OR Art. 197 ff.</strong> geltend machen. In der Praxis führt beides zum selben Ergebnis: Rückgabe der Ware gegen Erstattung des Preises. Die Anfechtung wegen Irrtums ist oft direkter, wenn der Wille von Anfang an mangelhaft war.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-6": {
+      "title": "Fall 6 (Anwenden): Die illegale Leistungssteigerung",
+      "type": "law_case",
+      "caseText": "Ein Kunde beauftragt eine Landmaschinenwerkstatt, bei seinem Traktor eine Softwareänderung vorzunehmen, die die Abgasreinigung (AdBlue-System) deaktiviert und die Motorleistung erhöht. Diese Änderung führt dazu, dass der Traktor die gesetzlichen Abgasvorschriften nicht mehr einhält und seine Betriebserlaubnis verliert. Der Werkstattleiter weiss dies, führt den Auftrag aber für vereinbarte CHF 2'500 aus. Nach getaner Arbeit weigert sich der Kunde zu bezahlen und argumentiert, der ganze Vertrag sei ja illegal und damit ungültig.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Der Kern des Falles ist der Inhalt des Vertrages: eine Leistung, die gegen gesetzliche Vorschriften verstösst."
+        },
+        {
+          "id": "step_2",
+          "text": "Das Thema ist die Gültigkeit des Vertragsinhalts. Prüfen Sie die Schranken der Vertragsfreiheit. Gesetzeslage: <strong>OR Art. 19</strong> und <strong>OR Art. 20</strong> (unmöglicher, widerrechtlicher oder unsittlicher Inhalt)."
+        },
+        {
+          "id": "step_3",
+          "text": "Was bedeutet 'widerrechtlicher' Vertragsinhalt? Was ist die Rechtsfolge, wenn ein Vertrag gegen zwingende gesetzliche Vorschriften verstösst?"
+        },
+        {
+          "id": "step_4",
+          "text": "Verstösst die vereinbarte Softwareänderung gegen das Gesetz? Wenn ja, was bedeutet das für die Gültigkeit des Werkvertrages und den Zahlungsanspruch der Werkstatt?"
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Kunde (Auftraggeber), Landmaschinenwerkstatt (Auftragnehmer).<br><strong>Was ist passiert:</strong> Die Werkstatt führt einen Auftrag aus, der zu einem gesetzeswidrigen Zustand des Fahrzeugs führt. Der Kunde verweigert die Zahlung.<br><strong>Rechtsfrage:</strong> Ist der Werkvertrag über die illegale Softwareänderung gültig?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Gültigkeit des Vertrags.<br><strong>Rechtsvorschrift:</strong> Die Freiheit der Inhaltsgestaltung (<strong>OR Art. 19</strong>) und deren Grenzen, insbesondere der widerrechtliche Vertragsinhalt (<strong>OR Art. 20 Abs. 1</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Ein Vertrag ist widerrechtlich, wenn sein Inhalt gegen zwingende Normen des schweizerischen Rechts (Privat- oder öffentliches Recht) verstösst. Dies ist hier der Fall, da die Änderung gegen die Strassenverkehrsgesetzgebung (Abgasvorschriften) verstösst.<br><strong>Rechtsfolge:</strong> Ein Vertrag mit widerrechtlichem Inhalt ist von Anfang an <strong>nichtig</strong> (ungültig).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die Deaktivierung der Abgasreinigung ist illegal und führt zum Erlöschen der Betriebserlaubnis. Der Vertragsinhalt zielt also auf einen widerrechtlichen Erfolg ab. Somit verstösst der Vertrag gegen <strong>OR Art. 20</strong>.<br><strong>Konsequenz:</strong> Der Vertrag ist <strong>nichtig</strong>. Die Werkstatt hat keinen rechtlichen Anspruch auf die Zahlung der CHF 2'500. Der Kunde hat recht. Bereits erbrachte Leistungen können grundsätzlich nicht zurückgefordert werden, insbesondere wenn beide Parteien wissentlich illegal gehandelt haben (sog. Kondiktionssperre).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Hat die Werkstatt nun gar keine Möglichkeit, an ihr Geld zu kommen?",
+            "answer": "<p>Auf dem Rechtsweg nicht. Ein nichtiger Vertrag erzeugt keine durchsetzbaren Forderungen. Die Werkstatt kann den Kunden nicht erfolgreich auf Zahlung verklagen. Sie hat die Arbeit auf eigenes Risiko ausgeführt.</p>"
+          },
+          {
+            "question": "Könnte die Werkstatt die Softwareänderung einfach wieder rückgängig machen?",
+            "answer": "<p>Rechtlich gesehen könnte sie das anbieten, um den Schaden zu begrenzen. Praktisch hat sie aber kein Recht, dies gegen den Willen des Kunden zu tun, da sie kein Besitzrecht mehr am Traktor hat. Zudem könnte der Kunde argumentieren, dass er die Rückabwicklung nicht wünscht. Die Situation ist für die Werkstatt sehr ungünstig, was die abschreckende Wirkung von <strong>OR Art. 20</strong> unterstreicht.</p>"
+          },
+          {
+            "question": "Welche weiteren Konsequenzen könnte das Handeln für den Werkstattleiter haben?",
+            "answer": "<p>Neben dem finanziellen Verlust riskiert der Werkstattleiter eine Strafverfolgung wegen Widerhandlungen gegen das Strassenverkehrs- oder Umweltschutzgesetz. Zudem droht ein erheblicher Reputationsschaden für den Betrieb.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-7": {
+      "title": "Fall 7 (Analysieren): Der frisierte Stundenzähler",
+      "type": "law_case",
+      "caseText": "Die Baufirma 'Geröll AG' kauft von der 'Bauma-Handel GmbH' einen gebrauchten Minibagger für CHF 45'000. Der Verkäufer, Herr Fuchs von der Bauma-Handel, versichert, der Bagger habe erst 1'800 Betriebsstunden und sei 'top in Schuss'. Er legt ein Serviceheft vor, das dies bestätigt. Zwei Monate nach dem Kauf hat der Bagger einen schweren Getriebeschaden. Bei der Reparatur in einer unabhängigen Werkstatt stellt sich heraus, dass der Betriebsstundenzähler manipuliert wurde und das Serviceheft gefälscht ist. Eine Abfrage beim Hersteller ergibt, dass der Bagger tatsächlich über 5'000 Betriebsstunden hat. Die Geröll AG will den Kauf sofort rückgängig machen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Der Verkäufer hat bewusst falsche Angaben über eine zentrale Eigenschaft des Kaufgegenstandes gemacht, um den Käufer zum Vertragsabschluss zu bewegen."
+        },
+        {
+          "id": "step_2",
+          "text": "Hier liegt ein Willensmangel vor. Welcher Tatbestand kommt in Frage, wenn eine Partei absichtlich falsche Tatsachen vorspiegelt? Gesetzeslage: <strong>OR Art. 28</strong> (Absichtliche Täuschung)."
+        },
+        {
+          "id": "step_3",
+          "text": "Was sind die Voraussetzungen für eine absichtliche Täuschung? (1) Täuschendes Verhalten, (2) Absicht, (3) Irrtum beim Getäuschten, (4) Kausalzusammenhang zwischen Irrtum und Vertragsabschluss. Was ist die Rechtsfolge?"
+        },
+        {
+          "id": "step_4",
+          "text": "Sind die Voraussetzungen im Fall erfüllt? Analysieren Sie das Verhalten von Herrn Fuchs. Welche rechtliche Möglichkeit hat die Geröll AG und welche Frist muss sie beachten?"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Baufirma 'Geröll AG' (Käuferin), 'Bauma-Handel GmbH' (Verkäuferin).<br><strong>Was ist passiert:</strong> Die Verkäuferin hat die Käuferin durch Manipulation des Stundenzählers und Fälschung des Servicehefts über die Betriebsstunden eines Baggers getäuscht.<br><strong>Rechtsfrage:</strong> Kann die Geröll AG den Kaufvertrag aufgrund der Täuschung anfechten?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Willensmängel.<br><strong>Rechtsvorschrift:</strong> Anfechtung des Vertrages wegen absichtlicher Täuschung gemäss <strong>OR Art. 28</strong>. Die Anfechtungsfrist richtet sich nach <strong>OR Art. 31</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Eine absichtliche Täuschung liegt vor, wenn eine Vertragspartei durch vorsätzliches Vorspiegeln falscher Tatsachen oder Verschweigen von Tatsachen bei der anderen Partei einen Irrtum hervorruft, um sie zum Vertragsabschluss zu verleiten. Der Getäuschte hätte den Vertrag ohne die Täuschung gar nicht oder nicht zu den gleichen Bedingungen abgeschlossen.<br><strong>Rechtsfolge:</strong> Der Vertrag ist für den Getäuschten einseitig unverbindlich. Er kann ihn innerhalb eines Jahres seit Entdeckung der Täuschung anfechten (<strong>OR Art. 31</strong>).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Herr Fuchs hat durch die Manipulation des Zählers und das Vorlegen des gefälschten Servicehefts aktiv falsche Tatsachen vorgespiegelt (Täuschungshandlung). Dies geschah offensichtlich in der Absicht, einen höheren Preis zu erzielen. Die Geröll AG war dadurch im Irrtum über die Betriebsstunden und hätte den Bagger zu diesem Preis (oder überhaupt nicht) gekauft, wenn sie die Wahrheit gekannt hätte (Kausalität). Alle Voraussetzungen sind erfüllt.<br><strong>Konsequenz:</strong> Die Geröll AG kann den Vertrag wegen absichtlicher Täuschung <strong>anfechten</strong>. Sie muss die Anfechtungserklärung innerhalb eines Jahres ab dem Zeitpunkt, an dem sie von der Täuschung erfahren hat, abgeben. Der Vertrag wird dann rückabgewickelt: Bagger zurück an Verkäufer, Geld zurück an Käufer. Zusätzlich kann die Geröll AG Schadenersatz fordern.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Könnte die Geröll AG auch die Regeln der Sachmängelgewährleistung anwenden?",
+            "answer": "<p>Ja. Die tatsächliche Stundenzahl weicht massiv von der zugesicherten ab, was einen schweren Sachmangel darstellt. Die Geröll AG könnte also auch Wandelung (Rücktritt vom Vertrag) nach <strong>OR Art. 205</strong> verlangen. Bei einer absichtlichen Täuschung über Mängel ist die Anfechtung nach <strong>OR Art. 28</strong> für den Käufer aber oft vorteilhafter, da sie nicht durch kurze Rügefristen (<strong>OR Art. 201</strong>) oder vertragliche Garantiebeschränkungen eingeschränkt werden kann.</p>"
+          },
+          {
+            "question": "Welche strafrechtlichen Konsequenzen könnte das Verhalten von Herrn Fuchs haben?",
+            "answer": "<p>Das Verhalten von Herrn Fuchs erfüllt wahrscheinlich den Straftatbestand des <strong>Betrugs</strong> (<strong>StGB Art. 146</strong>), da er die Geröll AG durch arglistige Täuschung zu einer Vermögensverfügung (der Kaufpreiszahlung) verleitet und sie dadurch geschädigt hat. Zudem kommt Urkundenfälschung (<strong>StGB Art. 251</strong>) bezüglich des Servicehefts in Frage.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-8": {
+      "title": "Fall 8 (Analysieren): Das umstrittene Konkurrenzverbot",
+      "type": "law_case",
+      "caseText": "Eine grosse Landtechnik-Firma stellt den hochspezialisierten Diagnosetechniker Moser ein. Der Arbeitsvertrag, den Moser unterschreibt, enthält folgende Klausel: \"Art. 15: Der Arbeitnehmer verpflichtet sich, nach Beendigung des Arbeitsverhältnisses für die Dauer von drei Jahren in der gesamten Schweiz keine Tätigkeit für ein Konkurrenzunternehmen auszuüben.\" Diese Klausel ist im normalen Vertragstext enthalten. Nach zwei Jahren kündigt Moser und will bei einem kleineren Konkurrenzbetrieb in einer anderen Region anfangen. Sein alter Arbeitgeber will ihm dies unter Berufung auf die Klausel verbieten.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Analysieren Sie die Klausel im Arbeitsvertrag. Es geht um ein Konkurrenzverbot. Solche Klauseln unterliegen speziellen Gültigkeitsvoraussetzungen."
+        },
+        {
+          "id": "step_2",
+          "text": "Prüfen Sie die speziellen Form- und Inhaltsvorschriften für ein Konkurrenzverbot im Arbeitsvertragsrecht. Gesetzeslage: <strong>OR Art. 340</strong> (Form und Voraussetzungen) und <strong>OR Art. 340a</strong> (Begrenzung)."
+        },
+        {
+          "id": "step_3",
+          "text": "Welche Form verlangt das Gesetz für ein Konkurrenzverbot? Welche inhaltlichen Voraussetzungen müssen erfüllt sein (Einblick in Kundenkreis/Geschäftsgeheimnisse)? Wie muss ein Verbot örtlich, zeitlich und gegenständlich begrenzt sein, um nicht übermässig zu sein?"
+        },
+        {
+          "id": "step_4",
+          "text": "Prüfen Sie die Klausel im Fall auf ihre formelle und materielle Gültigkeit. Ist die Form eingehalten? Ist die inhaltliche Begrenzung (3 Jahre, ganze Schweiz) zulässig? Leiten Sie die Konsequenzen für Moser ab."
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Diagnosetechniker Moser, ehemalige Arbeitgeberin (Landtechnik-Firma).<br><strong>Was ist passiert:</strong> Ein Arbeitgeber will ein vertraglich vereinbartes Konkurrenzverbot durchsetzen.<br><strong>Rechtsfrage:</strong> Ist das Konkurrenzverbot im Arbeitsvertrag von Herrn Moser gültig und durchsetzbar?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Arbeitsvertragsrecht.<br><strong>Rechtsvorschrift:</strong> Die Bestimmungen über das Konkurrenzverbot, insbesondere <strong>OR Art. 340</strong> (Voraussetzungen, Schriftlichkeit) und <strong>OR Art. 340a</strong> (Begrenzung, Übermässigkeit).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Ein Konkurrenzverbot ist nur gültig, wenn (1) es <strong>schriftlich</strong> vereinbart wurde (<strong>OR Art. 340 Abs. 1</strong>), (2) der Arbeitnehmer Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse hat und (3) die Verwendung dieser Kenntnisse den Arbeitgeber erheblich schädigen könnte. Zudem muss das Verbot nach Ort, Zeit und Gegenstand angemessen begrenzt sein, um das wirtschaftliche Fortkommen des Arbeitnehmers nicht unbillig zu erschweren (<strong>OR Art. 340a Abs. 1</strong>).<br><strong>Rechtsfolge:</strong> Ein übermässiges Konkurrenzverbot ist nicht gänzlich nichtig, sondern wird vom Richter auf das zulässige Mass <strong>herabgesetzt</strong>.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die Schriftform ist erfüllt, da die Klausel im unterzeichneten Vertrag steht. Als Diagnosespezialist hat Moser wohl Einblick in Geschäftsgeheimnisse. Die Klausel ist jedoch inhaltlich problematisch: Eine Dauer von <strong>drei Jahren</strong> ist die gesetzliche Maximalgrenze und oft schon übermässig. Ein Verbot für die <strong>gesamte Schweiz</strong> ist für einen Landtechnik-Betrieb fast sicher übermässig, da dessen Kundenkreis in der Regel regional ist. Das Verbot behindert Moser in seinem wirtschaftlichen Fortkommen unbillig.<br><strong>Konsequenz:</strong> Das Konkurrenzverbot ist in dieser Form <strong>übermässig und nicht durchsetzbar</strong>. Moser kann die neue Stelle antreten. Sollte der Arbeitgeber klagen, würde ein Gericht das Verbot stark reduzieren, z.B. auf ein Jahr und auf die Region, in der der alte Arbeitgeber hauptsächlich tätig ist. Da Moser in einer anderen Region anfängt, wäre das Verbot selbst nach einer Reduktion wahrscheinlich nicht verletzt.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist der Unterschied zwischen Nichtigkeit und der richterlichen Herabsetzung in diesem Fall?",
+            "answer": "<p>Wäre die Klausel formungültig (z.B. nur mündlich vereinbart), wäre sie <strong>nichtig</strong>, also von Anfang an unwirksam. Da sie aber 'nur' inhaltlich übermässig ist, ist sie nicht komplett nichtig. Das Gericht kann sie stattdessen auf ein erlaubtes Mass reduzieren (<strong>OR Art. 340a Abs. 2</strong>). Dies schützt den Arbeitgeber davor, dass eine nur leicht überzogene Klausel komplett unwirksam wird.</p>"
+          },
+          {
+            "question": "Wann wäre ein Verbot für die 'ganze Schweiz' ausnahmsweise zulässig?",
+            "answer": "<p>Dies wäre nur bei einer Tätigkeit denkbar, bei der der Arbeitnehmer mit Kunden aus der ganzen Schweiz in Kontakt kam und die Konkurrenzsituation landesweit besteht. Zum Beispiel bei einem Verkaufsleiter für ein hochspezialisiertes Produkt, das landesweit nur von wenigen Firmen vertrieben wird. Für einen Werkstatt-Techniker ist dies praktisch ausgeschlossen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-9": {
+      "title": "Fall 9 (Analysieren): Die missverständliche Bestellung",
+      "type": "law_case",
+      "caseText": "Werkstattleiter Gfeller bestellt beim Lieferanten 'Hydra AG' per E-Mail \"10 Hydraulikzylinder Typ RZ-500 gemäss Ihrem Katalog, Seite 25\". Auf dieser Seite sind zwei fast identische Modelle abgebildet: das Standardmodell RZ-500S für CHF 800 und das verstärkte Modell RZ-500V für CHF 1'200. Gfeller meinte das Standardmodell. Die Hydra AG ging vom verstärkten Modell aus, da dieses für den typischen Einsatzbereich von Gfellers Werkstatt üblich ist. Sie bestätigt den Auftrag per E-Mail mit den Worten: \"Bestätigen Lieferung von 10 Zylindern Typ RZ-500.\" Geliefert wird das V-Modell mit einer Rechnung über CHF 12'000. Gfeller verweigert die Annahme und Bezahlung.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Der Kern des Problems ist, dass die Parteien zwar die gleichen Worte ('Typ RZ-500') verwendet, aber unterschiedliche Dinge gemeint haben. Die Willenserklärungen stimmen äusserlich überein, aber der innere Wille nicht."
+        },
+        {
+          "id": "step_2",
+          "text": "Es geht um das Zustandekommen des Vertrages. Liegt eine 'übereinstimmende Willenserklärung' vor, wenn die Parteien sich missverstanden haben? Das Stichwort ist 'versteckter Dissens'. Gesetzeslage: <strong>OR Art. 1</strong> und die Lehre zum Konsens/Dissens."
+        },
+        {
+          "id": "step_3",
+          "text": "Unterscheiden Sie zwischen einem normativen Konsens (Vertrag kommt zustande, weil eine Partei nach Treu und Glauben auf die Erklärung der anderen vertrauen durfte) und einem Dissens (kein Vertrag). Wann liegt was vor?"
+        },
+        {
+          "id": "step_4",
+          "text": "Analysieren Sie die Erklärungen. War die Bestellung von Gfeller eindeutig? War die Bestätigung der Hydra AG eindeutig? Konnte eine Partei objektiv davon ausgehen, dass die andere das Gleiche meinte? Was ist die Folge für den Vertrag?"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Gfeller (Käufer), Hydra AG (Verkäuferin).<br><strong>Was ist passiert:</strong> Die Parteien haben sich über einen wesentlichen Vertragspunkt (Kaufgegenstand und damit Preis) missverstanden, obwohl ihre Erklärungen äusserlich übereinstimmten.<br><strong>Rechtsfrage:</strong> Ist trotz des Missverständnisses ein gültiger Kaufvertrag zustande gekommen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht (Vertragsabschluss).<br><strong>Rechtsvorschrift:</strong> Das Erfordernis der übereinstimmenden gegenseitigen Willensäusserung (<strong>OR Art. 1</strong>). Die Lösung ergibt sich aus der Lehre zum Konsens und Dissens, da das Gesetz dies nicht explizit regelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Theorie:</strong> Ein Vertrag kommt nur bei einem Konsens zustande. Fehlt die Willensübereinstimmung bei einem objektiv wesentlichen Punkt (wie Kaufgegenstand und Preis), liegt ein <strong>Dissens</strong> vor. Man spricht von einem 'versteckten Dissens', wenn die Parteien irrtümlich glauben, sie seien sich einig. Da die Erklärungen ('Typ RZ-500') mehrdeutig waren und keine der beiden Auslegungen nach Treu und Glauben Vorrang hat, konnte kein gemeinsamer Vertragswille gebildet werden.<br><strong>Rechtsfolge:</strong> Bei einem Dissens über einen Hauptpunkt kommt <strong>kein Vertrag</strong> zustande.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Gfellers Bestellung war unpräzise, da er den Zusatz 'S' oder 'V' weggelassen hat. Die Bestätigung der Hydra AG war ebenfalls unpräzise, da sie den Typ nicht spezifizierte. Beide Parteien haben die Mehrdeutigkeit verursacht bzw. nicht geklärt. Es gibt keinen Grund, die eine oder andere Interpretation vorzuziehen. Die Willenserklärungen stimmen also nicht überein.<br><strong>Konsequenz:</strong> Es liegt ein <strong>versteckter Dissens</strong> vor. Es ist <strong>kein Vertrag</strong> zustande gekommen. Gfeller muss die Ware nicht annehmen und die Rechnung nicht bezahlen. Die Hydra AG kann die Zylinder zurückfordern.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn Gfeller in den letzten 5 Jahren immer nur das V-Modell bestellt hätte?",
+            "answer": "<p>In diesem Fall könnte die Hydra AG nach Treu und Glauben davon ausgehen, dass Gfeller auch dieses Mal das V-Modell meinte. Man würde dann von einem <strong>normativen Konsens</strong> sprechen. Der Vertrag wäre dann über das V-Modell zustande gekommen und Gfeller müsste bezahlen. Sein interner, abweichender Wille wäre unbeachtlich.</p>"
+          },
+          {
+            "question": "Hätte Gfeller den Vertrag auch wegen Irrtums anfechten können?",
+            "answer": "<p>Die Anfechtung wegen Irrtums setzt einen gültig zustande gekommenen Vertrag voraus. Da hier wegen Dissens gar kein Vertrag zustande gekommen ist, gibt es auch nichts anzufechten. Die Rechtsfolge des Dissenses (kein Vertrag) ist für Gfeller günstiger, da er sich nicht auf einen Willensmangel berufen und Fristen einhalten muss.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-10": {
+      "title": "Fall 10 (Transfer/Beurteilung): Die Notlage im Schneesturm",
+      "type": "law_case",
+      "caseText": "Ein abgelegenes Bergrestaurant wird während der Hochsaison von einem heftigen Schneesturm eingeschneit. Der Strom fällt aus, und der Notstromgenerator springt nicht an. Der Wirt, Herr Moser, ruft den einzigen mobilen Mechanikerdienst der Region an. Der Mechaniker, Herr Gier, weiss um die Notlage (volle Hütte, keine Heizung, Lebensmittel verderben). Er sagt am Telefon: \"Ich komme sofort, aber der Einsatz kostet pauschal CHF 3'000, zahlbar sofort.\" Normalerweise würde ein solcher Einsatz maximal CHF 800 kosten. Herr Moser sieht keine andere Wahl und akzeptiert. Gier repariert den Generator. Eine Woche später will Moser die Rechnung nicht vollständig bezahlen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Analysieren Sie die besondere Situation, in der der Vertrag geschlossen wurde: Notlage auf der einen Seite, Ausnutzung dieser Lage auf der anderen Seite, und ein krasses Missverhältnis zwischen Leistung und Gegenleistung."
+        },
+        {
+          "id": "step_2",
+          "text": "Dieses Szenario deutet auf einen Willensmangel hin, der über einen einfachen Irrtum hinausgeht. Prüfen Sie den Tatbestand der Übervorteilung. Gesetzeslage: <strong>OR Art. 21</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Was sind die drei Tatbestandsmerkmale der Übervorteilung? (1) Offenbares Missverhältnis zwischen Leistung und Gegenleistung. (2) Notlage, Unerfahrenheit oder Leichtsinn der einen Partei. (3) Ausbeutung dieses Zustands durch die andere Partei."
+        },
+        {
+          "id": "step_4",
+          "text": "Sind alle drei Voraussetzungen im Fall erfüllt? Wägen Sie die Interessen ab und beurteilen Sie, welche rechtlichen Schritte Herr Moser einleiten kann und welche Frist er beachten muss."
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Wirt Moser (übervorteilte Partei), Mechaniker Gier (ausbeutende Partei).<br><strong>Was ist passiert:</strong> Ein Mechaniker nutzt die Notlage eines eingeschneiten Wirts aus, um einen massiv überhöhten Preis für eine Reparatur zu fordern und zu vereinbaren.<br><strong>Problemstellung:</strong> Ist der Vertrag über die Pauschale von CHF 3'000 gültig oder kann Herr Moser ihn anfechten?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Willensmängel.<br><strong>Rechtsvorschrift:</strong> Der Tatbestand der Übervorteilung gemäss <strong>OR Art. 21</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Für eine Übervorteilung müssen drei Elemente kumulativ erfüllt sein:<br>1. <strong>Offenbares Missverhältnis:</strong> Die vereinbarte Gegenleistung (CHF 3'000) steht in einem klaren Ungleichgewicht zur Leistung (Reparatur im Wert von CHF 800).<br>2. <strong>Schwächesituation:</strong> Die benachteiligte Partei befindet sich in einer Notlage, ist unerfahren oder leichtsinnig.<br>3. <strong>Ausbeutung:</strong> Die überlegene Partei nutzt diese Schwächesituation bewusst aus.<br><strong>Rechtsfolge:</strong> Der Vertrag ist für den Übervorteilten einseitig unverbindlich. Er kann ihn innerhalb eines Jahres anfechten.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Analyse und Beurteilung:</strong><br>1. <strong>Missverhältnis:</strong> Ein Preis von CHF 3'000 gegenüber einem Normalpreis von CHF 800 stellt ein offenbares Missverhältnis dar.<br>2. <strong>Schwächesituation:</strong> Herr Moser war in einer klaren <strong>Notlage</strong> (eingeschneit, Stromausfall, volle Hütte, drohender finanzieller Schaden).<br>3. <strong>Ausbeutung:</strong> Herr Gier kannte die Notlage und hat sie bewusst ausgenutzt, um den überhöhten Preis durchzusetzen.<br>Alle drei Voraussetzungen sind erfüllt.<br><strong>Empfehlung (Transferleistung):</strong> Herr Moser kann den Vertrag wegen Übervorteilung <strong>anfechten</strong>. Er muss dies gemäss <strong>OR Art. 21 Abs. 2</strong> innert <strong>eines Jahres seit Vertragsabschluss</strong> tun. Nach erfolgreicher Anfechtung muss er nur den üblichen Preis (ca. CHF 800) bezahlen. Er sollte dies Herrn Gier schriftlich mitteilen und die Zahlung des Mehrbetrags verweigern.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn Herr Gier nur CHF 1'200 verlangt hätte, um den Notfall-Zuschlag und die schwierige Anfahrt abzudecken?",
+            "answer": "<p>Dann wäre die Situation schwieriger zu beurteilen. Ein gewisser Aufpreis für einen Notfalleinsatz unter erschwerten Bedingungen ist gerechtfertigt. Ob ein Preis von CHF 1'200 bereits ein 'offenbares Missverhältnis' darstellt, wäre eine Ermessensfrage für ein Gericht. Wahrscheinlich würde es in diesem Fall nicht für eine Übervorteilung ausreichen.</p>"
+          },
+          {
+            "question": "Muss Herr Moser beweisen, dass Herr Gier die Notlage ausgenutzt hat?",
+            "answer": "<p>Ja, grundsätzlich muss derjenige, der sich auf Übervorteilung beruft, alle drei Tatbestandsmerkmale beweisen. In diesem Fall ist die Beweislage aber recht gut. Das offenbare Missverhältnis und die Notlage sind offensichtlich. Die Ausbeutungsabsicht kann aus den Umständen (Wissen um die Notlage, Forderung des überhöhten Preises) abgeleitet werden.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-11": {
+      "title": "Fall 11 (Transfer/Beurteilung): Die ungeeignete Spezialmaschine",
+      "type": "law_case",
+      "caseText": "Ein Werkstattleiter kauft eine neue, teure CNC-Fräsmaschine. Im Verkaufsgespräch versichert ihm der Verkäufer mehrmals mündlich, die Maschine sei 'ideal für die Bearbeitung von gehärtetem Stahl', was für den Werkstattleiter der entscheidende Kaufgrund ist. Im schriftlichen Vertrag, den er später unterschreibt, findet sich in den Allgemeinen Geschäftsbedingungen (AGB) des Verkäufers die Klausel: 'Jegliche Gewährleistung für bestimmte Eigenschaften oder einen bestimmten Verwendungszweck wird, soweit gesetzlich zulässig, wegbedungen.' Nach der Inbetriebnahme stellt sich heraus, dass die Maschine für gehärteten Stahl völlig ungeeignet ist und bei der Bearbeitung beschädigt wird. Der Verkäufer beruft sich auf seine AGB.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Das Problem liegt im Widerspruch zwischen einer mündlichen Zusicherung des Verkäufers und einer gegenteiligen Klausel in den AGB. Der Käufer muss eine Strategie entwickeln, um sich vom Vertrag zu lösen."
+        },
+        {
+          "id": "step_2",
+          "text": "Es gibt zwei mögliche rechtliche Ansatzpunkte: die Sachmängelgewährleistung (und die Gültigkeit des AGB-Ausschlusses) und die Willensmängel (Irrtum, Täuschung). Gesetzeslage: <strong>OR Art. 197 ff.</strong> (Gewährleistung), <strong>OR Art. 100</strong> (Haftungsausschluss), <strong>OR Art. 24 Abs. 1 Ziff. 4</strong> (Grundlagenirrtum), <strong>OR Art. 28</strong> (Täuschung)."
+        },
+        {
+          "id": "step_3",
+          "text": "Analysieren Sie die Optionen: (A) Gewährleistung: Ist die AGB-Klausel gültig? (B) Irrtum: War die Eignung für gehärteten Stahl eine notwendige Vertragsgrundlage? (C) Täuschung: Hat der Verkäufer bewusst getäuscht? Vergleichen Sie die Erfolgsaussichten."
+        },
+        {
+          "id": "step_4",
+          "text": "Wägen Sie die verschiedenen Strategien ab. Welche ist am erfolgversprechendsten? Berücksichtigen Sie dabei auch die Beweislast. Formulieren Sie eine klare Empfehlung für den Werkstattleiter."
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter (Käufer), Verkäufer der CNC-Maschine.<br><strong>Was ist passiert:</strong> Eine gekaufte Maschine hat eine zugesicherte Eigenschaft nicht, die für den Käufer kaufentscheidend war. Der Verkäufer beruft sich auf einen Gewährleistungsausschluss in seinen AGB.<br><strong>Problemstellung:</strong> Welche rechtliche Strategie ist für den Werkstattleiter am besten, um den Kauf rückgängig zu machen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, insbesondere Kaufrecht (Sachmängelgewährleistung) und Willensmängel.<br><strong>Rechtsvorschrift:</strong> Gewährleistung (<strong>OR Art. 197 ff.</strong>), Gültigkeit von Haftungsausschlüssen (<strong>OR Art. 100</strong>), Grundlagenirrtum (<strong>OR Art. 24 Abs. 1 Ziff. 4</strong>), Absichtliche Täuschung (<strong>OR Art. 28</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse der Optionen:</strong><br>1. <strong>Sachmängelgewährleistung (OR Art. 197 ff.):</strong> Die Maschine hat einen Mangel, da ihr eine zugesicherte Eigenschaft fehlt. Der AGB-Ausschluss könnte aber greifen. Ein solcher Ausschluss ist jedoch ungültig, wenn der Verkäufer den Mangel arglistig verschwiegen hat (<strong>OR Art. 199</strong>). Dies wäre hier der Fall, wenn der Verkäufer wusste, dass seine Zusicherung falsch war.<br>2. <strong>Grundlagenirrtum (OR Art. 24 Abs. 1 Ziff. 4):</strong> Der Käufer kann argumentieren, dass die Eignung für gehärteten Stahl eine notwendige Vertragsgrundlage war. Da der Verkäufer dies wusste, liegt ein wesentlicher Irrtum vor. Die Anfechtung wegen Irrtums wird nicht durch einen Gewährleistungsausschluss in den AGB verhindert.<br>3. <strong>Absichtliche Täuschung (OR Art. 28):</strong> Wenn der Verkäufer wusste, dass die Maschine ungeeignet ist, und dies bewusst zusicherte, um den Käufer zum Kauf zu bewegen, liegt eine absichtliche Täuschung vor. Dies ist die stärkste Position für den Käufer, aber die Absicht des Verkäufers ist oft schwer zu beweisen.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung (Transferleistung):</strong><br>Die Berufung auf die <strong>Sachmängelgewährleistung</strong> ist riskant, da der Käufer die Arglist des Verkäufers beweisen müsste, um den AGB-Ausschluss zu umgehen.<br>Die Anfechtung wegen <strong>absichtlicher Täuschung</strong> ist rechtlich am stärksten, aber die Beweislast für die Absicht ist hoch.<br>Die Anfechtung wegen <strong>wesentlichen Grundlagenirrtums</strong> ist die erfolgversprechendste Strategie. Der Käufer muss 'nur' beweisen, dass die Eignung für gehärteten Stahl für ihn kaufentscheidend war und der Verkäufer dies aufgrund des Gesprächs erkennen musste. Die mündliche Zusicherung dient hier als starkes Beweismittel. Ein Gewährleistungsausschluss in AGB kann einen durch eine falsche Zusicherung verursachten Grundlagenirrtum nicht heilen.<br><strong>Empfehlung:</strong> Der Werkstattleiter sollte den Vertrag primär wegen wesentlichen Grundlagenirrtums anfechten und die Anfechtung dem Verkäufer schriftlich erklären. Subsidiär sollte er sich auf die absichtliche Täuschung und die Ungültigkeit des Gewährleistungsausschlusses berufen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist die 'Ungewöhnlichkeitsregel' im Zusammenhang mit AGB und wäre sie hier anwendbar?",
+            "answer": "<p>Die Ungewöhnlichkeitsregel besagt, dass Klauseln in AGB, mit denen eine Partei vernünftigerweise nicht rechnen musste, ungültig sind. Ein vollständiger Gewährleistungsausschluss bei einer neuen, teuren Spezialmaschine könnte als ungewöhnlich angesehen werden, insbesondere wenn gleichzeitig mündlich spezifische Eigenschaften zugesichert werden. Die Anwendbarkeit wäre hier zu prüfen und könnte ein zusätzliches Argument gegen die Gültigkeit der Klausel sein.</p>"
+          },
+          {
+            "question": "Spielt es eine Rolle, dass die Zusicherung nur mündlich erfolgte?",
+            "answer": "<p>Nein, grundsätzlich nicht. Auch mündliche Zusicherungen sind rechtlich relevant. Das Problem ist rein praktischer Natur: die Beweisbarkeit. Der Werkstattleiter müsste die mündliche Zusicherung beweisen können, z.B. durch Zeugen (Mitarbeiter, die beim Gespräch dabei waren) oder durch Notizen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-12": {
+      "title": "Fall 12 (Transfer/Beurteilung): Der Knebelvertrag des Herstellers",
+      "type": "law_case",
+      "caseText": "Einem etablierten Baumaschinen-Reparaturbetrieb wird angeboten, offizieller Servicepartner für eine neue, aufstrebende Marke von Elektrobaggern zu werden. Der vorgelegte Partnerschaftsvertrag enthält unter anderem folgende Klauseln:\n1. Der Servicepartner verpflichtet sich, für CHF 70'000 Spezialwerkzeug und Diagnosegeräte vom Hersteller zu kaufen.\n2. Der Hersteller gibt keine Garantie für eine Mindestanzahl an zugewiesenen Reparatur- oder Serviceaufträgen.\n3. Der Vertrag läuft auf unbestimmte Zeit, kann aber vom Hersteller jederzeit ohne Angabe von Gründen mit einer Frist von 30 Tagen gekündigt werden.\n4. Der Servicepartner darf während der Vertragsdauer und für zwei Jahre danach keine Reparaturen an Elektrobaggern anderer Marken durchführen.\nDer Werkstattleiter ist unsicher, ob er diesen Vertrag unterschreiben soll.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Analysieren Sie das Gesamtbild des Vertrages. Es geht nicht um einen einzelnen Mangel, sondern um die Fairness und die Ausgewogenheit der gesamten Vertragsbeziehung. Beurteilen Sie das wirtschaftliche Risiko für den Werkstattleiter."
+        },
+        {
+          "id": "step_2",
+          "text": "Prüfen Sie die einzelnen Klauseln auf ihre rechtliche Zulässigkeit, insbesondere im Hinblick auf eine übermässige Bindung und die Verletzung der guten Sitten. Gesetzeslage: <strong>OR Art. 20</strong> (Sittenwidrigkeit), <strong>ZGB Art. 27</strong> (Schutz der Persönlichkeit vor übermässiger Bindung), <strong>OR Art. 340a</strong> (Analogie zum Konkurrenzverbot)."
+        },
+        {
+          "id": "step_3",
+          "text": "Beurteilen Sie die Kombination der Klauseln: Hohe Investitionspflicht ohne Umsatzgarantie, kombiniert mit einer sehr kurzen Kündigungsfrist für den Hersteller und einem langen, weitreichenden Konkurrenzverbot. Was bedeutet das für die wirtschaftliche Freiheit des Werkstattleiters?"
+        },
+        {
+          "id": "step_4",
+          "text": "Fassen Sie die rechtlichen und wirtschaftlichen Risiken zusammen. Geben Sie eine fundierte Empfehlung ab, ob der Vertrag unterschrieben werden sollte. Formulieren Sie konkrete Vorschläge für eine Neuverhandlung der kritischen Klauseln."
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter, Hersteller von Elektrobaggern.<br><strong>Was ist passiert:</strong> Ein Werkstattleiter soll einen Partnerschaftsvertrag mit sehr einseitigen und riskanten Klauseln unterschreiben.<br><strong>Problemstellung:</strong> Analyse der rechtlichen und wirtschaftlichen Risiken des Vertrags und Erarbeitung einer Handlungsempfehlung.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Persönlichkeitsschutz.<br><strong>Rechtsvorschrift:</strong> Die Schranken der Vertragsfreiheit, insbesondere die Sittenwidrigkeit (<strong>OR Art. 20</strong>) und der Schutz vor übermässiger Selbstbindung (<strong>ZGB Art. 27</strong>). Die Regeln zum Konkurrenzverbot (<strong>OR Art. 340a</strong>) können analog herangezogen werden.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse der Klauseln:</strong><br>1. <strong>Investitionspflicht (CHF 70'000):</strong> Eine hohe Vorleistung ohne Sicherheit ist ein enormes Geschäftsrisiko.<br>2. <strong>Keine Umsatzgarantie:</strong> Kombiniert mit der Investitionspflicht ist diese Klausel existenzgefährdend. Das gesamte Risiko liegt beim Werkstattleiter.<br>3. <strong>Kurze Kündigungsfrist:</strong> Eine 30-Tage-Frist für den Hersteller ist angesichts der hohen Investition des Partners grob unbillig. Sie ermöglicht es dem Hersteller, den Partner nach der Investition schnell wieder loszuwerden.<br>4. <strong>Konkurrenzverbot:</strong> Ein Verbot, das auch die Zeit nach dem Vertrag betrifft und den gesamten Bereich 'Elektrobagger' umfasst, ist eine <strong>übermässige Bindung</strong> im Sinne von <strong>ZGB Art. 27</strong>. Es beschränkt die wirtschaftliche Zukunft des Betriebs in einem Wachstumsmarkt in unzulässiger Weise.<br><strong>Gesamtbild:</strong> Die Kombination dieser Klauseln schafft eine extreme wirtschaftliche Abhängigkeit und knebelt den Werkstattleiter. Der Vertrag als Ganzes kann als <strong>sittenwidrig</strong> (<strong>OR Art. 20</strong>) eingestuft werden, da er die wirtschaftliche Freiheit des Werkstattleiters in einem Masse einschränkt, das mit der Rechts- und Sittenordnung nicht vereinbar ist.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung (Transferleistung):</strong><br>Der Vertrag ist in der vorliegenden Form <strong>hochriskant und rechtlich anfechtbar</strong>. Von einer Unterzeichnung ist dringend abzuraten.<br><strong>Empfehlung:</strong> Der Werkstattleiter sollte in Nachverhandlungen treten mit folgenden Zielen:<br><ul><li><strong>Investition:</strong> Beteiligung des Herstellers an den Kosten oder eine Amortisationsgarantie.</li><li><strong>Umsatz:</strong> Vereinbarung einer Mindest-Auslastung oder einer garantierten Mindest-Umsatzzahl pro Jahr.</li><li><strong>Kündigungsfrist:</strong> Deutlich längere Kündigungsfrist für den Hersteller (z.B. 12 Monate), um die Investition zu schützen. Die kurze Frist für den Partner kann beibehalten werden.</li><li><strong>Konkurrenzverbot:</strong> Komplette Streichung oder massive Reduktion (z.B. nur für die Vertragsdauer, nicht für die Zeit danach).</li></ul>Sollte der Hersteller auf den Klauseln beharren, ist es wirtschaftlich und rechtlich klüger, auf das Geschäft zu verzichten, als sich in eine solche Abhängigkeit zu begeben.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was würde passieren, wenn der Werkstattleiter den Vertrag unterschreibt und der Hersteller nach 6 Monaten kündigt?",
+            "answer": "<p>Der Werkstattleiter hätte CHF 70'000 investiert und kaum Einnahmen erzielt. Er könnte versuchen, die Kündigung als rechtsmissbräuchlich (<strong>ZGB Art. 2</strong>) anzufechten oder den Vertrag wegen Übermässigkeit/Sittenwidrigkeit für teilweise nichtig erklären zu lassen, um Schadenersatz zu fordern. Dies würde aber einen langen und teuren Rechtsstreit mit ungewissem Ausgang bedeuten. Die bessere Strategie ist, einen solchen Vertrag gar nicht erst zu unterschreiben.</p>"
+          },
+          {
+            "question": "Sind solche einseitigen Verträge in der Praxis häufig?",
+            "answer": "<p>Ja, in Vertragsbeziehungen mit einem starken und einem schwachen Partner (z.B. grosser Hersteller vs. kleine Werkstatt) kommen solche 'Franchise-' oder 'Vertriebspartnerverträge' häufig vor. Der schwächere Partner hat oft wenig Verhandlungsspielraum. Umso wichtiger ist es, die rechtlichen Grenzen (<strong>OR Art. 20</strong>, <strong>ZGB Art. 27</strong>) zu kennen und im Extremfall 'Nein' sagen zu können.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

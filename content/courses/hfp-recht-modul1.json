@@ -1,0 +1,47 @@
+{
+  "courseId": "hfp-recht-modul1",
+  "title": "Modul 1 – Grundlagen & Vertragsrecht",
+  "description": "8 Schwerpunktthemen zum Vertragsrecht",
+  "subtopics": [
+    {
+      "order": 10,
+      "moduleId": "10-schweizer-rechtsystem",
+      "title": "Schweizer Rechtsystem"
+    },
+    {
+      "order": 20,
+      "moduleId": "20-personenrecht",
+      "title": "Personenrecht"
+    },
+    {
+      "order": 30,
+      "moduleId": "30-vertragslehre",
+      "title": "Vertragslehre"
+    },
+    {
+      "order": 40,
+      "moduleId": "40-vertragsformen",
+      "title": "Vertragsformen"
+    },
+    {
+      "order": 50,
+      "moduleId": "50-entstehung-von-obligationen-aus-vertrag",
+      "title": "Entstehung von Obligationen aus Vertrag"
+    },
+    {
+      "order": 60,
+      "moduleId": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege",
+      "title": "Obligationentstehung am Beispiel Veräusserungsverträge"
+    },
+    {
+      "order": 70,
+      "moduleId": "70-vertragserfuellung",
+      "title": "Vertragserfüllung"
+    },
+    {
+      "order": 80,
+      "moduleId": "80-allgemeine-geschaeftsbedingungen",
+      "title": "Allgemeine Geschäftsbedingungen"
+    }
+  ]
+}

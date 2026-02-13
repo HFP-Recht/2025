@@ -1,0 +1,66 @@
+{
+  "assignmentTitle": "01Allgemeine Geschäftsbedingungen",
+  "solution_keys": [
+    "teacher2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "A. Einbeziehung, Inhalt und Grenzen von AGB": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "01Allgemeine_Geschäftsbedingungen_q1",
+          "text": "Was ist der Hauptzweck von Allgemeinen Geschäftsbedingungen?"
+        },
+        {
+          "id": "01Allgemeine_Geschäftsbedingungen_q2",
+          "text": "Welche grundlegende Voraussetzung muss erfüllt sein, damit AGB überhaupt Vertragsbestandteil werden?"
+        },
+        {
+          "id": "01Allgemeine_Geschäftsbedingungen_q3",
+          "text": "Erklären Sie, warum ein blosser Aushang der AGB in der Werkstatt für eine gültige Einbeziehung oft nicht ausreicht."
+        },
+        {
+          "id": "01Allgemeine_Geschäftsbedingungen_q4",
+          "text": "Erläutern Sie, was mit einer Klausel gemeint ist, die 'in Treu und Glauben verletzender Weise' ein erhebliches Missverhältnis schafft (UWG#Art. 8)."
+        },
+        {
+          "id": "01Allgemeine_Geschäftsbedingungen_q5",
+          "text": "Formulieren Sie einen kurzen Satz für Ihren schriftlichen Reparaturauftrag, der sicherstellt, dass Ihre AGB gültig einbezogen werden."
+        },
+        {
+          "id": "01Allgemeine_Geschäftsbedingungen_q6",
+          "text": "Beurteilen Sie folgende Klausel in den AGB einer Baumaschinenwerkstatt: 'Für Folgeschäden, die durch eine fehlerhafte Reparatur entstehen (z.B. Ertragsausfall), wird jegliche Haftung ausgeschlossen.' Ist diese Klausel uneingeschränkt gültig? Begründen Sie Ihre Antwort."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "01Allgemeine_Geschäftsbedingungen_q1",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Allgemeine_Geschäftsbedingungen_q2",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Allgemeine_Geschäftsbedingungen_q3",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Allgemeine_Geschäftsbedingungen_q4",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Allgemeine_Geschäftsbedingungen_q5",
+            "answer": "<p></p>"
+          },
+          {
+            "id": "01Allgemeine_Geschäftsbedingungen_q6",
+            "answer": "<p></p>"
+          }
+        ]
+      }
+    }
+  }
+}

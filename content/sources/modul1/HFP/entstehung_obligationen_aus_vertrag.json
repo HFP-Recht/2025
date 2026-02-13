@@ -1,0 +1,511 @@
+{
+  "status": "success",
+  "assignmentTitle": "Fallstudien zur Vertragsentstehung und -gültigkeit",
+  "solution_keys": ["master2025", "modul1"],
+  "subAssignments": {
+    "fall-id-1": {
+      "title": "Fall 1 (Grundlagen): Der geplatzte Hydraulikschlauch",
+      "type": "law_case",
+      "caseText": "Landwirt Huber bringt seinen Traktor in die Werkstatt von Frau Keller. Ein Hydraulikschlauch ist geplatzt. Frau Keller sagt: \"Das ersetzen wir Ihnen, kostet inklusive Arbeit rund CHF 350.\" Landwirt Huber nickt und sagt: \"In Ordnung, machen Sie das bitte.\"\nNach der Reparatur weigert sich Huber zu zahlen, da er nie etwas Schriftliches unterschrieben habe.",
+      "hints": [
+        { "id": "step_1", "text": "Was haben die beiden Parteien (Frau Keller und Herr Huber) zueinander gesagt und getan?" },
+        { "id": "step_2", "text": "Welcher Artikel im Obligationenrecht regelt den Abschluss eines Vertrages? Gesetzeslage: <strong>OR Art. 1</strong>, <strong>OR Art. 11</strong>." },
+        { "id": "step_3", "text": "Was sind die Voraussetzungen für einen gültigen Vertragsschluss? Braucht es immer eine Unterschrift?" },
+        { "id": "step_4", "text": "Vergleichen Sie die Aussagen der Parteien mit den rechtlichen Voraussetzungen. Ist ein Vertrag entstanden und muss Herr Huber bezahlen?" }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattinhaberin Frau Keller, Landwirt Herr Huber.<br><strong>Was ist passiert:</strong> Huber erteilt mündlich einen Reparaturauftrag für seinen Traktor zu einem geschätzten Preis von CHF 350. Nach der Reparatur verweigert er die Zahlung.<br><strong>Rechtsfrage:</strong> Ist durch die mündliche Absprache ein gültiger Vertrag entstanden?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht (Werkvertrag).<br><strong>Rechtsvorschrift:</strong> Die Entstehung eines Vertrages ist in <strong>OR Art. 1</strong> geregelt (übereinstimmende gegenseitige Willensäusserung). Der Grundsatz der Formfreiheit ist in <strong>OR Art. 11</strong> festgehalten.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Gemäss <strong>OR Art. 1</strong> kommt ein Vertrag durch den Austausch übereinstimmender Willenserklärungen (Antrag und Annahme) zustande. Gemäss <strong>OR Art. 11</strong> ist dafür grundsätzlich keine besondere Form (z.B. Schriftlichkeit) erforderlich, ausser das Gesetz schreibt es vor.<br><strong>Rechtsfolge:</strong> Liegt eine Einigung vor, ist der Vertrag gültig und die daraus entstehenden Pflichten (Reparatur gegen Bezahlung) müssen erfüllt werden.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Frau Keller hat einen Antrag gemacht (Reparatur für ca. CHF 350). Herr Huber hat diesen Antrag angenommen (\"In Ordnung, machen Sie das bitte.\"). Es liegt eine übereinstimmende Willensäusserung vor. Für einen Werkvertrag schreibt das Gesetz keine besondere Form vor.<br><strong>Konsequenz:</strong> Der Vertrag ist <strong>gültig</strong> zustande gekommen. Herr Huber ist verpflichtet, die Rechnung zu bezahlen. Es sind zwei Obligationen entstanden: Frau Keller schuldet die Reparatur, Herr Huber schuldet die Bezahlung.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Warum ist es aus kaufmännischer Sicht trotzdem sinnvoll, bei grösseren Aufträgen eine schriftliche Auftragsbestätigung zu verlangen?",
+            "answer": "<p>Aus <strong>Beweisgründen</strong>. Bei einem Streit kann die Werkstatt mit einer Unterschrift einfach beweisen, was genau vereinbart wurde (Umfang der Arbeit, Preis, Fristen). Mündliche Abmachungen sind zwar gültig, aber im Streitfall schwer zu beweisen (\"Wort gegen Wort\").</p>"
+          },
+          {
+            "question": "Was ist der Unterschied zwischen einem Werkvertrag und einem Kaufvertrag in diesem Kontext?",
+            "answer": "<p>Beim <strong>Werkvertrag</strong> (<strong>OR Art. 363</strong>) wird ein bestimmter Erfolg geschuldet (die erfolgreiche Reparatur). Beim <strong>Kaufvertrag</strong> (<strong>OR Art. 184</strong>) wird die Übergabe einer Sache zu Eigentum geschuldet (z.B. wenn Herr Huber nur den Schlauch kauft, um ihn selbst einzubauen).</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-2": {
+      "title": "Fall 2 (Grundlagen): Der umgestossene Werkzeugwagen",
+      "type": "law_case",
+      "caseText": "Ein Kunde besucht die Werkstatt von Herrn Moser, um sich eine neue Baumaschine anzusehen. Während Herr Moser kurz telefoniert, stolpert der Kunde unachtsam über einen Druckluftschlauch und stösst dabei einen voll bestückten Werkzeugwagen um. Spezialwerkzeug im Wert von CHF 2'800 wird dabei irreparabel beschädigt. Herr Moser verlangt vom Kunden Schadenersatz.",
+      "hints": [
+        { "id": "step_1", "text": "Fassen Sie zusammen, wer wem einen Schaden zugefügt hat und was gefordert wird. Gab es einen Vertrag zwischen den beiden?" },
+        { "id": "step_2", "text": "Suchen Sie im Obligationenrecht nach dem Artikel, der die Haftung für Schäden ausserhalb eines Vertrages regelt. Gesetzeslage: <strong>OR Art. 41</strong>." },
+        { "id": "step_3", "text": "Welche vier Voraussetzungen müssen gemäss diesem Artikel erfüllt sein, damit jemand schadenersatzpflichtig wird?" },
+        { "id": "step_4", "text": "Prüfen Sie, ob alle vier Voraussetzungen im Fall des Kunden erfüllt sind. Was ist die rechtliche Konsequenz?" }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattinhaber Herr Moser, ein Kunde.<br><strong>Was ist passiert:</strong> Ein Kunde beschädigt durch Unachtsamkeit Eigentum von Herrn Moser. Es besteht noch kein Vertrag über eine Maschine.<br><strong>Rechtsfrage:</strong> Muss der Kunde für den Schaden aufkommen, obwohl kein Vertrag verletzt wurde?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Ausservertragliches Haftpflichtrecht.<br><strong>Rechtsvorschrift:</strong> Die Haftung aus unerlaubter Handlung ist in <strong>OR Art. 41</strong> geregelt. Hier entsteht eine Obligation nicht durch Vertrag, sondern durch eine schädigende Handlung.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale (OR Art. 41):</strong> Damit eine Schadenersatzpflicht entsteht, müssen vier Voraussetzungen kumulativ erfüllt sein:<br>1. <strong>Schaden:</strong> Eine unfreiwillige Vermögensverminderung (hier: kaputtes Werkzeug im Wert von CHF 2'800).<br>2. <strong>Widerrechtlichkeit:</strong> Verletzung eines absoluten Rechts (hier: Eigentum von Herrn Moser).<br>3. <strong>Adäquater Kausalzusammenhang:</strong> Das Verhalten (Stolpern) war eine wesentliche Ursache für den Schaden.<br>4. <strong>Verschulden:</strong> Die Handlung war absichtlich oder fahrlässig (hier: unachtsam, also fahrlässig).<br><strong>Rechtsfolge:</strong> Der Schädiger muss dem Geschädigten den entstandenen Schaden ersetzen.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Alle vier Voraussetzungen sind erfüllt. Es liegt ein Schaden (CHF 2'800) vor, das Eigentum wurde widerrechtlich verletzt, das Stolpern war kausal für den Schaden und der Kunde handelte fahrlässig (unachtsam).<br><strong>Konsequenz:</strong> Der Kunde ist gemäss <strong>OR Art. 41</strong> schadenersatzpflichtig. Es ist eine <strong>Obligation</strong> auf Bezahlung von CHF 2'800 entstanden, ohne dass je ein Vertrag geschlossen wurde.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Welche Versicherung des Kunden würde für einen solchen Schaden typischerweise aufkommen?",
+            "answer": "<p>Die <strong>Privathaftpflichtversicherung</strong> des Kunden. Sie deckt Schäden, die der Versicherte Dritten fahrlässig zufügt.</p>"
+          },
+          {
+            "question": "Was wäre, wenn Herr Moser den Druckluftschlauch an einer schlecht sichtbaren Stelle quer durch den Kundenbereich gelegt hätte?",
+            "answer": "<p>In diesem Fall könnte man Herrn Moser ein <strong>Selbstverschulden</strong> (oder Mitverschulden) vorwerfen. Das Gericht könnte die Schadenersatzpflicht des Kunden entsprechend reduzieren (<strong>OR Art. 44</strong>). Herr Moser hätte seine Pflicht zur sicheren Gestaltung der Kundenbereiche verletzt.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-3": {
+      "title": "Fall 3 (Grundlagen): Die Rollen beim Ersatzteilkauf",
+      "type": "law_case",
+      "caseText": "Ein Bauunternehmen bestellt bei der Werkstatt von Herrn Schmid telefonisch einen spezifischen Baggerlöffel für CHF 4'000. Herr Schmid bestätigt die Bestellung und sagt, der Löffel sei in zwei Tagen abholbereit. Definieren Sie die Rollen der Parteien in Bezug auf die beiden Hauptpflichten, die durch diesen Vertrag entstehen.",
+      "hints": [
+        { "id": "step_1", "text": "Identifizieren Sie die beiden Hauptleistungen, die ausgetauscht werden: die Ware und das Geld." },
+        { "id": "step_2", "text": "Welcher Vertragstyp liegt hier vor? Gesetzeslage: <strong>OR Art. 184</strong>." },
+        { "id": "step_3", "text": "Wer hat ein Recht auf eine Leistung (Gläubiger) und wer muss eine Leistung erbringen (Schuldner)? Analysieren Sie dies für jede der beiden Hauptpflichten separat." },
+        { "id": "step_4", "text": "Fassen Sie zusammen, wer in Bezug auf den Baggerlöffel Gläubiger/Schuldner ist und wer in Bezug auf den Kaufpreis." }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattinhaber Herr Schmid (Verkäufer), Bauunternehmen (Käufer).<br><strong>Was ist passiert:</strong> Ein Kaufvertrag über einen Baggerlöffel wird abgeschlossen.<br><strong>Rechtsfrage:</strong> Welche Partei ist Gläubiger und welche Schuldner in Bezug auf die Ware und den Kaufpreis?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht.<br><strong>Rechtsvorschrift:</strong> Es handelt sich um einen <strong>Kaufvertrag</strong> gemäss <strong>OR Art. 184</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Bei einem zweiseitigen Vertrag wie dem Kaufvertrag entstehen mindestens zwei Obligationen. Jede Partei ist gleichzeitig Gläubigerin und Schuldnerin.<br>1. <strong>Obligation (Warenlieferung):</strong> Die Pflicht zur Übergabe der Ware. Derjenige, der die Ware liefern muss, ist der <strong>Schuldner</strong>. Derjenige, der einen Anspruch auf die Ware hat, ist der <strong>Gläubiger</strong>.<br>2. <strong>Obligation (Kaufpreiszahlung):</strong> Die Pflicht zur Bezahlung des Kaufpreises. Derjenige, der zahlen muss, ist der <strong>Schuldner</strong>. Derjenige, der Anspruch auf das Geld hat, ist der <strong>Gläubiger</strong>.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Konsequenz:</strong><br>1. <strong>In Bezug auf den Baggerlöffel:</strong> Herr Schmid ist der <strong>Schuldner</strong> (er schuldet die Übergabe des Löffels). Das Bauunternehmen ist der <strong>Gläubiger</strong> (es hat eine Forderung auf den Löffel).<br>2. <strong>In Bezug auf den Kaufpreis (CHF 4'000):</strong> Das Bauunternehmen ist der <strong>Schuldner</strong> (es schuldet das Geld). Herr Schmid ist der <strong>Gläubiger</strong> (er hat eine Forderung auf das Geld).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Ändern sich diese Rollen, wenn der Baggerlöffel per Vorauskasse bezahlt werden muss?",
+            "answer": "<p>Nein, die grundsätzlichen Rollen als Gläubiger und Schuldner ändern sich nicht. Die Vorauskasse regelt nur die <strong>Fälligkeit</strong> der Zahlungspflicht. Das Bauunternehmen bleibt Schuldner des Kaufpreises, muss diese Schuld aber bereits vor der Lieferung erfüllen.</p>"
+          },
+          {
+            "question": "Was passiert, wenn Herr Schmid den Löffel liefert, das Bauunternehmen aber nicht zahlt? Welche Rolle nimmt Herr Schmid dann wahr?",
+            "answer": "<p>Wenn das Bauunternehmen nicht zahlt, verletzt es seine Pflicht als Schuldner des Kaufpreises. Herr Schmid kann dann seine Rechte als <strong>Gläubiger</strong> des Kaufpreises durchsetzen, z.B. indem er das Bauunternehmen mahnt und schliesslich eine Betreibung einleitet (<strong>SchKG</strong>).</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-4": {
+      "title": "Fall 4 (Anwenden): Die mündliche Garantie",
+      "type": "law_case",
+      "caseText": "Werkstattleiter Bieri verkauft einem Privatkunden, Herrn Frei, einen gebrauchten Rasenmähertraktor. Herr Frei ist skeptisch bezüglich der Haltbarkeit des Motors. Bieri sichert ihm mündlich zu: \"Ich gebe Ihnen eine Garantie von drei Jahren auf den Motor. Wenn was ist, reparieren wir das kostenlos.\" Ein Jahr später hat der Motor einen Defekt. Als Herr Frei die Garantie in Anspruch nehmen will, meint Bieri, eine so lange Garantie hätte schriftlich festgehalten werden müssen und sei daher ungültig.",
+      "hints": [
+        { "id": "step_1", "text": "Identifizieren Sie die zentrale Abmachung zwischen Bieri und Frei, die nun strittig ist." },
+        { "id": "step_2", "text": "Prüfen Sie den Grundsatz der Formfreiheit und suchen Sie nach möglichen gesetzlichen Ausnahmen, insbesondere im Konsumentenschutz. Gesetzeslage: <strong>OR Art. 11</strong>, <strong>OR Art. 210 Abs. 4</strong>." },
+        { "id": "step_3", "text": "Lesen Sie den relevanten Gesetzesartikel genau. Welche Form wird für eine Verlängerung der Verjährungsfrist (Garantie) bei Konsumentengeschäften verlangt?" },
+        { "id": "step_4", "text": "Wurde die gesetzlich vorgeschriebene Form im Sachverhalt eingehalten? Was bedeutet das für die Gültigkeit der Garantie-Zusage?" }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Bieri, Privatkunde Herr Frei.<br><strong>Was ist passiert:</strong> Bieri gibt eine mündliche Garantie von drei Jahren auf einen gebrauchten Motor. Später bestreitet er die Gültigkeit dieser Zusage wegen eines Formmangels.<br><strong>Rechtsfrage:</strong> Ist die mündlich abgegebene Garantie über drei Jahre gültig?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht, Formvorschriften.<br><strong>Rechtsvorschrift:</strong> Grundsätzlich gilt die Formfreiheit nach <strong>OR Art. 11</strong>. Eine spezielle Regelung findet sich jedoch in <strong>OR Art. 210 Abs. 4</strong>. Diese betrifft die Verjährung der Gewährleistungsansprüche beim Kauf von beweglichen Sachen, die dem persönlichen oder familiären Gebrauch dienen (Konsumgüterkauf).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Gemäss <strong>OR Art. 210 Abs. 1</strong> beträgt die gesetzliche Gewährleistungsfrist (Verjährungsfrist) zwei Jahre. Gemäss <strong>Abs. 4</strong> desselben Artikels ist eine Verlängerung dieser Frist (also eine Garantie von mehr als zwei Jahren) bei Konsumgüterkäufen nur gültig, wenn sie <strong>schriftlich oder in einer anderen Form, die den Nachweis durch Text ermöglicht</strong>, erfolgt. Eine rein mündliche Zusage genügt nicht.<br><strong>Rechtsfolge bei Formmangel:</strong> Die Abrede ist <strong>nichtig</strong>.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Rasenmähertraktor ist ein Konsumgut für Herrn Frei. Die Garantie von drei Jahren verlängert die gesetzliche Frist von zwei Jahren. Diese Zusage erfolgte jedoch nur mündlich und nicht in der gesetzlich vorgeschriebenen Form (z.B. schriftlich, per E-Mail).<br><strong>Konsequenz:</strong> Die Garantie-Zusage über drei Jahre ist <strong>ungültig (nichtig)</strong>. Herr Frei kann sich nicht darauf berufen. Es gilt die gesetzliche Gewährleistungsfrist von zwei Jahren. Da der Defekt nach einem Jahr auftrat, hat Herr Frei aber immer noch seine normalen Gewährleistungsansprüche (z.B. Reparatur, Minderung, Wandelung).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was bedeutet 'eine andere Form, die den Nachweis durch Text ermöglicht'?",
+            "answer": "<p>Das sind moderne Kommunikationsformen, bei denen ein dauerhafter Text entsteht. Beispiele sind <strong>E-Mail, SMS, WhatsApp-Nachrichten</strong> oder eine Notiz auf der Rechnung. Eine rein mündliche Abrede fällt nicht darunter.</p>"
+          },
+          {
+            "question": "Wäre die Situation anders, wenn der Käufer ein Gärtnerei-Unternehmen gewesen wäre?",
+            "answer": "<p>Ja, sehr wahrscheinlich. Die spezielle Formvorschrift von <strong>OR Art. 210 Abs. 4</strong> gilt nur für Sachen, die 'ihrer Art nach für den persönlichen oder familiären Gebrauch des Käufers bestimmt sind' (Konsumgüterkauf). Kauft ein Unternehmen den Traktor für den gewerblichen Gebrauch, liegt kein Konsumgüterkauf vor. In diesem Fall würde der Grundsatz der Formfreiheit (<strong>OR Art. 11</strong>) gelten und die mündliche Garantie wäre <strong>gültig</strong>.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-5": {
+      "title": "Fall 5 (Anwenden): Der übereifrige Töffli-Tuner",
+      "type": "law_case",
+      "caseText": "Der 15-jährige Kevin ist begeisterter Mofa-Fahrer. Er bringt sein Töffli in die Werkstatt von Herrn Egger und bestellt ein professionelles Motortuning für CHF 950, um es schneller zu machen. Er erzählt Herrn Egger, er werde das von seinem Sackgeld und den Ersparnissen vom Grossvater bezahlen. Herr Egger führt das Tuning durch. Als Kevins Eltern die Rechnung sehen, sind sie entsetzt und verweigern die Genehmigung des Geschäfts.",
+      "hints": [
+        { "id": "step_1", "text": "Fokus auf das Alter von Kevin und die Art und den Preis der Dienstleistung. Wer ist beteiligt und was wird gefordert?" },
+        { "id": "step_2", "text": "Welche Artikel im Zivilgesetzbuch regeln die Geschäftsfähigkeit von Minderjährigen? Gesetzeslage: <strong>ZGB Art. 13</strong>, <strong>ZGB Art. 14</strong>, <strong>ZGB Art. 19</strong>." },
+        { "id": "step_3", "text": "Unter welchen Umständen kann ein Minderjähriger Verträge abschliessen? Welche Rolle spielt die Zustimmung der Eltern? Was ist der Unterschied zwischen eigenem Lohn und Sackgeld/Geschenken?" },
+        { "id": "step_4", "text": "Ist Kevin handlungsfähig für dieses Geschäft? Liegt eine Zustimmung der Eltern vor? Was ist die Folge der Verweigerung?" }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Der 15-jährige Kevin, Werkstattinhaber Herr Egger, Kevins Eltern.<br><strong>Was ist passiert:</strong> Ein Minderjähriger schliesst einen Werkvertrag über CHF 950 ab. Die Eltern verweigern nachträglich die Zustimmung.<br><strong>Rechtsfrage:</strong> Ist der Vertrag gültig und muss die Rechnung bezahlt werden?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Personenrecht, Handlungsfähigkeit.<br><strong>Rechtsvorschrift:</strong> Die Handlungsfähigkeit ist in <strong>ZGB Art. 13</strong> definiert. Minderjährigkeit in <strong>ZGB Art. 14</strong>. Die beschränkte Handlungsunfähigkeit von Minderjährigen wird in <strong>ZGB Art. 19</strong> geregelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Urteilsfähige Minderjährige sind beschränkt handlungsunfähig (<strong>ZGB Art. 19 Abs. 1</strong>). Sie können Verträge nur mit Zustimmung ihrer gesetzlichen Vertreter (Eltern) abschliessen. Ohne diese Zustimmung ist der Vertrag 'schwebend unwirksam'. Die Eltern können ihn nachträglich genehmigen oder ablehnen. Ausnahmen bestehen für geringfügige Angelegenheiten des täglichen Lebens und für den Umgang mit dem eigenen Arbeitslohn (<strong>ZGB Art. 323</strong>). Sackgeld oder Geld von den Grosseltern fällt nicht unter den eigenen Arbeitserwerb.<br><strong>Rechtsfolge bei Verweigerung:</strong> Der Vertrag wird endgültig <strong>ungültig</strong>. Bereits erbrachte Leistungen müssen zurückerstattet werden (Rückabwicklung).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Kevin ist 15 und somit minderjährig. Ein Motortuning für CHF 950 ist keine geringfügige Angelegenheit des täglichen Lebens. Er bezahlt es nicht von seinem eigenen Lohn. Die Zustimmung der Eltern lag nicht vor und wurde nachträglich verweigert.<br><strong>Konsequenz:</strong> Der Vertrag ist <strong>ungültig</strong>. Herr Egger kann die Bezahlung nicht fordern. Er muss das Tuning auf eigene Kosten rückgängig machen, und Kevin (bzw. seine Eltern) muss das Mofa in diesem Zustand zurücknehmen. Herr Egger trägt das Geschäftsrisiko.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was hätte Herr Egger tun müssen, um auf der sicheren Seite zu sein?",
+            "answer": "<p>Bei grösseren Aufträgen mit minderjährigen Kunden sollte ein Werkstattleiter immer die <strong>ausdrückliche Zustimmung eines gesetzlichen Vertreters</strong> (Elternteil) einholen, am besten schriftlich. Er hätte die Eltern anrufen oder eine schriftliche Bestätigung verlangen können.</p>"
+          },
+          {
+            "question": "Könnte Herr Egger Schadenersatz von Kevin verlangen, weil er seine Arbeit umsonst gemacht hat?",
+            "answer": "<p>Grundsätzlich nein, da der Vertrag ungültig ist. Eine Ausnahme bestünde, wenn Kevin Herrn Egger arglistig über seine Handlungsfähigkeit getäuscht hätte (z.B. mit einem gefälschten Ausweis), was hier nicht der Fall ist. Der Schutz des Minderjährigen geht dem Interesse des Geschäftspartners vor.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-6": {
+      "title": "Fall 6 (Anwenden): Der Tippfehler im Angebot",
+      "type": "law_case",
+      "caseText": "Die Werkstatt von Frau Kunz erstellt für die Baufirma Gross AG ein schriftliches Angebot für die Generalüberholung eines Motors. Versehentlich tippt der zuständige Mitarbeiter den Preis auf CHF 8'700 anstatt der korrekt kalkulierten CHF 18'700. Die Gross AG bemerkt den günstigen Preis, freut sich und nimmt das Angebot sofort schriftlich an. Als Frau Kunz den Fehler bemerkt, will sie den Vertrag nicht gelten lassen.",
+      "hints": [
+        { "id": "step_1", "text": "Analysieren Sie den Prozess des Vertragsabschlusses: Gab es ein Angebot und eine Annahme? Welches Problem liegt vor?" },
+        { "id": "step_2", "text": "Suchen Sie im OR nach den Regeln über Willensmängel, insbesondere den Irrtum. Welcher Typ von Irrtum könnte hier vorliegen? Gesetzeslage: <strong>OR Art. 23 ff.</strong>, insbesondere <strong>OR Art. 24 Abs. 1 Ziff. 3</strong>." },
+        { "id": "step_3", "text": "Was ist ein 'wesentlicher Erklärungsirrtum'? Was sind die Voraussetzungen und was ist die Rechtsfolge, wenn ein solcher Irrtum vorliegt?" },
+        { "id": "step_4", "text": "Liegt im Fall von Frau Kunz ein wesentlicher Irrtum vor? Was muss sie tun, um den Vertrag anzufechten, und welche Frist muss sie beachten?" }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstatt von Frau Kunz, Baufirma Gross AG.<br><strong>Was ist passiert:</strong> Ein Vertrag kommt aufgrund eines Angebots mit einem offensichtlichen Tippfehler im Preis zustande. Die Werkstatt bemerkt den Fehler nach Vertragsabschluss.<br><strong>Rechtsfrage:</strong> Ist die Werkstatt an den Preis von CHF 8'700 gebunden oder kann sie den Vertrag aufheben?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Willensmängel.<br><strong>Rechtsvorschrift:</strong> Die Regeln über den Irrtum finden sich in <strong>OR Art. 23 ff.</strong>. Konkret handelt es sich hier um einen <strong>Erklärungsirrtum</strong>, da der erklärte Wille (CHF 8'700) vom wirklichen Willen (CHF 18'700) abweicht. Ein solcher Irrtum ist nur beachtlich, wenn er wesentlich ist.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Ein Irrtum ist gemäss <strong>OR Art. 24 Abs. 1 Ziff. 3</strong> wesentlich, wenn er eine erheblich grössere Leistung betrifft, als versprochen wurde. Ein Tippfehler im Preis, der diesen mehr als halbiert, ist ein klassischer Fall eines wesentlichen Erklärungsirrtums. <br><strong>Rechtsfolge:</strong> Der Vertrag ist für den Irrenden <strong>einseitig unverbindlich</strong> (anfechtbar). Er muss den Irrtum geltend machen und den Vertrag anfechten. Die Anfechtung muss innerhalb eines Jahres seit Entdeckung des Irrtums erfolgen (<strong>OR Art. 31</strong>).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Unterschied zwischen CHF 8'700 und CHF 18'700 ist erheblich. Es liegt ein wesentlicher Erklärungsirrtum vor. Der Vertrag ist somit für die Werkstatt von Frau Kunz einseitig unverbindlich.<br><strong>Konsequenz:</strong> Frau Kunz muss der Gross AG <strong>unverzüglich</strong> mitteilen, dass sie sich im Preis geirrt hat und den Vertrag wegen wesentlichem Irrtum nicht halten will (Anfechtungserklärung). Der Vertrag wird dadurch rückwirkend aufgehoben. Eventuell muss sie der Gross AG Schadenersatz für das Dahinfallen des Vertrages leisten, wenn sie den Irrtum fahrlässig verursacht hat (<strong>OR Art. 26</strong>).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn der Tippfehler nur geringfügig gewesen wäre, z.B. CHF 18'600 statt CHF 18'700?",
+            "answer": "<p>In diesem Fall wäre der Irrtum wahrscheinlich als <strong>unwesentlich</strong> eingestuft worden. Ein unwesentlicher Irrtum berechtigt nicht zur Anfechtung des Vertrages. Frau Kunz wäre an den Preis von CHF 18'600 gebunden gewesen.</p>"
+          },
+          {
+            "question": "Spielt es eine Rolle, dass die Gross AG den Fehler hätte bemerken müssen?",
+            "answer": "<p>Ja, das kann eine Rolle spielen. Wenn der Preis so niedrig ist, dass der Vertragspartner den Irrtum hätte erkennen müssen (offensichtlicher Fehler), handelt er gegen Treu und Glauben (<strong>ZGB Art. 2</strong>), wenn er darauf beharrt. Dies stärkt die Position des Irrenden bei der Anfechtung und kann eine allfällige Schadenersatzpflicht (nach <strong>OR Art. 26</strong>) reduzieren oder aufheben.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-7": {
+      "title": "Fall 7 (Analysieren): Der falsche Filter",
+      "type": "law_case",
+      "caseText": "Ein Kunde kauft in der Werkstatt von Herrn Meier einen teuren Partikelfilter für seine Baumaschine vom Typ 'Mammut X'. Er erwähnt beiläufig, dass er den Filter für seinen alten 'Mammut X' aus dem Jahr 2010 braucht. Herr Meier weiss, dass der verkaufte Filter nur für Modelle ab 2015 passt, sagt aber nichts, da er den alten Filter nicht an Lager hat. Zu Hause stellt der Kunde fest, dass der Filter nicht passt. Er will den Kauf rückgängig machen und wirft Herrn Meier Täuschung vor.",
+      "hints": [
+        { "id": "step_1", "text": "Der Kern des Problems ist, dass der Verkäufer wichtige Informationen zurückhält. Unterscheiden Sie zwischen dem, was der Kunde dachte, und dem, was der Verkäufer wusste." },
+        { "id": "step_2", "text": "Prüfen Sie zwei mögliche Willensmängel: Absichtliche Täuschung durch Schweigen und Grundlagenirrtum. Gesetzeslage: <strong>OR Art. 28</strong> und <strong>OR Art. 24 Abs. 1 Ziff. 4</strong>." },
+        { "id": "step_3", "text": "Was sind die Voraussetzungen für eine 'Täuschung durch Schweigen'? Wann besteht eine Aufklärungspflicht? Was ist ein 'Grundlagenirrtum' und wann ist er wesentlich?" },
+        { "id": "step_4", "text": "Analysieren Sie, ob die Voraussetzungen für eine Täuschung oder einen Grundlagenirrtum erfüllt sind. Was ist die Konsequenz für den Kunden?" }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattinhaber Herr Meier (Verkäufer), Kunde (Käufer).<br><strong>Was ist passiert:</strong> Der Verkäufer verkauft wissentlich ein unpassendes Ersatzteil, ohne den Kunden über die Inkompatibilität aufzuklären, obwohl er dessen Absicht kennt.<br><strong>Rechtsfrage:</strong> Kann der Kunde den Vertrag anfechten, und wenn ja, auf welcher rechtlichen Grundlage?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Willensmängel.<br><strong>Rechtsvorschrift:</strong> Zwei Grundlagen kommen in Frage:<br>1. <strong>Absichtliche Täuschung</strong> nach <strong>OR Art. 28</strong>. Eine Täuschung kann auch durch Verschweigen von Tatsachen erfolgen, wenn eine Aufklärungspflicht besteht.<br>2. <strong>Grundlagenirrtum</strong> nach <strong>OR Art. 24 Abs. 1 Ziff. 4</strong>. Der Käufer irrt sich über eine wesentliche Eigenschaft der Kaufsache (die Passgenauigkeit).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong><br><strong>Täuschung (OR Art. 28):</strong> Setzt eine Täuschungsabsicht voraus. Das Verschweigen von Tatsachen ist dann eine Täuschung, wenn eine Aufklärungspflicht besteht. Diese besteht, wenn eine Partei erkennt, dass sich die andere in einem wesentlichen Irrtum befindet und sie nach Treu und Glauben aufklären müsste.<br><strong>Grundlagenirrtum (OR Art. 24):</strong> Setzt voraus, dass sich eine Partei über einen Sachverhalt geirrt hat, der für sie eine <strong>notwendige Grundlage des Vertrages</strong> war (subjektive Wesentlichkeit) und den sie nach Treu und Glauben im Geschäftsverkehr als gegeben voraussetzen durfte (objektive Wesentlichkeit). Die Passgenauigkeit eines Ersatzteils ist ein klassischer Fall dafür.<br><strong>Rechtsfolge:</strong> In beiden Fällen ist der Vertrag für die betroffene Partei <strong>einseitig unverbindlich</strong> (anfechtbar) innert Jahresfrist seit Entdeckung (<strong>OR Art. 31</strong>).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Analyse:</strong><br><strong>Täuschung:</strong> Herr Meier wusste, dass der Kunde den Filter für ein altes Modell braucht und dass der verkaufte Filter nicht passt. Er hat absichtlich geschwiegen, um den Verkauf zu tätigen. Es bestand eine Aufklärungspflicht. Die Voraussetzungen für eine absichtliche Täuschung sind <strong>erfüllt</strong>.<br><strong>Grundlagenirrtum:</strong> Der Kunde ging davon aus, dass der Filter passt. Dies war für ihn eine notwendige Vertragsgrundlage, was für Herr Meier auch erkennbar war. Die Voraussetzungen für einen Grundlagenirrtum sind ebenfalls <strong>erfüllt</strong>.<br><strong>Konsequenz:</strong> Der Kunde kann den Vertrag <strong>anfechten</strong>, wahlweise gestützt auf Täuschung oder Irrtum. Er kann den Filter zurückgeben und erhält den Kaufpreis zurück. Bei Täuschung könnte er zusätzlich Schadenersatz fordern (<strong>OR Art. 28 Abs. 2</strong> i.V.m. <strong>OR Art. 41</strong>).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Warum ist es für den Kunden vorteilhafter, sich auf Täuschung statt auf Irrtum zu berufen?",
+            "answer": "<p>Bei einer Anfechtung wegen Irrtums kann der Irrende unter Umständen schadenersatzpflichtig werden, wenn der Irrtum auf seine eigene Fahrlässigkeit zurückzuführen ist (<strong>OR Art. 26</strong>). Bei einer Anfechtung wegen absichtlicher Täuschung entfällt diese Gefahr. Im Gegenteil, der Getäuschte kann selbst Schadenersatz fordern. Die Beweislast für die Täuschungsabsicht liegt aber beim Kunden.</p>"
+          },
+          {
+            "question": "Was wäre, wenn der Kunde nichts über das Baujahr seines Modells gesagt hätte?",
+            "answer": "<p>Dann wäre die Situation schwieriger. Herr Meier hätte keine Aufklärungspflicht gehabt, da er den Irrtum des Kunden nicht kennen konnte. Eine Täuschung läge nicht vor. Der Kunde könnte sich aber immer noch auf einen Grundlagenirrtum berufen, müsste aber beweisen, dass die Passgenauigkeit für ihn eine notwendige Vertragsgrundlage war und dies für den Verkäufer objektiv erkennbar sein musste. Es könnte ihm aber eine gewisse Fahrlässigkeit vorgeworfen werden, weil er sich nicht genauer erkundigt hat.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-8": {
+      "title": "Fall 8 (Analysieren): Das überrissene Konkurrenzverbot",
+      "type": "law_case",
+      "caseText": "Ein sehr erfahrener und gesuchter Baumaschinenmechaniker, Herr Sutter, wird von der Grossgarage AG angestellt. Sein Arbeitsvertrag enthält eine Klausel, wonach es ihm nach Beendigung des Arbeitsverhältnisses für eine Dauer von fünf Jahren verboten ist, in der ganzen Schweiz in einer konkurrenzierenden Werkstatt zu arbeiten oder eine eigene zu gründen. Als Herr Sutter nach zwei Jahren kündigt, um sich in einem anderen Kanton selbstständig zu machen, pocht die Grossgarage AG auf das Verbot.",
+      "hints": [
+        { "id": "step_1", "text": "Identifizieren Sie die strittige Vertragsklausel und die Interessen der beiden Parteien." },
+        { "id": "step_2", "text": "Welche Gesetzesartikel regeln das Konkurrenzverbot im Arbeitsrecht und die allgemeine Vertragsfreiheit und ihre Grenzen? Gesetzeslage: <strong>OR Art. 340 ff.</strong> und <strong>OR Art. 20</strong>, <strong>ZGB Art. 27</strong>." },
+        { "id": "step_3", "text": "Analysieren Sie die Voraussetzungen für ein gültiges Konkurrenzverbot. Welche Kriterien (Ort, Zeit, Gegenstand) müssen erfüllt sein, damit es nicht 'unbillig' ist?" },
+        { "id": "step_4", "text": "Ist die Klausel im Arbeitsvertrag von Herrn Sutter in ihrer Gesamtheit gültig? Was kann ein Richter tun, wenn ein Konkurrenzverbot übermässig ist?" }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Baumaschinenmechaniker Herr Sutter, Arbeitgeberin Grossgarage AG.<br><strong>Was ist passiert:</strong> Ein Arbeitsvertrag enthält ein sehr weitreichendes Konkurrenzverbot. Der Arbeitgeber will es nach der Kündigung durchsetzen.<br><strong>Rechtsfrage:</strong> Ist das vertraglich vereinbarte Konkurrenzverbot in diesem Umfang gültig und durchsetzbar?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Arbeitsvertragsrecht, Persönlichkeitsschutz.<br><strong>Rechtsvorschrift:</strong> Die spezifischen Regeln für das Konkurrenzverbot finden sich in <strong>OR Art. 340 ff.</strong>. Die allgemeinen Grenzen der Vertragsfreiheit sind in <strong>OR Art. 20</strong> (Nichtigkeit bei widerrechtlichem/sittenwidrigem Inhalt) und <strong>ZGB Art. 27</strong> (Schutz der Persönlichkeit vor übermässiger Bindung) geregelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Ein Konkurrenzverbot ist nur gültig, wenn der Arbeitnehmer Einblick in den Kundenkreis oder in Fabrikations- und Geschäftsgeheimnisse hat und deren Verwendung den Arbeitgeber erheblich schädigen könnte (<strong>OR Art. 340 Abs. 2</strong>). Zudem muss das Verbot nach Ort, Zeit und Gegenstand <strong>angemessen beschränkt</strong> sein, um das wirtschaftliche Fortkommen des Arbeitnehmers nicht 'unbillig' zu erschweren (<strong>OR Art. 340a Abs. 1</strong>). Ein übermässiges Verbot ist nicht zwingend ganz nichtig, sondern kann vom Richter auf das zulässige Mass reduziert werden.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Analyse:</strong> Das vorliegende Verbot ist klar <strong>übermässig</strong> und damit unbillig. <br><strong>Zeitlich:</strong> Fünf Jahre sind deutlich mehr als die üblichen 1-3 Jahre.<br><strong>Örtlich:</strong> Die ganze Schweiz ist für einen Mechaniker, dessen Kundenkreis meist regional ist, viel zu weit gefasst.<br><strong>Gegenständlich:</strong> Ein generelles Verbot, in einer konkurrenzierenden Werkstatt zu arbeiten, ist zu breit.<br><strong>Konsequenz:</strong> Das Konkurrenzverbot ist in dieser Form <strong>nicht durchsetzbar</strong>. Herr Sutter kann sich an ein Gericht wenden. Der Richter wird das Verbot auf ein zulässiges Mass <strong>reduzieren</strong>, z.B. auf 1-2 Jahre und auf eine bestimmte Region (z.B. den Kanton, in dem die Grossgarage AG hauptsächlich tätig ist). Da Herr Sutter in einem anderen Kanton eine Werkstatt gründen will, würde ihn das reduzierte Verbot wahrscheinlich nicht mehr betreffen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Unter welchen Umständen fällt ein Konkurrenzverbot komplett dahin, auch wenn es angemessen formuliert wäre?",
+            "answer": "<p>Gemäss <strong>OR Art. 340c Abs. 2</strong> fällt das Konkurrenzverbot dahin, wenn der Arbeitgeber das Arbeitsverhältnis kündigt, ohne dass ihm der Arbeitnehmer dazu einen begründeten Anlass gegeben hat, oder wenn der Arbeitnehmer aus einem begründeten, vom Arbeitgeber zu verantwortenden Anlass kündigt.</p>"
+          },
+          {
+            "question": "Muss der Arbeitgeber dem Arbeitnehmer für die Einhaltung des Konkurrenzverbots eine Entschädigung (Karenzentschädigung) zahlen?",
+            "answer": "<p>Nach Schweizer Recht ist eine Karenzentschädigung <strong>nicht zwingend</strong> vorgeschrieben, kann aber vertraglich vereinbart werden. Das Fehlen einer Entschädigung ist jedoch ein wichtiges Kriterium bei der Beurteilung, ob das Verbot 'unbillig' ist. Ein weitreichendes Verbot ohne jegliche Entschädigung wird von Gerichten eher als unbillig eingestuft.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-9": {
+      "title": "Fall 9 (Analysieren): Die 'fast neuen' Raupenketten",
+      "type": "law_case",
+      "caseText": "Ein Werkstattleiter verkauft einem Kunden einen gebrauchten Minibagger. Im Verkaufsgespräch preist er die Raupenketten als 'praktisch neuwertig' an und verweist auf den Betriebsstundenzähler, der nur 50 Stunden seit dem letzten Wechsel anzeigt. Der Kunde kauft den Bagger. Nach kurzer Zeit stellt ein anderer Mechaniker fest, dass die Ketten bereits stark abgenutzt sind und der Betriebsstundenzähler offensichtlich manipuliert wurde. Der Verkäufer meint, 'neuwertig' sei eine subjektive Einschätzung und kein Garantiewert.",
+      "hints": [
+        { "id": "step_1", "text": "Der Kern liegt in der Diskrepanz zwischen der Anpreisung des Verkäufers und der Realität. Welche Handlungen hat der Verkäufer vorgenommen?" },
+        { "id": "step_2", "text": "Prüfen Sie, ob hier eine absichtliche Täuschung vorliegt. Welche Alternative gäbe es (Sachmangel)? Gesetzeslage: <strong>OR Art. 28</strong> und Gewährleistungsrecht <strong>OR Art. 197 ff.</strong>" },
+        { "id": "step_3", "text": "Was sind die Tatbestandsmerkmale der absichtlichen Täuschung? Was unterscheidet eine Täuschung von einer zulässigen 'Reklame-Anpreisung'?" },
+        { "id": "step_4", "text": "Waren die Handlungen des Verkäufers (Aussage plus Manipulation) eine Täuschung? Welche Rechte hat der Käufer, wenn er den Vertrag anficht?" }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter (Verkäufer), Kunde (Käufer).<br><strong>Was ist passiert:</strong> Ein Verkäufer macht falsche Angaben über die Qualität einer Maschine und untermauert diese durch einen manipulierten Zähler, um den Käufer zum Vertragsabschluss zu bewegen.<br><strong>Rechtsfrage:</strong> Liegt hier eine blosse Anpreisung oder eine anfechtbare, absichtliche Täuschung vor?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht (Willensmängel) und Kaufvertragsrecht (Gewährleistung).<br><strong>Rechtsvorschrift:</strong> Primär ist die <strong>absichtliche Täuschung</strong> gemäss <strong>OR Art. 28</strong> zu prüfen. Alternativ könnte der Käufer auch die Mängelrechte der kaufrechtlichen Gewährleistung (<strong>OR Art. 197 ff.</strong>) geltend machen, da die Ketten nicht die zugesicherte Eigenschaft ('neuwertig') aufweisen.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Eine <strong>absichtliche Täuschung</strong> liegt vor, wenn jemand durch absichtliche Vorspiegelung falscher oder Unterdrückung von wahren Tatsachen einen anderen zu einem Vertragsabschluss verleitet. Die blosse Anpreisung von Ware in allgemeinen Redewendungen ('das beste Modell auf dem Markt') ist in der Regel keine Täuschung. Die Grenze ist überschritten, wenn über <strong>objektiv nachprüfbare Eigenschaften</strong> falsche Angaben gemacht werden. Die Manipulation eines Zählers ist eine aktive Handlung zur Untermauerung der falschen Angabe und ein klares Indiz für eine Täuschungsabsicht.<br><strong>Rechtsfolge:</strong> Der Vertrag ist für den Getäuschten unverbindlich (anfechtbar).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Analyse:</strong> Die Aussage 'praktisch neuwertig' allein könnte noch als Anpreisung durchgehen. In Kombination mit dem Verweis auf den <strong>manipulierten Betriebsstundenzähler</strong> wird daraus aber eine klare Vorspiegelung falscher Tatsachen. Der Verkäufer wollte den Käufer aktiv über eine wesentliche Eigenschaft der Maschine täuschen. Die Voraussetzungen von <strong>OR Art. 28</strong> sind erfüllt.<br><strong>Konsequenz:</strong> Der Käufer kann den Vertrag innerhalb eines Jahres seit Entdeckung der Täuschung <strong>anfechten</strong> (<strong>OR Art. 31</strong>). Der Vertrag wird dann rückabgewickelt: Der Käufer gibt den Bagger zurück und erhält den vollen Kaufpreis. Zusätzlich kann er Schadenersatz für allfällige weitere Kosten verlangen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Warum könnte die Anfechtung wegen Täuschung für den Käufer besser sein als die Geltendmachung von Gewährleistungsrechten (z.B. Minderung)?",
+            "answer": "<p>Die Gewährleistung ist in vielen AGB von Gebrauchtfahrzeug-Händlern eingeschränkt oder ganz weggewiesen ('ab Platz, wie gesehen'). Ein solcher Haftungsausschluss ist aber <strong>ungültig</strong>, wenn der Verkäufer den Mangel arglistig verschwiegen hat (<strong>OR Art. 199</strong>). Die Anfechtung wegen Täuschung ist jedoch ein davon unabhängiges Recht, das nicht durch AGB ausgeschlossen werden kann und zur vollständigen Rückabwicklung des Vertrags führt, was oft vorteilhafter ist als nur eine Preisreduktion (Minderung).</p>"
+          },
+          {
+            "question": "Welche strafrechtlichen Konsequenzen könnte das Verhalten des Verkäufers haben?",
+            "answer": "<p>Die Manipulation des Zählers in Verkaufsabsicht könnte den Straftatbestand des <strong>Betrugs</strong> (<strong>StGB Art. 146</strong>) erfüllen, da der Verkäufer den Käufer durch arglistige Vorspiegelung von Tatsachen zu einer Vermögensdisposition (dem Kauf) verleitet und ihn dadurch am Vermögen schädigt. Dies könnte zu einer Strafanzeige führen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-10": {
+      "title": "Fall 10 (Transfer/Beurteilung): Die Notlage des Bauunternehmers",
+      "type": "law_case",
+      "caseText": "An einem Freitagnachmittag fällt auf einer Grossbaustelle ein zentraler Hydraulikgenerator aus. Ohne diesen steht die gesamte Baustelle still, was zu Konventionalstrafen von CHF 20'000 pro Tag führt. Der Bauunternehmer ruft verzweifelt den einzigen verfügbaren Werkstattleiter in der Region an. Dieser erkennt die Notlage und bietet an, den Generator über das Wochenende zu reparieren, verlangt dafür aber einen Pauschalpreis von CHF 25'000, obwohl die Reparatur normalerweise höchstens CHF 8'000 kosten würde. Unter Druck stimmt der Bauunternehmer zu. Am Montag will er die Rechnung nicht in voller Höhe bezahlen.",
+      "hints": [
+        { "id": "step_1", "text": "Analysieren Sie die besondere Situation des Bauunternehmers (Zwangslage) und das Angebot des Werkstattleiters (Preis). Was ist das Missverhältnis?" },
+        { "id": "step_2", "text": "Welcher Willensmangel könnte hier vorliegen, der speziell auf die Ausnutzung einer Zwangslage abzielt? Gesetzeslage: <strong>OR Art. 21</strong>." },
+        { "id": "step_3", "text": "Was sind die drei Tatbestandsmerkmale der Übervorteilung? (Missverhältnis, Schwächesituation, Ausbeutung)." },
+        { "id": "step_4", "text": "Beurteilen Sie, ob alle drei Merkmale erfüllt sind. Welche rechtlichen Optionen hat der Bauunternehmer und welche kaufmännischen Risiken geht der Werkstattleiter mit seinem Verhalten ein?" }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Bauunternehmer, Werkstattleiter.<br><strong>Was ist passiert:</strong> Ein Werkstattleiter nutzt die Zwangslage eines Bauunternehmers aus, um einen massiv überhöhten Preis für eine dringende Reparatur durchzusetzen. Der Bauunternehmer stimmt unter Druck zu.<br><strong>Problemstellung:</strong> Ist der Vertrag über CHF 25'000 gültig oder kann der Bauunternehmer die Zahlung des überhöhten Teils verweigern?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Willensmängel.<br><strong>Rechtsvorschrift:</strong> Der relevante Tatbestand ist die <strong>Übervorteilung</strong> gemäss <strong>OR Art. 21</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse (Tatbestandsmerkmale OR Art. 21):</strong><br>1. <strong>Offenbares Missverhältnis</strong> zwischen Leistung und Gegenleistung (objektives Merkmal). Hier: CHF 25'000 für eine Reparatur im Wert von CHF 8'000.<br>2. <strong>Schwächesituation</strong> bei der übervorteilten Partei (subjektives Merkmal). Hier: Notlage des Bauunternehmers wegen drohender Konventionalstrafen.<br>3. <strong>Ausbeutung</strong> dieser Schwächesituation durch die andere Partei (subjektives Merkmal). Hier: Der Werkstattleiter erkennt die Notlage und setzt den Preis bewusst überhöht an.<br><strong>Rechtsfolge:</strong> Der Übervorteilte kann innerhalb eines Jahres erklären, dass er den Vertrag nicht hält (Anfechtung), und das Geleistete zurückfordern.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Konsequenzen:</strong><br><strong>Rechtliche Beurteilung:</strong> Alle drei Tatbestandsmerkmale der Übervorteilung sind hier klar erfüllt. Das Missverhältnis ist offensichtlich, die Notlage ist gravierend und der Werkstattleiter hat diese bewusst ausgenutzt. Der Bauunternehmer kann den Vertrag <strong>anfechten</strong>. Er muss eine angemessene Vergütung (z.B. die CHF 8'000 plus einen angemessenen Zuschlag für die Wochenendarbeit) bezahlen, aber nicht die vollen CHF 25'000.<br><strong>Kaufmännische Beurteilung (Risiken für den Werkstattleiter):</strong><br>1. <strong>Rechtliches Risiko:</strong> Er riskiert, dass der Vertrag angefochten wird und er nur einen Bruchteil des geforderten Betrags erhält.<br>2. <strong>Reputationsrisiko:</strong> Solch ein Verhalten spricht sich in der Branche herum und schädigt den Ruf des Betriebs nachhaltig. Langfristig verliert er dadurch mehr Kunden und Aufträge, als er mit diesem einen Geschäft gewinnt.<br>3. <strong>Kundenbeziehungsrisiko:</strong> Er zerstört die Geschäftsbeziehung zum Bauunternehmer, der ein potenziell wichtiger Kunde sein könnte.<br><strong>Fazit:</strong> Das Verhalten des Werkstattleiters ist sowohl rechtlich anfechtbar als auch kaufmännisch extrem kurzsichtig und schädlich.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie hoch dürfte ein 'angemessener' Preis in dieser Situation sein?",
+            "answer": "<p>Ein angemessener Preis würde die normalen Kosten (CHF 8'000) plus grosszügige Zuschläge für die Dringlichkeit und die Wochenendarbeit umfassen. Ein Preis von vielleicht CHF 10'000 bis CHF 12'000 wäre wahrscheinlich nicht mehr als 'offenbares Missverhältnis' zu werten und rechtlich kaum anfechtbar. CHF 25'000 sind es aber definitiv.</p>"
+          },
+          {
+            "question": "Was ist der Unterschied zwischen Übervorteilung und Wucher im Strafrecht?",
+            "answer": "<p>Die Übervorteilung nach <strong>OR Art. 21</strong> ist ein zivilrechtlicher Tatbestand, der zur Anfechtbarkeit eines Vertrages führt. Der <strong>Wucher</strong> nach <strong>StGB Art. 157</strong> ist ein Straftatbestand. Die Voraussetzungen sind sehr ähnlich (Ausbeutung einer Notlage, offenbares Missverhältnis). Das Verhalten des Werkstattleiters könnte also nicht nur zivilrechtliche, sondern auch strafrechtliche Konsequenzen haben.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-11": {
+      "title": "Fall 11 (Transfer/Beurteilung): Die 'Gratisprobe' mit Folgen",
+      "type": "law_case",
+      "caseText": "Ein Vertreter eines Werkzeugherstellers besucht Werkstattleiterin Gerber und überlässt ihr ein neues, teures Diagnosegerät im Wert von CHF 10'000. Er sagt: \"Testen Sie es mal 30 Tage. Wenn wir nichts von Ihnen hören, gehen wir davon aus, dass Sie es behalten wollen und schicken die Rechnung.\" Frau Gerber ist sehr beschäftigt, stellt das Gerät in die Ecke und vergisst es. Nach 40 Tagen trifft die Rechnung ein. Der Hersteller beharrt auf dem Kaufvertrag, da Schweigen in diesem Fall als Annahme gelte.",
+      "hints": [
+        { "id": "step_1", "text": "Fassen Sie die Vereinbarung oder den Vorschlag des Vertreters zusammen. Hat Frau Gerber aktiv zugestimmt?" },
+        { "id": "step_2", "text": "Welcher Gesetzesartikel regelt die Zusendung unbestellter Sachen? Gilt dieser auch, wenn die Sache nicht zugesendet, sondern dagelassen wird? Gesetzeslage: <strong>OR Art. 6a</strong>." },
+        { "id": "step_3", "text": "Analysieren Sie die Regel von OR Art. 6a. Gilt Schweigen grundsätzlich als Annahme? Gibt es Ausnahmen?" },
+        { "id": "step_4", "text": "Beurteilen Sie, ob durch das Schweigen von Frau Gerber ein Vertrag zustande gekommen ist. Welche strategischen Überlegungen sollte sie anstellen, bevor sie antwortet?" }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkzeughersteller (vertreten durch Vertreter), Werkstattleiterin Frau Gerber.<br><strong>Was ist passiert:</strong> Ein Verkäufer überlässt eine Ware zur Probe mit der Bedingung, dass Schweigen nach 30 Tagen als Kauf gilt. Die potenzielle Käuferin reagiert nicht.<br><strong>Problemstellung:</strong> Ist durch das Schweigen ein Kaufvertrag zustande gekommen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Vertragsabschluss.<br><strong>Rechtsvorschrift:</strong> Der zentrale Artikel ist <strong>OR Art. 6a</strong>, der die Zusendung unbestellter Sachen regelt. Obwohl die Sache hier nicht zugesendet, sondern dagelassen wurde, ist der Schutzzweck der Norm derselbe: Niemand soll durch Schweigen gegen seinen Willen zu einem Vertrag verpflichtet werden.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> <strong>OR Art. 6a Abs. 1</strong> stellt klar, dass die Zusendung einer unbestellten Sache nicht als Antrag gilt. Der Empfänger ist nicht verpflichtet, die Sache zurückzusenden oder aufzubewahren (<strong>Abs. 2</strong>). Schweigen bedeutet also <strong>keine Annahme</strong>. Ein Vertrag kommt nicht zustande. Eine Ausnahme besteht nur, wenn es sich um eine offensichtlich irrtümlich zugestellte Sache handelt (<strong>Abs. 3</strong>), was hier nicht der Fall ist.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Strategie:</strong><br><strong>Rechtliche Beurteilung:</strong> Es ist <strong>kein Vertrag</strong> zustande gekommen. Die Klausel 'Schweigen gilt als Annahme' ist eine einseitige Bedingung des Verkäufers, die rechtlich nicht haltbar ist. Frau Gerber ist nicht zur Zahlung verpflichtet. Sie muss das Gerät nicht einmal aufbewahren oder zurückschicken. Sie könnte es theoretisch sogar wegwerfen.<br><strong>Strategische Überlegungen für Frau Gerber:</strong><br>1. <strong>Nichtstun und nicht zahlen:</strong> Rechtlich ist sie auf der sicheren Seite. Sie kann die Rechnung und allfällige Mahnungen ignorieren.<br>2. <strong>Professionelle Kommunikation:</strong> Aus kaufmännischer Sicht ist es besser, dem Hersteller kurz schriftlich (per E-Mail) mitzuteilen, dass kein Vertrag zustande gekommen ist, sie das Angebot nicht annimmt und das Gerät zur Abholung bereitsteht. Dies vermeidet unnötigen administrativen Aufwand (Mahnungen, Betreibungsdrohungen) und erhält eine potenziell wichtige Geschäftsbeziehung aufrecht.<br>3. <strong>Verhandeln:</strong> Wenn sie das Gerät doch interessant findet, könnte sie die Situation nutzen, um einen Rabatt auszuhandeln ('Ich wollte es eigentlich nicht, aber für CHF 7'000 würde ich es nehmen.').<br><strong>Empfehlung:</strong> Option 2 ist die professionellste und sicherste Vorgehensweise.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn Frau Gerber das Gerät während der 30 Tage aktiv in ihrer Werkstatt eingesetzt und damit Geld verdient hätte?",
+            "answer": "<p>In diesem Fall könnte ihr Verhalten als <strong>konkludente Annahme</strong> des Angebots gewertet werden. Indem sie die Sache bestimmungsgemäss gebraucht und einen Nutzen daraus zieht, bringt sie zum Ausdruck, dass sie mit dem Kauf einverstanden ist. Dann wäre ein Vertrag zustande gekommen und sie müsste den Preis bezahlen.</p>"
+          },
+          {
+            "question": "Gibt es Situationen, in denen Schweigen doch als Annahme gilt?",
+            "answer": "<p>Ja, aber nur in seltenen Ausnahmefällen. Gemäss <strong>OR Art. 6</strong> gilt Schweigen auf einen Antrag als Annahme, wenn wegen der 'besonderen Natur des Geschäftes' oder 'der Umstände' eine ausdrückliche Annahme nicht zu erwarten ist. Das betrifft vor allem laufende Geschäftsbeziehungen, wo z.B. eine Bestellung ohne Bestätigung immer ausgeführt wird. Auf unaufgeforderte Angebote wie hier ist <strong>OR Art. 6</strong> aber nicht anwendbar.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-12": {
+      "title": "Fall 12 (Transfer/Beurteilung): Der Motorschaden in der Werkstatt",
+      "type": "law_case",
+      "caseText": "Ein grosses Transportunternehmen bringt einen LKW zur Reparatur in die Werkstatt von Herrn Frei. In den AGB des Transportunternehmens, auf die im Auftrag verwiesen wird, steht: 'Die Werkstatt haftet für alle Schäden, die während der Reparatur am Fahrzeug entstehen, unbeschränkt.' In den AGB von Herrn Frei, die im Betrieb aushängen, steht: 'Jede Haftung für Schäden am Fahrzeug während der Reparatur, ausser bei Grobfahrlässigkeit, wird wegbedungen.' Während der Reparatur macht ein Mitarbeiter von Herrn Frei aus leichter Unachtsamkeit einen Fehler, der zu einem teuren Motorschaden führt. Das Transportunternehmen verlangt vollen Ersatz.",
+      "hints": [
+        { "id": "step_1", "text": "Das Kernproblem ist der Widerspruch zwischen den AGB der beiden Vertragspartner ('Battle of the Forms')." },
+        { "id": "step_2", "text": "Dieses Problem ist im Gesetz nicht explizit geregelt. Die Lösung ergibt sich aus der Lehre und Gerichtspraxis zum Vertragsabschluss. Gesetzeslage: <strong>OR Art. 1 ff.</strong>" },
+        { "id": "step_3", "text": "Recherchieren Sie die in der Schweiz vorherrschende 'Knock-Out-Theorie' (auch 'Restgültigkeitstheorie') bei sich widersprechenden AGB. Was besagt sie?" },
+        { "id": "step_4", "text": "Wenden Sie die Theorie auf den Fall an. Welche Regelung gilt anstelle der widersprüchlichen Haftungsklauseln? Beurteilen Sie die Situation und geben Sie eine kaufmännische Empfehlung ab." }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstatt von Herrn Frei, grosses Transportunternehmen.<br><strong>Was ist passiert:</strong> Zwei Unternehmen schliessen einen Reparaturvertrag, wobei beide auf ihre eigenen, sich in der Haftungsfrage widersprechenden AGB verweisen. Während der Reparatur entsteht ein Schaden durch leichte Fahrlässigkeit.<br><strong>Problemstellung:</strong> Welche AGB-Klausel gilt? Muss die Werkstatt für den Schaden haften?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Einbezug von Allgemeinen Geschäftsbedingungen (AGB).<br><strong>Rechtsvorschrift:</strong> Es gibt keine spezifische Gesetzesnorm zur 'Battle of the Forms'. Die Lösung wird aus den allgemeinen Regeln über den Konsens (<strong>OR Art. 1 ff.</strong>) und der Gerichtspraxis abgeleitet.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse (Lehre und Praxis):</strong> In der Schweiz gilt bei sich widersprechenden AGB die <strong>'Knock-Out-Theorie'</strong>. Das bedeutet:<br>1. Der Vertrag kommt trotzdem zustande, da sich die Parteien über die wesentlichen Punkte (Reparatur gegen Entgelt) einig sind.<br>2. Die AGB-Bestandteile, die in beiden AGB übereinstimmen, werden Vertragsinhalt.<br>3. Die Klauseln, die sich widersprechen (hier die Haftungsregeln), heben sich gegenseitig auf ('knock out').<br>4. An die Stelle der unwirksamen, widersprüchlichen Klauseln tritt die <strong>dispositive gesetzliche Regelung</strong>.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Strategie:</strong><br><strong>Rechtliche Beurteilung:</strong> Die Haftungsklauseln in den AGB beider Parteien sind widersprüchlich und heben sich gegenseitig auf. Es gilt daher das dispositive Gesetzesrecht des Werkvertrags. Gemäss <strong>OR Art. 368</strong> i.V.m. <strong>OR Art. 97</strong> haftet der Unternehmer (Werkstatt) für die mangelhafte Ausführung des Werkes. Diese Haftung umfasst auch Schäden, die durch leichte Fahrlässigkeit entstehen. Herr Frei <strong>haftet also für den Motorschaden</strong>, obwohl seine AGB dies ausschliessen wollten.<br><strong>Kaufmännische Empfehlung:</strong><br>1. <strong>Schaden anerkennen:</strong> Herr Frei sollte den Schaden anerkennen und nicht versuchen, sich auf seine unwirksame AGB-Klausel zu berufen. Ein Rechtsstreit wäre teuer und er würde ihn wahrscheinlich verlieren.<br>2. <strong>Versicherung einschalten:</strong> Er sollte den Schaden sofort seiner <strong>Betriebshaftpflichtversicherung</strong> melden. Diese ist genau für solche Fälle da und wird die Regulierung übernehmen.<br>3. <strong>Kundenkommunikation:</strong> Er sollte proaktiv und transparent mit dem Transportunternehmen kommunizieren, den Fehler zugeben und die Abwicklung über die Versicherung zusichern. So kann er versuchen, den wichtigen Kunden trotz des Vorfalls zu halten.<br><strong>Prävention:</strong> Für zukünftige Geschäfte mit grossen Partnern sollte er versuchen, die Haftungsfrage explizit im Hauptvertrag zu regeln, anstatt sich auf einen AGB-Konflikt einzulassen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist die Alternative zur 'Knock-Out-Theorie' und warum wird sie in der Schweiz meist abgelehnt?",
+            "answer": "<p>Die Alternative ist die 'Theorie des letzten Wortes' (Last-Shot-Rule). Nach dieser Theorie würden die AGB derjenigen Partei gelten, die als letztes auf ihre AGB verwiesen hat (z.B. in der Auftragsbestätigung). Diese Theorie wird in der Schweiz oft als zufällig und willkürlich kritisiert, da sie die Partei bevorzugt, die zufällig die letzte Erklärung abgibt. Die Knock-Out-Theorie gilt als ausgewogener.</p>"
+          },
+          {
+            "question": "Hätte Herr Frei seine Haftung für leichte Fahrlässigkeit wirksam ausschliessen können?",
+            "answer": "<p>Ja. Gemäss <strong>OR Art. 100 Abs. 1</strong> kann die Haftung für leichte Fahrlässigkeit vertraglich wegbedungen werden. Der Haftungsausschluss wäre aber nur dann wirksam geworden, wenn das Transportunternehmen diese Klausel explizit akzeptiert hätte oder wenn es keine widersprechenden AGB gehabt hätte. Ein Aushang im Betrieb reicht bei Geschäftskunden oft nicht aus, um die AGB wirksam in den Vertrag einzubeziehen; es braucht einen klaren Hinweis im Angebot oder Vertrag.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

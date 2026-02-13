@@ -1,0 +1,854 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "40-vertragsformen",
+  "title": "Vertragsformen",
+  "description": "Schwerpunktthema: Vertragsformen",
+  "outcomes": [
+    "den **Grundsatz der Formfreiheit** im Vertragsrecht zu erklären und dessen Bedeutung für den Werkstattalltag zu erläutern.",
+    "die drei gesetzlichen **Formvorschriften** (einfache Schriftlichkeit, qualifizierte Schriftlichkeit, öffentliche Beurkundung) zu unterscheiden und praxisrelevante Beispiele zu nennen.",
+    "die rechtlichen Folgen (**Nichtigkeit**) eines Formmangels zu analysieren und daraus Konsequenzen für Ihre betrieblichen Abläufe abzuleiten.",
+    "zu beurteilen, für welche Verträge in Ihrem Betrieb die **Schriftform aus Beweisgründen** auch ohne gesetzliche Pflicht sinnvoll ist."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [
+    {
+      "id": "ref-40-vertragsformen-1",
+      "citation": "OR Art. 11"
+    },
+    {
+      "id": "ref-40-vertragsformen-2",
+      "citation": "OR Art. 344"
+    },
+    {
+      "id": "ref-40-vertragsformen-3",
+      "citation": "OR Art. 216"
+    },
+    {
+      "id": "ref-40-vertragsformen-4",
+      "citation": "OR Art. 340"
+    },
+    {
+      "id": "ref-40-vertragsformen-5",
+      "citation": "OR Art. 493"
+    },
+    {
+      "id": "ref-40-vertragsformen-6",
+      "citation": "OR Art. 243"
+    },
+    {
+      "id": "ref-40-vertragsformen-7",
+      "citation": "OR Art. 13"
+    },
+    {
+      "id": "ref-40-vertragsformen-8",
+      "citation": "OR Art. 16"
+    },
+    {
+      "id": "ref-40-vertragsformen-9",
+      "citation": "OR Art. 18"
+    },
+    {
+      "id": "ref-40-vertragsformen-10",
+      "citation": "OR Art. 335"
+    },
+    {
+      "id": "ref-40-vertragsformen-11",
+      "citation": "OR Art. 28"
+    },
+    {
+      "id": "ref-40-vertragsformen-12",
+      "citation": "OR Art. 197"
+    },
+    {
+      "id": "ref-40-vertragsformen-13",
+      "citation": "OR Art. 205"
+    },
+    {
+      "id": "ref-40-vertragsformen-14",
+      "citation": "OR Art. 31"
+    },
+    {
+      "id": "ref-40-vertragsformen-15",
+      "citation": "OR Art. 201"
+    },
+    {
+      "id": "ref-40-vertragsformen-16",
+      "citation": "OR Art. 210"
+    },
+    {
+      "id": "ref-40-vertragsformen-17",
+      "citation": "OR Art. 199"
+    },
+    {
+      "id": "ref-40-vertragsformen-18",
+      "citation": "OR Art. 363"
+    },
+    {
+      "id": "ref-40-vertragsformen-19",
+      "citation": "ZGB Art. 8"
+    }
+  ],
+  "metadata": {
+    "language": "de-CH"
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "40 Vertragsformen"
+    ],
+    "generatedBy": "migrate-module.ts",
+    "generatedAt": "2026-02-12T07:06:11.085Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "40-vertragsformen-grundlagen",
+      "title": "Grundlagen",
+      "pageType": "theory",
+      "blocks": [
+        {
+          "id": "40-vertragsformen-theory-1",
+          "type": "theory",
+          "title": "Grundsatz der Formfreiheit und die gesetzlichen Ausnahmen",
+          "content": "Grundsätzlich können Verträge formlos, also auch **mündlich oder stillschweigend**, gültig abgeschlossen werden (`OR#Art. 11 Abs. 1`). Das Gesetz schreibt jedoch für bestimmte Verträge zum Schutz der Vertragsparteien und zur Schaffung von Rechtssicherheit eine spezielle Form vor, wie die **einfache Schriftlichkeit**, die **qualifizierte Schriftlichkeit** oder die **öffentliche Beurkundung** (OR#Art. 12ff.)."
+        },
+        {
+          "id": "40-vertragsformen-theory-2",
+          "type": "theory",
+          "title": "Folgen von Formmängeln: Die Nichtigkeit",
+          "content": "Wird eine gesetzlich vorgeschriebene Form nicht eingehalten, ist der Vertrag von Anfang an **ungültig**, also **nichtig** (OR#Art. 11 Abs. 2). Das bedeutet, er entfaltet **keine rechtlichen Wirkungen**, und bereits erbrachte Leistungen können zurückgefordert werden, als hätte der Vertrag nie existiert."
+        },
+        {
+          "id": "40-vertragsformen-discussion-3",
+          "type": "discussion-prompt",
+          "title": "Reflexionsfragen zum Einstieg",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-refl-1",
+              "prompt": "Tauschen Sie sich in der Gruppe über Situationen aus, in denen eine **mündliche Absprache** zu Missverständnissen oder Konflikten geführt hat. *Wie wurde die Situation gelöst? Was hätten Sie im Nachhinein anders gemacht, um die Unklarheit zu vermeiden?*"
+            },
+            {
+              "id": "40-vertragsformen-refl-2",
+              "prompt": "Diskutieren Sie, ab welchem Auftragswert oder bei welcher Art von Arbeit Sie standardmässig auf einer **schriftlichen Auftragsbestätigung** bestehen. *Welche wesentlichen Punkte halten Sie darin fest? Wie reagieren Kunden auf diese Vorgehensweise?*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "40-vertragsformen-zusammenfassung",
+      "title": "Zusammenfassung",
+      "pageType": "summary",
+      "blocks": [
+        {
+          "id": "40-vertragsformen-sum-theory-1",
+          "type": "theory",
+          "title": "Grundsatz der Formfreiheit (Art. 11 OR)",
+          "content": "Im Schweizer Vertragsrecht gilt der Grundsatz, dass Verträge zu ihrer Gültigkeit keiner besonderen Form bedürfen. Das bedeutet, ein Vertrag kann gültig abgeschlossen werden durch:\n                    \n                        Mündliche Abmachung (z.B. am Telefon)\n                        Schriftliche Vereinbarung (z.B. per E-Mail oder Vertrag)\n                        Stillschweigendes (konkludentes) Handeln (z.B. das Einsteigen in ein Taxi)\n                    \n                    Dieser Grundsatz gemäss Art. 11 Abs. 1 OR erleichtert den Rechtsverkehr im Alltag erheblich. Für die meisten alltäglichen Geschäfte, wie den Kauf einer Maschine, ist ein Handschlag rechtlich bindend."
+        },
+        {
+          "id": "40-vertragsformen-sum-theory-2",
+          "type": "theory",
+          "title": "Gesetzliche Formvorschriften: Die Ausnahmen vom Grundsatz",
+          "content": "Für bestimmte, besonders wichtige oder risikoreiche Verträge schreibt das Gesetz ausnahmsweise eine spezielle Form vor (Art. 11 Abs. 1 OR). Diese Vorschriften dienen zwei Hauptzwecken:\n\nWarnfunktion: Die Parteien sollen vor übereilten Entscheidungen geschützt werden.\n                    Beweisfunktion: Die Form schafft Klarheit über den Vertragsinhalt und erleichtert den Beweis im Streitfall."
+        },
+        {
+          "id": "40-vertragsformen-sum-check-3",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: Gesetzliche Formvorschriften: Die Ausnahmen vom Grundsatz",
+          "questions": [
+            {
+              "id": "40-vertragsformen-sum-q2-1",
+              "prompt": "1. Was besagt der Grundsatz der Formfreiheit gemäss Art. 11 OR?",
+              "solution": "Er besagt, dass Verträge grundsätzlich ohne eine bestimmte Form (also auch mündlich oder stillschweigend) gültig abgeschlossen werden können, sofern das Gesetz nicht ausnahmsweise eine Form vorschreibt."
+            },
+            {
+              "id": "40-vertragsformen-sum-q2-2",
+              "prompt": "2. Nennen Sie die drei Arten von gesetzlichen Formvorschriften.",
+              "solution": "Einfache Schriftlichkeit, qualifizierte Schriftlichkeit und öffentliche Beurkundung."
+            },
+            {
+              "id": "40-vertragsformen-sum-q2-3",
+              "prompt": "3. Erklären Sie mit eigenen Worten, warum das Gesetz für bestimmte Verträge eine spezielle Form vorschreibt. Welche zwei Hauptzwecke werden damit verfolgt?",
+              "solution": "Das Gesetz will die Vertragsparteien vor übereilten Entscheidungen schützen (Warnfunktion) und für Rechtssicherheit sorgen, indem der Vertragsinhalt klar festgehalten wird (Beweisfunktion)."
+            },
+            {
+              "id": "40-vertragsformen-sum-q2-4",
+              "prompt": "4. Beschreiben Sie den Unterschied zwischen der einfachen und der qualifizierten Schriftlichkeit anhand der Beispiele 'Konkurrenzverbot' und 'Lehrvertrag'.",
+              "solution": "Beim Konkurrenzverbot genügt die einfache Schriftlichkeit (schriftlicher Vertrag mit Unterschrift). Beim Lehrvertrag verlangt die qualifizierte Schriftlichkeit zusätzlich zwingende Inhaltsangaben, die im Gesetz vorgeschrieben sind (z.B. Art und Dauer der Lehre, Lohn, Ferien)."
+            },
+            {
+              "id": "40-vertragsformen-sum-q2-5",
+              "prompt": "5. Ein Kunde kauft bei Ihnen eine gebrauchte Baumaschine im Wert von CHF 40'000.- per Handschlag. Ist dieser Kaufvertrag gültig? Begründen Sie Ihre Antwort.",
+              "solution": "Ja, der Vertrag ist gültig. Der Kauf einer beweglichen Sache (Fahrniskauf) unterliegt dem Grundsatz der Formfreiheit. Ein mündlicher Vertrag per Handschlag ist daher ausreichend."
+            },
+            {
+              "id": "40-vertragsformen-sum-q2-6",
+              "prompt": "6. Sie möchten einem Mitarbeiter eine Forderung über CHF 5'000.- abtreten. Ist dies mündlich möglich? Begründen Sie Ihre Antwort.",
+              "solution": "Nein, das ist nicht möglich. Für die Abtretung einer Forderung (Zession) schreibt das Gesetz die einfache Schriftlichkeit vor (Art. 165 Abs. 1 OR). Eine mündliche Abtretung wäre ungültig."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-sum-theory-4",
+          "type": "theory",
+          "title": "Rechtsfolge bei Formmangel: Nichtigkeit (Art. 11 Abs. 2 OR)",
+          "content": "Definition: Nichtigkeit\n                        Wird eine gesetzlich vorgeschriebene Form nicht eingehalten, ist der Vertrag von Anfang an ungültig, also nichtig. Das bedeutet:\n                        \n                            Der Vertrag hat nie rechtliche Wirkungen entfaltet.\n                            Es ist so, als hätte der Vertrag nie existiert.\n                            Bereits erbrachte Leistungen (z.B. eine Anzahlung) können zurückgefordert werden.\n\nDefinition: Nichtigkeit: Wird eine gesetzlich vorgeschriebene Form nicht eingehalten, ist der Vertrag von Anfang an ungültig, also nichtig. Das bedeutet:"
+        },
+        {
+          "id": "40-vertragsformen-sum-check-5",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: Rechtsfolge bei Formmangel: Nichtigkeit (Art. 11 Abs. 2 OR)",
+          "questions": [
+            {
+              "id": "40-vertragsformen-sum-q4-1",
+              "prompt": "1. Was ist die rechtliche Folge, wenn eine gesetzlich vorgeschriebene Form für einen Vertrag nicht eingehalten wird?",
+              "solution": "Der Vertrag ist von Anfang an ungültig, also nichtig (Art. 11 Abs. 2 OR)."
+            },
+            {
+              "id": "40-vertragsformen-sum-q4-2",
+              "prompt": "2. Was bedeutet der Begriff 'nichtig' im rechtlichen Kontext?",
+              "solution": "'Nichtig' bedeutet, dass der Vertrag keine rechtlichen Wirkungen entfaltet und so behandelt wird, als wäre er nie abgeschlossen worden."
+            },
+            {
+              "id": "40-vertragsformen-sum-q4-3",
+              "prompt": "3. Erklären Sie am Beispiel des Bauern, der sein Land per Handschlag verkauft, was die Nichtigkeit des Vertrags für beide Parteien konkret bedeutet.",
+              "solution": "Da ein Grundstückkauf öffentlich beurkundet werden muss, ist der Vertrag per Handschlag nichtig. Der Bauer ist rechtlich gesehen immer noch Eigentümer des Landes. Der Käufer kann den bereits bezahlten Kaufpreis zurückfordern, hat aber keinen Anspruch auf die Übertragung des Landes."
+            },
+            {
+              "id": "40-vertragsformen-sum-q4-4",
+              "prompt": "4. Vergleichen Sie die Rechtsfolge der 'Nichtigkeit' (bei Formmängeln) mit der 'Unverbindlichkeit' (bei Willensmängeln). Worin liegt der wesentliche Unterschied?",
+              "solution": "Ein nichtiger Vertrag ist von Anfang an und automatisch ungültig. Ein unverbindlicher (anfechtbarer) Vertrag ist zunächst gültig, kann aber von der betroffenen Partei innerhalb einer Frist (meist ein Jahr) angefochten und für ungültig erklärt werden. Wird er nicht angefochten, bleibt er gültig."
+            },
+            {
+              "id": "40-vertragsformen-sum-q4-5",
+              "prompt": "5. Ein Mitarbeiter vereinbart mit Ihnen mündlich, dass er nach Austritt aus Ihrer Firma für zwei Jahre keine konkurrenzierende Tätigkeit aufnehmen wird. Ist diese Abmachung rechtlich durchsetzbar? Begründen Sie Ihre Antwort.",
+              "solution": "Nein, diese Abmachung ist nicht durchsetzbar. Ein Konkurrenzverbot im Arbeitsrecht erfordert die einfache Schriftlichkeit (Art. 340 Abs. 1 OR). Da diese Form nicht eingehalten wurde, ist die Vereinbarung nichtig."
+            },
+            {
+              "id": "40-vertragsformen-sum-q4-6",
+              "prompt": "6. Sie bürgen mündlich für einen Kredit Ihres besten Mitarbeiters über CHF 5'000.-. Später fordert die Bank das Geld von Ihnen. Müssen Sie bezahlen? Begründen Sie Ihre Antwort.",
+              "solution": "Nein, Sie müssen nicht bezahlen. Ein Bürgschaftsvertrag erfordert mindestens die qualifizierte Schriftlichkeit (bei Beträgen über CHF 2'000 sogar die öffentliche Beurkundung). Eine mündliche Bürgschaft ist formungültig und somit nichtig."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "40-vertragsformen-rechtsfaelle",
+      "title": "Rechtsfälle",
+      "pageType": "cases",
+      "blocks": [
+        {
+          "id": "40-vertragsformen-case-1",
+          "type": "law-case-4-step",
+          "title": "Fall 1 (Grundlagen): Der Lehrvertrag per Handschlag",
+          "caseText": "Werkstattleiter Gerber ist von einem jungen Bewerber, Kevin, so begeistert, dass er ihm auf der Stelle eine Lehrstelle als Landmaschinenmechaniker anbietet. Sie besprechen mündlich das Gehalt, die Arbeitszeiten und den Starttermin in einem Monat und besiegeln die Abmachung mit einem festen Handschlag. Eine Woche später erhält Kevin eine Zusage von einem anderen Betrieb und teilt Herrn Gerber mit, dass er die Stelle nicht antreten werde, da ihre Abmachung ja ohnehin nicht gültig sei.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die Art des Vertrags, den die beiden Parteien abschliessen wollten.",
+              "hint": "Identifizieren Sie die Art des Vertrags, den die beiden Parteien abschliessen wollten.",
+              "solution": "Beteiligte: Werkstattleiter Gerber, Bewerber Kevin.\nWas ist passiert: Ein Lehrvertrag wurde mündlich per Handschlag abgeschlossen.\nRechtsfrage: Ist ein mündlich abgeschlossener Lehrvertrag gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie im Obligationenrecht, ob für diese spezielle Vertragsart eine besondere Form vorgeschrieben ist. Gesetzeslage: OR Art. 11, OR Art. 344a.",
+              "hint": "Prüfen Sie im Obligationenrecht, ob für diese spezielle Vertragsart eine besondere Form vorgeschrieben ist. Gesetzeslage: OR Art. 11, OR Art. 344a.",
+              "solution": "Rechtsgebiet: Arbeitsvertragsrecht, insbesondere Lehrvertrag.\nRechtsvorschrift: Grundsatz der Formfreiheit (OR Art. 11) und die spezielle Vorschrift für den Lehrvertrag (OR Art. 344a)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Anforderungen stellt das Gesetz an einen Lehrvertrag? Was ist die Konsequenz, wenn diese Form nicht eingehalten wird?",
+              "hint": "Welche Anforderungen stellt das Gesetz an einen Lehrvertrag? Was ist die Konsequenz, wenn diese Form nicht eingehalten wird?",
+              "solution": "Tatbestandsmerkmale: Gemäss OR Art. 344a Abs. 1 bedarf der Lehrvertrag zu seiner Gültigkeit der schriftlichen Form. Dies ist eine Ausnahme vom Grundsatz der Formfreiheit.\nRechtsfolge bei Formmangel: Wird die gesetzlich vorgeschriebene Form nicht eingehalten, ist der Vertrag gemäss OR Art. 11 Abs. 2 nichtig (ungültig)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Vergleichen Sie die Situation (Handschlag) mit der gesetzlichen Vorschrift. Ist der Vertrag gültig zustande gekommen?",
+              "hint": "Vergleichen Sie die Situation (Handschlag) mit der gesetzlichen Vorschrift. Ist der Vertrag gültig zustande gekommen?",
+              "solution": "Prüfung: Herr Gerber und Kevin haben den Vertrag nur mündlich per Handschlag abgeschlossen. Die gesetzlich vorgeschriebene Schriftform wurde nicht eingehalten.\nKonsequenz: Der Lehrvertrag ist nichtig. Kevin hat recht, es ist kein gültiger Vertrag zustande gekommen, und er ist nicht verpflichtet, die Lehrstelle anzutreten."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-2",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 1 (Grundlagen): Der Lehrvertrag per Handschlag",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-1-1",
+              "prompt": "Warum verlangt das Gesetz für einen Lehrvertrag die Schriftform?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-1-2",
+              "prompt": "Was hätte Herr Gerber tun müssen, um den Vertrag gültig abzuschliessen?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-3",
+          "type": "law-case-4-step",
+          "title": "Fall 2 (Grundlagen): Das Werkstattgrundstück per E-Mail",
+          "caseText": "Werkstattleiter Meier verhandelt seit Wochen über den Kauf eines Grundstücks für den Bau einer neuen Halle. Schliesslich schreibt er dem Verkäufer, Herrn Huber, eine E-Mail: \"Ich kaufe Ihr Grundstück Nr. 123 in Musterhausen definitiv für CHF 500'000.\" Herr Huber antwortet per E-Mail: \"Einverstanden, das Grundstück gehört Ihnen.\" Als Herr Meier den Notartermin vorbereiten will, teilt ihm Herr Huber mit, er habe ein besseres Angebot erhalten und fühle sich an die E-Mails nicht gebunden.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Um welche Art von Kaufvertrag handelt es sich hier? Was ist der Kaufgegenstand?",
+              "hint": "Um welche Art von Kaufvertrag handelt es sich hier? Was ist der Kaufgegenstand?",
+              "solution": "Beteiligte: Werkstattleiter Meier (Käufer), Herr Huber (Verkäufer).\nWas ist passiert: Ein Kaufvertrag über ein Grundstück wurde via E-Mail abgeschlossen.\nRechtsfrage: Ist ein per E-Mail geschlossener Grundstückkaufvertrag gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie im Obligationenrecht nach den Formvorschriften für den Kauf von Grundstücken. Gesetzeslage: OR Art. 216.",
+              "hint": "Suchen Sie im Obligationenrecht nach den Formvorschriften für den Kauf von Grundstücken. Gesetzeslage: OR Art. 216.",
+              "solution": "Rechtsgebiet: Kaufvertragsrecht, Sachenrecht.\nRechtsvorschrift: Die Formvorschrift für den Grundstückkauf findet sich in OR Art. 216 Abs. 1."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Form verlangt das Gesetz exakt für einen Grundstückkauf? Was ist der Zweck dieser strengen Formvorschrift?",
+              "hint": "Welche Form verlangt das Gesetz exakt für einen Grundstückkauf? Was ist der Zweck dieser strengen Formvorschrift?",
+              "solution": "Tatbestandsmerkmale: Gemäss OR Art. 216 Abs. 1 bedürfen Kaufverträge, die ein Grundstück zum Gegenstand haben, zu ihrer Gültigkeit der öffentlichen Beurkundung.\nRechtsfolge bei Formmangel: Ohne öffentliche Beurkundung ist der Vertrag nichtig (OR Art. 11 Abs. 2)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Erfüllt der Austausch von E-Mails die gesetzlichen Anforderungen? Was bedeutet das für die Gültigkeit des Vertrags?",
+              "hint": "Erfüllt der Austausch von E-Mails die gesetzlichen Anforderungen? Was bedeutet das für die Gültigkeit des Vertrags?",
+              "solution": "Prüfung: Der Austausch von E-Mails stellt keine öffentliche Beurkundung dar. Es fehlt die Mitwirkung einer Urkundsperson (Notar).\nKonsequenz: Der Kaufvertrag zwischen Meier und Huber ist nichtig. Herr Huber ist nicht an die Abmachung gebunden und kann das Grundstück an jemand anderen verkaufen."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-4",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 2 (Grundlagen): Das Werkstattgrundstück per E-Mail",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-2-1",
+              "prompt": "Was genau ist eine 'öffentliche Beurkundung'?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-2-2",
+              "prompt": "Wäre der Vertrag gültig, wenn beide Parteien die E-Mails mit einer qualifizierten elektronischen Signatur versehen hätten?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-5",
+          "type": "law-case-4-step",
+          "title": "Fall 3 (Grundlagen): Das mündliche Konkurrenzverbot",
+          "caseText": "Ein erfahrener Baumaschinenmechaniker kündigt seine Stelle bei der 'Gross AG'. Im Austrittsgespräch sagt sein Vorgesetzter: \"Wie bei Ihrer Anstellung besprochen, gilt für Sie ein Konkurrenzverbot. Sie dürfen die nächsten zwei Jahre keine eigene Werkstatt im Umkreis von 20 km eröffnen.\" Der Mechaniker erinnert sich an diese mündliche Abmachung, hat aber nie etwas Schriftliches dazu unterschrieben. Er plant nun, genau in diesem Gebiet eine eigene Werkstatt zu eröffnen.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Fokussieren Sie auf die spezifische Abmachung, die der Vorgesetzte anspricht (Verbot der Konkurrenzierung).",
+              "hint": "Fokussieren Sie auf die spezifische Abmachung, die der Vorgesetzte anspricht (Verbot der Konkurrenzierung).",
+              "solution": "Beteiligte: 'Gross AG' (Arbeitgeber), kündigender Mechaniker (Arbeitnehmer).\nWas ist passiert: Ein Arbeitgeber beruft sich auf ein mündlich vereinbartes Konkurrenzverbot.\nRechtsfrage: Ist ein mündlich vereinbartes Konkurrenzverbot gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Schlagen Sie im Arbeitsvertragsrecht des OR nach, welche Regeln für ein Konkurrenzverbot gelten. Gesetzeslage: OR Art. 340 und OR Art. 340a.",
+              "hint": "Schlagen Sie im Arbeitsvertragsrecht des OR nach, welche Regeln für ein Konkurrenzverbot gelten. Gesetzeslage: OR Art. 340 und OR Art. 340a.",
+              "solution": "Rechtsgebiet: Arbeitsvertragsrecht.\nRechtsvorschrift: Die Bestimmungen über das Konkurrenzverbot, insbesondere die Formvorschrift in OR Art. 340a Abs. 1."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Form verlangt das Gesetz für die gültige Vereinbarung eines Konkurrenzverbots? Was ist die Folge, wenn diese Form nicht eingehalten wird?",
+              "hint": "Welche Form verlangt das Gesetz für die gültige Vereinbarung eines Konkurrenzverbots? Was ist die Folge, wenn diese Form nicht eingehalten wird?",
+              "solution": "Tatbestandsmerkmale: Gemäss OR Art. 340a Abs. 1 bedarf die Vereinbarung eines Konkurrenzverbotes der schriftlichen Form. Der Arbeitsvertrag selbst kann formfrei sein, aber die Klausel zum Konkurrenzverbot muss schriftlich sein.\nRechtsfolge bei Formmangel: Ein nicht schriftlich vereinbartes Konkurrenzverbot ist nichtig (ungültig)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wurde die gesetzliche Form im vorliegenden Fall eingehalten? Kann die 'Gross AG' das Verbot durchsetzen?",
+              "hint": "Wurde die gesetzliche Form im vorliegenden Fall eingehalten? Kann die 'Gross AG' das Verbot durchsetzen?",
+              "solution": "Prüfung: Das Konkurrenzverbot wurde im Fall nur mündlich vereinbart. Die gesetzlich vorgeschriebene Schriftform wurde missachtet.\nKonsequenz: Das Konkurrenzverbot ist nichtig. Der Mechaniker muss sich nicht daran halten und kann seine Werkstatt wie geplant eröffnen."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-6",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 3 (Grundlagen): Das mündliche Konkurrenzverbot",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-3-1",
+              "prompt": "Gibt es neben der Form noch weitere Voraussetzungen für die Gültigkeit eines Konkurrenzverbots?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-3-2",
+              "prompt": "Was wäre, wenn das Konkurrenzverbot zwar im schriftlichen Arbeitsvertrag stand, aber übermässig war (z.B. 10 Jahre für die ganze Schweiz)?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-7",
+          "type": "law-case-4-step",
+          "title": "Fall 4 (Anwenden): Der Ratenkauf per E-Mail",
+          "caseText": "Werkstattleiterin Keller verkauft einem Privatkunden, Herrn Frei, eine gebrauchte Hebebühne für sein Hobby-Auto für CHF 4'000. Sie vereinbaren per E-Mail-Austausch, dass Frei den Betrag in 20 monatlichen Raten à CHF 200 bezahlt. Nach drei Raten stellt Frei die Zahlungen ein und argumentiert, der Vertrag sei ungültig, da er nicht korrekt abgeschlossen wurde.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Analysieren Sie die Vertragsart: Es ist ein Kaufvertrag mit einer speziellen Zahlungsmodalität (Raten). Der Käufer ist eine Privatperson.",
+              "hint": "Analysieren Sie die Vertragsart: Es ist ein Kaufvertrag mit einer speziellen Zahlungsmodalität (Raten). Der Käufer ist eine Privatperson.",
+              "solution": "Beteiligte: Werkstattleiterin Keller (Verkäuferin), Privatkunde Frei (Käufer).\nWas ist passiert: Ein Ratenkaufvertrag mit einem Konsumenten wurde per E-Mail abgeschlossen. Der Käufer stellt die Zahlungen ein.\nRechtsfrage: Ist der per E-Mail geschlossene Ratenkaufvertrag gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie, ob für solche Verträge ein Spezialgesetz zur Anwendung kommt, das vom OR abweicht. Gesetzeslage: Konsumkreditgesetz (KKG), insbesondere KKG Art. 1 und KKG Art. 9.",
+              "hint": "Prüfen Sie, ob für solche Verträge ein Spezialgesetz zur Anwendung kommt, das vom OR abweicht. Gesetzeslage: Konsumkreditgesetz (KKG), insbesondere KKG Art. 1 und KKG Art. 9.",
+              "solution": "Rechtsgebiet: Konsumkreditrecht.\nRechtsvorschrift: Das Konsumkreditgesetz (KKG) ist anwendbar, da es sich um einen Kredit an einen Konsumenten (natürliche Person, privater Zweck) in Form eines Zahlungsaufschubs handelt (KKG Art. 1). Relevant sind die Formvorschriften in KKG Art. 9 ff."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Formvorschriften und inhaltlichen Anforderungen stellt das KKG an einen Vertrag? Was ist die Rechtsfolge bei Nichteinhaltung?",
+              "hint": "Welche Formvorschriften und inhaltlichen Anforderungen stellt das KKG an einen Vertrag? Was ist die Rechtsfolge bei Nichteinhaltung?",
+              "solution": "Tatbestandsmerkmale: Gemäss KKG Art. 9 bedarf ein Konsumkreditvertrag der qualifizierten Schriftlichkeit. Der Vertrag muss eine Reihe von gesetzlich vorgeschriebenen Angaben enthalten (KKG Art. 9 Abs. 2) und vom Konsumenten eigenhändig unterschrieben werden.\nRechtsfolge bei Formmangel: Die Nichteinhaltung der Formvorschriften führt zur Nichtigkeit des Vertrages (KKG Art. 15)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wurden die Anforderungen des KKG im Fall von Frau Keller und Herrn Frei erfüllt? Was bedeutet das für die Forderung von Frau Keller?",
+              "hint": "Wurden die Anforderungen des KKG im Fall von Frau Keller und Herrn Frei erfüllt? Was bedeutet das für die Forderung von Frau Keller?",
+              "solution": "Prüfung: Der Vertrag wurde nur per E-Mail abgeschlossen. Dies erfüllt die Anforderung der qualifizierten Schriftlichkeit nicht. Es fehlt die eigenhändige Unterschrift und wahrscheinlich auch die gesetzlich geforderten Vertragsangaben.\nKonsequenz: Der Vertrag ist nichtig. Herr Frei muss die Hebebühne zurückgeben, hat aber Anspruch auf Rückerstattung der bereits bezahlten Raten. Frau Keller kann die restlichen Raten nicht einfordern."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-8",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 4 (Anwenden): Der Ratenkauf per E-Mail",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-4-1",
+              "prompt": "Wäre die Situation anders, wenn Herr Frei die Hebebühne für seine eigene kleine Werkstatt (Einzelfirma) gekauft hätte?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-4-2",
+              "prompt": "Was ist der Zweck dieser strengen Formvorschriften im KKG?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-9",
+          "type": "law-case-4-step",
+          "title": "Fall 5 (Anwenden): Die Bürgschaft per SMS",
+          "caseText": "Der junge Mechaniker Leo will bei seiner Bank einen Kleinkredit über CHF 1'800 aufnehmen. Die Bank verlangt einen Bürgen. Leos Werkstattleiter, Herr Gurtner, will ihm helfen und schreibt dem Bankberater eine SMS: \"Ich, Hans Gurtner, bürge für den Kredit von Leo bis CHF 1'800.\" Als Leo nicht zahlen kann, fordert die Bank das Geld von Gurtner, der sich weigert zu zahlen.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie das Rechtsgeschäft, das Herr Gurtner eingehen will. Es handelt sich um eine persönliche Sicherheit für eine fremde Schuld.",
+              "hint": "Identifizieren Sie das Rechtsgeschäft, das Herr Gurtner eingehen will. Es handelt sich um eine persönliche Sicherheit für eine fremde Schuld.",
+              "solution": "Beteiligte: Werkstattleiter Gurtner (Bürge), Bank (Gläubigerin), Mechaniker Leo (Hauptschuldner).\nWas ist passiert: Eine Bürgschaftserklärung wurde per SMS abgegeben.\nRechtsfrage: Ist eine per SMS erklärte Bürgschaft über CHF 1'800 gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie im OR die Bestimmungen zur Bürgschaft und achten Sie auf die Formvorschriften. Gesetzeslage: OR Art. 493.",
+              "hint": "Suchen Sie im OR die Bestimmungen zur Bürgschaft und achten Sie auf die Formvorschriften. Gesetzeslage: OR Art. 493.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Sicherungsgeschäfte.\nRechtsvorschrift: Die Formvorschriften für den Bürgschaftsvertrag finden sich in OR Art. 493."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Form verlangt das Gesetz für eine Bürgschaft einer natürlichen Person? Gibt es Unterschiede je nach Höhe des Betrags?",
+              "hint": "Welche Form verlangt das Gesetz für eine Bürgschaft einer natürlichen Person? Gibt es Unterschiede je nach Höhe des Betrags?",
+              "solution": "Tatbestandsmerkmale: Gemäss OR Art. 493 Abs. 1 bedarf die Bürgschaftserklärung einer natürlichen Person der qualifizierten Schriftlichkeit. Der Bürge muss den Höchstbetrag der Haftung in der Urkunde handschriftlich angeben. Bei Beträgen über CHF 2'000 ist sogar die öffentliche Beurkundung erforderlich (OR Art. 493 Abs. 2).\nRechtsfolge bei Formmangel: Die Bürgschaft ist nichtig."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Erfüllt eine SMS die gesetzlichen Anforderungen für eine Bürgschaft über CHF 1'800? Ist Herr Gurtner zur Zahlung verpflichtet?",
+              "hint": "Erfüllt eine SMS die gesetzlichen Anforderungen für eine Bürgschaft über CHF 1'800? Ist Herr Gurtner zur Zahlung verpflichtet?",
+              "solution": "Prüfung: Eine SMS erfüllt die Anforderungen der qualifizierten Schriftlichkeit nicht. Es fehlt sowohl die Schriftform als auch die handschriftliche Angabe des Betrags durch den Bürgen. Für CHF 1'800 wäre qualifizierte Schriftlichkeit nötig gewesen.\nKonsequenz: Die Bürgschaftserklärung von Herrn Gurtner ist nichtig. Er ist nicht zur Zahlung verpflichtet."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-10",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 5 (Anwenden): Die Bürgschaft per SMS",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-5-1",
+              "prompt": "Warum sind die Formvorschriften bei der Bürgschaft so streng?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-5-2",
+              "prompt": "Wie hätte Herr Gurtner die Bürgschaft korrekt abgeben müssen?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-11",
+          "type": "law-case-4-step",
+          "title": "Fall 6 (Anwenden): Das Schenkungsversprechen auf der Serviette",
+          "caseText": "An der Jubiläumsfeier seiner Werkstatt ist Inhaber Bieri in Feierlaune. Er ist so dankbar für die langjährige Treue seines Meisters, Herrn Schmid, dass er auf eine Serviette schreibt: \"Ich, Bieri, verspreche Schmid zum Dank CHF 10'000.\" Er unterschreibt darunter. Als Schmid das Geld eine Woche später einfordern will, will Bieri nichts mehr davon wissen und meint, das sei eine \"Schnapsidee\" und rechtlich nicht haltbar.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Um welche Art von Vertrag handelt es sich? Beachten Sie, dass eine Partei eine Leistung ohne Gegenleistung verspricht.",
+              "hint": "Um welche Art von Vertrag handelt es sich? Beachten Sie, dass eine Partei eine Leistung ohne Gegenleistung verspricht.",
+              "solution": "Beteiligte: Inhaber Bieri (Schenker), Meister Schmid (Beschenkter).\nWas ist passiert: Ein Schenkungsversprechen wurde auf einer Serviette schriftlich festgehalten und unterschrieben.\nRechtsfrage: Ist ein auf einer Serviette verfasstes und unterschriebenes Schenkungsversprechen gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie im OR nach den Regeln für Schenkungen, insbesondere für das Versprechen einer Schenkung. Gesetzeslage: OR Art. 243.",
+              "hint": "Suchen Sie im OR nach den Regeln für Schenkungen, insbesondere für das Versprechen einer Schenkung. Gesetzeslage: OR Art. 243.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Schenkung.\nRechtsvorschrift: Die Formvorschrift für das Schenkungsversprechen findet sich in OR Art. 243 Abs. 1."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Form verlangt das Gesetz für ein Schenkungsversprechen? Welche Elemente müssen erfüllt sein?",
+              "hint": "Welche Form verlangt das Gesetz für ein Schenkungsversprechen? Welche Elemente müssen erfüllt sein?",
+              "solution": "Tatbestandsmerkmale: Gemäss OR Art. 243 Abs. 1 bedarf ein Schenkungsversprechen zu seiner Gültigkeit der einfachen Schriftlichkeit. Diese erfordert ein Schriftstück und die eigenhändige Unterschrift des Schenkers.\nRechtsfolge bei Formmangel: Das Versprechen ist nichtig."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Prüfen Sie, ob die beschriebene und unterschriebene Serviette die gesetzlichen Formanforderungen erfüllt. Ist Bieris Versprechen bindend?",
+              "hint": "Prüfen Sie, ob die beschriebene und unterschriebene Serviette die gesetzlichen Formanforderungen erfüllt. Ist Bieris Versprechen bindend?",
+              "solution": "Prüfung: Die Serviette ist ein Schriftträger (Schriftstück). Der Text wurde schriftlich verfasst und von Bieri eigenhändig unterschrieben. Das Material des Schriftstücks (Papier, Serviette, Holzbrett) ist für die einfache Schriftlichkeit unerheblich. Die Anforderungen sind erfüllt.\nKonsequenz: Das Schenkungsversprechen ist gültig. Herr Schmid kann die CHF 10'000 von Herrn Bieri rechtlich einfordern. Bieris Einwand, es sei eine \"Schnapsidee\" gewesen, ist unbeachtlich, solange er im Moment der Unterschrift urteilsfähig war."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-12",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 6 (Anwenden): Das Schenkungsversprechen auf der Serviette",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-6-1",
+              "prompt": "Was ist der Unterschied zwischen einem Schenkungsversprechen und einer Handschenkung?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-6-2",
+              "prompt": "Wäre die Situation anders, wenn Bieri Schmid ein Auto versprochen hätte?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-13",
+          "type": "law-case-4-step",
+          "title": "Fall 7 (Analysieren): Der Vertrag mit dem fehlenden Anhang",
+          "caseText": "Die 'Müller Landmaschinen AG' kauft eine komplexe Diagnose-Software von einem IT-Unternehmen. Der Kaufvertrag über CHF 30'000 wird von beiden Parteien unterzeichnet. Der Vertrag verweist explizit auf 'Anhang A: Detaillierte Leistungsbeschreibung', der ein separates 10-seitiges Dokument ist. Dieser Anhang wird dem Vertrag zwar beigelegt, aber von keiner Partei unterschrieben. Später gibt es Streit über den Leistungsumfang und die Müller AG argumentiert, der ganze Vertrag sei ungültig, da der wesentliche Teil (Anhang A) nicht unterschrieben sei.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Kernproblem ist, ob die Unterschrift auf dem Hauptvertrag auch die nicht unterschriebenen, aber erwähnten Anhänge abdeckt.",
+              "hint": "Das Kernproblem ist, ob die Unterschrift auf dem Hauptvertrag auch die nicht unterschriebenen, aber erwähnten Anhänge abdeckt.",
+              "solution": "Beteiligte: Müller Landmaschinen AG (Käuferin), IT-Unternehmen (Verkäuferin).\nWas ist passiert: Ein schriftlicher Vertrag verweist auf einen wesentlichen, aber nicht separat unterschriebenen Anhang. Die Käuferin bestreitet die Gültigkeit des Vertrags.\nRechtsfrage: Erstreckt sich die für einen Vertrag notwendige Schriftform auch auf Beilagen, auf die im unterzeichneten Hauptdokument verwiesen wird?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Die relevante Regelung betrifft den Umfang der Schriftform. Es gibt keine Spezialnorm, daher gelten die allgemeinen Regeln. Gesetzeslage: OR Art. 13.",
+              "hint": "Die relevante Regelung betrifft den Umfang der Schriftform. Es gibt keine Spezialnorm, daher gelten die allgemeinen Regeln. Gesetzeslage: OR Art. 13.",
+              "solution": "Rechtsgebiet: Allgemeines Vertragsrecht.\nRechtsvorschrift: Die allgemeinen Regeln zur Schriftform, insbesondere OR Art. 13. In diesem Fall ist die Schriftform nicht gesetzlich, sondern vertraglich vereinbart (gewillkürte Schriftform gemäss OR Art. 16), die Grundsätze sind aber dieselben."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die herrschende Lehre und Praxis zur Frage, ob alle Bestandteile eines Vertrags separat unterschrieben werden müssen, wenn der Hauptvertrag auf sie verweist.",
+              "hint": "Analysieren Sie die herrschende Lehre und Praxis zur Frage, ob alle Bestandteile eines Vertrags separat unterschrieben werden müssen, wenn der Hauptvertrag auf sie verweist.",
+              "solution": "Regelanalyse: Die Schriftform verlangt die Unterschrift der sich verpflichtenden Parteien. Nach herrschender Lehre und Rechtsprechung müssen nicht alle Blätter eines Vertrages unterzeichnet sein. Es genügt die Unterschrift auf dem Hauptdokument, wenn dieses klar und eindeutig auf die weiteren Dokumente (Anhänge, Pläne, AGB) verweist und diese eine gedankliche Einheit mit dem Hauptvertrag bilden. Der Wille der Parteien, die Anhänge zum Vertragsbestandteil zu machen, muss aus dem Hauptdokument hervorgehen."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Erkenntnisse auf den Fall an. Ist der Einwand der Müller AG stichhaltig? Ist der Vertrag gültig?",
+              "hint": "Wenden Sie die Erkenntnisse auf den Fall an. Ist der Einwand der Müller AG stichhaltig? Ist der Vertrag gültig?",
+              "solution": "Prüfung: Der Hauptvertrag wurde von beiden Parteien unterzeichnet. Er verweist explizit auf 'Anhang A'. Dieser Anhang lag bei und bildet mit dem Hauptvertrag eine inhaltliche Einheit. Der Wille, den Anhang zum Vertragsbestandteil zu machen, ist klar ersichtlich.\nKonsequenz: Der Vertrag inklusive Anhang A ist gültig zustande gekommen. Die Unterschrift auf dem Hauptvertrag deckt auch den Anhang. Der Einwand der Müller AG ist unbegründet."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-14",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 7 (Analysieren): Der Vertrag mit dem fehlenden Anhang",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-7-1",
+              "prompt": "Was wäre, wenn der Verweis im Hauptvertrag unklar wäre, z.B. 'gemäss separater Leistungsbeschreibung' ohne genaue Bezeichnung des Dokuments?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-7-2",
+              "prompt": "Welche praktische Empfehlung lässt sich daraus für einen Werkstattleiter ableiten, der Verträge mit Anhängen verwendet?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-15",
+          "type": "law-case-4-step",
+          "title": "Fall 8 (Analysieren): Die AGB-Formklausel",
+          "caseText": "Werkstattleiter Vogel bestellt telefonisch bei einem Lieferanten Ersatzteile im Wert von CHF 8'000. Der Lieferant bestätigt den Auftrag mündlich. In den AGB des Lieferanten, die auf allen früheren Rechnungen abgedruckt waren, steht: \"Vertragsänderungen und -ergänzungen bedürfen zu ihrer Gültigkeit der Schriftform.\" Als die Teile geliefert werden, stellt Vogel fest, dass er die falschen bestellt hat. Er ruft an und vereinbart mündlich mit dem Sachbearbeiter die Rücksendung. Später schickt der Lieferant trotzdem eine Mahnung und beruft sich auf die Schriftformklausel in seinen AGB.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Der Kern des Problems ist der Widerspruch zwischen einer vertraglich vereinbarten Schriftform (in den AGB) und einer späteren, übereinstimmenden mündlichen Abmachung.",
+              "hint": "Der Kern des Problems ist der Widerspruch zwischen einer vertraglich vereinbarten Schriftform (in den AGB) und einer späteren, übereinstimmenden mündlichen Abmachung.",
+              "solution": "Beteiligte: Werkstattleiter Vogel (Käufer), Lieferant (Verkäufer).\nWas ist passiert: Die Parteien heben einen Vertrag mündlich auf, obwohl ihre AGB für Änderungen die Schriftform vorsehen.\nRechtsfrage: Verhindert eine vertragliche Schriftformklausel eine spätere, übereinstimmende mündliche Vertragsaufhebung?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Hier geht es nicht um eine gesetzliche, sondern um eine vertraglich vereinbarte (gewillkürte) Formvorschrift. Gesetzeslage: OR Art. 16.",
+              "hint": "Hier geht es nicht um eine gesetzliche, sondern um eine vertraglich vereinbarte (gewillkürte) Formvorschrift. Gesetzeslage: OR Art. 16.",
+              "solution": "Rechtsgebiet: Allgemeines Vertragsrecht.\nRechtsvorschrift: Die gewillkürte (vertraglich vereinbarte) Formvorschrift gemäss OR Art. 16."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie OR Art. 16. Können die Parteien eine selbst auferlegte Formvorschrift durch eine spätere, anderslautende Vereinbarung wieder aufheben, auch wenn diese neue Vereinbarung formlos ist?",
+              "hint": "Analysieren Sie OR Art. 16. Können die Parteien eine selbst auferlegte Formvorschrift durch eine spätere, anderslautende Vereinbarung wieder aufheben, auch wenn diese neue Vereinbarung formlos ist?",
+              "solution": "Regelanalyse: Gemäss OR Art. 16 wird vermutet, dass die Parteien vor Erfüllung der vereinbarten Form nicht verpflichtet sein wollen. Die Parteien können jedoch jederzeit, auch stillschweigend, auf die selbst gesetzte Formvorschrift verzichten. Wenn beide Parteien übereinstimmend eine neue, formlose Vereinbarung treffen (hier: die mündliche Aufhebung), heben sie damit implizit auch die ursprüngliche Formvorschrift für diesen Fall auf. Der Grundsatz der Vertragsfreiheit erlaubt es den Parteien, ihre eigenen Regeln jederzeit wieder zu ändern."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Regel auf den Fall an. Was bedeutet die mündliche Einigung über die Rücksendung für die ursprünglich vereinbarte Schriftformklausel?",
+              "hint": "Wenden Sie die Regel auf den Fall an. Was bedeutet die mündliche Einigung über die Rücksendung für die ursprünglich vereinbarte Schriftformklausel?",
+              "solution": "Prüfung: Vogel und der Sachbearbeiter des Lieferanten haben sich mündlich und übereinstimmend auf die Rücksendung (also die Aufhebung des Kaufvertrags) geeinigt. Mit dieser neuen Willenseinigung haben sie stillschweigend auf die Schriftformklausel in den AGB verzichtet.\nKonsequenz: Die mündliche Aufhebungsvereinbarung ist gültig. Der Lieferant kann sich nicht nachträglich auf die eigene AGB-Klausel berufen, um die Mahnung zu rechtfertigen. Vogel muss die Rechnung nicht bezahlen."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-16",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 8 (Analysieren): Die AGB-Formklausel",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-8-1",
+              "prompt": "Wozu dient eine solche Schriftformklausel in AGB, wenn sie so einfach umgangen werden kann?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-8-2",
+              "prompt": "Wie könnte ein Unternehmen eine solche Klausel 'wasserdichter' machen?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-17",
+          "type": "law-case-4-step",
+          "title": "Fall 9 (Analysieren): Der unterverbriefte Kaufpreis",
+          "caseText": "Ein Baumaschinenmechaniker will seinem besten Freund ein Grundstück für den Bau einer Werkstatt verkaufen. Der reale Kaufpreis beträgt CHF 400'000. Um Notariatsgebühren und Grundstückgewinnsteuern zu sparen, lassen sie beim Notar nur einen Kaufpreis von CHF 250'000 beurkunden. Sie vereinbaren privat, dass die restlichen CHF 150'000 in bar übergeben werden. Nachdem der Freund die beurkundeten CHF 250'000 bezahlt hat und im Grundbuch eingetragen ist, weigert er sich, die restlichen CHF 150'000 zu zahlen.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die zwei verschiedenen Vereinbarungen: die öffentliche (beurkundete) und die geheime (private).",
+              "hint": "Identifizieren Sie die zwei verschiedenen Vereinbarungen: die öffentliche (beurkundete) und die geheime (private).",
+              "solution": "Beteiligte: Baumaschinenmechaniker (Verkäufer), sein Freund (Käufer).\nWas ist passiert: Beim Verkauf eines Grundstücks wurde bewusst ein zu tiefer Kaufpreis öffentlich beurkundet, um Kosten zu sparen (Simulation). Der Käufer zahlt nur den beurkundeten Preis.\nRechtsfrage: Ist der Grundstückkaufvertrag gültig und kann der Verkäufer den vollen, realen Kaufpreis einfordern?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Dieses Vorgehen nennt man 'Simulation'. Suchen Sie die entsprechende Regel im OR. Prüfen Sie auch die Formvorschrift für den Grundstückkauf. Gesetzeslage: OR Art. 18 (Simulation) und OR Art. 216 (Grundstückkauf).",
+              "hint": "Dieses Vorgehen nennt man 'Simulation'. Suchen Sie die entsprechende Regel im OR. Prüfen Sie auch die Formvorschrift für den Grundstückkauf. Gesetzeslage: OR Art. 18 (Simulation) und OR Art. 216 (Grundstückkauf).",
+              "solution": "Rechtsgebiet: Allgemeines Vertragsrecht, Kaufvertragsrecht.\nRechtsvorschrift: OR Art. 18 Abs. 1 (Beurteilung nach dem übereinstimmend gewollten Inhalt, Simulation) in Verbindung mit der Formvorschrift von OR Art. 216 (öffentliche Beurkundung für Grundstückkäufe)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die Gültigkeit beider Verträge: des simulierten (beurkundeten) und des dissimulierten (gewollten). Berücksichtigen Sie dabei die Formvorschriften.",
+              "hint": "Analysieren Sie die Gültigkeit beider Verträge: des simulierten (beurkundeten) und des dissimulierten (gewollten). Berücksichtigen Sie dabei die Formvorschriften.",
+              "solution": "Regelanalyse:\n1. Der simulierte Vertrag: Der öffentlich beurkundete Vertrag über CHF 250'000 ist nach OR Art. 18 Abs. 1 nichtig, da er nicht dem wirklichen Willen der Parteien entspricht.\n2. Der dissimulierte Vertrag: Der wirklich gewollte Vertrag über CHF 400'000 ist ebenfalls nichtig. Er wäre zwar nach dem Willen der Parteien der massgebliche Vertrag, leidet aber an einem Formmangel. Die für einen Grundstückkauf gesetzlich vorgeschriebene öffentliche Beurkundung (OR Art. 216) wurde für diesen Inhalt (CHF 400'000) nicht eingehalten."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Was ist die rechtliche Konsequenz für den Verkäufer? Kann er die restlichen CHF 150'000 einklagen? Was geschieht mit dem ganzen Geschäft?",
+              "hint": "Was ist die rechtliche Konsequenz für den Verkäufer? Kann er die restlichen CHF 150'000 einklagen? Was geschieht mit dem ganzen Geschäft?",
+              "solution": "Prüfung und Konsequenz: Da beide Verträge (der simulierte und der dissimulierte) nichtig sind, ist das gesamte Rechtsgeschäft ungültig. Der Verkäufer kann die restlichen CHF 150'000 nicht einklagen, da es keine gültige Vertragsgrundlage dafür gibt. Das Geschäft muss rückabgewickelt werden: Der Käufer muss das Grundstück zurückgeben (Grundbucheintrag korrigieren lassen) und der Verkäufer muss die bereits erhaltenen CHF 250'000 zurückzahlen. Beide Parteien haben sich zudem strafbar gemacht (Steuerhinterziehung, evtl. Falschbeurkundung)."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-18",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 9 (Analysieren): Der unterverbriefte Kaufpreis",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-9-1",
+              "prompt": "Könnte sich der Käufer auf den Standpunkt stellen, der beurkundete Vertrag über CHF 250'000 sei gültig, da er ja immerhin beurkundet wurde?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-9-2",
+              "prompt": "Was ist die Lehre aus diesem Fall für einen zukünftigen Werkstattleiter?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-19",
+          "type": "law-case-4-step",
+          "title": "Fall 10 (Transfer/Beurteilung): Beratung zur Kündigungsfrist-Verlängerung",
+          "caseText": "Die Werkstattinhaberin Frau Egger möchte die Kündigungsfristen für ihre qualifizierten Mechaniker nach der Probezeit von den gesetzlichen ein bis drei Monaten auf durchgehend sechs Monate verlängern. Sie möchte dies für alle bestehenden und neuen Mitarbeitenden einführen, um mehr Planungssicherheit zu haben. Sie ist unsicher, wie sie dies rechtlich korrekt umsetzen soll. Sie fragt Sie als zukünftigen Werkstattleiter um Rat: Welche Form muss sie beachten? Wie soll sie bei bestehenden Mitarbeitenden vorgehen? Was sind die Risiken, wenn sie es nur mündlich kommuniziert?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Erfassen Sie das Ziel von Frau Egger (längere Kündigungsfristen) und die betroffenen Gruppen (neue und bestehende Mitarbeiter).",
+              "hint": "Erfassen Sie das Ziel von Frau Egger (längere Kündigungsfristen) und die betroffenen Gruppen (neue und bestehende Mitarbeiter).",
+              "solution": "Problemstellung: Eine Werkstattinhaberin will die Kündigungsfristen für ihre Mechaniker auf sechs Monate verlängern. Sie benötigt eine rechtliche und prozessuale Beratung für die Umsetzung bei neuen und bestehenden Mitarbeitenden.\nZiel: Rechtssichere Einführung einer einheitlichen, verlängerten Kündigungsfrist zur Erhöhung der Planungssicherheit."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie im Arbeitsvertragsrecht, ob und wie von den gesetzlichen Kündigungsfristen abgewichen werden kann. Gesetzeslage: OR Art. 335b, OR Art. 335c.",
+              "hint": "Prüfen Sie im Arbeitsvertragsrecht, ob und wie von den gesetzlichen Kündigungsfristen abgewichen werden kann. Gesetzeslage: OR Art. 335b, OR Art. 335c.",
+              "solution": "Rechtsgebiet: Arbeitsvertragsrecht, Beendigung des Arbeitsverhältnisses.\nRechtsvorschrift: Die gesetzlichen Kündigungsfristen sind in OR Art. 335c geregelt. Die Möglichkeit zur vertraglichen Abweichung und die damit verbundene Formvorschrift finden sich in OR Art. 335b Abs. 2."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die rechtlichen Anforderungen (Form, Inhalt) und die prozessualen Unterschiede zwischen der Einführung bei neuen und der Änderung bei bestehenden Verträgen.",
+              "hint": "Analysieren Sie die rechtlichen Anforderungen (Form, Inhalt) und die prozessualen Unterschiede zwischen der Einführung bei neuen und der Änderung bei bestehenden Verträgen.",
+              "solution": "Regelanalyse:\n1. Zulässigkeit: Längere Kündigungsfristen können vereinbart werden. Wichtig ist, dass die Frist für Arbeitgeber und Arbeitnehmer gleich lang sein muss (OR Art. 335a Abs. 1).\n2. Form: Gemäss OR Art. 335b Abs. 2 bedarf eine Abweichung von den gesetzlichen Fristen (1-3 Monate je nach Dienstjahr) eines schriftlichen Vertrages (Einzelarbeits-, Normal- oder Gesamtarbeitsvertrag).\n3. Umsetzung:\n   - Neue Mitarbeiter: Die neue Regelung kann einfach in den neuen, schriftlichen Arbeitsvertrag aufgenommen werden.\n   - Bestehende Mitarbeiter: Eine einseitige Änderung durch die Arbeitgeberin ist nicht möglich. Es handelt sich um eine Vertragsänderung, die das Einverständnis des Mitarbeiters erfordert. Dies geschieht am besten über einen schriftlichen Nachtrag zum bestehenden Arbeitsvertrag, den beide Parteien unterzeichnen."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Formulieren Sie eine klare Handlungsempfehlung für Frau Egger, die die rechtlichen Aspekte, die Vorgehensweise und die Risiken einer falschen Umsetzung berücksichtigt.",
+              "hint": "Formulieren Sie eine klare Handlungsempfehlung für Frau Egger, die die rechtlichen Aspekte, die Vorgehensweise und die Risiken einer falschen Umsetzung berücksichtigt.",
+              "solution": "Handlungsempfehlung (Transferleistung):\n1. Form einhalten: Die Verlängerung der Kündigungsfrist muss zwingend schriftlich erfolgen. Eine mündliche Kommunikation ist rechtlich unwirksam (nichtig). Im Streitfall würden die kürzeren gesetzlichen Fristen gelten, was die Planungssicherheit zunichtemacht.\n2. Vorgehen bei neuen Mitarbeitern: Erstellen Sie eine neue Standard-Arbeitsvertragsvorlage, welche die Kündigungsfrist von sechs Monaten (nach der Probezeit) für beide Parteien vorsieht.\n3. Vorgehen bei bestehenden Mitarbeitern: Suchen Sie das Gespräch mit jedem Mitarbeiter. Erklären Sie die Gründe für die Änderung. Setzen Sie einen schriftlichen Nachtrag zum Arbeitsvertrag auf, in dem die neue Kündigungsfrist vereinbart wird, und lassen Sie diesen von beiden Seiten unterzeichnen. Eine Änderungskündigung (Kündigung mit dem Angebot eines neuen Vertrages) wäre eine letzte Option, birgt aber Risiken.\nRisikoanalyse: Eine nur mündliche Abmachung ist nichtig. Verlässt sich Frau Egger darauf, plant sie mit sechs Monaten, der Mitarbeiter kann aber rechtsgültig mit der kürzeren gesetzlichen Frist kündigen. Dies würde zu erheblichen operativen Problemen führen."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-20",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 10 (Transfer/Beurteilung): Beratung zur Kündigungsfrist-Verlängerung",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-10-1",
+              "prompt": "Könnte Frau Egger die Kündigungsfrist für sich selbst bei sechs Monaten belassen, aber für die Arbeitnehmer bei drei Monaten, um attraktiver zu sein?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-10-2",
+              "prompt": "Was passiert, wenn ein bestehender Mitarbeiter den schriftlichen Nachtrag nicht unterschreiben will?"
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-21",
+          "type": "law-case-4-step",
+          "title": "Fall 11 (Transfer/Beurteilung): Der arglistig verschwiegene Schaden",
+          "caseText": "Werkstattleiter Kunz kauft von einem Landwirt einen gebrauchten Traktor für CHF 80'000. Sie schliessen einen einfachen schriftlichen Kaufvertrag ab, in dem der Landwirt zusichert, der Traktor sei \"unfallfrei und in einwandfreiem Zustand\". Zwei Monate später entdeckt Kunz bei einer grösseren Wartung, dass der Traktor einen schweren, schlecht reparierten Rahmenschaden hat. Eine Nachfrage beim Vorbesitzer bestätigt, dass der Landwirt von diesem Schaden wusste. Kunz ist wütend. Beurteilen Sie seine rechtliche Situation und empfehlen Sie ihm ein Vorgehen.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Der Kaufvertrag ist formell gültig. Das Problem liegt im Willensbildungsprozess des Käufers aufgrund einer Falschaussage des Verkäufers.",
+              "hint": "Der Kaufvertrag ist formell gültig. Das Problem liegt im Willensbildungsprozess des Käufers aufgrund einer Falschaussage des Verkäufers.",
+              "solution": "Problemstellung: Werkstattleiter Kunz hat einen Traktor gekauft, bei dem ein schwerer Mangel arglistig verschwiegen wurde. Der schriftliche Vertrag enthält eine falsche Zusicherung. Kunz benötigt eine Einschätzung seiner rechtlichen Optionen und eine Handlungsempfehlung.\nBeteiligte: Werkstattleiter Kunz (Käufer), Landwirt (Verkäufer)."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Identifizieren Sie die zwei Hauptpfade, die Kunz einschlagen kann: Anfechtung des Vertrags wegen eines Willensmangels oder Geltendmachung von Gewährleistungsrechten. Gesetzeslage: OR Art. 28 (Arglistige Täuschung) und OR Art. 197 ff. (Sachmängelhaftung).",
+              "hint": "Identifizieren Sie die zwei Hauptpfade, die Kunz einschlagen kann: Anfechtung des Vertrags wegen eines Willensmangels oder Geltendmachung von Gewährleistungsrechten. Gesetzeslage: OR Art. 28 (Arglistige Täuschung) und OR Art. 197 ff. (Sachmängelhaftung).",
+              "solution": "Rechtsgebiet: Allgemeines Vertragsrecht (Willensmängel) und Besonderes Vertragsrecht (Kaufvertrag, Sachgewährleistung).\nRechtsvorschriften:\n1. Anfechtung wegen arglistiger Täuschung gemäss OR Art. 28.\n2. Sachgewährleistungsansprüche gemäss OR Art. 197 ff., insbesondere Wandelung (OR Art. 205) oder Minderung (OR Art. 205)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die Voraussetzungen und Rechtsfolgen beider Optionen. Option 1: Ungültigerklärung des Vertrags. Option 2: Wandelung, Minderung oder Ersatz.",
+              "hint": "Analysieren Sie die Voraussetzungen und Rechtsfolgen beider Optionen. Option 1: Ungültigerklärung des Vertrags. Option 2: Wandelung, Minderung oder Ersatz.",
+              "solution": "Analyse der Optionen:\nOption A: Anfechtung wegen arglistiger Täuschung (OR Art. 28)\n   - Voraussetzungen: Kunz muss beweisen, dass der Verkäufer ihn absichtlich getäuscht hat (Vorspiegelung falscher Tatsachen oder Verschweigen von Tatsachen) und er den Vertrag ohne diese Täuschung nicht oder nicht zu diesen Bedingungen abgeschlossen hätte. Die Aussage des Vorbesitzers ist hier ein starkes Indiz.\n   - Vorgehen: Kunz muss dem Verkäufer innerhalb eines Jahres seit Entdeckung der Täuschung erklären, dass er den Vertrag nicht halten will (OR Art. 31).\n   - Rechtsfolge: Der Vertrag wird rückwirkend aufgehoben (ungültig). Kunz gibt den Traktor zurück und erhält die vollen CHF 80'000 zurück. Zusätzlich kann er Schadenersatz fordern.\n\nOption B: Sachgewährleistung (OR Art. 197 ff.)\n   - Voraussetzungen: Es liegt ein Sachmangel vor (Fehlen einer zugesicherten Eigenschaft: \"unfallfrei\"). Der Mangel muss sofort nach Entdeckung gerügt werden (OR Art. 201).\n   - Rechte: Kunz kann zwischen Wandelung (Rücktritt vom Vertrag, ähnlich wie bei Anfechtung) oder Minderung (Preisnachlass, der dem Minderwert entspricht) wählen.\n   - Frist: Die Ansprüche verjähren grundsätzlich nach zwei Jahren (OR Art. 210). Bei absichtlicher Täuschung gilt jedoch eine längere Frist."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wägen Sie die Vor- und Nachteile der Optionen für Herrn Kunz ab. Berücksichtigen Sie Fristen und Beweisfragen und geben Sie eine fundierte Empfehlung ab.",
+              "hint": "Wägen Sie die Vor- und Nachteile der Optionen für Herrn Kunz ab. Berücksichtigen Sie Fristen und Beweisfragen und geben Sie eine fundierte Empfehlung ab.",
+              "solution": "Empfehlung und Beurteilung (Transferleistung):\nHerr Kunz sollte primär den Weg über die Anfechtung wegen arglistiger Täuschung (Option A) wählen. \nBegründung:\n1. Stärkere Position: Die arglistige Täuschung ist ein schwerwiegenderer Vorwurf und führt zur vollständigen Ungültigkeit des Vertrags. Dies kann auch psychologisch einen höheren Druck auf den Verkäufer ausüben.\n2. Umfassenderer Schutz: Bei der Anfechtung kann Kunz neben der Rückabwicklung auch weitergehenden Schadenersatz fordern (z.B. für Untersuchungskosten).\n3. Vermeidung von vertraglichen Fallen: Oft schliessen Verkäufer in Kaufverträgen die Sachgewährleistung aus (\"gekauft wie gesehen\"). Ein solcher Ausschluss ist bei arglistiger Täuschung aber unwirksam (OR Art. 199). Die Anfechtung nach OR Art. 28 umgeht diese Diskussion von vornherein.\n\nKonkretes Vorgehen:\n1. Beweise sichern: Aussage des Vorbesitzers schriftlich festhalten, Schaden detailliert dokumentieren (Fotos, Expertenmeinung).\n2. Anfechtung erklären: Dem Verkäufer unverzüglich per eingeschriebenem Brief mitteilen, dass der Vertrag wegen arglistiger Täuschung gemäss OR Art. 28 als unverbindlich betrachtet wird. Rückzahlung des Kaufpreises gegen Rückgabe des Traktors fordern.\n3. Frist setzen: Eine kurze Frist für die Rückabwicklung setzen und bei Verweigerung rechtliche Schritte androhen."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-case-22",
+          "type": "law-case-4-step",
+          "title": "Fall 12 (Transfer/Beurteilung): Die mündliche Auftragsänderung",
+          "caseText": "Ein Kunde beauftragt eine Werkstatt mit der Reparatur eines Getriebeschadens an einer Baumaschine. Ein schriftlicher Kostenvoranschlag über CHF 15'000 wird unterzeichnet. Während der Reparatur stellt der Mechaniker fest, dass auch die Hydraulikpumpe kurz vor einem Ausfall steht. Er ruft den Kunden an, erklärt die Situation und empfiehlt den sofortigen Austausch für zusätzliche CHF 5'000. Der Kunde stimmt am Telefon zu. Nach Abschluss der Arbeiten weigert sich der Kunde, die CHF 5'000 für die Pumpe zu bezahlen, und behauptet, er habe dem nie zugestimmt; es gelte nur der schriftliche Vertrag.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Problem ist nicht die formelle Gültigkeit der mündlichen Zusatzvereinbarung, sondern die Beweisbarkeit ihres Zustandekommens und Inhalts.",
+              "hint": "Das Problem ist nicht die formelle Gültigkeit der mündlichen Zusatzvereinbarung, sondern die Beweisbarkeit ihres Zustandekommens und Inhalts.",
+              "solution": "Problemstellung: Ein Kunde bestreitet eine mündlich erteilte Auftragserweiterung und verweigert die Zahlung der entsprechenden Mehrkosten. Die Werkstatt hat ein Beweisproblem.\nBeteiligte: Werkstatt, Kunde."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Es handelt sich um einen Werkvertrag. Prüfen Sie, ob das Gesetz für den Werkvertrag oder für dessen Änderungen eine Formvorschrift vorsieht. Gesetzeslage: OR Art. 11, OR Art. 363 ff.",
+              "hint": "Es handelt sich um einen Werkvertrag. Prüfen Sie, ob das Gesetz für den Werkvertrag oder für dessen Änderungen eine Formvorschrift vorsieht. Gesetzeslage: OR Art. 11, OR Art. 363 ff.",
+              "solution": "Rechtsgebiet: Werkvertragsrecht.\nRechtsvorschrift: Für den Werkvertrag (OR Art. 363 ff.) gilt der Grundsatz der Formfreiheit (OR Art. 11). Das Gesetz schreibt weder für den ursprünglichen Vertrag noch für dessen Änderungen eine bestimmte Form vor."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die rechtliche Situation: Der mündliche Vertrag ist gültig, aber wer muss was beweisen (Beweislast)? Welche praktischen Probleme ergeben sich daraus für die Werkstatt?",
+              "hint": "Analysieren Sie die rechtliche Situation: Der mündliche Vertrag ist gültig, aber wer muss was beweisen (Beweislast)? Welche praktischen Probleme ergeben sich daraus für die Werkstatt?",
+              "solution": "Rechtliche Analyse:\n1. Gültigkeit: Die mündliche Vereinbarung über den Austausch der Hydraulikpumpe ist rechtlich gesehen ein gültiger Zusatzvertrag.\n2. Beweislast: Das zentrale Problem ist die Beweislast. Gemäss ZGB Art. 8 muss derjenige eine Tatsache beweisen, der daraus Rechte ableitet. Hier muss die Werkstatt beweisen, dass der Kunde der Auftragserweiterung und den Kosten von CHF 5'000 zugestimmt hat.\n3. Praktisches Problem: Ohne Zeugen oder schriftliche Bestätigung ist dieser Beweis kaum zu erbringen. Es steht Aussage gegen Aussage. Die Werkstatt riskiert, auf den Kosten für die Pumpe und die Arbeit sitzen zu bleiben."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Geben Sie dem Werkstattleiter eine Empfehlung für den aktuellen Fall und, was noch wichtiger ist, entwickeln Sie eine Strategie (Prozess), wie solche Probleme in Zukunft vermieden werden können.",
+              "hint": "Geben Sie dem Werkstattleiter eine Empfehlung für den aktuellen Fall und, was noch wichtiger ist, entwickeln Sie eine Strategie (Prozess), wie solche Probleme in Zukunft vermieden werden können.",
+              "solution": "Handlungsempfehlung (Transferleistung):\nA) Für den aktuellen Fall:\n   - Gespräch suchen: Nochmals mit dem Kunden sprechen und auf das Telefonat hinweisen (Datum, Uhrzeit). Manchmal hilft eine genaue Erinnerung.\n   - Zeugen prüfen: Hat ein anderer Mitarbeiter das Telefonat mitgehört?\n   - Kulanzlösung: Wenn kein Beweis möglich ist, eine kaufmännische Lösung anstreben (z.B. Teilung der Kosten), um den Kunden nicht ganz zu verlieren. Ein Rechtsstreit wäre teuer und hätte geringe Erfolgsaussichten.\n\nB) Strategie für die Zukunft (Prävention):\n   - Prozess definieren: Einen klaren internen Prozess für Auftragserweiterungen festlegen.\n   - Schriftliche Bestätigung: Nach jeder telefonischen Zusage für Mehrarbeiten sofort eine kurze Bestätigungs-E-Mail oder SMS/WhatsApp an den Kunden senden. Beispiel: 'Sehr geehrter Herr Kunde, wie soeben telefonisch besprochen, bestätigen wir den Zusatzauftrag zum Austausch der Hydraulikpumpe zu Kosten von CHF 5'000. Wir werden die Arbeiten nun ausführen. Besten Dank.'\n   - Auftragsformular: Bei grösseren Zusatzarbeiten den Kunden bitten, kurz in der Werkstatt vorbeizukommen und einen schriftlichen Nachtrag zum Auftrag zu unterzeichnen.\n   - Mitarbeiterschulung: Alle Mitarbeiter mit Kundenkontakt müssen diesen Prozess kennen und konsequent anwenden. Dies schafft Rechtssicherheit und vermeidet teure Missverständnisse."
+            }
+          ]
+        },
+        {
+          "id": "40-vertragsformen-disc-block-23",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 12 (Transfer/Beurteilung): Die mündliche Auftragsänderung",
+          "prompts": [
+            {
+              "id": "40-vertragsformen-disc-fall-id-12-1",
+              "prompt": "Hätte die Werkstatt die Arbeiten an der Pumpe ohne Zustimmung des Kunden ausführen dürfen, wenn sie absolut notwendig waren, um den Getriebeschaden zu beheben?"
+            },
+            {
+              "id": "40-vertragsformen-disc-fall-id-12-2",
+              "prompt": "Was ist der Unterschied zwischen einem Kostenvoranschlag und einer Pauschale (Festpreis)?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "40-vertragsformen-mindmap",
+      "title": "Mindmap",
+      "pageType": "mindmap",
+      "blocks": [
+        {
+          "id": "40-vertragsformen-mindmap-block",
+          "type": "mindmap",
+          "title": "Mindmap: Vertragsformen",
+          "content": "mindmap\n  root((Voraussetzungen gültiger Vertrag))\n    Formvorschriften\n      Grundsatz Formfreiheit - OR Art 11\n        Verträge können grundsätzlich formlos abgeschlossen werden\n        mündlich\n        schriftlich\n        stillschweigend - durch schlüssiges Verhalten\n      Ausnahmen Gesetzliche Formvorschriften\n        Zweck Schutz der Parteien und Rechtssicherheit\n        Einfache Schriftlichkeit\n          Definition Schriftlich mit eigenhändiger Unterschrift\n          Beispiele Schenkungsversprechen, Konkurrenzverbot\n        Qualifizierte Schriftlichkeit\n          Definition Schriftlich mit zusätzlichen Mindestangaben\n          Beispiele Lehrvertrag, Konsumkreditvertrag\n        Öffentliche Beurkundung\n          Definition Mitwirkung einer Urkundsperson - Notar\n          Beispiele Grundstückkauf, Ehevertrag, Erbvertrag\n        Folge bei Mangel Nichtigkeit - OR Art 11 Abs 2\n          Von Anfang an ungültig\n          Keine rechtliche Wirkung\n          Bereits erbrachte Leistungen können zurückgefordert werden\n      Schriftlichkeit als Beweismittel\n        Sinnvoll auch ohne gesetzliche Pflicht\n        Schafft Klarheit bei bedeutenden Verträgen\n        Minimiert das Risiko von Streitigkeiten"
+        }
+      ]
+    }
+  ]
+}

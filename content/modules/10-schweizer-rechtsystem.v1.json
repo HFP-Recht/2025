@@ -1,0 +1,877 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "10-schweizer-rechtsystem",
+  "title": "Schweizer Rechtsystem",
+  "description": "Schwerpunktthema: Schweizer Rechtsystem",
+  "outcomes": [
+    "die Grundstruktur des schweizerischen Rechtssystems (Rechtsstaat, Gewaltenteilung, Föderalismus) zu skizzieren und die wichtigsten Rechtsquellen sowie deren Hierarchie (Verfassung, Gesetz, Verordnung) zu benennen und zu erläutern."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [
+    {
+      "id": "ref-10-schweizer-rechtsystem-1",
+      "citation": "BV Art. 3"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-2",
+      "citation": "Art. 3 BV"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-3",
+      "citation": "Art. 141 BV"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-4",
+      "citation": "Art. 1 ZGB"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-5",
+      "citation": "OR Art. 363"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-6",
+      "citation": "BV Art. 5"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-7",
+      "citation": "BV Art. 8"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-8",
+      "citation": "BV Art. 9"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-9",
+      "citation": "Art. 48 SchKG"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-10",
+      "citation": "OR Art. 97"
+    },
+    {
+      "id": "ref-10-schweizer-rechtsystem-11",
+      "citation": "OR Art. 364"
+    }
+  ],
+  "metadata": {
+    "language": "de-CH"
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "10 Schweizer Rechtsystem"
+    ],
+    "generatedBy": "migrate-module.ts",
+    "generatedAt": "2026-02-12T07:06:10.986Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "10-schweizer-rechtsystem-grundlagen",
+      "title": "Grundlagen",
+      "pageType": "theory",
+      "blocks": [
+        {
+          "id": "10-schweizer-rechtsystem-theory-1",
+          "type": "theory",
+          "title": "Die drei Rechtsquellen",
+          "content": "Die Lösung eines Rechtsproblems basiert auf drei Quellen: dem **geschriebenen Recht** (Verfassung, Gesetze, Verordnungen), dem ungeschriebenen **Gewohnheitsrecht** und, bei Gesetzeslücken, dem **Richterrecht**, das von Gerichten geschaffen wird, wie in ZGB#Art. 1 festgehalten."
+        },
+        {
+          "id": "10-schweizer-rechtsystem-theory-2",
+          "type": "theory",
+          "title": "Die Hierarchie der Rechtsnormen",
+          "content": "Die Schweizer Rechtsordnung ist **hierarchisch aufgebaut**. Die **Verfassung** ist das Fundament, **Gesetze** konkretisieren die Verfassungsartikel (z.B. das Strassenverkehrsgesetz basierend auf BV#Art. 82), und **Verordnungen** enthalten die Detailbestimmungen zur Umsetzung der Gesetze. Eine tiefere Stufe darf einer höheren nicht widersprechen."
+        },
+        {
+          "id": "10-schweizer-rechtsystem-theory-3",
+          "type": "theory",
+          "title": "Grundstruktur des Rechtsstaates",
+          "content": "Der Schweizer **Rechtsstaat** basiert auf der **Gewaltenteilung** (Legislative, Exekutive, Judikative) zur Verhinderung von Machtmissbrauch und dem **Föderalismus**, der die staatlichen Aufgaben auf Bund, Kantone und Gemeinden verteilt. Grundlage staatlichen Handelns ist immer das Recht, wie es BV#Art. 5 Abs. 1 festhält. Die Eigenständigkeit der Kantone ist in BV#Art. 1 und BV#Art. 3 verankert."
+        },
+        {
+          "id": "10-schweizer-rechtsystem-discussion-4",
+          "type": "discussion-prompt",
+          "title": "Reflexionsfragen zum Einstieg",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-refl-1",
+              "prompt": "Tauschen Sie sich in der Gruppe über Situationen aus, in denen Sie mit neuen **behördlichen Vorschriften** konfrontiert wurden. *Wie haben Sie sich über die genauen Hintergründe und die rechtliche Grundlage dieser Vorschriften informiert? Welche Herausforderungen ergaben sich bei der Umsetzung im Betrieb?*"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-refl-2",
+              "prompt": "Diskutieren Sie Fälle, in denen **unterschiedliche Zuständigkeiten** von Behörden (z.B. Gemeinde, Kanton, Bund) für Verwirrung gesorgt haben. *Wie gehen Sie vor, um herauszufinden, welche Behörde für ein bestimmtes Anliegen (z.B. Baubewilligung, Umweltschutzauflage) zuständig ist? Welche Erfahrungen haben Sie mit dem föderalistischen System gemacht?*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "10-schweizer-rechtsystem-zusammenfassung",
+      "title": "Zusammenfassung",
+      "pageType": "summary",
+      "blocks": [
+        {
+          "id": "10-schweizer-rechtsystem-sum-theory-1",
+          "type": "theory",
+          "title": "1. Rechtsquellen",
+          "content": "Die Lösung eines Rechtsproblems basiert auf drei Quellen, wie in Art. 1 ZGB festgehalten:\n                    \n                        Geschriebenes Recht: Die wichtigste Quelle. Umfasst alle vom Staat erlassenen Regeln wie Verfassung, Gesetze und Verordnungen.\n                        Gewohnheitsrecht: Ungeschriebene Regeln, die durch langjährige, allgemeine Übung entstanden sind. Hat heute nur noch geringe praktische Bedeutung.\n                        Richterrecht: Von Gerichten geschaffenes Recht zur Füllung von Gesetzeslücken. Das Gericht entscheidet so, wie es als Gesetzgeber entscheiden würde."
+        },
+        {
+          "id": "10-schweizer-rechtsystem-sum-check-2",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 1. Rechtsquellen",
+          "questions": [
+            {
+              "id": "10-schweizer-rechtsystem-sum-q1-1",
+              "prompt": "1. Welches sind die drei offiziellen Rechtsquellen in der Schweiz?",
+              "solution": "Geschriebenes Recht, Gewohnheitsrecht und Richterrecht."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q1-2",
+              "prompt": "2. Welche Rechtsquelle hat heute die grösste praktische Bedeutung?",
+              "solution": "Das geschriebene Recht (Gesetzesrecht)."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q1-3",
+              "prompt": "3. Erklären Sie in eigenen Worten, wann ein Gericht auf das 'Richterrecht' zurückgreift.",
+              "solution": "Ein Gericht greift auf das Richterrecht zurück, wenn für einen konkreten Fall weder im geschriebenen Recht noch im Gewohnheitsrecht eine passende Regelung zu finden ist. Man spricht von einer Gesetzeslücke."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q1-4",
+              "prompt": "4. Warum hat das 'Gewohnheitsrecht' im heutigen Geschäftsalltag kaum noch Bedeutung?",
+              "solution": "Weil das moderne Leben sehr komplex ist und die meisten Bereiche durch detaillierte geschriebene Gesetze geregelt sind, was wenig Raum für ungeschriebene Bräuche als Rechtsquelle lässt."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q1-5",
+              "prompt": "5. Stellen Sie sich vor, es gibt keine klare gesetzliche Regelung zur Haftung bei Schäden durch autonom fahrende Baumaschinen. Welche Rechtsquelle müsste ein Gericht heranziehen, um einen solchen Fall zu entscheiden?",
+              "solution": "Das Gericht müsste das Richterrecht heranziehen und eine Regel aufstellen, wie sie der Gesetzgeber für diesen Fall schaffen würde."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q1-6",
+              "prompt": "6. Ein langjähriger Brauch in der Branche ist, dass mündliche Zusagen für Kleinreparaturen verbindlich sind. Handelt es sich hierbei um eine anwendbare Rechtsquelle? Begründen Sie Ihre Antwort.",
+              "solution": "Nein, dies ist kein Gewohnheitsrecht. Es handelt sich um einen Brauch oder eine Sitte. Die Verbindlichkeit mündlicher Zusagen ergibt sich in der Regel aus dem geschriebenen Recht (Formfreiheit bei Verträgen gemäss OR), nicht aus Gewohnheitsrecht."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-sum-theory-3",
+          "type": "theory",
+          "title": "2. Normenhierarchie",
+          "content": "Die Schweizer Rechtsordnung ist hierarchisch aufgebaut. Eine tiefere Stufe darf einer höheren nicht widersprechen.\n                    \n                        1. Stufe: Verfassung\n                        Das Grundgesetz des Staates. Sie enthält die wichtigsten Prinzipien und Grundrechte. Änderungen benötigen in der Regel eine Volksabstimmung (Volks- und Ständemehr).\n                    \n                    \n                        2. Stufe: Gesetz\n                        Führt die allgemeinen Verfassungsartikel aus und konkretisiert sie. Gesetze werden vom Parlament (Legislative) erlassen und unterliegen oft dem fakultativen Referendum.\n                    \n                    \n                        3. Stufe: Verordnung\n                        Enthält Detailbestimmungen zur Umsetzung der Gesetze. Verordnungen werden meist von der Regierung (Exekutive) erlassen.\n\n1. Stufe: Verfassung: Das Grundgesetz des Staates. Sie enthält die wichtigsten Prinzipien und Grundrechte. Änderungen benötigen in der Regel eine Volksabstimmung (Volks- und Ständemehr).\n\n2. Stufe: Gesetz: Führt die allgemeinen Verfassungsartikel aus und konkretisiert sie. Gesetze werden vom Parlament (Legislative) erlassen und unterliegen oft dem fakultativen Referendum.\n\n3. Stufe: Verordnung: Enthält Detailbestimmungen zur Umsetzung der Gesetze. Verordnungen werden meist von der Regierung (Exekutive) erlassen."
+        },
+        {
+          "id": "10-schweizer-rechtsystem-sum-check-4",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 2. Normenhierarchie",
+          "questions": [
+            {
+              "id": "10-schweizer-rechtsystem-sum-q3-1",
+              "prompt": "1. Nennen Sie die drei Stufen der Normenhierarchie in der korrekten Reihenfolge.",
+              "solution": "1. Verfassung, 2. Gesetz, 3. Verordnung."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q3-2",
+              "prompt": "2. Welche Ebene enthält die grundlegendsten Prinzipien des Staates?",
+              "solution": "Die Verfassung."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q3-3",
+              "prompt": "3. Erklären Sie, warum eine Verordnung nicht im Widerspruch zu einem Bundesgesetz stehen darf.",
+              "solution": "Weil die Verordnung in der Normenhierarchie unter dem Gesetz steht. Sie dient nur dessen Detaillierung und darf den Rahmen, den das Gesetz vorgibt, nicht verlassen oder ihm widersprechen."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q3-4",
+              "prompt": "4. Beschreiben Sie den Zusammenhang zwischen einem Verfassungsartikel und einem dazugehörigen Gesetz am Beispiel des Strassenverkehrs.",
+              "solution": "Die Bundesverfassung (z.B. Art. 82 BV) gibt dem Bund die grundsätzliche Kompetenz, Gesetze über den Strassenverkehr zu erlassen. Das Strassenverkehrsgesetz (SVG) ist dann die konkrete Ausführung dieses Verfassungsauftrags."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q3-5",
+              "prompt": "5. Ihr Kanton erlässt eine neue Vorschrift (Verordnung), die den Import von Baumaschinen verbietet, die eine bestimmte EU-Norm nicht erfüllen. Auf welcher übergeordneten Rechtsgrundlage (Gesetz, Verfassung) könnte diese Verordnung basieren?",
+              "solution": "Die Verordnung müsste sich auf ein kantonales oder eidgenössisches Gesetz stützen (z.B. ein Umweltschutzgesetz), welches wiederum seine Legitimation aus einem Artikel der Kantons- oder Bundesverfassung erhält."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q3-6",
+              "prompt": "6. Ein Mitarbeiter argumentiert, eine neue kommunale Parkplatzregelung für Firmenfahrzeuge sei ungültig, weil sie seinem 'Recht auf freie Fahrt' widerspricht. Auf welcher Stufe der Normenhierarchie müsste sein 'Recht auf freie Fahrt' verankert sein, damit seine Argumentation eine Chance hätte?",
+              "solution": "Auf der höchsten Stufe, der Verfassung. Nur ein in der Verfassung verankertes Grundrecht könnte eine gesetzeskonforme kommunale Regelung (Verordnung) potenziell aushebeln."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-sum-theory-5",
+          "type": "theory",
+          "title": "3. Grundstruktur des Rechtsstaates",
+          "content": "Der Rechtsstaat ist ein Staat, in dem die Ausübung der Staatsgewalt an das Recht gebunden ist (Legalitätsprinzip, Art. 5 Abs. 1 BV). Seine Struktur basiert auf zwei fundamentalen Prinzipien: der Gewaltenteilung und dem Föderalismus.\n\nGewaltenteilung (horizontale Gliederung)\n                            Die Staatsmacht ist auf drei unabhängige Gewalten aufgeteilt, um Machtmissbrauch zu verhindern und eine gegenseitige Kontrolle zu gewährleisten.\n                            \n                                Legislative (gesetzgebende Gewalt): Erlässt die Gesetze (z.B. National- und Ständerat auf Bundesebene).\n                                Exekutive (ausführende Gewalt): Setzt die Gesetze um und regiert (z.B. Bundesrat, Verwaltung).\n                                Judikative (richterliche Gewalt): Spricht Recht und entscheidet bei Streitigkeiten (z.B. Bundesgericht, kantonale Gerichte).\n\nFöderalismus (vertikale Gliederung)\n                            Die staatlichen Aufgaben sind auf drei politische Ebenen verteilt. Grundsätzlich sind die Kantone zuständig, ausser die Bundesverfassung weist eine Aufgabe dem Bund zu.\n                            \n                                Bund: Zuständig für Aufgaben von nationalem Interesse (z.B. Aussenpolitik, Militär, Berufsbildung).\n                                Kantone: Souverän in ihren eigenen Angelegenheiten, soweit die Bundesverfassung ihre Kompetenzen nicht einschränkt (z.B. Schulwesen, Baurecht, Gesundheitswesen).\n                                Gemeinden: Erfüllen lokale Aufgaben, die ihnen von Bund und Kanton zugewiesen werden (z.B. Feuerwehr, Kehrichtabfuhr)."
+        },
+        {
+          "id": "10-schweizer-rechtsystem-sum-check-6",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 3. Grundstruktur des Rechtsstaates",
+          "questions": [
+            {
+              "id": "10-schweizer-rechtsystem-sum-q5-1",
+              "prompt": "1. Welches sind die drei Gewalten im Staat und was sind ihre Hauptfunktionen?",
+              "solution": "Legislative (Gesetze erlassen), Exekutive (Gesetze ausführen/regieren) und Judikative (Recht sprechen/urteilen)."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q5-2",
+              "prompt": "2. Nennen Sie die drei Ebenen des Föderalismus in der Schweiz.",
+              "solution": "Bund, Kantone und Gemeinden."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q5-3",
+              "prompt": "3. Erklären Sie, warum die Trennung der Gewalten ein wichtiges Merkmal eines Rechtsstaates ist.",
+              "solution": "Sie verhindert die Konzentration von zu viel Macht bei einer einzigen Person oder Institution. Die drei Gewalten kontrollieren sich gegenseitig und sichern so Freiheit und Rechtsgleichheit."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q5-4",
+              "prompt": "4. Beschreiben Sie einen Vorteil und einen Nachteil des Föderalismus für einen national tätigen Baumaschinenhändler.",
+              "solution": "Vorteil: Nähe zu den lokalen Behörden und Berücksichtigung regionaler Bedürfnisse. Nachteil: Unterschiedliche Vorschriften in den Kantonen (z.B. im Baurecht oder bei Umweltauflagen) führen zu administrativem Mehraufwand."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q5-5",
+              "prompt": "5. Das Bundesamt für Strassen (ASTRA) erlässt neue technische Vorschriften für Fahrzeugkrane. Welche der drei Gewalten ist hier auf Bundesebene tätig?",
+              "solution": "Die Exekutive (ausführende Gewalt). Das ASTRA ist als Bundesamt Teil der Bundesverwaltung, die dem Bundesrat untersteht."
+            },
+            {
+              "id": "10-schweizer-rechtsystem-sum-q5-6",
+              "prompt": "6. Ihr Betrieb hat Standorte in den Kantonen Bern und Zürich. Sie stellen fest, dass die Vorschriften für die Lehrlingsausbildung leicht unterschiedlich sind. Welches Prinzip des Schweizer Rechtssystems ist dafür verantwortlich?",
+              "solution": "Der Föderalismus. Obwohl die Berufsbildung grundsätzlich Bundessache ist, haben die Kantone bei der Umsetzung und in bestimmten Bereichen (z.B. Berufsfachschulen) eigene Zuständigkeiten, was zu Unterschieden führen kann."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "10-schweizer-rechtsystem-rechtsfaelle",
+      "title": "Rechtsfälle",
+      "pageType": "cases",
+      "blocks": [
+        {
+          "id": "10-schweizer-rechtsystem-case-1",
+          "type": "law-case-4-step",
+          "title": "Fall 1 (Grundlagen): Die widersprüchliche Verordnung",
+          "caseText": "Der Bundesrat erlässt eine neue Verordnung zur technischen Prüfung von Landmaschinen. Diese Verordnung legt fest, dass bestimmte Sicherheitstests nur noch alle vier Jahre stattfinden müssen. Das zugrundeliegende Bundesgesetz über den Strassenverkehr (SVG) schreibt jedoch explizit eine Prüfung alle zwei Jahre vor.\nEin Werkstattleiter ist unsicher, welche Regel er nun bei der Beratung seiner Kunden anwenden soll.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die beiden Rechtsnormen, die im Konflikt stehen, und wer sie erlassen hat.",
+              "hint": "Identifizieren Sie die beiden Rechtsnormen, die im Konflikt stehen, und wer sie erlassen hat.",
+              "solution": "Beteiligte: Werkstattleiter, Bundesrat (als Erlasser der Verordnung), Parlament (als Erlasser des Gesetzes).\nWas ist passiert: Eine Verordnung des Bundesrates (Prüfung alle 4 Jahre) widerspricht einem Bundesgesetz (Prüfung alle 2 Jahre).\nRechtsfrage: Welche Rechtsnorm hat Vorrang, das Gesetz oder die Verordnung?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welches staatsrechtliche Prinzip regelt das Verhältnis zwischen verschiedenen Arten von Rechtsnormen? Stichwort: Normenhierarchie. Relevante Grundlagen finden sich in der Bundesverfassung (BV).",
+              "hint": "Welches staatsrechtliche Prinzip regelt das Verhältnis zwischen verschiedenen Arten von Rechtsnormen? Stichwort: Normenhierarchie. Relevante Grundlagen finden sich in der Bundesverfassung (BV).",
+              "solution": "Rechtsgebiet: Staatsrecht, Verfassungsrecht.\nRechtsvorschrift: Das Prinzip der Normenhierarchie. Dieses Prinzip ist ein fundamentaler Grundsatz des Rechtsstaates, verankert in der Bundesverfassung (BV). Es besagt, dass ranghöheres Recht dem rangtieferen Recht vorgeht."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Beschreiben Sie die Rangordnung von Verfassung, Gesetz und Verordnung. Welche Norm hat Vorrang, wenn sie sich widersprechen?",
+              "hint": "Beschreiben Sie die Rangordnung von Verfassung, Gesetz und Verordnung. Welche Norm hat Vorrang, wenn sie sich widersprechen?",
+              "solution": "Regelanalyse: Die Hierarchie der Rechtsnormen in der Schweiz ist wie folgt: 1. Verfassung, 2. Gesetz, 3. Verordnung.\nRechtsfolge: Eine Verordnung darf einem Gesetz nicht widersprechen. Ein Gesetz darf der Verfassung nicht widersprechen. Im Konfliktfall geht die ranghöhere Norm (das Gesetz) der rangtieferen (der Verordnung) vor."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Regel aus Schritt 3 auf den konkreten Fall an. Welche Frist für die Sicherheitsprüfung ist gültig?",
+              "hint": "Wenden Sie die Regel aus Schritt 3 auf den konkreten Fall an. Welche Frist für die Sicherheitsprüfung ist gültig?",
+              "solution": "Prüfung: Das Strassenverkehrsgesetz (SVG) ist ein Bundesgesetz und steht in der Normenhierarchie über der Verordnung des Bundesrates.\nKonsequenz: Die Bestimmung im Gesetz hat Vorrang. Der Werkstattleiter muss seine Kunden darauf hinweisen, dass die Prüfung weiterhin alle zwei Jahre erforderlich ist. Die widersprüchliche Bestimmung in der Verordnung ist nicht anwendbar."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-2",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 1 (Grundlagen): Die widersprüchliche Verordnung",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-1-1",
+              "prompt": "Warum erlässt der Bundesrat überhaupt Verordnungen?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-1-2",
+              "prompt": "Haben die Bürger ein Mitbestimmungsrecht bei Verordnungen?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-3",
+          "type": "law-case-4-step",
+          "title": "Fall 2 (Grundlagen): Die Lärmbeschwerde",
+          "caseText": "Der Inhaber einer Baumaschinenwerkstatt, Herr Gerber, erhält von der Gemeindeverwaltung eine Verfügung. Darin wird ihm eine Busse von CHF 500 auferlegt, weil er angeblich gegen die kommunale Lärmschutzverordnung verstossen hat. Ein Nachbar hatte sich beschwert.\nHerr Gerber ist überzeugt, dass die Lärmmessung fehlerhaft war und möchte den Entscheid anfechten. An welche der drei Staatsgewalten muss er sich wenden?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Wer hat die Busse ausgestellt (Gemeindeverwaltung)? Und was will Herr Gerber tun (den Entscheid anfechten)?",
+              "hint": "Wer hat die Busse ausgestellt (Gemeindeverwaltung)? Und was will Herr Gerber tun (den Entscheid anfechten)?",
+              "solution": "Beteiligte: Werkstattinhaber Herr Gerber, Gemeindeverwaltung.\nWas ist passiert: Die Gemeindeverwaltung hat eine Busse verfügt. Herr Gerber will diesen Entscheid überprüfen lassen.\nRechtsfrage: Welche Staatsgewalt ist für die Überprüfung von Verwaltungsentscheiden zuständig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Das relevante Konzept ist die Gewaltenteilung. Welche drei Gewalten gibt es und was sind ihre Hauptaufgaben?",
+              "hint": "Das relevante Konzept ist die Gewaltenteilung. Welche drei Gewalten gibt es und was sind ihre Hauptaufgaben?",
+              "solution": "Rechtsgebiet: Staatsrecht.\nRechtsvorschrift: Das Prinzip der Gewaltenteilung, verankert in der Bundesverfassung (BV). Die drei Gewalten sind: Legislative (gesetzgebend), Exekutive (ausführend/verwaltend) und Judikative (richterlich/rechtsprechend)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Ordnen Sie die Gemeindeverwaltung einer der drei Gewalten zu. Welche Gewalt ist für die Überprüfung von Entscheiden der Verwaltung zuständig?",
+              "hint": "Ordnen Sie die Gemeindeverwaltung einer der drei Gewalten zu. Welche Gewalt ist für die Überprüfung von Entscheiden der Verwaltung zuständig?",
+              "solution": "Regelanalyse: Die Gemeindeverwaltung ist Teil der Exekutive; sie führt Gesetze und Verordnungen aus. Für die unabhängige Überprüfung von Entscheiden der Exekutive und die Rechtsprechung in Streitfällen ist die Judikative (die Gerichte) zuständig.\nRechtsfolge: Ein Entscheid der Exekutive kann bei der Judikative angefochten werden."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Leiten Sie aus der Zuständigkeit der Gewalten ab, an wen sich Herr Gerber wenden muss, um die Busse anzufechten.",
+              "hint": "Leiten Sie aus der Zuständigkeit der Gewalten ab, an wen sich Herr Gerber wenden muss, um die Busse anzufechten.",
+              "solution": "Prüfung: Herr Gerber hat eine Verfügung von einer Verwaltungsbehörde (Exekutive) erhalten. Er will diese von einer unabhängigen Instanz überprüfen lassen.\nKonsequenz: Er muss sich an die Judikative wenden. In der Praxis bedeutet dies, dass er bei einer gerichtlichen Instanz (z.B. einem Bezirksgericht oder einem Verwaltungsgericht, je nach kantonaler Organisation) Beschwerde gegen die Verfügung einlegen muss."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-4",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 2 (Grundlagen): Die Lärmbeschwerde",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-2-1",
+              "prompt": "Was ist eine 'Verfügung'?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-2-2",
+              "prompt": "Warum ist es wichtig, dass Gerichte (Judikative) unabhängig von der Verwaltung (Exekutive) sind?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-5",
+          "type": "law-case-4-step",
+          "title": "Fall 3 (Grundlagen): Die kantonale Bauvorschrift",
+          "caseText": "Ein Landmaschinenmechaniker plant, seine Werkstatt um eine neue Waschhalle zu erweitern. Er recherchiert die Vorschriften und stellt fest, dass das eidgenössische Umweltschutzgesetz (USG) nur allgemeine Rahmenbedingungen für den Gewässerschutz vorgibt. Die detaillierten Vorschriften zur Grösse und Beschaffenheit von Ölabscheidern in Waschhallen findet er jedoch in einem kantonalen Gesetz und einer kommunalen Verordnung.\nEr fragt sich, warum nicht alles in eidgenössischen Gesetzen geregelt ist.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die drei Ebenen der Gesetzgebung, die im Fall erwähnt werden (eidgenössisch, kantonal, kommunal).",
+              "hint": "Identifizieren Sie die drei Ebenen der Gesetzgebung, die im Fall erwähnt werden (eidgenössisch, kantonal, kommunal).",
+              "solution": "Beteiligte: Landmaschinenmechaniker.\nWas ist passiert: Der Mechaniker stellt fest, dass die Bauvorschriften für seine Waschhalle auf drei verschiedenen staatlichen Ebenen geregelt sind: Bund, Kanton und Gemeinde.\nRechtsfrage: Warum gibt es in der Schweiz diese dreistufige Rechtsordnung?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welches staatliche Organisationsprinzip der Schweiz beschreibt die Aufgabenteilung zwischen Bund, Kantonen und Gemeinden?",
+              "hint": "Welches staatliche Organisationsprinzip der Schweiz beschreibt die Aufgabenteilung zwischen Bund, Kantonen und Gemeinden?",
+              "solution": "Rechtsgebiet: Staatsrecht.\nRechtsvorschrift: Das Prinzip des Föderalismus, verankert in der Bundesverfassung (BV Art. 3). Es regelt die Aufteilung der staatlichen Aufgaben auf die drei Ebenen Bund, Kantone und Gemeinden."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was ist der Grundsatz der Kompetenzverteilung zwischen Bund und Kantonen gemäss Bundesverfassung?",
+              "hint": "Was ist der Grundsatz der Kompetenzverteilung zwischen Bund und Kantonen gemäss Bundesverfassung?",
+              "solution": "Regelanalyse: Der Grundsatz der Kompetenzverteilung (Subsidiaritätsprinzip) besagt: Die Kantone sind für alle Aufgaben zuständig, die die Bundesverfassung nicht ausdrücklich dem Bund zuweist (Art. 3 BV). Der Bund erlässt oft nur Rahmengesetze, und die Kantone sind für die detaillierte Ausführung und Umsetzung zuständig.\nRechtsfolge: Es entsteht eine dreigliedrige Rechtsordnung mit eidgenössischem, kantonalem und kommunalem Recht."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Erklären Sie anhand des Fallbeispiels, wie dieses Prinzip funktioniert. Warum regelt der Bund nur den Rahmen und die Kantone/Gemeinden die Details?",
+              "hint": "Erklären Sie anhand des Fallbeispiels, wie dieses Prinzip funktioniert. Warum regelt der Bund nur den Rahmen und die Kantone/Gemeinden die Details?",
+              "solution": "Prüfung: Im Fall des Umweltschutzes hat der Bund die Kompetenz, Grundsätze zu erlassen (eidgenössisches USG). Die konkrete Umsetzung im Baurecht ist jedoch traditionell eine Aufgabe der Kantone und Gemeinden.\nKonsequenz: Dies erklärt, warum der Mechaniker Vorschriften auf allen drei Ebenen beachten muss. Der Föderalismus ermöglicht es, dass die Regelungen an die lokalen Gegebenheiten (z.B. Gewässerschutzbedürfnisse in einer bestimmten Region) angepasst werden können."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-6",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 3 (Grundlagen): Die kantonale Bauvorschrift",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-3-1",
+              "prompt": "Welche Vorteile hat der Föderalismus für einen Werkstattbetreiber?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-3-2",
+              "prompt": "Welche Nachteile kann der Föderalismus haben?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-7",
+          "type": "law-case-4-step",
+          "title": "Fall 4 (Anwenden): Das ungeliebte Gesetz",
+          "caseText": "Das eidgenössische Parlament hat ein neues Gesetz zur «Digitalen Service-Erfassung» verabschiedet. Es verpflichtet alle Fahrzeugwerkstätten, sämtliche Service- und Reparaturarbeiten in einer zentralen, vom Bund betriebenen Datenbank zu erfassen. Der Verband der Schweizer Werkstattleiter (VSW) befürchtet massiven administrativen Aufwand und hohe Kosten. Das Gesetz wurde im Bundesblatt publiziert. Der VSW will das Gesetz mit einer Volksabstimmung verhindern.\nWelches politische Recht kann der VSW ergreifen, und welche Voraussetzungen muss er dafür erfüllen?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Wer hat das Gesetz erlassen? Wer ist dagegen? Was ist das Ziel der Gegner?",
+              "hint": "Wer hat das Gesetz erlassen? Wer ist dagegen? Was ist das Ziel der Gegner?",
+              "solution": "Beteiligte: Eidgenössisches Parlament, Verband der Schweizer Werkstattleiter (VSW).\nWas ist passiert: Das Parlament hat ein Gesetz erlassen. Der VSW will dieses Gesetz durch eine Volksabstimmung verhindern.\nRechtsfrage: Welches Instrument steht dem VSW zur Verfügung und was sind dessen Voraussetzungen?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie in der Bundesverfassung (BV) nach dem politischen Recht, das eine Volksabstimmung über ein vom Parlament beschlossenes Gesetz ermöglicht. Stichwort: Referendum.",
+              "hint": "Suchen Sie in der Bundesverfassung (BV) nach dem politischen Recht, das eine Volksabstimmung über ein vom Parlament beschlossenes Gesetz ermöglicht. Stichwort: Referendum.",
+              "solution": "Rechtsgebiet: Politische Rechte, Staatsrecht.\nRechtsvorschrift: Das fakultative Referendum gemäss Art. 141 Abs. 1 Bst. a BV. Dieses Recht erlaubt es, über ein vom Parlament verabschiedetes Bundesgesetz eine Volksabstimmung zu verlangen."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie den relevanten Verfassungsartikel. Was sind die genauen Tatbestandsmerkmale? Insbesondere: Wie viele Unterschriften sind nötig und innerhalb welcher Frist müssen sie gesammelt werden?",
+              "hint": "Analysieren Sie den relevanten Verfassungsartikel. Was sind die genauen Tatbestandsmerkmale? Insbesondere: Wie viele Unterschriften sind nötig und innerhalb welcher Frist müssen sie gesammelt werden?",
+              "solution": "Regelanalyse (Tatbestandsmerkmale): Gemäss Art. 141 BV müssen für das Zustandekommen eines fakultativen Referendums folgende Voraussetzungen erfüllt sein:\n1. Es muss von 50'000 Stimmberechtigten oder von acht Kantonen verlangt werden.\n2. Das Begehren muss innerhalb von 100 Tagen nach der amtlichen Veröffentlichung des Erlasses (im Bundesblatt) eingereicht werden.\nRechtsfolge: Sind die Voraussetzungen erfüllt, muss der Bundesrat eine Volksabstimmung anordnen."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Voraussetzungen auf den Fall an. Was muss der VSW konkret tun, um eine Abstimmung zu erzwingen?",
+              "hint": "Wenden Sie die Voraussetzungen auf den Fall an. Was muss der VSW konkret tun, um eine Abstimmung zu erzwingen?",
+              "solution": "Prüfung: Der VSW will ein Bundesgesetz bekämpfen. Er muss also das fakultative Referendum ergreifen.\nKonsequenz: Der VSW muss innerhalb von 100 Tagen nach der Publikation des Gesetzes im Bundesblatt mindestens 50'000 gültige Unterschriften von stimmberechtigten Bürgerinnen und Bürgern sammeln und bei der Bundeskanzlei einreichen. Gelingt dies, kommt es zu einer landesweiten Abstimmung über das Gesetz."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-8",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 4 (Anwenden): Das ungeliebte Gesetz",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-4-1",
+              "prompt": "Was ist der Unterschied zwischen einem fakultativen und einem obligatorischen Referendum?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-4-2",
+              "prompt": "Was passiert, wenn das Referendum nicht ergriffen wird oder in der Abstimmung scheitert?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-9",
+          "type": "law-case-4-step",
+          "title": "Fall 5 (Anwenden): Der zahlungsunwillige Kunde",
+          "caseText": "Die «Garage am Fluss AG» mit Sitz in Interlaken (Kanton Bern) hat für einen Kunden, Herrn Meier, eine aufwändige Motorrevision an dessen Oldtimer durchgeführt. Die Rechnung über CHF 15'000 bleibt unbezahlt. Herr Meier wohnt in Luzern (Kanton Luzern). Die Garage will nun die Betreibung einleiten.\nAn welchem Ort muss die Garage das Betreibungsbegehren stellen? Geben Sie den korrekten Gesetzesartikel an.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie den Gläubiger (Garage) und den Schuldner (Herr Meier). Notieren Sie die relevanten Orte (Sitz der Garage, Wohnsitz des Kunden).",
+              "hint": "Identifizieren Sie den Gläubiger (Garage) und den Schuldner (Herr Meier). Notieren Sie die relevanten Orte (Sitz der Garage, Wohnsitz des Kunden).",
+              "solution": "Beteiligte: Gläubigerin: «Garage am Fluss AG» mit Sitz in Interlaken (BE). Schuldner: Herr Meier (natürliche Person) mit Wohnsitz in Luzern (LU).\nWas ist passiert: Eine Rechnung wird nicht bezahlt, die Betreibung soll eingeleitet werden.\nRechtsfrage: Wo ist der korrekte Betreibungsort?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welches Bundesgesetz regelt das Verfahren für die Eintreibung von Geldforderungen? Suchen Sie darin nach den Regeln zum 'Betreibungsort' oder 'Gerichtsstand'.",
+              "hint": "Welches Bundesgesetz regelt das Verfahren für die Eintreibung von Geldforderungen? Suchen Sie darin nach den Regeln zum 'Betreibungsort' oder 'Gerichtsstand'.",
+              "solution": "Rechtsgebiet: Schuldbetreibungs- und Konkursrecht.\nRechtsvorschrift: Das Schuldbetreibungs- und Konkursgesetz (SchKG). Die relevanten Bestimmungen finden sich im Abschnitt über den Betreibungsort (Art. 46 ff. SchKG)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Finden Sie den spezifischen Artikel im Schuldbetreibungs- und Konkursgesetz (SchKG), der den Betreibungsort für natürliche Personen festlegt.",
+              "hint": "Finden Sie den spezifischen Artikel im Schuldbetreibungs- und Konkursgesetz (SchKG), der den Betreibungsort für natürliche Personen festlegt.",
+              "solution": "Regelanalyse: Gemäss Art. 46 Abs. 1 SchKG ist der ordentliche Betreibungsort für eine natürliche Person deren Wohnsitz.\nRechtsfolge: Die Betreibung muss beim Betreibungsamt am Wohnsitz des Schuldners eingeleitet werden, unabhängig davon, wo die Schuld entstanden ist oder wo der Gläubiger seinen Sitz hat."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie den gefundenen Gesetzesartikel auf den Fall an. Ist der Sitz der Garage oder der Wohnsitz des Kunden entscheidend?",
+              "hint": "Wenden Sie den gefundenen Gesetzesartikel auf den Fall an. Ist der Sitz der Garage oder der Wohnsitz des Kunden entscheidend?",
+              "solution": "Prüfung: Der Schuldner, Herr Meier, ist eine natürliche Person. Sein Wohnsitz ist in Luzern.\nKonsequenz: Die Garage muss das Betreibungsbegehren beim zuständigen Betreibungsamt in Luzern einreichen. Der Sitz der Garage in Interlaken ist für den Betreibungsort irrelevant."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-10",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 5 (Anwenden): Der zahlungsunwillige Kunde",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-5-1",
+              "prompt": "Wäre die Situation anders, wenn der Kunde eine GmbH mit Sitz in Luzern wäre?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-5-2",
+              "prompt": "Warum ist der Betreibungsort am Wohnsitz des Schuldners? Wäre es für den Gläubiger nicht einfacher, an seinem eigenen Ort zu betreiben?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-11",
+          "type": "law-case-4-step",
+          "title": "Fall 6 (Anwenden): Die Lücke im Vertrag",
+          "caseText": "Ein Werkstattleiter schliesst mit einem Kunden einen mündlichen Vertrag über die Reparatur eines komplexen Getriebeschadens. Sie vereinbaren einen Festpreis, sprechen aber nicht darüber, was passiert, wenn während der Reparatur unvorhergesehene, zusätzliche Defekte entdeckt werden. Genau dies geschieht: Ein teures Lager muss ebenfalls ersetzt werden. Der Kunde weigert sich, die Mehrkosten zu tragen, da dies nicht vereinbart war. Der Vertrag und das Gesetz enthalten keine spezifische Regel für diesen Fall.\nWie muss ein Richter entscheiden, wenn er diese Vertragslücke füllen muss?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Kernproblem ist eine Lücke im Vertrag, für die es auch keine direkte gesetzliche Regel gibt.",
+              "hint": "Das Kernproblem ist eine Lücke im Vertrag, für die es auch keine direkte gesetzliche Regel gibt.",
+              "solution": "Beteiligte: Werkstattleiter, Kunde.\nWas ist passiert: Ein mündlicher Reparaturvertrag hat eine Lücke bezüglich unvorhergesehener Mehrkosten. Es gibt keine spezifische Gesetzesregel.\nRechtsfrage: Nach welchen Grundsätzen muss ein Richter eine solche Lücke füllen?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie im Zivilgesetzbuch (ZGB) nach dem Artikel, der die Rechtsquellen und die Vorgehensweise des Gerichts bei Gesetzeslücken regelt.",
+              "hint": "Suchen Sie im Zivilgesetzbuch (ZGB) nach dem Artikel, der die Rechtsquellen und die Vorgehensweise des Gerichts bei Gesetzeslücken regelt.",
+              "solution": "Rechtsgebiet: Allgemeines Vertragsrecht, Rechtsquellenlehre.\nRechtsvorschrift: Art. 1 ZGB. Dieser Artikel definiert die Rechtsquellen und dient als Anleitung für das Gericht bei der Rechtsfindung."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie Art. 1 ZGB. Welche drei Rechtsquellen nennt der Artikel in welcher Reihenfolge? Was soll der Richter tun, wenn die ersten beiden Quellen keine Antwort geben?",
+              "hint": "Analysieren Sie Art. 1 ZGB. Welche drei Rechtsquellen nennt der Artikel in welcher Reihenfolge? Was soll der Richter tun, wenn die ersten beiden Quellen keine Antwort geben?",
+              "solution": "Regelanalyse: Art. 1 ZGB legt eine Hierarchie der Rechtsquellen fest:\n1. Gesetz (geschriebenes Recht): Der Richter muss zuerst das Gesetz anwenden.\n2. Gewohnheitsrecht: Findet sich im Gesetz keine Vorschrift, soll er nach Gewohnheitsrecht entscheiden.\n3. Richterrecht: Fehlt auch Gewohnheitsrecht, so soll der Richter entscheiden, wie er als Gesetzgeber entscheiden würde. Er stützt sich dabei auf bewährte Lehre und Überlieferung (Gerichtspraxis und Wissenschaft).\nDies wird als Lückenfüllung durch das Gericht bezeichnet."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Regel aus Art. 1 ZGB auf den Fall an. Wie geht der Richter vor, um eine faire Lösung für die unvorhergesehenen Mehrkosten zu finden?",
+              "hint": "Wenden Sie die Regel aus Art. 1 ZGB auf den Fall an. Wie geht der Richter vor, um eine faire Lösung für die unvorhergesehenen Mehrkosten zu finden?",
+              "solution": "Prüfung: Im vorliegenden Fall gibt es weder eine vertragliche noch eine direkte gesetzliche Regelung (echte Lücke). Gewohnheitsrecht existiert hierfür nicht.\nKonsequenz: Der Richter muss als Gesetzgeber handeln (Richterrecht). Er wird sich an der bewährten Lehre zum Werkvertragsrecht (OR Art. 363 ff.) orientieren. Dort gilt der Grundsatz, dass bei einem Festpreis der Unternehmer das Risiko von Mehrkosten trägt, es sei denn, diese waren absolut unvorhersehbar und der Besteller muss über sie informiert werden. Der Richter würde eine Regel aufstellen, die die Interessen beider Parteien fair abwägt, z.B. eine Teilung der Kosten oder eine Pflicht des Werkstattleiters, die Arbeit zu stoppen und eine neue Vereinbarung zu treffen."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-12",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 6 (Anwenden): Die Lücke im Vertrag",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-6-1",
+              "prompt": "Was ist der Unterschied zwischen 'Gesetz' und 'Gewohnheitsrecht'?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-6-2",
+              "prompt": "Wie hätte der Werkstattleiter dieses Problem von vornherein vermeiden können?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-13",
+          "type": "law-case-4-step",
+          "title": "Fall 7 (Analysieren): Strengere kantonale Vorschriften",
+          "caseText": "Der Bund hat im Umweltschutzgesetz (USG) einen Grenzwert für den Ausstoss von Lösungsmitteln für Lackierereien festgelegt. Der Kanton Appenzell Ausserrhoden erlässt nun ein eigenes, kantonales Umweltschutzgesetz, in dem dieser Grenzwert deutlich strenger ist als im Bundesgesetz. Ein Werkstattbetreiber mit Lackiererei argumentiert, der Kanton dürfe nicht vom Bundesrecht abweichen. Das kantonale Gesetz sei daher ungültig, da Bundesrecht dem kantonalen Recht vorgehe.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Kernproblem ist der Konflikt zwischen einer eidgenössischen und einer kantonalen Norm im selben Regelungsbereich.",
+              "hint": "Das Kernproblem ist der Konflikt zwischen einer eidgenössischen und einer kantonalen Norm im selben Regelungsbereich.",
+              "solution": "Beteiligte: Werkstattbetreiber, Kanton Appenzell Ausserrhoden.\nWas ist passiert: Eine kantonale Vorschrift ist strenger als die entsprechende Bundesvorschrift. Der Betreiber hält die kantonale Regel für ungültig.\nRechtsfrage: Darf ein Kanton strengere Vorschriften erlassen, als das Bundesrecht vorsieht?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Das relevante Prinzip ist die 'derogatorische Kraft des Bundesrechts' (BV Art. 49) im föderalen System. Prüfen Sie, ob das Bundesgesetz eine abschliessende Regelung trifft oder den Kantonen Spielraum lässt.",
+              "hint": "Das relevante Prinzip ist die 'derogatorische Kraft des Bundesrechts' (BV Art. 49) im föderalen System. Prüfen Sie, ob das Bundesgesetz eine abschliessende Regelung trifft oder den Kantonen Spielraum lässt.",
+              "solution": "Rechtsgebiet: Staatsrecht, Föderalismus, Verwaltungsrecht.\nRechtsvorschrift: Das Prinzip der derogatorischen Kraft des Bundesrechts (Vorrang des Bundesrechts) gemäss Art. 49 Abs. 1 BV. Dieses besagt: 'Bundesrecht bricht kantonales Recht'."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie den Charakter von vielen Bundesgesetzen im Umweltbereich. Handelt es sich oft um 'Mindestvorschriften' oder um 'Maximalvorschriften'?",
+              "hint": "Analysieren Sie den Charakter von vielen Bundesgesetzen im Umweltbereich. Handelt es sich oft um 'Mindestvorschriften' oder um 'Maximalvorschriften'?",
+              "solution": "Regelanalyse: Der Grundsatz 'Bundesrecht bricht kantonales Recht' gilt absolut, wenn das Bundesgesetz eine Materie abschliessend regelt. Viele Bundesgesetze, insbesondere im Umwelt- oder Polizeirecht, legen jedoch bewusst nur Mindeststandards fest. In solchen Fällen ist es den Kantonen erlaubt, im Rahmen ihrer Kompetenzen strengere Vorschriften zu erlassen, solange sie dem Sinn und Zweck des Bundesgesetzes nicht widersprechen.\nRechtsfolge: Eine strengere kantonale Regelung ist zulässig, wenn das Bundesrecht nur einen Mindeststandard setzt."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Erkenntnisse auf den Fall an. Widerspricht die strengere kantonale Regelung dem Sinn und Zweck des Bundesgesetzes oder ergänzt sie dieses im Rahmen der kantonalen Autonomie?",
+              "hint": "Wenden Sie die Erkenntnisse auf den Fall an. Widerspricht die strengere kantonale Regelung dem Sinn und Zweck des Bundesgesetzes oder ergänzt sie dieses im Rahmen der kantonalen Autonomie?",
+              "solution": "Prüfung: Das eidgenössische Umweltschutzgesetz (USG) ist ein typisches Rahmengesetz, das Mindestvorschriften festlegt. Es will ein schweizweites Schutzniveau garantieren, verbietet den Kantonen aber nicht, zum Schutz ihrer Bevölkerung oder Umwelt weiter zu gehen. Die strengere kantonale Regelung widerspricht dem Ziel des USG (Umweltschutz) nicht, sondern fördert es sogar.\nKonsequenz: Die Argumentation des Werkstattbetreibers ist falsch. Die kantonale Vorschrift ist gültig und er muss den strengeren Grenzwert einhalten. Der Grundsatz des Vorrangs von Bundesrecht wird hier nicht verletzt."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-14",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 7 (Analysieren): Strengere kantonale Vorschriften",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-7-1",
+              "prompt": "In welchen Bereichen regelt der Bund eine Materie typischerweise abschliessend?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-7-2",
+              "prompt": "Was könnte der Werkstattbetreiber tun, wenn er die kantonale Regelung trotzdem für unverhältnismässig hält?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-15",
+          "type": "law-case-4-step",
+          "title": "Fall 8 (Analysieren): Die willkürliche Baubewilligung",
+          "caseText": "Werkstattleiterin Keller plant, auf ihrem Grundstück einen überdachten Parkplatz für Kundenfahrzeuge zu errichten. Das Bauvorhaben entspricht allen Vorschriften der kommunalen Bau- und Zonenordnung. Die zuständige Baubehörde lehnt das Gesuch jedoch mit der Begründung ab, das Bauvorhaben 'füge sich ästhetisch nicht ins Dorfbild ein'. Diese Begründung findet sich in keinem Gesetz oder Reglement. Ein fast identisches Bauvorhaben des Nachbarn wurde vor einem Jahr bewilligt.\nFrau Keller fühlt sich ungerecht behandelt. Auf welche fundamentalen Rechtsprinzipien kann sie sich bei einer Beschwerde berufen?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Der Kern des Problems ist eine behördliche Entscheidung, die nicht auf einer klaren gesetzlichen Grundlage zu beruhen scheint und widersprüchlich zu früheren Entscheiden ist.",
+              "hint": "Der Kern des Problems ist eine behördliche Entscheidung, die nicht auf einer klaren gesetzlichen Grundlage zu beruhen scheint und widersprüchlich zu früheren Entscheiden ist.",
+              "solution": "Beteiligte: Werkstattleiterin Keller, kommunale Baubehörde (Exekutive).\nWas ist passiert: Ein formell korrektes Baugesuch wird mit einer vagen, nicht gesetzlich verankerten Begründung abgewiesen, obwohl ein ähnliches Projekt bewilligt wurde.\nRechtsfrage: Welche verfassungsmässigen Rechte hat die Behörde verletzt?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie in der Bundesverfassung (BV) nach den Grundrechten und Verfassungsprinzipien, die den Bürger vor staatlicher Willkür schützen.",
+              "hint": "Suchen Sie in der Bundesverfassung (BV) nach den Grundrechten und Verfassungsprinzipien, die den Bürger vor staatlicher Willkür schützen.",
+              "solution": "Rechtsgebiet: Verfassungsrecht, Verwaltungsrecht.\nRechtsvorschrift: Die Grundprinzipien staatlichen Handelns und die Grundrechte in der Bundesverfassung (BV), insbesondere das Legalitätsprinzip (BV Art. 5 Abs. 1), das Rechtsgleichheitsgebot (BV Art. 8) und das Willkürverbot (BV Art. 9)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie das Legalitätsprinzip (BV Art. 5) und das Willkürverbot / Rechtsgleichheitsgebot (BV Art. 8 und 9). Was bedeuten diese Prinzipien für das Handeln von Verwaltungsbehörden?",
+              "hint": "Analysieren Sie das Legalitätsprinzip (BV Art. 5) und das Willkürverbot / Rechtsgleichheitsgebot (BV Art. 8 und 9). Was bedeuten diese Prinzipien für das Handeln von Verwaltungsbehörden?",
+              "solution": "Regelanalyse:\n1. Legalitätsprinzip (BV Art. 5): Staatliches Handeln muss sich auf eine gesetzliche Grundlage stützen. Behörden dürfen nicht ohne oder gegen das Gesetz handeln.\n2. Rechtsgleichheitsgebot (BV Art. 8): Gleiches muss gleich und Ungleiches ungleich behandelt werden. Behörden müssen ihre Praxis konsistent anwenden.\n3. Willkürverbot (BV Art. 9): Ein Entscheid ist willkürlich, wenn er offensichtlich unhaltbar ist, sich über klare Fakten hinwegsetzt oder einen fundamentalen Rechtsgrundsatz krass verletzt.\nRechtsfolge: Entscheide, die diese Prinzipien verletzen, sind rechtswidrig und können von einer Gerichtsinstanz (Judikative) aufgehoben werden."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie diese Prinzipien auf den Fall an. Inwiefern hat die Baubehörde gegen das Legalitätsprinzip und das Willkürverbot verstossen?",
+              "hint": "Wenden Sie diese Prinzipien auf den Fall an. Inwiefern hat die Baubehörde gegen das Legalitätsprinzip und das Willkürverbot verstossen?",
+              "solution": "Prüfung:\n1. Verletzung des Legalitätsprinzips: Die Begründung 'ästhetisch nicht passend' ist keine gesetzliche Grundlage, wenn sie nicht in einem Reglement konkretisiert ist. Die Behörde handelt ohne gesetzliche Basis.\n2. Verletzung des Rechtsgleichheitsgebots/Willkürverbots: Die Bewilligung eines identischen Nachbarprojekts zeigt eine inkonsistente und damit willkürliche Praxis. Die Abweichung von der bisherigen Praxis ohne sachlichen Grund ist nicht zulässig.\nKonsequenz: Frau Keller kann sich in ihrer Beschwerde an das zuständige Gericht erfolgreich auf die Verletzung dieser Verfassungsprinzipien berufen. Die Chancen, dass der ablehnende Entscheid aufgehoben wird, sind sehr hoch."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-16",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 8 (Analysieren): Die willkürliche Baubewilligung",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-8-1",
+              "prompt": "Was ist der Unterschied zwischen dem Willkürverbot und dem Legalitätsprinzip?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-8-2",
+              "prompt": "Können ästhetische Kriterien im Baurecht überhaupt eine Rolle spielen?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-17",
+          "type": "law-case-4-step",
+          "title": "Fall 9 (Analysieren): Der unklare Betreibungsort",
+          "caseText": "Die «Motoren-Profi GmbH» ist im Handelsregister des Kantons Schwyz eingetragen und hat dort ein kleines Büro für die Geschäftsführung. Die grosse Werkstatt, in der alle Reparaturen ausgeführt werden, die meisten Mitarbeiter beschäftigt sind und der gesamte Kundenkontakt stattfindet, befindet sich jedoch in einer gemieteten Halle im Kanton Zürich. Ein Lieferant aus St. Gallen, der Ersatzteile an die Werkstatt in Zürich geliefert hat, will die GmbH betreiben.\nWelcher Betreibungsort ist der korrekte: Schwyz oder Zürich?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Problem liegt im Auseinanderfallen des statutarischen Sitzes (Handelsregistereintrag) und des tatsächlichen Zentrums der Geschäftstätigkeit.",
+              "hint": "Das Problem liegt im Auseinanderfallen des statutarischen Sitzes (Handelsregistereintrag) und des tatsächlichen Zentrums der Geschäftstätigkeit.",
+              "solution": "Beteiligte: Lieferant (Gläubiger), «Motoren-Profi GmbH» (Schuldnerin).\nWas ist passiert: Der formelle Sitz gemäss Handelsregister (Schwyz) und der tatsächliche Mittelpunkt der Geschäftstätigkeit (Zürich) der Schuldnerin fallen auseinander.\nRechtsfrage: Welcher Ort gilt als Betreibungsort?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Die Grundregel für juristische Personen findet sich im SchKG. Welcher Artikel ist das? Was sagt er über den Betreibungsort?",
+              "hint": "Die Grundregel für juristische Personen findet sich im SchKG. Welcher Artikel ist das? Was sagt er über den Betreibungsort?",
+              "solution": "Rechtsgebiet: Schuldbetreibungs- und Konkursrecht.\nRechtsvorschrift: Die Grundregel findet sich in Art. 48 Abs. 1 SchKG. Demnach sind im Handelsregister eingetragene juristische Personen und Gesellschaften an ihrem Sitz zu betreiben."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die Rechtsprechung des Bundesgerichts zu diesem Thema. Akzeptiert das Gericht eine Abweichung vom Handelsregistereintrag, wenn das tatsächliche Geschäftszentrum an einem anderen Ort liegt?",
+              "hint": "Analysieren Sie die Rechtsprechung des Bundesgerichts zu diesem Thema. Akzeptiert das Gericht eine Abweichung vom Handelsregistereintrag, wenn das tatsächliche Geschäftszentrum an einem anderen Ort liegt?",
+              "solution": "Regelanalyse: Der Wortlaut von Art. 48 SchKG verweist auf den im Handelsregister eingetragenen Sitz. Die Rechtsprechung des Bundesgerichts hat diesen Grundsatz jedoch relativiert. Wenn der tatsächliche Mittelpunkt der Verwaltung und Geschäftstätigkeit dauerhaft an einem anderen Ort liegt als der statutarische Sitz (sog. 'Briefkastendomizil'), kann ausnahmsweise der tatsächliche Mittelpunkt der Geschäftstätigkeit als Betreibungsort gelten. Dies dient dem Schutz der Gläubiger und der Verhinderung von Rechtsmissbrauch.\nRechtsfolge: Es muss eine Abwägung zwischen dem formellen Eintrag und den tatsächlichen Verhältnissen stattfinden."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wägen Sie die Argumente für Schwyz (formeller Sitz) und Zürich (tatsächlicher Sitz) ab. Welcher Ort ist nach der herrschenden Lehre und Praxis massgebend?",
+              "hint": "Wägen Sie die Argumente für Schwyz (formeller Sitz) und Zürich (tatsächlicher Sitz) ab. Welcher Ort ist nach der herrschenden Lehre und Praxis massgebend?",
+              "solution": "Prüfung: Für den Sitz in Schwyz spricht der klare Wortlaut des Gesetzes und der Handelsregistereintrag. Für den Sitz in Zürich spricht die gesamte tatsächliche Geschäftstätigkeit (Werkstatt, Mitarbeiter, Kundenkontakt). Das Büro in Schwyz scheint nur eine administrative Funktion zu haben. Nach der bundesgerichtlichen Praxis ist der Ort der tatsächlichen Verwaltung und Geschäftstätigkeit entscheidend.\nKonsequenz: Der korrekte Betreibungsort ist sehr wahrscheinlich Zürich. Der Lieferant kann und sollte die Betreibung am Ort der Werkstatt einleiten, da dies dem wirtschaftlichen und tatsächlichen Zentrum der GmbH entspricht."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-18",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 9 (Analysieren): Der unklare Betreibungsort",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-9-1",
+              "prompt": "Welches Risiko geht der Lieferant ein, wenn er die Betreibung am 'falschen' Ort einleitet?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-9-2",
+              "prompt": "Warum haben Firmen überhaupt einen statutarischen Sitz an einem anderen Ort als ihre Haupttätigkeit?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-19",
+          "type": "law-case-4-step",
+          "title": "Fall 10 (Transfer/Beurteilung): Die veraltete Reparaturmethode",
+          "caseText": "Ein Kunde bringt seinen Traktor mit einem Getriebeproblem in die Werkstatt von Herrn Moser. Herr Moser führt die Reparatur exakt nach den offiziellen Vorgaben des Herstellers aus dem Jahr 2015 durch. Kurz darauf tritt derselbe Schaden erneut auf. Es stellt sich heraus, dass der Branchenverband (z.B. Agrotec Suisse) seit zwei Jahren in seinen technischen Merkblättern eine verbesserte Reparaturmethode empfiehlt, die dieses Problem verhindert. Diese 'Best Practice' ist aber rechtlich nicht verbindlich. Der Kunde verlangt eine kostenlose Nachbesserung und Schadenersatz, da die Werkstatt nicht nach dem neusten Stand der Technik gearbeitet habe.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Problem ist der Konflikt zwischen der Befolgung von Herstellervorgaben und der Missachtung von neueren, aber nicht-verbindlichen Branchenstandards.",
+              "hint": "Das Problem ist der Konflikt zwischen der Befolgung von Herstellervorgaben und der Missachtung von neueren, aber nicht-verbindlichen Branchenstandards.",
+              "solution": "Beteiligte: Werkstattleiter Herr Moser, Kunde.\nWas ist passiert: Eine Reparatur nach Herstellervorgabe war nicht nachhaltig, weil eine neuere 'Best Practice' des Branchenverbandes nicht beachtet wurde. Der Kunde fordert Gewährleistung.\nProblemstellung: Hat die Werkstatt ihre Sorgfaltspflicht verletzt, obwohl sie sich an die offiziellen Herstellervorgaben gehalten hat?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Die rechtliche Grundlage ist der Werkvertrag (OR Art. 363 ff.) und die darin enthaltene Sorgfaltspflicht des Unternehmers (OR Art. 364). Welche Rechtsquellen können zur Auslegung des Begriffs 'Sorgfalt' herangezogen werden?",
+              "hint": "Die rechtliche Grundlage ist der Werkvertrag (OR Art. 363 ff.) und die darin enthaltene Sorgfaltspflicht des Unternehmers (OR Art. 364). Welche Rechtsquellen können zur Auslegung des Begriffs 'Sorgfalt' herangezogen werden?",
+              "solution": "Rechtsgebiet: Werkvertragsrecht.\nRechtsvorschrift: Die zentrale Norm ist die Sorgfaltspflicht des Unternehmers im Werkvertrag, die sich aus den allgemeinen Regeln (OR Art. 97) und spezifisch aus OR Art. 364 Abs. 1 ergibt. Der Massstab der Sorgfalt ist objektiv und richtet sich danach, was von einem gewissenhaften Fachmann erwartet werden darf."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Wägen Sie die Bedeutung der Herstellervorgaben gegen die Bedeutung der Branchenstandards ab. Was darf ein Kunde von einer professionellen Werkstatt erwarten? Beziehen Sie Art. 1 ZGB (Richterrecht, bewährte Lehre) in Ihre Überlegungen mit ein.",
+              "hint": "Wägen Sie die Bedeutung der Herstellervorgaben gegen die Bedeutung der Branchenstandards ab. Was darf ein Kunde von einer professionellen Werkstatt erwarten? Beziehen Sie Art. 1 ZGB (Richterrecht, bewährte Lehre) in Ihre Überlegungen mit ein.",
+              "solution": "Regelanalyse: Der Begriff 'Sorgfalt' ist ein unbestimmter Rechtsbegriff. Ein Richter würde ihn im Streitfall auslegen (Lückenfüllung nach Art. 1 ZGB). Dabei würde er berücksichtigen, was in der Branche als anerkannter Stand der Technik gilt. Dazu gehören nicht nur Herstellervorgaben, sondern auch anerkannte Regeln von Fachverbänden ('Best Practices'). Von einem Fachmann wird erwartet, dass er sich weiterbildet und sein Wissen aktuell hält. Die alleinige Berufung auf veraltete Herstellervorgaben genügt dem Sorgfaltsmassstab wahrscheinlich nicht.\nAbwägung: Die Branchenstandards repräsentieren den aktuellen Stand des Wissens und der Technik, während Herstellervorgaben veralten können."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Beurteilen Sie das Verhalten von Herrn Moser. Hat er seine Sorgfaltspflicht verletzt? Entwickeln Sie eine Empfehlung für Herrn Moser, wie er rechtlich und kaufmännisch reagieren sollte.",
+              "hint": "Beurteilen Sie das Verhalten von Herrn Moser. Hat er seine Sorgfaltspflicht verletzt? Entwickeln Sie eine Empfehlung für Herrn Moser, wie er rechtlich und kaufmännisch reagieren sollte.",
+              "solution": "Beurteilung und Empfehlung:\nRechtliche Beurteilung: Herr Moser hat seine Sorgfaltspflicht verletzt. Ein professioneller Werkstattleiter muss die aktuellen technischen Entwicklungen und Empfehlungen seines Branchenverbandes kennen und anwenden. Die Reparatur war daher mangelhaft.\nKaufmännische Empfehlung: Ein Rechtsstreit wäre teuer und imageschädigend mit geringen Erfolgsaussichten. Herr Moser sollte den Mangel anerkennen und dem Kunden eine kostenlose Nachbesserung nach der neuen Methode anbieten. Dies zeigt Professionalität, sichert die Kundenzufriedenheit und vermeidet weitere Kosten. Er sollte zudem seine internen Prozesse anpassen, um sicherzustellen, dass zukünftig immer die aktuellsten technischen Standards zur Anwendung kommen."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-20",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 10 (Transfer/Beurteilung): Die veraltete Reparaturmethode",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-10-1",
+              "prompt": "Hätte die Werkstatt ihre Haftung für solche Fälle in den AGB ausschliessen können?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-10-2",
+              "prompt": "Was ist, wenn die neue Methode teurer ist als die alte? Hätte die Werkstatt den Kunden vorab informieren müssen?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-21",
+          "type": "law-case-4-step",
+          "title": "Fall 11 (Transfer/Beurteilung): Die drohende Verordnung",
+          "caseText": "Ein angehender Werkstattleiter erfährt, dass der Bundesrat plant, eine neue Verordnung zu erlassen. Diese soll vorschreiben, dass alle Werkstätten, die an Elektrofahrzeugen arbeiten, einen speziellen, baulich abgetrennten und feuerfesten Arbeitsbereich im Wert von über CHF 100'000 einrichten müssen. Für viele kleinere und mittlere Betriebe wäre dies finanziell nicht tragbar. Der Verordnungsentwurf befindet sich aktuell im Vernehmlassungsverfahren.\nWelche Strategien und Massnahmen sollte der Branchenverband ergreifen, um die Interessen seiner Mitglieder zu wahren und eine praxistauglichere Lösung zu erreichen?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Problem ist eine geplante staatliche Regulierung (Verordnung), die massive wirtschaftliche Folgen für die Branche hätte. Die Regulierung ist aber noch nicht in Kraft.",
+              "hint": "Das Problem ist eine geplante staatliche Regulierung (Verordnung), die massive wirtschaftliche Folgen für die Branche hätte. Die Regulierung ist aber noch nicht in Kraft.",
+              "solution": "Beteiligte: Branchenverband, angehende Werkstattleiter, Bundesrat und Bundesverwaltung.\nWas ist passiert: Eine geplante Verordnung des Bundesrates droht, der Branche immense Kosten aufzuerlegen. Der Gesetzgebungsprozess ist noch nicht abgeschlossen.\nProblemstellung: Wie kann der Branchenverband den Inhalt der zukünftigen Verordnung zu seinen Gunsten beeinflussen?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Analysieren Sie den politischen Prozess, der dem Erlass einer Verordnung vorausgeht. Welche formellen und informellen Einflussmöglichkeiten gibt es für Interessengruppen (Verbände)?",
+              "hint": "Analysieren Sie den politischen Prozess, der dem Erlass einer Verordnung vorausgeht. Welche formellen und informellen Einflussmöglichkeiten gibt es für Interessengruppen (Verbände)?",
+              "solution": "Rechtsgebiet: Staatsrecht, Gesetzgebungsprozess.\nRechtsvorschrift: Der Erlass von wichtigen Verordnungen wird oft von einem Vernehmlassungsverfahren begleitet. Dies ist ein formeller Prozess, bei dem Kantone, politische Parteien und interessierte Kreise (wie Branchenverbände) zum Entwurf Stellung nehmen können. Daneben gibt es informelle Einflussmöglichkeiten (Lobbying)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Bewerten Sie verschiedene Instrumente: Teilnahme am Vernehmlassungsverfahren, direktes Lobbying bei Verwaltung und Politik, Sensibilisierung der Öffentlichkeit, Suche nach technischen Alternativen.",
+              "hint": "Bewerten Sie verschiedene Instrumente: Teilnahme am Vernehmlassungsverfahren, direktes Lobbying bei Verwaltung und Politik, Sensibilisierung der Öffentlichkeit, Suche nach technischen Alternativen.",
+              "solution": "Analyse der Optionen:\n1. Vernehmlassung: Formelle, schriftliche Eingabe. Wichtig, um die Argumente offiziell zu deponieren. Muss gut begründet sein (rechtlich, technisch, wirtschaftlich).\n2. Lobbying: Direkte Gespräche mit den zuständigen Beamten im Bundesamt, mit Mitgliedern der zuständigen Parlamentskommissionen und mit Politikern. Ziel ist, Verständnis für die Anliegen der Branche zu schaffen.\n3. Öffentlichkeitsarbeit: Medienmitteilungen, Interviews, um öffentlichen Druck aufzubauen und die Konsequenzen (z.B. Werkstattsterben) aufzuzeigen.\n4. Allianzen bilden: Zusammenarbeit mit anderen betroffenen Verbänden (z.B. Transportgewerbe, Automobil-Importeure), um das Anliegen breiter abzustützen.\n5. Konstruktive Alternativen: Nicht nur blockieren, sondern praxistaugliche, günstigere Alternativlösungen vorschlagen (z.B. mobile Sicherheitsausrüstung statt teure Umbauten)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Entwickeln Sie eine umfassende, mehrstufige Strategie für den Branchenverband. Kombinieren Sie rechtliche, politische und kommunikative Massnahmen und begründen Sie deren Zweckmässigkeit.",
+              "hint": "Entwickeln Sie eine umfassende, mehrstufige Strategie für den Branchenverband. Kombinieren Sie rechtliche, politische und kommunikative Massnahmen und begründen Sie deren Zweckmässigkeit.",
+              "solution": "Empfehlung für eine Strategie:\nDer Verband sollte eine kombinierte Strategie verfolgen:\nPhase 1 (Analyse & Positionierung): Schnell eine fundierte Stellungnahme für die Vernehmlassung ausarbeiten. Diese muss die wirtschaftlichen Folgen (Studie über Kosten, gefährdete Arbeitsplätze) klar beziffern und gleichzeitig konstruktive, technisch fundierte Alternativvorschläge präsentieren, die das Sicherheitsziel ebenfalls erreichen.\nPhase 2 (Lobbying & Allianzen): Parallel dazu das direkte Gespräch mit den Schlüsselpersonen in Verwaltung und Politik suchen. Allianzen mit anderen Verbänden schmieden, um das politische Gewicht zu erhöhen.\nPhase 3 (Öffentlichkeitsarbeit): Gezielte Medienarbeit lancieren, um die öffentliche Meinung und die Politik zu sensibilisieren. Der Fokus sollte auf den Konsequenzen für KMU und die Versorgungssicherheit im ländlichen Raum liegen.\nFazit: Eine rein defensive Haltung ist wenig erfolgreich. Eine proaktive Strategie mit fundierten Argumenten und realistischen Alternativen hat die grössten Chancen, den Verordnungsentwurf positiv zu beeinflussen, bevor er in Kraft tritt."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-22",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 11 (Transfer/Beurteilung): Die drohende Verordnung",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-11-1",
+              "prompt": "Warum ist es wichtig, so früh im Prozess aktiv zu werden?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-11-2",
+              "prompt": "Welche Rolle spielt das Parlament in diesem Prozess?"
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-case-23",
+          "type": "law-case-4-step",
+          "title": "Fall 12 (Transfer/Beurteilung): Konflikt der Behörden",
+          "caseText": "Ein Werkstattleiter im Kanton Graubünden erhält von der Gemeinde die Baubewilligung für einen Anbau. Kurz nach Baubeginn erscheint ein Inspektor des kantonalen Amtes für Natur und Umwelt (ANU) und verfügt einen sofortigen Baustopp. Grund: Der Anbau liege zu nahe an einem kleinen Bach, der unter kantonalem Schutz stehe. Die Gemeinde habe bei der Bewilligung kantonales Recht übersehen. Der Werkstattleiter hat bereits CHF 50'000 in den Bau investiert und steht nun vor einem Dilemma: Soll er gegen den Kanton klagen oder versuchen, eine Lösung mit den Behörden zu finden?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Problem ist ein Konflikt zwischen zwei Behörden (Gemeinde und Kanton) auf dem Buckel eines Bürgers, der im guten Glauben auf eine rechtskräftige Bewilligung gehandelt hat.",
+              "hint": "Das Problem ist ein Konflikt zwischen zwei Behörden (Gemeinde und Kanton) auf dem Buckel eines Bürgers, der im guten Glauben auf eine rechtskräftige Bewilligung gehandelt hat.",
+              "solution": "Beteiligte: Werkstattleiter, Gemeindebehörde, Kantonale Umweltbehörde (ANU).\nWas ist passiert: Eine kommunale Baubewilligung verletzt übergeordnetes kantonales Recht. Der Kanton stoppt den bereits begonnenen Bau. Der Werkstattleiter hat einen finanziellen Schaden.\nProblemstellung: Wie soll der Werkstattleiter auf den Konflikt zwischen den Behörden reagieren, um seinen Schaden zu minimieren und sein Projekt zu retten?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Analysieren Sie die rechtliche Situation. Welche Norm hat Vorrang (kantonales vs. kommunales Recht)? Welches Rechtsinstitut schützt den Bürger, der auf eine behördliche Zusage vertraut hat (Vertrauensschutz)?",
+              "hint": "Analysieren Sie die rechtliche Situation. Welche Norm hat Vorrang (kantonales vs. kommunales Recht)? Welches Rechtsinstitut schützt den Bürger, der auf eine behördliche Zusage vertraut hat (Vertrauensschutz)?",
+              "solution": "Rechtsgebiet: Verwaltungsrecht, Baurecht, Staatshaftungsrecht.\nRechtsvorschrift: Das Prinzip der Normenhierarchie (kantonales Recht geht kommunalem Recht vor) und der Grundsatz des Vertrauensschutzes (Treu und Glauben, BV Art. 9). Ein Bürger darf grundsätzlich auf die Richtigkeit einer behördlichen Verfügung vertrauen. Hat er im Vertrauen darauf Dispositionen getätigt, kann er unter Umständen eine Entschädigung verlangen (Staatshaftung)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Bewerten Sie die zwei Hauptoptionen: 1. Rechtlicher Weg (Beschwerde gegen den Baustopp, evtl. Staatshaftungsklage gegen die Gemeinde). 2. Pragmatischer Weg (Verhandlung, Suche nach Kompromiss).",
+              "hint": "Bewerten Sie die zwei Hauptoptionen: 1. Rechtlicher Weg (Beschwerde gegen den Baustopp, evtl. Staatshaftungsklage gegen die Gemeinde). 2. Pragmatischer Weg (Verhandlung, Suche nach Kompromiss).",
+              "solution": "Analyse der Optionen:\n1. Rechtlicher Weg: Beschwerde gegen die Baustopp-Verfügung des Kantons. Die Erfolgsaussichten sind gering, da das kantonale Recht Vorrang hat und der Schutz des Baches wahrscheinlich ein wichtiges öffentliches Interesse darstellt. Eine separate Staatshaftungsklage gegen die Gemeinde wegen der fehlerhaften Bewilligung wäre möglich, um den finanziellen Schaden (CHF 50'000) ersetzt zu bekommen. Dieser Weg ist aber langwierig, teuer und zerstört die Beziehung zur Gemeinde.\n2. Pragmatischer Weg: Das Gespräch mit beiden Behörden suchen. Ziel ist es, einen Kompromiss zu finden, z.B. eine leichte Verschiebung des Anbaus, eine ökologische Ausgleichsmassnahme oder eine finanzielle Beteiligung der Gemeinde an den Umplanungskosten. Dieser Weg ist schneller und erhält die für zukünftige Projekte wichtige gute Beziehung zu den Behörden."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Entwickeln Sie eine begründete Empfehlung für den Werkstattleiter. Wägen Sie dabei Prozessrisiken, Zeitaufwand, Kosten und die Beziehung zu den Behörden gegeneinander ab.",
+              "hint": "Entwickeln Sie eine begründete Empfehlung für den Werkstattleiter. Wägen Sie dabei Prozessrisiken, Zeitaufwand, Kosten und die Beziehung zu den Behörden gegeneinander ab.",
+              "solution": "Empfehlung für eine Strategie:\nDer Werkstattleiter sollte einen zweistufigen, pragmatischen Ansatz wählen:\nSchritt 1 (Verhandlung): Er sollte umgehend einen runden Tisch mit Vertretern der Gemeinde und des kantonalen Amtes (ANU) einberufen. Ziel ist es, eine einvernehmliche Lösung für das Bauprojekt zu finden (z.B. Projektanpassung). Er sollte dabei auf seinen guten Glauben und den bereits entstandenen Schaden hinweisen und die Gemeinde in die Verantwortung nehmen, bei der Lösungsfindung und Kostenbeteiligung zu helfen.\nSchritt 2 (Rechtliche Schritte als letztes Mittel): Nur wenn die Verhandlungen scheitern und er auf seinem Schaden sitzen bleibt, sollte er den rechtlichen Weg einer Staatshaftungsklage gegen die Gemeinde ernsthaft prüfen. Dies sollte aber als letztes Mittel (ultima ratio) betrachtet werden.\nFazit: Der pragmatische Verhandlungsweg ist klar vorzuziehen. Er ist schneller, kostengünstiger und ermöglicht es, das Bauprojekt vielleicht doch noch – in angepasster Form – zu realisieren, ohne die wichtigen Beziehungen zu den lokalen Behörden nachhaltig zu beschädigen."
+            }
+          ]
+        },
+        {
+          "id": "10-schweizer-rechtsystem-disc-block-24",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 12 (Transfer/Beurteilung): Konflikt der Behörden",
+          "prompts": [
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-12-1",
+              "prompt": "Was sind die Voraussetzungen für den Vertrauensschutz gemäss BV Art. 9?"
+            },
+            {
+              "id": "10-schweizer-rechtsystem-disc-fall-id-12-2",
+              "prompt": "Hätte der Werkstattleiter den Fehler der Gemeinde erkennen müssen?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "10-schweizer-rechtsystem-mindmap",
+      "title": "Mindmap",
+      "pageType": "mindmap",
+      "blocks": [
+        {
+          "id": "10-schweizer-rechtsystem-mindmap-block",
+          "type": "mindmap",
+          "title": "Mindmap: Schweizer Rechtsystem",
+          "content": "mindmap\n  root((Grundlagen des Schweizer Rechtssystem))\n    Struktur des Rechtsstaates\n      Elemente des Rechtsstaates;\n      Legalitätsprinzip - BV Art 5 Abs 1\n        Grundlage und Schranke staatlichen Handelns ist das Recht; Behörden müssen sich an Gesetze halten;\n      Gewaltenteilung\n        Verteilung der Staatsmacht zur Verhinderung von Machtmissbrauch;\n        Horizontal - personell/organisatorisch\n          Legislative - gesetzgebende Behörde\n            Parlament - Bund National- und Ständerat;\n            Aufgaben Gesetze erlassen, Kontrolle der Exekutive;\n          Exekutive - ausführende Behörde\n            Regierung - Bund Bundesrat;\n            Aufgaben Gesetze ausführen, regieren, verwalten;\n          Judikative - richterliche Behörde\n            Gerichte - Bund Bundesgericht;\n            Aufgaben Urteilen, richten, strafen, schützen;\n        Föderalismus - vertikal\n          Aufteilung der Aufgaben auf verschiedene staatliche Ebenen;\n          Bund - Eidgenossenschaft\n            Zuständig für nationale Aufgaben zB Aussenpolitik, Militär;\n          Kantone - 26\n            Eigenständig - souverän - in den ihnen zugewiesenen Bereichen zB Schulwesen, Polizei;\n          Gemeinden - ca 2131\n            Kleinste politische Einheit, zuständig für lokale Aufgaben zB Kehrichtabfuhr, Feuerwehr;\n      Menschenrechte - Grundrechte, BV Art 7-36\n        Fundamentale Rechte, die allen Menschen zustehen zB Recht auf Leben, Meinungsfreiheit, Eigentumsgarantie;\n        Einschränkungen - BV Art 36\n          Nur unter 4 Voraussetzungen zulässig;\n          1 Gesetzliche Grundlage\n          2 Öffentliches Interesse / Schutz Dritter\n          3 Verhältnismässigkeit\n          4 Kerngehalt bleibt unberührt\n      Politische Rechte - Demokratie, BV Art 136 ff\n        Mitbestimmungsrechte für Schweizer Bürger ab 18, urteilsfähig;\n        Wahlrecht\n          Personen in Behörden wählen;\n        Stimmrecht\n          Über Sachfragen abstimmen;\n        Initiativrecht\n          Verfassungsänderung vorschlagen - 100'000 Unterschriften;\n        Referendumsrecht\n          Abstimmung über ein vom Parlament beschlossenes Gesetz erzwingen - 50'000 Unterschriften;\n    Normenhierarchie\n      Rangordnung der Rechtsvorschriften; Eine tiefere Stufe darf einer höheren nicht widersprechen;\n      1 Verfassung - Grundgesetz\n        Oberstes Gesetz, Grundlage für alle Gesetze zB Bundesverfassung;\n      2 Gesetz - Ausführung\n        Führt Verfassungsartikel näher aus zB Strassenverkehrsgesetz;\n      3 Verordnung - Detailbestimmungen\n        Enthält Ausführungsbestimmungen zum Gesetz zB Verkehrsregelnverordnung;\n    Rechtsquellen\n      Grundlagen zur Lösung eines Rechtsproblems - ZGB Art 1;\n      Geschriebenes Recht\n        Vom Staat erlassenes Recht - Verfassung, Gesetze, Verordnungen - Wichtigste Quelle;\n      Gewohnheitsrecht\n        Ungeschriebenes Recht, das durch langjährige Übung entstanden ist - heute selten;\n      Richterrecht\n        Regeln, die Gerichte bei Gesetzeslücken aufstellen;\n    Einteilung des Rechts\n      Öffentliches Recht\n        Regelt die Beziehung zwischen Staat und Bürgern - Über-/Unterordnungsverhältnis;\n        Beispiele Staatsrecht, Verwaltungsrecht, Strafrecht, Verfahrensrecht;\n      Privatrecht - Zivilrecht\n        Regelt die Beziehung zwischen Bürgern untereinander - Gleichstellungsverhältnis;\n        Wichtigste Gesetze Zivilgesetzbuch - ZGB - und Obligationenrecht - OR;\n      Zwingendes vs Dispositives Recht\n        Zwingendes Recht\n          Kann nicht durch Vereinbarung geändert werden;\n        Dispositives Recht\n          Gilt nur, wenn nichts anderes vereinbart wurde;\n    Rechtsanwendung\n      Systematisches Vorgehen zur Lösung eines Rechtsproblems;\n      1 Sachverhalt analysieren\n        Was ist passiert? Wer ist beteiligt?;\n      2 Relevante Regel finden\n        Welches Gesetz/Artikel ist anwendbar?;\n      3 Regel analysieren\n        Welche Voraussetzungen - Tatbestandsmerkmale - hat die Regel?;\n      4 Regel anwenden und Rechtsfolge bestimmen\n        Sind die Voraussetzungen im Fall erfüllt? Was ist die Konsequenz?;"
+        }
+      ]
+    }
+  ]
+}

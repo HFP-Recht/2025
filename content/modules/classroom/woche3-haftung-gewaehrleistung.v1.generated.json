@@ -1,0 +1,412 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "woche3-haftung-gewaehrleistung",
+  "title": "Woche 3 - Modul 2: Haftung und Gewaehrleistung",
+  "description": "Classroom Mock fuer die React-App mit 4 Tabs: Grundlagen, Kurzuebersicht, Rechtsfaelle und Transfer.",
+  "outcomes": [
+    "Die Lernenden unterscheiden Kauf- und Werkvertragsmaengel sicher.",
+    "Die Lernenden wenden PrHG-Abgrenzung und Eigentumsvorbehalt praxisnah an.",
+    "Die Lernenden nutzen eine strukturierte 4-Schritt-Fallanalyse fuer Reklamationen.",
+    "Die Lernenden trennen Rechtspflicht und Kulanz in der Kundenkommunikation."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [
+    {
+      "id": "or-art-197",
+      "citation": "OR Art. 197 ff."
+    },
+    {
+      "id": "or-art-205",
+      "citation": "OR Art. 205"
+    },
+    {
+      "id": "or-art-367",
+      "citation": "OR Art. 367 ff."
+    },
+    {
+      "id": "or-art-368",
+      "citation": "OR Art. 368"
+    },
+    {
+      "id": "prhg-art-1",
+      "citation": "PrHG Art. 1"
+    },
+    {
+      "id": "zgb-art-715",
+      "citation": "ZGB Art. 715"
+    }
+  ],
+  "metadata": {
+    "language": "de-CH",
+    "estimatedMinutes": 180
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "docs/01 Vertragsform.md",
+      "docs/02 Das Wichtigste in Kuerze.md",
+      "docs/03 Rechtsfaelle.md",
+      "docs/04 Mindmap.md",
+      "docs/01-grundlagen-des-vertragsrechts.json",
+      "docs/fallstudien-zu-schweizer-rechtsystem.json"
+    ],
+    "generatedBy": "manual-classroom-mock",
+    "generatedAt": "2026-02-11T18:45:00.000Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "tab_01_grundlagen",
+      "title": "01 Grundlagen",
+      "blocks": [
+        {
+          "id": "theory_w3_01",
+          "type": "theory",
+          "title": "Was muss im Reklamationsfall zuerst geklaert werden?",
+          "content": "Im Werkstattalltag wird zuerst der Vertragstyp geklaert: Kaufvertrag oder Werkvertrag. Danach werden Mangelbild, Fristen und moegliche Rechtsfolgen geordnet.\n\nKaufrechtliche Maengelrechte betreffen die gelieferte Sache (OR Art. 197 ff.). Werkvertragliche Maengelrechte betreffen die Qualitaet des Arbeitsergebnisses (OR Art. 367 ff.).\n\nKulanz ist freiwillig. Rechtspflichten folgen aus Vertrag und Gesetz. Diese Trennung muss im Kundengespraech transparent bleiben."
+        },
+        {
+          "id": "rich_w3_01",
+          "type": "rich-text-check",
+          "title": "Quill-Reflexion: Einordnung und Begruendung",
+          "introduction": "Formulieren Sie kurz, aber juristisch sauber. Nutzen Sie konkrete Begriffe aus dem Unterricht.",
+          "prompts": [
+            {
+              "id": "rq_w3_01_a",
+              "prompt": "Erklaeren Sie in eigenen Worten den Unterschied zwischen Maengelrechten im Kaufvertrag und im Werkvertrag.",
+              "hint": "Leistungsgegenstand sauber trennen: Sache vs Arbeitsergebnis.",
+              "solution": "<p>Im Kaufvertrag steht die mangelhafte Sache im Zentrum (OR Art. 197 ff.). Im Werkvertrag steht das mangelhafte Werk im Zentrum (OR Art. 367 ff.).</p>",
+              "requiredLegalReferences": [
+                "or-art-197",
+                "or-art-367"
+              ]
+            },
+            {
+              "id": "rq_w3_01_b",
+              "prompt": "Formulieren Sie einen Satz, mit dem Sie einer Kundin Rechtspflicht und Kulanz klar unterscheiden.",
+              "hint": "Erst Pflichtleistung benennen, danach freiwilliges Angebot.",
+              "solution": "<p>Rechtlich geschuldet ist die Nachbesserung im Rahmen der gesetzlichen Voraussetzungen; darueber hinaus bieten wir Ihnen aus Kulanz eine Zusatzloesung an.</p>"
+            }
+          ]
+        },
+        {
+          "id": "obj_w3_01",
+          "type": "objective-check",
+          "title": "Objektiver Check: Grundlagen",
+          "items": [
+            {
+              "id": "obj_w3_01_single",
+              "kind": "mc-single",
+              "prompt": "Welche Aussage beschreibt den Kern von OR Art. 367 ff. am besten?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Regelt primaer die Maengelrechte bei Kaufvertraegen.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "o2",
+                  "text": "Regelt die Maengelrechte beim Werkvertrag und die Pruefung des Werks.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "o3",
+                  "text": "Regelt ausschliesslich den Eigentumsvorbehalt.",
+                  "isCorrect": false
+                }
+              ],
+              "feedbackCorrect": "Richtig. Werkvertragsmaengel drehen sich um das geschuldete Arbeitsergebnis.",
+              "feedbackIncorrect": "Fast. Pruefen Sie, ob es bei der Norm um die Sache oder um das Werk geht.",
+              "requiredLegalReferences": [
+                "or-art-367"
+              ]
+            },
+            {
+              "id": "obj_w3_01_tf",
+              "kind": "true-false",
+              "prompt": "Kulanz ist eine einklagbare gesetzliche Pflicht.",
+              "correctAnswer": false,
+              "feedbackCorrect": "Genau. Kulanz ist freiwillig und keine erzwingbare Pflicht.",
+              "feedbackIncorrect": "Nicht ganz. Kulanz ist gerade kein gesetzlicher Muss-Anspruch."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "tab_02_kuerze",
+      "title": "02 Das Wichtigste in Kuerze",
+      "blocks": [
+        {
+          "id": "theory_w3_02",
+          "type": "theory",
+          "title": "6-Schritte-Merkkarte fuer den Betrieb",
+          "content": "1) Vertragstyp bestimmen.\n2) Mangelbild sauber dokumentieren.\n3) Fristen und Ruege pruefen.\n4) Rechtsfolge bestimmen (Nachbesserung, Minderung, Rueckabwicklung, Schadenersatz).\n5) PrHG separat mitdenken, wenn Produktschaden mit Drittbezug vorliegt.\n6) Pflichtleistung und Kulanz im Gespraech trennen."
+        },
+        {
+          "id": "obj_w3_02",
+          "type": "objective-check",
+          "title": "Objektiver Check: Zuordnen und Reihenfolge",
+          "items": [
+            {
+              "id": "obj_w3_02_multi",
+              "kind": "mc-multi",
+              "prompt": "Welche Punkte gehoeren zwingend in eine belastbare Reklamationsdokumentation?",
+              "options": [
+                {
+                  "id": "m1",
+                  "text": "Zeitpunkt der Mangelmeldung",
+                  "isCorrect": true
+                },
+                {
+                  "id": "m2",
+                  "text": "Technische Beschreibung des Mangels",
+                  "isCorrect": true
+                },
+                {
+                  "id": "m3",
+                  "text": "Persoenliche Sympathieeinschaetzung des Kunden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "m4",
+                  "text": "Nachweis bereits erfolgter Nachbesserungen",
+                  "isCorrect": true
+                }
+              ],
+              "feedbackCorrect": "Treffer. Diese Punkte sichern die spaetere Rechtsbeurteilung ab.",
+              "feedbackIncorrect": "Unvollstaendig oder zu viel. Fokus auf rechtlich und technisch relevante Fakten."
+            },
+            {
+              "id": "obj_w3_02_matching",
+              "kind": "matching",
+              "prompt": "Ordnen Sie die Begriffe korrekt zu.",
+              "pairs": [
+                {
+                  "id": "pair_1",
+                  "left": "PrHG",
+                  "right": "Produkthaftung bei fehlerhaftem Produkt"
+                },
+                {
+                  "id": "pair_2",
+                  "left": "OR Art. 197 ff.",
+                  "right": "Maengelrechte im Kaufvertrag"
+                },
+                {
+                  "id": "pair_3",
+                  "left": "ZGB Art. 715",
+                  "right": "Eigentumsvorbehalt als Sicherungsmittel"
+                }
+              ],
+              "distractors": [
+                "Beliebiges Kulanzversprechen"
+              ],
+              "feedbackCorrect": "Sehr gut. Die Zuordnung ist juristisch sauber.",
+              "feedbackIncorrect": "Mindestens eine Zuordnung passt nicht. Pruefen Sie die Kernfunktion jeder Norm.",
+              "requiredLegalReferences": [
+                "prhg-art-1",
+                "or-art-197",
+                "zgb-art-715"
+              ]
+            },
+            {
+              "id": "obj_w3_02_order",
+              "kind": "ordering",
+              "prompt": "Bringen Sie den Reklamationsablauf in die richtige Reihenfolge.",
+              "items": [
+                {
+                  "id": "ord_3",
+                  "text": "Anspruch und Rechtsfolge pruefen"
+                },
+                {
+                  "id": "ord_1",
+                  "text": "Sachverhalt und Dokumentation sichern"
+                },
+                {
+                  "id": "ord_4",
+                  "text": "Pflichtleistung und Kulanz sauber kommunizieren"
+                },
+                {
+                  "id": "ord_2",
+                  "text": "Vertragstyp und Normen bestimmen"
+                }
+              ],
+              "correctOrder": [
+                "ord_1",
+                "ord_2",
+                "ord_3",
+                "ord_4"
+              ],
+              "feedbackCorrect": "Stimmt. So bleibt die Fallbearbeitung nachvollziehbar und rechtssicher.",
+              "feedbackIncorrect": "Die Reihenfolge ist noch nicht stimmig. Beginnen Sie immer mit den Fakten, nicht mit der Loesung."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "tab_03_rechtsfaelle",
+      "title": "03 Rechtsfaelle",
+      "blocks": [
+        {
+          "id": "law_w3_03",
+          "type": "law-case-4-step",
+          "title": "Fall: Wiederholter Defekt nach Reparatur",
+          "caseText": "Drei Tage nach einer teuren Getriebereparatur tritt derselbe Defekt erneut auf. Die Werkstatt hat bereits einmal nachgebessert. Der Kunde verlangt sofort volle Rueckerstattung und ein kostenloses Ersatzgeraet.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Welche Fakten und Nachweise sind sofort zu sichern?",
+              "hint": "Auftrag, bisherige Nachbesserung, Mangelprotokoll, Zeitachse.",
+              "solution": "Zuerst werden Auftrag, Leistungsumfang, Mangelbild, Ruegezeitpunkt und bisherige Nachbesserung lueckenlos dokumentiert."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welches Rechtsgebiet steht im Vordergrund und warum?",
+              "hint": "Liegt der Schwerpunkt auf der Reparaturleistung oder auf einer gekauften Sache?",
+              "solution": "Im Zentrum steht der Werkvertrag, da die mangelhafte Reparaturleistung beurteilt wird (OR Art. 367 ff.)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen pruefen",
+              "prompt": "Welche Voraussetzungen sind fuer Nachbesserung, Minderung oder Rueckabwicklung zu pruefen?",
+              "hint": "Zumutbarkeit, Erfolgsaussicht weiterer Nachbesserung, Dokumentation.",
+              "solution": "Es wird geprueft, ob weitere Nachbesserung noch zumutbar ist oder ob Minderung bzw. Rueckabwicklung sachlich angezeigt sind."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wie formulieren Sie die Entscheidung rechtssicher und kundenklar?",
+              "hint": "Pflichtleistung und allfaellige Kulanz strikt trennen.",
+              "solution": "Die Werkstatt kommuniziert zuerst die rechtlich geschuldete Leistung. Eine moegliche Kulanz wird separat als freiwilliges Angebot gekennzeichnet."
+            }
+          ]
+        },
+        {
+          "id": "obj_w3_03",
+          "type": "objective-check",
+          "title": "Kurzfall Drill",
+          "items": [
+            {
+              "id": "obj_w3_03_cloze",
+              "kind": "cloze",
+              "prompt": "Ergaenzen Sie die Schluesselbegriffe.",
+              "text": "Bei einem wiederholten Mangel wird zuerst der __________ gesichert, danach die __________ bestimmt, bevor eine __________ kommuniziert wird.",
+              "blanks": [
+                {
+                  "id": "blank_1",
+                  "label": "Schritt 1",
+                  "answer": "Sachverhalt",
+                  "alternatives": [
+                    "Sachverhalt und Dokumentation"
+                  ]
+                },
+                {
+                  "id": "blank_2",
+                  "label": "Schritt 2",
+                  "answer": "Rechtsgrundlage",
+                  "alternatives": [
+                    "Rechtsgrundlagen"
+                  ]
+                },
+                {
+                  "id": "blank_3",
+                  "label": "Schritt 4",
+                  "answer": "Pflichtleistung",
+                  "alternatives": [
+                    "rechtlich geschuldete Leistung"
+                  ]
+                }
+              ],
+              "feedbackCorrect": "Stark. Sie haben die didaktische Reihenfolge des 4-Schritt-Schemas verinnerlicht.",
+              "feedbackIncorrect": "Noch nicht ganz. Denken Sie an Reihenfolge: Fakten, Normen, Pruefung, Kommunikation."
+            }
+          ]
+        },
+        {
+          "id": "rich_w3_03",
+          "type": "rich-text-check",
+          "title": "Quill-Kurzbegruendung zum Fall",
+          "prompts": [
+            {
+              "id": "rq_w3_03_a",
+              "prompt": "Formulieren Sie eine 5-Satz-Begruendung, warum eine direkte Vollrueckerstattung nicht automatisch geschuldet ist.",
+              "hint": "Beziehen Sie Zumutbarkeit der Nachbesserung und abgestufte Rechtsfolgen ein.",
+              "solution": "<p>Eine Vollrueckerstattung ist nicht automatisch geschuldet. Zuerst ist zu pruefen, welche Rechtsfolge im konkreten Werkvertragsfall angemessen ist. Nachbesserung kann vorrangig sein, solange sie zumutbar und erfolgversprechend ist. Erst bei Scheitern oder Unzumutbarkeit kommen weitergehende Rechtsfolgen in Betracht. Eine allfaellige Kulanz ist davon getrennt zu beurteilen.</p>",
+              "requiredLegalReferences": [
+                "or-art-367",
+                "or-art-368"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "tab_04_transfer",
+      "title": "04 Mindmap und Transfer",
+      "blocks": [
+        {
+          "id": "discussion_w3_04",
+          "type": "discussion-prompt",
+          "title": "Transferauftrag fuer den Betrieb",
+          "prompts": [
+            {
+              "id": "dp_w3_04_1",
+              "prompt": "Erstellen Sie als Team eine Mindmap mit den Aesten Maengelrechte, PrHG, Eigentumsvorbehalt und Kundenkommunikation."
+            },
+            {
+              "id": "dp_w3_04_2",
+              "prompt": "Definieren Sie zwei Standardsaetze, mit denen Frontoffice und Werkstattleitung Rechtspflicht und Kulanz einheitlich kommunizieren."
+            },
+            {
+              "id": "dp_w3_04_3",
+              "prompt": "Nennen Sie drei Verbesserungen in Ihrem Reklamationsprozess, die Sie ab morgen umsetzen koennen."
+            }
+          ]
+        },
+        {
+          "id": "solution_w3_04",
+          "type": "solution-unlock",
+          "title": "Lehrperson: Musterhinweise",
+          "unlockMode": "role-based",
+          "allowedRoles": [
+            "teacher",
+            "admin",
+            "editor"
+          ],
+          "solutions": [
+            {
+              "id": "sol_w3_04_1",
+              "title": "Musterlogik Grundlagen",
+              "content": "Starten Sie immer mit der Trennung Kaufvertrag vs Werkvertrag. Erst danach folgen Fristenpruefung und Rechtsfolgeentscheidung.",
+              "relatedQuestionIds": [
+                "rq_w3_01_a",
+                "obj_w3_01_single"
+              ]
+            },
+            {
+              "id": "sol_w3_04_2",
+              "title": "Musterlogik Rechtsfall",
+              "content": "Im Fall mit wiederholtem Defekt wird die Rechtsfolge abgestuft geprueft. Eine sofortige Maximalforderung des Kunden ist nicht automatisch geschuldet.",
+              "relatedQuestionIds": [
+                "step_4",
+                "rq_w3_03_a"
+              ]
+            },
+            {
+              "id": "sol_w3_04_3",
+              "title": "Musterlogik Kommunikation",
+              "content": "Empfehlung fuer den Betrieb: Erst rechtlich geschuldete Leistung nennen, danach freiwillige Kulanz als gesondertes Angebot ausweisen.",
+              "relatedQuestionIds": [
+                "rq_w3_01_b",
+                "dp_w3_04_2"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

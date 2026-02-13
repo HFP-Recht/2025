@@ -1,0 +1,115 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function role() {
+      return signedIn() && request.auth.token.role is string
+        ? request.auth.token.role
+        : '';
+    }
+
+    function isAdmin() {
+      return role() == 'admin';
+    }
+
+    function isTeacher() {
+      return role() == 'teacher';
+    }
+
+    function isStudent() {
+      return role() == 'student';
+    }
+
+    function classIds() {
+      return signedIn() && request.auth.token.classIds is list
+        ? request.auth.token.classIds
+        : [];
+    }
+
+    function hasClass(classId) {
+      return isAdmin() || classIds().hasAny([classId]);
+    }
+
+    match /modules/{moduleId} {
+      allow read: if signedIn();
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /moduleVersions/{moduleVersionId} {
+      allow read: if signedIn()
+        && (
+          resource.data.status == 'published'
+          || isTeacher()
+          || isAdmin()
+          || role() == 'editor'
+        );
+      allow create, update, delete: if isAdmin() || role() == 'editor';
+    }
+
+    match /attempts/{attemptId} {
+      allow read: if isAdmin()
+        || (signedIn() && resource.data.ownerUid == request.auth.uid)
+        || (isTeacher() && hasClass(resource.data.classId));
+
+      allow create: if isStudent()
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.status == 'draft'
+        && hasClass(request.resource.data.classId);
+
+      allow update: if isStudent()
+        && resource.data.ownerUid == request.auth.uid
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.classId == resource.data.classId
+        && request.resource.data.moduleId == resource.data.moduleId
+        && request.resource.data.moduleVersionId == resource.data.moduleVersionId
+        && request.resource.data.status in ['draft', 'submitted'];
+
+      allow delete: if false;
+    }
+
+    match /submissions/{submissionId} {
+      allow read: if isAdmin()
+        || (signedIn() && resource.data.ownerUid == request.auth.uid)
+        || (isTeacher() && hasClass(resource.data.classId));
+
+      allow create: if isStudent()
+        && request.resource.data.ownerUid == request.auth.uid
+        && hasClass(request.resource.data.classId);
+
+      allow update, delete: if false;
+    }
+
+    match /classes/{classId} {
+      allow read: if signedIn() && hasClass(classId);
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /enrollments/{enrollmentId} {
+      allow read: if isAdmin() || (isTeacher() && hasClass(resource.data.classId));
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /users/{uid} {
+      allow read: if isAdmin() || (signedIn() && request.auth.uid == uid);
+
+      allow create: if isAdmin() || (signedIn() && request.auth.uid == uid);
+
+      allow update: if isAdmin() || (
+        signedIn()
+        && request.auth.uid == uid
+        && request.resource.data.role == resource.data.role
+        && request.resource.data.classIds == resource.data.classIds
+      );
+
+      allow delete: if isAdmin();
+    }
+
+    match /auditLogs/{logId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+  }
+}

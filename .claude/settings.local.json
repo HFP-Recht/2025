@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsx scripts/migrate-module.ts:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npx vite build:*)",
+      "Bash(for f in content/modules/10-*.json content/modules/20-*.json content/modules/30-*.json content/modules/40-*.json content/modules/50-*.json content/modules/60-*.json content/modules/70-*.json content/modules/80-*.json)",
+      "Bash(do echo \"=== $f ===\")",
+      "Bash(npx tsx:*)"
+    ]
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "status": "success",
+  "assignmentTitle": "Fallstudien zum Vertragsrecht für Werkstattleiter",
+  "solution_keys": [
+    "master2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "fall-id-1": {
+      "title": "Fall 1 (Grundlagen): Die alte Egge",
+      "type": "law_case",
+      "caseText": "Landwirt Huber bringt seinen Traktor zur Reparatur in die Werkstatt von Frau Keller. Die Reparaturkosten belaufen sich auf CHF 2'500. Da Herr Huber knapp bei Kasse ist, bietet er Frau Keller an, die Reparaturkosten mit seiner alten, aber noch funktionstüchtigen Egge (Wert ca. CHF 2'000) zu begleichen und den Rest von CHF 500 in bar zu bezahlen. Frau Keller ist einverstanden.\nUm welche Art von Vertrag handelt es sich hier?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Analysieren Sie die Leistungen, die ausgetauscht werden: eine Reparatur und eine Barzahlung gegen eine Sachleistung (Egge)."
+        },
+        {
+          "id": "step_2",
+          "text": "Prüfen Sie die Definitionen von Kaufvertrag (<strong>OR Art. 184</strong>), Tauschvertrag (<strong>OR Art. 237</strong>) und Schenkung (<strong>OR Art. 239</strong>)."
+        },
+        {
+          "id": "step_3",
+          "text": "Vergleichen Sie die Merkmale der reinen Vertragsarten mit der hier vorliegenden gemischten Leistung. Welcher Vertragstyp überwiegt oder handelt es sich um eine Kombination?"
+        },
+        {
+          "id": "step_4",
+          "text": "Bestimmen Sie den Vertragstyp basierend darauf, ob der Tausch- oder der Kaufcharakter im Vordergrund steht."
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Landwirt Huber, Werkstattleiterin Keller.<br><strong>Was ist passiert:</strong> Eine Reparaturleistung (CHF 2'500) wird teilweise durch eine Sache (Egge im Wert von CHF 2'000) und teilweise durch Geld (CHF 500) bezahlt.<br><strong>Rechtsfrage:</strong> Welcher Vertragstyp liegt vor, wenn eine Leistung mit einer Sache und Geld abgegolten wird?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Besonderer Teil des Obligationenrechts.<br><strong>Rechtsvorschrift:</strong> Relevant sind die Definitionen des Kaufvertrags (Ware gegen Geld, <strong>OR Art. 184</strong>) und des Tauschvertrags (Ware gegen Ware, <strong>OR Art. 237</strong>). Da auch eine Reparatur (Werkvertrag) involviert ist, handelt es sich um einen gemischten Vertrag.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Beim reinen Kauf wird eine Sache gegen Geld getauscht. Beim reinen Tausch wird eine Sache gegen eine andere Sache getauscht. Hier liegt eine Mischform vor. In der Praxis wird bei solchen gemischten Verträgen (Tausch mit Aufgeld) geprüft, welche Leistung überwiegt.<br><strong>Rechtsfolge:</strong> Überwiegt der Wert der Sachleistung, werden primär die Regeln des Tauschvertrags angewendet. Überwiegt die Geldleistung, gelten die Regeln des Kaufvertrags.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Wert der Egge (CHF 2'000) übersteigt den Baranteil (CHF 500) deutlich. Der Schwerpunkt der Gegenleistung liegt also auf der Sachleistung.<br><strong>Konsequenz:</strong> Es handelt sich primär um einen <strong>Tauschvertrag mit Aufgeld</strong>. Für die Egge gelten die Gewährleistungsregeln des Tauschvertrags, die auf das Kaufrecht verweisen (<strong>OR Art. 238</strong>).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn die Egge nur CHF 500 wert wäre und Herr Huber CHF 2'000 bar bezahlen würde?",
+            "answer": "<p>In diesem Fall würde die Geldleistung (Kaufpreiselement) klar überwiegen. Das Geschäft würde dann als <strong>Kaufvertrag mit Teilzahlung durch eine Sache</strong> qualifiziert. Es kämen primär die Regeln des Kaufvertrags zur Anwendung.</p>"
+          },
+          {
+            "question": "Spielt es eine Rolle, dass die ursprüngliche Leistung von Frau Keller eine Reparatur (Werkvertrag) war?",
+            "answer": "<p>Ja, das ist eine wichtige Präzisierung. Der gesamte Vorgang ist ein gemischter Vertrag, der Elemente des Werkvertrags und des Tauschvertrags (oder Kaufvertrags) kombiniert. Für die Reparatur selbst gilt das Werkvertragsrecht (z.B. Haftung für Mängel der Reparatur). Für die Bezahlung durch die Egge gelten die Regeln des Tausch- bzw. Kaufvertrags.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-2": {
+      "title": "Fall 2 (Grundlagen): Der Anruf am Samstag",
+      "type": "law_case",
+      "caseText": "Ein Bauunternehmer sieht am Samstag in einem Online-Inserat, dass die Werkstatt von Herrn Moser einen gebrauchten Minibagger für CHF 18'000 anbietet. Er ruft Herrn Moser sofort an und sagt: 'Ich nehme den Minibagger für 18'000 Franken, wie inseriert.' Herr Moser antwortet: 'Perfekt, abgemacht!'\nIst durch dieses Telefongespräch ein gültiger Vertrag entstanden?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Identifizieren Sie die Willenserklärungen der beiden Parteien am Telefon."
+        },
+        {
+          "id": "step_2",
+          "text": "Welche Voraussetzungen müssen für einen Vertragsabschluss erfüllt sein? Schauen Sie sich <strong>OR Art. 1</strong> an."
+        },
+        {
+          "id": "step_3",
+          "text": "Ein Vertrag erfordert eine übereinstimmende gegenseitige Willenserklärung. Analysieren Sie, ob die Aussagen des Bauunternehmers und von Herrn Moser diese Bedingung erfüllen."
+        },
+        {
+          "id": "step_4",
+          "text": "Wenden Sie die Regel auf den Sachverhalt an. Wurden die wesentlichen Vertragspunkte (Kaufgegenstand, Kaufpreis) geklärt und von beiden Seiten akzeptiert?"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Bauunternehmer (Käufer), Werkstattleiter Moser (Verkäufer).<br><strong>Was ist passiert:</strong> Per Telefon einigen sich die Parteien über den Kauf eines spezifischen Minibaggers zu einem bestimmten Preis.<br><strong>Rechtsfrage:</strong> Reicht eine mündliche Einigung am Telefon für einen gültigen Kaufvertrag aus?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Allgemeiner Teil des Obligationenrechts, Vertragsentstehung.<br><strong>Rechtsvorschrift:</strong> <strong>OR Art. 1 Abs. 1</strong>, der die übereinstimmende gegenseitige Willenserklärung als Voraussetzung für den Vertragsabschluss nennt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Für einen Vertragsschluss braucht es einen Antrag (Offerte) und eine Annahme (Akzept). Die Erklärungen müssen inhaltlich übereinstimmen und die wesentlichen Vertragspunkte (essentialia negotii) umfassen. Beim Kaufvertrag sind dies der <strong>Kaufgegenstand</strong> und der <strong>Kaufpreis</strong>.<br><strong>Rechtsfolge:</strong> Sind diese Voraussetzungen erfüllt, ist der Vertrag zustande gekommen.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Bauunternehmer macht mit seinem Anruf eine klare Annahme des Angebots aus dem Inserat. Herr Moser bestätigt diese Annahme mit 'Perfekt, abgemacht!'. Beide sind sich über den Kaufgegenstand (der spezifische Minibagger) und den Kaufpreis (CHF 18'000) einig.<br><strong>Konsequenz:</strong> Ja, es ist ein <strong>gültiger und verbindlicher Kaufvertrag</strong> entstanden. Sofern das Gesetz keine besondere Form vorschreibt (was hier nicht der Fall ist), können Verträge auch mündlich abgeschlossen werden (Grundsatz der Formfreiheit, <strong>OR Art. 11</strong>).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was sind die Hauptpflichten, die durch diesen Vertrag für beide Parteien entstanden sind?",
+            "answer": "<p>Für Herrn Moser entsteht die Pflicht, dem Bauunternehmer den Minibagger zu übergeben und ihm das Eigentum daran zu verschaffen (<strong>Warenobligation</strong>). Für den Bauunternehmer entsteht die Pflicht, den Kaufpreis von CHF 18'000 zu bezahlen (<strong>Kaufpreisobligation</strong>).</p>"
+          },
+          {
+            "question": "Warum ist es trotzdem ratsam, einen solchen Vertrag schriftlich festzuhalten?",
+            "answer": "<p>Aus <strong>Beweisgründen</strong>. Bei einem mündlichen Vertrag kann es später schwierig sein, den genauen Inhalt (z.B. Zustand der Maschine, Liefertermin, Zahlungsmodalitäten) oder sogar das Zustandekommen des Vertrags selbst zu beweisen, wenn eine Partei ihre Meinung ändert.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-3": {
+      "title": "Fall 3 (Grundlagen): Der Blitzeinschlag",
+      "type": "law_case",
+      "caseText": "Die Werkstatt 'BaumaPro AG' verkauft dem Kunden Frei am Montag einen spezifischen, gebrauchten Radlader, der auf dem Hof steht (Seriennummer XZ-123), für CHF 50'000. Sie vereinbaren, dass Herr Frei den Radlader am Freitag abholen und bezahlen wird. In der Nacht auf Mittwoch zerstört ein unvorhersehbarer Blitzeinschlag den Radlader vollständig.\nHerr Frei weigert sich, den Kaufpreis zu bezahlen. Die BaumaPro AG besteht auf der Zahlung. Wer ist im Recht?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Klären Sie, um welche Art von Kaufsache es sich handelt: Ist der Radlader individuell bestimmt oder nur der Gattung nach?"
+        },
+        {
+          "id": "step_2",
+          "text": "Finden Sie den Gesetzesartikel, der den Übergang von Nutzen und Gefahr beim Kaufvertrag regelt. Beachten Sie den Unterschied zwischen Spezies- und Gattungsware. Relevant ist <strong>OR Art. 185</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Lesen Sie <strong>OR Art. 185 Abs. 1</strong> genau. Wann genau gehen Nutzen und Gefahr bei einer Speziessache auf den Käufer über?"
+        },
+        {
+          "id": "step_4",
+          "text": "Wenden Sie diese Regel auf den Fall an. Wann wurde der Vertrag geschlossen? Wann ging die Sache unter? Wer trug zu diesem Zeitpunkt die Gefahr?"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> BaumaPro AG (Verkäuferin), Kunde Frei (Käufer).<br><strong>Was ist passiert:</strong> Eine verkaufte, aber noch nicht übergebene, spezifische Maschine wird durch höhere Gewalt (Blitzschlag) zerstört.<br><strong>Rechtsfrage:</strong> Muss der Käufer den Kaufpreis bezahlen, obwohl er die Maschine nicht mehr erhalten kann?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht.<br><strong>Rechtsvorschrift:</strong> Die Regelung über den Übergang von Nutzen und Gefahr findet sich in <strong>OR Art. 185</strong>. Da es sich um einen spezifischen, individuell bestimmten Radlader handelt, liegt ein <strong>Spezieskauf</strong> vor.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse (Spezieskauf):</strong> Gemäss <strong>OR Art. 185 Abs. 1</strong> gehen Nutzen und Gefahr einer Sache, sofern nicht anders vereinbart, bereits mit dem <strong>Abschluss des Vertrages</strong> auf den Erwerber über.<br><strong>Rechtsfolge:</strong> Der Käufer trägt das Risiko des zufälligen Untergangs der Sache ab dem Moment des Vertragsabschlusses, auch wenn die Sache noch beim Verkäufer ist.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Kaufvertrag wurde am Montag geschlossen. Der Radlader ist eine Speziessache. Somit ging die Gefahr des zufälligen Untergangs am Montag auf Herrn Frei über. Der Blitzeinschlag in der Nacht auf Mittwoch war ein solches zufälliges Ereignis.<br><strong>Konsequenz:</strong> Die <strong>BaumaPro AG ist im Recht</strong>. Herr Frei muss den Kaufpreis von CHF 50'000 bezahlen, obwohl er den Radlader nicht erhält. Er trug die 'Preisgefahr'.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie hätten die Parteien diese für den Käufer harte Regelung vermeiden können?",
+            "answer": "<p>Sie hätten im Kaufvertrag explizit vereinbaren können, dass Nutzen und Gefahr erst bei der <strong>Übergabe</strong> der Maschine auf den Käufer übergehen. Eine solche vertragliche Abweichung von <strong>OR Art. 185</strong> ist zulässig.</p>"
+          },
+          {
+            "question": "Was wäre, wenn der Radlader nicht durch einen Blitz, sondern durch die Fahrlässigkeit eines Mitarbeiters der BaumaPro AG zerstört worden wäre?",
+            "answer": "<p>Dann würde es sich nicht um einen zufälligen Untergang handeln. Die BaumaPro AG hätte die Zerstörung zu verantworten (Nichterfüllung des Vertrags, <strong>OR Art. 97</strong>). In diesem Fall müsste Herr Frei den Kaufpreis selbstverständlich nicht bezahlen und könnte sogar Schadenersatz fordern.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-4": {
+      "title": "Fall 4 (Anwenden): Die bestellten Filter",
+      "type": "law_case",
+      "caseText": "Ein Landmaschinenmechaniker bestellt bei einem Grosshändler 20 identische Hydraulikfilter des Typs 'HF-500' aus dessen Lager. Es wird vereinbart, dass der Mechaniker die Filter am nächsten Tag abholt (Platzkauf). Der Grosshändler stellt die 20 Filter noch am selben Abend auf einer Palette bereit und markiert sie mit dem Namen des Mechanikers. In der Nacht wird die Palette mit den Filtern von einem Gabelstaplerfahrer versehentlich zerstört.\nMuss der Mechaniker die zerstörten Filter bezahlen?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Handelt es sich hier um eine Spezies- oder eine Gattungssache? Was bedeutet 'Platzkauf'?"
+        },
+        {
+          "id": "step_2",
+          "text": "Suchen Sie die Regelung zum Gefahrübergang beim Gattungskauf in <strong>OR Art. 185 Abs. 2</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Was ist die entscheidende Handlung, die beim Platzkauf den Gefahrübergang auslöst? Definieren Sie den Begriff 'Ausscheidung'."
+        },
+        {
+          "id": "step_4",
+          "text": "Prüfen Sie, ob die Handlungen des Grosshändlers (Filter auf Palette bereitstellen und markieren) als 'Ausscheidung' im Sinne des Gesetzes gelten und was das für die Gefahrtragung bedeutet."
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Landmaschinenmechaniker (Käufer), Grosshändler (Verkäufer).<br><strong>Was ist passiert:</strong> Bestimmte, für einen Kunden bereitgestellte Gattungsware wird vor der Abholung im Lager des Verkäufers zerstört.<br><strong>Rechtsfrage:</strong> Wer trägt die Gefahr für die zerstörten Filter? Ging die Gefahr bereits vor der Abholung auf den Käufer über?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht.<br><strong>Rechtsvorschrift:</strong> Da die Filter nur der Gattung nach bestimmt sind ('Typ HF-500'), handelt es sich um einen <strong>Gattungskauf</strong>. Die massgebliche Vorschrift ist <strong>OR Art. 185 Abs. 2</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse (Gattungskauf):</strong> Gemäss <strong>OR Art. 185 Abs. 2</strong> geht bei Gattungssachen die Gefahr auf den Käufer über, sobald die Ware <strong>ausgeschieden</strong> ist. Beim Platzkauf (Ware wird vom Käufer abgeholt) bedeutet 'Ausscheidung', dass der Verkäufer alles seinerseits Erforderliche getan hat, damit der Käufer die Ware entgegennehmen kann. Die Ware muss klar identifiziert und für den Käufer separiert werden.<br><strong>Rechtsfolge:</strong> Mit der gültigen Ausscheidung geht die Gefahr auf den Käufer über.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Grosshändler hat die 20 Filter aus seinem Lager genommen, auf eine Palette gestellt und diese für den Mechaniker angeschrieben. Damit hat er die geschuldete Ware konkretisiert und von anderen Waren gleicher Art getrennt. Dies ist eine klare <strong>Ausscheidung</strong>. Die Zerstörung erfolgte nach diesem Zeitpunkt.<br><strong>Konsequenz:</strong> Ja, der Mechaniker muss die Filter <strong>bezahlen</strong>. Die Gefahr ist mit der Ausscheidung auf ihn übergegangen. Der Grosshändler hat seine Lieferpflicht erfüllt, indem er die Ware ausgeschieden hat. Der Mechaniker hat nun einen Schadenersatzanspruch gegen den Grosshändler aus Vertragsverletzung (<strong>OR Art. 97</strong>), weil dessen Mitarbeiter die Ware zerstört hat, aber die Kaufpreisforderung bleibt bestehen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre anders, wenn die Filter an den Mechaniker hätten versendet werden sollen (Versendungskauf)?",
+            "answer": "<p>Beim Versendungskauf geht die Gefahr gemäss <strong>OR Art. 185 Abs. 2</strong> auf den Käufer über, sobald die Ware <strong>zur Versendung aufgegeben</strong> wird (z.B. der Post oder einem Spediteur übergeben). Das blosse Bereitstellen im Lager würde hier noch nicht für den Gefahrübergang ausreichen.</p>"
+          },
+          {
+            "question": "Der Mechaniker muss also bezahlen, obwohl er nichts erhält. Was kann er tun?",
+            "answer": "<p>Obwohl die Preisgefahr auf ihn übergegangen ist, hat der Verkäufer bzw. dessen Hilfsperson (der Staplerfahrer) die Zerstörung verschuldet. Dies stellt eine positive Vertragsverletzung bzw. eine nachträgliche Unmöglichkeit dar, die der Verkäufer zu verantworten hat (<strong>OR Art. 97</strong>). Der Mechaniker kann daher vom Verkäufer Schadenersatz in der Höhe des Werts der Filter fordern. Im Ergebnis kann er seine Kaufpreisschuld mit diesem Schadenersatzanspruch verrechnen (<strong>OR Art. 120</strong>), sodass er faktisch nichts bezahlen muss.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-5": {
+      "title": "Fall 5 (Anwenden): Die verspätete Motorrevision",
+      "type": "law_case",
+      "caseText": "Ein Bauunternehmen beauftragt eine Werkstatt mit der Generalüberholung eines wichtigen Baumaschinen-Motors. Im Werkvertrag wird schriftlich festgehalten: 'Fertigstellung und Abholung spätestens am 31. Mai'. Am 31. Mai ist der Motor nicht fertig. Das Bauunternehmen braucht den Motor dringend und setzt der Werkstatt per E-Mail eine letzte Frist bis zum 10. Juni. Auch diese Frist verstreicht ungenutzt. Das Bauunternehmen lässt den Motor bei einer anderen, teureren Werkstatt für CHF 15'000 fertigstellen. Die ursprüngliche Werkstatt hätte CHF 12'000 verlangt. Kann das Bauunternehmen die Mehrkosten von CHF 3'000 geltend machen?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Identifizieren Sie die Vertragsart und das Problem. Es geht um die Nichteinhaltung eines Liefertermins."
+        },
+        {
+          "id": "step_2",
+          "text": "Die Regeln für den Verzug des Schuldners finden sich im Allgemeinen Teil des OR. Relevant sind <strong>OR Art. 102 ff.</strong>, insbesondere <strong>OR Art. 107</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Analysieren Sie die Voraussetzungen für die Geltendmachung von Schadenersatz wegen Nichterfüllung: Verzug, Nachfristsetzung und Wahlerklärung. Welche drei Wahlrechte hat der Gläubiger nach <strong>OR Art. 107 Abs. 2</strong>?"
+        },
+        {
+          "id": "step_4",
+          "text": "Prüfen Sie, ob das Bauunternehmen alle Schritte korrekt durchgeführt hat und welches Wahlrecht es ausgeübt hat. Berechnen Sie den daraus resultierenden Schaden."
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Bauunternehmen (Gläubiger/Besteller), Werkstatt (Schuldner/Unternehmer).<br><strong>Was ist passiert:</strong> Eine Werkstatt hält einen fixen Liefertermin (Verfalltag) und eine gesetzte Nachfrist für eine Motorrevision nicht ein.<br><strong>Rechtsfrage:</strong> Kann der Besteller die Mehrkosten für die Fertigstellung durch einen Dritten als Schadenersatz fordern?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Werkvertragsrecht, Allgemeiner Teil des OR (Schuldnerverzug).<br><strong>Rechtsvorschrift:</strong> Da ein klarer Liefertermin ('spätestens am 31. Mai') vereinbart war, handelt es sich um ein <strong>Verfalltagsgeschäft</strong>. Der Schuldner gerät mit Ablauf dieses Tages automatisch in Verzug (<strong>OR Art. 102 Abs. 2</strong>). Die weiteren Rechte des Gläubigers ergeben sich aus <strong>OR Art. 107</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Ist der Schuldner in Verzug, muss der Gläubiger ihm eine angemessene <strong>Nachfrist</strong> zur Erfüllung setzen (<strong>OR Art. 107 Abs. 1</strong>). Verstreicht auch diese ungenutzt, hat der Gläubiger drei Wahlrechte (<strong>OR Art. 107 Abs. 2</strong>):<br>1. Festhalten an der Leistung und Ersatz des Verspätungsschadens fordern.<br>2. Verzicht auf die Leistung und Schadenersatz wegen <strong>Nichterfüllung</strong> fordern (positives Vertragsinteresse).<br>3. Rücktritt vom Vertrag und Ersatz des Schadens aus dem Dahinfallen des Vertrags (negatives Vertragsinteresse).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die Werkstatt war ab dem 1. Juni in Verzug. Das Bauunternehmen hat korrekt eine Nachfrist bis zum 10. Juni gesetzt. Nach deren ungenutztem Ablauf hat es sich entschieden, die Leistung nicht mehr von der ursprünglichen Werkstatt zu wollen und hat einen Dritten beauftragt. Dies entspricht dem <strong>zweiten Wahlrecht</strong>: Verzicht auf die ursprüngliche Leistung und Forderung von Schadenersatz wegen Nichterfüllung. Der Schaden besteht in den Mehrkosten, die aufgewendet werden mussten, um die gleiche Leistung zu erhalten (Deckungsgeschäft).<br><strong>Konsequenz:</strong> Ja, das Bauunternehmen kann die <strong>Mehrkosten von CHF 3'000</strong> (CHF 15'000 - CHF 12'000) als Schadenersatz von der ersten Werkstatt fordern.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Hätte das Bauunternehmen die Nachfrist setzen müssen?",
+            "answer": "<p>Grundsätzlich ja. Eine Nachfrist ist nur in Ausnahmefällen nicht nötig, z.B. wenn sie von vornherein nutzlos wäre oder wenn ein Fixgeschäft (<strong>OR Art. 108</strong>) vorliegt, bei dem die Leistung nach dem Termin für den Gläubiger keinen Sinn mehr macht. Hier war die Leistung zwar dringend, aber nicht nutzlos, daher war die Nachfristsetzung korrekt und notwendig.</p>"
+          },
+          {
+            "question": "Was ist der Unterschied zwischen Schadenersatz wegen Nichterfüllung (positives Interesse) und Schadenersatz aus Vertragsrücktritt (negatives Interesse)?",
+            "answer": "<p>Beim <strong>positiven Interesse</strong> wird der Gläubiger so gestellt, als wäre der Vertrag korrekt erfüllt worden (hier: er erhält den reparierten Motor, aber die Mehrkosten werden ihm ersetzt). Beim <strong>negativen Interesse</strong> (nach Rücktritt) wird er so gestellt, als hätte er den Vertrag nie abgeschlossen. Er könnte dann z.B. die Kosten für die Vertragsverhandlungen oder andere vergebliche Aufwendungen zurückfordern, aber nicht die Mehrkosten für die Ersatzleistung.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-6": {
+      "title": "Fall 6 (Anwenden): Der mündliche Ratenkauf",
+      "type": "law_case",
+      "caseText": "Werkstattleiter Baumgartner verkauft dem Privatmann Schmid eine gebrauchte Schneefräse für CHF 4'800. Da sie sich gut kennen, vereinbaren sie mündlich, dass Schmid in 24 Monatsraten à CHF 200 zahlt. Nach zwei bezahlten Raten verliert Schmid seine Arbeit und will vom Kauf zurücktreten. Er argumentiert, der Vertrag sei ungültig, weil er nicht schriftlich abgeschlossen wurde. Hat er Recht?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Identifizieren Sie die Vertragsart (Kauf) und die besondere Zahlungsbedingung (Ratenzahlung). Beachten Sie, dass der Käufer eine Privatperson ist."
+        },
+        {
+          "id": "step_2",
+          "text": "Prüfen Sie, ob für solche Verträge ein Spezialgesetz zur Anwendung kommt, das vom Grundsatz der Formfreiheit (<strong>OR Art. 11</strong>) abweicht. Denken Sie an den Konsumentenschutz."
+        },
+        {
+          "id": "step_3",
+          "text": "Lesen Sie die Bestimmungen des <strong>Konsumkreditgesetzes (KKG)</strong>, insbesondere <strong>KKG Art. 1</strong> (Geltungsbereich) und <strong>KKG Art. 9</strong> (Formvorschrift)."
+        },
+        {
+          "id": "step_4",
+          "text": "Wurde die im KKG verlangte Form im Sachverhalt eingehalten? Leiten Sie daraus die direkte Konsequenz für die Gültigkeit des Vertrages ab (siehe <strong>KKG Art. 15</strong>)."
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Baumgartner (Verkäufer), Privatmann Schmid (Käufer).<br><strong>Was ist passiert:</strong> Mündlicher Abschluss eines Abzahlungskaufs (Ratenkauf) mit einem Konsumenten.<br><strong>Rechtsfrage:</strong> Ist ein mündlich abgeschlossener Ratenkaufvertrag mit einem Konsumenten gültig?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Konsumkreditgesetz.<br><strong>Rechtsvorschrift:</strong> Grundsätzlich gilt Formfreiheit (<strong>OR Art. 11</strong>). Für Verträge mit Konsumenten, die eine Kreditgewährung beinhalten (wie Ratenzahlungen), ist jedoch das <strong>Konsumkreditgesetz (KKG)</strong> zu beachten.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Das KKG gilt für Kredite an Konsumenten (natürliche Personen, privater Zweck) zwischen CHF 500 und CHF 80'000 (<strong>KKG Art. 1 und 7</strong>). Gemäss <strong>KKG Art. 9</strong> muss ein Konsumkreditvertrag schriftlich abgefasst werden (qualifizierte Schriftlichkeit).<br><strong>Rechtsfolge bei Formmangel:</strong> Die Nichteinhaltung der Formvorschrift führt zur <strong>Nichtigkeit</strong> des Vertrages (<strong>KKG Art. 15</strong>). Bereits erbrachte Leistungen sind zurückzuerstatten.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Vertrag über CHF 4'800 fällt in den Geltungsbereich des KKG. Schmid ist Konsument. Der Vertrag wurde nur mündlich abgeschlossen und verletzt damit die zwingende Schriftform gemäss <strong>KKG Art. 9</strong>.<br><strong>Konsequenz:</strong> Ja, Schmid hat <strong>Recht</strong>. Der Vertrag ist <strong>nichtig</strong>. Er muss die Schneefräse zurückgeben und Baumgartner muss ihm die bereits bezahlten Raten (CHF 400) zurückerstatten.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wäre die Situation anders, wenn Schmid die Schneefräse für sein Gartenbauunternehmen gekauft hätte?",
+            "answer": "<p>Ja, wesentlich. Das KKG schützt nur Konsumenten, die einen Vertrag zu einem privaten Zweck abschliessen. Hätte Schmid die Maschine für sein Geschäft gekauft, wäre das KKG nicht anwendbar. Dann würde der Grundsatz der Formfreiheit (<strong>OR Art. 11</strong>) gelten und der mündliche Vertrag wäre <strong>gültig</strong>.</p>"
+          },
+          {
+            "question": "Was hätte Baumgartner tun müssen, um einen gültigen Vertrag abzuschliessen?",
+            "answer": "<p>Er hätte einen schriftlichen Vertrag aufsetzen müssen, der alle von <strong>KKG Art. 10</strong> geforderten Angaben enthält, wie z.B. den Barzahlungspreis, den Nettokreditbetrag, den effektiven Jahreszins und einen Hinweis auf das 14-tägige Widerrufsrecht des Konsumenten.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-7": {
+      "title": "Fall 7 (Analysieren): Der falsche Preis im Webshop",
+      "type": "law_case",
+      "caseText": "Der Werkstattleiter Herr Frisch inseriert in seinem Webshop ein professionelles Schweissgerät. Versehentlich tippt er als Preis CHF 680.- ein, obwohl er CHF 6'800.- meinte. Ein Konkurrent, der den extrem günstigen Preis bemerkt, bestellt das Gerät sofort online und erhält eine automatische Bestellbestätigung. Als Herr Frisch den Fehler bemerkt, weigert er sich, das Gerät zum tiefen Preis zu liefern. Der Konkurrent besteht auf der Lieferung. Wer ist im Recht?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Prüfen Sie zuerst, ob ein Vertrag zustande gekommen ist. Gilt die Preisauszeichnung im Webshop als verbindliches Angebot?"
+        },
+        {
+          "id": "step_2",
+          "text": "Wenn ein Vertrag zustande gekommen ist, prüfen Sie, ob sich Herr Frisch davon lösen kann. Das Stichwort ist 'Willensmangel'. Relevant sind <strong>OR Art. 23 ff.</strong>"
+        },
+        {
+          "id": "step_3",
+          "text": "Unterscheiden Sie die verschiedenen Arten von Irrtum. Handelt es sich hier um einen Motivirrtum oder einen Erklärungsirrtum? Ist der Irrtum wesentlich im Sinne von <strong>OR Art. 24</strong>?"
+        },
+        {
+          "id": "step_4",
+          "text": "Was ist die Rechtsfolge eines wesentlichen Irrtums? Muss Herr Frisch liefern? Könnte der Konkurrent allenfalls Schadenersatz fordern?"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Frisch (Verkäufer), Konkurrent (Käufer).<br><strong>Was ist passiert:</strong> Aufgrund eines Tippfehlers wird eine Ware online zu einem Zehntel des eigentlichen Preises angeboten und verkauft.<br><strong>Rechtsfrage:</strong> Ist der Verkäufer an den offensichtlich falschen Preis gebunden oder kann er den Vertrag anfechten?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Willensmängel.<br><strong>Rechtsvorschrift:</strong> Die Auslage von Waren mit Preisangabe gilt als Antrag (<strong>OR Art. 7 Abs. 3</strong>), somit ist ein Vertrag zustande gekommen. Der Verkäufer kann sich aber möglicherweise auf einen wesentlichen Irrtum berufen (<strong>OR Art. 23 ff.</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Ein Vertrag ist für diejenige Partei unverbindlich, die sich bei Abschluss in einem <strong>wesentlichen Irrtum</strong> befunden hat (<strong>OR Art. 23</strong>). Ein wesentlicher Irrtum liegt unter anderem dann vor, wenn der Irrende eine Leistung von erheblich grösserem Umfang versprochen hat, als es sein Wille war (<strong>Erklärungsirrtum</strong>, <strong>OR Art. 24 Abs. 1 Ziff. 3</strong>). Der Irrtum über den Preis (CHF 680 statt CHF 6'800) ist offensichtlich erheblich.<br><strong>Rechtsfolge:</strong> Der Vertrag ist einseitig unverbindlich und kann angefochten werden.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Herr Frisch wollte CHF 6'800, hat aber CHF 680 erklärt. Sein erklärter Wille weicht vom tatsächlichen Willen ab. Dies ist ein klassischer Erklärungsirrtum. Da die Abweichung erheblich ist (Faktor 10), ist der Irrtum wesentlich.<br><strong>Konsequenz:</strong> Herr Frisch kann den Vertrag wegen wesentlichen Irrtums <strong>anfechten</strong>. Der Vertrag wird dadurch ungültig. Er muss das Schweissgerät nicht für CHF 680 liefern. Der Konkurrent könnte jedoch argumentieren, dass er auf die Gültigkeit des Vertrages vertraut hat und eventuell Schadenersatz aus Fahrlässigkeit beim Vertragsabschluss fordern (<strong>OR Art. 26</strong>), was aber schwierig durchzusetzen ist, da er den Fehler hätte erkennen können (Handeln wider Treu und Glauben, <strong>ZGB Art. 2</strong>).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Innerhalb welcher Frist muss Herr Frisch den Irrtum geltend machen?",
+            "answer": "<p>Die Anfechtung muss innerhalb eines Jahres seit der Entdeckung des Irrtums erfolgen (<strong>OR Art. 31</strong>). Er muss also handeln, sobald er den Fehler bemerkt.</p>"
+          },
+          {
+            "question": "Wäre die Situation anders, wenn der Preis CHF 6'500 statt CHF 6'800 gewesen wäre?",
+            "answer": "<p>Das wäre schwieriger. Ein kleiner Tippfehler oder ein Rabatt wären nicht unbedingt als 'wesentlicher Irrtum' zu qualifizieren. Die Wesentlichkeit hängt immer von den Umständen des Einzelfalls ab. Ein Preis, der 10-mal zu tief ist, ist klar wesentlich. Ein Preis, der 5% zu tief ist, wahrscheinlich nicht.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-8": {
+      "title": "Fall 8 (Analysieren): Die 'ab Platz' verkaufte Maschine",
+      "type": "law_case",
+      "caseText": "Ein Werkstattleiter verkauft einem Landwirt einen 10-jährigen, gebrauchten Traktor. Im schriftlichen Vertrag steht die Klausel: 'Kauf wie gesehen und gefahren, ab Platz und ohne jegliche Garantie'. Eine Woche nach dem Kauf stellt der Landwirt fest, dass der Motor einen schweren, versteckten Riss hat, der schon beim Verkauf vorhanden gewesen sein muss. Die Reparatur kostet CHF 8'000. Der Werkstattleiter wusste von diesem Mangel nichts, hätte ihn aber bei einer genaueren Inspektion erkennen können. Kann der Landwirt trotz der Klausel Ansprüche geltend machen?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Das Kernproblem ist die Wirksamkeit eines Gewährleistungsausschlusses (Garantieausschluss) bei einem versteckten Mangel."
+        },
+        {
+          "id": "step_2",
+          "text": "Die gesetzlichen Regeln zur Gewährleistung finden sich in <strong>OR Art. 197 ff.</strong> Die entscheidende Norm für den Ausschluss der Gewährleistung ist <strong>OR Art. 199</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Analysieren Sie <strong>OR Art. 199</strong>. Unter welchen zwei Bedingungen ist ein vertraglicher Gewährleistungsausschluss ungültig?"
+        },
+        {
+          "id": "step_4",
+          "text": "Prüfen Sie, ob eine dieser Bedingungen im vorliegenden Fall erfüllt ist. Beachten Sie, dass der Verkäufer ein Profi (Werkstattleiter) ist. Was bedeutet 'arglistig verschwiegen'?"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter (Verkäufer), Landwirt (Käufer).<br><strong>Was ist passiert:</strong> Ein als 'ab Platz, ohne Garantie' verkauftes Fahrzeug weist einen schweren, versteckten Mangel auf, der bereits bei Verkauf bestand.<br><strong>Rechtsfrage:</strong> Ist der vertragliche Ausschluss der Gewährleistung (Garantie) in diesem Fall wirksam?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht, Sachmängelgewährleistung.<br><strong>Rechtsvorschrift:</strong> Die Haftung des Verkäufers für Mängel ist in <strong>OR Art. 197</strong> geregelt. Die Möglichkeit, diese Haftung vertraglich auszuschliessen, und die Grenzen dieses Ausschlusses sind in <strong>OR Art. 199</strong> festgelegt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Gemäss <strong>OR Art. 199</strong> ist eine Vereinbarung über die Aufhebung oder Beschränkung der Gewährleistungspflicht <strong>ungültig</strong>, wenn der Verkäufer dem Käufer die Gewährsmängel <strong>arglistig verschwiegen</strong> hat. Arglist liegt vor, wenn der Verkäufer den Mangel kennt und ihn absichtlich verschweigt. Nach der Rechtsprechung kann bei Fachleuten bereits das Verschweigen von Mängeln, die sie hätten kennen müssen, als arglistig gelten.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Werkstattleiter hat den Mangel zwar nicht gekannt, ihn aber fahrlässig nicht erkannt ('hätte ihn erkennen können'). Er hat den Mangel also nicht absichtlich (arglistig) im engeren Sinne verschwiegen. Die Klausel 'ab Platz, ohne Garantie' ist daher grundsätzlich gültig. Der Landwirt kann keine Ansprüche geltend machen.<br><strong>Aber:</strong> Hätte der Werkstattleiter den Mangel gekannt und bewusst nichts gesagt, wäre sein Handeln arglistig und der Gewährleistungsausschluss wäre ungültig. Der Landwirt könnte dann trotz der Klausel Mängelrechte (z.B. Minderung des Kaufpreises um CHF 8'000) geltend machen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist der Unterschied zwischen einem offenen und einem versteckten Mangel?",
+            "answer": "<p>Ein <strong>offener Mangel</strong> ist bei einer üblichen Prüfung der Kaufsache sofort erkennbar (z.B. ein grosser Kratzer). Er muss sofort gerügt werden. Ein <strong>versteckter Mangel</strong> zeigt sich erst später und war bei der Übergabe nicht erkennbar (z.B. der Haarriss im Motorblock). Er muss sofort nach seiner Entdeckung gerügt werden (<strong>OR Art. 201</strong>).</p>"
+          },
+          {
+            "question": "Spielt es eine Rolle, dass der Käufer ebenfalls Landwirt, also auch ein Fachmann ist?",
+            "answer": "<p>Ja, das kann eine Rolle spielen. Gerichte berücksichtigen die Fachkenntnis beider Parteien. Von einem fachkundigen Käufer wird eine genauere Prüfung der Kaufsache erwartet. Dies könnte seine Chancen, sich auf einen Mangel zu berufen, schmälern, insbesondere wenn der Mangel bei einer fachmännischen Prüfung erkennbar gewesen wäre.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-9": {
+      "title": "Fall 9 (Analysieren): Aufrechnung von Forderungen",
+      "type": "law_case",
+      "caseText": "Die Transportfirma 'Rollgut AG' schuldet der Werkstatt von Herrn Egger noch CHF 10'000 für eine LKW-Reparatur. Die Rechnung ist fällig. Kürzlich hat ein Mitarbeiter von Herrn Egger beim Rangieren auf dem Hof der Rollgut AG eine Laderampe beschädigt. Die Rollgut AG hat einen rechtskräftigen Zahlungsbefehl über den Schaden von CHF 7'000 gegen Herrn Egger erwirkt. Als Herr Egger die CHF 10'000 fordert, erklärt die Rollgut AG, sie zahle nur CHF 3'000 und der Rest sei 'quitt'. Herr Egger ist damit nicht einverstanden und will die vollen CHF 10'000. Darf die Rollgut AG so vorgehen?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Das Problem dreht sich um die Verrechnung von gegenseitigen Schulden. Eine Partei will ihre Schuld mit einer Gegenforderung tilgen."
+        },
+        {
+          "id": "step_2",
+          "text": "Die gesetzlichen Grundlagen für die Verrechnung (Aufrechnung) finden sich im Allgemeinen Teil des OR, beginnend bei <strong>OR Art. 120</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Analysieren Sie die vier Voraussetzungen für eine gültige Verrechnung gemäss <strong>OR Art. 120</strong>: Gegenseitigkeit der Forderungen, Gleichartigkeit der Leistungen, Fälligkeit der Verrechnungsforderung und Klagbarkeit der Gegenforderung."
+        },
+        {
+          "id": "step_4",
+          "text": "Prüfen Sie, ob alle vier Voraussetzungen im vorliegenden Fall zwischen der Werkstatt und der Transportfirma erfüllt sind."
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstatt Egger, Transportfirma Rollgut AG.<br><strong>Was ist passiert:</strong> Zwei Parteien schulden sich gegenseitig Geld. Eine Partei (Rollgut AG) will ihre Schuld durch Verrechnung mit ihrer Forderung tilgen.<br><strong>Rechtsfrage:</strong> Sind die Voraussetzungen für eine einseitige Verrechnungserklärung erfüllt?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Allgemeiner Teil des OR, Erlöschen von Obligationen.<br><strong>Rechtsvorschrift:</strong> Die Verrechnung ist in <strong>OR Art. 120 ff.</strong> geregelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Für eine gültige Verrechnung müssen vier Tatbestandsmerkmale erfüllt sein (<strong>OR Art. 120</strong>):<br>1. <strong>Gegenseitigkeit:</strong> Die Parteien müssen gegenseitig Gläubiger und Schuldner sein.<br>2. <strong>Gleichartigkeit:</strong> Die geschuldeten Leistungen müssen gleichartig sein (meist Geldschulden).<br>3. <strong>Fälligkeit der Verrechnungsforderung:</strong> Die Forderung dessen, der die Verrechnung erklärt (hier Rollgut AG), muss fällig sein.<br>4. <strong>Klagbarkeit der Hauptforderung:</strong> Die Forderung, gegen die verrechnet wird (hier die der Werkstatt), muss klagbar sein.<br>Die Verrechnung wirkt durch einseitige Erklärung.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong><br>1. <strong>Gegenseitigkeit:</strong> Ja, Egger schuldet Rollgut und Rollgut schuldet Egger.<br>2. <strong>Gleichartigkeit:</strong> Ja, beide Schulden sind Geldschulden.<br>3. <strong>Fälligkeit der Verrechnungsforderung:</strong> Ja, die Forderung der Rollgut AG (CHF 7'000) ist durch den Zahlungsbefehl fällig.<br>4. <strong>Klagbarkeit der Hauptforderung:</strong> Ja, die Forderung von Egger (CHF 10'000) ist fällig und klagbar.<br>Alle Voraussetzungen sind erfüllt.<br><strong>Konsequenz:</strong> Ja, die Rollgut AG <strong>darf so vorgehen</strong>. Durch ihre Verrechnungserklärung sind beide Forderungen, soweit sie sich decken (CHF 7'000), erloschen. Herr Egger hat nur noch einen Anspruch auf die restlichen CHF 3'000.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Muss Herr Egger mit der Verrechnung einverstanden sein?",
+            "answer": "<p>Nein. Die Verrechnung ist ein <strong>einseitiges Gestaltungsrecht</strong>. Wenn die gesetzlichen Voraussetzungen erfüllt sind, tritt die Wirkung durch die Erklärung der einen Partei ein, ohne dass die andere zustimmen muss.</p>"
+          },
+          {
+            "question": "Gibt es Forderungen, die nicht verrechnet werden dürfen?",
+            "answer": "<p>Ja, <strong>OR Art. 125</strong> zählt einige Fälle auf. Beispielsweise kann der Schuldner einer Forderung auf Rückgabe einer hinterlegten Sache oder einer widerrechtlich entzogenen Sache nicht mit einer Gegenforderung verrechnen. Auch Unterhaltsansprüche sind besonders geschützt.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-10": {
+      "title": "Fall 10 (Transfer/Beurteilung): Die defekte Erntemaschine",
+      "type": "law_case",
+      "caseText": "Ein Werkstattleiter hat einem Lohnunternehmer vor zwei Monaten eine neue, hochmoderne Erntemaschine für CHF 450'000 verkauft. Mitten in der Ernte fällt die zentrale Steuerungselektronik aus. Eine Reparatur vor Ort ist unmöglich, die Werkstatt müsste die Maschine abholen, was mindestens 5 Tage dauern würde. Ein Ersatzgerät ist nicht sofort verfügbar. Der Lohnunternehmer ist verzweifelt, da er Verträge mit mehreren Landwirten hat und ihm für jeden Tag Ausfall hohe Konventionalstrafen und Reputationsschaden drohen. Er fordert vom Werkstattleiter eine 'sofortige Lösung' und droht, ihn für den gesamten Ausfallschaden haftbar zu machen. Welche Optionen hat der Werkstattleiter und welche würden Sie ihm empfehlen?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Erfassen Sie die gesamte Problematik: Es geht nicht nur um einen Sachmangel, sondern um einen massiven Folgeschaden (Ausfallschaden) zu einem kritischen Zeitpunkt."
+        },
+        {
+          "id": "step_2",
+          "text": "Identifizieren Sie die rechtlichen Grundlagen: Sachmängelgewährleistung (<strong>OR Art. 197 ff.</strong>) und die Haftung für Mangelfolgeschäden (oft über <strong>OR Art. 97</strong>)."
+        },
+        {
+          "id": "step_3",
+          "text": "Listen Sie die möglichen rechtlichen und kaufmännischen Optionen auf: Reparatur (Nachbesserung), Wandelung (Rücktritt), Minderung, aber auch ausserordentliche Massnahmen wie die Anmietung einer Ersatzmaschine."
+        },
+        {
+          "id": "step_4",
+          "text": "Beurteilen und vergleichen Sie die Optionen. Wägen Sie die direkten Kosten (Reparatur, Miete) gegen die indirekten Risiken (Schadenersatzklage, Kundenverlust, Reputationsschaden) ab und geben Sie eine fundierte Empfehlung."
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter (Verkäufer), Lohnunternehmer (Käufer).<br><strong>Was ist passiert:</strong> Eine neue, teure Maschine fällt während der kritischen Erntezeit aus. Es droht ein erheblicher Mangelfolgeschaden.<br><strong>Problemstellung:</strong> Der Werkstattleiter muss eine Entscheidung treffen, die sowohl die rechtlichen Pflichten erfüllt als auch den wirtschaftlichen Schaden für beide Seiten minimiert und die Kundenbeziehung rettet.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht (Sachmängelgewährleistung), Haftpflichtrecht.<br><strong>Rechtsvorschrift:</strong> Die Mängelrechte des Käufers sind in <strong>OR Art. 205 ff.</strong> (Wandelung, Minderung) geregelt. Oft ist vertraglich ein Recht auf Nachbesserung (Reparatur) vereinbart. Die Haftung für den Folgeschaden (Ausfall) richtet sich nach den allgemeinen Regeln (<strong>OR Art. 97 ff.</strong>) und kann erheblich sein.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Optionen des Werkstattleiters:</strong><br>1. <strong>Auf Reparatur bestehen:</strong> Rechtlich oft die primäre Pflicht/das primäre Recht des Verkäufers. Dauer: 5 Tage. Risiko: Sehr hohe Schadenersatzforderung des Kunden für den Ausfall.<br>2. <strong>Wandelung anbieten:</strong> Rücknahme der Maschine und Rückzahlung des Kaufpreises. Löst das akute Problem des Kunden nicht, da er keine Maschine hat.<br>3. <strong>Sofortige Anmietung einer Ersatzmaschine:</strong> Der Werkstattleiter mietet auf eigene Kosten eine vergleichbare Maschine für den Kunden, bis die Reparatur abgeschlossen ist. Kosten: Mietkosten. Vorteil: Der Folgeschaden wird gestoppt.<br>4. <strong>Kombination:</strong> Anmietung einer Ersatzmaschine (Option 3) und anschliessende Reparatur der defekten Maschine.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong><br>Die Option 1 (nur Reparatur) ist wirtschaftlich am riskantesten, da die drohende Schadenersatzklage die Reparaturkosten um ein Vielfaches übersteigen kann. Option 2 (Wandelung) ist unpraktisch und kundenunfreundlich in der aktuellen Situation.<br><strong>Empfehlung (Transferleistung):</strong> Die <strong>beste strategische Lösung ist Option 3 oder 4</strong>. Der Werkstattleiter sollte proaktiv und auf eigene Kosten sofort eine Ersatzmaschine organisieren und dem Kunden zur Verfügung stellen. Dies zeigt Professionalität und guten Willen, stoppt den teuren Ausfallschaden und rettet die Kundenbeziehung. Die Mietkosten sind wahrscheinlich deutlich geringer als der potenzielle Schadenersatz. Anschliessend kann die defekte Maschine in Ruhe repariert werden. Dies ist die kaufmännisch und rechtlich klügste Vorgehensweise.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Hätte der Werkstattleiter seine Haftung für den Ausfallschaden (Mangelfolgeschaden) in seinen AGB ausschliessen können?",
+            "answer": "<p>Ja, eine Haftung für Mangelfolgeschäden kann in AGB für leichte und mittlere Fahrlässigkeit ausgeschlossen werden. Ein solcher Ausschluss ist jedoch unwirksam bei grober Fahrlässigkeit oder Absicht (<strong>OR Art. 100</strong>). Zudem muss die AGB-Klausel wirksam in den Vertrag einbezogen worden sein und darf nicht ungewöhnlich sein.</p>"
+          },
+          {
+            "question": "Könnte der Werkstattleiter die Kosten für die Ersatzmaschine später vom Hersteller der Erntemaschine zurückfordern?",
+            "answer": "<p>Ja, das ist sehr wahrscheinlich. Der Werkstattleiter hat gegenüber seinem Lieferanten (dem Hersteller) ebenfalls Gewährleistungsansprüche. Wenn der Defekt auf einen Produktionsfehler zurückzuführen ist, kann er beim Hersteller Regress nehmen und die ihm entstandenen Kosten (Reparatur, Mietkosten der Ersatzmaschine) als Schadenersatz geltend machen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-11": {
+      "title": "Fall 11 (Transfer/Beurteilung): Die geplatzte Grossbestellung",
+      "type": "law_case",
+      "caseText": "Ein grosser Forstbetrieb bittet die Werkstatt von Frau Meier um eine detaillierte Offerte für die Umrüstung von fünf Spezialfahrzeugen. Die Ausarbeitung ist sehr aufwändig und kostet Frau Meier rund 40 Arbeitsstunden für Planung, Kalkulation und Abklärungen mit Lieferanten. Sie unterbreitet eine Offerte über CHF 120'000. Der Forstbetrieb verhandelt intensiv, signalisiert mehrfach seine grundsätzliche Zustimmung und verlangt noch kleine Anpassungen. Kurz vor der geplanten Vertragsunterzeichnung teilt der Forstbetrieb mit, dass er den Auftrag nun doch an einen Konkurrenten vergeben hat, der Frau Meiers detaillierte Planung als Grundlage für ein um 5% günstigeres Angebot nutzte. Kann Frau Meier eine Entschädigung für ihren Aufwand verlangen, obwohl kein Vertrag zustande kam?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Das Problem liegt darin, dass ein Schaden entstanden ist, bevor ein Vertrag abgeschlossen wurde. Es geht um das Verhalten während der Vertragsverhandlungen."
+        },
+        {
+          "id": "step_2",
+          "text": "Suchen Sie nach einem Rechtsinstitut, das die Haftung aus Vertragsverhandlungen regelt. Dieses ist nicht explizit im Gesetz geregelt, sondern von der Rechtsprechung entwickelt worden. Das Stichwort ist 'culpa in contrahendo'."
+        },
+        {
+          "id": "step_3",
+          "text": "Analysieren Sie die Voraussetzungen der Haftung aus 'culpa in contrahendo' (c.i.c.): ernsthafte Verhandlungen, treuwidriges Verhalten einer Partei (z.B. Verhandlungen ohne Abschlussabsicht), Schaden, Kausalzusammenhang."
+        },
+        {
+          "id": "step_4",
+          "text": "Beurteilen Sie, ob das Verhalten des Forstbetriebs als treuwidrig eingestuft werden kann und ob Frau Meier eine realistische Chance hat, ihren Aufwand (negatives Vertragsinteresse) ersetzt zu bekommen. Was würden Sie ihr raten?"
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiterin Meier, Forstbetrieb.<br><strong>Was ist passiert:</strong> Nach intensiven und aufwändigen Vertragsverhandlungen bricht eine Partei diese kurz vor Abschluss treuwidrig ab und nutzt die Vorarbeit der anderen Partei aus.<br><strong>Rechtsfrage:</strong> Besteht ein Anspruch auf Schadenersatz für den Aufwand, der im Vertrauen auf einen Vertragsabschluss getätigt wurde, auch wenn kein Vertrag zustande kam?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vorvertragliche Haftung.<br><strong>Rechtsvorschrift:</strong> Es gibt keine explizite Gesetzesnorm. Die Haftung stützt sich auf das von Lehre und Rechtsprechung entwickelte Institut der <strong>culpa in contrahendo (c.i.c.)</strong>, das aus dem allgemeinen Grundsatz von Treu und Glauben (<strong>ZGB Art. 2</strong>) abgeleitet wird.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Die Haftung aus c.i.c. setzt voraus, dass eine Partei ihre Pflichten aus dem vorvertraglichen Vertrauensverhältnis verletzt. Solche Pflichten sind z.B. ernsthaft zu verhandeln und keine Informationen missbräuchlich zu verwenden. Ein treuwidriger Verhandlungsabbruch liegt vor, wenn eine Partei den festen Eindruck erweckt, sie werde den Vertrag abschliessen, und die andere Partei im Vertrauen darauf Aufwendungen tätigt.<br><strong>Rechtsfolge:</strong> Die verletzte Partei kann Ersatz des Schadens verlangen, der ihr aus dem Vertrauen auf den Vertragsschluss entstanden ist (<strong>negatives Vertragsinteresse</strong>).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong> Das Verhalten des Forstbetriebs ist klar treuwidrig. Er hat Frau Meier im Glauben gelassen, der Vertrag komme zustande, und hat ihre detaillierte Planung missbraucht, um einen günstigeren Preis zu erzielen. Die Voraussetzungen der c.i.c. sind erfüllt.<br><strong>Empfehlung:</strong> Frau Meier hat gute Chancen, ihren nutzlos gewordenen Aufwand (40 Arbeitsstunden) als Schadenersatz geltend zu machen. Sie sollte den Forstbetrieb schriftlich zur Zahlung auffordern und dabei auf sein treuwidriges Verhalten hinweisen. Der Beweis, dass ihre Planung verwendet wurde, stärkt ihre Position erheblich. Eine Klage wäre die letzte Option, aber die Ausgangslage ist vielversprechend.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie hätte sich Frau Meier vor einer solchen Situation schützen können?",
+            "answer": "<p>Sie hätte vor Beginn der detaillierten Planungsarbeiten eine schriftliche Vereinbarung über die Entschädigung für den Planungsaufwand treffen können, falls der Hauptvertrag nicht zustande kommt. Eine solche 'letter of intent' oder Planungsvereinbarung kann die Kosten und Bedingungen für die Offertphase regeln.</p>"
+          },
+          {
+            "question": "Was genau ist das 'negative Vertragsinteresse'?",
+            "answer": "<p>Das negative Vertragsinteresse bedeutet, dass der Geschädigte so gestellt wird, als hätte er nie von dem Geschäft gehört und die Vertragsverhandlungen nie aufgenommen. Er kann also die Kosten ersetzt verlangen, die ihm im Zuge der (letztlich gescheiterten) Verhandlungen entstanden sind, z.B. Reisekosten, Planungskosten, Anwaltskosten. Er kann aber nicht den entgangenen Gewinn aus dem geplatzten Geschäft fordern (das wäre das positive Interesse).</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-12": {
+      "title": "Fall 12 (Transfer/Beurteilung): Der unsichere Kunde",
+      "type": "law_case",
+      "caseText": "Ein Werkstattleiter liefert einem neuen Kunden, einer kleinen Baufirma, eine revidierte Hydraulikpumpe im Wert von CHF 15'000 auf Rechnung, zahlbar innert 30 Tagen. Kurz nach der Lieferung hört er von einem Branchenkollegen, dass diese Baufirma massive Zahlungsprobleme hat und mehrere Lieferanten auf ihr Geld warten. Der Werkstattleiter befürchtet, dass die Firma Konkurs gehen könnte, bevor die Rechnung bezahlt wird. Die Pumpe ist bereits im Bagger des Kunden eingebaut. Welche rechtlichen Möglichkeiten hat der Werkstattleiter, um seine Forderung zu sichern oder den drohenden Verlust zu minimieren? Was würden Sie ihm raten?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Das Problem ist die Sicherung einer Forderung nach erfolgter Lieferung, aber vor Fälligkeit der Zahlung, bei drohender Zahlungsunfähigkeit des Schuldners."
+        },
+        {
+          "id": "step_2",
+          "text": "Prüfen Sie präventive und reaktive Sicherungsmöglichkeiten im OR und SchKG. Stichworte sind: Eigentumsvorbehalt, Rücktrittsrecht bei Zahlungsunfähigkeit, Arrest."
+        },
+        {
+          "id": "step_3",
+          "text": "Analysieren Sie die Voraussetzungen und die praktische Tauglichkeit der einzelnen Optionen: Wurde ein Eigentumsvorbehalt vereinbart und eingetragen (<strong>ZGB Art. 715</strong>)? Besteht ein Rücktrittsrecht (<strong>OR Art. 214 Abs. 3</strong>)? Sind die Voraussetzungen für eine Arrestlegung (<strong>SchKG Art. 271</strong>) gegeben?"
+        },
+        {
+          "id": "step_4",
+          "text": "Beurteilen Sie die Optionen strategisch. Was ist am schnellsten und effektivsten? Was ist das Kosten-Nutzen-Verhältnis? Geben Sie eine klare Handlungsempfehlung."
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter (Gläubiger), Baufirma (Schuldner).<br><strong>Was ist passiert:</strong> Nach einer Lieferung auf Rechnung erfährt der Lieferant von der drohenden Zahlungsunfähigkeit seines Kunden.<br><strong>Problemstellung:</strong> Wie kann der Werkstattleiter seine Forderung sichern und einen Totalausfall im Konkursfall verhindern?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht, Sachenrecht, Schuldbetreibungs- und Konkursrecht (SchKG).<br><strong>Rechtsvorschriften:</strong><br>- <strong>Eigentumsvorbehalt:</strong> <strong>ZGB Art. 715</strong><br>- <strong>Rücktrittsrecht des Verkäufers:</strong> <strong>OR Art. 214 Abs. 3</strong><br>- <strong>Arrest:</strong> <strong>SchKG Art. 271 ff.</strong></p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse der Optionen:</strong><br>1. <strong>Eigentumsvorbehalt:</strong> Diese Option ist nur wirksam, wenn sie <strong>vor der Übergabe</strong> vereinbart und im Eigentumsvorbehaltsregister am Wohnsitz/Sitz des Käufers eingetragen wurde. Nachträglich ist dies nicht mehr möglich. Im vorliegenden Fall wurde dies vermutlich versäumt.<br>2. <strong>Rücktritt vom Vertrag:</strong> Gemäss <strong>OR Art. 214 Abs. 3</strong> kann der Verkäufer bei einem Kreditkauf (Lieferung auf Rechnung) vom Vertrag zurücktreten und die Ware zurückfordern, wenn der Käufer zahlungsunfähig wird. Dies ist eine wichtige Ausnahme vom Grundsatz 'pacta sunt servanda'.<br>3. <strong>Arrestlegung:</strong> Der Werkstattleiter könnte versuchen, Vermögenswerte der Baufirma per Arrest blockieren zu lassen (<strong>SchKG Art. 271</strong>). Dies erfordert aber einen Arrestgrund (z.B. Schuldner ist auf der Flucht, schafft Vermögen beiseite). Die blosse Befürchtung einer Insolvenz reicht oft nicht aus und das Verfahren ist komplex.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong><br>Der Eigentumsvorbehalt scheidet mangels vorgängiger Vereinbarung und Eintragung aus. Die Arrestlegung ist unsicher und aufwändig.<br><strong>Die beste und schnellste Option ist der sofortige Rücktritt vom Vertrag gemäss OR Art. 214 Abs. 3</strong>. Der Werkstattleiter sollte der Baufirma unverzüglich schriftlich (eingeschrieben) den Rücktritt vom Kaufvertrag wegen deren Zahlungsunfähigkeit erklären und die sofortige Rückgabe der Hydraulikpumpe fordern. Da die Pumpe bereits eingebaut ist, muss er auch den Ausbau verlangen. Dies gibt ihm ein dingliches Recht auf die Sache zurück (Aussonderungsrecht im Konkurs) und ist weitaus besser, als im Konkursfall nur eine ungesicherte Forderung von 1% bis 5% der Summe zu erhalten.<br><strong>Empfehlung:</strong> Sofort den Rücktritt erklären und die Rückgabe der Pumpe verlangen, notfalls mit anwaltlicher Hilfe.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was hätte der Werkstattleiter präventiv tun können, um sich bei diesem Geschäft besser abzusichern?",
+            "answer": "<p>Bei neuen, unbekannten Kunden hätte er entweder <strong>Vorauszahlung</strong> verlangen, einen <strong>Eigentumsvorbehalt</strong> im Register eintragen lassen oder zumindest eine <strong>Anzahlung</strong> fordern können. Eine vorgängige Bonitätsprüfung wäre ebenfalls ratsam gewesen.</p>"
+          },
+          {
+            "question": "Was passiert, wenn die Baufirma die Pumpe trotz des Rücktritts nicht herausgibt?",
+            "answer": "<p>Wenn die Baufirma die Herausgabe verweigert, muss der Werkstattleiter seinen Anspruch gerichtlich durchsetzen. Er kann auf Herausgabe der Sache klagen. Sollte in der Zwischenzeit der Konkurs eröffnet werden, kann er sein Aussonderungsrecht direkt bei der Konkursverwaltung anmelden und die Pumpe aus der Konkursmasse herausverlangen.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

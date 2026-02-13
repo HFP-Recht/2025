@@ -1,0 +1,658 @@
+{
+  "status": "success",
+  "assignmentTitle": "Fallstudien zu den Grundlagen des Schweizer Rechtssystems",
+  "solution_keys": [
+    "master2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "fall-id-1": {
+      "title": "Fall 1 (Grundlagen): Kanton gegen Bund",
+      "type": "law_case",
+      "caseText": "Der Kanton Freiburg erlässt eine neue Verordnung, die vorschreibt, dass alle in Landmaschinenwerkstätten verwendeten Schutzhelme gelb sein müssen. Ein Bundesgesetz über die Arbeitssicherheit schreibt jedoch lediglich vor, dass Schutzhelme einer bestimmten EU-Norm entsprechen müssen, ohne eine Farbe vorzugeben. Werkstattleiter Berger fragt sich, ob er nun alle seine blauen, normkonformen Helme ersetzen muss.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Wer hat welche Regel erlassen? Was ist der genaue Konflikt zwischen den beiden Vorschriften?</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Schlüsselkonzept ist die <strong>Hierarchie der Rechtsnormen</strong>. Welches Prinzip gilt, wenn sich Bundesrecht und kantonales Recht widersprechen? Gesetzeslage: <strong>BV Art. 49 I</strong></p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie den Grundsatz <strong>'Bundesrecht bricht kantonales Recht'</strong>. Was bedeutet das für die Gültigkeit der kantonalen Verordnung?</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Wenden Sie den Grundsatz auf den Fall an. Welche Vorschrift hat Vorrang und was bedeutet das für Herrn Bergers Helme?</p>"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Berger, Kanton Freiburg, Bund.<br><strong>Was ist passiert:</strong> Eine kantonale Verordnung (gelbe Helme) scheint im Widerspruch zu einem Bundesgesetz (nur EU-Norm vorgeschrieben) zu stehen.<br><strong>Rechtsfrage:</strong> Muss sich Herr Berger an die kantonale Verordnung halten, obwohl das Bundesgesetz weniger streng ist?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Staatsrecht, Hierarchie der Rechtsnormen.<br><strong>Rechtsvorschrift:</strong> Der Grundsatz der derogatorischen Kraft des Bundesrechts gemäss <strong>BV Art. 49 I</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmal:</strong> Gemäss BV Art. 49 I geht Bundesrecht dem kantonalen Recht vor ('Bundesrecht bricht kantonales Recht').<br><strong>Rechtsfolge:</strong> Eine kantonale Regelung, die dem Bundesrecht widerspricht, ist nicht anwendbar.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Das Bundesgesetz regelt die Anforderungen an Schutzhelme abschliessend, indem es auf eine EU-Norm verweist. Die zusätzliche kantonale Farbvorgabe widerspricht der liberaleren Bundesregelung.<br><strong>Konsequenz:</strong> Die kantonale Verordnung ist in diesem Punkt nicht anwendbar. Herr Berger muss seine blauen Helme <strong>nicht</strong> ersetzen, solange sie der EU-Norm entsprechen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Dürfte der Kanton strengere Vorschriften erlassen, wenn das Bundesgesetz dies ausdrücklich erlauben würde?",
+            "answer": "<p>Ja. Wenn ein Bundesgesetz eine sogenannte 'Öffnungsklausel' enthält, die den Kantonen erlaubt, strengere Vorschriften zu erlassen, dann wäre die kantonale Regelung gültig. Das ist hier aber nicht der Fall.</p>"
+          },
+          {
+            "question": "Was ist der Unterschied zwischen einer Verordnung und einem Gesetz?",
+            "answer": "<p>Ein <strong>Gesetz</strong> wird vom Parlament erlassen und untersteht (meist) dem Referendum. Eine <strong>Verordnung</strong> wird von der Regierung (z.B. Bundesrat) erlassen, um ein Gesetz zu konkretisieren. Gegen Verordnungen gibt es kein Referendum.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-2": {
+      "title": "Fall 2 (Grundlagen): Die rätselhafte Gesetzesstelle",
+      "type": "law_case",
+      "caseText": "Ein Kunde zeigt Ihnen einen Gesetzesartikel aus dem Obligationenrecht, der wie folgt aufgebaut ist:\n\nArt. 210\nI. Die Klagen auf Gewährleistung wegen Mängel der Sache und auf Ersatz des unmittelbaren Schadens verjähren mit Ablauf von zwei Jahren nach deren Ablieferung an den Käufer, selbst wenn dieser die Mängel erst später entdeckt. ...\n...\nIII. Eine Vereinbarung über die Verkürzung der Verjährungsfrist ist nur zulässig, wenn:\n    1. sie für gebrauchte Sachen vereinbart wird; und\n    2. die Verkürzung höchstens die Hälfte der gesetzlichen Frist beträgt.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Identifizieren Sie die verschiedenen Gliederungselemente in diesem Artikel. Was bedeuten 'Art.', 'I.', 'III.' und '1.'?</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Thema ist der <strong>Aufbau von Gesetzesartikeln</strong>. Wie lautet die korrekte Bezeichnung für die einzelnen Gliederungsebenen?</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Beschreiben Sie die typische Hierarchie innerhalb eines Gesetzesartikels. Was kommt nach dem Artikel? Was nach dem Absatz?</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Benennen Sie alle Teile des gezeigten Artikels korrekt (Artikel, Absatz, Ziffer).</p>"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Situation:</strong> Ein Kunde möchte die Struktur eines Gesetzesartikels verstehen.<br><strong>Problem:</strong> Die Bedeutung der verschiedenen Zahlen und Gliederungsebenen (römische Ziffern, arabische Ziffern) ist unklar.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Juristische Methodik, Aufbau von Rechtsnormen.<br><strong>Regelung:</strong> Es handelt sich um die etablierte Gliederungsstruktur von Gesetzen wie dem <strong>ZGB</strong> oder <strong>OR</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Struktur:</strong> Gesetze sind in <strong>Artikel</strong> gegliedert. Ein Artikel kann in mehrere <strong>Absätze</strong> (gekennzeichnet durch römische Ziffern) unterteilt sein. Ein Absatz wiederum kann in <strong>Ziffern</strong> (arabische Ziffern) oder <strong>Literae</strong> (Kleinbuchstaben, z.B. lit. a) unterteilt sein.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Anwendung:</strong><br>- <strong>Art. 210:</strong> Dies ist die Nummer des <strong>Artikels</strong>.<br>- <strong>I. und III.:</strong> Dies sind die <strong>Absätze</strong> 1 und 3.<br>- <strong>1. und 2.:</strong> Dies sind die <strong>Ziffern</strong> 1 und 2 des Absatzes 3.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Ist der Randtitel (die Überschrift neben dem Artikel) rechtlich verbindlich?",
+            "answer": "<p>Nein, der Randtitel ist rechtlich <strong>nicht verbindlich</strong>. Er fasst den Inhalt des Artikels nur zusammen und dient der besseren Orientierung im Gesetz.</p>"
+          },
+          {
+            "question": "Wie würde man 'Ziffer 1 von Absatz 3 des Artikels 210 des Obligationenrechts' in Kurzform zitieren?",
+            "answer": "<p>Die korrekte Kurzform lautet: <strong>OR 210 III Ziff. 1</strong>.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-3": {
+      "title": "Fall 3 (Grundlagen): Recht oder nur Anstand?",
+      "type": "law_case",
+      "caseText": "In einem Dorf ist es seit 50 Jahren üblich, dass Werkstätten samstags um 12:00 Uhr schliessen, um die Mittagsruhe zu gewährleisten. Ein neu zugezogener Werkstattleiter, Herr Kunz, hält seine Werkstatt neu bis 16:00 Uhr offen. Ein verärgerter Nachbar konfrontiert ihn und meint, Herr Kunz verstosse gegen geltendes Recht, da diese Regel 'schon immer' gegolten habe.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Was ist der Kern des Konflikts? Handelt es sich um eine staatlich aufgestellte Regel oder eine gesellschaftliche Gewohnheit?</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Thema ist die Abgrenzung von <strong>Recht, Sitte und Brauch</strong>. Welche dieser Normen sind staatlich erzwingbar?</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Definieren Sie 'Recht' (staatlich erzwingbare Verhaltensnorm) und 'Brauch' (Tradition, nicht erzwingbar). Kann ein Brauch zu Recht werden (Gewohnheitsrecht)?</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Beurteilen Sie die 'Samstagsregel' im Dorf. Handelt es sich um eine Rechtsnorm oder einen Brauch? Kann der Nachbar die Schliessung erzwingen?</p>"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Kunz, ein Nachbar.<br><strong>Was ist passiert:</strong> Herr Kunz bricht mit einer langjährigen lokalen Tradition (Brauch) bezüglich der Öffnungszeiten.<br><strong>Rechtsfrage:</strong> Handelt es sich bei der Tradition um eine rechtlich verbindliche Regel?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Rechtsquellenlehre, Abgrenzung von Recht und gesellschaftlichen Normen.<br><strong>Rechtsvorschrift:</strong> Allgemeine Rechtsgrundsätze, insbesondere die Definition von <strong>Recht</strong> im Gegensatz zu <strong>Sitte/Brauch</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Definitionen:</strong><br>- <strong>Recht:</strong> Eine vom Staat erlassene und durchsetzbare Verhaltensordnung.<br>- <strong>Brauch/Sitte:</strong> Gesellschaftliche Regeln des Anstands und der Gewohnheit, die nicht staatlich erzwingbar sind.<br>- <strong>Gewohnheitsrecht:</strong> Ungeschriebenes Recht, das durch langjährige, ununterbrochene Übung entsteht und als verbindlich anerkannt wird. Es kommt nur zur Anwendung, wenn das Gesetz eine Lücke aufweist (subsidiär).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die 'Samstagsregel' ist ein lokaler <strong>Brauch</strong>. Es gibt in der Regel kantonale oder kommunale Gesetze über Ladenöffnungszeiten. Solange Herr Kunz diese Gesetze einhält, ist sein Verhalten rechtmässig. Der Brauch allein begründet keine rechtliche Pflicht.<br><strong>Konsequenz:</strong> Der Nachbar kann Herrn Kunz <strong>nicht</strong> rechtlich zwingen, sein Geschäft um 12:00 Uhr zu schliessen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Unter welchen Umständen könnte aus diesem Brauch Gewohnheitsrecht entstehen?",
+            "answer": "<p>Damit Gewohnheitsrecht entsteht, müsste eine langjährige, ununterbrochene und einheitliche Praxis bestehen, und die Rechtsgemeinschaft müsste der Überzeugung sein, dass es sich um eine verbindliche Rechtsregel handelt. Zudem dürfte es <strong>keine Gesetzesregel</strong> (z.B. im kantonalen Ruhetagsgesetz) geben, die den Sachverhalt bereits regelt.</p>"
+          },
+          {
+            "question": "Was wäre, wenn die Gemeinde eine Polizeiverordnung erlassen hätte, die eine Mittagsruhe vorschreibt?",
+            "answer": "<p>In diesem Fall würde es sich um <strong>geschriebenes Recht</strong> handeln. Herr Kunz müsste sich an die Verordnung halten. Der Nachbar könnte dann die Polizei rufen, und Herr Kunz könnte gebüsst werden. Die Regel wäre dann staatlich erzwingbar.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-4": {
+      "title": "Fall 4 (Anwenden): Die korrekte Zitierweise",
+      "type": "law_case",
+      "caseText": "Ein Lieferant schickt Ihnen einen Vertragsentwurf. In den Allgemeinen Geschäftsbedingungen (AGB) findet sich folgender Satz: 'Im Falle eines wesentlichen Irrtums gelten die Bestimmungen von OR 24 I Ziff. 4.' Sie sollen für Ihren Chef herausfinden, was dieser Verweis genau bedeutet und den vollständigen Wortlaut der Norm im Gesetz nachschlagen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Zerlegen Sie die Abkürzung 'OR 24 I Ziff. 4' in ihre einzelnen Bestandteile.</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Thema ist die <strong>Zitierweise von Gesetzesartikeln</strong>. Es handelt sich um die gebräuchliche Kurzform.</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Übersetzen Sie jeden Teil der Kurzform in die Langform. Was bedeutet 'OR', was '24', was 'I' und was 'Ziff. 4'?</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Formulieren Sie die vollständige Bezeichnung der Gesetzesstelle und erklären Sie, wie Sie diese im Gesetzbuch finden würden.</p>"
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Situation:</strong> Ein Vertragsentwurf enthält eine unklare Gesetzesabkürzung.<br><strong>Aufgabe:</strong> Die Abkürzung 'OR 24 I Ziff. 4' muss entschlüsselt und die entsprechende Stelle im Gesetz gefunden werden.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Juristische Methodik, Zitierweise.<br><strong>Regelung:</strong> Anwendung der Konventionen für die Abkürzung von Gesetzesartikeln.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse der Kurzform:</strong><br>- <strong>OR:</strong> Steht für <strong>Obligationenrecht</strong>.<br>- <strong>24:</strong> Steht für <strong>Artikel</strong> 24.<br>- <strong>I:</strong> Steht für <strong>Absatz</strong> 1 (römisch eins).<br>- <strong>Ziff. 4:</strong> Steht für <strong>Ziffer</strong> 4.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Anwendung (Langform):</strong> Der Verweis bedeutet: <strong>Artikel 24, Absatz 1, Ziffer 4 des Obligationenrechts</strong>.<br><strong>Vorgehen:</strong> Man nimmt das Gesetzbuch zum Obligationenrecht, schlägt den Artikel 24 auf, geht dort zum ersten Absatz (gekennzeichnet mit I) und sucht die vierte Ziffer (gekennzeichnet mit 4.).</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie würde die Kurzform für 'Artikel 40e, Absatz 2, Buchstabe a des Obligationenrechts' lauten?",
+            "answer": "<p>Die korrekte Kurzform wäre <strong>OR 40e II lit. a</strong>. Buchstaben werden üblicherweise mit 'lit.' abgekürzt.</p>"
+          },
+          {
+            "question": "Was bedeutet der Zusatz 'ff.' nach einer Artikelnummer, z.B. 'OR Art. 184 ff.'?",
+            "answer": "<p>Die Abkürzung 'ff.' steht für 'fortfolgende'. 'OR Art. 184 ff.' bedeutet also 'Artikel 184 und die unmittelbar darauf folgenden Artikel des Obligationenrechts', die sich meist auf dasselbe Thema (hier: der Kaufvertrag) beziehen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-5": {
+      "title": "Fall 5 (Anwenden): Die neue Verordnung",
+      "type": "law_case",
+      "caseText": "Der Bundesrat erlässt eine neue 'Verordnung über die Entsorgung von Spezialbatterien aus Landmaschinen'. Werkstattleiter Müller ist verärgert und sagt: 'Darüber konnten wir nicht einmal abstimmen! Das ist undemokratisch und sicher nicht rechtens.' Er ist der Meinung, dass alle Rechtsnormen dem Volk zur Abstimmung vorgelegt werden müssen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Wer hat die Regel erlassen und um welche Art von Regel handelt es sich? Unterscheiden Sie zwischen Verfassung, Gesetz und Verordnung.</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Thema sind die <strong>verschiedenen Arten von Rechtsnormen</strong> und die damit verbundenen Mitbestimmungsrechte des Volkes (Referendum).</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie die Mitbestimmungsrechte für die drei Normstufen: <strong>Verfassung</strong> (obligatorisches Referendum), <strong>Gesetz</strong> (fakultatives Referendum) und <strong>Verordnung</strong> (kein Referendum).</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Wenden Sie diese Regeln auf den Fall an. Hat Herr Müller Recht mit seiner Behauptung, das Vorgehen sei nicht rechtens?</p>"
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Müller, Bundesrat.<br><strong>Was ist passiert:</strong> Der Bundesrat (Exekutive) hat eine Verordnung erlassen. Herr Müller kritisiert das Fehlen einer Volksabstimmung.<br><strong>Rechtsfrage:</strong> Ist es rechtmässig, eine Verordnung ohne Volksabstimmung zu erlassen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Staatsrecht, politische Rechte, Hierarchie der Normen.<br><strong>Regelung:</strong> Die Bundesverfassung (BV) regelt die Gesetzgebung und die Referendumsrechte.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Mitbestimmungsrechte:</strong><br>- <strong>Verfassung:</strong> Änderungen unterstehen immer der obligatorischen Volks- und Ständemehrabstimmung.<br>- <strong>Gesetze:</strong> Bundesgesetze werden vom Parlament erlassen und unterstehen dem fakultativen Referendum (wenn 50'000 Bürger es verlangen).<br>- <strong>Verordnungen:</strong> Werden von der Regierung (Bundesrat) erlassen, um Gesetze zu vollziehen. Sie unterstehen <strong>keinem</strong> Referendum.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Beim Erlass handelt es sich um eine <strong>Verordnung</strong>. Für Verordnungen ist in der Verfassung kein Referendumsrecht vorgesehen. Sie leiten ihre Legitimität vom Gesetz ab, das sie konkretisieren und das seinerseits dem Referendum unterstand.<br><strong>Konsequenz:</strong> Das Vorgehen des Bundesrates ist <strong>rechtmässig</strong> und demokratisch legitimiert. Herr Müller hat Unrecht.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie wird sichergestellt, dass Verordnungen nicht willkürlich sind?",
+            "answer": "<p>Eine Verordnung muss immer auf einem übergeordneten <strong>Gesetz</strong> basieren und darf diesem nicht widersprechen. Da das Gesetz vom Parlament beschlossen wurde und dem Referendum unterstand, ist die Verordnung indirekt demokratisch legitimiert.</p>"
+          },
+          {
+            "question": "Könnte Herr Müller gerichtlich gegen die Verordnung vorgehen?",
+            "answer": "<p>Ja, er könnte in einem konkreten Anwendungsfall (z.B. wenn er eine Busse wegen falscher Entsorgung erhält) vor Gericht argumentieren, die Verordnung sei gesetzes- oder verfassungswidrig. Gerichte können Verordnungen auf ihre Übereinstimmung mit höherrangigem Recht prüfen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-6": {
+      "title": "Fall 6 (Anwenden): Das ungeschriebene Gesetz",
+      "type": "law_case",
+      "caseText": "In einer abgelegenen Berggemeinde ist es seit über hundert Jahren Brauch, dass der untere Nachbar im Winter den Schnee von der Zufahrtsstrasse des oberen Nachbarn bis zu dessen Grundstücksgrenze mitentfernt. Ein neuer Eigentümer weigert sich, dies zu tun, woraufhin sein oberer Nachbar vor Gericht zieht und sich auf 'Gewohnheitsrecht' beruft. Im Gesetz (ZGB) findet sich keine explizite Regel dazu.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Identifizieren Sie den Konflikt. Gibt es eine geschriebene gesetzliche Regelung für diesen Fall?</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Thema ist das <strong>Gewohnheitsrecht</strong> als ungeschriebene Rechtsquelle. Welche Rolle spielt es gemäss Gesetz? Gesetzeslage: <strong>ZGB Art. 1 II</strong></p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie die Voraussetzungen für die Entstehung von Gewohnheitsrecht: <strong>1. Langjährige, ununterbrochene Übung</strong> und <strong>2. Rechtsüberzeugung (opinio iuris)</strong> der Beteiligten, dass es sich um eine Rechtspflicht handelt.</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Wenden Sie die Voraussetzungen auf den Fall an. Sind die Bedingungen für Gewohnheitsrecht erfüllt? Was ist oft das grösste Problem beim Beweis?</p>"
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Zwei Nachbarn.<br><strong>Was ist passiert:</strong> Ein neuer Nachbar bricht mit einer langjährigen lokalen Praxis der Schneeräumung. Der andere pocht auf Gewohnheitsrecht.<br><strong>Rechtsfrage:</strong> Kann eine langjährige Übung eine einklagbare Rechtspflicht begründen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Rechtsquellenlehre, Nachbarrecht.<br><strong>Rechtsvorschrift:</strong> Die Anwendung von Gewohnheitsrecht bei Fehlen einer Gesetzesvorschrift (Gesetzeslücke) ist in <strong>ZGB Art. 1 II</strong> geregelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale (Gewohnheitsrecht):</strong> Damit Gewohnheitsrecht entsteht, müssen zwei Voraussetzungen kumulativ erfüllt sein:<br>1.  <strong>Langjährige Übung (consuetudo):</strong> Die Praxis muss über eine lange Zeitspanne konstant und ununterbrochen ausgeübt worden sein.<br>2.  <strong>Rechtsüberzeugung (opinio iuris):</strong> Die Beteiligten müssen der Überzeugung sein, dass sie rechtlich zu diesem Verhalten verpflichtet sind (und nicht nur aus reiner Gefälligkeit oder Tradition handeln).</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die langjährige Übung ('seit über hundert Jahren') scheint gegeben zu sein. Der entscheidende und schwer zu beweisende Punkt ist jedoch die <strong>Rechtsüberzeugung</strong>. Der neue Nachbar wird argumentieren, dass seine Vorgänger dies stets freiwillig als nachbarschaftliche Hilfe taten, nicht weil sie sich rechtlich dazu verpflichtet fühlten.<br><strong>Konsequenz:</strong> Es ist <strong>sehr unwahrscheinlich</strong>, dass das Gericht hier Gewohnheitsrecht anerkennen würde, da die Rechtsüberzeugung kaum nachweisbar ist. Die Klage würde wohl abgewiesen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Warum ist die Justiz bei der Anerkennung von Gewohnheitsrecht so zurückhaltend?",
+            "answer": "<p>Weil es im Widerspruch zum Prinzip der <strong>Rechtssicherheit</strong> steht. Geschriebene Gesetze sind für alle zugänglich und klar formuliert. Ungeschriebenes Gewohnheitsrecht ist oft vage und schwer zu beweisen, was zu Unsicherheit führen kann. Es wird daher nur in seltenen Ausnahmefällen angewendet.</p>"
+          },
+          {
+            "question": "Gibt es bekannte Beispiele für Gewohnheitsrecht in der Schweiz?",
+            "answer": "<p>Ja, vor allem in ländlichen und alpwirtschaftlichen Bereichen gibt es noch Reste von Gewohnheitsrecht, z.B. bei Wegrechten oder Wasserquellen. Ein bekanntes Beispiel war früher der 'Ortsgebrauch' bei Kündigungsfristen für Mietverträge, der aber heute weitgehend durch geschriebenes Recht ersetzt wurde.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-7": {
+      "title": "Fall 7 (Analysieren): Die Lücke im Gesetz",
+      "type": "law_case",
+      "caseText": "Ein Landmaschinenmechaniker entwickelt ein neuartiges Computerprogramm zur Fehlerdiagnose. Er 'vermietet' die Software an andere Werkstätten über das Internet. Ein Kunde zahlt die monatliche Gebühr nicht. Nun stellt der Mechaniker fest, dass es im Obligationenrecht zwar detaillierte Regeln für den Mietvertrag (OR Art. 253 ff.) und den Kaufvertrag (OR Art. 184 ff.) gibt, aber keinen spezifischen Vertragstyp für reine Software-Lizenzverträge. Der Fall landet vor Gericht, das entscheiden muss, welche Regeln anwendbar sind.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Was ist das Kernproblem? Gibt es ein passendes, geschriebenes Gesetz für den Sachverhalt?</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Wenn das Gesetz eine Regelungslücke aufweist, muss das Gericht diese füllen. Man spricht von <strong>Richterrecht</strong>. Gesetzeslage: <strong>ZGB Art. 1 II und III</strong></p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie ZGB Art. 1: Welche Anweisungen gibt dieser Artikel dem Richter? Der Richter soll nach bewährter Lehre und Überlieferung entscheiden und eine Regel aufstellen, die er als Gesetzgeber erlassen würde.</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Wie würde ein Richter in diesem Fall vorgehen? Welche bestehenden Vertragsregeln (Miete, Kauf, Auftrag) könnte er heranziehen, um eine Lösung für den Software-Lizenzvertrag zu finden (Analogie)?</p>"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Situation:</strong> Ein Streit aus einem Software-Lizenzvertrag.<br><strong>Problem:</strong> Das Gesetz (OR) regelt diesen modernen Vertragstyp nicht ausdrücklich. Es liegt eine <strong>Gesetzeslücke</strong> vor.<br><strong>Rechtsfrage:</strong> Nach welchen Regeln soll der Streit entschieden werden, wenn ein spezifisches Gesetz fehlt?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Rechtsquellenlehre, Vertragsrecht.<br><strong>Rechtsvorschrift:</strong> Das Vorgehen bei Gesetzeslücken ist in <strong>ZGB Art. 1</strong> geregelt. Da kein Gewohnheitsrecht existiert, kommt Absatz 3 zur Anwendung: das Gericht entscheidet nach der Regel, die es als Gesetzgeber aufstellen würde (<strong>Richterrecht</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse (ZGB Art. 1):</strong> Wenn dem Gesetz keine Vorschrift entnommen werden kann, soll das Gericht zuerst nach Gewohnheitsrecht suchen. Findet es keines, so soll es <strong>'nach bewährter Lehre und Überlieferung'</strong> entscheiden. Das heisst, es orientiert sich an der juristischen Literatur (Lehre) und früheren Gerichtsentscheiden (Überlieferung/Rechtsprechung) und schafft eine eigene, generelle Regel.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Anwendung (richterliche Lückenfüllung):</strong> Ein Richter würde prüfen, welchem gesetzlich geregelten Vertrag der Software-Lizenzvertrag am ähnlichsten ist. Er weist Elemente der <strong>Miete</strong> (Gebrauchsüberlassung auf Zeit gegen Entgelt) und des <strong>Kaufvertrags</strong> (dauerhafte Überlassung) auf. Der Richter würde daher <strong>analog</strong> die passenden Regeln aus dem Mietrecht (z.B. zur Kündigung und Zahlungspflicht) und eventuell aus dem Kaufrecht anwenden, um eine faire Lösung zu finden.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Ist das Urteil des Richters dann ein neues Gesetz, das für alle gilt?",
+            "answer": "<p>Nicht direkt. Das Urteil ist nur für die Parteien im konkreten Fall bindend. Allerdings haben solche richterlichen Grundsatzentscheide (sog. <strong>Präjudizien</strong>) eine hohe Leitwirkung für zukünftige, ähnliche Fälle. Andere Gerichte werden sich stark daran orientieren.</p>"
+          },
+          {
+            "question": "Warum lässt der Gesetzgeber solche Lücken überhaupt entstehen?",
+            "answer": "<p>Der Gesetzgeber kann nicht alle zukünftigen Entwicklungen, insbesondere im technologischen Bereich, vorhersehen. Das Gesetz ist bewusst offen formuliert, um den Gerichten die Flexibilität zu geben, auf neue Phänomene wie das Internet oder Softwareverträge reagieren zu können, ohne dass sofort das ganze Gesetz geändert werden muss.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-8": {
+      "title": "Fall 8 (Analysieren): Der Status von Branchennormen",
+      "type": "law_case",
+      "caseText": "Bei der Reparatur eines Traktors verwendet Mechaniker Huber eine nicht-standardisierte Schraube, da die Originalschraube nicht lieferbar ist. Die Schraube bricht, was zu einem erheblichen Folgeschaden führt. Der Kunde klagt und sein Anwalt argumentiert, Huber habe die anerkannten Regeln der Technik verletzt. Er verweist auf eine Norm des 'Verbands Schweizerischer Maschinen-Industrie (Swissmechanic)', die für solche Fälle die Verwendung einer bestimmten, geprüften Ersatzschraube vorschreibt. Huber entgegnet, diese Norm sei ja kein Gesetz.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Was ist der rechtliche Vorwurf? Was ist die Grundlage für diesen Vorwurf (eine Norm eines privaten Verbands)?</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Es geht um die Frage, welche rechtliche Bedeutung <strong>private technische Normen</strong> (z.B. SIA- oder Swissmechanic-Normen) haben. Sind sie ungeschriebenes Recht?</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie, wie das Gesetz oft unbestimmte Rechtsbegriffe wie 'Sorgfalt' oder 'anerkannte Regeln der Technik' verwendet. Wie füllen Gerichte diese Begriffe mit Inhalt?</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Beurteilen Sie Hubers Verteidigung. Hat er Recht, dass die Norm rechtlich irrelevant ist, nur weil sie kein formelles Gesetz ist? Wie wird ein Gericht die Verbandsnorm wahrscheinlich berücksichtigen?</p>"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Mechaniker Huber, ein Kunde.<br><strong>Was ist passiert:</strong> Ein Schaden entsteht durch die Verwendung eines nicht-standardisierten Teils. Der Kunde wirft Huber die Verletzung von Branchenregeln vor.<br><strong>Rechtsfrage:</strong> Sind die technischen Normen eines privaten Verbandes rechtlich relevant bei der Beurteilung einer Sorgfaltspflichtverletzung?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht (Haftung aus Werkvertrag, OR Art. 368), Rechtsquellenlehre.<br><strong>Regelung:</strong> Das Gesetz schreibt oft eine allgemeine <strong>Sorgfaltspflicht</strong> vor. Private technische Normen können herangezogen werden, um diesen unbestimmten Rechtsbegriff zu konkretisieren.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse:</strong> Private Normen (wie SIA, VSM, etc.) sind <strong>keine Gesetze</strong>. Sie werden aber von Gerichten als 'privates Sachverständigengutachten' betrachtet. Sie dokumentieren, was in einer Branche als fachmännisch korrekt und 'Stand der Technik' gilt. Weicht ein Fachmann ohne guten Grund von diesen Normen ab, begründet dies eine starke Vermutung, dass er seine Sorgfaltspflicht verletzt hat.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Anwendung:</strong> Herr Hubers Aussage, die Norm sei kein Gesetz, ist zwar formal korrekt, aber rechtlich irrelevant. Ein Gericht wird die Swissmechanic-Norm als Massstab für die branchenübliche Sorgfalt heranziehen. Da Huber von dieser Norm abgewichen ist, muss er beweisen, dass seine Lösung trotzdem technisch gleichwertig und sicher war. Kann er das nicht, wird er für den Schaden <strong>haften</strong>.<br><strong>Konsequenz:</strong> Die Verbandsnorm ist zwar keine direkte Rechtsquelle, wird aber zur Konkretisierung der gesetzlichen Sorgfaltspflicht zur indirekten Rechtsquelle.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wäre Huber auch haftbar, wenn er die Existenz dieser spezifischen Norm gar nicht kannte?",
+            "answer": "<p>Ja, sehr wahrscheinlich. Von einem professionellen Mechaniker wird erwartet, dass er die für seine Arbeit relevanten und anerkannten Regeln der Technik kennt. Unkenntnis schützt in diesem Fall nicht vor Haftung.</p>"
+          },
+          {
+            "question": "Was ist, wenn eine private Norm veraltet ist und es nachweislich eine bessere, neuere Technik gibt?",
+            "answer": "<p>In diesem Fall kann sich der Fachmann entlasten. Wenn er beweisen kann, dass er eine Methode angewendet hat, die dem neusten Stand der Technik entspricht und sicherer ist als die veraltete Norm, handelt er nicht sorgfaltswidrig. Massgebend ist immer der tatsächliche Stand der Technik, den die Normen nur widerspiegeln sollen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-9": {
+      "title": "Fall 9 (Analysieren): Widersprüchliche Gesetze",
+      "type": "law_case",
+      "caseText": "Ein altes kantonales Gesetz aus dem Jahr 1980 zum Schutz von Kulturgütern verbietet jegliche bauliche Veränderung an Gebäuden, die vor 1900 erbaut wurden. Ein neues kantonales Energiegesetz aus dem Jahr 2023 schreibt vor, dass alle Gebäude bis 2030 mit einer Solaranlage auf dem Dach ausgestattet sein müssen. Werkstattleiterin Meier besitzt ein Werkstattgebäude von 1890 und weiss nicht, an welches Gesetz sie sich halten soll. Sie kann nicht beide gleichzeitig erfüllen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Identifizieren Sie den genauen Widerspruch zwischen den beiden Gesetzen. Welches Gebot und welches Verbot stehen sich gegenüber?</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Thema ist die <strong>Normenkollision</strong>. Es gibt anerkannte juristische Regeln, um solche Widersprüche aufzulösen. Hier kollidieren zwei Gesetze auf der gleichen hierarchischen Stufe (kantonale Gesetze).</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie die Kollisionsregel <strong>'Lex posterior derogat legi priori'</strong> (Das jüngere Gesetz geht dem älteren vor). Was bedeutet dieser Grundsatz?</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Wenden Sie die Kollisionsregel auf den Fall an. Welches der beiden Gesetze hat Vorrang und was bedeutet das für Frau Meiers Pflichten?</p>"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiterin Meier, Kantonale Behörden.<br><strong>Was ist passiert:</strong> Zwei kantonale Gesetze aus unterschiedlichen Zeiten machen widersprüchliche Vorgaben für dasselbe Gebäude: Das eine verbietet Änderungen, das andere schreibt eine Änderung vor.<br><strong>Rechtsfrage:</strong> Welches Gesetz gilt, wenn zwei gleichrangige Normen sich widersprechen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Juristische Methodik, Normenkollision.<br><strong>Regelung:</strong> Da beide Normen auf der gleichen Stufe (kantonales Gesetz) stehen, greift nicht die Hierarchieregel. Stattdessen kommen die Kollisionsregeln zur Anwendung.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse ('Lex posterior...'):</strong> Der Grundsatz 'Lex posterior derogat legi priori' besagt, dass bei einem Widerspruch zwischen zwei gleichrangigen Normen die <strong>jüngere Norm der älteren vorgeht</strong>. Man geht davon aus, dass der Gesetzgeber mit dem Erlass des neuen Gesetzes die alte Regelung bewusst ändern oder aufheben wollte.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Das Energiegesetz stammt aus dem Jahr 2023, das Kulturgüterschutzgesetz aus 1980. Das Energiegesetz ist also das deutlich jüngere Gesetz.<br><strong>Konsequenz:</strong> Nach der 'Lex posterior'-Regel geht das neue Energiegesetz dem alten Kulturgüterschutzgesetz vor. Frau Meier ist <strong>verpflichtet</strong>, die Solaranlage zu installieren. Das Verbot im alten Gesetz ist in diesem Punkt als aufgehoben zu betrachten.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Gibt es noch andere Kollisionsregeln?",
+            "answer": "<p>Ja, eine weitere wichtige Regel ist <strong>'Lex specialis derogat legi generali'</strong> (Das spezielle Gesetz geht dem allgemeinen Gesetz vor). Wenn beispielsweise ein allgemeines Vertragsrecht etwas regelt, aber ein spezielles Gesetz für Mietverträge eine abweichende Regel enthält, gilt die spezielle Regel für Mietverträge.</p>"
+          },
+          {
+            "question": "Was würde ein gutes, modernes Gesetz tun, um solche Konflikte zu vermeiden?",
+            "answer": "<p>Ein gut gemachtes neues Gesetz enthält in der Regel <strong>Übergangsbestimmungen</strong> und einen Abschnitt 'Änderung anderer Erlasse'. Darin würde explizit stehen, dass z.B. Artikel X des alten Kulturgüterschutzgesetzes für die Pflicht zur Installation von Solaranlagen nicht gilt oder entsprechend angepasst wird. Dies schafft Rechtsklarheit.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-10": {
+      "title": "Fall 10 (Transfer/Beurteilung): Der Lärmstreit",
+      "type": "law_case",
+      "caseText": "Werkstattleiter Frei plant den Bau einer neuen Testhalle für laute Motoren. Das Grundstück liegt in einer Zone, die gemäss kommunalem Zonenplan für 'mässig störendes Gewerbe' vorgesehen ist. Ein Anwohner, dessen Haus 100 Meter entfernt in einer reinen Wohnzone steht, kündigt Widerstand an. Er beruft sich auf das eidgenössische Umweltschutzgesetz (USG), das die Bevölkerung vor schädlichem Lärm schützen will. Die Gemeindebehörde verweist auf die kantonale Lärmschutzverordnung, welche die Lärmgrenzwerte für Gewerbezonen festlegt.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Identifizieren Sie alle beteiligten Parteien und die von ihnen genannten Rechtsgrundlagen auf den verschiedenen staatlichen Ebenen (Bund, Kanton, Gemeinde).</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Problem erfordert ein Verständnis der Hierarchie und des <strong>Zusammenspiels der Rechtsnormen</strong> von Bund, Kantonen und Gemeinden im Raumplanungs- und Umweltrecht.</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie, wie die verschiedenen Regelwerke (USG, kantonale Verordnung, kommunaler Zonenplan) zusammenhängen. Welches gibt den Rahmen vor? Welches konkretisiert?</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Beurteilen Sie die Situation von Herrn Frei. Welche Norm ist letztlich massgebend? Entwickeln Sie eine Strategie, wie er vorgehen sollte, um sein Bauprojekt rechtssicher zu gestalten.</p>"
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Frei, ein Anwohner, Gemeindebehörde.<br><strong>Problem:</strong> Ein Bauvorhaben ist konfrontiert mit Rechtsnormen auf drei verschiedenen Staatsebenen (Bund, Kanton, Gemeinde), die von den Parteien unterschiedlich interpretiert werden.<br><strong>Problemstellung:</strong> Wie ist das Verhältnis dieser Normen zueinander und was bedeutet das für die Zulässigkeit des Bauprojekts?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Umweltrecht, Raumplanungs- und Baurecht.<br><strong>Rechtsvorschrift:</strong> Das föderale System der Rechtsetzung, bei dem der Bund Rahmengesetze erlässt (z.B. <strong>Umweltschutzgesetz, USG</strong>), die Kantone Ausführungsgesetze und Verordnungen erlassen und die Gemeinden die konkrete Bodennutzung in Zonenplänen festlegen.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse des Zusammenspiels:</strong><br>1.  <strong>Bund (Rahmengesetz):</strong> Das USG legt das allgemeine Schutzziel fest und definiert Lärm-Grenzwerte für verschiedene Zonen (z.B. Wohnzone, Gewerbezone).<br>2.  <strong>Kanton (Ausführungsgesetz):</strong> Die kantonale Verordnung konkretisiert die Bundesvorgaben und regelt das Baubewilligungsverfahren.<br>3.  <strong>Gemeinde (Nutzungsplanung):</strong> Der kommunale Zonenplan legt fest, wo welche Zone (z.B. 'Wohnzone', 'Gewerbezone') liegt.<br>Diese Normen widersprechen sich nicht, sondern bauen aufeinander auf und ergänzen sich.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Strategie:</strong><br>Alle drei Normebenen sind zu beachten. Entscheidend sind die <strong>Lärmgrenzwerte</strong>, die das Bauvorhaben am Standort des Anwohners (Immissionsort) in der Wohnzone einhalten muss. Die Tatsache, dass die Testhalle in der Gewerbezone steht, erlaubt zwar höhere Lärmemissionen an der Quelle, aber der Schutz der benachbarten Wohnzone hat Priorität.<br><strong>Empfehlung (Transferleistung):</strong> Herr Frei sollte ein <strong>Lärmschutzgutachten</strong> von einem Experten erstellen lassen. Dieses Gutachten muss nachweisen, dass die Lärmimmissionen bei den Nachbarn die strengeren Grenzwerte der Wohnzone einhalten. Gegebenenfalls muss er zusätzliche Schallschutzmassnahmen (z.B. dickere Wände, Lärmschutzwand) einplanen. Mit diesem Nachweis kann er dem Widerstand des Nachbarn und den Bedenken der Behörde begegnen und die Baubewilligung erlangen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Hat der Anwohner gute Chancen, das Projekt komplett zu verhindern?",
+            "answer": "<p>Ein komplettes Verhindern ist unwahrscheinlich, da das Grundstück für Gewerbe vorgesehen ist. Der Anwohner hat aber ein Recht darauf, dass die gesetzlichen Lärmgrenzwerte an seinem Wohnort eingehalten werden. Sein Widerstand wird also erfolgreich sein, wenn Herr Frei nicht nachweisen kann, dass diese Grenzwerte eingehalten werden.</p>"
+          },
+          {
+            "question": "Was versteht man unter dem 'föderalistischen Staatsaufbau' der Schweiz?",
+            "answer": "<p>Föderalismus bedeutet, dass die staatliche Macht auf drei Ebenen aufgeteilt ist: <strong>Bund, Kantone und Gemeinden</strong>. Jede Ebene hat ihre eigenen, in der Verfassung festgelegten Aufgaben und Kompetenzen zur Rechtsetzung. Dies ermöglicht massgeschneiderte Lösungen, führt aber auch zu einer komplexen Rechtsordnung wie in diesem Fall.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-11": {
+      "title": "Fall 11 (Transfer/Beurteilung): Recht und Ethik",
+      "type": "law_case",
+      "caseText": "Eine Werkstatt hat einen langjährigen, älteren Kunden, Herrn Moser, der offensichtlich beginnt, dement zu werden. Herr Moser erscheint in der Werkstatt und will einen Kaufvertrag für einen brandneuen, überdimensionierten und sehr teuren Traktor unterschreiben, den er objektiv nicht benötigt und dessen Bedienung ihn überfordern würde. Der Verkaufsleiter weiss, dass der Vertrag rechtlich anfechtbar sein könnte (Stichwort Urteilsunfähigkeit). Er muss entscheiden, ob er den Vertrag aus reiner Profitgier abschliessen oder den Kunden und dessen Familie schützen soll.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Identifizieren Sie den Konflikt: Es geht nicht nur um eine rein rechtliche, sondern auch um eine ethische und kaufmännische Entscheidung.</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Die rechtliche Grundlage ist die <strong>Handlungsfähigkeit</strong>, insbesondere die <strong>Urteilsfähigkeit</strong>. Gesetzeslage: <strong>ZGB Art. 16</strong>. Was passiert mit Verträgen, die von einer urteilsunfähigen Person geschlossen werden?</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie die verschiedenen Optionen des Verkaufsleiters und ihre Konsequenzen: 1. Vertrag abschliessen. 2. Vertrag ablehnen. 3. Drittperson (Familie) einbeziehen.</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Beurteilen Sie die Optionen nicht nur nach dem kurzfristigen Gewinn, sondern auch nach rechtlichen Risiken (Vertrag nichtig), Reputation der Werkstatt und ethischer Verantwortung. Geben Sie eine klare Handlungsempfehlung.</p>"
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Situation:</strong> Ein möglicherweise urteilsunfähiger Kunde will einen unpassenden Vertrag abschliessen.<br><strong>Problem:</strong> Der Verkaufsleiter steht im Konflikt zwischen kurzfristigem Umsatzinteresse, dem rechtlichen Risiko eines ungültigen Vertrags und seiner ethischen Verantwortung gegenüber einem langjährigen Kunden.<br><strong>Problemstellung:</strong> Abwägung der rechtlichen, kaufmännischen und ethischen Aspekte und Treffen einer verantwortungsvollen Entscheidung.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Personenrecht, Vertragsrecht.<br><strong>Rechtsvorschrift:</strong> Die Voraussetzung der <strong>Urteilsfähigkeit</strong> für gültige Rechtsgeschäfte gemäss <strong>ZGB Art. 16</strong>. Verträge, die von einer (in diesem Moment) urteilsunfähigen Person abgeschlossen werden, sind von Anfang an <strong>nichtig</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse der Optionen:</strong><br>1.  <strong>Vertrag abschliessen:</strong> Kurzfristig hoher Umsatz. <strong>Risiken:</strong> Der Vertrag ist rechtlich extrem wackelig und kann von den Verwandten oder einem Beistand jederzeit als nichtig erklärt werden. Die Werkstatt muss den Traktor zurücknehmen und den Kaufpreis erstatten. Es droht ein massiver Reputationsschaden ('beutet alte Leute aus').<br>2.  <strong>Vertrag ablehnen:</strong> Kein Umsatz. Der Kunde ist vielleicht kurzfristig verärgert. Langfristig wird die Reputation geschützt.<br>3.  <strong>Familie einbeziehen:</strong> Die diskreteste und verantwortungsvollste Option. Man kann den Kunden bitten, mit seinem Sohn/seiner Tochter nochmals vorbeizukommen, um die Details zu besprechen.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung (Transferleistung):</strong> Der Abschluss des Vertrags wäre sowohl rechtlich hochriskant als auch ethisch verwerflich. Er würde den Ruf der Werkstatt nachhaltig schädigen. Die rein rechtliche Betrachtung (Vertrag ist anfechtbar) und die ethische Bewertung führen zum selben Ergebnis.<br><strong>Empfehlung:</strong> Der Verkaufsleiter sollte den Vertrag <strong>unter keinen Umständen abschliessen</strong>. Die beste Vorgehensweise ist, das Gespräch taktvoll zu führen, den Kunden zu vertrösten und proaktiv und diskret den Kontakt zu den Angehörigen zu suchen, um die Situation zu klären. Dies zeigt soziale Kompetenz und schützt sowohl den Kunden als auch das Unternehmen langfristig.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist der Unterschied zwischen Recht und Sitte/Moral in diesem Fall?",
+            "answer": "<p>Das <strong>Recht</strong> gibt hier einen klaren Rahmen: Ein Vertrag mit einem Urteilsunfähigen ist nichtig (ZGB 16). Die <strong>Moral/Ethik</strong> geht darüber hinaus und fragt, ob es richtig ist, die Schwäche einer Person auszunutzen, selbst wenn der Vertrag vielleicht gerade noch rechtlich halten würde. In diesem Fall decken sich rechtliche und moralische Bewertung.</p>"
+          },
+          {
+            "question": "Macht sich der Verkaufsleiter strafbar, wenn er den Vertrag abschliesst?",
+            "answer": "<p>Unter Umständen ja. Wenn er die Schwäche des Kunden bewusst ausnutzt, um einen übermässigen Gewinn zu erzielen, könnte der Straftatbestand des <strong>Wuchers (StGB Art. 157)</strong> erfüllt sein. Das rechtliche Risiko ist also nicht nur zivilrechtlicher Natur.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-12": {
+      "title": "Fall 12 (Transfer/Beurteilung): Der neue Gesetzgebungsprozess",
+      "type": "law_case",
+      "caseText": "Der Bund plant ein neues 'Bundesgesetz über die Reparierbarkeit von landwirtschaftlichen Maschinen', um die Nachhaltigkeit zu fördern. Als Inhaber einer grossen Werkstatt werden Sie vom Branchenverband angefragt, an der Vernehmlassung teilzunehmen. Sie sollen die Interessen Ihrer Branche vertreten und den Gesetzesentwurf analysieren. Der Entwurf sieht vor, dass Hersteller Ersatzteile für 20 Jahre garantieren müssen und Werkstätten verpflichtet werden, Reparaturanleitungen öffentlich zugänglich zu machen.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "<p>Verstehen Sie Ihre Rolle in diesem Prozess. Es geht nicht um die Anwendung bestehenden Rechts, sondern um die <strong>Gestaltung zukünftigen Rechts</strong>.</p>"
+        },
+        {
+          "id": "step_2",
+          "text": "<p>Das Thema ist der <strong>Gesetzgebungsprozess in der Schweiz</strong>. Recherchieren Sie die Phasen: Entwurf, Vernehmlassung, parlamentarische Beratung, Referendum, Inkrafttreten.</p>"
+        },
+        {
+          "id": "step_3",
+          "text": "<p>Analysieren Sie den Gesetzesentwurf aus der Perspektive Ihrer Werkstatt. Welche Vorschriften sind vorteilhaft, welche nachteilig? Welche praktischen Probleme könnten entstehen?</p>"
+        },
+        {
+          "id": "step_4",
+          "text": "<p>Entwickeln Sie eine fundierte Stellungnahme für die Vernehmlassung. Formulieren Sie konstruktive Kritik und realistische Änderungsvorschläge, die sowohl das Ziel des Gesetzes (Nachhaltigkeit) als auch die Interessen Ihrer Branche berücksichtigen.</p>"
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Situation:</strong> Ein neuer Gesetzesentwurf betrifft die eigene Branche.<br><strong>Aufgabe:</strong> Aktive Teilnahme am politischen Prozess der Rechtsetzung durch eine Vernehmlassungsantwort.<br><strong>Problemstellung:</strong> Analyse der Vor- und Nachteile des Entwurfs und Formulierung einer strategischen Position, um das zukünftige Gesetz im Sinne der Branche zu beeinflussen.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Staatsrecht, Gesetzgebungsprozess.<br><strong>Regelung:</strong> Die <strong>Vernehmlassung</strong> ist ein vorparlamentarischer Schritt, bei dem Kantone, Parteien und interessierte Kreise (wie Branchenverbände) ihre Meinung zu einem Gesetzesentwurf abgeben können. Dies dient der Verbesserung des Gesetzes und der Prüfung seiner Akzeptanz.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse des Entwurfs:</strong><br>- <strong>Vorteile:</strong> Die Pflicht zur Ersatzteilgarantie sichert das Reparaturgeschäft der Werkstätten langfristig.<br>- <strong>Nachteile/Probleme:</strong> Die Pflicht zur Veröffentlichung von Anleitungen könnte Geschäftsgeheimnisse gefährden und zu unsachgemässen Reparaturen durch Laien führen, was wiederum Haftungsrisiken für die Werkstätten birgt. Eine 20-Jahres-Frist könnte für schnelllebige Elektronikkomponenten unrealistisch und teuer sein.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Stellungnahme (Transferleistung):</strong> Eine pauschale Ablehnung des Gesetzes wäre nicht zielführend. Eine konstruktive Stellungnahme ist gefragt.<br><strong>Empfehlung für die Stellungnahme:</strong><br>1.  <strong>Grundsätzliche Zustimmung:</strong> Das Ziel der Nachhaltigkeit und Stärkung des Reparatursektors wird begrüsst.<br>2.  <strong>Konstruktive Kritik:</strong> Die 20-Jahres-Frist sollte für Elektronik auf eine kürzere, realistische Frist (z.B. 10 Jahre) reduziert werden.<br>3.  <strong>Änderungsvorschlag:</strong> Statt einer öffentlichen Zugänglichkeit der Reparaturanleitungen sollte der Zugang auf zertifizierte Fachbetriebe beschränkt werden. Dies stellt die Qualität und Sicherheit der Reparaturen sicher, schützt Geschäftsgeheimnisse und stärkt die professionellen Werkstätten.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Warum ist die Vernehmlassung ein wichtiges Instrument der Schweizer Demokratie?",
+            "answer": "<p>Sie ermöglicht es, das Fachwissen von direkt Betroffenen (wie Branchenkennern) in den Gesetzgebungsprozess einzubeziehen. Dadurch werden Gesetze praxisnäher und besser. Zudem kann die Politik frühzeitig erkennen, ob ein Gesetz auf grossen Widerstand stossen und ein Referendum drohen würde.</p>"
+          },
+          {
+            "question": "Was passiert nach der Vernehmlassung?",
+            "answer": "<p>Die Verwaltung wertet die Antworten aus und überarbeitet den Entwurf. Danach wird der Entwurf als 'Botschaft' an das <strong>Parlament</strong> (National- und Ständerat) überwiesen. Dort wird er in Kommissionen und im Plenum beraten und verabschiedet. Danach untersteht das fertige Gesetz dem <strong>fakultativen Referendum</strong>.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

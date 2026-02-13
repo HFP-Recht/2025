@@ -1,0 +1,1381 @@
+Directory structure:
+└── hfp-recht-lms_box/
+    ├── index.html
+    ├── index_alt.html
+    ├── css/
+    │   └── styles.css
+    ├── dashboard/
+    │   ├── 1.md
+    │   ├── teacher.css
+    │   ├── teacher.html
+    │   └── teacher.js
+    └── js/
+        ├── app.js
+        ├── config.js
+        ├── printer.js
+        ├── renderer.js
+        └── submission.js
+
+================================================
+FILE: index.html
+================================================
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe - Teil 1</title> <!-- Title updated for clarity -->
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- This page represents the primary assignment part (e.g., subId=partA) -->
+    <div id="assignment-container">
+        <header id="assignment-header">
+            <h2 id="main-title">Lade Aufgabe...</h2>
+            <h3 id="sub-title"></h3>
+        </header>
+        
+        <main id="content-renderer"></main>
+        
+        <div id="solution-section" style="display: none; margin-top: 20px;">
+            <details id="solution-dropdown">
+                <summary>Musterlösung anzeigen</summary>
+                
+                <div id="solution-unlock-container" style="margin-top: 10px;">
+                    <!-- Das Eingabefeld wird von renderer.js hier eingefügt -->
+                </div>
+
+                <div id="solution-display-container" style="display: none;">
+                    <!-- Die freigeschaltete Lösung wird von renderer.js hier eingefügt -->
+                </div>
+            </details>
+        </div>
+
+        <div id="action-container" style="margin-top: 20px;">
+            <button id="submit-all">Alle Aufträge abgeben</button>
+            <button id="print-answers">Antworten drucken</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
+
+
+
+================================================
+FILE: index_alt.html
+================================================
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aufgabe - Fallstudie</title>
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- ✅ UPDATED: Custom styles for law case and new hint feature -->
+    <style>
+        #case-text-container {
+            background-color: #e9ecef;
+            padding: 1.5em;
+            border-radius: 8px;
+            margin-bottom: 2em;
+            border-left: 5px solid #6c757d;
+        }
+        .law-step {
+            margin-bottom: 2.5em;
+        }
+        .law-step h3 {
+            margin-bottom: 0.25em;
+            font-size: 1.2em;
+            color: #343a40;
+        }
+        .law-step p {
+            margin-top: 0;
+            color: #495057;
+            font-style: italic;
+        }
+        .law-step .quill-editor-small {
+            height: 150px;
+        }
+        /* ✅ NEW: Styles for the hint feature */
+        .hint-container {
+            margin-top: 10px;
+        }
+        .hint-btn {
+            padding: 5px 12px;
+            font-size: 0.9em;
+            border: 1px solid #6c757d;
+            border-radius: 4px;
+            background-color: transparent;
+            color: #6c757d;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .hint-btn:hover {
+            background-color: #f8f9fa;
+        }
+        .hint-box {
+            margin-top: 8px;
+            padding: 10px;
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            border-radius: 4px;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div id="assignment-container">
+        <header id="assignment-header">
+            <h2 id="main-title">Lade Aufgabe...</h2>
+            <h3 id="sub-title"></h3>
+        </header>
+        
+        <main id="content-renderer">
+            <div id="case-text-container">
+                <p>Lade Falltext...</p>
+            </div>
+            <div id="law-steps-container">
+                <!-- The 4 steps with their Quill editors will be rendered here by renderer.js -->
+            </div>
+        </main>
+        
+        <div id="solution-section" style="display: none; margin-top: 20px;">
+            <details id="solution-dropdown">
+                <summary>Musterlösung anzeigen</summary>
+                <div id="solution-unlock-container" style="margin-top: 10px;"></div>
+                <div id="solution-display-container" style="display: none;"></div>
+            </details>
+        </div>
+
+        <div id="action-container" style="margin-top: 20px;">
+            <button id="submit-all">Alle Aufträge abgeben</button>
+            <button id="print-answers">Antworten drucken</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
+
+
+================================================
+FILE: css/styles.css
+================================================
+/* Base & Layout Styles */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+#assignment-container {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.07);
+}
+
+/* Hide main title for compact layout */
+#main-title {
+    display: none;
+}
+
+/* Style subtitle with small margin at top */
+#sub-title {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #495057;
+}
+
+#assignment-header h2 {
+    margin-top: 0;
+}
+
+/* Action Buttons */
+#action-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+    margin-right: 10px;
+}
+
+#action-container button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+#action-container button:disabled {
+    background-color: #ced4da;
+    border-color: #ced4da;
+    cursor: not-allowed;
+}
+
+/* Solution Display */
+#solution-display-container {
+    display: none; /* Hidden by default */
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0fff4; /* Light green background */
+    border: 1px solid #28a745;
+    border-radius: 8px;
+}
+
+#solution-display-container h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+    color: #155724; /* Dark green text */
+}
+
+/* Solution Unlock Input */
+#solution-unlock-container button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+#solution-unlock-container button:hover {
+    background-color: #e9ecef;
+}
+
+
+
+================================================
+FILE: dashboard/1.md
+================================================
+1
+
+
+
+
+================================================
+FILE: dashboard/teacher.css
+================================================
+/*
+// ──────────────────────────────────────────────────────────────────
+//   :::::: F I L E :   d a s h b o a r d / t e a c h e r . c s s ::::::
+// ──────────────────────────────────────────────────────────────────
+*/
+/* General Styles */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Login Overlay */
+#login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+#login-overlay.visible {
+    display: flex;
+}
+#login-box {
+    background: #fff;
+    padding: 2em 3em;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+#login-box input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 1em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#login-box button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#login-status {
+    color: #d9534f;
+    min-height: 1.2em;
+    margin-top: 1em;
+}
+
+/* Dashboard Layout */
+#dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+#sidebar {
+    width: 350px;
+    background-color: #fff;
+    border-right: 1px solid #e0e0e0;
+    padding: 1em;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+#sidebar h1 {
+    margin-top: 0;
+    font-size: 1.5em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5em;
+}
+#content-viewer {
+    flex-grow: 1;
+    padding: 2em;
+    overflow-y: auto;
+}
+
+/* ✅ NEW: Class Filter Styles */
+#class-filter-container {
+    margin-bottom: 1.5em;
+}
+#class-filter {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* ✅ UPDATED: Submission List Styling */
+.class-group {
+    margin-bottom: 1.5em;
+}
+.class-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.5em;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.student-group {
+    margin-top: 0.5em;
+    padding-left: 1em;
+}
+.student-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+.submission-file {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #0056b3;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1em;
+}
+.submission-file:hover {
+    background-color: #e9f3ff;
+}
+.submission-file.active {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* Content Viewer Styling */
+#viewer-placeholder {
+    text-align: center;
+    color: #777;
+    margin-top: 5em;
+    font-size: 1.2em;
+}
+.assignment-block {
+    margin-bottom: 2.5em;
+    padding: 1.5em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.assignment-block h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5em;
+}
+.answer-box {
+    padding: 1em;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background-color: #fdfdfd;
+}
+.answer-box .ql-editor {
+    padding: 0;
+}
+
+
+================================================
+FILE: dashboard/teacher.html
+================================================
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link rel="stylesheet" href="teacher.css">
+</head>
+<body>
+    <div id="login-overlay" class="visible">
+        <div id="login-box">
+            <h2>Dashboard-Zugang</h2>
+            <p>Bitte geben Sie den Lehrerschlüssel ein, um fortzufahren.</p>
+            <input type="password" id="teacher-key-input" placeholder="Lehrerschlüssel...">
+            <button id="login-btn">Anmelden</button>
+            <p id="login-status"></p>
+        </div>
+    </div>
+
+    <div id="dashboard-container">
+        <aside id="sidebar">
+            <h1>Abgaben</h1>
+            <div id="class-filter-container"></div> 
+            <div id="submission-list">
+                <p>Lade Abgaben...</p>
+            </div>
+        </aside>
+        <main id="content-viewer">
+            <div id="viewer-placeholder">
+                <p>Wählen Sie eine Abgabe aus der Liste links aus, um sie hier anzuzeigen.</p>
+            </div>
+            <div id="viewer-content"></div>
+        </main>
+    </div>
+
+    <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+    <script src="../js/config.js" type="module"></script>  
+    <script src="teacher.js" type="module"></script>
+</body>
+</html>
+
+
+================================================
+FILE: dashboard/teacher.js
+================================================
+//
+// ────────────────────────────────────────────────────────────────
+//   :::::: F I L E :   d a s h b o a r d / t e a c h e r . j s ::::::
+// ────────────────────────────────────────────────────────────────
+//
+import { SCRIPT_URL, ORG_PREFIX } from '../js/config.js'; // Import ORG_PREFIX
+
+document.addEventListener('DOMContentLoaded', () => {
+    const loginOverlay = document.getElementById('login-overlay');
+    const keyInput = document.getElementById('teacher-key-input');
+    const loginBtn = document.getElementById('login-btn');
+    const loginStatus = document.getElementById('login-status');
+    const submissionListContainer = document.getElementById('submission-list');
+    const classFilterContainer = document.getElementById('class-filter-container');
+    const viewerContent = document.getElementById('viewer-content');
+    const viewerPlaceholder = document.getElementById('viewer-placeholder');
+
+    // --- Authentication ---
+    const checkAuth = () => {
+        const key = sessionStorage.getItem('teacherKey');
+        if (key) {
+            loginOverlay.classList.remove('visible');
+            fetchSubmissionsList(key);
+        } else {
+            loginOverlay.classList.add('visible');
+        }
+    };
+
+    const attemptLogin = () => {
+        const key = keyInput.value.trim();
+        if (!key) {
+            loginStatus.textContent = 'Bitte einen Schlüssel eingeben.';
+            return;
+        }
+        sessionStorage.setItem('teacherKey', key);
+        loginStatus.textContent = '';
+        checkAuth();
+    };
+
+    loginBtn.addEventListener('click', attemptLogin);
+    keyInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') attemptLogin();
+    });
+
+    // --- Data Fetching and Rendering ---
+    const fetchSubmissionsList = async (teacherKey) => {
+        try {
+            const response = await fetch(SCRIPT_URL, {
+                method: 'POST',
+                mode: 'cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'listSubmissions', teacherKey })
+            });
+            const data = await response.json();
+            if (data.status === 'error') throw new Error(data.message);
+
+            // ✅ NEU: Normalisierungslogik für Klassennamen
+            // Wir erstellen eine neue Map, um Klassen unabhängig von der Gross-/Kleinschreibung zu gruppieren.
+            const rawSubmissionMap = data;
+            const normalizedSubmissionMap = {};
+
+            for (const className in rawSubmissionMap) {
+                // Erstelle einen normalisierten Namen, z.B. "pk25a" -> "PK25A"
+                const normalizedClassName = className.toUpperCase();
+
+                // Wenn die normalisierte Klasse (z.B. "PK25A") noch nicht existiert, initialisiere sie.
+                if (!normalizedSubmissionMap[normalizedClassName]) {
+                    normalizedSubmissionMap[normalizedClassName] = {};
+                }
+
+                // Führe die Schülerdaten aus der Originalklasse (z.B. "pk25a")
+                // mit der normalisierten Gruppe ("PK25A") zusammen.
+                Object.assign(normalizedSubmissionMap[normalizedClassName], rawSubmissionMap[className]);
+            }
+            
+            // ✅ AKTUALISIERT: Übergebe die normalisierten Daten an die Render-Funktionen.
+            renderClassFilter(Object.keys(normalizedSubmissionMap));
+            renderSubmissionsList(normalizedSubmissionMap);
+
+        } catch (error) {
+            submissionListContainer.innerHTML = `<p style="color: red;">Fehler: ${error.message}</p>`;
+            if (error.message.includes('Invalid teacher key')) {
+                sessionStorage.removeItem('teacherKey');
+                checkAuth();
+            }
+        }
+    };
+
+    /**
+     * Renders the class filter dropdown.
+     * @param {string[]} classes - An array of class names.
+     */
+    const renderClassFilter = (classes) => {
+        if (classes.length === 0) {
+            classFilterContainer.innerHTML = '';
+            return;
+        }
+        let options = '<option value="all">Alle Klassen anzeigen</option>';
+        // Sortiere die normalisierten Klassennamen alphabetisch für die Anzeige.
+        classes.sort().forEach(klasse => {
+            options += `<option value="${klasse}">${klasse}</option>`;
+        });
+        classFilterContainer.innerHTML = `<select id="class-filter">${options}</select>`;
+
+        document.getElementById('class-filter').addEventListener('change', (e) => {
+            const selectedClass = e.target.value;
+            const allClassGroups = document.querySelectorAll('.class-group');
+            allClassGroups.forEach(group => {
+                if (selectedClass === 'all' || group.dataset.className === selectedClass) {
+                    group.style.display = 'block';
+                } else {
+                    group.style.display = 'none';
+                }
+            });
+        });
+    };
+
+    /**
+     * Renders submissions grouped by class.
+     * @param {object} submissionMap - The nested object from the backend.
+     */
+    const renderSubmissionsList = (submissionMap) => {
+        if (Object.keys(submissionMap).length === 0) {
+            submissionListContainer.innerHTML = '<p>Noch keine Abgaben vorhanden.</p>';
+            return;
+        }
+        let html = '';
+        const sortedClasses = Object.keys(submissionMap).sort();
+
+        for (const klasse of sortedClasses) {
+            // Der `data-class-name` und der angezeigte Name sind jetzt konsistent grossgeschrieben.
+            html += `<div class="class-group" data-class-name="${klasse}">
+                        <div class="class-name">${klasse}</div>`;
+            const students = submissionMap[klasse];
+            const sortedStudents = Object.keys(students).sort();
+
+            for (const studentName of sortedStudents) {
+                html += `<div class="student-group">
+                            <div class="student-name">${studentName}</div>`;
+                students[studentName].forEach(file => {
+                    html += `<a class="submission-file" data-path="${file.path}">${file.name}</a>`;
+                });
+                html += `</div>`;
+            }
+            html += `</div>`;
+        }
+        submissionListContainer.innerHTML = html;
+    };
+
+    const fetchAndRenderSubmission = async (path) => {
+        viewerPlaceholder.style.display = 'none';
+        viewerContent.innerHTML = '<p>Lade Inhalt...</p>';
+        try {
+            const teacherKey = sessionStorage.getItem('teacherKey');
+            const response = await fetch(SCRIPT_URL, {
+                method: 'POST',
+                mode: 'cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ action: 'getSubmission', teacherKey, submissionPath: path })
+            });
+            const data = await response.json();
+            if (data.status === 'error') throw new Error(data.message);
+            
+            let contentHtml = `<h1>Abgabe vom ${new Date(data.createdAt).toLocaleString('de-CH')}</h1>`;
+            for (const assignmentId in data.assignments) {
+                for (const subId in data.assignments[assignmentId]) {
+                    const subData = data.assignments[assignmentId][subId];
+                    contentHtml += `<div class="assignment-block">
+                                        <h2>${subData.title}</h2>
+                                        <div class="answer-box"><div class="ql-snow"><div class="ql-editor">${subData.answer}</div></div></div>
+                                    </div>`;
+                }
+            }
+            viewerContent.innerHTML = contentHtml;
+
+        } catch (error) {
+            viewerContent.innerHTML = `<p style="color: red;">Fehler beim Laden der Abgabe: ${error.message}</p>`;
+        }
+    };
+
+    // --- Event Delegation for Clicks ---
+    submissionListContainer.addEventListener('click', (e) => {
+        if (e.target.classList.contains('submission-file')) {
+            const currentActive = submissionListContainer.querySelector('.active');
+            if (currentActive) currentActive.classList.remove('active');
+            e.target.classList.add('active');
+            const path = e.target.dataset.path;
+            fetchAndRenderSubmission(path);
+        }
+        if(e.target.classList.contains('class-name')) {
+            const studentGroups = e.target.parentElement.querySelectorAll('.student-group');
+            studentGroups.forEach(group => {
+                group.style.display = group.style.display === 'none' ? 'block' : 'none';
+            });
+        }
+    });
+
+    checkAuth();
+});
+
+
+================================================
+FILE: js/app.js
+================================================
+import { SCRIPT_URL, ORG_PREFIX } from './config.js'; // Import ORG_PREFIX
+import { renderSubAssignment } from './renderer.js';
+import { printAssignmentAnswers } from './printer.js';
+import { submitAllAssignments } from './submission.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const assignmentId = urlParams.get('assignmentId');
+    const subId = urlParams.get('subId');
+
+    if (!assignmentId || !subId) {
+        document.getElementById('main-title').textContent = 'Fehler';
+        document.getElementById('content-renderer').innerHTML = '<p>Keine `assignmentId` oder `subId` in der URL gefunden.</p>';
+        return;
+    }
+
+    document.getElementById('submit-all').addEventListener('click', submitAllAssignments);
+    document.getElementById('print-answers').addEventListener('click', () => printAssignmentAnswers(assignmentId));
+
+    // ✅ UPDATED: Add the org parameter to the fetch URL
+    const fetchUrl = `${SCRIPT_URL}?assignmentId=${assignmentId}&org=${ORG_PREFIX}`;
+    
+    fetch(fetchUrl)
+        .then(response => {
+            if (!response.ok) throw new Error(`Network error: ${response.statusText}`);
+            return response.json();
+        })
+        .then(data => {
+            if (data.status === 'error') throw new Error(data.message);
+
+            document.getElementById('main-title').textContent = data.assignmentTitle;
+            const subAssignmentData = data.subAssignments[subId];
+            if (!subAssignmentData) throw new Error(`Teilaufgabe "${subId}" nicht gefunden.`);
+            
+            renderSubAssignment(data, assignmentId, subId);
+        })
+        .catch(error => {
+            console.error('Fehler beim Laden der Aufgabe:', error);
+            document.getElementById('main-title').textContent = 'Fehler';
+            document.getElementById('content-renderer').innerHTML = `<p>${error.message}</p><p>Stellen Sie sicher, dass die assignmentId korrekt ist und die Server-Skript-URL in <code>js/config.js</code> konfiguriert ist.</p>`;
+        });
+});
+
+
+================================================
+FILE: js/config.js
+================================================
+// Rename this file to "config.js" and paste your Google Apps Script Web App URL here.
+// DO NOT commit the "config.js" file to your repository if it's public.
+export const SCRIPT_URL = 'https://europe-west6-keen-surfer-465508-f2.cloudfunctions.net/assignmentHandler';
+
+// ✅ NEW: Add the organization prefix here.
+// This will place all assignments and submissions in a subfolder (e.g., 'assignments/HFP/').
+// For the default (root) folder, set this to an empty string: export const ORG_PREFIX = '';
+export const ORG_PREFIX = 'HFP';
+
+
+================================================
+FILE: js/printer.js
+================================================
+import { SCRIPT_URL, ORG_PREFIX } from './config.js'; // Import ORG_PREFIX
+
+const ANSWER_PREFIX = 'modular-answer_';
+const QUESTIONS_PREFIX = 'modular-questions_';
+const TITLE_PREFIX = 'title_';
+const TYPE_PREFIX = 'type_';
+
+// ✅ UPDATED: The function now accepts a 'variant'
+async function gatherAssignmentData(assignmentId, variant) { 
+    const studentIdentifier = localStorage.getItem('studentIdentifier') || 'Unbekannter Schüler';
+    let mainTitle = `Aufgabe: ${assignmentId}`;
+    let serverSubAssignments = {};
+
+    try {
+        // ✅ UPDATED: The fetch URL now includes the variant
+        const response = await fetch(`${SCRIPT_URL}?assignmentId=${assignmentId}&org=${ORG_PREFIX}&variant=${variant}`);
+        if (!response.ok) throw new Error(`Server responded with status ${response.status}`);
+        const data = await response.json();
+        if (data.status === 'error') throw new Error(data.message);
+        if (data.assignmentTitle) mainTitle = data.assignmentTitle;
+        if (data.subAssignments && typeof data.subAssignments === 'object') {
+            serverSubAssignments = data.subAssignments;
+        }
+    } catch (e) {
+        console.warn(`Could not fetch full assignment data from server for printing. Reason: ${e.message}`);
+    }
+
+    const localSubAssignments = {};
+    const prefixes = {
+        answer: ANSWER_PREFIX,
+        questions: QUESTIONS_PREFIX,
+        title: TITLE_PREFIX,
+        type: TYPE_PREFIX
+    };
+
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        const expectedStart = `${assignmentId}_sub_`;
+
+        // ✅ FIX: Special handling for the caseText key to prevent it from being misinterpreted as a title.
+        const caseTextSuffix = '_caseText';
+        if (key.startsWith(TITLE_PREFIX) && key.endsWith(caseTextSuffix)) {
+            const keyContent = key.substring(TITLE_PREFIX.length, key.length - caseTextSuffix.length);
+            if (keyContent.startsWith(expectedStart)) {
+                const subId = keyContent.substring(expectedStart.length);
+                if (!localSubAssignments[subId]) localSubAssignments[subId] = {};
+                localSubAssignments[subId].caseText = localStorage.getItem(key);
+            }
+            continue; // Skip to the next key to avoid double processing
+        }
+
+        let keyType = null;
+        let keyContent = '';
+        for (const [name, prefix] of Object.entries(prefixes)) {
+            if (key.startsWith(prefix)) {
+                keyType = name;
+                keyContent = key.substring(prefix.length);
+                break;
+            }
+        }
+
+        if (keyType) {
+            if (keyContent.startsWith(expectedStart)) {
+                const subId = keyContent.substring(expectedStart.length);
+                if (!localSubAssignments[subId]) localSubAssignments[subId] = {};
+                const value = localStorage.getItem(key);
+                switch (keyType) {
+                    case 'answer': localSubAssignments[subId].answer = value || ''; break;
+                    case 'title': localSubAssignments[subId].title = value || subId; break;
+                    case 'type': localSubAssignments[subId].type = value || 'quill'; break;
+                    case 'questions':
+                        try { localSubAssignments[subId].questions = JSON.parse(value || '[]'); } catch (err) {}
+                        break;
+                }
+            }
+        }
+    }
+
+    const finalSubAssignments = {};
+    const masterSubIdList = new Set([...Object.keys(serverSubAssignments), ...Object.keys(localSubAssignments)]);
+
+    for (const subId of masterSubIdList) {
+        const serverData = serverSubAssignments[subId] || {};
+        const localData = localSubAssignments[subId] || {};
+        finalSubAssignments[subId] = {
+            answer: localData.answer || '',
+            title: serverData.title || localData.title || subId,
+            questions: (serverData.questions && serverData.questions.length > 0) ? serverData.questions : (localData.questions || []),
+            type: serverData.type || localData.type || 'quill',
+            caseText: serverData.caseText || localData.caseText || ''
+        };
+    }
+    
+    if (masterSubIdList.size === 0) {
+        finalSubAssignments['info'] = { title: 'Keine Aufgaben gefunden', questions: [{text: 'Es konnten keine Aufgabeninformationen geladen werden.'}] };
+    }
+
+    return { studentIdentifier, assignmentTitle: mainTitle, subAssignments: finalSubAssignments };
+}
+
+// ... (The generatePrintHTML function does not need changes) ...
+function convertMarkdownToHTML(text) {
+    if (!text) return text;
+    text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    text = text.replace(/(?<!\*)\*([^*]+?)\*(?!\*)/g, '<em>$1</em>');
+    return text;
+}
+
+function generatePrintHTML(data) {
+    let bodyContent = `<h1>${convertMarkdownToHTML(data.assignmentTitle)}</h1><p><strong>Name:</strong> ${data.studentIdentifier}</p><hr>`;
+    const sortedSubIds = Object.keys(data.subAssignments).sort();
+
+    for (const subId of sortedSubIds) {
+        const subData = data.subAssignments[subId];
+        bodyContent += `<div class="sub-assignment"><h2>${convertMarkdownToHTML(subData.title)}</h2>`;
+
+        if (subData.type === 'law_case') {
+            bodyContent += `<h3>Sachverhalt</h3><div class="case-text-box">${subData.caseText.replace(/\n/g, '<br>')}</div>`;
+            const steps = [
+                { id: 'step_1', title: '1. Sachverhalt analysieren', description: 'Was ist passiert? Wer ist beteiligt? Wer macht was geltend? Welche rechtlichen Fragen stellen sich?' },
+                { id: 'step_2', title: '2. Relevante Regel finden', description: 'Welches Rechtsgebiet ist betroffen? In welcher Rechtsvorschrift ist die Frage geregelt?' },
+                { id: 'step_3', title: '3. Regel analysieren', description: 'Welche rechtlichen Voraussetzungen, sogenannten Tatbestandsmerkmale, müssen erfüllt sein? Welches sind die Rechtsfolgen davon?' },
+                { id: 'step_4', title: '4. Regel auf Sachverhalt anwenden und Rechtsfolge bestimmen', description: 'Sind die Voraussetzungen im Einzelfall erfüllt?' }
+            ];
+            let answers = {};
+            try { answers = JSON.parse(subData.answer || '{}'); } catch(e) {}
+            steps.forEach((step) => {
+                const answerHtml = answers[step.id] || '<div class="answer-box empty-answer-box"></div>';
+                bodyContent += `<div class="law-step-print"><h4>${step.title}</h4><p class="description-print"><em>${step.description}</em></p><div class="answer-box">${answerHtml}</div></div>`;
+            });
+        } else {
+            if (subData.questions && subData.questions.length > 0) {
+                const questionsHTML = subData.questions.map(q => `<li>${convertMarkdownToHTML(q.text)}</li>`).join('');
+                bodyContent += `<h3>Fragen:</h3><ol>${questionsHTML}</ol>`;
+            }
+            bodyContent += `<h3>Antwort:</h3>`;
+            const isAnswerEmpty = !subData.answer || subData.answer.trim() === '' || subData.answer.trim() === '<p><br></p>';
+            bodyContent += `<div class="answer-box ${isAnswerEmpty ? 'empty-answer-box' : ''}">${isAnswerEmpty ? '' : subData.answer}</div>`;
+        }
+        bodyContent += `</div>`;
+    }
+
+    const css = `body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.5; margin: 2em; } h1, h2, h3, h4 { color: #333; } h1 { font-size: 2em; border-bottom: 2px solid #ccc; padding-bottom: 0.5em; } h2 { font-size: 1.5em; background-color: #f0f0f0; padding: 0.5em; margin-top: 2em; border-left: 5px solid #007bff; } h3 { font-size: 1.1em; margin-bottom: 0.5em; margin-top: 1.5em; } .sub-assignment { page-break-inside: avoid; margin-bottom: 2em; } .answer-box { padding: 10px; border: 1px solid #ddd; border-radius: 4px; margin-top: 0; background-color: #f9f9f9; } .answer-box p { margin-top: 0; } .empty-answer-box { position: relative; min-height: 9em; background-color: #ffffff; } .empty-answer-box::before { content: '✏'; position: absolute; top: 8px; left: 10px; color: #aaa; font-size: 0.9em; font-style: italic; } ol { padding-left: 20px; } hr { border: 0; border-top: 1px solid #ccc; } .case-text-box { background-color: #e9ecef; padding: 1em; border-radius: 4px; margin-bottom: 1.5em; } .law-step-print { margin-top: 1.5em; } .law-step-print h4 { margin-bottom: 0.25em; } .law-step-print .description-print { margin-top: 0; color: #6c757d; } @media print { h2, .case-text-box { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; } }`;
+    return `<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><title>Druckansicht: ${data.assignmentTitle}</title><style>${css}</style></head><body>${bodyContent}</body></html>`;
+}
+
+
+// ✅ UPDATED: The main export function now accepts and passes on the 'variant'
+export async function printAssignmentAnswers(assignmentId, variant) {
+    const data = await gatherAssignmentData(assignmentId, variant);
+    if (!data) return;
+    const htmlContent = generatePrintHTML(data);
+    const printWindow = window.open('', '_blank');
+    if (!printWindow) { alert("Popup-Fenster wurde blockiert. Bitte erlaube Popups für diese Seite."); return; }
+    printWindow.document.write(htmlContent);
+    printWindow.document.close();
+    setTimeout(() => { printWindow.focus(); printWindow.print(); }, 500);
+}
+
+
+================================================
+FILE: js/renderer.js
+================================================
+import { SCRIPT_URL, ORG_PREFIX } from './config.js'; // Import ORG_PREFIX
+
+const ANSWER_PREFIX = 'modular-answer_';
+const QUESTIONS_PREFIX = 'modular-questions_';
+const TITLE_PREFIX = 'title_';
+const TYPE_PREFIX = 'type_';
+const SOLUTION_KEYS_STORE = 'modular-assignment-keys-store';
+
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+}
+
+function parseMarkdown(text) {
+    if (!text) return '';
+    const highlightColor = '#007bff';
+    let html = text.replace(/\*\*(.*?)\*\*/g, `<strong style="color: ${highlightColor};">$1</strong>`);
+    html = html.replace(/([_*])(.*?)\1/g, `<em style="color: ${highlightColor};">$2</em>`);
+    return html;
+}
+
+/**
+ * ✅ NEW: Renders the law case study layout with 4 Quill editors and hints.
+ */
+function renderLawCase(data, assignmentId, subId) {
+    const caseTextContainer = document.getElementById('case-text-container');
+    const lawStepsContainer = document.getElementById('law-steps-container');
+    const storageKey = `${ANSWER_PREFIX}${assignmentId}_sub_${subId}`;
+
+    caseTextContainer.innerHTML = `<p>${data.caseText.replace(/\n/g, '<br>')}</p>`;
+
+    const steps = [
+        { id: 'step_1', title: '1. Sachverhalt analysieren', description: 'Was ist passiert? Wer ist beteiligt? Wer macht was geltend? Welche rechtlichen Fragen stellen sich?' },
+        { id: 'step_2', title: '2. Relevante Regel finden', description: 'Welches Rechtsgebiet ist betroffen? In welcher Rechtsvorschrift ist die Frage geregelt?' },
+        { id: 'step_3', title: '3. Regel analysieren', description: 'Welche rechtlichen Voraussetzungen, sogenannten Tatbestandsmerkmale, müssen erfüllt sein? Welches sind die Rechtsfolgen davon?' },
+        { id: 'step_4', title: '4. Regel auf Sachverhalt anwenden und Rechtsfolge bestimmen', description: 'Sind die Voraussetzungen im Einzelfall erfüllt?' }
+    ];
+
+    const quillInstances = [];
+    lawStepsContainer.innerHTML = '';
+
+    steps.forEach((step) => {
+        const editorId = `quill-editor-${step.id}`;
+
+        const stepDiv = document.createElement('div');
+        stepDiv.className = 'law-step';
+        stepDiv.innerHTML = `
+            <h3>${step.title}</h3>
+            <p>${step.description}</p>
+            <div id="${editorId}" class="quill-editor-small"></div>
+            <div class="hint-container" id="hint-container-${step.id}"></div>
+        `;
+        lawStepsContainer.appendChild(stepDiv);
+
+        const quill = new Quill(`#${editorId}`, {
+            theme: 'snow',
+            modules: { toolbar: [['bold', 'italic', 'underline'], [{ 'list': 'ordered'}, { 'list': 'bullet' }]] }
+        });
+        quillInstances.push({ id: step.id, instance: quill });
+
+        // ✅ NEW: Hint logic
+        const hintData = (data.hints || []).find(h => h.id === step.id);
+        if (hintData) {
+            const hintContainer = document.getElementById(`hint-container-${step.id}`);
+            const hintButton = document.createElement('button');
+            hintButton.className = 'hint-btn';
+            hintButton.textContent = 'Tipp anzeigen';
+            hintContainer.appendChild(hintButton);
+
+            hintButton.addEventListener('click', () => {
+                const existingHintBox = hintContainer.querySelector('.hint-box');
+                if (existingHintBox) {
+                    existingHintBox.remove();
+                    hintButton.textContent = 'Tipp anzeigen';
+                } else {
+                    const hintBox = document.createElement('div');
+                    hintBox.className = 'hint-box';
+                    hintBox.innerHTML = hintData.text; // Use innerHTML to allow basic formatting in hints
+                    hintContainer.appendChild(hintBox);
+                    hintButton.textContent = 'Tipp ausblenden';
+                }
+            });
+        }
+    });
+
+    const saveAllAnswers = debounce(() => {
+        const allAnswers = {};
+        quillInstances.forEach(item => {
+            const content = item.instance.root.innerHTML;
+            if (content && content !== '<p><br></p>') {
+                allAnswers[item.id] = content;
+            }
+        });
+        if (Object.keys(allAnswers).length > 0) {
+            localStorage.setItem(storageKey, JSON.stringify(allAnswers));
+        } else {
+            localStorage.removeItem(storageKey);
+        }
+    }, 500);
+
+    const savedAnswersRaw = localStorage.getItem(storageKey);
+    if (savedAnswersRaw) {
+        try {
+            const savedAnswers = JSON.parse(savedAnswersRaw);
+            quillInstances.forEach(item => {
+                if (savedAnswers[item.id]) {
+                    item.instance.root.innerHTML = savedAnswers[item.id];
+                }
+            });
+        } catch (e) { console.error("Could not parse saved law case answers:", e); }
+    }
+
+    quillInstances.forEach(item => {
+        item.instance.on('text-change', saveAllAnswers);
+    });
+    
+    localStorage.setItem(`${TITLE_PREFIX}${assignmentId}_sub_${subId}_caseText`, data.caseText);
+}
+
+/**
+ * Renders a standard Quill editor.
+ */
+function renderQuill(data, assignmentId, subId) {
+    const contentRenderer = document.getElementById('content-renderer');
+    contentRenderer.innerHTML = '';
+    const storageKey = `${ANSWER_PREFIX}${assignmentId}_sub_${subId}`;
+
+    const questionsList = document.createElement('ol');
+    data.questions.forEach(q => {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = parseMarkdown(q.text);
+        questionsList.appendChild(listItem);
+    });
+    contentRenderer.appendChild(questionsList);
+
+    const editorDiv = document.createElement('div');
+    editorDiv.id = 'quill-editor';
+    contentRenderer.appendChild(editorDiv);
+    const quill = new Quill('#quill-editor', { theme: 'snow' });
+
+    quill.root.innerHTML = localStorage.getItem(storageKey) || '';
+
+    quill.on('text-change', debounce(() => {
+        const htmlContent = quill.root.innerHTML;
+        if (htmlContent && htmlContent !== '<p><br></p>') {
+            localStorage.setItem(storageKey, htmlContent);
+        } else {
+            localStorage.removeItem(storageKey);
+        }
+    }, 500));
+}
+
+/**
+ * Main rendering router.
+ */
+export function renderSubAssignment(assignmentData, assignmentId, subId) {
+    const subAssignmentData = assignmentData.subAssignments[subId];
+    const solutionSection = document.getElementById('solution-section');
+    const solutionUnlockContainer = document.getElementById('solution-unlock-container');
+    const solutionDisplayContainer = document.getElementById('solution-display-container');
+
+    document.getElementById('sub-title').textContent = subAssignmentData.title || subId;
+
+    localStorage.setItem(`${QUESTIONS_PREFIX}${assignmentId}_sub_${subId}`, JSON.stringify(subAssignmentData.questions || []));
+    localStorage.setItem(`${TITLE_PREFIX}${assignmentId}_sub_${subId}`, subAssignmentData.title || subId);
+    localStorage.setItem(`${TYPE_PREFIX}${assignmentId}_sub_${subId}`, subAssignmentData.type);
+
+    if (subAssignmentData.type === 'law_case') {
+        renderLawCase(subAssignmentData, assignmentId, subId);
+    } else if (subAssignmentData.type === 'quill') {
+        renderQuill(subAssignmentData, assignmentId, subId);
+    } else {
+        document.getElementById('content-renderer').innerHTML = `<p>Unbekannter Aufgabentyp: ${subAssignmentData.type}</p>`;
+    }
+
+    // ✅ FIX: Solution unlock logic is now placed here to run for ALL assignment types.
+    const displaySolution = () => {
+        const solutionData = subAssignmentData.solution;
+        const solutionMap = new Map(solutionData.solutions.map(s => [s.id, s.answer]));
+        let html = `<h3>Musterlösung (Seite ${solutionData.page})</h3>`;
+
+        if (subAssignmentData.type === 'law_case') {
+            const steps = [
+                { id: 'step_1', title: '1. Sachverhalt analysieren' }, { id: 'step_2', title: '2. Relevante Regel finden' },
+                { id: 'step_3', title: '3. Regel analysieren' }, { id: 'step_4', title: '4. Regel auf Sachverhalt anwenden und Rechtsfolge bestimmen' }
+            ];
+            steps.forEach(step => {
+                const answer = solutionMap.get(step.id) || 'Für diesen Schritt wurde keine Lösung gefunden.';
+                html += `<div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee;">
+                            <p style="font-weight: bold;">${step.title}:</p>
+                            <div style="padding: 10px; background-color: #e9f3ff; border-radius: 4px;">${answer}</div>
+                         </div>`;
+            });
+        } else { // Default 'quill' type
+            subAssignmentData.questions.forEach((question, index) => {
+                const answer = solutionMap.get(question.id) || 'Für diese Frage wurde keine Lösung gefunden.';
+                html += `<div style="margin-top: 20px; padding-top: 15px; border-top: 1px solid #eee;">
+                            <p style="font-weight: bold;">Frage ${index + 1}:</p>
+                            <p style="font-style: italic;">${parseMarkdown(question.text)}</p>
+                            <div style="padding: 10px; background-color: #e9f3ff; border-radius: 4px;">${answer}</div>
+                         </div>`;
+            });
+        }
+        
+        solutionDisplayContainer.innerHTML = html;
+        solutionDisplayContainer.style.display = 'block';
+        solutionUnlockContainer.style.display = 'none';
+    };
+
+    const setupSolutionUnlockUI = () => {
+        const allKeys = JSON.parse(localStorage.getItem(SOLUTION_KEYS_STORE) || '{}');
+        const prefilledKey = allKeys[assignmentId] || '';
+        solutionUnlockContainer.innerHTML = `<input type="text" id="solution-key-input" placeholder="Lösungsschlüssel eingeben..." value="${prefilledKey}" style="margin-right: 10px; padding: 8px; border: 1px solid #ccc; border-radius: 4px;"><button id="solution-unlock-btn">Lösung anzeigen</button><p id="solution-status" style="color: #721c24; margin-top: 5px;"></p>`;
+        const unlockBtn = document.getElementById('solution-unlock-btn');
+        const keyInput = document.getElementById('solution-key-input');
+        const statusEl = document.getElementById('solution-status');
+        const verifyKey = async () => {
+            const enteredKey = keyInput.value.trim();
+            if (!enteredKey) return;
+            statusEl.textContent = 'Prüfe Schlüssel...';
+            unlockBtn.disabled = true;
+            try {
+                const response = await fetch(SCRIPT_URL, {
+                    method: 'POST',
+                    mode: 'cors',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        action: 'verifySolutionKey',
+                        assignmentId: assignmentId,
+                        key: enteredKey,
+                        org: ORG_PREFIX // ✅ NEW: Send the organization prefix
+                    })
+                });
+                const result = await response.json();
+                if (result.isValid) {
+                    const currentKeys = JSON.parse(localStorage.getItem(SOLUTION_KEYS_STORE) || '{}');
+                    currentKeys[assignmentId] = enteredKey;
+                    localStorage.setItem(SOLUTION_KEYS_STORE, JSON.stringify(currentKeys));
+                    displaySolution();
+                } else {
+                    statusEl.textContent = 'Falscher Schlüssel. Bitte erneut versuchen.';
+                    const currentKeys = JSON.parse(localStorage.getItem(SOLUTION_KEYS_STORE) || '{}');
+                    if (currentKeys[assignmentId]) {
+                        delete currentKeys[assignmentId];
+                        localStorage.setItem(SOLUTION_KEYS_STORE, JSON.stringify(currentKeys));
+                    }
+                }
+            } catch (error) {
+                statusEl.textContent = 'Fehler bei der Überprüfung des Schlüssels.';
+            } finally {
+                unlockBtn.disabled = false;
+            }
+        };
+        unlockBtn.addEventListener('click', verifyKey);
+        keyInput.addEventListener('keydown', (e) => { statusEl.textContent = ''; if (e.key === 'Enter') verifyKey(); });
+        if (prefilledKey) { verifyKey(); }
+    };
+    
+    if (subAssignmentData.solution && Array.isArray(subAssignmentData.solution.solutions) && subAssignmentData.solution.solutions.length > 0) {
+        solutionSection.style.display = 'block';
+        setupSolutionUnlockUI();
+    } else {
+        solutionSection.style.display = 'none';
+    }
+}
+
+
+================================================
+FILE: js/submission.js
+================================================
+//
+// ─────────────────────────────────────────────────────────────────
+//   :::::: F I L E :   j s / s u b m i s s i o n . j s ::::::
+// ─────────────────────────────────────────────────────────────────
+//
+import { SCRIPT_URL, ORG_PREFIX } from './config.js'; // ✅ FIX: Added ORG_PREFIX to the import
+
+const ANSWER_PREFIX = 'modular-answer_';
+const QUESTIONS_PREFIX = 'modular-questions_';
+const TITLE_PREFIX = 'title_';
+const TYPE_PREFIX = 'type_';
+
+// ✅ NEW: Key for storing student info as an object
+const STUDENT_INFO_KEY = 'studentInfo'; 
+
+/**
+ * ✅ UPDATED: Gathers student info (Klasse and Name).
+ * Prompts the user if the info is not already in localStorage.
+ * @returns {object|null} An object with {klasse, name} or null if aborted.
+ */
+async function getStudentInfo() {
+    let storedInfo = localStorage.getItem(STUDENT_INFO_KEY);
+    if (storedInfo) {
+        try {
+            return JSON.parse(storedInfo);
+        } catch (e) {
+            console.error("Could not parse student info, prompting again.", e);
+        }
+    }
+
+    const klasse = prompt('Bitte gib deine Klasse ein (z.B. "8A"):', '');
+    if (!klasse) {
+        alert('Aktion abgebrochen. Die Klasse ist erforderlich.');
+        return null;
+    }
+
+    const name = prompt('Bitte gib deinen Namen ein:', '');
+    if (!name) {
+        alert('Aktion abgebrochen. Der Name ist erforderlich.');
+        return null;
+    }
+
+    const studentInfo = { klasse: klasse.trim(), name: name.trim() };
+    localStorage.setItem(STUDENT_INFO_KEY, JSON.stringify(studentInfo));
+    return studentInfo;
+}
+
+// ✅ REMOVED: The getSubmissionToken function is no longer needed.
+
+async function gatherAllDataForSubmission(studentInfo) {
+    if (!studentInfo) return null;
+
+    const allDataPayload = {};
+    const answerRegex = new RegExp(`^${ANSWER_PREFIX}(.+)_sub_(.+)$`);
+
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        const match = key.match(answerRegex);
+        if (match) {
+            const [, assignmentId, subId] = match;
+            if (!allDataPayload[assignmentId]) allDataPayload[assignmentId] = {};
+            
+            allDataPayload[assignmentId][subId] = {
+                answer: localStorage.getItem(key) || '',
+                title: localStorage.getItem(`${TITLE_PREFIX}${assignmentId}_sub_${subId}`) || '',
+                type: localStorage.getItem(`${TYPE_PREFIX}${assignmentId}_sub_${subId}`) || '',
+                questions: JSON.parse(localStorage.getItem(`${QUESTIONS_PREFIX}${assignmentId}_sub_${subId}`) || '[]')
+            };
+        }
+    }
+
+    if (Object.keys(allDataPayload).length === 0) {
+        alert("Es wurden keine gespeicherten Daten zum Senden gefunden.");
+        return null;
+    }
+
+    // ✅ UPDATED: Identifier is now a combination of class and name.
+    const identifier = `${studentInfo.klasse}_${studentInfo.name}`;
+
+    return {
+        identifier,
+        payload: {
+            assignments: allDataPayload,
+            createdAt: new Date().toISOString()
+        }
+    };
+}
+
+
+/**
+ * ✅ NEW: Creates and shows a custom confirmation dialog.
+ * @param {object} studentInfo - The student's {klasse, name}.
+ * @returns {Promise<boolean>} A promise that resolves to true if confirmed, false if canceled.
+ */
+function showConfirmationDialog(studentInfo) {
+    return new Promise((resolve) => {
+        // Remove existing dialog if any
+        const existingDialog = document.getElementById('confirm-dialog');
+        if (existingDialog) existingDialog.remove();
+
+        const dialog = document.createElement('div');
+        dialog.id = 'confirm-dialog';
+        dialog.style.cssText = `
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.6); display: flex;
+            justify-content: center; align-items: center; z-index: 2000;
+        `;
+
+        dialog.innerHTML = `
+            <div style="background: white; padding: 2em; border-radius: 8px; text-align: center; max-width: 400px;">
+                <p>Du bist dabei, ein Backup ALLER gespeicherten Aufträge zu senden unter den folgenden Daten:</p>
+                <div style="margin: 1em 0; padding: 0.5em; background: #f0f0f0; border-radius: 4px;">
+                    <strong>Klasse:</strong> ${studentInfo.klasse}<br>
+                    <strong>Name:</strong> ${studentInfo.name}
+                </div>
+                <p>Fortfahren?</p>
+                <button id="confirm-send" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px;">Senden</button>
+                <button id="confirm-edit" style="padding: 10px 20px; background-color: #6c757d; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px;">Daten ändern</button>
+                <button id="confirm-cancel" style="padding: 10px 20px; background-color: #dc3545; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 5px;">Abbrechen</button>
+            </div>
+        `;
+        document.body.appendChild(dialog);
+
+        document.getElementById('confirm-send').onclick = () => {
+            dialog.remove();
+            resolve(true); // Proceed with sending
+        };
+        document.getElementById('confirm-edit').onclick = () => {
+            localStorage.removeItem(STUDENT_INFO_KEY); // Clear stored data
+            dialog.remove();
+            submitAllAssignments(); // Restart the process
+            resolve(false); // Stop current submission
+        };
+        document.getElementById('confirm-cancel').onclick = () => {
+            dialog.remove();
+            resolve(false); // Cancel
+        };
+    });
+}
+
+
+export async function submitAllAssignments() {
+    const studentInfo = await getStudentInfo();
+    if (!studentInfo) return; // Aborted during info gathering
+    
+    // ✅ UPDATED: Show custom confirmation dialog instead of generic confirm()
+    const isConfirmed = await showConfirmationDialog(studentInfo);
+    if (!isConfirmed) {
+        alert("Aktion abgebrochen.");
+        return;
+    }
+    
+    const submissionData = await gatherAllDataForSubmission(studentInfo);
+    if (!submissionData) return;
+
+    if (!SCRIPT_URL || SCRIPT_URL.includes('YOUR_CLOUD_FUNCTION_TRIGGER_URL')) {
+        alert('Konfigurationsfehler: Die Abgabe-URL ist nicht in js/config.js festgelegt.');
+        return;
+    }
+
+    const submitButton = document.getElementById('submit-all');
+    submitButton.textContent = 'Wird übermittelt...';
+    submitButton.disabled = true;
+
+    try {
+        const response = await fetch(SCRIPT_URL, {
+            method: 'POST',
+            mode: 'cors',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                action: 'submit',
+                identifier: submissionData.identifier,
+                payload: submissionData.payload,
+                org: ORG_PREFIX // ✅ NEW: Send the organization prefix
+            })
+        });
+        const result = await response.json();
+
+        if (response.ok && result.status === 'success') {
+            alert('Daten wurden erfolgreich übermittelt.');
+        } else {
+            throw new Error(result.message || 'Ein unbekannter Server-Fehler ist aufgetreten.');
+        }
+    } catch (error) {
+        console.error('Submission failed:', error);
+        alert(`Fehler beim Senden der Daten.\n\nFehler: ${error.message}`);
+    } finally {
+        submitButton.textContent = 'Alle Aufträge abgeben';
+        submitButton.disabled = false;
+    }
+}
+
+

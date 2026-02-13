@@ -1,0 +1,511 @@
+{
+  "status": "success",
+  "assignmentTitle": "Fallstudien zu Allgemeinen Geschäftsbedingungen (AGB)",
+  "solution_keys": ["master2025", "modul1"],
+  "subAssignments": {
+    "fall-id-1": {
+      "title": "Fall 1 (Grundlagen): Die AGB auf der Rückseite",
+      "type": "law_case",
+      "caseText": "Werkstattleiter Meier schliesst mit Landwirt Huber einen Reparaturauftrag für einen Traktor ab. Auf der Vorderseite des Auftragsformulars, das Huber unterschreibt, steht ganz unten in kleiner Schrift: \"Es gelten unsere AGB auf der Rückseite.\" Huber bemerkt den Hinweis nicht und liest die Rückseite nicht. Später entsteht ein Streit über die in den AGB festgelegten, verkürzten Garantiefristen.",
+      "hints": [
+        { "id": "step_1", "text": "Fokus auf den Zeitpunkt und die Art des Hinweises auf die AGB." },
+        { "id": "step_2", "text": "Die zentrale Frage ist die gültige Einbeziehung von AGB in einen Vertrag. Gesetzeslage: <strong>OR Art. 1 ff.</strong> und die von der Rechtsprechung entwickelten Grundsätze." },
+        { "id": "step_3", "text": "Was sind die Voraussetzungen, damit AGB Vertragsbestandteil werden? Muss der Kunde die AGB tatsächlich gelesen haben?" },
+        { "id": "step_4", "text": "Prüfen Sie, ob der Hinweis auf die AGB im Fall von Herrn Huber ausreicht, um die AGB wirksam in den Vertrag einzubeziehen." }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Meier, Landwirt Huber.<br><strong>Was ist passiert:</strong> Huber unterschreibt einen Auftrag mit einem Hinweis auf die AGB auf der Rückseite, ohne diesen Hinweis oder die AGB selbst zur Kenntnis zu nehmen.<br><strong>Rechtsfrage:</strong> Sind die AGB auf der Rückseite gültiger Vertragsbestandteil geworden?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Einbeziehung von Allgemeinen Geschäftsbedingungen.<br><strong>Rechtsvorschrift:</strong> Die allgemeinen Regeln über den Vertragsabschluss (<strong>OR Art. 1 ff.</strong>) und die von Lehre und Rechtsprechung entwickelten Regeln zur AGB-Übernahme (sog. Einbeziehungskontrolle).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Für eine gültige Einbeziehung von AGB muss der AGB-Anwender (Werkstatt) den Vertragspartner (Kunde) <strong>vor oder bei Vertragsabschluss</strong> deutlich auf die AGB hinweisen und ihm die Möglichkeit geben, von deren Inhalt in zumutbarer Weise Kenntnis zu nehmen.<br><strong>Rechtsfolge:</strong> Sind diese Voraussetzungen nicht erfüllt, werden die AGB nicht Vertragsbestandteil. Es gelten die dispositiven Regeln des Obligationenrechts.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Hinweis auf der Vorderseite erfolgte vor der Unterschrift und somit vor Vertragsabschluss. Ein solcher Hinweis wird in der Praxis als ausreichend angesehen, um die AGB wirksam einzubeziehen. Es wird nicht verlangt, dass der Kunde die AGB tatsächlich liest.<br><strong>Konsequenz:</strong> Die AGB sind <strong>gültiger Vertragsbestandteil</strong> geworden. Huber ist an die darin enthaltenen Garantiefristen gebunden, sofern diese nicht gegen andere zwingende Gesetze verstossen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn der Hinweis auf die AGB erst auf der Rechnung stehen würde, die nach der Reparatur ausgestellt wird?",
+            "answer": "<p>In diesem Fall wären die AGB <strong>nicht</strong> Vertragsbestandteil geworden. Der Vertrag wurde bereits mündlich oder mit dem Auftragsformular abgeschlossen. Ein nachträglicher Hinweis auf der Rechnung ist zu spät, da der Kunde den AGB zu diesem Zeitpunkt nicht mehr zustimmen kann.</p>"
+          },
+          {
+            "question": "Muss der Werkstattleiter beweisen, dass der Kunde die AGB zur Kenntnis nehmen konnte?",
+            "answer": "<p>Ja, gemäss <strong>ZGB Art. 8</strong> trägt derjenige die Beweislast, der aus einer Tatsache Rechte ableitet. Die Werkstatt, die sich auf ihre AGB beruft, muss beweisen, dass sie den Kunden korrekt darauf hingewiesen und ihm die Möglichkeit zur Kenntnisnahme verschafft hat.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-2": {
+      "title": "Fall 2 (Grundlagen): Der totale Haftungsausschluss",
+      "type": "law_case",
+      "caseText": "Die 'Top Maschinen AG' hat in ihren AGB folgende Klausel: 'Jegliche Haftung für Schäden, die aus unseren Reparaturen entstehen, wird vollumfänglich ausgeschlossen.' Ein Mechaniker der AG beschädigt bei einer Reparatur aus grober Unachtsamkeit den Motor eines Kundenfahrzeugs. Die AG verweist auf ihre AGB und lehnt jede Zahlung ab.",
+      "hints": [
+        { "id": "step_1", "text": "Identifizieren Sie die Art des Schadens und den Grad des Verschuldens des Mechanikers." },
+        { "id": "step_2", "text": "Suchen Sie im Obligationenrecht nach zwingenden Vorschriften, die Haftungsausschlüsse begrenzen. Gesetzeslage: <strong>OR Art. 100</strong>." },
+        { "id": "step_3", "text": "Analysieren Sie, für welche Arten von Verschulden eine Haftung im Voraus ausgeschlossen werden kann und für welche nicht." },
+        { "id": "step_4", "text": "Vergleichen Sie die AGB-Klausel mit den zwingenden gesetzlichen Vorgaben und beurteilen Sie ihre Gültigkeit im konkreten Fall." }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Top Maschinen AG, Kunde.<br><strong>Was ist passiert:</strong> Ein Mechaniker verursacht grobfahrlässig einen Motorschaden. Die AG will die Haftung unter Berufung auf ihre AGB ablehnen.<br><strong>Rechtsfrage:</strong> Ist der in den AGB enthaltene totale Haftungsausschluss gültig?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Haftungsbeschränkungen.<br><strong>Rechtsvorschrift:</strong> <strong>OR Art. 100 Abs. 1</strong>, welcher die Grenzen für den Ausschluss der Haftung regelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Gemäss <strong>OR Art. 100 Abs. 1</strong> ist eine zum Voraus getroffene Verabredung, wonach die Haftung für <strong>Absicht oder grobe Fahrlässigkeit</strong> ausgeschlossen wird, <strong>nichtig</strong>. Die Haftung für leichte Fahrlässigkeit kann hingegen ausgeschlossen werden.<br><strong>Rechtsfolge:</strong> Eine AGB-Klausel, die auch die Haftung für grobe Fahrlässigkeit ausschliesst, ist ungültig.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die Klausel 'Jegliche Haftung ... wird vollumfänglich ausgeschlossen' zielt darauf ab, auch die Haftung für grobe Fahrlässigkeit und Absicht auszuschliessen. Der Schaden wurde durch 'grobe Unachtsamkeit', also grobe Fahrlässigkeit, verursacht.<br><strong>Konsequenz:</strong> Die AGB-Klausel ist gemäss <strong>OR Art. 100 Abs. 1</strong> <strong>nichtig</strong>. Die Top Maschinen AG haftet voll für den entstandenen Schaden.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie hätte eine gültige Haftungsbeschränkungsklausel lauten können?",
+            "answer": "<p>Eine gültige Klausel hätte die Haftung auf leichte Fahrlässigkeit beschränken müssen. Beispiel: 'Die Haftung für leichte Fahrlässigkeit wird, soweit gesetzlich zulässig, wegbedungen. Die Haftung für grobe Fahrlässigkeit und Absicht bleibt vollumfänglich bestehen.'</p>"
+          },
+          {
+            "question": "Gilt OR Art. 100 auch im Geschäftsverkehr zwischen zwei Unternehmen (B2B)?",
+            "answer": "<p>Ja, der Ausschluss der Haftung für Absicht und grobe Fahrlässigkeit ist auch im B2B-Verkehr grundsätzlich unzulässig. Das Gesetz macht hier keinen Unterschied.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-3": {
+      "title": "Fall 3 (Grundlagen): Das Pfandrecht in den AGB",
+      "type": "law_case",
+      "caseText": "Ein Kunde lässt seinen Bagger bei der Werkstatt von Frau Keller reparieren. Die Rechnung über CHF 8'000 wird fällig, aber der Kunde zahlt nicht. Frau Keller weigert sich, den Bagger herauszugeben und verweist auf eine Klausel in ihren AGB, die ihr ein 'Retentions- und Pfandrecht' an allen reparierten Gegenständen bis zur vollständigen Bezahlung einräumt. Der Kunde meint, eine solche Klausel sei ungültig.",
+      "hints": [
+        { "id": "step_1", "text": "Die Werkstatt behält eine reparierte, aber unbezahlte Sache zurück. Wie nennt man dieses Recht?" },
+        { "id": "step_2", "text": "Prüfen Sie, ob das Gesetz dem Werkstattbetreiber ein solches Recht bereits einräumt, auch ohne AGB. Gesetzeslage: <strong>ZGB Art. 895</strong>." },
+        { "id": "step_3", "text": "Analysieren Sie die Voraussetzungen für das gesetzliche Retentionsrecht. Ist es dispositiv oder zwingend?" },
+        { "id": "step_4", "text": "Beurteilen Sie, ob die AGB-Klausel die Rechtsposition der Werkstatt verändert oder lediglich das bestätigt, was ohnehin gesetzlich gilt." }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiterin Frau Keller, Kunde.<br><strong>Was ist passiert:</strong> Frau Keller behält den reparierten Bagger zurück, da der Kunde die Rechnung nicht bezahlt, und beruft sich dabei auf ihre AGB.<br><strong>Rechtsfrage:</strong> Ist die AGB-Klausel zum Retentionsrecht gültig und darf Frau Keller den Bagger zurückbehalten?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Sachenrecht, Sicherungsrechte des Werkunternehmers.<br><strong>Rechtsvorschrift:</strong> Das Retentionsrecht des Handwerkers ist in <strong>ZGB Art. 895</strong> gesetzlich verankert.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Ein Handwerker hat für seine Forderungen aus der Bearbeitung einer beweglichen Sache ein Rückbehaltungsrecht (Retentionsrecht) an dieser Sache, solange er sie in seinem Besitz hat. Dieses Recht entsteht von Gesetzes wegen.<br><strong>Rechtsfolge:</strong> Der Handwerker darf die Herausgabe der Sache verweigern, bis seine Forderung bezahlt ist.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Frau Keller hat als Werkstattbetreiberin (Handwerkerin) den Bagger (bewegliche Sache) repariert und hat daraus eine fällige Forderung. Sie hat den Bagger noch in ihrem Besitz. Somit steht ihr das Retentionsrecht direkt aus dem Gesetz zu.<br><strong>Konsequenz:</strong> Die AGB-Klausel ist <strong>gültig</strong>. Sie bestätigt im Wesentlichen nur die ohnehin bestehende gesetzliche Rechtslage. Frau Keller darf den Bagger zurückbehalten, bis die Rechnung bezahlt ist.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Warum ist es trotzdem sinnvoll, das Retentionsrecht in die AGB aufzunehmen?",
+            "answer": "<p>Es hat eine wichtige <strong>Informations- und Klarstellungsfunktion</strong>. Der Kunde wird so von vornherein auf dieses Recht der Werkstatt aufmerksam gemacht, was Streitigkeiten vorbeugen kann. Zudem kann die Klausel das gesetzliche Recht präzisieren oder leicht erweitern (soweit zulässig).</p>"
+          },
+          {
+            "question": "Was könnte Frau Keller tun, wenn der Kunde dauerhaft nicht zahlt?",
+            "answer": "<p>Das Retentionsrecht gibt ihr nicht nur das Recht, die Sache zurückzuhalten, sondern auch, sie verwerten zu lassen. Sie müsste den Kunden betreiben und könnte dann im Rahmen der Betreibung die Verwertung des Baggers verlangen (Verkauf auf dem Weg der Pfandverwertung gemäss <strong>SchKG</strong>).</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-4": {
+      "title": "Fall 4 (Anwenden): Die geänderten AGB",
+      "type": "law_case",
+      "caseText": "Die Werkstatt 'Motor-Service AG' hat mit dem Bauunternehmen 'Gerber Bau' einen langjährigen Wartungsvertrag für dessen Fahrzeugpark. Im Januar schickt die Motor-Service AG allen Kunden, einschliesslich Gerber Bau, eine E-Mail mit den neuen AGB, die ab März gelten sollen. Die neuen AGB sehen deutlich höhere Preise für Notfalleinsätze vor. In der E-Mail heisst es: 'Wenn wir bis Ende Februar nichts von Ihnen hören, gehen wir von Ihrer Zustimmung aus.' Gerber Bau liest die E-Mail nicht. Im April kommt es zu einem Notfalleinsatz und die Motor-Service AG stellt Rechnung gemäss den neuen, teureren AGB.",
+      "hints": [
+        { "id": "step_1", "text": "Es geht um die Änderung eines bestehenden Vertrags durch neue AGB. Was ist für eine Vertragsänderung grundsätzlich nötig?" },
+        { "id": "step_2", "text": "Prüfen Sie die allgemeinen Regeln zum Vertragsabschluss, insbesondere zur Annahme eines Angebots. Ist Schweigen eine Zustimmung? Gesetzeslage: <strong>OR Art. 6</strong>." },
+        { "id": "step_3", "text": "Analysieren Sie, unter welchen besonderen Umständen Schweigen als Zustimmung gelten kann. Ist dies hier der Fall?" },
+        { "id": "step_4", "text": "Beurteilen Sie, ob die neuen AGB und damit die höheren Preise für Gerber Bau verbindlich geworden sind." }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Motor-Service AG, Gerber Bau.<br><strong>Was ist passiert:</strong> Einseitige Mitteilung neuer, für den Kunden nachteiligerer AGB mit der Klausel, dass Schweigen als Zustimmung gilt. Der Kunde reagiert nicht.<br><strong>Rechtsfrage:</strong> Wurden die neuen AGB durch das Schweigen von Gerber Bau gültiger Bestandteil des laufenden Wartungsvertrags?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Vertragsänderung, Annahme durch Schweigen.<br><strong>Rechtsvorschrift:</strong> <strong>OR Art. 6</strong> regelt die Annahme durch Schweigen.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Schweigen auf einen Antrag gilt grundsätzlich <strong>nicht</strong> als Annahme. Eine Ausnahme besteht gemäss <strong>OR Art. 6</strong> nur, wenn wegen der besonderen Natur des Geschäfts oder aufgrund der Umstände eine ausdrückliche Annahme nicht zu erwarten ist. Bei einer für den Kunden nachteiligen Vertragsänderung ist dies jedoch nicht der Fall.<br><strong>Rechtsfolge:</strong> Ohne aktive Zustimmung des Kunden kommt keine Vertragsänderung zustande.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die Einführung höherer Preise ist eine wesentliche und für Gerber Bau nachteilige Vertragsänderung. Hier kann nicht von einer stillschweigenden Zustimmung ausgegangen werden. Die Klausel 'Schweigen gilt als Zustimmung' ist eine einseitige Festlegung der Motor-Service AG und rechtlich nicht bindend.<br><strong>Konsequenz:</strong> Die neuen AGB sind für Gerber Bau <strong>nicht verbindlich</strong> geworden. Die Motor-Service AG kann nur die ursprünglich vereinbarten Preise für den Notfalleinsatz verlangen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was hätte die Motor-Service AG tun müssen, um die neuen AGB wirksam einzuführen?",
+            "answer": "<p>Sie hätte eine aktive Zustimmung von Gerber Bau einholen müssen, z.B. durch die Bitte um eine Bestätigungs-E-Mail oder die Unterzeichnung eines Vertragszusatzes. Alternativ hätte sie den bestehenden Vertrag ordentlich kündigen und einen neuen Vertrag unter den neuen AGB anbieten können.</p>"
+          },
+          {
+            "question": "Gibt es Situationen, in denen Schweigen doch als Zustimmung gilt?",
+            "answer": "<p>Ja, aber selten. Dies ist vor allem bei langjährigen Geschäftsbeziehungen der Fall, bei denen es üblich ist, dass auf Bestellungen nicht immer eine explizite Bestätigung folgt (kaufmännisches Bestätigungsschreiben). Eine einseitige, nachteilige Vertragsänderung fällt aber in der Regel nicht darunter.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-5": {
+      "title": "Fall 5 (Anwenden): Garantiefrist für Gebrauchtmaschinen im B2B",
+      "type": "law_case",
+      "caseText": "Die Werkstatt von Hans Muster verkauft eine gebrauchte, revidierte Planierraupe an die 'Tiefbau GmbH'. In den AGB, die von der Tiefbau GmbH akzeptiert wurden, steht: 'Die Gewährleistung für Mängel an gebrauchten Maschinen wird auf 3 Monate ab Lieferung beschränkt.' Nach 5 Monaten tritt ein erheblicher Mangel am Getriebe auf, der schon bei der Übergabe latent vorhanden war. Die Tiefbau GmbH verlangt eine kostenlose Reparatur.",
+      "hints": [
+        { "id": "step_1", "text": "Achten Sie genau auf die Art der verkauften Sache (gebraucht) und die Art der Vertragsparteien (zwei Unternehmen)." },
+        { "id": "step_2", "text": "Prüfen Sie die gesetzlichen Regeln zur Gewährleistung und deren Verjährung im Kaufrecht, insbesondere die speziellen Regeln für Konsumentenverträge. Gesetzeslage: <strong>OR Art. 199</strong> und <strong>OR Art. 210</strong>." },
+        { "id": "step_3", "text": "Analysieren Sie, welche dieser Regeln zwingend sind und welche abgeändert werden können. Unterscheiden Sie dabei zwischen B2C- und B2B-Verträgen." },
+        { "id": "step_4", "text": "Wenden Sie die korrekte Regel auf den vorliegenden B2B-Fall an und beurteilen Sie die Gültigkeit der 3-Monats-Frist." }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstatt Hans Muster (Verkäufer), Tiefbau GmbH (Käuferin).<br><strong>Was ist passiert:</strong> Verkauf einer gebrauchten Maschine zwischen zwei Unternehmen (B2B). Die in den AGB vereinbarte Gewährleistungsfrist von 3 Monaten ist abgelaufen, als ein Mangel auftritt.<br><strong>Rechtsfrage:</strong> Ist die Verkürzung der Gewährleistungsfrist auf 3 Monate im B2B-Verkehr gültig?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht, Sachgewährleistung.<br><strong>Rechtsvorschrift:</strong> <strong>OR Art. 199</strong> erlaubt die vertragliche Wegbedingung der Gewährleistung. <strong>OR Art. 210</strong> regelt die Verjährungsfristen, wobei Abs. 4 spezielle (zwingende) Mindestfristen für Konsumentenverträge vorsieht.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Die Regeln zur Sachgewährleistung im OR sind weitgehend <strong>dispositiv</strong>, d.h. sie können von den Parteien abgeändert werden. Die zwingenden Mindestfristen von 2 Jahren für neue und 1 Jahr für gebrauchte Sachen in <strong>OR Art. 210 Abs. 4</strong> gelten ausdrücklich nur für den Verkauf an <strong>Konsumenten</strong> (B2C). Im reinen Geschäftsverkehr (B2B) geniessen die Parteien Vertragsfreiheit.<br><strong>Rechtsfolge:</strong> Im B2B-Verkehr kann die Gewährleistung beliebig verkürzt oder sogar ganz ausgeschlossen werden.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Vertrag wurde zwischen der Werkstatt Muster und der Tiefbau GmbH, also zwei Unternehmen, geschlossen. Es liegt ein B2B-Geschäft vor. Die zwingenden Schutzvorschriften für Konsumenten sind nicht anwendbar.<br><strong>Konsequenz:</strong> Die vertragliche Verkürzung der Gewährleistungsfrist auf 3 Monate in den AGB ist <strong>gültig</strong>. Da der Mangel erst nach 5 Monaten aufgetreten ist, hat die Tiefbau GmbH keine Gewährleistungsansprüche mehr.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie wäre die Rechtslage, wenn die Tiefbau GmbH die Planierraupe für den privaten Garten des Geschäftsführers gekauft hätte?",
+            "answer": "<p>Wenn die Maschine für einen privaten Zweck gekauft worden wäre, würde es sich um einen Konsumentenvertrag handeln. In diesem Fall wäre die Klausel ungültig, da die Frist für gebrauchte Sachen bei Konsumentenverträgen nicht unter <strong>ein Jahr</strong> verkürzt werden darf (<strong>OR Art. 210 Abs. 4</strong>). Es würde die Mindestfrist von einem Jahr gelten.</p>"
+          },
+          {
+            "question": "Was ist, wenn Hans Muster den Mangel arglistig verschwiegen hat?",
+            "answer": "<p>Bei arglistigem Verschweigen eines Mangels ist jede vertragliche Haftungsbeschränkung ungültig (<strong>OR Art. 199</strong>). Wenn die Tiefbau GmbH beweisen könnte, dass Muster vom Getriebeschaden wusste und ihn absichtlich verschwiegen hat, würde er trotz der AGB-Klausel voll haften.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-6": {
+      "title": "Fall 6 (Anwenden): Kosten für den Kostenvoranschlag",
+      "type": "law_case",
+      "caseText": "Ein potenzieller Kunde bringt eine komplexe Baumaschine zur Fehlerdiagnose in die Werkstatt von Frau Schmid. In ihren AGB, die sie dem Kunden vor der Annahme zur Kenntnis bringt, steht: 'Für die Erstellung von Kostenvoranschlägen wird eine Pauschale von CHF 350 verrechnet. Bei anschliessender Auftragserteilung wird dieser Betrag angerechnet.' Der Kunde lässt den Kostenvoranschlag erstellen, entscheidet sich dann aber gegen die Reparatur. Er weigert sich, die CHF 350 zu bezahlen, da dies 'nicht üblich' sei.",
+      "hints": [
+        { "id": "step_1", "text": "Der Streitpunkt ist die Bezahlung für eine Leistung (Kostenvoranschlag), die nicht zur Hauptleistung (Reparatur) geführt hat." },
+        { "id": "step_2", "text": "Prüfen Sie die gesetzlichen Regeln des Werkvertragsrechts. Gibt es eine Regelung zur Vergütung von Kostenvoranschlägen? Gesetzeslage: <strong>OR Art. 374</strong> (Ungefähr-Ansatz)." },
+        { "id": "step_3", "text": "Das Gesetz regelt die Verbindlichkeit des Ansatzes, aber nicht dessen Entgeltlichkeit. Ist die gesetzliche Regelung dispositiv? Kann man also etwas anderes vereinbaren?" },
+        { "id": "step_4", "text": "Wurde hier eine gültige Vereinbarung über die Kosten des Kostenvoranschlags getroffen? Beurteilen Sie die Wirksamkeit der AGB-Klausel." }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiterin Frau Schmid, potenzieller Kunde.<br><strong>Was ist passiert:</strong> Ein Kunde lässt einen Kostenvoranschlag erstellen, erteilt aber den Reparaturauftrag nicht. Er weigert sich, die in den AGB vereinbarte Pauschale für den Voranschlag zu bezahlen.<br><strong>Rechtsfrage:</strong> Kann die Werkstatt die Bezahlung für den Kostenvoranschlag verlangen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Werkvertragsrecht.<br><strong>Rechtsvorschrift:</strong> Das Gesetz (insb. <strong>OR Art. 374</strong>) regelt die Verbindlichkeit eines Kostenvoranschlags, äussert sich aber nicht explizit zur Frage, ob die Erstellung selbst kostenpflichtig ist. Es gilt der allgemeine Grundsatz, dass Arbeit gegen Lohn geleistet wird.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Mangels einer klaren gesetzlichen Regelung gilt, dass die Entgeltlichkeit eines Kostenvoranschlags <strong>vereinbart</strong> werden muss. Ohne eine solche Vereinbarung geht man im Werkstattgewerbe oft davon aus, dass ein einfacher Kostenvoranschlag kostenlos ist. Die gesetzlichen Regeln sind jedoch <strong>dispositiv</strong>.<br><strong>Rechtsfolge:</strong> Eine vertragliche Vereinbarung über die Kostenpflicht, z.B. in den AGB, ist zulässig und durchsetzbar.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Frau Schmid hat den Kunden vorab auf ihre AGB hingewiesen, welche eine klare Regelung zur Kostenpflicht des Kostenvoranschlags enthalten. Der Kunde hat diese zur Kenntnis genommen oder hätte sie zur Kenntnis nehmen können. Damit wurde die Kostenpflicht gültig vereinbart.<br><strong>Konsequenz:</strong> Die AGB-Klausel ist <strong>wirksam</strong>. Der Kunde muss die Pauschale von CHF 350 bezahlen, auch wenn er den Auftrag nicht erteilt hat.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wäre die Situation anders, wenn die Kosten für den Voranschlag in den AGB nicht erwähnt wären?",
+            "answer": "<p>Ja, dann wäre es deutlich schwieriger für Frau Schmid, das Geld zu fordern. Sie müsste beweisen, dass eine Vergütung branchenüblich ist oder aufgrund des erheblichen Aufwands (komplexe Maschine) stillschweigend vereinbart wurde. Der Ausgang wäre ungewiss. Eine klare AGB-Klausel vermeidet solche Unsicherheiten.</p>"
+          },
+          {
+            "question": "Könnte die Pauschale von CHF 350 als 'ungewöhnlich' hoch eingestuft werden und die Klausel deshalb ungültig sein?",
+            "answer": "<p>Das ist eine Frage der Verhältnismässigkeit. Wenn CHF 350 dem tatsächlichen Aufwand für die Diagnose einer komplexen Baumaschine entspricht, ist die Klausel nicht ungewöhnlich. Wäre die Pauschale aber völlig überrissen (z.B. CHF 1'500 für eine 30-minütige Prüfung), könnte die Ungewöhnlichkeitsregel zur Anwendung kommen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-7": {
+      "title": "Fall 7 (Analysieren): Die überraschende Gerichtsstandsklausel",
+      "type": "law_case",
+      "caseText": "Ein Landwirt aus dem Kanton Genf kauft bei einem grossen Landmaschinenhändler im Kanton St. Gallen eine Maschine. Er unterschreibt den Kaufvertrag, der einen Standardverweis auf die AGB des Händlers enthält, die online abrufbar sind. Er liest sie nicht. In den AGB steht unter Punkt 18.3: 'Ausschliesslicher Gerichtsstand für alle Streitigkeiten ist St. Gallen.' Als es zu einem Mangel an der Maschine kommt, will der Landwirt den Händler an seinem Wohnsitz in Genf verklagen.",
+      "hints": [
+        { "id": "step_1", "text": "Der Kern des Problems ist eine AGB-Klausel, die von der gesetzlichen Regelung des Gerichtsstands abweicht und für eine Partei nachteilig ist." },
+        { "id": "step_2", "text": "Dieses Problem wird nicht durch einen Gesetzesartikel, sondern durch eine von der Rechtsprechung entwickelte Regel gelöst. Gesetzeslage: <strong>ZPO Art. 35</strong> (Konsumentengerichtsstand) und die Lehre der <strong>Ungewöhnlichkeitsregel</strong>." },
+        { "id": "step_3", "text": "Was besagt die Ungewöhnlichkeitsregel? Welche zwei Voraussetzungen müssen erfüllt sein, damit eine Klausel darunterfällt?" },
+        { "id": "step_4", "text": "Prüfen Sie, ob die Gerichtsstandsklausel im vorliegenden Fall als 'ungewöhnlich' einzustufen ist und was die Konsequenz davon ist." }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Landwirt aus Genf (Käufer/Konsument), Landmaschinenhändler aus St. Gallen (Verkäufer).<br><strong>Was ist passiert:</strong> Ein Konsument hat AGB akzeptiert, die einen für ihn nachteiligen Gerichtsstand am weit entfernten Sitz des Verkäufers festlegen.<br><strong>Rechtsfrage:</strong> Ist die Gerichtsstandsklausel in den AGB für den Landwirt verbindlich?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht (AGB-Kontrolle), Zivilprozessrecht.<br><strong>Rechtsvorschrift:</strong> Die von der Rechtsprechung entwickelte <strong>Ungewöhnlichkeitsregel</strong>. Zudem schützt <strong>ZPO Art. 35</strong> Konsumenten, indem er ihnen erlaubt, an ihrem Wohnsitz zu klagen (teil-zwingender Gerichtsstand).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Die Ungewöhnlichkeitsregel besagt, dass Klauseln in AGB, mit denen eine Partei vernünftigerweise nicht rechnen muss, nicht Vertragsbestandteil werden, wenn sie nicht besonders hervorgehoben wurden. Eine Klausel ist ungewöhnlich, wenn sie (1) geschäftsfremd ist und (2) die Rechtsposition des Vertragspartners erheblich schwächt. Eine Gerichtsstandsklausel in einem Konsumentenvertrag, die vom gesetzlichen Wohnsitzgerichtsstand abweicht, erfüllt diese Kriterien oft.<br><strong>Rechtsfolge:</strong> Die ungewöhnliche Klausel wird behandelt, als wäre sie nicht vorhanden.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Landwirt ist hier als Konsument zu betrachten. Die Klausel weicht vom gesetzlichen Schutz des Konsumentengerichtsstands (<strong>ZPO Art. 35</strong>) ab und schwächt seine Position erheblich, da eine Klage in St. Gallen viel aufwändiger ist. Die Klausel ist zudem 'versteckt' unter vielen anderen Punkten. Sie ist daher als <strong>ungewöhnlich</strong> einzustufen.<br><strong>Konsequenz:</strong> Die Gerichtsstandsklausel ist <strong>nicht Vertragsbestandteil</strong> geworden. Der Landwirt kann seine Klage gemäss <strong>ZPO Art. 35</strong> an seinem Wohnsitz in Genf einreichen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wäre die Klausel gültig, wenn der Käufer ebenfalls ein grosses Unternehmen wäre (B2B)?",
+            "answer": "<p>Im B2B-Verkehr wird die Ungewöhnlichkeitsregel viel zurückhaltender angewendet. Man geht davon aus, dass geschäftserfahrene Parteien AGB sorgfältiger prüfen. Eine Gerichtsstandsklausel ist im B2B-Kontext üblich und wäre daher mit grosser Wahrscheinlichkeit <strong>gültig</strong>.</p>"
+          },
+          {
+            "question": "Was hätte der Händler tun können, um die Klausel auch gegenüber einem Konsumenten durchzusetzen?",
+            "answer": "<p>Er hätte den Landwirt explizit und unmissverständlich auf diese spezifische Klausel hinweisen müssen, z.B. durch ein separates Ankreuzfeld neben der Klausel im Vertrag mit dem Text: 'Ich bestätige, den von der gesetzlichen Regelung abweichenden Gerichtsstand in St. Gallen zur Kenntnis genommen zu haben.' Dadurch wäre der Überraschungseffekt weggefallen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-8": {
+      "title": "Fall 8 (Analysieren): Kampf der Formulare (Battle of the Forms)",
+      "type": "law_case",
+      "caseText": "Die Werkstatt 'Hydraulik Profi AG' bestellt bei ihrem Lieferanten, der 'Stahlrohr GmbH', zehn Spezialzylinder. In ihrer Bestellung per E-Mail verweist die Hydraulik Profi AG auf ihre eigenen AGB (Einkaufsbedingungen), wonach eine pauschale Konventionalstrafe von 10% des Kaufpreises bei Lieferverzug geschuldet ist. Die Stahlrohr GmbH bestätigt den Auftrag mit einem Formular, das auf ihre AGB (Verkaufsbedingungen) verweist, welche eine Konventionalstrafe explizit ausschliessen. Niemand bemerkt den Widerspruch. Die Lieferung erfolgt vier Wochen zu spät.",
+      "hints": [
+        { "id": "step_1", "text": "Der Kern des Problems ist, dass beide Parteien auf ihre eigenen, sich widersprechenden AGB verweisen." },
+        { "id": "step_2", "text": "Dieses Problem ('Battle of the Forms') ist im Gesetz nicht explizit geregelt. Die Lösung ergibt sich aus der herrschenden Lehre und Gerichtspraxis. Gesetzeslage: <strong>OR Art. 1 ff.</strong> (Konsenslehre)." },
+        { "id": "step_3", "text": "Recherchieren Sie die in der Schweiz vorherrschende 'Knock-Out-Theorie' (auch 'Restgültigkeitstheorie'). Was besagt sie?" },
+        { "id": "step_4", "text": "Wenden Sie die 'Knock-Out-Theorie' auf die widersprüchlichen Klauseln zur Konventionalstrafe an. Welche Regelung gilt stattdessen?" }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Hydraulik Profi AG (Käuferin), Stahlrohr GmbH (Verkäuferin).<br><strong>Was ist passiert:</strong> Beide Parteien haben bei Vertragsabschluss auf ihre AGB verwiesen. Die Klauseln bezüglich einer Konventionalstrafe bei Lieferverzug widersprechen sich komplett.<br><strong>Rechtsfrage:</strong> Ist ein gültiger Vertrag zustande gekommen und kann die Hydraulik Profi AG die Konventionalstrafe fordern?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Einbezug von AGB.<br><strong>Rechtsvorschrift:</strong> Es gibt keine spezifische Gesetzesnorm. Die Lösung basiert auf der Auslegung der allgemeinen Vertragsregeln (<strong>OR Art. 1 ff.</strong>) durch Lehre und Rechtsprechung.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Nach der in der Schweiz herrschenden <strong>'Knock-Out-Theorie'</strong> kommt ein Vertrag trotzdem zustande, wenn die Parteien in den wesentlichen Punkten (z.B. Kaufgegenstand, Preis) übereinstimmen und mit der Durchführung des Vertrags beginnen. Die sich widersprechenden AGB-Klauseln ('knock out') heben sich jedoch gegenseitig auf und werden durch die dispositiven (nicht-zwingenden) gesetzlichen Regelungen ersetzt.<br><strong>Rechtsfolge:</strong> Der Vertrag ist gültig, aber ohne die widersprüchlichen Klauseln.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die Klauseln zur Konventionalstrafe widersprechen sich (10% vs. Ausschluss). Gemäss der Knock-Out-Theorie fallen beide Klauseln aus dem Vertrag. An ihre Stelle tritt das dispositive Gesetzesrecht.<br><strong>Konsequenz:</strong> Die Hydraulik Profi AG kann die <strong>Konventionalstrafe nicht</strong> fordern. Sie kann aber Schadenersatz wegen Lieferverzugs nach den allgemeinen Regeln des <strong>OR Art. 102 ff.</strong> geltend machen. Dafür muss sie jedoch einen konkreten Schaden nachweisen, was oft schwieriger ist als die Geltendmachung einer pauschalen Konventionalstrafe.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist die Alternative zur 'Knock-Out-Theorie'?",
+            "answer": "<p>Die Alternative ist die 'Theorie des letzten Wortes' (Last-Shot-Rule), die in anderen Rechtsordnungen (z.B. angelsächsischen) verbreitet ist. Nach dieser Theorie würden die AGB der Partei gelten, die als letztes auf ihre AGB verwiesen hat – hier also die der Stahlrohr GmbH. Die Schweiz folgt aber der Knock-Out-Theorie.</p>"
+          },
+          {
+            "question": "Wie hätte die Hydraulik Profi AG ihre Konventionalstrafe durchsetzen können?",
+            "answer": "<p>Sie hätte in ihrer Bestellung explizit darauf bestehen müssen, dass ein Vertrag nur unter Geltung ihrer AGB zustande kommt. Hätte die Stahlrohr GmbH dann geliefert, wäre dies als Zustimmung zu werten gewesen. Dies birgt aber das Risiko, dass der Lieferant den Auftrag ablehnt und gar kein Vertrag zustande kommt.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-9": {
+      "title": "Fall 9 (Analysieren): Die unklare Preisanpassungsklausel",
+      "type": "law_case",
+      "caseText": "Ein Bauunternehmen schliesst mit einer Werkstatt einen 2-jährigen Servicevertrag für eine grosse Maschine ab. In den AGB der Werkstatt findet sich folgende Klausel: 'Wir behalten uns das Recht vor, die Servicepreise bei veränderten Marktbedingungen jederzeit angemessen anzupassen.' Nach einem Jahr erhöht die Werkstatt den Preis um 15% mit Verweis auf 'gestiegene Lohn- und Ersatzteilkosten'. Das Bauunternehmen ist damit nicht einverstanden.",
+      "hints": [
+        { "id": "step_1", "text": "Der Streitpunkt ist eine AGB-Klausel, die eine einseitige Preisänderung ermöglicht. Das Problem liegt in der unklaren Formulierung." },
+        { "id": "step_2", "text": "Hier kommt eine weitere von der Rechtsprechung entwickelte AGB-Kontrollregel zur Anwendung. Gesetzeslage: Die <strong>Unklarheitsregel</strong> (in dubio contra stipulatorem)." },
+        { "id": "step_3", "text": "Was besagt die Unklarheitsregel? Wer trägt die Nachteile einer mehrdeutigen AGB-Klausel?" },
+        { "id": "step_4", "text": "Analysieren Sie die Klausel 'jederzeit angemessen anzupassen'. Ist sie klar und verständlich? Wenden Sie die Unklarheitsregel an und bestimmen Sie die Konsequenz." }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstatt, Bauunternehmen.<br><strong>Was ist passiert:</strong> Die Werkstatt erhöht die Preise während eines laufenden Vertrags und beruft sich auf eine vage formulierte Preisanpassungsklausel in ihren AGB.<br><strong>Rechtsfrage:</strong> Ist die Preiserhöhung aufgrund dieser AGB-Klausel gültig?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, AGB-Inhaltskontrolle.<br><strong>Rechtsvorschrift:</strong> Die von der Rechtsprechung entwickelte <strong>Unklarheitsregel</strong> (lat. 'in dubio contra stipulatorem' – im Zweifel gegen den Verfasser).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Die Unklarheitsregel besagt, dass unklare oder mehrdeutige Formulierungen in AGB zu Lasten derjenigen Partei ausgelegt werden, die sie verfasst hat (also des AGB-Anwenders). Wenn eine Klausel nach Treu und Glauben unterschiedlich interpretiert werden kann, wird die für den Kunden günstigere Auslegungsvariante gewählt.<br><strong>Rechtsfolge:</strong> Die für den Verfasser ungünstigste Auslegung setzt sich durch.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die Klausel ist sehr unklar. Die Begriffe 'veränderte Marktbedingungen' und 'angemessen' sind nicht definiert und lassen der Werkstatt einen enormen, für das Bauunternehmen nicht kalkulierbaren Spielraum. Die Klausel ist mehrdeutig und unbestimmt. Gemäss der Unklarheitsregel wird sie zu Lasten der Werkstatt ausgelegt.<br><strong>Konsequenz:</strong> Die Klausel ist in ihrer unklaren Form <strong>unverbindlich</strong>. Die Werkstatt kann die Preiserhöhung nicht einseitig durchsetzen. Es gelten weiterhin die ursprünglich vereinbarten Preise.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Wie hätte eine gültige Preisanpassungsklausel formuliert werden müssen?",
+            "answer": "<p>Eine gültige Klausel müsste transparent und nachvollziehbar sein. Sie sollte die Bedingungen für eine Preisanpassung klar definieren, z.B. durch Anbindung an einen offiziellen Index (Landesindex der Konsumentenpreise, Lohnindex) oder an nachweisbare Preisänderungen von bestimmten Ersatzteilen. Beispiel: 'Die Preise werden jährlich gemäss der Veränderung des LIK angepasst.'</p>"
+          },
+          {
+            "question": "Gilt die Unklarheitsregel auch im B2B-Verkehr?",
+            "answer": "<p>Ja, die Unklarheitsregel gilt auch im Geschäftsverkehr zwischen Unternehmen. Allerdings wird sie dort tendenziell etwas zurückhaltender angewendet, da von professionellen Akteuren erwartet wird, dass sie Verträge genauer prüfen und bei Unklarheiten nachfragen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-10": {
+      "title": "Fall 10 (Transfer/Beurteilung): Der AGB-Check vor dem Grossauftrag",
+      "type": "law_case",
+      "caseText": "Werkstattleiterin Berger steht kurz vor dem Abschluss eines 5-jährigen Wartungsvertrags mit einem grossen Logistikunternehmen. Bei der Durchsicht ihrer eigenen, seit 10 Jahren unveränderten AGB stellt sie fest: 1. Die Haftung ist gar nicht beschränkt. 2. Es gibt keine Regelung zu den Kosten für Kostenvoranschläge. 3. Die Verjährungsfristen für Mängel bei Occasionsverkäufen sind nicht auf das zulässige Minimum von einem Jahr reduziert. Sie befürchtet, dass der Kunde bei einer kurzfristigen Änderung der AGB abspringt. Sie muss entscheiden, wie sie vorgehen soll.",
+      "hints": [
+        { "id": "step_1", "text": "Analysieren Sie die Situation aus unternehmerischer Sicht: Welche Risiken birgt der Vertrag mit den alten AGB?" },
+        { "id": "step_2", "text": "Identifizieren Sie die relevanten Rechtsgebiete: Haftungsrecht (<strong>OR Art. 97 ff.</strong>, <strong>OR Art. 100</strong>), Werkvertragsrecht (<strong>OR Art. 363 ff.</strong>) und Kaufrecht (<strong>OR Art. 210</strong>)." },
+        { "id": "step_3", "text": "Entwickeln Sie verschiedene Handlungsoptionen: Nichts tun, AGB anpassen und offen kommunizieren, nur die wichtigsten Punkte im Individualvertrag regeln." },
+        { "id": "step_4", "text": "Wägen Sie die rechtlichen Risiken der alten AGB gegen die kaufmännischen Risiken (Verlust des Kunden) ab und geben Sie eine begründete Handlungsempfehlung." }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Situationsanalyse:</strong> Werkstattleiterin Berger hat einen potenziell sehr lukrativen, aber langfristigen Vertrag vor sich. Ihre aktuellen AGB sind unzureichend und setzen sie erheblichen rechtlichen und finanziellen Risiken aus.<br><strong>Problemstellung:</strong> Sie muss eine Strategie finden, um ihre Rechtsposition zu verbessern, ohne den wichtigen Kunden zu verlieren.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, insbesondere AGB-Gestaltung.<br><strong>Rechtsvorschriften:</strong> Die dispositiven Regeln des OR, die zur Anwendung kommen, wenn die AGB lückenhaft sind: unbeschränkte Haftung für jedes Verschulden (<strong>OR Art. 97 ff.</strong>), gesetzliche Verjährungsfristen (<strong>OR Art. 210</strong>), keine geregelte Vergütung für Offerten.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Handlungsoptionen:</strong><br>1. <strong>Nichts tun (hohes Risiko):</strong> Den Vertrag mit den alten AGB abschliessen. Vorteil: Kein Konflikt mit dem Kunden. Nachteil: Enorme finanzielle Risiken über 5 Jahre (unbegrenzte Haftung, lange Verjährungsfristen).<br>2. <strong>AGB komplett überarbeiten und vorlegen (mittleres Risiko):</strong> Die AGB professionell überarbeiten lassen und dem Kunden als neue Vertragsgrundlage vorlegen. Vorteil: Rechtssicherheit. Nachteil: Kunde könnte die Verhandlungen abbrechen oder über jede Klausel neu verhandeln wollen.<br>3. <strong>Wichtigste Punkte im Individualvertrag regeln (geringes Risiko):</strong> Die alten AGB belassen, aber die drei kritischsten Punkte (Haftungsbeschränkung für leichte Fahrlässigkeit, Regelung der Verjährung, Kosten für Offerten) direkt im Hauptvertrag als individuelle Klauseln aushandeln. Vorteil: Fokussiert, transparent und zeigt Professionalität. Nachteil: Etwas Verhandlungsaufwand.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong> Option 1 ist aus unternehmerischer Sicht fahrlässig. Option 2 ist rechtlich sauber, aber kaufmännisch riskant. <strong>Option 3 ist die beste strategische Lösung.</strong><br><strong>Konsequenz/Empfehlung:</strong> Frau Berger sollte die drei kritischsten Punkte proaktiv ansprechen und vorschlagen, diese klar im individuellen Wartungsvertrag zu regeln. Sie kann dies als Zeichen von Transparenz und Professionalität darstellen ('Um für beide Seiten Klarheit zu schaffen...'). Dies minimiert ihr rechtliches Risiko erheblich, ohne den Kunden mit einem komplett neuen AGB-Dokument zu überfordern. Langfristig sollte sie ihre AGB aber für alle zukünftigen Kunden überarbeiten.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Warum ist eine unbeschränkte Haftung so gefährlich für eine Werkstatt?",
+            "answer": "<p>Ohne Beschränkung haftet die Werkstatt auch für leichte Fahrlässigkeit ihrer Mitarbeiter unbegrenzt. Führt ein kleiner Fehler (z.B. eine Schraube nicht richtig angezogen) zu einem grossen Folgeschaden (z.B. Ausfall der gesamten Logistikflotte für einen Tag), könnte der Schadenersatz existenzbedrohend sein. Eine Beschränkung auf grobe Fahrlässigkeit und Absicht ist daher ein zentrales Risikomanagement-Instrument.</p>"
+          },
+          {
+            "question": "Sind individuell ausgehandelte Klauseln 'stärker' als AGB?",
+            "answer": "<p>Ja. Individualabreden gehen den Allgemeinen Geschäftsbedingungen immer vor. Wenn ein Punkt im Hauptvertrag speziell geregelt ist, gilt diese Regelung, auch wenn in den AGB etwas anderes steht. Deshalb ist die empfohlene Option 3 so wirksam.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-11": {
+      "title": "Fall 11 (Transfer/Beurteilung): Kulanz oder Vertrag – der gute Kunde",
+      "type": "law_case",
+      "caseText": "Ein langjähriger und sehr guter Kunde, ein Lohnunternehmer, bringt einen Mähdrescher zur Reparatur. Die Werkstatt behebt den Defekt. In den gültig vereinbarten AGB steht klar: 'Die Zahlung ist innert 10 Tagen netto fällig. Bei Zahlungsverzug wird ein Verzugszins von 5% geschuldet.' Der Kunde zahlt erst nach 60 Tagen. Der Werkstattleiter rechnet aus, dass er rechtlich Anspruch auf CHF 450 Verzugszins hätte. Der Kunde ist aber bekannt dafür, regelmässig grosse Aufträge zu vergeben. Der Werkstattleiter muss entscheiden, ob er auf den Zins bestehen soll.",
+      "hints": [
+        { "id": "step_1", "text": "Trennen Sie die rechtliche Situation von der kaufmännischen/strategischen Situation." },
+        { "id": "step_2", "text": "Bestimmen Sie die klare Rechtslage bezüglich des Zahlungsverzugs und der Verzugszinsen. Gesetzeslage: <strong>OR Art. 102 ff.</strong>, insbesondere <strong>OR Art. 104</strong>." },
+        { "id": "step_3", "text": "Listen Sie die Vor- und Nachteile der beiden Handlungsoptionen auf: (1) Auf den Zins bestehen, (2) auf den Zins verzichten." },
+        { "id": "step_4", "text": "Treffen Sie eine unternehmerische Entscheidung. Wägen Sie den kurzfristigen Gewinn (CHF 450) gegen das langfristige Risiko (Verlust eines guten Kunden) ab und schlagen Sie eine kommunikative Lösung vor." }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Situationsanalyse:</strong> Es liegt ein klarer Vertragsbruch (Zahlungsverzug) durch einen wirtschaftlich wichtigen Kunden vor. Der Werkstattleiter befindet sich im Spannungsfeld zwischen der Durchsetzung seiner vertraglichen Rechte und der Pflege einer wertvollen Kundenbeziehung.<br><strong>Problemstellung:</strong> Wie soll der Werkstattleiter auf den Zahlungsverzug reagieren, um sowohl seine Finanzen als auch die Kundenbeziehung zu schützen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Schuldnerverzug.<br><strong>Rechtsvorschrift:</strong> Die AGB-Klausel ist gültig. Ohne sie würde die gesetzliche Regelung von <strong>OR Art. 104</strong> gelten, die ebenfalls einen Verzugszins von 5% vorsieht. Die Rechtslage ist eindeutig: Der Werkstattleiter hat einen Anspruch auf die CHF 450.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse der Optionen:</strong><br>1. <strong>Auf Zins bestehen:</strong><br>   - <i>Vorteil:</i> Kurzfristiger finanzieller Gewinn (CHF 450), Signalwirkung, dass Verträge einzuhalten sind.<br>   - <i>Nachteil:</i> Hohes Risiko, den guten Kunden zu verärgern oder sogar zu verlieren. Der Verlust zukünftiger Aufträge würde den Gewinn aus dem Zins bei weitem übersteigen.<br>2. <strong>Auf Zins verzichten (Kulanz):</strong><br>   - <i>Vorteil:</i> Stärkung der Kundenbindung, der Kunde fühlt sich wertgeschätzt. Hohe Wahrscheinlichkeit für weitere Aufträge.<br>   - <i>Nachteil:</i> Kurzfristiger finanzieller Verlust (CHF 450), potenzielles Signal, dass Zahlungsfristen nicht ernst genommen werden müssen.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong> Aus kaufmännischer Sicht ist der potenzielle Verlust des Kunden ein viel grösseres Risiko als der Verzicht auf CHF 450. Die Beziehung zu einem Schlüsselkunden ist wertvoller als die strikte Durchsetzung eines relativ kleinen Anspruchs. <br><strong>Empfehlung:</strong> Der Werkstattleiter sollte auf die Geltendmachung des Zinses verzichten. Er könnte dies aber kommunikativ nutzen. Anstatt es stillschweigend zu tun, könnte er den Kunden anrufen und sagen: 'Ich habe gesehen, die Zahlung ist eingetroffen. Rein formell wären Verzugszinsen angefallen, aber bei einem so guten und langjährigen Partner wie Ihnen sehen wir selbstverständlich davon ab. Wir freuen uns auf die weitere Zusammenarbeit.' So wird aus dem Verzicht eine aktive Geste der Wertschätzung.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Gibt es eine Mittelweglösung?",
+            "answer": "<p>Ja, man könnte dem Kunden den Zins zwar in Rechnung stellen, aber gleichzeitig einen Rabatt in gleicher Höhe auf der Rechnung gewähren mit dem Vermerk 'Kulanzrabatt'. Dies macht den Anspruch rechtlich sichtbar, zeigt aber gleichzeitig Entgegenkommen. Eine andere Möglichkeit wäre, das Thema beim nächsten persönlichen Kontakt anzusprechen und um pünktlichere Zahlung in der Zukunft zu bitten.</p>"
+          },
+          {
+            "question": "Ab wann würde sich das Beharren auf Verzugszinsen auch bei einem guten Kunden lohnen?",
+            "answer": "<p>Das ist eine unternehmerische Ermessensfrage. Faktoren sind: die Höhe des Zinses, die Häufigkeit der Verspätungen und die Liquidität der eigenen Werkstatt. Wenn der Kunde systematisch und immer wieder deutlich zu spät zahlt und dadurch die eigene Liquidität gefährdet, muss das Gespräch gesucht und ab einem gewissen Punkt auch auf die Vertragsbedingungen bestanden werden.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-12": {
+      "title": "Fall 12 (Transfer/Beurteilung): Die unzulässige Klausel und der Imageschaden",
+      "type": "law_case",
+      "caseText": "Ein Werkstattleiter hat in seinen AGB eine Klausel, die er von einem Kollegen übernommen hat: 'Reklamationen müssen innert 24 Stunden nach Fahrzeugabholung schriftlich erfolgen, ansonsten sind sämtliche Ansprüche verwirkt.' Ein Kunde entdeckt einen klaren Reparaturmangel erst nach drei Tagen und meldet ihn sofort. Der Werkstattleiter weiss, dass die Klausel rechtlich heikel ist, da sie die gesetzlichen Fristen massiv verkürzt und als missbräuchlich gelten könnte. Der Kunde droht, den Fall auf einem bekannten Online-Bewertungsportal publik zu machen. Der Werkstattleiter muss entscheiden, wie er reagiert.",
+      "hints": [
+        { "id": "step_1", "text": "Analysieren Sie das Problem aus drei Perspektiven: rechtlich (Gültigkeit der Klausel), finanziell (Kosten der Reparatur) und Reputationssicht (Imageschaden)." },
+        { "id": "step_2", "text": "Prüfen Sie die Gültigkeit der Klausel. Beachten Sie die gesetzlichen Rügefristen im Werkvertragsrecht und mögliche Verstösse gegen zwingendes Recht oder Treu und Glauben. Gesetzeslage: <strong>OR Art. 367</strong>, <strong>ZGB Art. 2</strong>." },
+        { "id": "step_3", "text": "Entwickeln Sie Handlungsoptionen: (1) Auf die (ungültige) Klausel beharren, (2) den Mangel kulant beheben, (3) einen Kompromiss vorschlagen." },
+        { "id": "step_4", "text": "Wägen Sie die kurzfristigen Kosten der Reparatur gegen den potenziell viel grösseren, langfristigen Schaden durch eine schlechte Online-Bewertung ab und geben Sie eine klare Handlungsempfehlung." }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Situationsanalyse:</strong> Der Werkstattleiter wird mit einem Mangel konfrontiert und hat eine AGB-Klausel, die ihn scheinbar schützt. Diese Klausel ist aber rechtlich sehr wahrscheinlich ungültig. Zusätzlich droht ein erheblicher Reputationsschaden durch eine negative öffentliche Bewertung.<br><strong>Problemstellung:</strong> Der Werkstattleiter muss den Konflikt lösen und dabei sowohl rechtliche, finanzielle als auch Reputationsaspekte berücksichtigen.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Werkvertragsrecht, AGB-Kontrolle.<br><strong>Rechtsvorschrift:</strong> Die Klausel ist höchstwahrscheinlich <strong>ungültig</strong>. Sie widerspricht dem Grundgedanken von <strong>OR Art. 367</strong>, der eine Prüfung 'sobald es nach dem üblichen Geschäftsgang tunlich ist' verlangt. Eine 24-Stunden-Frist ist unangemessen kurz und dürfte als missbräuchlich und gegen Treu und Glauben (<strong>ZGB Art. 2</strong>) verstossend qualifiziert werden. Insbesondere bei versteckten Mängeln ist sie wirkungslos.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Analyse der Optionen:</strong><br>1. <strong>Auf Klausel beharren:</strong><br>   - <i>Vorteil:</i> Kurzfristig keine Reparaturkosten.<br>   - <i>Nachteil:</i> Sehr wahrscheinlich eine negative Online-Bewertung, die viele Neukunden kostet. Hohes Risiko, einen anschliessenden Rechtsstreit zu verlieren und trotzdem zahlen zu müssen (plus Gerichtskosten). Totaler Verlust des Kunden.<br>2. <strong>Mangel sofort und kulant beheben:</strong><br>   - <i>Vorteil:</i> Kunde ist zufrieden, die negative Bewertung wird vermieden, eventuell gibt es sogar eine positive Bewertung. Die Kundenbeziehung kann gerettet werden.<br>   - <i>Nachteil:</i> Direkte Kosten für die Nachbesserung.<br>3. <strong>Kompromiss vorschlagen (z.B. Kosten teilen):</strong><br>   - <i>Vorteil:</i> Reduziert die direkten Kosten.<br>   - <i>Nachteil:</i> Der Kunde könnte sich trotzdem ungerecht behandelt fühlen, da der Mangel klar von der Werkstatt verursacht wurde. Risiko der negativen Bewertung bleibt bestehen.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong> Das Beharren auf der ungültigen Klausel (Option 1) ist die schlechteste aller Optionen. Der finanzielle Schaden durch verlorene zukünftige Kunden aufgrund einer schlechten Reputation übersteigt die Kosten einer einzelnen Reparatur bei weitem. Ein Kompromiss (Option 3) ist ebenfalls riskant.<br><strong>Empfehlung:</strong> Der Werkstattleiter sollte <strong>Option 2</strong> wählen. Er sollte sich beim Kunden für den Mangel entschuldigen, die sofortige und kostenlose Nachbesserung anbieten und die unglückliche AGB-Klausel gar nicht erst erwähnen. Zusätzlich muss er dringend seine AGB überarbeiten und die ungültige Klausel entfernen, um zukünftige Probleme zu vermeiden. Dies ist ein klassischer Fall, in dem kaufmännische Klugheit und gutes Reputationsmanagement wichtiger sind als das Pochen auf eine rechtlich unhaltbare Position.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist der Unterschied zwischen einer offenen und einem versteckten Mangel in diesem Kontext?",
+            "answer": "<p>Ein offener Mangel ist bei einer sorgfältigen Prüfung sofort erkennbar (z.B. ein grosser Kratzer im Lack). Ein versteckter Mangel zeigt sich erst später im Gebrauch (z.B. ein überhitzender Motor). Die Rügefrist für versteckte Mängel beginnt erst ab deren Entdeckung zu laufen. Die 24-Stunden-Klausel wäre bei einem versteckten Mangel erst recht wirkungslos.</p>"
+          },
+          {
+            "question": "Könnte die Klausel unter UWG Art. 8 fallen?",
+            "answer": "<p>Ja, es ist gut möglich. <strong>UWG Art. 8</strong> verbietet die Verwendung von AGB, die in gegen Treu und Glauben verstossender Weise zum Nachteil der Konsumentinnen und Konsumenten ein erhebliches und ungerechtfertigtes Missverhältnis zwischen den vertraglichen Rechten und Pflichten vorsehen. Eine derart kurze Rügefrist, die den Kunden praktisch seiner Mängelrechte beraubt, könnte als eine solche unlautere Klausel angesehen werden.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

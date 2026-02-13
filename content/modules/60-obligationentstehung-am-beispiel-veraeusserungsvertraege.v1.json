@@ -1,0 +1,936 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege",
+  "title": "Obligationentstehung am Beispiel Veräusserungsverträge",
+  "description": "Schwerpunktthema: Obligationentstehung am Beispiel Veräusserungsverträge",
+  "outcomes": [
+    "die drei Arten von Veräusserungsverträgen (Kauf, Tausch, Schenkung) zu unterscheiden und deren jeweilige Hauptpflichten zu benennen.",
+    "anhand des Kaufvertrags detailliert zu verstehen, wie aus einem Vertrag gegenseitige Obligationen (Waren- und Kaufpreisobligation) entstehen und wer Gläubiger bzw. Schuldner dieser Obligationen ist.",
+    "die zentralen Regelungen zum Übergang von Nutzen und Gefahr bei Spezies- und Gattungskäufen zu kennen und diese auf einfache Praxisfälle anzuwenden."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-1",
+      "citation": "OR Art. 184"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-2",
+      "citation": "OR Art. 237"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-3",
+      "citation": "OR Art. 238"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-4",
+      "citation": "OR Art. 1"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-5",
+      "citation": "OR Art. 11"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-6",
+      "citation": "OR Art. 185"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-7",
+      "citation": "OR Art. 97"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-8",
+      "citation": "OR Art. 102"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-9",
+      "citation": "OR Art. 107"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-10",
+      "citation": "OR Art. 7"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-11",
+      "citation": "OR Art. 23"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-12",
+      "citation": "OR Art. 24"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-13",
+      "citation": "OR Art. 26"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-14",
+      "citation": "ZGB Art. 2"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-15",
+      "citation": "OR Art. 197"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-16",
+      "citation": "OR Art. 199"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-17",
+      "citation": "OR Art. 120"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-18",
+      "citation": "OR Art. 205"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-19",
+      "citation": "ZGB Art. 715"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-20",
+      "citation": "OR Art. 214"
+    },
+    {
+      "id": "ref-60-obligationentstehung-am-beispiel-veraeusserungsvertraege-21",
+      "citation": "SchKG Art. 271"
+    }
+  ],
+  "metadata": {
+    "language": "de-CH"
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "60 Obligationentstehung am Beispiel Veräusserungsverträge"
+    ],
+    "generatedBy": "migrate-module.ts",
+    "generatedAt": "2026-02-12T07:06:11.116Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-grundlagen",
+      "title": "Grundlagen",
+      "pageType": "theory",
+      "blocks": [
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-theory-1",
+          "type": "theory",
+          "title": "Der Kaufvertrag: Entstehung gegenseitiger Obligationen",
+          "content": "Durch den **Kaufvertrag** gemäss OR#Art. 184 entstehen zwei zentrale, spiegelbildliche Verpflichtungen: Der Verkäufer schuldet die **Übergabe des Kaufgegenstands (Warenobligation)**, und der Käufer schuldet die **Bezahlung des Kaufpreises (Kaufpreisobligation)**."
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-theory-2",
+          "type": "theory",
+          "title": "Übergang von Nutzen und Gefahr",
+          "content": "Der **Übergang von Nutzen und Gefahr** gemäss OR#Art. 185 regelt den Zeitpunkt, ab dem der **Käufer das Risiko** für den zufälligen Untergang oder die Beschädigung der Sache trägt. Dieser Zeitpunkt ist **nicht zwingend mit der physischen Übergabe** oder dem Eigentumsübergang identisch und unterscheidet sich fundamental zwischen Spezies- und Gattungskauf."
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-theory-3",
+          "type": "theory",
+          "title": "Tausch- und Schenkungsvertrag",
+          "content": "Der **Tauschvertrag** ist der Austausch einer Sache gegen eine andere, wobei die Regeln des Kaufrechts sinngemäss gelten (OR#Art. 237). Die **Schenkung** ist eine unentgeltliche Zuwendung (OR#Art. 239) und erfordert als Vertrag ebenfalls eine Annahme durch den Beschenkten. Für Schenkungsversprechen gelten besondere Formvorschriften."
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-discussion-4",
+          "type": "discussion-prompt",
+          "title": "Reflexionsfragen zum Einstieg",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-refl-1",
+              "prompt": "Diskutieren Sie in Ihrer Gruppe, wer Ihrer Meinung nach den finanziellen Schaden für den Traktor tragen sollte. Welche Faktoren sind für Ihre Entscheidung ausschlaggebend? Hätte eine andere vertragliche Vereinbarung die Situation verändert?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-refl-2",
+              "prompt": "Tauschen Sie sich über ähnliche Situationen aus, in denen eine verkaufte, aber noch nicht abgeholte Maschine beschädigt wurde oder verloren ging. Wie wurde der Fall damals gelöst? Welche Lehren haben Sie daraus für die Gestaltung Ihrer Kaufverträge gezogen?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-zusammenfassung",
+      "title": "Zusammenfassung",
+      "pageType": "summary",
+      "blocks": [
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-theory-1",
+          "type": "theory",
+          "title": "1. Veräusserungsverträge: Kauf, Tausch, Schenkung",
+          "content": "Veräusserungsverträge sind Verträge, bei denen das Eigentum an einer Sache auf eine andere Person übergeht. Das OR unterscheidet drei Hauptarten:\n\nKaufvertrag (Art. 184 ff. OR): Die Eigentumsübertragung erfolgt gegen Bezahlung eines Kaufpreises. Dies ist der häufigste Veräusserungsvertrag im Geschäftsalltag.\n                Tauschvertrag (Art. 237 f. OR): Das Eigentum wird im Austausch gegen eine andere Sache übertragen (Sache gegen Sache). Die Regeln des Kaufvertrags werden sinngemäss angewendet.\n                Schenkung (Art. 239 ff. OR): Die Eigentumsübertragung erfolgt unentgeltlich, also ohne Gegenleistung."
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-check-2",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 1. Veräusserungsverträge: Kauf, Tausch, Schenkung",
+          "questions": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q1-1",
+              "prompt": "Worin unterscheidet sich der Tauschvertrag vom Kaufvertrag?",
+              "solution": "Beim Kaufvertrag wird eine Sache gegen Geld getauscht, beim Tauschvertrag eine Sache gegen eine andere Sache."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q1-2",
+              "prompt": "Welche Formvorschrift gilt für ein Schenkungsversprechen über eine bewegliche Sache (z.B. ein Werkzeugkoffer)?",
+              "solution": "Ein Schenkungsversprechen erfordert die einfache Schriftlichkeit (Art. 243 Abs. 1 OR), um den Schenker vor übereilten Versprechen zu schützen."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q1-3",
+              "prompt": "Erklären Sie, warum die Schenkung rechtlich als Vertrag und nicht als einseitige Handlung gilt.",
+              "solution": "Eine Schenkung kommt erst durch Antrag (des Schenkers) und Annahme (des Beschenkten) zustande. Der Beschenkte muss die Schenkung also annehmen und kann sie auch ablehnen."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q1-4",
+              "prompt": "Begründen Sie, warum beim Tauschvertrag die Regeln des Kaufvertrags 'sinngemäss' angewendet werden können.",
+              "solution": "Beim Tausch ist jede Partei gleichzeitig Verkäufer (der eigenen Sache) und Käufer (der erhaltenen Sache). Die Pflichten (Übergabe, Gewährleistung) sind daher analog zum Kaufvertrag, weshalb dessen Regeln sinngemäss gelten."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q1-5",
+              "prompt": "Ihr pensionierter Vorgänger verspricht Ihnen mündlich, Ihnen seine wertvolle Sammlung technischer Fachliteratur zu schenken. Ist dieses Versprechen rechtlich verbindlich?",
+              "solution": "Nein, das Versprechen ist nicht verbindlich. Gemäss Art. 243 Abs. 1 OR bedarf ein Schenkungsversprechen der Schriftform. Ein mündliches Versprechen ist daher ungültig."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-theory-3",
+          "type": "theory",
+          "title": "2. Der Kaufvertrag: Entstehung gegenseitiger Obligationen",
+          "content": "Definition nach Art. 184 Abs. 1 OR: \"Durch den Kaufvertrag verpflichten sich der Verkäufer, dem Käufer den Kaufgegenstand zu übergeben und ihm das Eigentum daran zu verschaffen, und der Käufer, dem Verkäufer den Kaufpreis zu bezahlen.\"\n\nDurch den Abschluss eines Kaufvertrags entstehen zwei zentrale, spiegelbildliche Verpflichtungen (Obligationen):\n\nVerkäufer\n                    \n                        Pflicht (Schuld): Übergabe der Ware (Warenobligation)\n                        Recht (Forderung): Erhalt des Kaufpreises\n                    \n                    Der Verkäufer ist Schuldner der Ware und Gläubiger des Geldes.\n\nKäufer\n                    \n                        Pflicht (Schuld): Bezahlung des Kaufpreises (Kaufpreisobligation)\n                        Recht (Forderung): Erhalt der Ware\n                    \n                    Der Käufer ist Schuldner des Geldes und Gläubiger der Ware."
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-check-4",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 2. Der Kaufvertrag: Entstehung gegenseitiger Obligationen",
+          "questions": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q3-1",
+              "prompt": "Welche zwei Hauptpflichten (Obligationen) entstehen durch den Abschluss eines Kaufvertrags?",
+              "solution": "Es entstehen die Warenobligation (Pflicht des Verkäufers zur Übergabe der Sache) und die Kaufpreisobligation (Pflicht des Käufers zur Bezahlung des Preises)."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q3-2",
+              "prompt": "Erklären Sie, warum beim Kaufvertrag beide Parteien gleichzeitig Gläubiger und Schuldner sind.",
+              "solution": "Beide Parteien haben sowohl eine Forderung (sind Gläubiger) als auch eine Schuld (sind Schuldner). Der Verkäufer fordert den Preis (Gläubiger) und schuldet die Ware (Schuldner). Beim Käufer ist es umgekehrt."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q3-3",
+              "prompt": "Ein Kunde bestellt einen neuen Radlader vom Typ XY. Benennen Sie die Waren- und Kaufpreisobligation und bestimmen Sie jeweils, wer Gläubiger und wer Schuldner ist.",
+              "solution": "Warenobligation: Der Verkäufer ist Schuldner (muss liefern), der Kunde ist Gläubiger (darf fordern).\n                            Kaufpreisobligation: Der Kunde ist Schuldner (muss zahlen), der Verkäufer ist Gläubiger (darf fordern)."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-theory-5",
+          "type": "theory",
+          "title": "3. Arten des Kaufvertrags",
+          "content": "Man unterscheidet Kaufverträge nach dem Kaufgegenstand und dessen Bestimmtheit.\n\nFahrniskauf (Art. 187 OR)\n                    Betrifft den Kauf beweglicher Sachen (z.B. Maschinen, Fahrzeuge, Waren).\n                    \n                        Form: Grundsätzlich formfrei. Kann mündlich, schriftlich oder durch konkludentes Handeln abgeschlossen werden.\n\nGrundstückkauf (Art. 216 OR)\n                    Betrifft den Kauf unbeweglicher Sachen (z.B. Grundstücke, Liegenschaften, Eigentumswohnungen).\n                    \n                        Form: Erfordert zwingend die öffentliche Beurkundung durch einen Notar, um gültig zu sein.\n\nSpezieskauf (Stückkauf)\n                    Der Kaufgegenstand ist eine individuell bestimmte, einmalige Sache.\n                    \n                        Beispiel: Ein spezifischer Occasions-Traktor mit der Seriennummer XYZ, ein bestimmtes Gemälde, ein Vorführmodell.\n\nGattungskauf\n                    Der Kaufgegenstand ist nur der Art und Menge nach bestimmt und austauschbar.\n                    \n                        Beispiel: Ein neuer Radlader vom Typ XY ab Lager, 10 Säcke Zement, ein fabrikneues Ersatzteil."
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-check-6",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 3. Arten des Kaufvertrags",
+          "questions": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q5-1",
+              "prompt": "Erläutern Sie den wesentlichen Unterschied zwischen einem Fahrniskauf und einem Grundstückkauf bezüglich der Formvorschriften.",
+              "solution": "Der Fahrniskauf ist formfrei und kann z.B. mündlich gültig abgeschlossen werden. Der Grundstückkauf hingegen bedarf zu seiner Gültigkeit zwingend der öffentlichen Beurkundung durch einen Notar."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q5-2",
+              "prompt": "Definieren Sie die Begriffe 'Spezieskauf' und 'Gattungskauf' mit je einem Beispiel aus dem Land- oder Baumaschinenhandel.",
+              "solution": "Spezieskauf: Kauf einer einzigartigen, bestimmten Sache. Beispiel: Ein gebrauchter Minibagger mit der Seriennummer 12345.\n                            Gattungskauf: Kauf einer austauschbaren Sache, die nur nach allgemeinen Merkmalen bestimmt ist. Beispiel: Eine neue, originalverpackte Kettensäge vom Modell Z."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q5-3",
+              "prompt": "Sie verkaufen einem Kunden einen gebrauchten Minibagger mit der Seriennummer 12345. Welche Art von Fahrniskauf liegt vor? Begründen Sie.",
+              "solution": "Es liegt ein Spezieskauf vor, da der Kaufgegenstand durch die Seriennummer individuell bestimmt und nicht durch einen anderen Minibagger ersetzbar ist."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-theory-7",
+          "type": "theory",
+          "title": "4. Übergang von Nutzen und Gefahr (Art. 185 OR)",
+          "content": "Dieser Grundsatz regelt den Zeitpunkt, ab dem der Käufer das Risiko für den zufälligen Untergang oder die Beschädigung der Sache trägt – auch wenn er sie noch nicht erhalten hat.\n\nSpezieskauf: Nutzen und Gefahr gehen bereits mit dem Vertragsabschluss auf den Käufer über (Art. 185 Abs. 1 OR).\n                Gattungskauf (Platzkauf): Nutzen und Gefahr gehen über, sobald die Ware für den Käufer ausgesondert und bereitgestellt wird (Art. 185 Abs. 2 OR).\n                Gattungskauf (Distanzkauf): Nutzen und Gefahr gehen über, sobald die Ware zum Versand aufgegeben wird (Art. 185 Abs. 2 OR)."
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-check-8",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 4. Übergang von Nutzen und Gefahr (Art. 185 OR)",
+          "questions": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q7-1",
+              "prompt": "Vergleichen Sie den Übergang von Nutzen und Gefahr bei einem Spezieskauf mit dem bei einem Gattungskauf (Platzkauf). Worin liegt die logische Begründung für den Unterschied?",
+              "solution": "Beim Spezieskauf geht die Gefahr sofort bei Vertragsabschluss über, da die Sache von Anfang an klar bestimmt ist. Beim Gattungskauf muss der Verkäufer erst eine konkrete Sache aus der Gattung auswählen (ausscheiden). Erst ab diesem Moment der Konkretisierung geht die Gefahr auf den Käufer über."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q7-2",
+              "prompt": "Ein Landwirt kauft einen spezifischen Occasions-Traktor (Spezieskauf), der vor der Abholung durch ein unvorhergesehenes Hochwasser beschädigt wird. Muss der Landwirt den Kaufpreis bezahlen?",
+              "solution": "Ja, er muss den Kaufpreis bezahlen. Da es sich um einen Spezieskauf handelt, sind Nutzen und Gefahr gemäss Art. 185 Abs. 1 OR bereits mit dem Vertragsabschluss auf ihn übergegangen. Er trägt das Risiko des zufälligen Untergangs."
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q7-3",
+              "prompt": "Ein Bauunternehmer kauft 10 neue Rüttelplatten (Gattungskauf), die Sie für ihn bereitstellen. In der Nacht werden diese gestohlen. Wer trägt den Schaden?",
+              "solution": "Der Bauunternehmer (Käufer) trägt den Schaden. Da es sich um einen Gattungskauf handelt und die Ware für ihn spezifisch ausgesondert und bereitgestellt wurde, sind Nutzen und Gefahr gemäss Art. 185 Abs. 2 OR auf ihn übergegangen."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-theory-9",
+          "type": "theory",
+          "title": "5. Vertragsverletzungen durch den Verkäufer",
+          "content": "Wenn der Verkäufer seine Pflichten nicht korrekt erfüllt, hat der Käufer gesetzliche Rechte.\n\nLieferverzug (Art. 102 ff. OR)\n                    Der Verkäufer liefert die Ware nicht zum vereinbarten Zeitpunkt.\n                    Vorgehen des Käufers:\n                    \n                        Mahnung senden (ausser bei Fixgeschäft)\n                        Angemessene Nachfrist zur Lieferung setzen\n                        Nach Ablauf der Frist: Wahlrecht ausüben (auf Lieferung beharren, auf Lieferung verzichten und Schadenersatz fordern, oder vom Vertrag zurücktreten)\n\nMangelhafte Lieferung (Art. 197 ff. OR)\n                    Die gelieferte Ware hat Fehler oder es fehlen zugesicherte Eigenschaften (Sachgewährleistung).\n                    Pflichten des Käufers:\n                    \n                        Prüfpflicht: Ware sofort nach Erhalt prüfen.\n                        Rügepflicht: Mängel sofort dem Verkäufer melden (Mängelrüge)."
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-check-10",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 5. Vertragsverletzungen durch den Verkäufer",
+          "questions": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-q9-1",
+              "prompt": "Welche drei Möglichkeiten (Wahlrechte) hat ein Käufer bei Erhalt mangelhafter Ware, nachdem er korrekt gerügt hat?",
+              "solution": "Wandelung (Art. 205 OR): Rücktritt vom Vertrag. Ware zurück, Geld zurück.\n                            Minderung (Art. 205 OR): Preisnachlass verlangen und die mangelhafte Ware behalten.\n                            Ersatzlieferung (Art. 206 OR): Umtausch gegen einwandfreie Ware (nur bei Gattungsware möglich)."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-sum-theory-11",
+          "type": "theory",
+          "title": "6. Vertragsverletzungen durch den Käufer",
+          "content": "Auch der Käufer kann seine vertraglichen Pflichten verletzen.\n\nAnnahmeverzug (Art. 91 ff. OR)\n                    Der Käufer nimmt die ordnungsgemäss angebotene Ware nicht an.\n                    Rechte des Verkäufers:\n                    \n                        Ware auf Kosten des Käufers einlagern.\n                        Nach Androhung die Ware verkaufen lassen.\n\nZahlungsverzug (Art. 102 ff. OR)\n                    Der Käufer bezahlt den Kaufpreis nicht fristgerecht.\n                    Rechte des Verkäufers:\n                    \n                        Käufer mahnen und in Verzug setzen.\n                        Ab Verzugseintritt 5% Verzugszins fordern.\n                        Wurde die Ware noch nicht geliefert, kann der Verkäufer vom Vertrag zurücktreten."
+        }
+      ]
+    },
+    {
+      "lessonId": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-rechtsfaelle",
+      "title": "Rechtsfälle",
+      "pageType": "cases",
+      "blocks": [
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-1",
+          "type": "law-case-4-step",
+          "title": "Fall 1 (Grundlagen): Die alte Egge",
+          "caseText": "Landwirt Huber bringt seinen Traktor zur Reparatur in die Werkstatt von Frau Keller. Die Reparaturkosten belaufen sich auf CHF 2'500. Da Herr Huber knapp bei Kasse ist, bietet er Frau Keller an, die Reparaturkosten mit seiner alten, aber noch funktionstüchtigen Egge (Wert ca. CHF 2'000) zu begleichen und den Rest von CHF 500 in bar zu bezahlen. Frau Keller ist einverstanden.\nUm welche Art von Vertrag handelt es sich hier?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Analysieren Sie die Leistungen, die ausgetauscht werden: eine Reparatur und eine Barzahlung gegen eine Sachleistung (Egge).",
+              "hint": "Analysieren Sie die Leistungen, die ausgetauscht werden: eine Reparatur und eine Barzahlung gegen eine Sachleistung (Egge).",
+              "solution": "Beteiligte: Landwirt Huber, Werkstattleiterin Keller.\nWas ist passiert: Eine Reparaturleistung (CHF 2'500) wird teilweise durch eine Sache (Egge im Wert von CHF 2'000) und teilweise durch Geld (CHF 500) bezahlt.\nRechtsfrage: Welcher Vertragstyp liegt vor, wenn eine Leistung mit einer Sache und Geld abgegolten wird?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie die Definitionen von Kaufvertrag (OR Art. 184), Tauschvertrag (OR Art. 237) und Schenkung (OR Art. 239).",
+              "hint": "Prüfen Sie die Definitionen von Kaufvertrag (OR Art. 184), Tauschvertrag (OR Art. 237) und Schenkung (OR Art. 239).",
+              "solution": "Rechtsgebiet: Besonderer Teil des Obligationenrechts.\nRechtsvorschrift: Relevant sind die Definitionen des Kaufvertrags (Ware gegen Geld, OR Art. 184) und des Tauschvertrags (Ware gegen Ware, OR Art. 237). Da auch eine Reparatur (Werkvertrag) involviert ist, handelt es sich um einen gemischten Vertrag."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Vergleichen Sie die Merkmale der reinen Vertragsarten mit der hier vorliegenden gemischten Leistung. Welcher Vertragstyp überwiegt oder handelt es sich um eine Kombination?",
+              "hint": "Vergleichen Sie die Merkmale der reinen Vertragsarten mit der hier vorliegenden gemischten Leistung. Welcher Vertragstyp überwiegt oder handelt es sich um eine Kombination?",
+              "solution": "Regelanalyse: Beim reinen Kauf wird eine Sache gegen Geld getauscht. Beim reinen Tausch wird eine Sache gegen eine andere Sache getauscht. Hier liegt eine Mischform vor. In der Praxis wird bei solchen gemischten Verträgen (Tausch mit Aufgeld) geprüft, welche Leistung überwiegt.\nRechtsfolge: Überwiegt der Wert der Sachleistung, werden primär die Regeln des Tauschvertrags angewendet. Überwiegt die Geldleistung, gelten die Regeln des Kaufvertrags."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Bestimmen Sie den Vertragstyp basierend darauf, ob der Tausch- oder der Kaufcharakter im Vordergrund steht.",
+              "hint": "Bestimmen Sie den Vertragstyp basierend darauf, ob der Tausch- oder der Kaufcharakter im Vordergrund steht.",
+              "solution": "Prüfung: Der Wert der Egge (CHF 2'000) übersteigt den Baranteil (CHF 500) deutlich. Der Schwerpunkt der Gegenleistung liegt also auf der Sachleistung.\nKonsequenz: Es handelt sich primär um einen Tauschvertrag mit Aufgeld. Für die Egge gelten die Gewährleistungsregeln des Tauschvertrags, die auf das Kaufrecht verweisen (OR Art. 238)."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-2",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 1 (Grundlagen): Die alte Egge",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-1-1",
+              "prompt": "Was wäre, wenn die Egge nur CHF 500 wert wäre und Herr Huber CHF 2'000 bar bezahlen würde?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-1-2",
+              "prompt": "Spielt es eine Rolle, dass die ursprüngliche Leistung von Frau Keller eine Reparatur (Werkvertrag) war?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-3",
+          "type": "law-case-4-step",
+          "title": "Fall 2 (Grundlagen): Der Anruf am Samstag",
+          "caseText": "Ein Bauunternehmer sieht am Samstag in einem Online-Inserat, dass die Werkstatt von Herrn Moser einen gebrauchten Minibagger für CHF 18'000 anbietet. Er ruft Herrn Moser sofort an und sagt: 'Ich nehme den Minibagger für 18'000 Franken, wie inseriert.' Herr Moser antwortet: 'Perfekt, abgemacht!'\nIst durch dieses Telefongespräch ein gültiger Vertrag entstanden?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die Willenserklärungen der beiden Parteien am Telefon.",
+              "hint": "Identifizieren Sie die Willenserklärungen der beiden Parteien am Telefon.",
+              "solution": "Beteiligte: Bauunternehmer (Käufer), Werkstattleiter Moser (Verkäufer).\nWas ist passiert: Per Telefon einigen sich die Parteien über den Kauf eines spezifischen Minibaggers zu einem bestimmten Preis.\nRechtsfrage: Reicht eine mündliche Einigung am Telefon für einen gültigen Kaufvertrag aus?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Welche Voraussetzungen müssen für einen Vertragsabschluss erfüllt sein? Schauen Sie sich OR Art. 1 an.",
+              "hint": "Welche Voraussetzungen müssen für einen Vertragsabschluss erfüllt sein? Schauen Sie sich OR Art. 1 an.",
+              "solution": "Rechtsgebiet: Allgemeiner Teil des Obligationenrechts, Vertragsentstehung.\nRechtsvorschrift: OR Art. 1 Abs. 1, der die übereinstimmende gegenseitige Willenserklärung als Voraussetzung für den Vertragsabschluss nennt."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Ein Vertrag erfordert eine übereinstimmende gegenseitige Willenserklärung. Analysieren Sie, ob die Aussagen des Bauunternehmers und von Herrn Moser diese Bedingung erfüllen.",
+              "hint": "Ein Vertrag erfordert eine übereinstimmende gegenseitige Willenserklärung. Analysieren Sie, ob die Aussagen des Bauunternehmers und von Herrn Moser diese Bedingung erfüllen.",
+              "solution": "Tatbestandsmerkmale: Für einen Vertragsschluss braucht es einen Antrag (Offerte) und eine Annahme (Akzept). Die Erklärungen müssen inhaltlich übereinstimmen und die wesentlichen Vertragspunkte (essentialia negotii) umfassen. Beim Kaufvertrag sind dies der Kaufgegenstand und der Kaufpreis.\nRechtsfolge: Sind diese Voraussetzungen erfüllt, ist der Vertrag zustande gekommen."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Regel auf den Sachverhalt an. Wurden die wesentlichen Vertragspunkte (Kaufgegenstand, Kaufpreis) geklärt und von beiden Seiten akzeptiert?",
+              "hint": "Wenden Sie die Regel auf den Sachverhalt an. Wurden die wesentlichen Vertragspunkte (Kaufgegenstand, Kaufpreis) geklärt und von beiden Seiten akzeptiert?",
+              "solution": "Prüfung: Der Bauunternehmer macht mit seinem Anruf eine klare Annahme des Angebots aus dem Inserat. Herr Moser bestätigt diese Annahme mit 'Perfekt, abgemacht!'. Beide sind sich über den Kaufgegenstand (der spezifische Minibagger) und den Kaufpreis (CHF 18'000) einig.\nKonsequenz: Ja, es ist ein gültiger und verbindlicher Kaufvertrag entstanden. Sofern das Gesetz keine besondere Form vorschreibt (was hier nicht der Fall ist), können Verträge auch mündlich abgeschlossen werden (Grundsatz der Formfreiheit, OR Art. 11)."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-4",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 2 (Grundlagen): Der Anruf am Samstag",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-2-1",
+              "prompt": "Was sind die Hauptpflichten, die durch diesen Vertrag für beide Parteien entstanden sind?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-2-2",
+              "prompt": "Warum ist es trotzdem ratsam, einen solchen Vertrag schriftlich festzuhalten?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-5",
+          "type": "law-case-4-step",
+          "title": "Fall 3 (Grundlagen): Der Blitzeinschlag",
+          "caseText": "Die Werkstatt 'BaumaPro AG' verkauft dem Kunden Frei am Montag einen spezifischen, gebrauchten Radlader, der auf dem Hof steht (Seriennummer XZ-123), für CHF 50'000. Sie vereinbaren, dass Herr Frei den Radlader am Freitag abholen und bezahlen wird. In der Nacht auf Mittwoch zerstört ein unvorhersehbarer Blitzeinschlag den Radlader vollständig.\nHerr Frei weigert sich, den Kaufpreis zu bezahlen. Die BaumaPro AG besteht auf der Zahlung. Wer ist im Recht?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Klären Sie, um welche Art von Kaufsache es sich handelt: Ist der Radlader individuell bestimmt oder nur der Gattung nach?",
+              "hint": "Klären Sie, um welche Art von Kaufsache es sich handelt: Ist der Radlader individuell bestimmt oder nur der Gattung nach?",
+              "solution": "Beteiligte: BaumaPro AG (Verkäuferin), Kunde Frei (Käufer).\nWas ist passiert: Eine verkaufte, aber noch nicht übergebene, spezifische Maschine wird durch höhere Gewalt (Blitzschlag) zerstört.\nRechtsfrage: Muss der Käufer den Kaufpreis bezahlen, obwohl er die Maschine nicht mehr erhalten kann?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Finden Sie den Gesetzesartikel, der den Übergang von Nutzen und Gefahr beim Kaufvertrag regelt. Beachten Sie den Unterschied zwischen Spezies- und Gattungsware. Relevant ist OR Art. 185.",
+              "hint": "Finden Sie den Gesetzesartikel, der den Übergang von Nutzen und Gefahr beim Kaufvertrag regelt. Beachten Sie den Unterschied zwischen Spezies- und Gattungsware. Relevant ist OR Art. 185.",
+              "solution": "Rechtsgebiet: Kaufvertragsrecht.\nRechtsvorschrift: Die Regelung über den Übergang von Nutzen und Gefahr findet sich in OR Art. 185. Da es sich um einen spezifischen, individuell bestimmten Radlader handelt, liegt ein Spezieskauf vor."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Lesen Sie OR Art. 185 Abs. 1 genau. Wann genau gehen Nutzen und Gefahr bei einer Speziessache auf den Käufer über?",
+              "hint": "Lesen Sie OR Art. 185 Abs. 1 genau. Wann genau gehen Nutzen und Gefahr bei einer Speziessache auf den Käufer über?",
+              "solution": "Regelanalyse (Spezieskauf): Gemäss OR Art. 185 Abs. 1 gehen Nutzen und Gefahr einer Sache, sofern nicht anders vereinbart, bereits mit dem Abschluss des Vertrages auf den Erwerber über.\nRechtsfolge: Der Käufer trägt das Risiko des zufälligen Untergangs der Sache ab dem Moment des Vertragsabschlusses, auch wenn die Sache noch beim Verkäufer ist."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie diese Regel auf den Fall an. Wann wurde der Vertrag geschlossen? Wann ging die Sache unter? Wer trug zu diesem Zeitpunkt die Gefahr?",
+              "hint": "Wenden Sie diese Regel auf den Fall an. Wann wurde der Vertrag geschlossen? Wann ging die Sache unter? Wer trug zu diesem Zeitpunkt die Gefahr?",
+              "solution": "Prüfung: Der Kaufvertrag wurde am Montag geschlossen. Der Radlader ist eine Speziessache. Somit ging die Gefahr des zufälligen Untergangs am Montag auf Herrn Frei über. Der Blitzeinschlag in der Nacht auf Mittwoch war ein solches zufälliges Ereignis.\nKonsequenz: Die BaumaPro AG ist im Recht. Herr Frei muss den Kaufpreis von CHF 50'000 bezahlen, obwohl er den Radlader nicht erhält. Er trug die 'Preisgefahr'."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-6",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 3 (Grundlagen): Der Blitzeinschlag",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-3-1",
+              "prompt": "Wie hätten die Parteien diese für den Käufer harte Regelung vermeiden können?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-3-2",
+              "prompt": "Was wäre, wenn der Radlader nicht durch einen Blitz, sondern durch die Fahrlässigkeit eines Mitarbeiters der BaumaPro AG zerstört worden wäre?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-7",
+          "type": "law-case-4-step",
+          "title": "Fall 4 (Anwenden): Die bestellten Filter",
+          "caseText": "Ein Landmaschinenmechaniker bestellt bei einem Grosshändler 20 identische Hydraulikfilter des Typs 'HF-500' aus dessen Lager. Es wird vereinbart, dass der Mechaniker die Filter am nächsten Tag abholt (Platzkauf). Der Grosshändler stellt die 20 Filter noch am selben Abend auf einer Palette bereit und markiert sie mit dem Namen des Mechanikers. In der Nacht wird die Palette mit den Filtern von einem Gabelstaplerfahrer versehentlich zerstört.\nMuss der Mechaniker die zerstörten Filter bezahlen?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Handelt es sich hier um eine Spezies- oder eine Gattungssache? Was bedeutet 'Platzkauf'?",
+              "hint": "Handelt es sich hier um eine Spezies- oder eine Gattungssache? Was bedeutet 'Platzkauf'?",
+              "solution": "Beteiligte: Landmaschinenmechaniker (Käufer), Grosshändler (Verkäufer).\nWas ist passiert: Bestimmte, für einen Kunden bereitgestellte Gattungsware wird vor der Abholung im Lager des Verkäufers zerstört.\nRechtsfrage: Wer trägt die Gefahr für die zerstörten Filter? Ging die Gefahr bereits vor der Abholung auf den Käufer über?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie die Regelung zum Gefahrübergang beim Gattungskauf in OR Art. 185 Abs. 2.",
+              "hint": "Suchen Sie die Regelung zum Gefahrübergang beim Gattungskauf in OR Art. 185 Abs. 2.",
+              "solution": "Rechtsgebiet: Kaufvertragsrecht.\nRechtsvorschrift: Da die Filter nur der Gattung nach bestimmt sind ('Typ HF-500'), handelt es sich um einen Gattungskauf. Die massgebliche Vorschrift ist OR Art. 185 Abs. 2."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was ist die entscheidende Handlung, die beim Platzkauf den Gefahrübergang auslöst? Definieren Sie den Begriff 'Ausscheidung'.",
+              "hint": "Was ist die entscheidende Handlung, die beim Platzkauf den Gefahrübergang auslöst? Definieren Sie den Begriff 'Ausscheidung'.",
+              "solution": "Regelanalyse (Gattungskauf): Gemäss OR Art. 185 Abs. 2 geht bei Gattungssachen die Gefahr auf den Käufer über, sobald die Ware ausgeschieden ist. Beim Platzkauf (Ware wird vom Käufer abgeholt) bedeutet 'Ausscheidung', dass der Verkäufer alles seinerseits Erforderliche getan hat, damit der Käufer die Ware entgegennehmen kann. Die Ware muss klar identifiziert und für den Käufer separiert werden.\nRechtsfolge: Mit der gültigen Ausscheidung geht die Gefahr auf den Käufer über."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Prüfen Sie, ob die Handlungen des Grosshändlers (Filter auf Palette bereitstellen und markieren) als 'Ausscheidung' im Sinne des Gesetzes gelten und was das für die Gefahrtragung bedeutet.",
+              "hint": "Prüfen Sie, ob die Handlungen des Grosshändlers (Filter auf Palette bereitstellen und markieren) als 'Ausscheidung' im Sinne des Gesetzes gelten und was das für die Gefahrtragung bedeutet.",
+              "solution": "Prüfung: Der Grosshändler hat die 20 Filter aus seinem Lager genommen, auf eine Palette gestellt und diese für den Mechaniker angeschrieben. Damit hat er die geschuldete Ware konkretisiert und von anderen Waren gleicher Art getrennt. Dies ist eine klare Ausscheidung. Die Zerstörung erfolgte nach diesem Zeitpunkt.\nKonsequenz: Ja, der Mechaniker muss die Filter bezahlen. Die Gefahr ist mit der Ausscheidung auf ihn übergegangen. Der Grosshändler hat seine Lieferpflicht erfüllt, indem er die Ware ausgeschieden hat. Der Mechaniker hat nun einen Schadenersatzanspruch gegen den Grosshändler aus Vertragsverletzung (OR Art. 97), weil dessen Mitarbeiter die Ware zerstört hat, aber die Kaufpreisforderung bleibt bestehen."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-8",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 4 (Anwenden): Die bestellten Filter",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-4-1",
+              "prompt": "Was wäre anders, wenn die Filter an den Mechaniker hätten versendet werden sollen (Versendungskauf)?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-4-2",
+              "prompt": "Der Mechaniker muss also bezahlen, obwohl er nichts erhält. Was kann er tun?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-9",
+          "type": "law-case-4-step",
+          "title": "Fall 5 (Anwenden): Die verspätete Motorrevision",
+          "caseText": "Ein Bauunternehmen beauftragt eine Werkstatt mit der Generalüberholung eines wichtigen Baumaschinen-Motors. Im Werkvertrag wird schriftlich festgehalten: 'Fertigstellung und Abholung spätestens am 31. Mai'. Am 31. Mai ist der Motor nicht fertig. Das Bauunternehmen braucht den Motor dringend und setzt der Werkstatt per E-Mail eine letzte Frist bis zum 10. Juni. Auch diese Frist verstreicht ungenutzt. Das Bauunternehmen lässt den Motor bei einer anderen, teureren Werkstatt für CHF 15'000 fertigstellen. Die ursprüngliche Werkstatt hätte CHF 12'000 verlangt. Kann das Bauunternehmen die Mehrkosten von CHF 3'000 geltend machen?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die Vertragsart und das Problem. Es geht um die Nichteinhaltung eines Liefertermins.",
+              "hint": "Identifizieren Sie die Vertragsart und das Problem. Es geht um die Nichteinhaltung eines Liefertermins.",
+              "solution": "Beteiligte: Bauunternehmen (Gläubiger/Besteller), Werkstatt (Schuldner/Unternehmer).\nWas ist passiert: Eine Werkstatt hält einen fixen Liefertermin (Verfalltag) und eine gesetzte Nachfrist für eine Motorrevision nicht ein.\nRechtsfrage: Kann der Besteller die Mehrkosten für die Fertigstellung durch einen Dritten als Schadenersatz fordern?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Die Regeln für den Verzug des Schuldners finden sich im Allgemeinen Teil des OR. Relevant sind OR Art. 102 ff., insbesondere OR Art. 107.",
+              "hint": "Die Regeln für den Verzug des Schuldners finden sich im Allgemeinen Teil des OR. Relevant sind OR Art. 102 ff., insbesondere OR Art. 107.",
+              "solution": "Rechtsgebiet: Werkvertragsrecht, Allgemeiner Teil des OR (Schuldnerverzug).\nRechtsvorschrift: Da ein klarer Liefertermin ('spätestens am 31. Mai') vereinbart war, handelt es sich um ein Verfalltagsgeschäft. Der Schuldner gerät mit Ablauf dieses Tages automatisch in Verzug (OR Art. 102 Abs. 2). Die weiteren Rechte des Gläubigers ergeben sich aus OR Art. 107."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die Voraussetzungen für die Geltendmachung von Schadenersatz wegen Nichterfüllung: Verzug, Nachfristsetzung und Wahlerklärung. Welche drei Wahlrechte hat der Gläubiger nach OR Art. 107 Abs. 2?",
+              "hint": "Analysieren Sie die Voraussetzungen für die Geltendmachung von Schadenersatz wegen Nichterfüllung: Verzug, Nachfristsetzung und Wahlerklärung. Welche drei Wahlrechte hat der Gläubiger nach OR Art. 107 Abs. 2?",
+              "solution": "Regelanalyse: Ist der Schuldner in Verzug, muss der Gläubiger ihm eine angemessene Nachfrist zur Erfüllung setzen (OR Art. 107 Abs. 1). Verstreicht auch diese ungenutzt, hat der Gläubiger drei Wahlrechte (OR Art. 107 Abs. 2):\n1. Festhalten an der Leistung und Ersatz des Verspätungsschadens fordern.\n2. Verzicht auf die Leistung und Schadenersatz wegen Nichterfüllung fordern (positives Vertragsinteresse).\n3. Rücktritt vom Vertrag und Ersatz des Schadens aus dem Dahinfallen des Vertrags (negatives Vertragsinteresse)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Prüfen Sie, ob das Bauunternehmen alle Schritte korrekt durchgeführt hat und welches Wahlrecht es ausgeübt hat. Berechnen Sie den daraus resultierenden Schaden.",
+              "hint": "Prüfen Sie, ob das Bauunternehmen alle Schritte korrekt durchgeführt hat und welches Wahlrecht es ausgeübt hat. Berechnen Sie den daraus resultierenden Schaden.",
+              "solution": "Prüfung: Die Werkstatt war ab dem 1. Juni in Verzug. Das Bauunternehmen hat korrekt eine Nachfrist bis zum 10. Juni gesetzt. Nach deren ungenutztem Ablauf hat es sich entschieden, die Leistung nicht mehr von der ursprünglichen Werkstatt zu wollen und hat einen Dritten beauftragt. Dies entspricht dem zweiten Wahlrecht: Verzicht auf die ursprüngliche Leistung und Forderung von Schadenersatz wegen Nichterfüllung. Der Schaden besteht in den Mehrkosten, die aufgewendet werden mussten, um die gleiche Leistung zu erhalten (Deckungsgeschäft).\nKonsequenz: Ja, das Bauunternehmen kann die Mehrkosten von CHF 3'000 (CHF 15'000 - CHF 12'000) als Schadenersatz von der ersten Werkstatt fordern."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-10",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 5 (Anwenden): Die verspätete Motorrevision",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-5-1",
+              "prompt": "Hätte das Bauunternehmen die Nachfrist setzen müssen?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-5-2",
+              "prompt": "Was ist der Unterschied zwischen Schadenersatz wegen Nichterfüllung (positives Interesse) und Schadenersatz aus Vertragsrücktritt (negatives Interesse)?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-11",
+          "type": "law-case-4-step",
+          "title": "Fall 6 (Anwenden): Der mündliche Ratenkauf",
+          "caseText": "Werkstattleiter Baumgartner verkauft dem Privatmann Schmid eine gebrauchte Schneefräse für CHF 4'800. Da sie sich gut kennen, vereinbaren sie mündlich, dass Schmid in 24 Monatsraten à CHF 200 zahlt. Nach zwei bezahlten Raten verliert Schmid seine Arbeit und will vom Kauf zurücktreten. Er argumentiert, der Vertrag sei ungültig, weil er nicht schriftlich abgeschlossen wurde. Hat er Recht?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die Vertragsart (Kauf) und die besondere Zahlungsbedingung (Ratenzahlung). Beachten Sie, dass der Käufer eine Privatperson ist.",
+              "hint": "Identifizieren Sie die Vertragsart (Kauf) und die besondere Zahlungsbedingung (Ratenzahlung). Beachten Sie, dass der Käufer eine Privatperson ist.",
+              "solution": "Beteiligte: Werkstattleiter Baumgartner (Verkäufer), Privatmann Schmid (Käufer).\nWas ist passiert: Mündlicher Abschluss eines Abzahlungskaufs (Ratenkauf) mit einem Konsumenten.\nRechtsfrage: Ist ein mündlich abgeschlossener Ratenkaufvertrag mit einem Konsumenten gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie, ob für solche Verträge ein Spezialgesetz zur Anwendung kommt, das vom Grundsatz der Formfreiheit (OR Art. 11) abweicht. Denken Sie an den Konsumentenschutz.",
+              "hint": "Prüfen Sie, ob für solche Verträge ein Spezialgesetz zur Anwendung kommt, das vom Grundsatz der Formfreiheit (OR Art. 11) abweicht. Denken Sie an den Konsumentenschutz.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Konsumkreditgesetz.\nRechtsvorschrift: Grundsätzlich gilt Formfreiheit (OR Art. 11). Für Verträge mit Konsumenten, die eine Kreditgewährung beinhalten (wie Ratenzahlungen), ist jedoch das Konsumkreditgesetz (KKG) zu beachten."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Lesen Sie die Bestimmungen des Konsumkreditgesetzes (KKG), insbesondere KKG Art. 1 (Geltungsbereich) und KKG Art. 9 (Formvorschrift).",
+              "hint": "Lesen Sie die Bestimmungen des Konsumkreditgesetzes (KKG), insbesondere KKG Art. 1 (Geltungsbereich) und KKG Art. 9 (Formvorschrift).",
+              "solution": "Regelanalyse: Das KKG gilt für Kredite an Konsumenten (natürliche Personen, privater Zweck) zwischen CHF 500 und CHF 80'000 (KKG Art. 1 und 7). Gemäss KKG Art. 9 muss ein Konsumkreditvertrag schriftlich abgefasst werden (qualifizierte Schriftlichkeit).\nRechtsfolge bei Formmangel: Die Nichteinhaltung der Formvorschrift führt zur Nichtigkeit des Vertrages (KKG Art. 15). Bereits erbrachte Leistungen sind zurückzuerstatten."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wurde die im KKG verlangte Form im Sachverhalt eingehalten? Leiten Sie daraus die direkte Konsequenz für die Gültigkeit des Vertrages ab (siehe KKG Art. 15).",
+              "hint": "Wurde die im KKG verlangte Form im Sachverhalt eingehalten? Leiten Sie daraus die direkte Konsequenz für die Gültigkeit des Vertrages ab (siehe KKG Art. 15).",
+              "solution": "Prüfung: Der Vertrag über CHF 4'800 fällt in den Geltungsbereich des KKG. Schmid ist Konsument. Der Vertrag wurde nur mündlich abgeschlossen und verletzt damit die zwingende Schriftform gemäss KKG Art. 9.\nKonsequenz: Ja, Schmid hat Recht. Der Vertrag ist nichtig. Er muss die Schneefräse zurückgeben und Baumgartner muss ihm die bereits bezahlten Raten (CHF 400) zurückerstatten."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-12",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 6 (Anwenden): Der mündliche Ratenkauf",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-6-1",
+              "prompt": "Wäre die Situation anders, wenn Schmid die Schneefräse für sein Gartenbauunternehmen gekauft hätte?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-6-2",
+              "prompt": "Was hätte Baumgartner tun müssen, um einen gültigen Vertrag abzuschliessen?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-13",
+          "type": "law-case-4-step",
+          "title": "Fall 7 (Analysieren): Der falsche Preis im Webshop",
+          "caseText": "Der Werkstattleiter Herr Frisch inseriert in seinem Webshop ein professionelles Schweissgerät. Versehentlich tippt er als Preis CHF 680.- ein, obwohl er CHF 6'800.- meinte. Ein Konkurrent, der den extrem günstigen Preis bemerkt, bestellt das Gerät sofort online und erhält eine automatische Bestellbestätigung. Als Herr Frisch den Fehler bemerkt, weigert er sich, das Gerät zum tiefen Preis zu liefern. Der Konkurrent besteht auf der Lieferung. Wer ist im Recht?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Prüfen Sie zuerst, ob ein Vertrag zustande gekommen ist. Gilt die Preisauszeichnung im Webshop als verbindliches Angebot?",
+              "hint": "Prüfen Sie zuerst, ob ein Vertrag zustande gekommen ist. Gilt die Preisauszeichnung im Webshop als verbindliches Angebot?",
+              "solution": "Beteiligte: Werkstattleiter Frisch (Verkäufer), Konkurrent (Käufer).\nWas ist passiert: Aufgrund eines Tippfehlers wird eine Ware online zu einem Zehntel des eigentlichen Preises angeboten und verkauft.\nRechtsfrage: Ist der Verkäufer an den offensichtlich falschen Preis gebunden oder kann er den Vertrag anfechten?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Wenn ein Vertrag zustande gekommen ist, prüfen Sie, ob sich Herr Frisch davon lösen kann. Das Stichwort ist 'Willensmangel'. Relevant sind OR Art. 23 ff.",
+              "hint": "Wenn ein Vertrag zustande gekommen ist, prüfen Sie, ob sich Herr Frisch davon lösen kann. Das Stichwort ist 'Willensmangel'. Relevant sind OR Art. 23 ff.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Willensmängel.\nRechtsvorschrift: Die Auslage von Waren mit Preisangabe gilt als Antrag (OR Art. 7 Abs. 3), somit ist ein Vertrag zustande gekommen. Der Verkäufer kann sich aber möglicherweise auf einen wesentlichen Irrtum berufen (OR Art. 23 ff.)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Unterscheiden Sie die verschiedenen Arten von Irrtum. Handelt es sich hier um einen Motivirrtum oder einen Erklärungsirrtum? Ist der Irrtum wesentlich im Sinne von OR Art. 24?",
+              "hint": "Unterscheiden Sie die verschiedenen Arten von Irrtum. Handelt es sich hier um einen Motivirrtum oder einen Erklärungsirrtum? Ist der Irrtum wesentlich im Sinne von OR Art. 24?",
+              "solution": "Regelanalyse: Ein Vertrag ist für diejenige Partei unverbindlich, die sich bei Abschluss in einem wesentlichen Irrtum befunden hat (OR Art. 23). Ein wesentlicher Irrtum liegt unter anderem dann vor, wenn der Irrende eine Leistung von erheblich grösserem Umfang versprochen hat, als es sein Wille war (Erklärungsirrtum, OR Art. 24 Abs. 1 Ziff. 3). Der Irrtum über den Preis (CHF 680 statt CHF 6'800) ist offensichtlich erheblich.\nRechtsfolge: Der Vertrag ist einseitig unverbindlich und kann angefochten werden."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Was ist die Rechtsfolge eines wesentlichen Irrtums? Muss Herr Frisch liefern? Könnte der Konkurrent allenfalls Schadenersatz fordern?",
+              "hint": "Was ist die Rechtsfolge eines wesentlichen Irrtums? Muss Herr Frisch liefern? Könnte der Konkurrent allenfalls Schadenersatz fordern?",
+              "solution": "Prüfung: Herr Frisch wollte CHF 6'800, hat aber CHF 680 erklärt. Sein erklärter Wille weicht vom tatsächlichen Willen ab. Dies ist ein klassischer Erklärungsirrtum. Da die Abweichung erheblich ist (Faktor 10), ist der Irrtum wesentlich.\nKonsequenz: Herr Frisch kann den Vertrag wegen wesentlichen Irrtums anfechten. Der Vertrag wird dadurch ungültig. Er muss das Schweissgerät nicht für CHF 680 liefern. Der Konkurrent könnte jedoch argumentieren, dass er auf die Gültigkeit des Vertrages vertraut hat und eventuell Schadenersatz aus Fahrlässigkeit beim Vertragsabschluss fordern (OR Art. 26), was aber schwierig durchzusetzen ist, da er den Fehler hätte erkennen können (Handeln wider Treu und Glauben, ZGB Art. 2)."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-14",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 7 (Analysieren): Der falsche Preis im Webshop",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-7-1",
+              "prompt": "Innerhalb welcher Frist muss Herr Frisch den Irrtum geltend machen?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-7-2",
+              "prompt": "Wäre die Situation anders, wenn der Preis CHF 6'500 statt CHF 6'800 gewesen wäre?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-15",
+          "type": "law-case-4-step",
+          "title": "Fall 8 (Analysieren): Die 'ab Platz' verkaufte Maschine",
+          "caseText": "Ein Werkstattleiter verkauft einem Landwirt einen 10-jährigen, gebrauchten Traktor. Im schriftlichen Vertrag steht die Klausel: 'Kauf wie gesehen und gefahren, ab Platz und ohne jegliche Garantie'. Eine Woche nach dem Kauf stellt der Landwirt fest, dass der Motor einen schweren, versteckten Riss hat, der schon beim Verkauf vorhanden gewesen sein muss. Die Reparatur kostet CHF 8'000. Der Werkstattleiter wusste von diesem Mangel nichts, hätte ihn aber bei einer genaueren Inspektion erkennen können. Kann der Landwirt trotz der Klausel Ansprüche geltend machen?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Kernproblem ist die Wirksamkeit eines Gewährleistungsausschlusses (Garantieausschluss) bei einem versteckten Mangel.",
+              "hint": "Das Kernproblem ist die Wirksamkeit eines Gewährleistungsausschlusses (Garantieausschluss) bei einem versteckten Mangel.",
+              "solution": "Beteiligte: Werkstattleiter (Verkäufer), Landwirt (Käufer).\nWas ist passiert: Ein als 'ab Platz, ohne Garantie' verkauftes Fahrzeug weist einen schweren, versteckten Mangel auf, der bereits bei Verkauf bestand.\nRechtsfrage: Ist der vertragliche Ausschluss der Gewährleistung (Garantie) in diesem Fall wirksam?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Die gesetzlichen Regeln zur Gewährleistung finden sich in OR Art. 197 ff. Die entscheidende Norm für den Ausschluss der Gewährleistung ist OR Art. 199.",
+              "hint": "Die gesetzlichen Regeln zur Gewährleistung finden sich in OR Art. 197 ff. Die entscheidende Norm für den Ausschluss der Gewährleistung ist OR Art. 199.",
+              "solution": "Rechtsgebiet: Kaufvertragsrecht, Sachmängelgewährleistung.\nRechtsvorschrift: Die Haftung des Verkäufers für Mängel ist in OR Art. 197 geregelt. Die Möglichkeit, diese Haftung vertraglich auszuschliessen, und die Grenzen dieses Ausschlusses sind in OR Art. 199 festgelegt."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie OR Art. 199. Unter welchen zwei Bedingungen ist ein vertraglicher Gewährleistungsausschluss ungültig?",
+              "hint": "Analysieren Sie OR Art. 199. Unter welchen zwei Bedingungen ist ein vertraglicher Gewährleistungsausschluss ungültig?",
+              "solution": "Regelanalyse: Gemäss OR Art. 199 ist eine Vereinbarung über die Aufhebung oder Beschränkung der Gewährleistungspflicht ungültig, wenn der Verkäufer dem Käufer die Gewährsmängel arglistig verschwiegen hat. Arglist liegt vor, wenn der Verkäufer den Mangel kennt und ihn absichtlich verschweigt. Nach der Rechtsprechung kann bei Fachleuten bereits das Verschweigen von Mängeln, die sie hätten kennen müssen, als arglistig gelten."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Prüfen Sie, ob eine dieser Bedingungen im vorliegenden Fall erfüllt ist. Beachten Sie, dass der Verkäufer ein Profi (Werkstattleiter) ist. Was bedeutet 'arglistig verschwiegen'?",
+              "hint": "Prüfen Sie, ob eine dieser Bedingungen im vorliegenden Fall erfüllt ist. Beachten Sie, dass der Verkäufer ein Profi (Werkstattleiter) ist. Was bedeutet 'arglistig verschwiegen'?",
+              "solution": "Prüfung: Der Werkstattleiter hat den Mangel zwar nicht gekannt, ihn aber fahrlässig nicht erkannt ('hätte ihn erkennen können'). Er hat den Mangel also nicht absichtlich (arglistig) im engeren Sinne verschwiegen. Die Klausel 'ab Platz, ohne Garantie' ist daher grundsätzlich gültig. Der Landwirt kann keine Ansprüche geltend machen.\nAber: Hätte der Werkstattleiter den Mangel gekannt und bewusst nichts gesagt, wäre sein Handeln arglistig und der Gewährleistungsausschluss wäre ungültig. Der Landwirt könnte dann trotz der Klausel Mängelrechte (z.B. Minderung des Kaufpreises um CHF 8'000) geltend machen."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-16",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 8 (Analysieren): Die 'ab Platz' verkaufte Maschine",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-8-1",
+              "prompt": "Was ist der Unterschied zwischen einem offenen und einem versteckten Mangel?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-8-2",
+              "prompt": "Spielt es eine Rolle, dass der Käufer ebenfalls Landwirt, also auch ein Fachmann ist?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-17",
+          "type": "law-case-4-step",
+          "title": "Fall 9 (Analysieren): Aufrechnung von Forderungen",
+          "caseText": "Die Transportfirma 'Rollgut AG' schuldet der Werkstatt von Herrn Egger noch CHF 10'000 für eine LKW-Reparatur. Die Rechnung ist fällig. Kürzlich hat ein Mitarbeiter von Herrn Egger beim Rangieren auf dem Hof der Rollgut AG eine Laderampe beschädigt. Die Rollgut AG hat einen rechtskräftigen Zahlungsbefehl über den Schaden von CHF 7'000 gegen Herrn Egger erwirkt. Als Herr Egger die CHF 10'000 fordert, erklärt die Rollgut AG, sie zahle nur CHF 3'000 und der Rest sei 'quitt'. Herr Egger ist damit nicht einverstanden und will die vollen CHF 10'000. Darf die Rollgut AG so vorgehen?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Problem dreht sich um die Verrechnung von gegenseitigen Schulden. Eine Partei will ihre Schuld mit einer Gegenforderung tilgen.",
+              "hint": "Das Problem dreht sich um die Verrechnung von gegenseitigen Schulden. Eine Partei will ihre Schuld mit einer Gegenforderung tilgen.",
+              "solution": "Beteiligte: Werkstatt Egger, Transportfirma Rollgut AG.\nWas ist passiert: Zwei Parteien schulden sich gegenseitig Geld. Eine Partei (Rollgut AG) will ihre Schuld durch Verrechnung mit ihrer Forderung tilgen.\nRechtsfrage: Sind die Voraussetzungen für eine einseitige Verrechnungserklärung erfüllt?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Die gesetzlichen Grundlagen für die Verrechnung (Aufrechnung) finden sich im Allgemeinen Teil des OR, beginnend bei OR Art. 120.",
+              "hint": "Die gesetzlichen Grundlagen für die Verrechnung (Aufrechnung) finden sich im Allgemeinen Teil des OR, beginnend bei OR Art. 120.",
+              "solution": "Rechtsgebiet: Allgemeiner Teil des OR, Erlöschen von Obligationen.\nRechtsvorschrift: Die Verrechnung ist in OR Art. 120 ff. geregelt."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die vier Voraussetzungen für eine gültige Verrechnung gemäss OR Art. 120: Gegenseitigkeit der Forderungen, Gleichartigkeit der Leistungen, Fälligkeit der Verrechnungsforderung und Klagbarkeit der Gegenforderung.",
+              "hint": "Analysieren Sie die vier Voraussetzungen für eine gültige Verrechnung gemäss OR Art. 120: Gegenseitigkeit der Forderungen, Gleichartigkeit der Leistungen, Fälligkeit der Verrechnungsforderung und Klagbarkeit der Gegenforderung.",
+              "solution": "Regelanalyse: Für eine gültige Verrechnung müssen vier Tatbestandsmerkmale erfüllt sein (OR Art. 120):\n1. Gegenseitigkeit: Die Parteien müssen gegenseitig Gläubiger und Schuldner sein.\n2. Gleichartigkeit: Die geschuldeten Leistungen müssen gleichartig sein (meist Geldschulden).\n3. Fälligkeit der Verrechnungsforderung: Die Forderung dessen, der die Verrechnung erklärt (hier Rollgut AG), muss fällig sein.\n4. Klagbarkeit der Hauptforderung: Die Forderung, gegen die verrechnet wird (hier die der Werkstatt), muss klagbar sein.\nDie Verrechnung wirkt durch einseitige Erklärung."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Prüfen Sie, ob alle vier Voraussetzungen im vorliegenden Fall zwischen der Werkstatt und der Transportfirma erfüllt sind.",
+              "hint": "Prüfen Sie, ob alle vier Voraussetzungen im vorliegenden Fall zwischen der Werkstatt und der Transportfirma erfüllt sind.",
+              "solution": "Prüfung:\n1. Gegenseitigkeit: Ja, Egger schuldet Rollgut und Rollgut schuldet Egger.\n2. Gleichartigkeit: Ja, beide Schulden sind Geldschulden.\n3. Fälligkeit der Verrechnungsforderung: Ja, die Forderung der Rollgut AG (CHF 7'000) ist durch den Zahlungsbefehl fällig.\n4. Klagbarkeit der Hauptforderung: Ja, die Forderung von Egger (CHF 10'000) ist fällig und klagbar.\nAlle Voraussetzungen sind erfüllt.\nKonsequenz: Ja, die Rollgut AG darf so vorgehen. Durch ihre Verrechnungserklärung sind beide Forderungen, soweit sie sich decken (CHF 7'000), erloschen. Herr Egger hat nur noch einen Anspruch auf die restlichen CHF 3'000."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-18",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 9 (Analysieren): Aufrechnung von Forderungen",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-9-1",
+              "prompt": "Muss Herr Egger mit der Verrechnung einverstanden sein?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-9-2",
+              "prompt": "Gibt es Forderungen, die nicht verrechnet werden dürfen?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-19",
+          "type": "law-case-4-step",
+          "title": "Fall 10 (Transfer/Beurteilung): Die defekte Erntemaschine",
+          "caseText": "Ein Werkstattleiter hat einem Lohnunternehmer vor zwei Monaten eine neue, hochmoderne Erntemaschine für CHF 450'000 verkauft. Mitten in der Ernte fällt die zentrale Steuerungselektronik aus. Eine Reparatur vor Ort ist unmöglich, die Werkstatt müsste die Maschine abholen, was mindestens 5 Tage dauern würde. Ein Ersatzgerät ist nicht sofort verfügbar. Der Lohnunternehmer ist verzweifelt, da er Verträge mit mehreren Landwirten hat und ihm für jeden Tag Ausfall hohe Konventionalstrafen und Reputationsschaden drohen. Er fordert vom Werkstattleiter eine 'sofortige Lösung' und droht, ihn für den gesamten Ausfallschaden haftbar zu machen. Welche Optionen hat der Werkstattleiter und welche würden Sie ihm empfehlen?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Erfassen Sie die gesamte Problematik: Es geht nicht nur um einen Sachmangel, sondern um einen massiven Folgeschaden (Ausfallschaden) zu einem kritischen Zeitpunkt.",
+              "hint": "Erfassen Sie die gesamte Problematik: Es geht nicht nur um einen Sachmangel, sondern um einen massiven Folgeschaden (Ausfallschaden) zu einem kritischen Zeitpunkt.",
+              "solution": "Beteiligte: Werkstattleiter (Verkäufer), Lohnunternehmer (Käufer).\nWas ist passiert: Eine neue, teure Maschine fällt während der kritischen Erntezeit aus. Es droht ein erheblicher Mangelfolgeschaden.\nProblemstellung: Der Werkstattleiter muss eine Entscheidung treffen, die sowohl die rechtlichen Pflichten erfüllt als auch den wirtschaftlichen Schaden für beide Seiten minimiert und die Kundenbeziehung rettet."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Identifizieren Sie die rechtlichen Grundlagen: Sachmängelgewährleistung (OR Art. 197 ff.) und die Haftung für Mangelfolgeschäden (oft über OR Art. 97).",
+              "hint": "Identifizieren Sie die rechtlichen Grundlagen: Sachmängelgewährleistung (OR Art. 197 ff.) und die Haftung für Mangelfolgeschäden (oft über OR Art. 97).",
+              "solution": "Rechtsgebiet: Kaufvertragsrecht (Sachmängelgewährleistung), Haftpflichtrecht.\nRechtsvorschrift: Die Mängelrechte des Käufers sind in OR Art. 205 ff. (Wandelung, Minderung) geregelt. Oft ist vertraglich ein Recht auf Nachbesserung (Reparatur) vereinbart. Die Haftung für den Folgeschaden (Ausfall) richtet sich nach den allgemeinen Regeln (OR Art. 97 ff.) und kann erheblich sein."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Listen Sie die möglichen rechtlichen und kaufmännischen Optionen auf: Reparatur (Nachbesserung), Wandelung (Rücktritt), Minderung, aber auch ausserordentliche Massnahmen wie die Anmietung einer Ersatzmaschine.",
+              "hint": "Listen Sie die möglichen rechtlichen und kaufmännischen Optionen auf: Reparatur (Nachbesserung), Wandelung (Rücktritt), Minderung, aber auch ausserordentliche Massnahmen wie die Anmietung einer Ersatzmaschine.",
+              "solution": "Optionen des Werkstattleiters:\n1. Auf Reparatur bestehen: Rechtlich oft die primäre Pflicht/das primäre Recht des Verkäufers. Dauer: 5 Tage. Risiko: Sehr hohe Schadenersatzforderung des Kunden für den Ausfall.\n2. Wandelung anbieten: Rücknahme der Maschine und Rückzahlung des Kaufpreises. Löst das akute Problem des Kunden nicht, da er keine Maschine hat.\n3. Sofortige Anmietung einer Ersatzmaschine: Der Werkstattleiter mietet auf eigene Kosten eine vergleichbare Maschine für den Kunden, bis die Reparatur abgeschlossen ist. Kosten: Mietkosten. Vorteil: Der Folgeschaden wird gestoppt.\n4. Kombination: Anmietung einer Ersatzmaschine (Option 3) und anschliessende Reparatur der defekten Maschine."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Beurteilen und vergleichen Sie die Optionen. Wägen Sie die direkten Kosten (Reparatur, Miete) gegen die indirekten Risiken (Schadenersatzklage, Kundenverlust, Reputationsschaden) ab und geben Sie eine fundierte Empfehlung.",
+              "hint": "Beurteilen und vergleichen Sie die Optionen. Wägen Sie die direkten Kosten (Reparatur, Miete) gegen die indirekten Risiken (Schadenersatzklage, Kundenverlust, Reputationsschaden) ab und geben Sie eine fundierte Empfehlung.",
+              "solution": "Beurteilung und Empfehlung:\nDie Option 1 (nur Reparatur) ist wirtschaftlich am riskantesten, da die drohende Schadenersatzklage die Reparaturkosten um ein Vielfaches übersteigen kann. Option 2 (Wandelung) ist unpraktisch und kundenunfreundlich in der aktuellen Situation.\nEmpfehlung (Transferleistung): Die beste strategische Lösung ist Option 3 oder 4. Der Werkstattleiter sollte proaktiv und auf eigene Kosten sofort eine Ersatzmaschine organisieren und dem Kunden zur Verfügung stellen. Dies zeigt Professionalität und guten Willen, stoppt den teuren Ausfallschaden und rettet die Kundenbeziehung. Die Mietkosten sind wahrscheinlich deutlich geringer als der potenzielle Schadenersatz. Anschliessend kann die defekte Maschine in Ruhe repariert werden. Dies ist die kaufmännisch und rechtlich klügste Vorgehensweise."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-20",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 10 (Transfer/Beurteilung): Die defekte Erntemaschine",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-10-1",
+              "prompt": "Hätte der Werkstattleiter seine Haftung für den Ausfallschaden (Mangelfolgeschaden) in seinen AGB ausschliessen können?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-10-2",
+              "prompt": "Könnte der Werkstattleiter die Kosten für die Ersatzmaschine später vom Hersteller der Erntemaschine zurückfordern?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-21",
+          "type": "law-case-4-step",
+          "title": "Fall 11 (Transfer/Beurteilung): Die geplatzte Grossbestellung",
+          "caseText": "Ein grosser Forstbetrieb bittet die Werkstatt von Frau Meier um eine detaillierte Offerte für die Umrüstung von fünf Spezialfahrzeugen. Die Ausarbeitung ist sehr aufwändig und kostet Frau Meier rund 40 Arbeitsstunden für Planung, Kalkulation und Abklärungen mit Lieferanten. Sie unterbreitet eine Offerte über CHF 120'000. Der Forstbetrieb verhandelt intensiv, signalisiert mehrfach seine grundsätzliche Zustimmung und verlangt noch kleine Anpassungen. Kurz vor der geplanten Vertragsunterzeichnung teilt der Forstbetrieb mit, dass er den Auftrag nun doch an einen Konkurrenten vergeben hat, der Frau Meiers detaillierte Planung als Grundlage für ein um 5% günstigeres Angebot nutzte. Kann Frau Meier eine Entschädigung für ihren Aufwand verlangen, obwohl kein Vertrag zustande kam?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Problem liegt darin, dass ein Schaden entstanden ist, bevor ein Vertrag abgeschlossen wurde. Es geht um das Verhalten während der Vertragsverhandlungen.",
+              "hint": "Das Problem liegt darin, dass ein Schaden entstanden ist, bevor ein Vertrag abgeschlossen wurde. Es geht um das Verhalten während der Vertragsverhandlungen.",
+              "solution": "Beteiligte: Werkstattleiterin Meier, Forstbetrieb.\nWas ist passiert: Nach intensiven und aufwändigen Vertragsverhandlungen bricht eine Partei diese kurz vor Abschluss treuwidrig ab und nutzt die Vorarbeit der anderen Partei aus.\nRechtsfrage: Besteht ein Anspruch auf Schadenersatz für den Aufwand, der im Vertrauen auf einen Vertragsabschluss getätigt wurde, auch wenn kein Vertrag zustande kam?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Suchen Sie nach einem Rechtsinstitut, das die Haftung aus Vertragsverhandlungen regelt. Dieses ist nicht explizit im Gesetz geregelt, sondern von der Rechtsprechung entwickelt worden. Das Stichwort ist 'culpa in contrahendo'.",
+              "hint": "Suchen Sie nach einem Rechtsinstitut, das die Haftung aus Vertragsverhandlungen regelt. Dieses ist nicht explizit im Gesetz geregelt, sondern von der Rechtsprechung entwickelt worden. Das Stichwort ist 'culpa in contrahendo'.",
+              "solution": "Rechtsgebiet: Vorvertragliche Haftung.\nRechtsvorschrift: Es gibt keine explizite Gesetzesnorm. Die Haftung stützt sich auf das von Lehre und Rechtsprechung entwickelte Institut der culpa in contrahendo (c.i.c.), das aus dem allgemeinen Grundsatz von Treu und Glauben (ZGB Art. 2) abgeleitet wird."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die Voraussetzungen der Haftung aus 'culpa in contrahendo' (c.i.c.): ernsthafte Verhandlungen, treuwidriges Verhalten einer Partei (z.B. Verhandlungen ohne Abschlussabsicht), Schaden, Kausalzusammenhang.",
+              "hint": "Analysieren Sie die Voraussetzungen der Haftung aus 'culpa in contrahendo' (c.i.c.): ernsthafte Verhandlungen, treuwidriges Verhalten einer Partei (z.B. Verhandlungen ohne Abschlussabsicht), Schaden, Kausalzusammenhang.",
+              "solution": "Regelanalyse: Die Haftung aus c.i.c. setzt voraus, dass eine Partei ihre Pflichten aus dem vorvertraglichen Vertrauensverhältnis verletzt. Solche Pflichten sind z.B. ernsthaft zu verhandeln und keine Informationen missbräuchlich zu verwenden. Ein treuwidriger Verhandlungsabbruch liegt vor, wenn eine Partei den festen Eindruck erweckt, sie werde den Vertrag abschliessen, und die andere Partei im Vertrauen darauf Aufwendungen tätigt.\nRechtsfolge: Die verletzte Partei kann Ersatz des Schadens verlangen, der ihr aus dem Vertrauen auf den Vertragsschluss entstanden ist (negatives Vertragsinteresse)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Beurteilen Sie, ob das Verhalten des Forstbetriebs als treuwidrig eingestuft werden kann und ob Frau Meier eine realistische Chance hat, ihren Aufwand (negatives Vertragsinteresse) ersetzt zu bekommen. Was würden Sie ihr raten?",
+              "hint": "Beurteilen Sie, ob das Verhalten des Forstbetriebs als treuwidrig eingestuft werden kann und ob Frau Meier eine realistische Chance hat, ihren Aufwand (negatives Vertragsinteresse) ersetzt zu bekommen. Was würden Sie ihr raten?",
+              "solution": "Beurteilung und Empfehlung: Das Verhalten des Forstbetriebs ist klar treuwidrig. Er hat Frau Meier im Glauben gelassen, der Vertrag komme zustande, und hat ihre detaillierte Planung missbraucht, um einen günstigeren Preis zu erzielen. Die Voraussetzungen der c.i.c. sind erfüllt.\nEmpfehlung: Frau Meier hat gute Chancen, ihren nutzlos gewordenen Aufwand (40 Arbeitsstunden) als Schadenersatz geltend zu machen. Sie sollte den Forstbetrieb schriftlich zur Zahlung auffordern und dabei auf sein treuwidriges Verhalten hinweisen. Der Beweis, dass ihre Planung verwendet wurde, stärkt ihre Position erheblich. Eine Klage wäre die letzte Option, aber die Ausgangslage ist vielversprechend."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-22",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 11 (Transfer/Beurteilung): Die geplatzte Grossbestellung",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-11-1",
+              "prompt": "Wie hätte sich Frau Meier vor einer solchen Situation schützen können?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-11-2",
+              "prompt": "Was genau ist das 'negative Vertragsinteresse'?"
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-case-23",
+          "type": "law-case-4-step",
+          "title": "Fall 12 (Transfer/Beurteilung): Der unsichere Kunde",
+          "caseText": "Ein Werkstattleiter liefert einem neuen Kunden, einer kleinen Baufirma, eine revidierte Hydraulikpumpe im Wert von CHF 15'000 auf Rechnung, zahlbar innert 30 Tagen. Kurz nach der Lieferung hört er von einem Branchenkollegen, dass diese Baufirma massive Zahlungsprobleme hat und mehrere Lieferanten auf ihr Geld warten. Der Werkstattleiter befürchtet, dass die Firma Konkurs gehen könnte, bevor die Rechnung bezahlt wird. Die Pumpe ist bereits im Bagger des Kunden eingebaut. Welche rechtlichen Möglichkeiten hat der Werkstattleiter, um seine Forderung zu sichern oder den drohenden Verlust zu minimieren? Was würden Sie ihm raten?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Problem ist die Sicherung einer Forderung nach erfolgter Lieferung, aber vor Fälligkeit der Zahlung, bei drohender Zahlungsunfähigkeit des Schuldners.",
+              "hint": "Das Problem ist die Sicherung einer Forderung nach erfolgter Lieferung, aber vor Fälligkeit der Zahlung, bei drohender Zahlungsunfähigkeit des Schuldners.",
+              "solution": "Beteiligte: Werkstattleiter (Gläubiger), Baufirma (Schuldner).\nWas ist passiert: Nach einer Lieferung auf Rechnung erfährt der Lieferant von der drohenden Zahlungsunfähigkeit seines Kunden.\nProblemstellung: Wie kann der Werkstattleiter seine Forderung sichern und einen Totalausfall im Konkursfall verhindern?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie präventive und reaktive Sicherungsmöglichkeiten im OR und SchKG. Stichworte sind: Eigentumsvorbehalt, Rücktrittsrecht bei Zahlungsunfähigkeit, Arrest.",
+              "hint": "Prüfen Sie präventive und reaktive Sicherungsmöglichkeiten im OR und SchKG. Stichworte sind: Eigentumsvorbehalt, Rücktrittsrecht bei Zahlungsunfähigkeit, Arrest.",
+              "solution": "Rechtsgebiet: Kaufvertragsrecht, Sachenrecht, Schuldbetreibungs- und Konkursrecht (SchKG).\nRechtsvorschriften:\n- Eigentumsvorbehalt: ZGB Art. 715\n- Rücktrittsrecht des Verkäufers: OR Art. 214 Abs. 3\n- Arrest: SchKG Art. 271 ff."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie die Voraussetzungen und die praktische Tauglichkeit der einzelnen Optionen: Wurde ein Eigentumsvorbehalt vereinbart und eingetragen (ZGB Art. 715)? Besteht ein Rücktrittsrecht (OR Art. 214 Abs. 3)? Sind die Voraussetzungen für eine Arrestlegung (SchKG Art. 271) gegeben?",
+              "hint": "Analysieren Sie die Voraussetzungen und die praktische Tauglichkeit der einzelnen Optionen: Wurde ein Eigentumsvorbehalt vereinbart und eingetragen (ZGB Art. 715)? Besteht ein Rücktrittsrecht (OR Art. 214 Abs. 3)? Sind die Voraussetzungen für eine Arrestlegung (SchKG Art. 271) gegeben?",
+              "solution": "Analyse der Optionen:\n1. Eigentumsvorbehalt: Diese Option ist nur wirksam, wenn sie vor der Übergabe vereinbart und im Eigentumsvorbehaltsregister am Wohnsitz/Sitz des Käufers eingetragen wurde. Nachträglich ist dies nicht mehr möglich. Im vorliegenden Fall wurde dies vermutlich versäumt.\n2. Rücktritt vom Vertrag: Gemäss OR Art. 214 Abs. 3 kann der Verkäufer bei einem Kreditkauf (Lieferung auf Rechnung) vom Vertrag zurücktreten und die Ware zurückfordern, wenn der Käufer zahlungsunfähig wird. Dies ist eine wichtige Ausnahme vom Grundsatz 'pacta sunt servanda'.\n3. Arrestlegung: Der Werkstattleiter könnte versuchen, Vermögenswerte der Baufirma per Arrest blockieren zu lassen (SchKG Art. 271). Dies erfordert aber einen Arrestgrund (z.B. Schuldner ist auf der Flucht, schafft Vermögen beiseite). Die blosse Befürchtung einer Insolvenz reicht oft nicht aus und das Verfahren ist komplex."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Beurteilen Sie die Optionen strategisch. Was ist am schnellsten und effektivsten? Was ist das Kosten-Nutzen-Verhältnis? Geben Sie eine klare Handlungsempfehlung.",
+              "hint": "Beurteilen Sie die Optionen strategisch. Was ist am schnellsten und effektivsten? Was ist das Kosten-Nutzen-Verhältnis? Geben Sie eine klare Handlungsempfehlung.",
+              "solution": "Beurteilung und Empfehlung:\nDer Eigentumsvorbehalt scheidet mangels vorgängiger Vereinbarung und Eintragung aus. Die Arrestlegung ist unsicher und aufwändig.\nDie beste und schnellste Option ist der sofortige Rücktritt vom Vertrag gemäss OR Art. 214 Abs. 3. Der Werkstattleiter sollte der Baufirma unverzüglich schriftlich (eingeschrieben) den Rücktritt vom Kaufvertrag wegen deren Zahlungsunfähigkeit erklären und die sofortige Rückgabe der Hydraulikpumpe fordern. Da die Pumpe bereits eingebaut ist, muss er auch den Ausbau verlangen. Dies gibt ihm ein dingliches Recht auf die Sache zurück (Aussonderungsrecht im Konkurs) und ist weitaus besser, als im Konkursfall nur eine ungesicherte Forderung von 1% bis 5% der Summe zu erhalten.\nEmpfehlung: Sofort den Rücktritt erklären und die Rückgabe der Pumpe verlangen, notfalls mit anwaltlicher Hilfe."
+            }
+          ]
+        },
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-block-24",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 12 (Transfer/Beurteilung): Der unsichere Kunde",
+          "prompts": [
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-12-1",
+              "prompt": "Was hätte der Werkstattleiter präventiv tun können, um sich bei diesem Geschäft besser abzusichern?"
+            },
+            {
+              "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-disc-fall-id-12-2",
+              "prompt": "Was passiert, wenn die Baufirma die Pumpe trotz des Rücktritts nicht herausgibt?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-mindmap",
+      "title": "Mindmap",
+      "pageType": "mindmap",
+      "blocks": [
+        {
+          "id": "60-obligationentstehung-am-beispiel-veraeusserungsvertraege-mindmap-block",
+          "type": "mindmap",
+          "title": "Mindmap: Obligationentstehung am Beispiel Veräusserungsverträge",
+          "content": "mindmap\n  root((Obligationen + Veräusserungsverträge))\n    Obligation (schuldrechtliches Rechtsverhältnis)\n      Gläubiger\n        Berechtigter\n        Kann Leistung fordern\n      Schuldner\n        Verpflichteter\n        Muss Leistung erbringen\n      Forderung\n        Recht des Gläubigers\n      Schuld\n        Pflicht des Schuldners\n      Entstehungsgründe\n        Mit dem Willen der Parteien\n          Durch Vertrag (Art. 1-40 OR)\n        Von Gesetzes wegen\n          Unerlaubte Handlung (Art. 41-61 OR)\n          Ungerechtfertigte Bereicherung (Art. 62-67 OR)\n    Veräusserungsverträge (Übertragung einer Sache)\n      Kaufvertrag (gegen Bezahlung, Art. 184-236 OR)\n        Warenobligation\n          Verpflichtung der Verkäuferin\n          Übergabe der Ware\n        Kaufpreisobligation\n          Verpflichtung des Käufers\n          Bezahlung des Kaufpreises\n        Übergang von Nutzen und Gefahr (Art. 185 OR)\n          Spezieskauf\n            Zeitpunkt: bei Vertragsabschluss\n          Gattungskauf\n            Zeitpunkt: bei Ausscheidung/Versand\n      Tauschvertrag (im Austausch, Art. 237-238 OR)\n        Gegenseitige Leistungspflichten\n        Übergabe Sache A vs. Übergabe Sache B\n      Schenkung (unentgeltlich, Art. 239 OR)\n        Einseitige Leistungspflicht\n        Unentgeltliche Zuwendung\n        Besondere Formvorschriften"
+        }
+      ]
+    }
+  ]
+}

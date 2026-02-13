@@ -1,0 +1,658 @@
+{
+  "status": "success",
+  "assignmentTitle": "Fallstudien zu den Erfüllungsmodalitäten im Vertragsrecht",
+  "solution_keys": [
+    "master2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "fall-id-1": {
+      "title": "Fall 1 (Grundlagen): Die vergessene Zahlungsfrist",
+      "type": "law_case",
+      "caseText": "Werkstattleiter Meier führt für den Landwirt Huber eine dringende Reparatur am Motor eines Traktors durch. Nach Abschluss der Arbeiten übergibt er Huber den reparierten Traktor. Sie sprechen aber nicht darüber, wann die Rechnung über CHF 3'500 bezahlt werden muss. Eine Woche später fragt sich Meier, ob er das Geld schon verlangen kann.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Fokussieren Sie auf die fehlende Vereinbarung über den Zahlungszeitpunkt."
+        },
+        {
+          "id": "step_2",
+          "text": "Welche gesetzliche Regelung greift, wenn die Parteien die Fälligkeit einer Forderung nicht bestimmt haben? Gesetzeslage: <strong>OR Art. 75</strong>"
+        },
+        {
+          "id": "step_3",
+          "text": "Was besagt die Grundregel des Gesetzes über den Zeitpunkt der Erfüllung?"
+        },
+        {
+          "id": "step_4",
+          "text": "Wenden Sie die Grundregel auf den Sachverhalt an. Wurde eine Frist vereinbart? Was bedeutet das für Meiers Forderung?"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter Meier (Gläubiger), Landwirt Huber (Schuldner).<br><strong>Was ist passiert:</strong> Eine Reparatur wurde ausgeführt und das Fahrzeug übergeben, ohne eine Zahlungsfrist zu vereinbaren.<br><strong>Rechtsfrage:</strong> Wann ist die Zahlung für die Reparatur fällig?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Obligationenrecht, Erfüllung der Obligationen.<br><strong>Rechtsvorschrift:</strong> Die Fälligkeit der Leistung ist in <strong>OR Art. 75</strong> geregelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Gemäss OR Art. 75 ist eine Forderung <strong>sofort fällig</strong>, sofern die Parteien weder vertraglich noch durch die Natur des Rechtsgeschäftes einen anderen Erfüllungszeitpunkt festgelegt haben.<br><strong>Rechtsfolge:</strong> Der Gläubiger kann die Leistung sofort fordern, und der Schuldner muss sie sofort erbringen.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Meier und Huber haben keine Zahlungsfrist vereinbart. Auch aus der Natur des Geschäfts (Reparatur) ergibt sich keine bestimmte Frist.<br><strong>Konsequenz:</strong> Die Forderung von CHF 3'500 ist <strong>sofort fällig</strong>. Werkstattleiter Meier kann die Zahlung von Landwirt Huber umgehend verlangen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was hätte Werkstattleiter Meier tun können, um diese Unsicherheit von vornherein zu vermeiden?",
+            "answer": "<p>Er hätte eine klare Zahlungsfrist entweder mündlich vereinbaren oder, was besser ist, schriftlich auf dem Auftragsschein oder in der Rechnung festhalten können, z.B. 'Zahlbar innert 30 Tagen'. Dies schafft Klarheit für beide Seiten.</p>"
+          },
+          {
+            "question": "Ändert sich etwas, wenn auf der Rechnung, die Meier eine Woche später schickt, 'zahlbar innert 10 Tagen' steht?",
+            "answer": "<p>Nein, nicht zwingend. Die Fälligkeit wurde bereits bei Vertragsabschluss (sofort) festgelegt. Eine einseitige Fristsetzung auf der Rechnung ändert den ursprünglich vereinbarten Fälligkeitstermin nicht. In der Praxis wird dies jedoch oft als Angebot für einen Zahlungsaufschub akzeptiert.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-2": {
+      "title": "Fall 2 (Grundlagen): Der spezialisierte Lehrling",
+      "type": "law_case",
+      "caseText": "Ein Kunde beauftragt den erfahrenen Werkstattleiter persönlich mit dem Austausch einer komplexen Hydraulikpumpe an seinem Bagger, da er dessen Fachwissen schätzt. Der Werkstattleiter ist jedoch überlastet und lässt die Arbeit von seinem sehr fähigen und spezialisierten Lehrling im 4. Lehrjahr ausführen. Der Kunde bemerkt dies und ist verärgert.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Der Kern des Problems ist, ob der Werkstattleiter die Arbeit delegieren durfte."
+        },
+        {
+          "id": "step_2",
+          "text": "Prüfen Sie die gesetzliche Regelung zur persönlichen Leistungspflicht. Gesetzeslage: <strong>OR Art. 68</strong>"
+        },
+        {
+          "id": "step_3",
+          "text": "Unter welcher Voraussetzung muss ein Schuldner eine Leistung persönlich erbringen? Was ist die Regel, was die Ausnahme?"
+        },
+        {
+          "id": "step_4",
+          "text": "Kommt es bei der vereinbarten Arbeit auf die Persönlichkeit des Werkstattleiters an? Beachten Sie, dass der Kunde ihn 'persönlich' beauftragt hat."
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Kunde (Gläubiger), Werkstattleiter (Schuldner).<br><strong>Was ist passiert:</strong> Ein persönlich erteilter Auftrag wurde vom Werkstattleiter an einen Lehrling delegiert.<br><strong>Rechtsfrage:</strong> Durfte der Werkstattleiter die Arbeit delegieren, obwohl er persönlich beauftragt wurde?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Obligationenrecht, Erfüllung der Obligationen.<br><strong>Rechtsvorschrift:</strong> Die Pflicht zur persönlichen Leistung ist in <strong>OR Art. 68</strong> geregelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Gemäss OR Art. 68 muss der Schuldner nur dann persönlich leisten, wenn es bei der Leistung auf seine <strong>Persönlichkeit ankommt</strong>. Dies ist die Ausnahme. Die Regel ist, dass die Leistung auch durch einen Dritten (z.B. einen Angestellten) erbracht werden kann.<br><strong>Rechtsfolge:</strong> Wenn es auf die Persönlichkeit ankommt, ist eine Delegation unzulässig.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der Kunde hat den Werkstattleiter explizit wegen seines Fachwissens beauftragt. Bei einer komplexen Reparatur kann es auf die besondere Erfahrung und die Fähigkeiten einer bestimmten Person ankommen. Der Wunsch des Kunden, dass der Meister die Arbeit persönlich ausführt, macht die Leistung zu einem persönlichen Geschäft.<br><strong>Konsequenz:</strong> Der Werkstattleiter hätte die Arbeit <strong>persönlich ausführen müssen</strong>. Die Delegation an den Lehrling war eine Vertragsverletzung.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn es sich um einen einfachen Ölwechsel gehandelt hätte?",
+            "answer": "<p>Bei einem standardisierten Ölwechsel kommt es in der Regel nicht auf die Persönlichkeit des Werkstattleiters an. In diesem Fall wäre die Delegation an einen qualifizierten Mitarbeiter (auch einen Lehrling unter Aufsicht) gemäss OR Art. 68 zulässig gewesen, selbst wenn der Kunde den Auftrag dem Meister erteilt hat.</p>"
+          },
+          {
+            "question": "Haftet der Werkstattleiter, wenn der Lehrling bei der Arbeit einen Fehler macht?",
+            "answer": "<p>Ja, in jedem Fall. Auch wenn die Delegation zulässig wäre, haftet der Werkstattleiter (der Schuldner) für die sorgfältige Ausführung durch seine Hilfspersonen (hier der Lehrling) wie für sein eigenes Handeln. Dies ist in <strong>OR Art. 101</strong> (Haftung für Hilfspersonen) geregelt.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-3": {
+      "title": "Fall 3 (Grundlagen): Der unbewegliche Traktor",
+      "type": "law_case",
+      "caseText": "Landwirt Jenni kauft von seinem Nachbarn, Bauer Moser, dessen gebrauchten Traktor (Marke 'Hürlimann', Fahrgestellnummer XYZ). Es handelt sich also um eine ganz bestimmte Sache. Sie vereinbaren einen Preis, aber vergessen zu regeln, wo die Übergabe stattfinden soll. Der Traktor steht in Mosers Scheune. Jenni erwartet, dass Moser ihm den Traktor auf seinen Hof fährt.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Identifizieren Sie die Art der geschuldeten Sache (bestimmtes Einzelstück oder Massenware) und die fehlende vertragliche Regelung."
+        },
+        {
+          "id": "step_2",
+          "text": "Finden Sie die gesetzliche Regelung für den Erfüllungsort bei individuell bestimmten Sachen. Gesetzeslage: <strong>OR Art. 74 Abs. 2 Ziff. 2</strong>"
+        },
+        {
+          "id": "step_3",
+          "text": "Wo ist der Erfüllungsort für eine 'Speziessache', wenn nichts anderes vereinbart wurde? Handelt es sich um eine Hol- oder eine Bringschuld?"
+        },
+        {
+          "id": "step_4",
+          "text": "Wenden Sie die Regel auf den Traktor an. Wo befand sich der Traktor bei Vertragsabschluss? Was bedeutet das für Jenni?"
+        }
+      ],
+      "solution": {
+        "level": "Grundlagen",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Käufer Jenni (Gläubiger bezüglich Traktor), Verkäufer Moser (Schuldner bezüglich Traktor).<br><strong>Was ist passiert:</strong> Kauf eines bestimmten, gebrauchten Traktors (Speziessache) ohne Vereinbarung des Übergabeortes.<br><strong>Rechtsfrage:</strong> Wo muss der Traktor übergeben werden?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Obligationenrecht, Erfüllung der Obligationen.<br><strong>Rechtsvorschrift:</strong> Der Erfüllungsort ist in <strong>OR Art. 74</strong> geregelt, spezifisch für Speziessachen in <strong>Abs. 2 Ziff. 2</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Handelt es sich um eine <strong>Speziessache</strong> (eine individuell bestimmte Sache), so ist der Erfüllungsort der Ort, an dem sich die Sache <strong>bei Vertragsabschluss befand</strong>.<br><strong>Rechtsfolge:</strong> Es handelt sich um eine <strong>Holschuld</strong>. Der Käufer muss die Sache am vereinbarten Ort abholen.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Der gebrauchte Traktor mit spezifischer Fahrgestellnummer ist eine Speziessache. Er befand sich bei Vertragsabschluss in Mosers Scheune. Es wurde kein anderer Ort vereinbart.<br><strong>Konsequenz:</strong> Der Erfüllungsort ist Mosers Scheune. Jenni muss den Traktor <strong>dort abholen</strong>. Seine Erwartung, dass Moser den Traktor liefert, ist rechtlich nicht begründet.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist der Unterschied zwischen einer Speziessache und einer Gattungssache?",
+            "answer": "<p>Eine <strong>Speziessache</strong> ist ein individuell bestimmter, einzigartiger Gegenstand (z.B. 'dieser gebrauchte Traktor', ein Originalgemälde). Eine <strong>Gattungssache</strong> ist nur nach allgemeinen Merkmalen bestimmt (z.B. 'ein neuer Traktor Modell X', '100 Liter Motoröl'). Diese Unterscheidung ist entscheidend für den Erfüllungsort und den Übergang von Nutzen und Gefahr.</p>"
+          },
+          {
+            "question": "Wie hätten Jenni und Moser eine Lieferung zu Jenni rechtssicher vereinbaren können?",
+            "answer": "<p>Sie hätten im Kaufvertrag explizit festhalten müssen: 'Der Verkäufer liefert den Traktor auf den Hof des Käufers.' oder 'Erfüllungsort ist der Wohnsitz des Käufers.' Damit hätten sie die dispositive Regel von OR Art. 74 vertraglich geändert.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-4": {
+      "title": "Fall 4 (Anwenden): Die unbezahlte Reparatur",
+      "type": "law_case",
+      "caseText": "Ein Bauunternehmen bringt einen Radlader zur Reparatur in die Werkstatt von Frau Keller. Die Reparatur kostet CHF 8'000. Als der Disponent des Bauunternehmens den Radlader abholen will, teilt er mit, dass die Buchhaltung die Rechnung erst Ende Monat bezahlen werde. Frau Keller, die schlechte Erfahrungen mit späten Zahlern gemacht hat, weigert sich, den Radlader herauszugeben, bevor die Rechnung bezahlt ist. Das Bauunternehmen droht mit Klage wegen Betriebsunterbruch.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Es geht um die Reihenfolge der Leistungserbringung: Herausgabe der Maschine gegen Bezahlung der Reparatur."
+        },
+        {
+          "id": "step_2",
+          "text": "Welche Regel gilt für die Erfüllungsreihenfolge bei zweiseitigen Verträgen, wenn nichts anderes vereinbart ist? Gesetzeslage: <strong>OR Art. 82</strong>. Prüfen Sie auch, ob der Werkstatt ein zusätzliches Sicherungsrecht zusteht (<strong>ZGB Art. 895</strong>)."
+        },
+        {
+          "id": "step_3",
+          "text": "Analysieren Sie das 'Zug-um-Zug'-Prinzip. Was bedeutet es? Was ist das Retentionsrecht und wann kann es ausgeübt werden?"
+        },
+        {
+          "id": "step_4",
+          "text": "Wurde eine Vorleistungspflicht der Werkstatt vereinbart? Wenn nicht, was darf Frau Keller verlangen, bevor sie den Radlader herausgibt?"
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattinhaberin Keller (Unternehmerin), Bauunternehmen (Besteller).<br><strong>Was ist passiert:</strong> Die Werkstatt verweigert die Herausgabe der reparierten Maschine, weil der Kunde die Rechnung erst später bezahlen will.<br><strong>Rechtsfrage:</strong> Ist die Werkstatt verpflichtet, den Radlader herauszugeben, obwohl die Zahlung noch nicht erfolgt ist (Vorleistungspflicht)?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Werkvertragsrecht, Erfüllung der Obligationen.<br><strong>Rechtsvorschrift:</strong> Die Erfüllungsreihenfolge wird durch das Prinzip 'Zug um Zug' in <strong>OR Art. 82</strong> geregelt. Zusätzlich hat der Handwerker ein gesetzliches Retentionsrecht (Zurückbehaltungsrecht) gemäss <strong>ZGB Art. 895</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse (OR Art. 82):</strong> Bei einem zweiseitigen Vertrag muss eine Partei nur leisten, wenn die andere ihre Gegenleistung gleichzeitig erbringt ('Zug um Zug'), es sei denn, es wurde eine Vorleistungspflicht vereinbart.<br><strong>Regelanalyse (ZGB Art. 895):</strong> Ein Handwerker hat für seine Forderungen aus der Arbeit an einer beweglichen Sache ein Retentionsrecht an dieser Sache, solange er sie in seinem Besitz hat. Er darf die Sache als Sicherheit zurückbehalten.<br><strong>Rechtsfolge:</strong> Der Schuldner (hier die Werkstatt) kann die Leistung verweigern, bis die Gegenleistung erbracht wird.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Es wurde keine Vorleistungspflicht von Frau Keller (z.B. 'Zahlung auf Rechnung innert 30 Tagen') vereinbart. Daher gilt die gesetzliche Zug-um-Zug-Regel. Zusätzlich sichert das Retentionsrecht ihre Forderung.<br><strong>Konsequenz:</strong> Frau Keller ist <strong>im Recht</strong>. Sie muss den Radlader erst herausgeben, wenn die Reparaturkosten von CHF 8'000 bezahlt sind. Die Drohung des Bauunternehmens ist unbegründet.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist der Unterschied zwischen der Einrede nach OR Art. 82 und dem Retentionsrecht nach ZGB Art. 895?",
+            "answer": "<p>Die Einrede nach <strong>OR Art. 82</strong> ist ein allgemeines Leistungsverweigerungsrecht bei allen zweiseitigen Verträgen. Das <strong>Retentionsrecht nach ZGB Art. 895</strong> ist ein stärkeres, dingliches Sicherungsrecht. Es erlaubt dem Handwerker nicht nur, die Sache zurückzuhalten, sondern sie unter bestimmten Umständen sogar verwerten zu lassen, um seine Forderung zu decken (wie bei einem Faustpfand).</p>"
+          },
+          {
+            "question": "Wie könnte eine Werkstatt die Zahlungsmodalitäten für Grosskunden wie Bauunternehmen kundenfreundlicher und trotzdem sicher gestalten?",
+            "answer": "<p>Sie könnte Rahmenverträge abschliessen, die eine monatliche Sammelrechnung mit einer festen Zahlungsfrist vorsehen. Zur Absicherung könnte sie eine Bonitätsprüfung durchführen oder bei sehr grossen Aufträgen eine Anzahlung oder eine Bankgarantie verlangen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-5": {
+      "title": "Fall 5 (Anwenden): Das falsche Öl",
+      "type": "law_case",
+      "caseText": "Eine Baumaschinenwerkstatt bestellt beim Grosshändler '1000 Liter Hydrauliköl', ohne eine spezifische Marke oder Qualität zu definieren. Der Grosshändler hat gerade eine sehr günstige Charge aus Fernost eingekauft und liefert dieses Öl. Der Werkstattleiter stellt fest, dass das Öl eine deutlich geringere Viskosität hat als üblich und für moderne Hochleistungsbagger ungeeignet ist. Er verweigert die Annahme.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Der Streitpunkt ist die Qualität einer Lieferung, die nur nach der Gattung bestimmt war."
+        },
+        {
+          "id": "step_2",
+          "text": "Welche gesetzliche Regelung definiert die geschuldete Qualität bei Gattungssachen, wenn nichts Spezifisches vereinbart wurde? Gesetzeslage: <strong>OR Art. 71</strong>"
+        },
+        {
+          "id": "step_3",
+          "text": "Was genau fordert das Gesetz bezüglich der Qualität? Darf der Händler das billigste Produkt liefern?"
+        },
+        {
+          "id": "step_4",
+          "text": "Entspricht das gelieferte Öl der gesetzlich geforderten Qualität? Begründen Sie, warum die Werkstatt die Annahme verweigern darf oder nicht."
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Baumaschinenwerkstatt (Käufer/Gläubiger), Grosshändler (Verkäufer/Schuldner).<br><strong>Was ist passiert:</strong> Eine Lieferung von Gattungsware (Hydrauliköl) ist von minderwertiger Qualität.<br><strong>Rechtsfrage:</strong> Muss die Werkstatt das qualitativ schlechte Öl annehmen, wenn keine spezifische Qualität vereinbart wurde?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Obligationenrecht, Erfüllung der Obligationen.<br><strong>Rechtsvorschrift:</strong> Die geschuldete Qualität bei Gattungssachen ist in <strong>OR Art. 71</strong> geregelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Tatbestandsmerkmale:</strong> Ist eine Sache nur der Gattung nach bestimmt, so muss der Schuldner eine Sache von <strong>mittlerer Art und Güte</strong> leisten. Er darf weder die beste Qualität auswählen (wenn er sie zum Durchschnittspreis verkauft) noch eine Qualität unter dem Durchschnitt liefern.<br><strong>Rechtsfolge:</strong> Eine Lieferung, die qualitativ unter dem Durchschnitt liegt, stellt eine Nichterfüllung oder eine Schlechterfüllung dar.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> 'Hydrauliköl' ist eine Gattung. Das gelieferte Öl ist für moderne Maschinen ungeeignet und hat eine geringere Viskosität als üblich. Es handelt sich somit nicht um eine 'mittlere Art und Güte', sondern um eine <strong>unterdurchschnittliche Qualität</strong>.<br><strong>Konsequenz:</strong> Die Werkstatt ist <strong>im Recht</strong>, die Annahme der Lieferung zu verweigern. Der Grosshändler hat seine vertragliche Pflicht nicht korrekt erfüllt und muss Öl von mittlerer Qualität liefern.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was hätte die Werkstatt bei der Bestellung tun sollen, um dieses Problem zu vermeiden?",
+            "answer": "<p>Sie hätte die Bestellung präzisieren sollen, indem sie eine bestimmte Qualitätsnorm (z.B. 'Hydrauliköl nach DIN 51524 HLP 46') oder eine bestimmte Marke und Produktelinie angibt. Je genauer die Bestellung, desto geringer das Risiko von Missverständnissen.</p>"
+          },
+          {
+            "question": "Was wäre, wenn die Werkstatt das Öl bereits angenommen und in eine Maschine gefüllt hätte, die daraufhin einen Schaden erleidet?",
+            "answer": "<p>In diesem Fall läge ein Sachmangel vor. Die Werkstatt könnte Gewährleistungsansprüche geltend machen (z.B. Ersatzlieferung des Öls) und zusätzlich Schadenersatz für den Motorschaden (sog. Mangelfolgeschaden) fordern, da der Händler seine vertragliche Pflicht zur Lieferung von mittlerer Qualität verletzt hat (<strong>OR Art. 97</strong> ff. i.V.m. <strong>OR Art. 197</strong> ff.).</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-6": {
+      "title": "Fall 6 (Anwenden): Das verlorene Paket",
+      "type": "law_case",
+      "caseText": "Die Landmaschinen-Werkstatt 'Alpen-Technik AG' in Interlaken bestellt bei der 'Ersatzteil-Gross AG' in Zürich zehn spezielle Einspritzdüsen (Gattungssache). Es wird nichts über den Transport vereinbart. Die 'Ersatzteil-Gross AG' verpackt die Düsen sorgfältig und übergibt sie der Schweizerischen Post zum Versand. Das Paket geht auf dem Postweg verloren und kommt nie an. Die 'Alpen-Technik AG' weigert sich, die Rechnung zu bezahlen, da sie keine Ware erhalten hat.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Die Kernfrage ist, wer das Risiko für den Verlust der Ware während des Transports trägt."
+        },
+        {
+          "id": "step_2",
+          "text": "Bestimmen Sie zuerst den Erfüllungsort für diese Gattungsschuld (<strong>OR Art. 74 Abs. 2 Ziff. 3</strong>). Prüfen Sie dann, wann Nutzen und Gefahr beim Versendungskauf übergehen (<strong>OR Art. 185 Abs. 2</strong>)."
+        },
+        {
+          "id": "step_3",
+          "text": "Wo muss der Verkäufer bei einer Gattungsschuld leisten? Was bedeutet 'Versendungskauf'? Wann genau geht die Gefahr des zufälligen Untergangs auf den Käufer über?"
+        },
+        {
+          "id": "step_4",
+          "text": "Hat die 'Ersatzteil-Gross AG' ihre Pflicht erfüllt, als sie das Paket der Post übergeben hat? Wer trägt ab diesem Zeitpunkt das Risiko?"
+        }
+      ],
+      "solution": {
+        "level": "Anwenden",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Alpen-Technik AG (Käuferin), Ersatzteil-Gross AG (Verkäuferin).<br><strong>Was ist passiert:</strong> Eine bestellte Ware (Gattungssache) geht beim Transport durch die Post verloren.<br><strong>Rechtsfrage:</strong> Muss die Käuferin den Kaufpreis trotzdem bezahlen, obwohl sie die Ware nie erhalten hat?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht, Gefahrtragung.<br><strong>Rechtsvorschrift:</strong> Der Erfüllungsort für Gattungsschulden ist <strong>OR Art. 74 Abs. 2 Ziff. 3</strong>. Der Übergang von Nutzen und Gefahr beim Versendungskauf ist in <strong>OR Art. 185 Abs. 2</strong> geregelt.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Bei Gattungsschulden ist der Erfüllungsort der Geschäftssitz des Schuldners (Verkäufers). Es liegt eine <strong>Holschuld</strong> vor. Wenn die Ware versendet wird (Versendungskauf), gehen Nutzen und Gefahr auf den Käufer über, <strong>sobald die Ware zum Versand aufgegeben wurde</strong> (OR Art. 185 Abs. 2). Der Verkäufer hat seine Lieferpflicht in dem Moment erfüllt, in dem er die Ware dem Transporteur (z.B. der Post) übergibt.<br><strong>Rechtsfolge:</strong> Ab der Übergabe an den Transporteur trägt der Käufer das Risiko des zufälligen Untergangs oder der Beschädigung.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Prüfung:</strong> Die 'Ersatzteil-Gross AG' hat ihren Sitz in Zürich. Dies ist der Erfüllungsort. Sie hat ihre Lieferpflicht erfüllt, indem sie die Ware dort an die Post übergeben hat. Ab diesem Moment ging die Gefahr für den Verlust auf die 'Alpen-Technik AG' über.<br><strong>Konsequenz:</strong> Die 'Alpen-Technik AG' muss die Rechnung <strong>bezahlen</strong>, obwohl sie die Ware nicht erhalten hat. Sie muss ihrerseits versuchen, bei der Post Schadenersatz für das verlorene Paket zu fordern.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was bedeutet die Klausel 'franko Domizil' in diesem Zusammenhang?",
+            "answer": "<p>Die Klausel 'franko Domizil' oder 'frei Haus' ändert nichts am Gefahrenübergang gemäss OR Art. 185. Sie regelt lediglich, dass der <strong>Verkäufer die Transportkosten übernimmt</strong>. Das Risiko des Transports würde trotzdem mit der Übergabe an die Post auf den Käufer übergehen. Um auch das Risiko zu übertragen, müsste eine Klausel wie 'Lieferung auf Gefahr des Verkäufers' vereinbart werden.</p>"
+          },
+          {
+            "question": "Gilt diese Regel auch für Online-Käufe von Privatpersonen (Konsumenten)?",
+            "answer": "<p>Ja, grundsätzlich gilt OR Art. 185 auch für Konsumentenverträge. Viele grosse Online-Händler übernehmen aber aus Kulanz oder in ihren AGB das Transportrisiko, um kundenfreundlicher zu sein. Rechtlich verpflichtet wären sie dazu aber nicht, sofern nichts anderes vereinbart ist.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-7": {
+      "title": "Fall 7 (Analysieren): 'Lieferung' oder 'Abholung'?",
+      "type": "law_case",
+      "caseText": "Ein Werkstattleiter bestellt bei einem Hersteller eine neue Hebebühne (Gattungssache). Im schriftlichen Vertrag steht: 'Lieferung der Hebebühne bis spätestens 30. November'. Als der Termin naht, ruft der Werkstattleiter beim Hersteller an und fragt, wann der Lastwagen kommt. Der Hersteller antwortet, der Begriff 'Lieferung' bedeute nur, dass die Hebebühne bis zu diesem Datum bei ihm im Werk zur Abholung bereitstehe. Der Werkstattleiter ist der Meinung, 'Lieferung' bedeute, dass die Ware zu ihm gebracht wird.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Das Problem liegt in der unterschiedlichen Auslegung eines Vertragbegriffs ('Lieferung')."
+        },
+        {
+          "id": "step_2",
+          "text": "Ziehen Sie die gesetzliche Grundregel für den Erfüllungsort von Gattungssachen (<strong>OR Art. 74 Abs. 2 Ziff. 3</strong>) heran. Prüfen Sie dann, wie unklare Vertragsklauseln nach dem Vertrauensprinzip auszulegen sind (vgl. <strong>ZGB Art. 2</strong>)."
+        },
+        {
+          "id": "step_3",
+          "text": "Was ist die gesetzliche Regel, wenn nichts vereinbart ist? Wie ist der Begriff 'Lieferung' im allgemeinen Sprachgebrauch und im Kontext des Vertrags zu verstehen? Was durfte der Werkstattleiter nach Treu und Glauben erwarten?"
+        },
+        {
+          "id": "step_4",
+          "text": "Wägen Sie die Argumente ab. Ist die Auslegung des Herstellers oder die des Werkstattleiters plausibler? Leiten Sie daraus ab, ob eine Hol- oder eine Bringschuld vorliegt."
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter (Käufer), Hersteller (Verkäufer).<br><strong>Was ist passiert:</strong> Die Parteien streiten über die Bedeutung des Wortes 'Lieferung' im Vertrag und damit über den Erfüllungsort.<br><strong>Rechtsfrage:</strong> Wurde eine Hol- oder eine Bringschuld vereinbart?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Vertragsauslegung.<br><strong>Rechtsvorschrift:</strong> Die dispositive Regel zum Erfüllungsort ist <strong>OR Art. 74 Abs. 2 Ziff. 3</strong> (Holschuld bei Gattungssachen). Da die vertragliche Regelung unklar ist, muss sie nach dem <strong>Vertrauensprinzip</strong> (abgeleitet aus <strong>ZGB Art. 2</strong>) ausgelegt werden.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Die gesetzliche Grundregel ist eine Holschuld am Sitz des Verkäufers. Die Parteien können davon abweichen. Ist ihre Vereinbarung unklar, muss ermittelt werden, wie der Empfänger der Erklärung (hier der Werkstattleiter) sie nach Treu und Glauben verstehen durfte und musste. Im allgemeinen Sprachgebrauch wird 'Lieferung' oft als 'Zustellung' oder 'Bringen' verstanden, insbesondere bei grossen, schwer zu transportierenden Gütern wie einer Hebebühne.<br><strong>Rechtsfolge:</strong> Die Auslegung bestimmt, ob die gesetzliche Regel durch eine vertragliche Bringschuld ersetzt wurde.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Analyse:</strong> Die gesetzliche Regel ist eine Holschuld. Die Parteien wollten aber offensichtlich etwas regeln, sonst hätten sie den Begriff 'Lieferung' nicht verwendet. Die Auslegung des Herstellers ('Bereitstellung zur Abholung') entleert den Begriff seiner üblichen Bedeutung. Der Werkstattleiter durfte nach Treu und Glauben davon ausgehen, dass mit 'Lieferung' eine Zustellung an seine Werkstatt gemeint war. Die Klausel ist daher als Vereinbarung einer <strong>Bringschuld</strong> auszulegen.<br><strong>Konsequenz:</strong> Der Hersteller muss die Hebebühne zur Werkstatt transportieren. Er hat den Erfüllungsort auf den Sitz des Käufers verlegt.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist die 'Unklarheitsregel' bei der Vertragsauslegung?",
+            "answer": "<p>Die Unklarheitsregel ist eine Auslegungshilfe. Sie besagt, dass unklare Klauseln (insbesondere in AGB) im Zweifel zu Lasten derjenigen Partei ausgelegt werden, die sie formuliert hat. In diesem Fall würde die Klausel also zu Lasten des Herstellers ausgelegt, wenn er den Vertrag aufgesetzt hat.</p>"
+          },
+          {
+            "question": "Wie hätte der Vertrag formuliert werden müssen, um den Streit zu vermeiden?",
+            "answer": "<p>Der Vertrag hätte den Erfüllungsort explizit benennen müssen. Entweder: 'Die Ware ist vom Käufer am Sitz des Verkäufers abzuholen (Holschuld).' Oder: 'Der Verkäufer liefert die Ware an den Sitz des Käufers (Bringschuld). Die Transportkosten trägt der Verkäufer/Käufer.'</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-8": {
+      "title": "Fall 8 (Analysieren): Der externe Spezialist",
+      "type": "law_case",
+      "caseText": "Die Werkstatt von Hanspeter übernimmt die Generalüberholung eines komplexen Getriebes. Für die Feinjustierung der Elektronik fehlt Hanspeter das nötige Spezialwerkzeug. Ohne den Kunden zu informieren, beauftragt er den externen, selbständigen Elektronik-Spezialisten Kurt. Kurt verursacht bei der Justierung durch eine Unachtsamkeit einen Kurzschluss, der das Steuergerät zerstört. Der Schaden beträgt CHF 5'000. Der Kunde verlangt von Hanspeter Ersatz.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Analysieren Sie die Beziehung zwischen Kunde, Werkstatt (Hanspeter) und dem externen Spezialisten (Kurt)."
+        },
+        {
+          "id": "step_2",
+          "text": "War die Delegation zulässig (<strong>OR Art. 68</strong>)? Wer haftet für das Verhalten von beigezogenen Dritten? Unterscheiden Sie zwischen Angestellten und externen Spezialisten. Gesetzeslage: <strong>OR Art. 101</strong> (Haftung für Hilfspersonen)."
+        },
+        {
+          "id": "step_3",
+          "text": "Was sind die Voraussetzungen für die Haftung nach OR Art. 101? Gilt Kurt als 'Hilfsperson' von Hanspeter, obwohl er selbständig ist? Spielt es eine Rolle, ob Hanspeter bei der Auswahl von Kurt sorgfältig war?"
+        },
+        {
+          "id": "step_4",
+          "text": "Wenden Sie die Voraussetzungen auf den Fall an. Hat Kurt in Ausübung seiner Verrichtung für Hanspeter gehandelt? Was ist die Konsequenz für Hanspeters Haftung gegenüber dem Kunden?"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Kunde (Geschädigter), Hanspeter (Generalunternehmer), Kurt (Subunternehmer/Hilfsperson).<br><strong>Was ist passiert:</strong> Ein von der Werkstatt beigezogener externer Spezialist verursacht einen Schaden am Kundenfahrzeug.<br><strong>Rechtsfrage:</strong> Muss Hanspeter für den von Kurt verursachten Schaden einstehen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Haftung für Dritte.<br><strong>Rechtsvorschrift:</strong> Die Zulässigkeit der Delegation richtet sich nach <strong>OR Art. 68</strong>. Die Haftung für den beigezogenen Dritten richtet sich nach <strong>OR Art. 101</strong> (Hilfspersonenhaftung).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Die Delegation war nach OR Art. 68 zulässig, da es nicht auf Hanspeters Persönlichkeit ankam. Gemäss <strong>OR Art. 101</strong> haftet der Geschäftsherr (Hanspeter) für den Schaden, den seine Hilfspersonen in Ausübung ihrer Verrichtung verursachen, <strong>genauso wie für sein eigenes Verhalten</strong>. Als Hilfsperson gilt jede Person (Angestellter oder Selbständiger), die mit Wissen und Willen des Schuldners bei der Erfüllung einer vertraglichen Pflicht mitwirkt. Die Haftung ist kausal, d.h. sie tritt unabhängig von einem Auswahl- oder Überwachungsverschulden ein.<br><strong>Rechtsfolge:</strong> Der Schaden der Hilfsperson wird dem Geschäftsherrn direkt zugerechnet.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Analyse:</strong> Hanspeter hat Kurt willentlich zur Erfüllung seines Vertrags mit dem Kunden beigezogen. Kurt ist somit eine Hilfsperson im Sinne von OR Art. 101. Der Schaden (zerstörtes Steuergerät) entstand direkt bei der Ausübung dieser Tätigkeit. Kurt handelte unachtsam (fahrlässig).<br><strong>Konsequenz:</strong> Hanspeter <strong>haftet vollumfänglich</strong> für den von Kurt verursachten Schaden von CHF 5'000. Er muss dem Kunden den Schaden ersetzen. Anschliessend kann er auf Kurt Rückgriff (Regress) nehmen, basierend auf dem Vertrag zwischen ihnen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was ist der Unterschied zur Haftung des Geschäftsherrn nach OR Art. 55 für ausservertragliche Schäden?",
+            "answer": "<p><strong>OR Art. 101</strong> ist eine <strong>Vertragshaftung</strong>. Sie ist sehr streng (kausal). Der Geschäftsherr haftet immer, wenn die Hilfsperson einen Fehler macht. <strong>OR Art. 55</strong> ist eine <strong>ausservertragliche Haftung</strong> (z.B. wenn ein Mitarbeiter einen Passanten verletzt). Hier kann sich der Geschäftsherr von der Haftung befreien, wenn er nachweist, dass er bei der Auswahl, Instruktion und Überwachung der Hilfsperson alle nötige Sorgfalt hat walten lassen (sog. Exkulpationsbeweis). Dieser Befreiungsbeweis ist bei OR Art. 101 nicht möglich.</p>"
+          },
+          {
+            "question": "Hätte Hanspeter seine Haftung für Kurt im Vertrag mit dem Kunden ausschliessen können?",
+            "answer": "<p>Ja, die Haftung für Hilfspersonen nach OR Art. 101 kann vertraglich wegbedungen werden. Ein solcher Haftungsausschluss ist jedoch gemäss <strong>OR Art. 101 Abs. 3</strong> i.V.m. <strong>OR Art. 100</strong> ungültig für rechtswidrige Absicht und grobe Fahrlässigkeit.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-9": {
+      "title": "Fall 9 (Analysieren): Die fehlende Quittung",
+      "type": "law_case",
+      "caseText": "Landwirt Stauffer bezahlt eine Reparaturrechnung von CHF 1'200 in der Werkstatt von Herrn Gisler bar. Er ist in Eile und vergisst, eine Quittung zu verlangen. Gisler verbucht den Betrag versehentlich nicht. Zwei Monate später erhält Stauffer eine Mahnung für die angeblich offene Rechnung. Stauffer ist sich sicher, bezahlt zu haben, und sein Sohn, der dabei war, kann dies bezeugen. Gisler besteht auf der Zahlung, da er keinen Zahlungseingang in seiner Buchhaltung finden kann.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Das Problem ist eine Beweisfrage: Wer muss beweisen, dass die Schuld bezahlt wurde?"
+        },
+        {
+          "id": "step_2",
+          "text": "Welches Recht hat ein Schuldner bei der Zahlung (<strong>OR Art. 88</strong>)? Wer trägt gemäss Gesetz die Beweislast für die Erfüllung einer Schuld? Gesetzeslage: <strong>ZGB Art. 8</strong>."
+        },
+        {
+          "id": "step_3",
+          "text": "Was besagt die allgemeine Beweislastregel in ZGB Art. 8? Wer will aus der behaupteten Tatsache (der Zahlung) Rechte ableiten? Was ist der Zweck einer Quittung gemäss OR Art. 88?"
+        },
+        {
+          "id": "step_4",
+          "text": "Wenden Sie die Beweislastregel an. Wer muss die Zahlung beweisen, Stauffer oder Gisler? Wie stark ist die Zeugenaussage des Sohnes im Vergleich zu einer Quittung?"
+        }
+      ],
+      "solution": {
+        "level": "Analysieren",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Landwirt Stauffer (Schuldner), Werkstattinhaber Gisler (Gläubiger).<br><strong>Was ist passiert:</strong> Streit über eine angeblich bereits erfolgte Barzahlung, für die keine Quittung ausgestellt wurde.<br><strong>Rechtsfrage:</strong> Wer muss die erfolgte Zahlung beweisen?</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Allgemeines Vertragsrecht, Zivilprozessrecht.<br><strong>Rechtsvorschrift:</strong> Das Recht auf eine Quittung ist in <strong>OR Art. 88</strong> verankert. Die allgemeine Beweislastregel findet sich in <strong>ZGB Art. 8</strong>.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Regelanalyse:</strong> Gemäss <strong>ZGB Art. 8</strong> hat diejenige Partei das Vorhandensein einer behaupteten Tatsache zu beweisen, die aus ihr Rechte ableitet. Die Zahlung ist eine <strong>tilgende Tatsache</strong>. Der Schuldner (Stauffer), der behauptet, seine Schuld sei durch Zahlung erloschen, leitet daraus das Recht ab, nicht mehr leisten zu müssen. Also muss <strong>er die Zahlung beweisen</strong>. Eine Quittung (OR Art. 88) ist das wichtigste Beweismittel dafür.<br><strong>Rechtsfolge:</strong> Gelingt dem Schuldner der Beweis nicht, gilt die Schuld als nicht getilgt.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Analyse:</strong> Stauffer muss die Zahlung beweisen. Er hat aber keine Quittung, was seine Position stark schwächt. Sein einziges Beweismittel ist die Zeugenaussage seines Sohnes. Ein Gericht müsste die Glaubwürdigkeit dieser Aussage würdigen, wobei die nahe Verwandtschaft die Aussagekraft schwächen könnte. Gislers Buchhaltung, die keinen Eingang ausweist, ist ebenfalls ein Indiz, wenn auch kein Beweis.<br><strong>Konsequenz:</strong> Stauffer befindet sich in einer <strong>schwierigen Beweissituation</strong>. Es besteht ein erhebliches Risiko, dass er die Zahlung nicht beweisen kann und daher <strong>erneut zahlen muss</strong>. Der Fall unterstreicht die enorme Wichtigkeit, bei Barzahlungen immer eine Quittung zu verlangen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Hätte Stauffer die Zahlung verweigern können, wenn Gisler ihm keine Quittung hätte ausstellen wollen?",
+            "answer": "<p>Ja. Das Recht auf eine Quittung nach OR Art. 88 ist ein Gegenrecht des Schuldners. Wenn der Gläubiger die Ausstellung einer Quittung verweigert, kann der Schuldner seine Leistung zurückhalten. Der Gläubiger gerät dann in Gläubigerverzug (<strong>OR Art. 91</strong>).</p>"
+          },
+          {
+            "question": "Welche Beweiskraft hat ein Bank- oder Postbeleg bei einer Überweisung?",
+            "answer": "<p>Ein Bank- oder Postbeleg hat eine sehr hohe Beweiskraft, da er von einer neutralen Drittstelle (der Bank/Post) ausgestellt wird und den Geldfluss objektiv dokumentiert. Er ist praktisch gleichwertig mit einer Quittung und der sicherste Weg, um die Zahlung einer Geldschuld zu beweisen.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-10": {
+      "title": "Fall 10 (Transfer/Beurteilung): Der zahlungsunfähige Stammkunde",
+      "type": "law_case",
+      "caseText": "Ein langjähriger, guter Kunde, die 'Gartenbau Schnell AG', lässt eine wichtige Maschine für CHF 15'000 reparieren. Im Vertrag steht 'Zahlung bei Abholung'. Bei der Abholung gesteht der Inhaber der AG, dass er aufgrund eines grossen Forderungsausfalls momentan illiquide ist. Er bittet den Werkstattleiter, die Maschine trotzdem mitnehmen zu dürfen, und verspricht, die Summe in drei Monatsraten à CHF 5'000 zu zahlen. Der Werkstattleiter weiss, dass die 'Gartenbau Schnell AG' die Maschine dringend für einen Grossauftrag braucht. Wie soll er reagieren?",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Erfassen Sie die Zwickmühle: Rechtliche Sicherheit (Geld gegen Ware) versus Geschäftsbeziehung und potenzielle Folgeschäden für den Kunden."
+        },
+        {
+          "id": "step_2",
+          "text": "Was sind die rein rechtlichen Möglichkeiten des Werkstattleiters? (<strong>OR Art. 82</strong>, <strong>ZGB Art. 895</strong>). Welche Risiken birgt ein Entgegenkommen?"
+        },
+        {
+          "id": "step_3",
+          "text": "Listen Sie die Handlungsoptionen auf: 1. Strikt auf Vertrag pochen. 2. Ratenzahlung akzeptieren. 3. Eine Zwischenlösung mit Sicherheiten suchen."
+        },
+        {
+          "id": "step_4",
+          "text": "Beurteilen Sie jede Option nicht nur rechtlich, sondern auch kaufmännisch. Berücksichtigen Sie die langfristige Kundenbeziehung, das Ausfallrisiko und mögliche Kompromisse. Geben Sie eine fundierte Empfehlung."
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstattleiter, Inhaber der 'Gartenbau Schnell AG' (Stammkunde).<br><strong>Was ist passiert:</strong> Ein Stammkunde kann bei Abholung einer reparierten Maschine die Rechnung nicht bezahlen und bittet um Ratenzahlung.<br><strong>Problemstellung:</strong> Der Werkstattleiter muss zwischen seinem Recht auf sofortige Bezahlung und dem Erhalt einer wichtigen, langfristigen Kundenbeziehung abwägen.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Sicherungsrechte.<br><strong>Rechtsvorschrift:</strong> Der Werkstattleiter hat das Recht auf Zug-um-Zug-Erfüllung (<strong>OR Art. 82</strong>) und kann die Maschine als Sicherheit zurückbehalten (Retentionsrecht gem. <strong>ZGB Art. 895</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Handlungsoptionen:</strong><br>1. <strong>Rechtlich strikte Lösung:</strong> Die Maschine erst gegen vollständige Bezahlung herausgeben. Vorteil: Kein Ausfallrisiko. Nachteil: Der Kunde kann seinen Auftrag nicht ausführen, was zu seinem Konkurs führen könnte; die Kundenbeziehung ist zerstört.<br>2. <strong>Volles Entgegenkommen:</strong> Die Maschine herausgeben und auf die mündliche Zusage der Ratenzahlung vertrauen. Vorteil: Kunde ist dankbar, Geschäftsbeziehung gestärkt. Nachteil: Hohes Ausfallrisiko, da keine Sicherheiten bestehen.<br>3. <strong>Kompromisslösung:</strong> Dem Kunden entgegenkommen, aber das Risiko minimieren. Z.B. durch eine schriftliche Ratenzahlungsvereinbarung, eventuell mit Verzugszinsen oder einer zusätzlichen Sicherheit.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong><br>Option 1 ist rechtlich sicher, aber kaufmännisch kurzsichtig und könnte einen treuen Kunden ruinieren.<br>Option 2 ist kaufmännisch mutig, aber finanziell riskant.<br><strong>Empfehlung (Option 3):</strong> Die beste Lösung ist ein kaufmännischer Kompromiss. Der Werkstattleiter sollte der Ratenzahlung zustimmen, diese aber <strong>schriftlich festhalten</strong>. In dieser Vereinbarung könnte er sich zusätzlich absichern, z.B. durch die Vereinbarung eines <strong>Eigentumsvorbehalts</strong> an den ersetzten Teilen bis zur vollständigen Bezahlung oder durch die Unterzeichnung eines Schuldscheins durch den Kunden. So hilft er dem Kunden in einer Notlage, stärkt die Beziehung und minimiert gleichzeitig sein eigenes finanzielles Risiko. Dies zeigt unternehmerisches Denken, das über die reine Rechtsanwendung hinausgeht.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was wäre, wenn der Werkstattleiter der Ratenzahlung zustimmt und die AG nach der ersten Rate Konkurs anmeldet?",
+            "answer": "<p>Ohne zusätzliche Sicherheiten wäre die Restforderung von CHF 10'000 eine ungesicherte Forderung im Konkurs. Der Werkstattleiter würde wahrscheinlich nur einen kleinen Bruchteil davon (die Konkursdividende) erhalten. Hätte er einen Eigentumsvorbehalt an den Teilen eintragen lassen, könnte er diese aus der Konkursmasse aussondern. Das Retentionsrecht hat er mit der freiwilligen Herausgabe der Maschine verloren.</p>"
+          },
+          {
+            "question": "Könnte der Werkstattleiter für die Ratenzahlung Zins verlangen?",
+            "answer": "<p>Ja. Er gewährt dem Kunden quasi einen Kredit. Er könnte in der schriftlichen Ratenzahlungsvereinbarung einen Verzugszins (üblicherweise 5% gem. <strong>OR Art. 104</strong>) oder sogar einen höheren Kreditzins vereinbaren, sofern dieser nicht gegen die guten Sitten verstösst.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-11": {
+      "title": "Fall 11 (Transfer/Beurteilung): Die grenzwertige Lieferung",
+      "type": "law_case",
+      "caseText": "Eine Werkstatt für Baumaschinen erhält eine grosse Lieferung von 50 Hydraulikfiltern (Gattungssache) von einem wichtigen Lieferanten. Bei der Eingangskontrolle stellt der Lagerist fest, dass die Filter zwar funktionsfähig sind, aber von einem No-Name-Hersteller stammen und nicht die gewohnte Qualität der sonst gelieferten Markenfilter aufweisen. Eine Zurückweisung der Lieferung würde bedeuten, dass drei dringende Reparaturen nicht fertiggestellt werden können, was zu verärgerten Kunden und Konventionalstrafen führen würde. Der Preis ist aber derselbe wie für die Markenfilter.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Erkennen Sie den Konflikt zwischen dem Recht auf korrekte Erfüllung und dem betrieblichen Druck, weiterarbeiten zu müssen."
+        },
+        {
+          "id": "step_2",
+          "text": "Welche rechtlichen Ansprüche hat die Werkstatt aufgrund der Lieferung von Ware unter mittlerer Qualität (<strong>OR Art. 71</strong>)? Welche Mängelrechte gäbe es nach Annahme (<strong>OR Art. 205 ff.</strong>)?"
+        },
+        {
+          "id": "step_3",
+          "text": "Entwickeln Sie verschiedene Strategien: 1. Lieferung komplett zurückweisen. 2. Lieferung annehmen und verbauen. 3. Lieferung unter Vorbehalt annehmen und verhandeln."
+        },
+        {
+          "id": "step_4",
+          "text": "Wägen Sie die kurz- und langfristigen Folgen jeder Strategie ab. Berücksichtigen Sie Kundenverträge, Lieferantenbeziehung, Reputation und finanzielle Risiken. Formulieren Sie eine klare Handlungsempfehlung."
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Werkstatt, Lieferant.<br><strong>Was ist passiert:</strong> Eine Lieferung von Gattungsware ist qualitativ minderwertig, wird aber dringend für den Betrieb benötigt.<br><strong>Problemstellung:</strong> Der Werkstattleiter muss eine Entscheidung treffen, die rechtliche, betriebliche und kaufmännische Aspekte berücksichtigt.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Vertragsrecht, Kaufrecht.<br><strong>Rechtsvorschrift:</strong> Die Lieferung entspricht nicht der geschuldeten mittleren Qualität nach <strong>OR Art. 71</strong>. Die Werkstatt könnte die Annahme verweigern. Nach Annahme könnte sie Mängelrechte geltend machen, insbesondere Minderung (Preisnachlass) oder Ersatzlieferung (<strong>OR Art. 205 f.</strong>).</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Handlungsoptionen:</strong><br>1. <strong>Zurückweisung:</strong> Rechtlich korrekt. Führt aber zum Betriebsstillstand, verärgerten Kunden und Konventionalstrafen. Der finanzielle Schaden wäre vermutlich grösser als der Minderwert der Filter.<br>2. <strong>Annahme und Verwendung:</strong> Betrieblich die einfachste Lösung, um die Reparaturen abzuschliessen. Birgt aber das Risiko, dass die No-Name-Filter schneller ausfallen und zu späteren Gewährleistungsfällen bei den Kunden führen, was die Reputation schädigt.<br>3. <strong>Annahme unter Vorbehalt und Verhandlung:</strong> Die Werkstatt nimmt die Lieferung an, um weiterarbeiten zu können, rügt den Mangel aber sofort schriftlich beim Lieferanten. Sie kann die Filter verwenden und gleichzeitig eine Preisreduktion (Minderung) oder eine spätere Ersatzlieferung aushandeln.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong><br>Option 1 ist betriebswirtschaftlich unklug. Option 2 ist riskant für die Zukunft.<br><strong>Empfehlung (Option 3):</strong> Die beste Vorgehensweise ist die <strong>Annahme unter Vorbehalt</strong>. Der Werkstattleiter sollte den Lieferanten <strong>umgehend und schriftlich</strong> über den Mangel informieren (Mängelrüge). Er sollte festhalten, dass er die Filter aus betrieblicher Notwendigkeit verwenden muss, aber eine massive Preisreduktion fordert, die dem Minderwert und dem erhöhten Risiko entspricht. Dies sichert die rechtlichen Ansprüche, hält den Betrieb am Laufen und öffnet die Tür für eine kaufmännische Lösung mit dem wichtigen Lieferanten. Eventuell kann er auch eine Garantieerklärung des Lieferanten für allfällige Folgeschäden verlangen.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Warum ist die sofortige und schriftliche Mängelrüge so wichtig?",
+            "answer": "<p>Gemäss <strong>OR Art. 201</strong> muss der Käufer die Ware sofort nach Erhalt prüfen und entdeckte Mängel dem Verkäufer unverzüglich anzeigen. Versäumt er dies, gilt die Ware als genehmigt, und er verliert seine Gewährleistungsansprüche. Die Schriftform dient der Beweissicherung.</p>"
+          },
+          {
+            "question": "Könnte die Werkstatt die Filter einbauen und dem Lieferanten die Kosten für einen späteren Austausch beim Kunden in Rechnung stellen?",
+            "answer": "<p>Ja, das wäre ein sogenannter Mangelfolgeschaden. Wenn die Werkstatt nachweisen kann, dass der Lieferant vertragswidrig gehandelt hat (was hier mit der Lieferung unterdurchschnittlicher Qualität der Fall ist), kann sie neben der Minderung oder Ersatzlieferung auch den daraus entstehenden weiteren Schaden geltend machen (<strong>OR Art. 97</strong>). Dies zu beweisen und durchzusetzen kann aber aufwändig sein.</p>"
+          }
+        ]
+      }
+    },
+    "fall-id-12": {
+      "title": "Fall 12 (Transfer/Beurteilung): Der gefährliche Abholort",
+      "type": "law_case",
+      "caseText": "Ein Bauunternehmer kauft bei einem Landmaschinenhändler einen grossen, gebrauchten Schreitbagger (Speziessache). Der Bagger befindet sich bei Vertragsabschluss auf einer schwer zugänglichen Baustelle im Gebirge. Im Vertrag wird vereinbart: 'Gekauft wie gesehen, ab Platz'. Der Käufer organisiert den Abtransport mit einem Tieflader. Aufgrund der engen und steilen Zufahrtsstrasse kippt der Tieflader, und der Bagger wird schwer beschädigt. Der Käufer argumentiert nun, der Verkäufer hätte für einen sicheren Abholort sorgen müssen, da der Transport vom vereinbarten 'Platz' unzumutbar gefährlich war.",
+      "hints": [
+        {
+          "id": "step_1",
+          "text": "Analysieren Sie die Bedeutung der Klausel 'ab Platz' im Kontext des gesetzlichen Erfüllungsortes und des Gefahrenübergangs."
+        },
+        {
+          "id": "step_2",
+          "text": "Was ist der Erfüllungsort bei einer Speziessache (<strong>OR Art. 74 Abs. 2 Ziff. 2</strong>)? Wann gehen Nutzen und Gefahr über (<strong>OR Art. 185 Abs. 1</strong>)? Gibt es eine vertragliche Nebenpflicht des Verkäufers, für einen sicheren Zugang zu sorgen?"
+        },
+        {
+          "id": "step_3",
+          "text": "Bewerten Sie die rechtliche Position: Die Klausel 'ab Platz' bestätigt den gesetzlichen Erfüllungsort und legt die Verantwortung für die Abholung klar zum Käufer. Gibt es Argumente für eine Verletzung von Treu und Glauben (<strong>ZGB Art. 2</strong>) durch den Verkäufer?"
+        },
+        {
+          "id": "step_4",
+          "text": "Entwickeln Sie eine Empfehlung für den Verkäufer. Soll er auf seiner rechtlich starken Position beharren oder aus kaufmännischen Gründen (Kundenbeziehung, Ruf in der Branche) eine Lösung anbieten? Welche Kompromisse wären denkbar?"
+        }
+      ],
+      "solution": {
+        "level": "Transfer/Beurteilung",
+        "solutions": [
+          {
+            "id": "step_1",
+            "answer": "<p><strong>Beteiligte:</strong> Verkäufer (Landmaschinenhändler), Käufer (Bauunternehmer).<br><strong>Was ist passiert:</strong> Eine 'ab Platz' gekaufte Maschine wird beim Abtransport vom Käufer an einem schwer zugänglichen Ort beschädigt.<br><strong>Problemstellung:</strong> Streit über die Verantwortung für den sicheren Abtransport und die Auslegung der Vertragsklausel.</p>"
+          },
+          {
+            "id": "step_2",
+            "answer": "<p><strong>Rechtsgebiet:</strong> Kaufvertragsrecht.<br><strong>Rechtsvorschrift:</strong> Der Erfüllungsort für die Speziessache ist der Ort, wo sie sich bei Vertragsabschluss befindet (<strong>OR Art. 74 Abs. 2 Ziff. 2</strong>). Nutzen und Gefahr gehen mit dem Abschluss des Vertrages auf den Käufer über (<strong>OR Art. 185 Abs. 1</strong>). Die Klausel 'ab Platz' bestätigt dies. Eine mögliche Nebenpflicht des Verkäufers könnte sich aus Treu und Glauben (<strong>ZGB Art. 2</strong>) ergeben, z.B. eine Aufklärungspflicht über ausserordentliche Gefahren.</p>"
+          },
+          {
+            "id": "step_3",
+            "answer": "<p><strong>Rechtliche Analyse:</strong> Rechtlich ist die Position des Verkäufers sehr stark. Der Erfüllungsort war klar, und mit Vertragsabschluss trug der Käufer die Gefahr. Die Klausel 'ab Platz' verstärkt, dass alle Risiken und Kosten des Abtransports beim Käufer liegen. Der Käufer hätte den Ort vor Vertragsabschluss besichtigen und das Transportrisiko selbst einschätzen müssen. Ein Vorwurf der Verletzung von Treu und Glauben wäre nur haltbar, wenn der Verkäufer arglistig extreme, nicht erkennbare Gefahren verschwiegen hätte, was hier unwahrscheinlich ist.</p>"
+          },
+          {
+            "id": "step_4",
+            "answer": "<p><strong>Beurteilung und Empfehlung:</strong> Rein rechtlich muss der Verkäufer nichts tun. Kaufmännisch gesehen kann es jedoch sinnvoll sein, eine Eskalation zu vermeiden, besonders wenn es sich um einen wichtigen Kunden oder einen bekannten Akteur in einer kleinen Branche handelt. Ein Rechtsstreit wäre teuer und rufschädigend.<br><strong>Empfehlung:</strong> Der Verkäufer sollte das Gespräch mit dem Käufer suchen. Er sollte seine starke Rechtsposition nicht sofort aufgeben, aber Verständnis für die unglückliche Situation zeigen. Ein möglicher Kompromiss wäre, sich an den Reparaturkosten zu beteiligen, einen Rabatt auf Ersatzteile zu gewähren oder bei der Organisation einer günstigeren Reparatur zu helfen. Eine solche Geste kann eine wertvolle Geschäftsbeziehung retten und den eigenen Ruf als fairer Partner stärken, auch wenn man rechtlich nicht dazu verpflichtet wäre.</p>"
+          }
+        ],
+        "discussion": [
+          {
+            "question": "Was bedeutet die Klausel 'gekauft wie gesehen'?",
+            "answer": "<p>'Gekauft wie gesehen' ist ein vertraglicher Ausschluss der Gewährleistung (Sachmängelhaftung) für alle Mängel, die bei einer übungsgemässen Prüfung der Kaufsache erkennbar gewesen wären. Sie schliesst die Haftung für versteckte Mängel aber nicht automatisch aus, es sei denn, es wird eine umfassendere Freizeichnung wie 'unter Ausschluss jeglicher Gewährleistung' vereinbart.</p>"
+          },
+          {
+            "question": "Hätte der Käufer den Transport versichern müssen?",
+            "answer": "<p>Ja, das wäre seine unternehmerische Verantwortung gewesen. Da das Transportrisiko bei ihm lag, hätte er eine Transportversicherung abschliessen sollen, die Schäden wie den eingetretenen abdeckt. Das Versäumnis, eine solche Versicherung abzuschliessen, fällt in seinen eigenen Risikobereich.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

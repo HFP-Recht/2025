@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "70-vertragserfuellung",
+  "title": "Vertragserfüllung",
+  "description": "Schwerpunktthema: Vertragserfüllung",
+  "outcomes": [
+    "die fünf zentralen **Erfüllungsmodalitäten** (Wer, Was, Wem, Wo, Wann) zu benennen und deren gesetzliche Standardregelung (**dispositives Recht**) zu erklären.",
+    "das Prinzip der **'Zug-um-Zug'-Erfüllung** zu verstehen und die Begriffe **Holschuld** und **Bringschuld** auf typische Werkstatt-Situationen anzuwenden.",
+    "die Bedeutung einer klaren vertraglichen Regelung der **Erfüllungsmodalitäten** zu erkennen, um Missverständnisse mit Kunden und Lieferanten zu vermeiden."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [],
+  "metadata": {
+    "language": "de-CH"
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "70 Vertragserfüllung"
+    ],
+    "generatedBy": "migrate-module.ts",
+    "generatedAt": "2026-02-12T07:06:11.126Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "70-vertragserfuellung-grundlagen",
+      "title": "Grundlagen",
+      "pageType": "theory",
+      "blocks": [
+        {
+          "id": "70-vertragserfuellung-theory-1",
+          "type": "theory",
+          "title": "Die fünf Erfüllungsmodalitäten",
+          "content": "Das **Obligationenrecht (OR)** legt fest, wie ein Vertrag zu erfüllen ist, falls die Parteien keine eigenen Abmachungen getroffen haben. Diese **dispositiven Regeln** beantworten die fünf zentralen Fragen: **Wer** leistet (OR#Art. 68), **was** wird geleistet (Spezies- vs. Gattungsschuld gemäss OR#Art. 71), **wem** wird geleistet, **wo** wird geleistet (Holschuld vs. Bringschuld gemäss OR#Art. 74) und **wann** wird geleistet (sofortige Fälligkeit gemäss OR#Art. 75 ff.)."
+        },
+        {
+          "id": "70-vertragserfuellung-theory-2",
+          "type": "theory",
+          "title": "Untergang der Obligation durch Erfüllung",
+          "content": "Werden die vertraglichen Pflichten korrekt erfüllt, **erlöschen die gegenseitigen Forderungen** und Schulden. Dieser **Untergang der Obligation** gemäss OR#Art. 114 ist das Ziel jedes Vertragsverhältnisses und bedeutet, dass die Leistung nicht erneut gefordert werden kann."
+        },
+        {
+          "id": "70-vertragserfuellung-discussion-3",
+          "type": "discussion-prompt",
+          "title": "Reflexionsfragen zum Einstieg",
+          "prompts": [
+            {
+              "id": "70-vertragserfuellung-refl-1",
+              "prompt": "Tauschen Sie sich in der Gruppe über Situationen aus, in denen es Unklarheiten über den **Zahlungszeitpunkt** einer Rechnung gab. *Wie haben Sie reagiert, als ein Kunde nicht sofort zahlte? Welche Vereinbarungen treffen Sie üblicherweise, um solche Situationen zu vermeiden?*"
+            },
+            {
+              "id": "70-vertragserfuellung-refl-2",
+              "prompt": "Diskutieren Sie Fälle, in denen der **Ort der Übergabe** einer reparierten Maschine nicht klar war. *Wer trägt Ihrer Erfahrung nach die Verantwortung und die Kosten für den Transport? Welche Regelungen haben sich in Ihrem Betrieb bewährt?*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "70-vertragserfuellung-zusammenfassung",
+      "title": "Zusammenfassung",
+      "pageType": "summary",
+      "blocks": [
+        {
+          "id": "70-vertragserfuellung-sum-theory-1",
+          "type": "theory",
+          "title": "1. Erfüllungsmodalitäten: Die 5 W-Fragen der Vertragserfüllung",
+          "content": "Dispositives Recht\n                    Die gesetzlichen Regeln zur Vertragserfüllung im Obligationenrecht (OR) sind dispositiv. Das bedeutet, sie gelten nur dann, wenn die Vertragsparteien nichts anderes vereinbart haben. Durch klare vertragliche Abmachungen können diese Standardregeln individuell angepasst werden.\n\nWer muss leisten? (Art. 68 OR)\n                        Der Schuldner muss nur dann persönlich leisten, wenn es auf seine Persönlichkeit ankommt (z.B. Künstler, Arbeitnehmer). Bei Geld- oder Sachschulden kann die Leistung auch durch einen Dritten erbracht werden.\n\nWas muss geleistet werden? (Art. 71 OR)\n                        Der Gegenstand der Erfüllung wird im Vertrag festgelegt. Man unterscheidet:\n                        \n                            Speziesschuld: Eine individuell bestimmte Sache (z.B. ein spezifisches Occasionsfahrzeug).\n                            Gattungsschuld: Eine nur der Art nach bestimmte Sache (z.B. ein Neuwagen eines bestimmten Typs). Hier muss mindestens mittlere Qualität geliefert werden.\n\nWo muss geleistet werden? (Art. 74 OR)\n                        Wenn kein Ort vereinbart wurde, gilt:\n                        \n                            Holschuld (Regelfall): Warenschulden sind am Wohnsitz des Schuldners zu erfüllen. Der Käufer muss die Ware abholen.\n                            Bringschuld (Ausnahme): Geldschulden sind am Wohnsitz des Gläubigers zu bezahlen. Der Schuldner muss das Geld übermitteln.\n                            Spezialfall Speziesschuld: Die Sache ist dort zu übergeben, wo sie sich bei Vertragsabschluss befand.\n\nWann muss geleistet werden? (Art. 75 ff. OR)\n                        Ohne vertragliche Vereinbarung ist die Leistung sofort nach Vertragsabschluss fällig und kann gefordert werden (Fälligkeit).\n                        Bei gegenseitigen Leistungen gilt das Prinzip \"Zug-um-Zug\": Die Leistungen müssen grundsätzlich gleichzeitig ausgetauscht werden (z.B. Ware gegen Geld).\n\nDispositives Recht: Die gesetzlichen Regeln zur Vertragserfüllung im Obligationenrecht (OR) sind dispositiv. Das bedeutet, sie gelten nur dann, wenn die Vertragsparteien nichts anderes vereinbart haben. Durch klare vertragliche Abmachungen können diese Standardregeln individuell angepasst werden."
+        },
+        {
+          "id": "70-vertragserfuellung-sum-check-2",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 1. Erfüllungsmodalitäten: Die 5 W-Fragen der Vertragserfüllung",
+          "questions": [
+            {
+              "id": "70-vertragserfuellung-sum-q1-1",
+              "prompt": "1. Welche vier zentralen Fragen regeln die Erfüllungsmodalitäten laut OR?",
+              "solution": "Wer muss leisten? Was muss geleistet werden? Wo muss geleistet werden? Wann muss geleistet werden?"
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q1-2",
+              "prompt": "2. Was ist der gesetzliche Unterschied zwischen einer Holschuld und einer Bringschuld?",
+              "solution": "Bei der Holschuld muss der Gläubiger die Leistung am Wohnsitz des Schuldners abholen (Regelfall für Waren). Bei der Bringschuld muss der Schuldner die Leistung zum Gläubiger bringen (Regelfall für Geldschulden)."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q1-3",
+              "prompt": "3. Erklären Sie, warum die Regeln zu den Erfüllungsmodalitäten als 'dispositiv' bezeichnet werden und was das für Ihre Verträge bedeutet.",
+              "solution": "'Dispositiv' bedeutet, dass die gesetzlichen Regeln abänderbar sind. Sie gelten nur als Standardlösung, falls die Parteien nichts anderes vereinbaren. Für Verträge bedeutet das, dass man diese Punkte (z.B. Lieferort, Zahlungsfrist) aktiv und zu eigenen Gunsten regeln kann und sollte."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q1-4",
+              "prompt": "4. Erläutern Sie das Prinzip 'Zug um Zug' anhand des Beispiels einer Maschinenreparatur gegen Barzahlung.",
+              "solution": "Das Prinzip 'Zug um Zug' bedeutet, dass Leistung und Gegenleistung gleichzeitig ausgetauscht werden. Bei einer Maschinenreparatur heisst das: Der Kunde erhält die reparierte Maschine zurück und muss im selben Moment den Rechnungsbetrag bar bezahlen."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q1-5",
+              "prompt": "5. Ein Kunde lässt eine Baumaschine reparieren. Im Auftrag wurde kein Zahlungsziel vereinbart. Wann muss der Kunde die Rechnung bezahlen?",
+              "solution": "Gemäss Art. 75 OR ist die Leistung sofort fällig, da kein anderer Termin vereinbart wurde. Der Kunde muss die Rechnung also sofort bezahlen."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q1-6",
+              "prompt": "6. Sie verkaufen einem Landwirt eine gebrauchte Maschine 'ab Platz'. Wo ist der Erfüllungsort für die Übergabe der Maschine, wenn nichts anderes vereinbart wurde?",
+              "solution": "Es handelt sich um eine Speziesschuld. Der Erfüllungsort ist der Ort, an dem sich die Maschine bei Vertragsabschluss befand (Art. 74 OR). Die Klausel 'ab Platz' bestätigt dies. Der Landwirt muss die Maschine bei Ihnen abholen (Holschuld)."
+            }
+          ]
+        },
+        {
+          "id": "70-vertragserfuellung-sum-theory-3",
+          "type": "theory",
+          "title": "2. Untergang der Obligation durch Erfüllung",
+          "content": "Rechtsfolge der korrekten Erfüllung (Art. 114 OR)\n                    Werden die vertraglichen Pflichten von beiden Seiten korrekt erfüllt, ist der Zweck des Vertrags erreicht. Die Obligationen (also die Forderungen und Schulden) gehen unter, sie erlöschen. Das bedeutet, dass keine Partei die Leistung ein zweites Mal fordern kann. Dies schafft Rechtssicherheit und schliesst das Vertragsverhältnis ab.\n\nWeitere Gründe für den Untergang einer Obligation\n                \n                    Aufhebungsvertrag (Art. 115 OR): Die Parteien können jederzeit gemeinsam vereinbaren, den Vertrag oder einzelne Pflichten aufzuheben.\n                    Verrechnung (Art. 120 ff. OR): Schulden sich zwei Parteien gegenseitig gleichartige Leistungen (z.B. Geld), können sie ihre Forderungen gegenseitig tilgen, soweit sie sich decken.\n\nRechtsfolge der korrekten Erfüllung (Art. 114 OR): Werden die vertraglichen Pflichten von beiden Seiten korrekt erfüllt, ist der Zweck des Vertrags erreicht. Die Obligationen (also die Forderungen und Schulden) gehen unter, sie erlöschen. Das bedeutet, dass keine Partei die Leistung ein zweites Mal fordern kann. Dies schafft Rechtssicherheit und schliesst das Vertragsverhältnis ab."
+        },
+        {
+          "id": "70-vertragserfuellung-sum-check-4",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 2. Untergang der Obligation durch Erfüllung",
+          "questions": [
+            {
+              "id": "70-vertragserfuellung-sum-q3-1",
+              "prompt": "1. Was ist die rechtliche Hauptfolge der korrekten Vertragserfüllung?",
+              "solution": "Die Obligation geht unter, d.h. die gegenseitigen Forderungen und Schulden erlöschen. Die Leistung kann nicht erneut gefordert werden."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q3-2",
+              "prompt": "2. Welche zwei weiteren Gründe für den Untergang einer Obligation werden auf Seite 60 erwähnt?",
+              "solution": "Der Aufhebungsvertrag (Schulderlass) und die Verrechnung."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q3-3",
+              "prompt": "3. Erklären Sie in eigenen Worten, warum eine erfüllte Forderung nicht ein zweites Mal verlangt werden kann.",
+              "solution": "Weil mit der Erfüllung der Zweck des Vertrags erreicht und das Schuldverhältnis beendet ist. Die rechtliche Grundlage für die Forderung existiert nicht mehr."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q3-4",
+              "prompt": "4. Welche praktische Bedeutung haben Zahlungsbelege und Quittungen im Zusammenhang mit dem 'Untergang der Obligation'?",
+              "solution": "Sie dienen als Beweismittel dafür, dass die Schuld erfüllt wurde und die Obligation somit untergegangen ist. Sie schützen den Schuldner vor ungerechtfertigten Zweitforderungen."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q3-5",
+              "prompt": "5. Ein Kunde bezahlt eine Reparaturrechnung bar und erhält eine Quittung. Zwei Wochen später erhält er von Ihrer Buchhaltung versehentlich eine Mahnung. Wie ist die rechtliche Lage?",
+              "solution": "Die Forderung ist durch die Barzahlung bereits erloschen (untergegangen). Der Kunde kann mit der Quittung beweisen, dass er bezahlt hat. Die Mahnung ist daher gegenstandslos und rechtlich nicht durchsetzbar."
+            },
+            {
+              "id": "70-vertragserfuellung-sum-q3-6",
+              "prompt": "6. Sie schulden einem Lieferanten CHF 1'000 für Ersatzteile. Gleichzeitig hat dieser bei Ihnen eine Reparatur für CHF 800 durchführen lassen. Erklären Sie, wie hier eine Verrechnung als Alternative zur vollständigen Zahlung funktioniert.",
+              "solution": "Sie können eine Verrechnungserklärung abgeben. Ihre Forderung von CHF 800 wird mit Ihrer Schuld von CHF 1'000 verrechnet. Dadurch erlöschen beide Forderungen bis zur Höhe von CHF 800. Sie schulden dem Lieferanten danach nur noch die Restschuld von CHF 200."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "70-vertragserfuellung-rechtsfaelle",
+      "title": "Rechtsfälle",
+      "pageType": "cases",
+      "blocks": [
+        {
+          "id": "70-vertragserfuellung-cases-fallback",
+          "type": "theory",
+          "title": "Rechtsfälle",
+          "content": "Keine Rechtsfälle in dieser Lektion."
+        }
+      ]
+    }
+  ]
+}

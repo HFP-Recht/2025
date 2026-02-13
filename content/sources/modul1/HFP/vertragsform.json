@@ -1,0 +1,123 @@
+{
+  "assignmentTitle": "Vertragsform",
+  "solution_keys": [
+    "teacher2025",
+    "modul1"
+  ],
+  "subAssignments": {
+    "A. Grundsatz der Formfreiheit und die gesetzlichen Ausnahmen": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Vertragsform_q1",
+          "text": "Was besagt der Grundsatz der Formfreiheit gemäss OR#Art. 11?"
+        },
+        {
+          "id": "Vertragsform_q2",
+          "text": "Nennen Sie die drei Arten von gesetzlichen Formvorschriften, die in der Tabelle auf Seite 54 aufgeführt sind."
+        },
+        {
+          "id": "Vertragsform_q3",
+          "text": "Erklären Sie mit eigenen Worten, warum das Gesetz für bestimmte Verträge eine spezielle Form vorschreibt. Welche zwei Hauptzwecke werden damit verfolgt?"
+        },
+        {
+          "id": "Vertragsform_q4",
+          "text": "Beschreiben Sie den Unterschied zwischen der einfachen und der qualifizierten Schriftlichkeit anhand der Beispiele 'Konkurrenzverbot' und 'Lehrvertrag'."
+        },
+        {
+          "id": "Vertragsform_q5",
+          "text": "Ein Kunde kauft bei Ihnen eine gebrauchte Baumaschine im Wert von CHF 40'000.- per Handschlag. Ist dieser Kaufvertrag gültig? Begründen Sie Ihre Antwort."
+        },
+        {
+          "id": "Vertragsform_q6",
+          "text": "Sie möchten einem Mitarbeiter eine Forderung über CHF 5'000.- abtreten. Ist dies mündlich möglich? Begründen Sie Ihre Antwort mit Hilfe der Tabelle auf Seite 54."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Vertragsform_q1",
+            "answer": "<p>Der Grundsatz der Formfreiheit besagt, dass Verträge in jeder beliebigen Form abgeschlossen werden können, sei es mündlich, schriftlich, per E-Mail oder sogar stillschweigend (ohne Worte). Eine spezielle Form ist nur dann erforderlich, wenn das Gesetz dies ausnahmsweise vorschreibt.</p>"
+          },
+          {
+            "id": "Vertragsform_q2",
+            "answer": "<p>Die drei Arten von gesetzlichen Formvorschriften sind: 1. Einfache Schriftlichkeit, 2. Qualifizierte Schriftlichkeit, 3. Öffentliche Beurkundung.</p>"
+          },
+          {
+            "id": "Vertragsform_q3",
+            "answer": "<p>Das Gesetz schreibt für bestimmte, meist wichtige oder risikoreiche Verträge eine spezielle Form vor, um die Vertragsparteien zu schützen und für Klarheit zu sorgen. Die zwei Hauptzwecke sind: 1. <strong>Schutz vor Übereilung:</strong> Die Parteien sollen sich der Tragweite ihrer Entscheidung bewusst werden und den Vertrag nicht unüberlegt abschliessen. 2. <strong>Schaffung von Rechtssicherheit (Beweisfunktion):</strong> Die Formvorschrift stellt sicher, dass der Abschluss und der genaue Inhalt des Vertrags klar dokumentiert und im Streitfall einfach beweisbar sind.</p>"
+          },
+          {
+            "id": "Vertragsform_q4",
+            "answer": "<p>Der Unterschied liegt in den Anforderungen an den Inhalt des Dokuments. Bei der <strong>einfachen Schriftlichkeit</strong>, wie beim Konkurrenzverbot, genügt es, dass die Vereinbarung schriftlich festgehalten und von den Parteien eigenhändig unterschrieben wird. Bei der <strong>qualifizierten Schriftlichkeit</strong>, wie beim Lehrvertrag, verlangt das Gesetz zusätzlich zur Schriftform und Unterschrift, dass bestimmte Mindestangaben (z.B. Lohn, Ferien, Dauer der Ausbildung) zwingend im Vertrag enthalten sein müssen.</p>"
+          },
+          {
+            "id": "Vertragsform_q5",
+            "answer": "<p>Ja, dieser Kaufvertrag ist gültig. Gemäss dem Grundsatz der Formfreiheit (OR Art. 11) können Verträge formlos, also auch mündlich oder per Handschlag, abgeschlossen werden, solange das Gesetz keine spezielle Form vorschreibt. Für den Kauf einer beweglichen Sache wie einer Baumaschine gibt es keine gesetzliche Formvorschrift. Aus Beweisgründen wäre ein schriftlicher Vertrag jedoch empfehlenswert.</p>"
+          },
+          {
+            "id": "Vertragsform_q6",
+            "answer": "<p>Nein, dies ist mündlich nicht möglich. Gemäss der Tabelle auf Seite 54 erfordert die 'Abtretung einer Forderung' die Einhaltung der einfachen Schriftlichkeit (Art. 165 Abs. 1 OR). Ein mündlicher Abtretungsvertrag wäre somit formungültig und rechtlich nicht wirksam.</p>"
+          }
+        ]
+      }
+    },
+    "B. Folgen von Formmängeln: Die Nichtigkeit": {
+      "type": "quill",
+      "questions": [
+        {
+          "id": "Vertragsform_q7",
+          "text": "Was ist die rechtliche Folge, wenn eine gesetzlich vorgeschriebene Form für einen Vertrag nicht eingehalten wird?"
+        },
+        {
+          "id": "Vertragsform_q8",
+          "text": "Was bedeutet der Begriff 'nichtig' im rechtlichen Kontext?"
+        },
+        {
+          "id": "Vertragsform_q9",
+          "text": "Erklären Sie am Beispiel des Bauern, der sein Land per Handschlag verkauft (S. 54), was die Nichtigkeit des Vertrags für beide Parteien konkret bedeutet."
+        },
+        {
+          "id": "Vertragsform_q10",
+          "text": "Vergleichen Sie die Rechtsfolge der 'Nichtigkeit' (bei Formmängeln) mit der 'Unverbindlichkeit' (bei Willensmängeln, S. 56). Worin liegt der wesentliche Unterschied?"
+        },
+        {
+          "id": "Vertragsform_q11",
+          "text": "Ein Mitarbeiter vereinbart mit Ihnen mündlich, dass er nach Austritt aus Ihrer Firma für zwei Jahre keine konkurrenzierende Tätigkeit aufnehmen wird. Ist diese Abmachung rechtlich durchsetzbar? Begründen Sie Ihre Antwort."
+        },
+        {
+          "id": "Vertragsform_q12",
+          "text": "Sie bürgen mündlich für einen Kredit Ihres besten Mitarbeiters über CHF 5'000.-. Später fordert die Bank das Geld von Ihnen. Müssen Sie bezahlen? Begründen Sie Ihre Antwort mit Hilfe der Tabelle auf Seite 54."
+        }
+      ],
+      "solution": {
+        "solutions": [
+          {
+            "id": "Vertragsform_q7",
+            "answer": "<p>Wenn eine gesetzlich vorgeschriebene Form nicht eingehalten wird, ist der Vertrag nichtig. Das bedeutet, er ist von Anfang an rechtlich unwirksam und entfaltet keine rechtlichen Wirkungen.</p>"
+          },
+          {
+            "id": "Vertragsform_q8",
+            "answer": "<p>Der Begriff 'nichtig' bedeutet, dass der Vertrag von Anfang an als rechtlich ungültig und unwirksam gilt. Er wird so behandelt, als wäre er nie abgeschlossen worden. Daraus folgt, dass keine der Parteien irgendwelche Rechte oder Pflichten aus dem Vertrag ableiten kann. Bereits erbrachte Leistungen müssen zurückerstattet werden.</p>"
+          },
+          {
+            "id": "Vertragsform_q9",
+            "answer": "<p>Für die beiden Parteien bedeutet die Nichtigkeit des Vertrags konkret: Der Bauer (Verkäufer) kann vom Nachbarn (Käufer) nicht die Bezahlung des Kaufpreises fordern. Der Nachbar (Käufer) hat seinerseits keinen rechtlichen Anspruch darauf, dass ihm das Land übereignet und er als Eigentümer im Grundbuch eingetragen wird. Der Vertrag hat keinerlei rechtliche Bindungswirkung.</p>"
+          },
+          {
+            "id": "Vertragsform_q10",
+            "answer": "<p>Der wesentliche Unterschied liegt in der Wirkung und der Notwendigkeit des Handelns. Ein <strong>nichtiger</strong> Vertrag (z.B. wegen Formmangels) ist von Anfang an und automatisch ungültig. Ein <strong>unverbindlicher</strong> (anfechtbarer) Vertrag (z.B. wegen Täuschung) ist zunächst gültig und wird erst dann ungültig, wenn die geschützte Partei ihn innerhalb einer Jahresfrist anficht. Tut sie dies nicht, wird der Vertrag endgültig gültig. Die betroffene Partei hat also ein Wahlrecht.</p>"
+          },
+          {
+            "id": "Vertragsform_q11",
+            "answer": "<p>Nein, diese mündliche Abmachung ist nicht rechtlich durchsetzbar. Für ein Konkurrenzverbot im Arbeitsverhältnis schreibt das Gesetz gemäss der Tabelle auf Seite 54 die einfache Schriftlichkeit vor (Art. 340 Abs. 1 OR). Da die Vereinbarung nur mündlich getroffen wurde, ist die Formvorschrift nicht eingehalten. Die Abmachung ist deshalb nichtig.</p>"
+          },
+          {
+            "id": "Vertragsform_q12",
+            "answer": "<p>Nein, Sie müssen nicht bezahlen. Gemäss der Tabelle auf Seite 54 erfordert ein Bürgschaftsvertrag einer natürlichen Person über einen Betrag von mehr als CHF 2'000.- die öffentliche Beurkundung. Da Sie die Bürgschaft für CHF 5'000.- nur mündlich abgegeben haben, wurde diese strenge Formvorschrift nicht eingehalten. Das Bürgschaftsversprechen ist daher nichtig und rechtlich unwirksam.</p>"
+          }
+        ]
+      }
+    }
+  }
+}

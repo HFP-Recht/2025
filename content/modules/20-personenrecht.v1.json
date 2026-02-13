@@ -1,0 +1,846 @@
+{
+  "schemaVersion": "1.0.0",
+  "moduleId": "20-personenrecht",
+  "title": "Personenrecht",
+  "description": "Schwerpunktthema: Personenrecht",
+  "outcomes": [
+    "natürliche und juristische Personen als Vertragspartner zu unterscheiden.",
+    "die Begriffe Rechtsfähigkeit und Handlungsfähigkeit zu definieren und voneinander abzugrenzen.",
+    "die Voraussetzungen der Handlungsfähigkeit (Volljährigkeit, Urteilsfähigkeit) zu erklären und deren Bedeutung für den Vertragsabschluss im Werkstattalltag zu beurteilen."
+  ],
+  "version": 1,
+  "status": "published",
+  "legalReferences": [
+    {
+      "id": "ref-20-personenrecht-1",
+      "citation": "ZGB Art. 13"
+    },
+    {
+      "id": "ref-20-personenrecht-2",
+      "citation": "ZGB Art. 19"
+    },
+    {
+      "id": "ref-20-personenrecht-3",
+      "citation": "ZGB Art. 14"
+    },
+    {
+      "id": "ref-20-personenrecht-4",
+      "citation": "ZGB Art. 16"
+    },
+    {
+      "id": "ref-20-personenrecht-5",
+      "citation": "ZGB Art. 11"
+    },
+    {
+      "id": "ref-20-personenrecht-6",
+      "citation": "ZGB Art. 52"
+    },
+    {
+      "id": "ref-20-personenrecht-7",
+      "citation": "ZGB Art. 53"
+    },
+    {
+      "id": "ref-20-personenrecht-8",
+      "citation": "OR Art. 41"
+    },
+    {
+      "id": "ref-20-personenrecht-9",
+      "citation": "OR Art. 55"
+    },
+    {
+      "id": "ref-20-personenrecht-10",
+      "citation": "ZGB Art. 398"
+    },
+    {
+      "id": "ref-20-personenrecht-11",
+      "citation": "ZGB Art. 323"
+    },
+    {
+      "id": "ref-20-personenrecht-12",
+      "citation": "ZGB Art. 560"
+    },
+    {
+      "id": "ref-20-personenrecht-13",
+      "citation": "OR Art. 772"
+    },
+    {
+      "id": "ref-20-personenrecht-14",
+      "citation": "OR Art. 21"
+    },
+    {
+      "id": "ref-20-personenrecht-15",
+      "citation": "OR Art. 24"
+    }
+  ],
+  "metadata": {
+    "language": "de-CH"
+  },
+  "generation": {
+    "sourceDocumentIds": [
+      "20 Personenrecht"
+    ],
+    "generatedBy": "migrate-module.ts",
+    "generatedAt": "2026-02-12T07:06:11.048Z"
+  },
+  "lessons": [
+    {
+      "lessonId": "20-personenrecht-grundlagen",
+      "title": "Grundlagen",
+      "pageType": "theory",
+      "blocks": [
+        {
+          "id": "20-personenrecht-theory-1",
+          "type": "theory",
+          "title": "Die Vertragsparteien: Natürliche und Juristische Personen",
+          "content": "**Rechtssubjekte** sind Träger von Rechten und Pflichten. Das Gesetz unterscheidet zwischen **natürlichen Personen** (Menschen) gemäss ZGB#Art. 11 ff. und **juristischen Personen** (rechtliche Gebilde wie AG, GmbH) gemäss ZGB#Art. 52ff. Beide können als Vertragsparteien auftreten, Rechnungen erhalten und verklagt werden."
+        },
+        {
+          "id": "20-personenrecht-theory-2",
+          "type": "theory",
+          "title": "Rechts- und Handlungsfähigkeit",
+          "content": "**Rechtsfähigkeit** ist die Fähigkeit, überhaupt Rechte und Pflichten zu haben (z.B. erben zu können). **Handlungsfähigkeit** ist die Fähigkeit, durch eigenes Handeln Verträge abzuschliessen und sich zu verpflichten. Sie setzt **Volljährigkeit** und **Urteilsfähigkeit** voraus und ist gemäss ZGB#Art. 11 bis ZGB#Art. 19 eine entscheidende Voraussetzung für die Gültigkeit eines Vertrags."
+        },
+        {
+          "id": "20-personenrecht-discussion-3",
+          "type": "discussion-prompt",
+          "title": "Reflexionsfragen zum Einstieg",
+          "prompts": [
+            {
+              "id": "20-personenrecht-refl-1",
+              "prompt": "Tauschen Sie sich in der Gruppe über Situationen aus, in denen ein **Minderjähriger** (z.B. ein Lernender oder ein junger Kunde) in Ihrem Betrieb eine Bestellung oder einen Auftrag erteilt hat. *Wie haben Sie damals die Befugnis der Person überprüft? Welche potenziellen Risiken sahen Sie für Ihr Unternehmen?*"
+            },
+            {
+              "id": "20-personenrecht-refl-2",
+              "prompt": "Diskutieren Sie Fälle, in denen Sie unsicher waren, ob ein Kunde die Tragweite seiner Entscheidung vollständig verstanden hat (z.B. aufgrund von Stress, starkem Medikamenteneinfluss oder Sprachbarrieren). *Welche Anzeichen haben Sie zur Vorsicht veranlasst? Wie haben Sie sichergestellt, dass die Vereinbarung für alle Beteiligten fair und klar war?*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "20-personenrecht-zusammenfassung",
+      "title": "Zusammenfassung",
+      "pageType": "summary",
+      "blocks": [
+        {
+          "id": "20-personenrecht-sum-theory-1",
+          "type": "theory",
+          "title": "1. Die Vertragsparteien (Rechtssubjekte)",
+          "content": "Rechtssubjekte sind Träger von Rechten und Pflichten. Sie können Verträge abschliessen, Eigentum erwerben und verklagt werden. Das Gesetz unterscheidet zwei Arten von Rechtssubjekten.\n\nNatürliche Person (ZGB Art. 11 ff.)\n                            Jeder Mensch aus Fleisch und Blut. Eine natürliche Person ist von der Geburt bis zum Tod Träger von Rechten und Pflichten.\n                            \n                                Beispiel: Ein Kunde, eine Mitarbeiterin, ein Landwirt als Einzelunternehmer.\n\nJuristische Person (ZGB Art. 52 ff.)\n                            Ein vom Recht geschaffenes, künstliches Gebilde, das wie eine natürliche Person Rechte und Pflichten haben kann.\n                            \n                                Beispiele: Eine AG, eine GmbH, ein Verein, eine Stiftung.\n                                Entsteht meist durch Eintrag ins Handelsregister."
+        },
+        {
+          "id": "20-personenrecht-sum-check-2",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 1. Die Vertragsparteien (Rechtssubjekte)",
+          "questions": [
+            {
+              "id": "20-personenrecht-sum-q1-1",
+              "prompt": "1. Was versteht das Gesetz unter einer 'natürlichen Person'?",
+              "solution": "Jeder Mensch aus Fleisch und Blut."
+            },
+            {
+              "id": "20-personenrecht-sum-q1-2",
+              "prompt": "2. Nennen Sie zwei Beispiele für 'juristische Personen', die in Ihrem Berufsalltag als Kunden oder Lieferanten auftreten.",
+              "solution": "Eine Aktiengesellschaft (AG) oder eine Gesellschaft mit beschränkter Haftung (GmbH)."
+            },
+            {
+              "id": "20-personenrecht-sum-q1-3",
+              "prompt": "3. Erklären Sie, warum Ihr Reparaturbetrieb (sofern es eine GmbH oder AG ist) selbst Verträge abschliessen kann und nicht Sie als Werkstattleiter persönlich haften.",
+              "solution": "Weil die GmbH/AG eine eigenständige juristische Person ist, die selbst Trägerin von Rechten und Pflichten ist. Sie haftet mit ihrem eigenen Geschäftsvermögen."
+            },
+            {
+              "id": "20-personenrecht-sum-q1-4",
+              "prompt": "4. Was ist der Unterschied zwischen einem Rechtssubjekt und einem Rechtsobjekt? Geben Sie je ein Beispiel aus Ihrer Werkstatt.",
+              "solution": "Rechtssubjekte sind Träger von Rechten (z.B. der Kunde, die Werkstatt-GmbH). Rechtsobjekte sind Gegenstände, auf die sich Rechte beziehen (z.B. der Traktor, ein Ersatzteil)."
+            },
+            {
+              "id": "20-personenrecht-sum-q1-5",
+              "prompt": "5. Ein Landwirt (Einzelunternehmer) kauft bei Ihnen eine Maschine. Wer ist in diesem Fall die Vertragspartei?",
+              "solution": "Der Landwirt als natürliche Person (Einzelunternehmer)."
+            },
+            {
+              "id": "20-personenrecht-sum-q1-6",
+              "prompt": "6. Die 'Müller Landtechnik AG' bestellt bei Ihnen Ersatzteile. Wer ist hier die Vertragspartei und wer muss die Rechnung bezahlen?",
+              "solution": "Die Vertragspartei ist die 'Müller Landtechnik AG' als juristische Person. Sie muss die Rechnung bezahlen."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-sum-theory-3",
+          "type": "theory",
+          "title": "2. Rechts- und Handlungsfähigkeit",
+          "content": "Um gültige Verträge abschliessen zu können, müssen Personen bestimmte Voraussetzungen erfüllen. Hier sind zwei zentrale Begriffe zu unterscheiden:\n\nRechtsfähigkeit (ZGB Art. 11)\n                    \n                        Die Fähigkeit, Träger von Rechten und Pflichten zu sein. Jede natürliche Person ist von Geburt an rechtsfähig. Man kann also schon als Baby Eigentum erben, aber nicht selbstständig darüber verfügen.\n\nHandlungsfähigkeit (ZGB Art. 12)\n                    \n                        Die Fähigkeit, durch eigenes Handeln Rechte und Pflichten zu begründen, also z.B. gültige Verträge abzuschliessen. Dies ist die entscheidende Voraussetzung für den Geschäftsverkehr.\n                        Voraussetzungen für die volle Handlungsfähigkeit:\n                        \n                            Volljährigkeit: Mit Vollendung des 18. Lebensjahres (ZGB Art. 14).\n                            Urteilsfähigkeit: Die Fähigkeit, vernunftgemäss zu handeln und die Konsequenzen der eigenen Handlungen abzuschätzen (ZGB Art. 16). Diese ist situationsabhängig und kann z.B. durch Rausch, Drogen oder eine psychische Störung beeinträchtigt sein.\n\nAbstufungen der Handlungs(un)fähigkeit\n                    \n                        Beschränkte Handlungsunfähigkeit (ZGB Art. 19)\n                        Dies betrifft Personen, die zwar urteilsfähig, aber noch nicht volljährig sind (Minderjährige).\n                        \n                            Für den Abschluss von Verträgen benötigen sie grundsätzlich die Zustimmung ihrer gesetzlichen Vertreter (i.d.R. die Eltern).\n                            Ohne Zustimmung abgeschlossene Verträge sind schwebend unwirksam und können nachträglich genehmigt werden.\n                            Ausnahmen (Verträge sind auch ohne Zustimmung gültig):\n                                \n                                    Erlangung unentgeltlicher Vorteile (z.B. Annahme einer Schenkung).\n                                    Geringfügige Angelegenheiten des täglichen Lebens (z.B. Kauf eines Pausenbrots).\n                                    Verfügung über den eigenen Arbeitserwerb oder das Taschengeld (im angemessenen Rahmen).\n                                \n                            \n                        \n                    \n                    Personen, die urteilsunfähig sind (z.B. Kleinkinder, stark alkoholisierte Personen), sind voll handlungsunfähig. Ihre Handlungen haben keine rechtliche Wirkung; Verträge sind nichtig.\n\n: Die Fähigkeit, Träger von Rechten und Pflichten zu sein. Jede natürliche Person ist von Geburt an rechtsfähig. Man kann also schon als Baby Eigentum erben, aber nicht selbstständig darüber verfügen.\n\n: Die Fähigkeit, durch eigenes Handeln Rechte und Pflichten zu begründen, also z.B. gültige Verträge abzuschliessen. Dies ist die entscheidende Voraussetzung für den Geschäftsverkehr. Voraussetzungen für die volle Handlungsfähigkeit:\n\nBeschränkte Handlungsunfähigkeit (ZGB Art. 19): Dies betrifft Personen, die zwar urteilsfähig, aber noch nicht volljährig sind (Minderjährige)."
+        },
+        {
+          "id": "20-personenrecht-sum-check-4",
+          "type": "competence-check",
+          "title": "Kompetenz-Check: 2. Rechts- und Handlungsfähigkeit",
+          "questions": [
+            {
+              "id": "20-personenrecht-sum-q3-1",
+              "prompt": "1. Welche zwei Voraussetzungen müssen für die volle Handlungsfähigkeit einer natürlichen Person erfüllt sein?",
+              "solution": "Volljährigkeit (18 Jahre alt) und Urteilsfähigkeit."
+            },
+            {
+              "id": "20-personenrecht-sum-q3-2",
+              "prompt": "2. Was bedeutet 'beschränkte Handlungsunfähigkeit' und welche Personengruppe ist typischerweise davon betroffen?",
+              "solution": "Das bedeutet, dass eine Person urteilsfähig, aber noch nicht volljährig ist. Typischerweise sind Minderjährige (z.B. Lernende) betroffen."
+            },
+            {
+              "id": "20-personenrecht-sum-q3-3",
+              "prompt": "3. Erklären Sie den Unterschied zwischen Rechtsfähigkeit und Handlungsfähigkeit an einem Beispiel eines Kleinkindes, das von seinem Grossvater eine Liegenschaft erbt.",
+              "solution": "Das Kleinkind ist rechtsfähig und kann daher Eigentümer der Liegenschaft werden. Es ist aber nicht handlungsfähig und kann die Liegenschaft nicht selbst verwalten oder verkaufen; dafür braucht es seine gesetzlichen Vertreter."
+            },
+            {
+              "id": "20-personenrecht-sum-q3-4",
+              "prompt": "4. Warum ist die Urteilsfähigkeit situationsabhängig? Erläutern Sie dies am Beispiel eines Kunden, der unter starkem Medikamenteneinfluss steht.",
+              "solution": "Weil die Fähigkeit, vernunftgemäss zu handeln, durch äussere oder innere Umstände temporär beeinträchtigt sein kann. Ein Kunde unter starken Medikamenten kann die Tragweite eines teuren Reparaturauftrags möglicherweise nicht erfassen und ist in diesem Moment urteilsunfähig."
+            },
+            {
+              "id": "20-personenrecht-sum-q3-5",
+              "prompt": "5. Beurteilen Sie den Fall aus dem 'Praxisbezug': Ist der Kaufvertrag über das Diagnosegerät, den Ihr 17-jähriger Lernender abgeschlossen hat, gültig? Begründen Sie Ihre Antwort mit den Begriffen aus dem Lehrmittel.",
+              "solution": "Nein, der Vertrag ist nicht gültig. Der Lernende ist minderjährig und somit beschränkt handlungsunfähig. Der Kauf eines teuren Diagnosegeräts übersteigt seine Befugnisse (keine geringfügige Angelegenheit, nicht mit Taschengeld bezahlbar). Der Vertrag ist nur gültig, wenn der gesetzliche Vertreter (oder hier der Arbeitgeber) ihn nachträglich genehmigt."
+            },
+            {
+              "id": "20-personenrecht-sum-q3-6",
+              "prompt": "6. Ein 15-jähriger Schüler möchte sein Mofa bei Ihnen für CHF 80.- reparieren lassen. Er bezahlt aus seinem Sackgeld. Dürfen Sie den Auftrag ohne Zustimmung der Eltern annehmen? Begründen Sie.",
+              "solution": "Ja, das ist wahrscheinlich zulässig. Der Schüler ist zwar beschränkt handlungsunfähig, aber er darf über sein Taschengeld oder seinen Lohn aus einem Ferienjob frei verfügen. Eine Mofareparatur für CHF 80.- kann als im Rahmen seines frei verfügbaren Geldes liegend betrachtet werden."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "20-personenrecht-rechtsfaelle",
+      "title": "Rechtsfälle",
+      "pageType": "cases",
+      "blocks": [
+        {
+          "id": "20-personenrecht-case-1",
+          "type": "law-case-4-step",
+          "title": "Fall 1 (Grundlagen): Der ehrgeizige Lernende",
+          "caseText": "Der 16-jährige Lernende zum Baumaschinenmechaniker, Kevin, kauft bei einem Händler einen professionellen Werkzeugkoffer für CHF 2'800. Er plant, die Raten von seinem Lehrlingslohn zu bezahlen. Seine Eltern wissen nichts davon. Als die erste Rechnung kommt, sind sie entsetzt und fordern den Händler auf, den Koffer zurückzunehmen.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Fokussieren Sie auf das Alter von Kevin und den Wert des Kaufgegenstandes. Wer will was von wem?",
+              "hint": "Fokussieren Sie auf das Alter von Kevin und den Wert des Kaufgegenstandes. Wer will was von wem?",
+              "solution": "Beteiligte: Der 16-jährige Lernende Kevin, der Werkzeughändler, Kevins Eltern.\nWas ist passiert: Kevin hat ohne Wissen seiner Eltern einen teuren Werkzeugkoffer gekauft. Die Eltern wollen den Kauf rückgängig machen.\nRechtsfrage: Ist der Kaufvertrag zwischen Kevin und dem Händler gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Das zentrale Rechtskonzept ist die Handlungsfähigkeit, insbesondere die beschränkte Handlungsunfähigkeit. Schlagen Sie die relevanten Artikel im Zivilgesetzbuch nach. Gesetzeslage: ZGB Art. 13, ZGB Art. 14, ZGB Art. 19.",
+              "hint": "Das zentrale Rechtskonzept ist die Handlungsfähigkeit, insbesondere die beschränkte Handlungsunfähigkeit. Schlagen Sie die relevanten Artikel im Zivilgesetzbuch nach. Gesetzeslage: ZGB Art. 13, ZGB Art. 14, ZGB Art. 19.",
+              "solution": "Rechtsgebiet: Personenrecht / Vertragsrecht.\nRechtsvorschrift: Handlungsfähigkeit gemäss Zivilgesetzbuch (ZGB), insbesondere die Voraussetzungen in ZGB Art. 13 und die Regelung für Minderjährige in ZGB Art. 19."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Voraussetzungen müssen erfüllt sein, damit ein Minderjähriger einen Vertrag gültig abschliessen kann? Welche Rolle spielt die Zustimmung der Eltern?",
+              "hint": "Welche Voraussetzungen müssen erfüllt sein, damit ein Minderjähriger einen Vertrag gültig abschliessen kann? Welche Rolle spielt die Zustimmung der Eltern?",
+              "solution": "Tatbestandsmerkmale: Für die volle Handlungsfähigkeit sind Volljährigkeit (ZGB Art. 14) und Urteilsfähigkeit (ZGB Art. 16) erforderlich. Urteilsfähige Minderjährige sind beschränkt handlungsunfähig. Sie können sich nur mit Zustimmung ihrer gesetzlichen Vertreter (Eltern) durch ihre Handlungen verpflichten (ZGB Art. 19 Abs. 1).\nRechtsfolge bei fehlender Zustimmung: Ohne Zustimmung ist der Vertrag schwebend unwirksam. Er wird nur gültig, wenn die Eltern ihn nachträglich genehmigen. Verweigern sie die Genehmigung, wird der Vertrag endgültig ungültig."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Prüfen Sie, ob der Kauf des Werkzeugkoffers eine 'geringfügige Angelegenheit des täglichen Lebens' ist oder ob Kevin dafür die Zustimmung seiner Eltern benötigt hätte.",
+              "hint": "Prüfen Sie, ob der Kauf des Werkzeugkoffers eine 'geringfügige Angelegenheit des täglichen Lebens' ist oder ob Kevin dafür die Zustimmung seiner Eltern benötigt hätte.",
+              "solution": "Prüfung: Kevin ist 16 und somit minderjährig. Er ist für diesen Kauf zwar urteilsfähig, aber nicht volljährig. Der Kauf eines Werkzeugkoffers für CHF 2'800 ist keine geringfügige Angelegenheit des täglichen Lebens. Die Zustimmung seiner Eltern lag nicht vor und wurde auch nicht nachträglich erteilt.\nKonsequenz: Der Vertrag ist ungültig. Die Eltern können vom Händler verlangen, den Koffer zurückzunehmen und bereits geleistete Zahlungen zurückzuerstatten."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-2",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 1 (Grundlagen): Der ehrgeizige Lernende",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-1-1",
+              "prompt": "Was wäre, wenn Kevin den Koffer von seinem ersparten Geld aus einem Ferienjob vollständig bar bezahlt hätte?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-1-2",
+              "prompt": "Ändert sich die Situation, wenn Kevin bereits 18 Jahre alt wäre?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-3",
+          "type": "law-case-4-step",
+          "title": "Fall 2 (Grundlagen): Der falsche Adressat",
+          "caseText": "Die Werkstatt von Frau Huber bestellt bei der 'Kolben-Profi GmbH' eine Serie von Spezialkolben. Die Lieferung ist mangelhaft. Frau Huber will klagen und richtet ihre Klage an Herrn Schmidt, den Geschäftsführer und alleinigen Gesellschafter der GmbH, da sie immer nur mit ihm zu tun hatte. Herr Schmidt wehrt sich und meint, er sei die falsche Person.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie die beiden Vertragsparteien. Wer hat den Vertrag mit wem abgeschlossen?",
+              "hint": "Identifizieren Sie die beiden Vertragsparteien. Wer hat den Vertrag mit wem abgeschlossen?",
+              "solution": "Beteiligte: Werkstatt von Frau Huber (Käuferin), 'Kolben-Profi GmbH' (Verkäuferin), Herr Schmidt (Geschäftsführer der GmbH).\nWas ist passiert: Frau Huber will wegen mangelhafter Ware klagen und verklagt den Geschäftsführer persönlich anstatt die Firma.\nRechtsfrage: Wer ist der korrekte Beklagte in einem Prozess: die GmbH oder ihr Geschäftsführer?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Unterscheiden Sie zwischen einer natürlichen Person (Herr Schmidt) und einer juristischen Person (GmbH). Gesetzeslage: ZGB Art. 11, ZGB Art. 52, ZGB Art. 53.",
+              "hint": "Unterscheiden Sie zwischen einer natürlichen Person (Herr Schmidt) und einer juristischen Person (GmbH). Gesetzeslage: ZGB Art. 11, ZGB Art. 52, ZGB Art. 53.",
+              "solution": "Rechtsgebiet: Personenrecht.\nRechtsvorschrift: Die Unterscheidung zwischen natürlichen Personen (ZGB Art. 11 ff.) und juristischen Personen (ZGB Art. 52 ff.), insbesondere die Rechtsfähigkeit juristischer Personen (ZGB Art. 53)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was bedeutet es, dass eine juristische Person 'rechtsfähig' ist? Wer kann bei einer GmbH Rechte und Pflichten erwerben?",
+              "hint": "Was bedeutet es, dass eine juristische Person 'rechtsfähig' ist? Wer kann bei einer GmbH Rechte und Pflichten erwerben?",
+              "solution": "Tatbestandsmerkmale: Eine GmbH ist eine juristische Person (Körperschaft). Sie hat eine eigene Rechtspersönlichkeit, ist also selbst rechtsfähig (ZGB Art. 53). Das bedeutet, sie kann Trägerin von Rechten und Pflichten sein, Verträge abschliessen und haftet mit ihrem eigenen Vermögen. Sie handelt durch ihre Organe (z.B. den Geschäftsführer), aber die Verpflichtungen treffen die GmbH selbst, nicht das Organ persönlich.\nRechtsfolge: Vertragspartner und damit Inhaber der Rechte und Pflichten aus dem Vertrag ist die juristische Person, nicht die handelnde natürliche Person."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Erkenntnisse auf den Fall an. Ist Herr Schmidt oder die 'Kolben-Profi GmbH' der Vertragspartner von Frau Hubers Werkstatt?",
+              "hint": "Wenden Sie die Erkenntnisse auf den Fall an. Ist Herr Schmidt oder die 'Kolben-Profi GmbH' der Vertragspartner von Frau Hubers Werkstatt?",
+              "solution": "Prüfung: Der Kaufvertrag wurde zwischen der Werkstatt von Frau Huber und der 'Kolben-Profi GmbH' abgeschlossen. Die GmbH ist eine juristische Person und somit die Vertragspartnerin. Herr Schmidt hat lediglich als Organ (Geschäftsführer) für die GmbH gehandelt.\nKonsequenz: Herr Schmidt hat Recht. Die Klage muss gegen die 'Kolben-Profi GmbH' gerichtet werden. Eine Klage gegen Herrn Schmidt persönlich wäre unbegründet und würde abgewiesen."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-4",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 2 (Grundlagen): Der falsche Adressat",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-2-1",
+              "prompt": "Unter welchen Umständen könnte Herr Schmidt ausnahmsweise doch persönlich haften?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-2-2",
+              "prompt": "Was wäre, wenn 'Kolben-Profi' keine GmbH, sondern eine Einzelfirma von Herrn Schmidt wäre?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-5",
+          "type": "law-case-4-step",
+          "title": "Fall 3 (Grundlagen): Der feuchtfröhliche Kauf",
+          "caseText": "Landwirt Moser feiert auf der Landwirtschaftsmesse den Abschluss eines guten Geschäfts. Stark angetrunken bestellt er am Stand eines Werkstattleiters eine teure Motorsäge für CHF 1'500, die er sofort bezahlt und mitnimmt. Am nächsten Morgen kann er sich an nichts mehr erinnern und will die Säge zurückgeben. Der Verkäufer weigert sich und verweist auf den gültigen Kauf.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Analysieren Sie den Geisteszustand von Landwirt Moser zum Zeitpunkt des Vertragsabschlusses.",
+              "hint": "Analysieren Sie den Geisteszustand von Landwirt Moser zum Zeitpunkt des Vertragsabschlusses.",
+              "solution": "Beteiligte: Landwirt Moser (Käufer), Werkstattleiter (Verkäufer).\nWas ist passiert: Herr Moser kauft im stark angetrunkenen Zustand eine Motorsäge und will den Kauf am nächsten Tag rückgängig machen.\nRechtsfrage: Ist der Kaufvertrag gültig, obwohl Herr Moser beim Abschluss betrunken war?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Das zentrale Konzept ist die Urteilsfähigkeit als Voraussetzung für die Handlungsfähigkeit. Gesetzeslage: ZGB Art. 13, ZGB Art. 16.",
+              "hint": "Das zentrale Konzept ist die Urteilsfähigkeit als Voraussetzung für die Handlungsfähigkeit. Gesetzeslage: ZGB Art. 13, ZGB Art. 16.",
+              "solution": "Rechtsgebiet: Personenrecht / Vertragsrecht.\nRechtsvorschrift: Handlungsfähigkeit (ZGB Art. 13), insbesondere die Voraussetzung der Urteilsfähigkeit (ZGB Art. 16)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was sind die Voraussetzungen der Urteilsfähigkeit und welche Gründe können zu deren Fehlen führen? Was ist die Rechtsfolge eines Vertragsabschlusses ohne Urteilsfähigkeit?",
+              "hint": "Was sind die Voraussetzungen der Urteilsfähigkeit und welche Gründe können zu deren Fehlen führen? Was ist die Rechtsfolge eines Vertragsabschlusses ohne Urteilsfähigkeit?",
+              "solution": "Tatbestandsmerkmale: Handlungsfähig ist, wer urteilsfähig und volljährig ist. Urteilsfähig ist, wer vernunftgemäss handeln kann. Gemäss ZGB Art. 16 fehlt diese Fähigkeit unter anderem bei Rauschzuständen. Ein Vertrag, der von einer urteilsunfähigen Person abgeschlossen wird, entfaltet keine rechtliche Wirkung.\nRechtsfolge: Verträge, die im Zustand der Urteilsunfähigkeit geschlossen werden, sind von Anfang an nichtig (ungültig)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "War Landwirt Moser im Moment des Kaufs urteilsfähig? Was bedeutet das für die Gültigkeit des Kaufvertrags?",
+              "hint": "War Landwirt Moser im Moment des Kaufs urteilsfähig? Was bedeutet das für die Gültigkeit des Kaufvertrags?",
+              "solution": "Prüfung: Herr Moser war laut Sachverhalt 'stark angetrunken' und konnte sich am nächsten Tag an nichts erinnern. Dies deutet stark auf einen Rauschzustand hin, der die Urteilsfähigkeit ausschliesst. Für den Kauf einer Motorsäge für CHF 1'500 war er somit nicht urteilsfähig.\nKonsequenz: Der Kaufvertrag ist nichtig. Herr Moser kann die Motorsäge zurückgeben und die Rückerstattung des Kaufpreises von CHF 1'500 verlangen. Der Verkäufer muss die Säge zurücknehmen."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-6",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 3 (Grundlagen): Der feuchtfröhliche Kauf",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-3-1",
+              "prompt": "Wer muss beweisen, dass Herr Moser urteilsunfähig war?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-3-2",
+              "prompt": "Was wäre, wenn Herr Moser nur leicht angetrunken gewesen wäre und den Kauf bewusst getätigt hätte, ihn aber später bereut?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-7",
+          "type": "law-case-4-step",
+          "title": "Fall 4 (Anwenden): Der unachtsame Lehrling",
+          "caseText": "Der 17-jährige und sehr fähige Landmaschinenmechaniker-Lehrling Leo beschädigt beim Rangieren eines Kundentraktors aus Unachtsamkeit das danebenstehende Auto eines anderen Kunden. Der Schaden am Auto beträgt CHF 4'000. Der Autobesitzer will wissen, von wem er den Schaden ersetzt verlangen kann: von Leo, vom Werkstattinhaber oder von beiden?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Es geht hier nicht um einen Vertrag, sondern um eine ausservertragliche Schädigung. Identifizieren Sie den Schädiger, den Geschädigten und den Schaden.",
+              "hint": "Es geht hier nicht um einen Vertrag, sondern um eine ausservertragliche Schädigung. Identifizieren Sie den Schädiger, den Geschädigten und den Schaden.",
+              "solution": "Beteiligte: Lehrling Leo (Schädiger), Autobesitzer (Geschädigter), Werkstattinhaber (Geschäftsherr).\nWas ist passiert: Leo hat bei der Arbeit einen Schaden von CHF 4'000 an einem Kundenfahrzeug verursacht.\nRechtsfrage: Wer haftet für den entstandenen Schaden?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Prüfen Sie die Haftung aus unerlaubter Handlung (Deliktsfähigkeit) des Lehrlings und die Haftung des Arbeitgebers (Geschäftsherrenhaftung). Gesetzeslage: ZGB Art. 19 Abs. 3, OR Art. 41, OR Art. 55.",
+              "hint": "Prüfen Sie die Haftung aus unerlaubter Handlung (Deliktsfähigkeit) des Lehrlings und die Haftung des Arbeitgebers (Geschäftsherrenhaftung). Gesetzeslage: ZGB Art. 19 Abs. 3, OR Art. 41, OR Art. 55.",
+              "solution": "Rechtsgebiet: Haftpflichtrecht.\nRechtsvorschrift: Die persönliche Haftung des Lehrlings aus unerlaubter Handlung (OR Art. 41 in Verbindung mit ZGB Art. 19 Abs. 3) und die Haftung des Werkstattinhabers als Geschäftsherr (OR Art. 55)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Voraussetzungen müssen für die persönliche Haftung von Leo erfüllt sein? Welche für die Haftung des Werkstattinhabers? Beachten Sie, dass für die Deliktsfähigkeit die Volljährigkeit keine Rolle spielt.",
+              "hint": "Welche Voraussetzungen müssen für die persönliche Haftung von Leo erfüllt sein? Welche für die Haftung des Werkstattinhabers? Beachten Sie, dass für die Deliktsfähigkeit die Volljährigkeit keine Rolle spielt.",
+              "solution": "Regelanalyse:\n1. Haftung von Leo (OR Art. 41): Erforderlich sind Schaden, Widerrechtlichkeit, adäquater Kausalzusammenhang und Verschulden. Für das Verschulden ist Urteilsfähigkeit nötig. Gemäss ZGB Art. 19 Abs. 3 sind urteilsfähige Minderjährige deliktsfähig, also für Schäden, die sie verursachen, voll verantwortlich.\n2. Haftung des Werkstattinhabers (OR Art. 55): Der Geschäftsherr haftet für den Schaden, den seine Hilfsperson (der Lehrling) in Ausübung ihrer dienstlichen Verrichtung verursacht, wenn er nicht beweist, dass er alle nach den Umständen gebotene Sorgfalt angewendet hat (Auswahl, Instruktion, Überwachung). Dieser Beweis (Exkulpationsbeweis) ist in der Praxis sehr schwer zu erbringen.\nRechtsfolge: Oft haften beide, und zwar solidarisch. Das bedeutet, der Geschädigte kann wählen, von wem er den gesamten Betrag fordert."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Regeln auf den Fall an. Haften Leo und/oder der Werkstattinhaber? Wenn ja, wie haften sie?",
+              "hint": "Wenden Sie die Regeln auf den Fall an. Haften Leo und/oder der Werkstattinhaber? Wenn ja, wie haften sie?",
+              "solution": "Prüfung: Leo ist 17 und urteilsfähig, also deliktsfähig. Er hat den Schaden schuldhaft (unachtsam) verursacht und haftet persönlich nach OR Art. 41. Der Werkstattinhaber haftet als Geschäftsherr nach OR Art. 55, da der Schaden von seiner Hilfsperson Leo in Ausübung der Arbeit verursacht wurde. Ein Exkulpationsbeweis wird ihm kaum gelingen.\nKonsequenz: Der Autobesitzer kann die gesamten CHF 4'000 wahlweise von Leo oder vom Werkstattinhaber (oder von beiden anteilig) verlangen. In der Praxis wird er sich an den zahlungskräftigeren Werkstattinhaber halten. Dieser kann später auf Leo Rückgriff (Regress) nehmen, je nach Grad von dessen Verschulden."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-8",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 4 (Anwenden): Der unachtsame Lehrling",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-4-1",
+              "prompt": "Was bedeutet 'solidarische Haftung' für den Geschädigten?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-4-2",
+              "prompt": "Spielt es eine Rolle, dass Leo als 'sehr fähig' beschrieben wird?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-9",
+          "type": "law-case-4-step",
+          "title": "Fall 5 (Anwenden): Die voreilige Bestellung",
+          "caseText": "Die Mechaniker Meier und Keller beschliessen, eine eigene Werkstatt in der Rechtsform einer AG zu gründen. Sie haben den Gründungsakt bereits öffentlich beurkunden lassen. Noch bevor die 'Top-Mech AG' im Handelsregister eingetragen ist, bestellt Meier im Namen der 'Top-Mech AG i.G. (in Gründung)' bei einem Lieferanten eine Hebebühne für CHF 30'000. Der Lieferant liefert. Kurz darauf scheitert die Gründung. Der Lieferant will nun wissen, von wem er die Bezahlung verlangen kann.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Der entscheidende Punkt ist der Zeitpunkt der Bestellung im Verhältnis zur rechtlichen Existenz der AG.",
+              "hint": "Der entscheidende Punkt ist der Zeitpunkt der Bestellung im Verhältnis zur rechtlichen Existenz der AG.",
+              "solution": "Beteiligte: Lieferant, die Gründer Meier und Keller.\nWas ist passiert: Im Namen einer AG in Gründung wurde eine Hebebühne bestellt. Die AG wurde aber nie im Handelsregister eingetragen und existiert somit nicht. Der Lieferant fordert Bezahlung.\nRechtsfrage: Wer haftet für die Verbindlichkeiten einer Gesellschaft vor deren Eintragung ins Handelsregister?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Das relevante Thema ist die Entstehung der Rechtspersönlichkeit einer juristischen Person. Gesetzeslage: ZGB Art. 52.",
+              "hint": "Das relevante Thema ist die Entstehung der Rechtspersönlichkeit einer juristischen Person. Gesetzeslage: ZGB Art. 52.",
+              "solution": "Rechtsgebiet: Gesellschaftsrecht / Personenrecht.\nRechtsvorschrift: Entstehung der juristischen Person, insbesondere ZGB Art. 52 Abs. 1."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Wann erlangt eine AG ihre Rechtsfähigkeit? Was ist der rechtliche Status einer 'AG in Gründung'? Wer haftet für Handlungen, die in diesem Stadium vorgenommen werden?",
+              "hint": "Wann erlangt eine AG ihre Rechtsfähigkeit? Was ist der rechtliche Status einer 'AG in Gründung'? Wer haftet für Handlungen, die in diesem Stadium vorgenommen werden?",
+              "solution": "Tatbestandsmerkmale: Juristische Personen, die einen Handelsregistereintrag benötigen (wie die AG), erlangen ihre Rechtspersönlichkeit erst mit diesem Eintrag (ZGB Art. 52 Abs. 1). Vor dem Eintrag existiert die juristische Person nicht. Handelt jemand im Namen einer solchen 'Vorgesellschaft', kann die Gesellschaft selbst nicht verpflichtet werden.\nRechtsfolge: Für Verbindlichkeiten, die vor der Eintragung im Namen der Gesellschaft eingegangen werden, haften die handelnden Personen persönlich und solidarisch."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Existierte die 'Top-Mech AG' im Moment der Bestellung rechtlich? Wenn nicht, wer wird dann zum Vertragspartner des Lieferanten?",
+              "hint": "Existierte die 'Top-Mech AG' im Moment der Bestellung rechtlich? Wenn nicht, wer wird dann zum Vertragspartner des Lieferanten?",
+              "solution": "Prüfung: Zum Zeitpunkt der Bestellung war die 'Top-Mech AG' noch nicht im Handelsregister eingetragen. Sie existierte als juristische Person also noch nicht und konnte somit keine Vertragspartnerin werden. Meier hat im Namen dieser nicht-existenten Gesellschaft gehandelt.\nKonsequenz: Der Lieferant kann die Bezahlung der CHF 30'000 von Herrn Meier persönlich fordern. Da Meier und Keller gemeinsam die Gründung beschlossen haben, haftet auch Keller solidarisch für diese Gründungsschuld. Der Lieferant kann sich also an Meier und/oder Keller halten."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-10",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 5 (Anwenden): Die voreilige Bestellung",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-5-1",
+              "prompt": "Was wäre passiert, wenn die AG später erfolgreich im Handelsregister eingetragen worden wäre?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-5-2",
+              "prompt": "Gilt diese Regelung für alle juristischen Personen?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-11",
+          "type": "law-case-4-step",
+          "title": "Fall 6 (Anwenden): Der beschützte Kunde",
+          "caseText": "Ein Werkstattleiter verkauft einem älteren, alleinstehenden Kunden eine gebrauchte Landmaschine für CHF 25'000. Der Kunde bezahlt bar. Zwei Wochen später meldet sich ein Anwalt, der als Beistand des Kunden amtet. Er legt ein Dokument der KESB vor, wonach für den Kunden eine umfassende Beistandschaft angeordnet wurde, da dieser seine finanziellen Angelegenheiten nicht mehr selbst regeln kann. Der Beistand erklärt den Kauf für ungültig und fordert das Geld zurück.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Identifizieren Sie den rechtlichen Status des Kunden. Was bedeutet 'umfassende Beistandschaft'?",
+              "hint": "Identifizieren Sie den rechtlichen Status des Kunden. Was bedeutet 'umfassende Beistandschaft'?",
+              "solution": "Beteiligte: Werkstattleiter (Verkäufer), älterer Kunde (Käufer), Beistand des Kunden.\nWas ist passiert: Ein Kunde, für den eine umfassende Beistandschaft besteht, hat eine teure Maschine gekauft. Sein Beistand will den Kauf rückgängig machen.\nRechtsfrage: Ist ein von einer Person unter umfassender Beistandschaft geschlossener Vertrag gültig?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Das Thema ist die Handlungsfähigkeit von volljährigen Personen unter Beistandschaft. Gesetzeslage: ZGB Art. 19c (Verweis), ZGB Art. 398.",
+              "hint": "Das Thema ist die Handlungsfähigkeit von volljährigen Personen unter Beistandschaft. Gesetzeslage: ZGB Art. 19c (Verweis), ZGB Art. 398.",
+              "solution": "Rechtsgebiet: Erwachsenenschutzrecht / Personenrecht.\nRechtsvorschrift: Die umfassende Beistandschaft und ihre Wirkung auf die Handlungsfähigkeit, geregelt in ZGB Art. 398. Die Handlungsfähigkeit richtet sich nach den Regeln für Minderjährige (Verweis in ZGB Art. 19c)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Welche Wirkung hat eine umfassende Beistandschaft auf die Handlungsfähigkeit einer Person? Welche Regeln gelten für Vertragsabschlüsse?",
+              "hint": "Welche Wirkung hat eine umfassende Beistandschaft auf die Handlungsfähigkeit einer Person? Welche Regeln gelten für Vertragsabschlüsse?",
+              "solution": "Tatbestandsmerkmale: Eine umfassende Beistandschaft wird für Personen errichtet, die dauernd urteilsunfähig sind oder aus anderen Gründen besonders hilfsbedürftig sind. Die Anordnung einer umfassenden Beistandschaft führt von Gesetzes wegen zum Entzug der Handlungsfähigkeit (ZGB Art. 398 Abs. 3). Die betroffene Person wird rechtlich wie eine urteilsfähige minderjährige Person behandelt.\nRechtsfolge: Sie kann sich nur mit Zustimmung ihres Beistands vertraglich verpflichten. Ohne diese Zustimmung sind die Verträge (bis auf wenige Ausnahmen) ungültig."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "War der Kunde berechtigt, die Landmaschine ohne Zustimmung seines Beistands zu kaufen? Was ist die Folge für den Vertrag?",
+              "hint": "War der Kunde berechtigt, die Landmaschine ohne Zustimmung seines Beistands zu kaufen? Was ist die Folge für den Vertrag?",
+              "solution": "Prüfung: Der Kunde stand unter einer umfassenden Beistandschaft und war daher nicht voll handlungsfähig. Der Kauf einer Maschine für CHF 25'000 ist keine geringfügige Angelegenheit des täglichen Lebens. Er hätte die Zustimmung seines Beistands benötigt. Der Beistand hat diese Zustimmung verweigert.\nKonsequenz: Der Kaufvertrag ist ungültig. Der Werkstattleiter muss den Kaufpreis von CHF 25'000 zurückerstatten und erhält im Gegenzug die Maschine zurück."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-12",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 6 (Anwenden): Der beschützte Kunde",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-6-1",
+              "prompt": "Hätte der Werkstattleiter wissen müssen, dass der Kunde unter Beistandschaft steht?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-6-2",
+              "prompt": "Gibt es Ausnahmen, bei denen der Kunde trotz Beistandschaft allein handeln könnte?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-13",
+          "type": "law-case-4-step",
+          "title": "Fall 7 (Analysieren): Das teure Hobby",
+          "caseText": "Der 17-jährige Lernende Mike verdient monatlich CHF 1'200. Gemäss Abmachung mit seinen Eltern muss er davon CHF 300 für Kost und Logis abgeben und seine Roller-Versicherung bezahlen. Statt die fällige Versicherungsprämie von CHF 500 zu überweisen, kauft er sich ein neues High-End-Smartphone für CHF 1'100. Die Eltern erfahren davon, als die Mahnung der Versicherung eintrifft. Sie sind der Meinung, der Kauf sei nicht rechtens und wollen das Smartphone zurückgeben.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Das Kernproblem ist der Konflikt zwischen dem Recht des Minderjährigen, über seinen Lohn zu verfügen, und den Verpflichtungen, die er damit erfüllen muss.",
+              "hint": "Das Kernproblem ist der Konflikt zwischen dem Recht des Minderjährigen, über seinen Lohn zu verfügen, und den Verpflichtungen, die er damit erfüllen muss.",
+              "solution": "Beteiligte: Lernender Mike (17), seine Eltern, der Smartphone-Verkäufer.\nWas ist passiert: Mike verwendet seinen Lohn für ein teures Smartphone anstatt für notwendige Ausgaben (Versicherung). Die Eltern wollen den Kauf rückgängig machen.\nRechtsfrage: War der Kauf des Smartphones vom Recht Mikes, über seinen Lohn zu verfügen, gedeckt, oder hätten die Eltern zustimmen müssen?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Hier konkurrieren zwei Rechtsnormen: Die grundsätzliche Handlungsfähigkeit für den eigenen Lohn und die allgemeine Regel der Zustimmungspflicht der Eltern. Gesetzeslage: ZGB Art. 323 (Verfügung über Arbeitserwerb) und ZGB Art. 19 (Zustimmung des gesetzlichen Vertreters).",
+              "hint": "Hier konkurrieren zwei Rechtsnormen: Die grundsätzliche Handlungsfähigkeit für den eigenen Lohn und die allgemeine Regel der Zustimmungspflicht der Eltern. Gesetzeslage: ZGB Art. 323 (Verfügung über Arbeitserwerb) und ZGB Art. 19 (Zustimmung des gesetzlichen Vertreters).",
+              "solution": "Rechtsgebiet: Personenrecht / Familienrecht.\nRechtsvorschrift: Es besteht ein Spannungsverhältnis zwischen der besonderen Regelung zur Verfügung über den Arbeitserwerb (ZGB Art. 323) und der allgemeinen Regel zur beschränkten Handlungsunfähigkeit (ZGB Art. 19)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Analysieren Sie den Umfang von ZGB Art. 323. Ist das Recht, über den Lohn zu verfügen, absolut? Welche Rolle spielen die Lebenshaltungskosten und die elterliche Aufsicht?",
+              "hint": "Analysieren Sie den Umfang von ZGB Art. 323. Ist das Recht, über den Lohn zu verfügen, absolut? Welche Rolle spielen die Lebenshaltungskosten und die elterliche Aufsicht?",
+              "solution": "Regelanalyse: Gemäss ZGB Art. 323 Abs. 1 verwaltet und nutzt das Kind seinen Arbeitserwerb selbst. Dieses Recht ist jedoch nicht absolut. Nach Abs. 2 muss das Kind einen angemessenen Beitrag an seinen Unterhalt leisten, wenn es bei den Eltern wohnt. Zudem behalten die Eltern eine gewisse Aufsicht. Wenn das Kind sein Geld unvernünftig ausgibt und damit seine Unterhaltspflichten oder andere wichtige Verpflichtungen vernachlässigt, können die Eltern ihm die freie Verfügung über den Lohn teilweise oder ganz entziehen.\nRechtsfolge: Überschreitet der Minderjährige seine Befugnisse, fällt man auf die Grundregel von ZGB Art. 19 zurück: Der Vertrag ist ohne Zustimmung der Eltern ungültig."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wägen Sie die beiden Prinzipien gegeneinander ab. Hat Mike im konkreten Fall die Grenzen seiner Verfügungsbefugnis überschritten? Was bedeutet das für den Vertrag?",
+              "hint": "Wägen Sie die beiden Prinzipien gegeneinander ab. Hat Mike im konkreten Fall die Grenzen seiner Verfügungsbefugnis überschritten? Was bedeutet das für den Vertrag?",
+              "solution": "Prüfung: Mike hat seinen Lohn für einen Luxusartikel ausgegeben und dabei eine notwendige und vereinbarte Zahlung (Versicherungsprämie) vernachlässigt. Er hat damit die Grenzen seiner freien Verfügungsbefugnis nach ZGB Art. 323 überschritten. Der Kauf gefährdet seine finanziellen Verpflichtungen. Daher ist die allgemeine Regel der beschränkten Handlungsunfähigkeit anwendbar.\nKonsequenz: Da die Eltern ihre Zustimmung verweigern, ist der Kaufvertrag über das Smartphone ungültig. Sie können die Rückgabe des Geräts und die Rückerstattung des Kaufpreises verlangen."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-14",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 7 (Analysieren): Das teure Hobby",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-7-1",
+              "prompt": "Wäre die Situation anders, wenn Mike alle seine Rechnungen bezahlt hätte und das Smartphone vom restlichen Geld gekauft hätte?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-7-2",
+              "prompt": "Hätte der Verkäufer die finanzielle Situation von Mike überprüfen müssen?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-15",
+          "type": "law-case-4-step",
+          "title": "Fall 8 (Analysieren): Der klare Moment",
+          "caseText": "Werkstattleiter Vogel kennt den älteren Landwirt Huber seit Jahren. Er weiss, dass Huber manchmal verwirrt ist und unter einer milden Form von Demenz leidet. Eines Tages kommt Huber in die Werkstatt, ist aber völlig klar, gut gelaunt und diskutiert fachlich versiert über die Notwendigkeit eines neuen Mähwerks für CHF 18'000. Sie schliessen einen Kaufvertrag ab. Eine Woche später ficht Hubers Sohn den Vertrag an mit der Begründung, sein Vater sei generell urteilsunfähig.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Der Kern des Problems ist die Frage, ob eine Person, die generell beeinträchtigt ist, in einem bestimmten Moment trotzdem urteilsfähig sein kann.",
+              "hint": "Der Kern des Problems ist die Frage, ob eine Person, die generell beeinträchtigt ist, in einem bestimmten Moment trotzdem urteilsfähig sein kann.",
+              "solution": "Beteiligte: Werkstattleiter Vogel, Landwirt Huber, Hubers Sohn.\nWas ist passiert: Ein Landwirt, der bekanntermassen an Demenz leidet, schliesst in einem klaren Moment einen Kaufvertrag ab. Sein Sohn will diesen anfechten.\nRechtsfrage: Ist der Vertrag gültig, wenn er während eines 'lichten Moments' (lucidum intervallum) einer ansonsten beeinträchtigten Person geschlossen wurde?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Das Schlüsselkonzept ist die Relativität der Urteilsfähigkeit. Es gibt keinen permanenten Zustand, sondern es kommt auf den konkreten Moment und die konkrete Handlung an. Gesetzeslage: ZGB Art. 16.",
+              "hint": "Das Schlüsselkonzept ist die Relativität der Urteilsfähigkeit. Es gibt keinen permanenten Zustand, sondern es kommt auf den konkreten Moment und die konkrete Handlung an. Gesetzeslage: ZGB Art. 16.",
+              "solution": "Rechtsgebiet: Personenrecht.\nRechtsvorschrift: Die Definition und die Voraussetzungen der Urteilsfähigkeit gemäss ZGB Art. 16."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was bedeutet 'Relativität der Urteilsfähigkeit'? Kann jemand für eine komplexe Handlung urteilsfähig sein, für eine andere aber nicht? Was ist ein 'lichter Moment' (lucidum intervallum)?",
+              "hint": "Was bedeutet 'Relativität der Urteilsfähigkeit'? Kann jemand für eine komplexe Handlung urteilsfähig sein, für eine andere aber nicht? Was ist ein 'lichter Moment' (lucidum intervallum)?",
+              "solution": "Regelanalyse: Die Urteilsfähigkeit ist ein relativer Begriff. Sie wird nicht abstrakt, sondern immer in Bezug auf eine bestimmte Handlung zu einem bestimmten Zeitpunkt beurteilt. Eine Person kann für einfache Alltagsgeschäfte urteilsfähig sein, für komplexe Finanztransaktionen aber nicht. Selbst Personen mit einer psychischen Krankheit oder Demenz können lichte Momente (lucida intervalla) haben, in denen sie vorübergehend urteilsfähig sind.\nRechtsfolge: Ein in einem solchen lichten Moment geschlossener Vertrag ist gültig. Die Beweislast für das Fehlen der Urteilsfähigkeit im entscheidenden Moment liegt bei demjenigen, der sich darauf beruft (hier: der Sohn)."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Analysieren Sie die Fakten: Hubers Zustand war an diesem Tag 'völlig klar'. Welche Partei muss was beweisen? Was ist die wahrscheinliche Konsequenz für den Vertrag?",
+              "hint": "Analysieren Sie die Fakten: Hubers Zustand war an diesem Tag 'völlig klar'. Welche Partei muss was beweisen? Was ist die wahrscheinliche Konsequenz für den Vertrag?",
+              "solution": "Prüfung: Laut Sachverhalt war Huber im Moment des Vertragsabschlusses 'völlig klar' und 'fachlich versiert'. Dies spricht stark dafür, dass er einen lichten Moment hatte und für dieses spezifische Geschäft urteilsfähig war. Sein Sohn müsste das Gegenteil beweisen, was schwierig sein wird. Er müsste nachweisen, dass sein Vater trotz des Anscheins nicht in der Lage war, die Bedeutung und die Konsequenzen des Kaufs zu verstehen.\nKonsequenz: Der Kaufvertrag ist mit hoher Wahrscheinlichkeit gültig. Werkstattleiter Vogel kann auf der Erfüllung des Vertrags bestehen."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-16",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 8 (Analysieren): Der klare Moment",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-8-1",
+              "prompt": "Was hätte Werkstattleiter Vogel tun können, um sich rechtlich besser abzusichern?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-8-2",
+              "prompt": "Wäre die Situation anders, wenn für Herrn Huber eine Beistandschaft errichtet worden wäre?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-17",
+          "type": "law-case-4-step",
+          "title": "Fall 9 (Analysieren): Schulden über den Tod hinaus",
+          "caseText": "Ein Ersatzteillieferant hat eine offene Forderung von CHF 15'000 gegen die 'Werkstatt Moser'. Der Inhaber, Hans Moser, verstirbt unerwartet. Seine einzige Tochter und Erbin, Klara, weiss nichts von den Schulden. Der Lieferant meldet sich bei ihr und verlangt die Bezahlung der Rechnung. Klara meint, sie habe mit den Geschäften ihres Vaters nichts zu tun.\n\nVariante: Die 'Werkstatt Moser' war keine Einzelfirma, sondern eine GmbH, deren alleiniger Gesellschafter und Geschäftsführer Hans Moser war. Klara erbt die Geschäftsanteile.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Unterscheiden Sie die Haftungssituation bei einer Einzelfirma (natürliche Person) und einer GmbH (juristische Person).",
+              "hint": "Unterscheiden Sie die Haftungssituation bei einer Einzelfirma (natürliche Person) und einer GmbH (juristische Person).",
+              "solution": "Beteiligte: Ersatzteillieferant (Gläubiger), verstorbener Hans Moser (Schuldner), Erbin Klara.\nWas ist passiert: Ein Geschäftsinhaber stirbt und hinterlässt Schulden. Seine Erbin wird mit der Forderung konfrontiert.\nRechtsfrage: Haftet eine Erbin für die Geschäftsschulden des Verstorbenen? Gibt es einen Unterschied zwischen einer Einzelfirma und einer GmbH?"
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Für die Einzelfirma sind das Erbrecht (Universalsukzession) und die Haftung der Erben relevant. Für die GmbH die Regeln zur juristischen Person und deren beschränkte Haftung. Gesetzeslage: ZGB Art. 560 (Erbgang), OR Art. 772 ff. (GmbH).",
+              "hint": "Für die Einzelfirma sind das Erbrecht (Universalsukzession) und die Haftung der Erben relevant. Für die GmbH die Regeln zur juristischen Person und deren beschränkte Haftung. Gesetzeslage: ZGB Art. 560 (Erbgang), OR Art. 772 ff. (GmbH).",
+              "solution": "Rechtsgebiet: Erbrecht und Gesellschaftsrecht.\nRechtsvorschrift: Für die Einzelfirma: Erbrecht, insbesondere die Universalsukzession gemäss ZGB Art. 560. Für die GmbH: Die Regeln zur juristischen Person und zur beschränkten Haftung (ZGB Art. 52 ff., OR Art. 772 ff.)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Was bedeutet Universalsukzession? Wer haftet für die Schulden einer verstorbenen natürlichen Person? Wie ist die Haftung bei einer GmbH geregelt? Wer ist dort der Schuldner?",
+              "hint": "Was bedeutet Universalsukzession? Wer haftet für die Schulden einer verstorbenen natürlichen Person? Wie ist die Haftung bei einer GmbH geregelt? Wer ist dort der Schuldner?",
+              "solution": "Regelanalyse:\nVariante Einzelfirma: Eine Einzelfirma ist rechtlich nicht vom Inhaber getrennt. Der Inhaber ist eine natürliche Person. Mit seinem Tod gehen alle seine Vermögenswerte (Aktiven) und Schulden (Passiven) von Gesetzes wegen auf die Erben über (Universalsukzession, ZGB Art. 560). Die Erben haften für die Schulden des Erblassers persönlich und unbeschränkt, auch mit ihrem Privatvermögen.\nVariante GmbH: Eine GmbH ist eine juristische Person mit eigenem Vermögen. Sie ist die Schuldnerin. Die Gesellschafter haften nicht persönlich für die Schulden der GmbH. Beim Tod eines Gesellschafters werden nur seine Geschäftsanteile vererbt, nicht die Schulden der Firma."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Wenden Sie die Regeln auf beide Varianten an. Wer muss in welchem Fall die Rechnung bezahlen: Klara persönlich oder die GmbH?",
+              "hint": "Wenden Sie die Regeln auf beide Varianten an. Wer muss in welchem Fall die Rechnung bezahlen: Klara persönlich oder die GmbH?",
+              "solution": "Konsequenz:\nVariante Einzelfirma: Die Forderung von CHF 15'000 ist eine Schuld von Hans Moser persönlich. Sie geht auf seine Erbin Klara über. Klara haftet für diese Schuld mit dem geerbten Vermögen und ihrem eigenen Privatvermögen. Ihre Aussage, sie habe damit nichts zu tun, ist rechtlich falsch. Sie hätte die Erbschaft ausschlagen können, um der Haftung zu entgehen.\nVariante GmbH: Die Schuldnerin ist die 'Werkstatt Moser GmbH'. Der Lieferant muss seine Forderung bei der GmbH geltend machen. Klara erbt nur die Anteile an der Firma, haftet aber nicht persönlich für deren Schulden. Die Forderung muss aus dem Vermögen der GmbH bezahlt werden."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-18",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 9 (Analysieren): Schulden über den Tod hinaus",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-9-1",
+              "prompt": "Welche Möglichkeiten hätte Klara in der Variante Einzelfirma gehabt, wenn sie von den Schulden gewusst hätte?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-9-2",
+              "prompt": "Was bedeutet die Unterscheidung für einen Lieferanten, der seine Kunden kreditwürdig prüfen will?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-19",
+          "type": "law-case-4-step",
+          "title": "Fall 10 (Transfer/Beurteilung): Das fragwürdige Geschäft",
+          "caseText": "Ein langjähriger, 80-jähriger Kunde kommt in Ihre Werkstatt. Seit dem Tod seiner Frau vor einem Jahr wirkt er oft abwesend und vergesslich. Er möchte nun seinen fast neuwertigen Traktor gegen ein viel älteres, aber 'schöneres' Oldtimer-Modell eintauschen und Ihnen zusätzlich CHF 10'000 bezahlen. Das Geschäft wäre für Ihre Werkstatt äusserst profitabel. Der objektive Wert seines Traktors ist mindestens CHF 30'000 höher als der des Oldtimers. Sie haben das Gefühl, dass der Kunde die finanziellen Konsequenzen nicht ganz überblickt. Wie verhalten Sie sich?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Analysieren Sie die Situation nicht nur rechtlich, sondern auch aus kaufmännischer und ethischer Sicht. Es geht um ein offensichtlich nachteiliges Geschäft für einen möglicherweise schutzbedürftigen Kunden.",
+              "hint": "Analysieren Sie die Situation nicht nur rechtlich, sondern auch aus kaufmännischer und ethischer Sicht. Es geht um ein offensichtlich nachteiliges Geschäft für einen möglicherweise schutzbedürftigen Kunden.",
+              "solution": "Situation: Ein langjähriger, potenziell nicht mehr voll urteilsfähiger Kunde schlägt ein für ihn finanziell sehr nachteiliges Geschäft vor. Der Werkstattleiter erkennt die Problematik.\nProblemstellung: Der Werkstattleiter muss entscheiden, ob er das profitable Geschäft abschliesst oder ablehnt, und dabei rechtliche, kaufmännische und ethische Aspekte berücksichtigen."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Rechtlich steht die Frage der Urteilsfähigkeit im Raum. Kaufmännisch geht es um Reputation und Kundenbeziehung. Gesetzeslage: ZGB Art. 16, eventuell auch Übervorteilung (OR Art. 21).",
+              "hint": "Rechtlich steht die Frage der Urteilsfähigkeit im Raum. Kaufmännisch geht es um Reputation und Kundenbeziehung. Gesetzeslage: ZGB Art. 16, eventuell auch Übervorteilung (OR Art. 21).",
+              "solution": "Rechtsgebiet: Personenrecht, Vertragsrecht.\nRechtsvorschrift: Zentral ist die Frage der Urteilsfähigkeit des Kunden (ZGB Art. 16). Ein Vertrag, der ohne die nötige Urteilsfähigkeit geschlossen wird, ist nichtig. Zudem könnte der Tatbestand der Übervorteilung (OR Art. 21) erfüllt sein, wenn ein offenbares Missverhältnis der Leistungen vorliegt und die Notlage oder Unerfahrenheit einer Partei ausgenutzt wird."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Listen Sie die verschiedenen Handlungsoptionen auf: Geschäft durchziehen, ablehnen, modifizieren, Dritte einbeziehen. Bewerten Sie die kurz- und langfristigen Folgen jeder Option.",
+              "hint": "Listen Sie die verschiedenen Handlungsoptionen auf: Geschäft durchziehen, ablehnen, modifizieren, Dritte einbeziehen. Bewerten Sie die kurz- und langfristigen Folgen jeder Option.",
+              "solution": "Handlungsoptionen:\n1. Geschäft wie vorgeschlagen abschliessen: Kurzfristig hoher Gewinn. Langfristig hohes Risiko: Der Vertrag könnte später von Verwandten oder einem Beistand wegen Urteilsunfähigkeit oder Übervorteilung angefochten werden. Dies führt zu Rechtsstreitigkeiten und einem massiven Reputationsschaden.\n2. Geschäft ablehnen: Kein Gewinn, aber auch kein Risiko. Die Kundenbeziehung bleibt möglicherweise erhalten, da man sich als verantwortungsbewusst erweist.\n3. Kunden aufklären und ein faires Angebot machen: Dem Kunden den realen Wertunterschied erklären und ein Tauschgeschäft zu fairen Konditionen vorschlagen. Dies zeigt Integrität und stärkt die Kundenbindung.\n4. Vorschlagen, einen Angehörigen beizuziehen: Den Kunden bitten, das Geschäft mit seinem Sohn/seiner Tochter oder einer anderen Vertrauensperson zu besprechen. Dies sichert die Entscheidung ab und minimiert das rechtliche Risiko."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Entwickeln Sie eine begründete Empfehlung für das beste Vorgehen. Wägen Sie dabei das kurzfristige Profitinteresse gegen das langfristige Risiko (Rechtsstreit, Reputationsschaden) und die ethische Verantwortung ab.",
+              "hint": "Entwickeln Sie eine begründete Empfehlung für das beste Vorgehen. Wägen Sie dabei das kurzfristige Profitinteresse gegen das langfristige Risiko (Rechtsstreit, Reputationsschaden) und die ethische Verantwortung ab.",
+              "solution": "Empfehlung (Transferleistung): Die beste Vorgehensweise ist eine Kombination aus Option 3 und 4. Der Werkstattleiter sollte das Geschäft in der vorgeschlagenen Form kategorisch ablehnen. Er sollte dem Kunden taktvoll die Wertverhältnisse erklären und ihm nahelegen, eine so weitreichende Entscheidung mit einer Vertrauensperson (z.B. aus der Familie) zu besprechen. Dies ist nicht nur ethisch korrekt, sondern auch kaufmännisch klug. Es vermeidet rechtliche Risiken und schützt die langfristige Reputation des Betriebs als fairer und vertrauenswürdiger Partner. Der kurzfristige Profit wiegt die potenziellen negativen Konsequenzen bei weitem nicht auf."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-20",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 10 (Transfer/Beurteilung): Das fragwürdige Geschäft",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-10-1",
+              "prompt": "Was ist der Unterschied zwischen fehlender Urteilsfähigkeit (ZGB Art. 16) und Übervorteilung (OR Art. 21)?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-10-2",
+              "prompt": "Könnte sich der Werkstattleiter strafbar machen, wenn er das Geschäft durchzieht?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-21",
+          "type": "law-case-4-step",
+          "title": "Fall 11 (Transfer/Beurteilung): Der Schritt in die Selbstständigkeit",
+          "caseText": "Ein junger, talentierter Landmaschinenmechaniker plant, sich selbstständig zu machen. Er hat etwas Startkapital gespart. Er fragt Sie als erfahrenen Werkstattleiter um Rat, ob er seine Werkstatt als Einzelfirma oder als GmbH gründen soll. Erklären Sie ihm die wesentlichen Unterschiede in Bezug auf Haftung, Rechtspersönlichkeit und Handlungsfähigkeit und geben Sie ihm eine begründete Empfehlung.",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Strukturieren Sie Ihre Antwort, indem Sie die beiden Rechtsformen anhand der Kriterien 'Haftung', 'Rechtspersönlichkeit' und 'Handlungsfähigkeit' vergleichen.",
+              "hint": "Strukturieren Sie Ihre Antwort, indem Sie die beiden Rechtsformen anhand der Kriterien 'Haftung', 'Rechtspersönlichkeit' und 'Handlungsfähigkeit' vergleichen.",
+              "solution": "Situation: Ein angehender Jungunternehmer benötigt eine Entscheidungshilfe für die Wahl der passenden Rechtsform (Einzelfirma vs. GmbH).\nProblemstellung: Die Vor- und Nachteile der beiden Rechtsformen müssen anhand zentraler rechtlicher Kriterien praxisorientiert erklärt und eine Empfehlung abgegeben werden."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Ziehen Sie die grundlegenden Definitionen der natürlichen Person und der juristischen Person heran. Gesetzeslage: ZGB Art. 11 ff., ZGB Art. 52 ff., OR Art. 772 ff.",
+              "hint": "Ziehen Sie die grundlegenden Definitionen der natürlichen Person und der juristischen Person heran. Gesetzeslage: ZGB Art. 11 ff., ZGB Art. 52 ff., OR Art. 772 ff.",
+              "solution": "Rechtsgebiet: Personenrecht und Gesellschaftsrecht.\nRechtsvorschrift: Die Regelungen zur natürlichen Person (als Träger der Einzelfirma) in ZGB Art. 11 ff. und zur juristischen Person (GmbH) in ZGB Art. 52 ff. sowie die spezifischen Bestimmungen zur GmbH im Obligationenrecht (OR Art. 772 ff.)."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Arbeiten Sie die praktischen Konsequenzen der Unterschiede heraus. Was bedeutet 'unbeschränkte persönliche Haftung' im Alltag eines Mechanikers? Was bedeutet 'Handeln durch Organe'?",
+              "hint": "Arbeiten Sie die praktischen Konsequenzen der Unterschiede heraus. Was bedeutet 'unbeschränkte persönliche Haftung' im Alltag eines Mechanikers? Was bedeutet 'Handeln durch Organe'?",
+              "solution": "Vergleich der Rechtsformen:\n1. Rechtspersönlichkeit:\n   - Einzelfirma: Keine eigene Rechtspersönlichkeit. Die Firma ist rechtlich identisch mit dem Inhaber (natürliche Person). Verträge werden im Namen des Inhabers geschlossen.\n   - GmbH: Eigene Rechtspersönlichkeit (juristische Person). Die GmbH ist ein eigenständiges Rechtssubjekt, das selbst Verträge schliesst, klagen und verklagt werden kann.\n\n2. Haftung:\n   - Einzelfirma: Der Inhaber haftet unbeschränkt mit seinem gesamten Geschäfts- und Privatvermögen. Ein Fehler in der Werkstatt kann zum Verlust des Eigenheims führen.\n   - GmbH: Für die Schulden der GmbH haftet ausschliesslich das Gesellschaftsvermögen. Die Haftung des Gesellschafters ist auf seine Kapitaleinlage beschränkt.\n\n3. Handlungsfähigkeit:\n   - Einzelfirma: Der Inhaber handelt selbst, sofern er handlungsfähig ist (volljährig, urteilsfähig).\n   - GmbH: Die GmbH wird handlungsfähig durch die Bestellung ihrer Organe (Geschäftsführung, Gesellschafterversammlung). Die Geschäftsführer handeln für die GmbH."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Formulieren Sie eine klare Empfehlung. Wägen Sie die Vorteile (z.B. Haftungsbeschränkung der GmbH) gegen die Nachteile (z.B. höherer Gründungs- und Verwaltungsaufwand) ab und beziehen Sie dies auf die Situation eines Werkstattbetriebs.",
+              "hint": "Formulieren Sie eine klare Empfehlung. Wägen Sie die Vorteile (z.B. Haftungsbeschränkung der GmbH) gegen die Nachteile (z.B. höherer Gründungs- und Verwaltungsaufwand) ab und beziehen Sie dies auf die Situation eines Werkstattbetriebs.",
+              "solution": "Empfehlung (Transferleistung): Für einen Werkstattbetrieb, bei dem potenziell hohe Schäden an teuren Kundenmaschinen entstehen können und regelmässig Verträge über grosse Summen (z.B. Verkauf von Maschinen) abgeschlossen werden, ist die Gründung einer GmbH dringend zu empfehlen. Der entscheidende Vorteil ist die Haftungsbeschränkung. Sie schützt das private Vermögen des Gründers vor Geschäftsrisiken. Zwar sind der Gründungsaufwand (Notar, Handelsregister, Stammkapital von mind. CHF 20'000) und der administrative Aufwand (doppelte Buchführung) höher als bei einer Einzelfirma, doch dieser Mehraufwand ist eine wichtige Investition in die persönliche finanzielle Sicherheit. Die klare Trennung zwischen Geschäfts- und Privatvermögen schafft eine professionelle und stabile Grundlage für das Unternehmen."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-22",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 11 (Transfer/Beurteilung): Der Schritt in die Selbstständigkeit",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-11-1",
+              "prompt": "Gibt es Situationen, in denen eine Einzelfirma trotzdem die bessere Wahl sein könnte?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-11-2",
+              "prompt": "Kann man später von einer Einzelfirma in eine GmbH wechseln?"
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-case-23",
+          "type": "law-case-4-step",
+          "title": "Fall 12 (Transfer/Beurteilung): Der überforderte Jungunternehmer",
+          "caseText": "Ein 19-jähriger, eben volljährig gewordener Kunde gründet ein kleines Gartenbauunternehmen. Er kommt in Ihre Werkstatt und möchte einen Kompaktbagger für CHF 70'000 kaufen. Er hat kaum Eigenkapital und möchte den Kauf vollständig über einen Leasingvertrag finanzieren, den Sie ihm vermitteln. Der Vertrag hat eine Laufzeit von 5 Jahren und enthält komplexe Klauseln zu Service, Restwert und Versicherung. Während des Gesprächs merken Sie, dass der junge Mann zwar begeistert ist, aber die langfristigen finanziellen Verpflichtungen und Risiken des Vertrags offensichtlich unterschätzt. Was tun Sie?",
+          "steps": [
+            {
+              "id": "step_1",
+              "title": "Sachverhalt erfassen",
+              "prompt": "Der Kunde ist rechtlich voll handlungsfähig. Das Problem liegt auf einer subtileren Ebene: der tatsächlichen Fähigkeit, die Tragweite eines komplexen Geschäfts zu erfassen (faktische Unerfahrenheit).",
+              "hint": "Der Kunde ist rechtlich voll handlungsfähig. Das Problem liegt auf einer subtileren Ebene: der tatsächlichen Fähigkeit, die Tragweite eines komplexen Geschäfts zu erfassen (faktische Unerfahrenheit).",
+              "solution": "Situation: Ein sehr junger, unerfahrener, aber voll handlungsfähiger Kunde will eine grosse finanzielle Verpflichtung eingehen, deren Tragweite er offensichtlich nicht vollständig versteht.\nProblemstellung: Der Werkstattleiter muss entscheiden, wie er mit dieser heiklen Situation umgeht, um sowohl ein Geschäft zu ermöglichen als auch das hohe Ausfallrisiko und potenzielle spätere Rechtsstreitigkeiten zu minimieren."
+            },
+            {
+              "id": "step_2",
+              "title": "Rechtsgrundlagen bestimmen",
+              "prompt": "Obwohl ZGB Art. 13 (Handlungsfähigkeit) formell erfüllt ist, tangiert die Situation die Grenzen der Urteilsfähigkeit (ZGB Art. 16) in Bezug auf dieses spezifische, komplexe Geschäft. Auch OR Art. 21 (Übervorteilung) könnte am Rande eine Rolle spielen.",
+              "hint": "Obwohl ZGB Art. 13 (Handlungsfähigkeit) formell erfüllt ist, tangiert die Situation die Grenzen der Urteilsfähigkeit (ZGB Art. 16) in Bezug auf dieses spezifische, komplexe Geschäft. Auch OR Art. 21 (Übervorteilung) könnte am Rande eine Rolle spielen.",
+              "solution": "Rechtsgebiet: Vertragsrecht, Personenrecht.\nRechtsvorschrift: Der Kunde ist nach ZGB Art. 13 und 14 voll handlungsfähig. Die Frage ist, ob seine offensichtliche Unerfahrenheit und das mögliche Nichtverstehen des komplexen Vertrags seine Urteilsfähigkeit (ZGB Art. 16) in Bezug auf dieses spezifische Geschäft in Frage stellen könnten. Ein späterer Anfechtungsgrund könnte auch ein wesentlicher Irrtum (OR Art. 24) oder Übervorteilung (OR Art. 21) sein, falls die Vertragsbedingungen für ihn sehr nachteilig sind."
+            },
+            {
+              "id": "step_3",
+              "title": "Voraussetzungen prüfen",
+              "prompt": "Bewerten Sie die Risiken eines Vertragsabschlusses. Welche rechtlichen Anfechtungsmöglichkeiten könnte der Kunde später geltend machen (z.B. wesentlicher Irrtum, Übervorteilung)? Welches kaufmännische Risiko (Zahlungsausfall) besteht?",
+              "hint": "Bewerten Sie die Risiken eines Vertragsabschlusses. Welche rechtlichen Anfechtungsmöglichkeiten könnte der Kunde später geltend machen (z.B. wesentlicher Irrtum, Übervorteilung)? Welches kaufmännische Risiko (Zahlungsausfall) besteht?",
+              "solution": "Risikoanalyse:\n1. Rechtliches Risiko: Auch wenn der Vertrag zunächst gültig ist, ist das Risiko einer späteren Anfechtung erhöht. Der Kunde könnte argumentieren, er sei über den Inhalt des Vertrages im Irrtum gewesen oder seine Unerfahrenheit sei ausgenutzt worden. Ein solcher Prozess ist aufwändig und rufschädigend.\n2. Kaufmännisches Risiko: Das Hauptrisiko ist der Zahlungsausfall. Ein junger Gründer ohne Eigenkapital, der die Kosten unterschätzt, hat eine hohe Wahrscheinlichkeit, mit den Leasingraten in Verzug zu geraten. Dies führt zu Verlusten und administrativem Aufwand für die Rückabwicklung."
+            },
+            {
+              "id": "step_4",
+              "title": "Entscheid und Kommunikation",
+              "prompt": "Entwickeln Sie eine Strategie, die sowohl Ihre Geschäftsinteressen wahrt als auch Ihrer Sorgfaltspflicht gegenüber einem offensichtlich unerfahrenen Kunden gerecht wird. Begründen Sie Ihre empfohlene Vorgehensweise.",
+              "hint": "Entwickeln Sie eine Strategie, die sowohl Ihre Geschäftsinteressen wahrt als auch Ihrer Sorgfaltspflicht gegenüber einem offensichtlich unerfahrenen Kunden gerecht wird. Begründen Sie Ihre empfohlene Vorgehensweise.",
+              "solution": "Empfehlung (Transferleistung): Ein direkter Abschluss des Vertrags wäre fahrlässig und kurzsichtig. Die empfohlene Strategie ist eine proaktive und transparente Beratung:\n1. Aufklärung: Nehmen Sie sich Zeit, dem Kunden die wichtigsten und risikoreichsten Klauseln des Leasingvertrags Punkt für Punkt in einfachen Worten zu erklären (z.B. was bei einem Schaden passiert, wie der Restwert berechnet wird, die Gesamtkosten über 5 Jahre).\n2. Businessplan verlangen: Bitten Sie den Kunden, einen einfachen Businessplan oder eine Liquiditätsrechnung vorzulegen. Dies zwingt ihn, sich selbst realistisch mit den Zahlen auseinanderzusetzen und zeigt Ihnen, ob das Vorhaben eine solide Basis hat.\n3. Alternative vorschlagen: Prüfen Sie, ob ein kleineres, gebrauchtes Gerät oder eine Mietoption für den Anfang eine bessere und risikoärmere Lösung für den Kunden wäre.\n4. Bedenkzeit und Drittmeinung: Geben Sie ihm den Vertrag mit und empfehlen Sie ihm ausdrücklich, ihn von einer erfahrenen Person (z.B. einem Treuhänder oder einem Mentor) prüfen zu lassen. \nDiese Vorgehensweise minimiert das Ausfallrisiko, beugt späteren rechtlichen Problemen vor und etabliert den Werkstattleiter als seriösen und verantwortungsbewussten Geschäftspartner."
+            }
+          ]
+        },
+        {
+          "id": "20-personenrecht-disc-block-24",
+          "type": "discussion-prompt",
+          "title": "Diskussion: Fall 12 (Transfer/Beurteilung): Der überforderte Jungunternehmer",
+          "prompts": [
+            {
+              "id": "20-personenrecht-disc-fall-id-12-1",
+              "prompt": "Wäre es rechtlich zulässig, dem 19-Jährigen den Verkauf einfach zu verweigern, weil er 'zu jung' erscheint?"
+            },
+            {
+              "id": "20-personenrecht-disc-fall-id-12-2",
+              "prompt": "Welche Rolle spielt hier das Konsumkreditgesetz (KKG)?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "20-personenrecht-mindmap",
+      "title": "Mindmap",
+      "pageType": "mindmap",
+      "blocks": [
+        {
+          "id": "20-personenrecht-mindmap-block",
+          "type": "mindmap",
+          "title": "Mindmap: Personenrecht",
+          "content": "mindmap\n  root((Rechtssubjekte + Vertragsparteien))\n    Natürliche Person\n      Definition Mensch als Träger von Rechten und Pflichten - ZGB Art 11 ff\n      Beispiel Kunde in der Werkstatt, Lernender, Mitarbeiter\n      Rechtsfähigkeit\n        Definition Fähigkeit, überhaupt Rechte und Pflichten zu haben zB erben\n        Umfang Von der Geburt bis zum Tod\n      Handlungsfähigkeit\n        Definition Fähigkeit, durch eigenes Handeln Verträge abzuschliessen und sich zu verpflichten - ZGB Art 12 ff\n        Voraussetzungen\n          Volljährigkeit - vollendetes 18 Lebensjahr\n          Urteilsfähigkeit - Fähigkeit, vernunftgemäss zu handeln\n        Abstufungen\n          Volle Handlungsfähigkeit\n            Voraussetzungen Volljährig UND urteilsfähig\n            Folge Kann sich uneingeschränkt verpflichten\n            Beispiel 19-jähriger Lehrabgänger mietet eine Wohnung\n          Beschränkte Handlungsunfähigkeit\n            Voraussetzungen Urteilsfähig, ABER minderjährig\n            Folge Benötigt Zustimmung des gesetzlichen Vertreters - zB Eltern\n            Beispiel 15-Jährige benötigt für den Lehrvertrag die Zustimmung der Eltern\n            Ausnahmen - keine Zustimmung nötig\n              Erlangung unentgeltlicher Vorteile zB Geschenk annehmen\n              Geringfügige Angelegenheiten des täglichen Lebens zB Süssigkeiten kaufen\n              Verfügung über eigenen Lohn oder Taschengeld zB Lernender kauft mit Lohn ein Fahrrad\n          Volle Handlungsunfähigkeit\n            Voraussetzungen Urteilsunfähig zB Kleinkind, Person mit geistiger Behinderung\n            Folge Handlungen sind rechtlich nichtig - keine Wirkung\n            Beispiel Ein 5-jähriges Kind kann nicht über eine Operation entscheiden\n    Juristische Person\n      Definition Künstliches, vom Recht geschaffenes Gebilde - ZGB Art 52 ff\n      Beispiel Eine AG, eine GmbH, ein Verein\n      Rechtsfähigkeit\n        Ab Eintragung ins Handelsregister\n      Handlungsfähigkeit\n        Sobald die Organe - zB Vorstand, Verwaltungsrat - bestellt sind\n        Handelt durch ihre Organe"
+        }
+      ]
+    }
+  ]
+}
