@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertragsrecht im Alltag – Kauf, Werk und Miete: Prüfungsrelevante Konzepte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #2980b9;
+            --accent-color: #c0392b;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --background-color: #f4f6f8;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #bdc3c7;
+            --tag-color: #8e44ad;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .slide {
+            max-width: 1280px;
+            width: 100%;
+            min-height: 720px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #2471a3 100%);
+            color: white;
+            padding: 24px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0 0 6px 0;
+            font-size: 34px;
+            font-weight: 700;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 16px;
+            opacity: 0.85;
+        }
+
+        .badge-row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background-color: rgba(255,255,255,0.18);
+            border: 1px solid rgba(255,255,255,0.4);
+            border-radius: 20px;
+            padding: 3px 12px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 30px 40px;
+            overflow-y: auto;
+        }
+
+        /* Prüfungs-Box oben */
+        .pruefung-box {
+            background: linear-gradient(135deg, #fef9e7 0%, #fdebd0 100%);
+            border: 2px solid var(--warning-color);
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 28px;
+        }
+
+        .pruefung-box h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #b7770d;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pruefung-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 20px;
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .pruefung-list li {
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--text-color);
+        }
+
+        .pruefung-list li strong {
+            color: var(--primary-color);
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 28px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 16px;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .section-tag {
+            font-size: 12px;
+            font-weight: 600;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            vertical-align: middle;
+        }
+
+        .law-ref {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--tag-color);
+            background-color: #f5eef8;
+            border: 1px solid #d2b4de;
+            padding: 2px 7px;
+            border-radius: 10px;
+            margin-right: 4px;
+            display: inline-block;
+            margin-bottom: 4px;
+        }
+
+        .law-refs {
+            margin-bottom: 10px;
+        }
+
+        .two-column {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 10px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .concept-box {
+            background-color: var(--light-gray);
+            border-radius: 6px;
+            padding: 10px 14px;
+            margin-bottom: 10px;
+        }
+
+        .concept-box-title {
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 4px;
+            font-size: 15px;
+        }
+
+        .concept-box p, .concept-box ul {
+            margin: 4px 0 0 0;
+            font-size: 15px;
+        }
+
+        .concept-box ul {
+            padding-left: 20px;
+        }
+
+        .concept-box li {
+            margin-bottom: 3px;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+
+        .comparison-table th {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 8px 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .comparison-table td {
+            padding: 7px 12px;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: top;
+        }
+
+        .comparison-table tr:nth-child(even) td {
+            background-color: #f8f9fa;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+
+        .highlight-green {
+            color: var(--success-color);
+            font-weight: 700;
+        }
+
+        ul {
+            margin: 5px 0;
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 4px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 6px 0;
+        }
+
+        /* Dropdown */
+        .dropdown {
+            margin-top: 12px;
+            margin-bottom: 6px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .dropdown-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .dropdown-header:hover {
+            background-color: #2471a3;
+        }
+
+        .dropdown-header span {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .dropdown-header .material-icons {
+            transition: transform 0.2s ease;
+            font-size: 20px;
+        }
+
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+
+        .dropdown.active .dropdown-header .material-icons {
+            transform: rotate(180deg);
+        }
+
+        .dropdown-content {
+            padding: 14px 18px;
+            background-color: #f9fbfc;
+            display: none;
+        }
+
+        .question {
+            margin-bottom: 3px;
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--primary-color);
+        }
+
+        .answer {
+            margin-bottom: 12px;
+            padding-left: 16px;
+            font-size: 14px;
+            color: #555;
+            font-style: italic;
+            border-left: 3px solid var(--light-gray);
+        }
+
+        /* Divider */
+        hr {
+            border: none;
+            border-top: 1px solid var(--border-color);
+            margin: 24px 0;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--primary-color);
+            color: rgba(255,255,255,0.8);
+            padding: 12px 40px;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .two-column { flex-direction: column; }
+            .pruefung-list { grid-template-columns: 1fr; }
+            .content { padding: 20px; }
+            .header { padding: 16px 20px; }
+            .header h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+<div class="slide">
+    <div class="header">
+        <h1>Vertragsrecht im Alltag – Kauf, Werk und Miete</h1>
+        <p>HFP Meister Landmaschinen- / Baumaschinenmechaniker | Modul 2 | Halbtag 2</p>
+        <div class="badge-row">
+            <span class="badge">OR / ZGB / UWG</span>
+            <span class="badge">Kaufvertrag</span>
+            <span class="badge">Werkvertrag</span>
+            <span class="badge">Mietvertrag</span>
+            <span class="badge">Auftrag</span>
+            <span class="badge">AGB</span>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Prüfungsrelevante Konzepte Übersicht -->
+        <div class="pruefung-box">
+            <h3><span class="material-icons" style="font-size:20px;">star</span> 10 Prüfungsrelevante Konzepte</h3>
+            <ol class="pruefung-list">
+                <li><strong>Kaufvertrag Art. 184 OR:</strong> Übergabe + Eigentumsverschaffung / Kaufpreiszahlung</li>
+                <li><strong>Mängelrüge Art. 201 OR:</strong> Sofort (offen) / Sofort nach Entdeckung (versteckt)</li>
+                <li><strong>Käuferrechte Art. 205, 206 OR:</strong> Wandelung, Minderung, Ersatz (kein Nachbesserungsrecht!)</li>
+                <li><strong>Verjährung:</strong> 2 Jahre (beweglich) / 5 Jahre (in Bauwerk integriert)</li>
+                <li><strong>Schuldnerverzug Art. 102 OR:</strong> Mahnung / Verfalltag / Fixgeschäft → 5% Verzugszins</li>
+                <li><strong>Werkvertrag vs. Auftrag:</strong> Erfolgsschuld (Art. 363) vs. Sorgfaltspflicht (Art. 394)</li>
+                <li><strong>Werkvertrag Mängelrechte Art. 368 OR:</strong> Wandelung, Minderung, Nachbesserung, Schadenersatz</li>
+                <li><strong>Mietkündigung:</strong> 3 Monate (Wohnung) / 6 Monate (Geschäftsraum); amtliches Formular!</li>
+                <li><strong>Missbräuchlicher Mietzins Art. 269 OR:</strong> Herabsetzungsbegehren bei Schlichtungsbehörde</li>
+                <li><strong>AGB:</strong> Globalübernahme + Möglichkeit Kenntnisnahme + Ungewöhnlichkeitsregel + Art. 8 UWG</li>
+            </ol>
+        </div>
+
+        <!-- 1. Vertragserfüllung -->
+        <div class="section">
+            <h2 class="section-title">
+                <span>1. Vertragserfüllung – Erfüllungsmodalitäten</span>
+                <span class="section-tag">A</span>
+            </h2>
+            <div class="law-refs">
+                <span class="law-ref">Art. 68 OR</span>
+                <span class="law-ref">Art. 71 OR</span>
+                <span class="law-ref">Art. 74 OR</span>
+                <span class="law-ref">Art. 75 OR</span>
+                <span class="law-ref">Art. 114 OR</span>
+            </div>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>Frage</th><th>Regelung (OR)</th><th>Praxisbeispiel Werkstatt</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Wer</strong> muss leisten?</td>
+                        <td>Grundsatz: persönliche Leistung (Art. 68 OR); Ausnahme: Delegation möglich</td>
+                        <td>Spezialistischer Schweissauftrag: persönlich</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Was</strong> ist zu leisten?</td>
+                        <td>Speziesschuld (individuell bestimmt) vs. Gattungsschuld (Art nach, Art. 71 OR)</td>
+                        <td>Gebrauchter Traktor (Spezies) / 50 Hydraulikfilter (Gattung)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wo</strong> ist zu leisten?</td>
+                        <td>Bringschuld (Geldschulden) vs. Holschuld (Sachleistungen, Art. 74 OR)</td>
+                        <td>Rechnungsbetrag: Schuldner überweist (Bringschuld)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wann</strong> ist zu leisten?</td>
+                        <td>Fälligkeit: sofort, sofern nicht anders vereinbart (Art. 75 OR)</td>
+                        <td>Rechnung 30 Tage netto = Fälligkeit in 30 Tagen</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>Mit der korrekten Erfüllung erlöschen die Obligationen (<span class="law-ref">Art. 114 OR</span>).</p>
+
+            <div class="dropdown" id="dd1">
+                <div class="dropdown-header" onclick="toggleDropdown('dd1')">
+                    <span>📋 Kompetenz-Check (6 Fragen)</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">1. Was versteht man unter 'Erfüllungsmodalitäten' und welche vier Fragen (Wer, Was, Wo, Wann) regeln diese?</div>
+                    <div class="answer">Erfüllungsmodalitäten sind die Regeln, die bestimmen, wie eine vertragliche Pflicht korrekt zu erfüllen ist. Die vier W-Fragen: Wer (persönliche Leistungspflicht, Art. 68 OR), Was (Spezies- vs. Gattungsschuld), Wo (Erfüllungsort: Bring- vs. Holschuld, Art. 74 OR), Wann (Fälligkeit, Art. 75 OR).</div>
+
+                    <div class="question">2. Was ist der Unterschied zwischen einer Speziesschuld und einer Gattungsschuld? Nennen Sie je ein Beispiel.</div>
+                    <div class="answer">Speziesschuld: individuell bestimmtes Stück (z.B. ein bestimmter gebrauchter Traktor mit Seriennummer). Gattungsschuld: Art-Merkmal bestimmt (z.B. 50 Hydraulikfilter HF-200). Bei Gattungsschuld kann der Schuldner durch Beschaffung ähnlicher Ware erfüllen (Art. 71 OR).</div>
+
+                    <div class="question">3. Erklären Sie den Unterschied zwischen Bring- und Holschuld und die Konsequenz bei der Rechnungsstellung.</div>
+                    <div class="answer">Bringschuld: Schuldner muss Leistung an den Ort des Gläubigers bringen (gilt für Geldschulden). Holschuld: Gläubiger muss die Leistung beim Schuldner abholen (gilt für Sachleistungen). Bei Rechnungsstellungen (Geldschulden) muss der Kunde auf das Konto des Werkstattleiters überweisen.</div>
+
+                    <div class="question">4. Weshalb ist es wichtig zu wissen, wann eine Obligation untergeht?</div>
+                    <div class="answer">Ist die Obligation erloschen (z.B. Maschine korrekt repariert und Rechnung bezahlt), bestehen keine Leistungspflichten mehr. Der Betrieb weiss, wann er seinen Anspruch auf den Werklohn verliert (Verjährung) und wann der Kunde seine Zahlungspflicht erfüllt hat.</div>
+
+                    <div class="question">5. Liefertermin nicht vereinbart, Landwirt verlangt sofortige Lieferung. Verpflichtet?</div>
+                    <div class="answer">Nein. Gemäss Art. 75 OR ist die Leistung fällig, wenn nichts anderes vereinbart wurde – also sofort, auf erstes Verlangen. Wurde kein Termin vereinbart, muss innert angemessener Frist geliefert werden. 'Sofortige Lieferung' kann verlangt werden, aber der Schuldner hat Anrecht auf angemessene Vorbereitungszeit.</div>
+
+                    <div class="question">6. Kunde holt reparierte Maschine nicht ab (Gattungsschuld). Wo bereitstellen?</div>
+                    <div class="answer">Da es eine Holschuld ist, muss die Maschine am Erfüllungsort – also in der Werkstatt – bereitgestellt werden (Art. 74 OR). Der Werkstattleiter muss nichts liefern; der Kunde muss kommen und abholen.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Vertragsverletzungen -->
+        <div class="section">
+            <h2 class="section-title">
+                <span>2. Vertragsverletzungen – Schuldnerverzug</span>
+                <span class="section-tag">B</span>
+            </h2>
+            <div class="law-refs">
+                <span class="law-ref">Art. 97 OR</span>
+                <span class="law-ref">Art. 102 OR</span>
+                <span class="law-ref">Art. 103 OR</span>
+                <span class="law-ref">Art. 104 OR</span>
+                <span class="law-ref">Art. 107 OR</span>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">4 Voraussetzungen Schadenersatz (Art. 97 OR)</div>
+                        <ul>
+                            <li>Schaden</li>
+                            <li>Pflichtverletzung (Nicht- oder Schlechterfüllung)</li>
+                            <li>Kausalzusammenhang</li>
+                            <li>Verschulden (Verschuldensvermutung)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">3 Arten Schuldnerverzug (Art. 102 OR)</div>
+                        <ul>
+                            <li><strong>Mahngeschäft:</strong> erst nach Mahnung</li>
+                            <li><strong>Verfalltagsgeschäft:</strong> automatisch am Termin</li>
+                            <li><strong>Fixgeschäft:</strong> automatisch; Rücktritt sofort möglich</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-box-title">Wahlrechte nach Ablauf der Nachfrist (Art. 107 OR)</div>
+                <ul>
+                    <li><strong>Erfüllung fordern</strong> + Schadenersatz wegen Verspätung</li>
+                    <li><strong>Schadenersatz wegen Nichterfüllung</strong> (positives/Erfüllungsinteresse): so stellen, als ob Vertrag erfüllt worden wäre</li>
+                    <li><strong>Rücktritt</strong> + Schadenersatz (negatives/Vertrauensinteresse): so stellen, als ob Vertrag nie geschlossen worden wäre</li>
+                </ul>
+                <p>⚠️ <span class="highlight">Verzugszins: 5% p.a.</span> ab Verzugsbeginn (Art. 104 OR)</p>
+            </div>
+
+            <div class="dropdown" id="dd2">
+                <div class="dropdown-header" onclick="toggleDropdown('dd2')">
+                    <span>📋 Kompetenz-Check (6 Fragen)</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">7. Nennen Sie die vier Voraussetzungen für Schadenersatz wegen Nicht- oder Schlechterfüllung (Art. 97 OR).</div>
+                    <div class="answer">1. Schaden, 2. Pflichtverletzung (Nicht-/Schlechterfüllung), 3. Kausalzusammenhang zwischen Pflichtverletzung und Schaden, 4. Verschulden (wird vermutet; Schuldner kann sich durch Exkulpation befreien).</div>
+
+                    <div class="question">8. Wie hoch ist der gesetzliche Verzugszinssatz und ab wann beginnt er zu laufen?</div>
+                    <div class="answer">5% pro Jahr (Art. 104 Abs. 1 OR). Er beginnt ab Verzugsbeginn: beim Mahngeschäft ab Tag nach der Mahnung, beim Verfalltagsgeschäft ab dem Tag nach Ablauf des Verfalltags, beim Fixgeschäft ebenfalls automatisch.</div>
+
+                    <div class="question">9. Unterschied zwischen Mahngeschäft, Verfalltagsgeschäft und Fixgeschäft.</div>
+                    <div class="answer">Mahngeschäft: Verzug tritt erst ein, wenn Gläubiger gemahnt hat. Verfalltagsgeschäft: Fixer Termin vereinbart ('bis 15. März'), Verzug automatisch ab dem Folgetag. Fixgeschäft: Termin so wesentlich, dass bei Verspätung sofortiger Rücktritt ohne Nachfrist möglich ist.</div>
+
+                    <div class="question">10. Was versteht man unter Erfüllungsinteresse (positiv) und Vertrauensinteresse (negativ)?</div>
+                    <div class="answer">Erfüllungsinteresse (positives Interesse): Gläubiger wird so gestellt, wie wenn der Vertrag korrekt erfüllt worden wäre (= entgangener Gewinn eingeschlossen). Vertrauensinteresse (negatives Interesse): Gläubiger wird so gestellt, wie wenn er den Vertrag nie geschlossen hätte (= nur effektiv entstandene Kosten, z.B. Vertragskosten).</div>
+
+                    <div class="question">11. Vermerk 'Lieferung bis spätestens 15. März', Ware kommt nicht. Was tun?</div>
+                    <div class="answer">Es handelt sich um ein Verfalltagsgeschäft (Art. 102 Abs. 2 OR). Verzug tritt automatisch am 16. März ein, ohne Mahnung. Sie können sofort die Nachfrist setzen oder bei einem Fixgeschäft sofort zurücktreten. Mit Ablauf einer gesetzten Nachfrist stehen alle Wahlrechte nach Art. 107 OR offen.</div>
+
+                    <div class="question">12. CHF 3'200 Rechnung, 40 Tage im Verzug nach Mahnung. Verzugszins berechnen.</div>
+                    <div class="answer">Verzugszins = CHF 3'200 × 5% × 40/360 = CHF 17.78. Formel: Kapital × Zinssatz × Tage / 360.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Kaufvertrag -->
+        <div class="section">
+            <h2 class="section-title">
+                <span>3. Kaufvertrag – Grundlagen, Obligationen und Nutzen/Gefahr</span>
+                <span class="section-tag">C</span>
+            </h2>
+            <div class="law-refs">
+                <span class="law-ref">Art. 184 OR</span>
+                <span class="law-ref">Art. 185 OR</span>
+                <span class="law-ref">Art. 714 ZGB</span>
+                <span class="law-ref">Art. 715 f. ZGB</span>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-box-title">Definition (Art. 184 Abs. 1 OR)</div>
+                <p>Verkäufer: <strong>Übergabe der Sache + Eigentumsverschaffung</strong> → Käufer: <strong>Zahlung des Kaufpreises</strong></p>
+            </div>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>Kaufart</th><th>Übergang Nutzen und Gefahr</th><th>Beispiel</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Spezieskauf</strong></td>
+                        <td>Mit Vertragsabschluss (Art. 185 Abs. 1 OR)</td>
+                        <td>Gebrauchter Traktor – sofort bei Unterschrift</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gattungskauf</strong></td>
+                        <td>Mit Bereitstellen/Aussondern der Ware (Art. 185 Abs. 2 OR)</td>
+                        <td>50 Ersatzfilter – wenn Lieferant aussondert</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Distanzkauf</strong></td>
+                        <td>Mit Versand der Ware (Art. 185 Abs. 2 OR)</td>
+                        <td>Onlinebestellung – ab Übergabe an Transporteur</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="concept-box">
+                <div class="concept-box-title">Eigentumsvorbehalt (Art. 715 f. ZGB)</div>
+                <p>Verkäufer behält Eigentum bis zur vollständigen Kaufpreiszahlung. <strong>Voraussetzung für Wirksamkeit:</strong> Eintragung im Eigentumsvorbehaltsregister am Wohnsitz des Käufers (geführt durch Betreibungsamt).</p>
+            </div>
+
+            <div class="dropdown" id="dd3">
+                <div class="dropdown-header" onclick="toggleDropdown('dd3')">
+                    <span>📋 Kompetenz-Check (6 Fragen)</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">13. Definieren Sie den Kaufvertrag (Art. 184 Abs. 1 OR) und nennen Sie die zwei Obligationen.</div>
+                    <div class="answer">Durch den Kaufvertrag verpflichtet sich der Verkäufer, dem Käufer den Kaufgegenstand zu übergeben und ihm das Eigentum daran zu verschaffen (Warenobligation), und der Käufer, den Kaufpreis zu bezahlen (Kaufpreisobligation).</div>
+
+                    <div class="question">14. Wann geht Nutzen und Gefahr über – bei Spezies-, Gattungs- und Distanzkauf?</div>
+                    <div class="answer">Spezieskauf: mit Vertragsabschluss. Gattungskauf: mit Bereitstellen/Aussondern der Ware. Distanzkauf: mit Übergabe an den Transporteur (Versand).</div>
+
+                    <div class="question">15. Warum ist der Eigentumsvorbehalt ein wichtiges Sicherungsmittel? Voraussetzung?</div>
+                    <div class="answer">Er schützt den Verkäufer: Zahlt der Käufer nicht, verbleibt das Eigentum beim Verkäufer und er kann die Sache zurückfordern. Voraussetzung: Eintragung ins Eigentumsvorbehaltsregister beim Betreibungsamt – ohne Eintrag kein Schutz gegenüber Dritten.</div>
+
+                    <div class="question">16. Unterschied Spezies- und Gattungskauf bei Beschädigung vor Übergabe?</div>
+                    <div class="answer">Spezieskauf: Gefahr liegt ab Vertragsabschluss beim Käufer – er muss bezahlen, auch wenn die Sache vor Übergabe beschädigt wird. Gattungskauf: Gefahr liegt bis zur Aussonderung beim Verkäufer – dieser muss Ersatzware liefern.</div>
+
+                    <div class="question">17. Spezieskauf-Traktor wird vor Übergabe durch Hagel beschädigt. Wer trägt den Schaden?</div>
+                    <div class="answer">Der Käufer (Landwirt) trägt den Schaden. Da es sich um einen Spezieskauf handelt, ist die Gefahr mit Vertragsabschluss auf den Käufer übergegangen (Art. 185 Abs. 1 OR). Der Käufer muss den vollen Kaufpreis bezahlen.</div>
+
+                    <div class="question">18. 50 Hydraulikpumpen (Gattungskauf) – wann gehen Nutzen und Gefahr über?</div>
+                    <div class="answer">Mit dem Bereitstellen/Aussondern der Ware beim Zulieferer – d.h. wenn der Lieferant die 50 Pumpen aus seinem Lager für Ihren Betrieb aussondert und bereitstellt (Art. 185 Abs. 2 OR).</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Mangelhafte Lieferung -->
+        <div class="section">
+            <h2 class="section-title">
+                <span>4. Mangelhafte Lieferung – Mängelrüge und Käuferrechte</span>
+                <span class="section-tag">D</span>
+            </h2>
+            <div class="law-refs">
+                <span class="law-ref">Art. 197 OR</span>
+                <span class="law-ref">Art. 199 OR</span>
+                <span class="law-ref">Art. 201 OR</span>
+                <span class="law-ref">Art. 205 OR</span>
+                <span class="law-ref">Art. 206 OR</span>
+                <span class="law-ref">Art. 210 OR</span>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">⚠️ Rügepflicht (Art. 201 OR)</div>
+                        <ul>
+                            <li><strong>Offener Mangel:</strong> sofort nach Lieferung rügen</li>
+                            <li><strong>Versteckter Mangel:</strong> sofort nach Entdeckung rügen</li>
+                            <li><strong>Versäumnis:</strong> Ware gilt als genehmigt → Rechte verwirkt!</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">3 Käuferrechte bei Mangel</div>
+                        <ul>
+                            <li><strong>Wandelung:</strong> Rückgängigmachung (Art. 205 OR)</li>
+                            <li><strong>Minderung:</strong> Preisnachlass (Art. 205 OR)</li>
+                            <li><strong>Ersatz:</strong> nur bei Gattungsware (Art. 206 OR)</li>
+                        </ul>
+                        <p style="color:#c0392b; font-size:13px; margin-top:6px;">⚠️ Kein gesetzliches Nachbesserungsrecht!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-box-title">Verjährungsfristen (Art. 210 OR)</div>
+                <ul>
+                    <li><strong>2 Jahre</strong> ab Ablieferung (bewegliche Sachen)</li>
+                    <li><strong>5 Jahre</strong> bei in Bauwerke integrierte Sachen</li>
+                    <li>Gewährleistungsausschluss ('ohne Gewähr') unwirksam bei <strong>arglistigem Verschweigen</strong> von Mängeln</li>
+                </ul>
+            </div>
+
+            <div class="dropdown" id="dd4">
+                <div class="dropdown-header" onclick="toggleDropdown('dd4')">
+                    <span>📋 Kompetenz-Check (6 Fragen)</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">19. Was ist die Untersuchungs- und Rügepflicht (Art. 201 OR)? Konsequenz bei Versäumnis?</div>
+                    <div class="answer">Der Käufer muss die Ware sofort nach Lieferung prüfen und offene Mängel sofort, versteckte Mängel sofort nach Entdeckung rügen. Versäumt er die Rüge, gilt die Ware als genehmigt und er verliert alle Gewährleistungsansprüche (Wandelung, Minderung, Ersatz).</div>
+
+                    <div class="question">20. Nennen Sie die drei Käuferrechte bei mangelhafter Lieferung und deren Unterschied.</div>
+                    <div class="answer">Wandelung: Rückgängigmachung des Kaufvertrags (Ware zurück, Kaufpreis zurück). Minderung: Preisnachlass proportional zum Minderwert, Käufer behält Ware. Ersatz: nur bei Gattungsware; Käufer verlangt Lieferung mangelfreier Ersatzware statt der mangelhaften.</div>
+
+                    <div class="question">21. Unterschied offener und versteckter Mangel bezüglich Rügefrist.</div>
+                    <div class="answer">Offener Mangel: bei sorgfältiger Prüfung bei/nach Lieferung erkennbar → sofort nach Lieferung rügen. Versteckter Mangel: erst bei Gebrauch oder genauerer Prüfung erkennbar → sofort nach Entdeckung rügen. Rügt man einen offenen Mangel erst nach Wochen, sind die Rechte verwirkt.</div>
+
+                    <div class="question">22. Wann ist ein 'ohne Gewähr'-Ausschluss trotz Vereinbarung ungültig?</div>
+                    <div class="answer">Wenn der Verkäufer den Mangel arglistig verschwiegen hat (Art. 199 OR). Ein Gewährleistungsausschluss schützt den Verkäufer nicht vor der Folge seines betrügerischen Verschweigens bekannter Mängel.</div>
+
+                    <div class="question">23. 3 von 20 Ersatzteilen sichtbar verbogen. Was tun?</div>
+                    <div class="answer">Sofortige schriftliche Mängelrüge (E-Mail/Brief). Die Rüge muss enthalten: 1. Klare Beschreibung des Mangels (z.B. 'Art.-Nr. XY, 3 Stück verbogen'), 2. Datum der Lieferung und Entdeckung, 3. Forderung (Ersatzlieferung / Minderung). Die mangelhaften Teile getrennt lagern und nicht verwenden.</div>
+
+                    <div class="question">24. Landmaschine vor 3 Jahren gekauft, jetzt versteckter Konstruktionsfehler. Noch Ansprüche?</div>
+                    <div class="answer">Nein. Die Gewährleistungsansprüche beim Kaufvertrag für bewegliche Sachen verjähren 2 Jahre nach Ablieferung (Art. 210 Abs. 1 OR). Da 3 Jahre vergangen sind, sind die Ansprüche verjährt. Eine Ausnahme gälte nur bei arglistiger Täuschung durch den Verkäufer.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. Mietvertrag -->
+        <div class="section">
+            <h2 class="section-title">
+                <span>5. Mietvertrag – Pflichten, Schutz und Kündigung</span>
+                <span class="section-tag">E</span>
+            </h2>
+            <div class="law-refs">
+                <span class="law-ref">Art. 256 OR</span>
+                <span class="law-ref">Art. 257f OR</span>
+                <span class="law-ref">Art. 257g OR</span>
+                <span class="law-ref">Art. 259 OR</span>
+                <span class="law-ref">Art. 266c OR</span>
+                <span class="law-ref">Art. 266d OR</span>
+                <span class="law-ref">Art. 266l OR</span>
+                <span class="law-ref">Art. 269 OR</span>
+                <span class="law-ref">Art. 271 OR</span>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Pflichten Vermieter</div>
+                        <ul>
+                            <li>Übergabe in gebrauchsfähigem Zustand (Art. 256 OR)</li>
+                            <li>Unterhalt und Instandhaltung</li>
+                            <li>Mängelbehebung auf eigene Kosten</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Pflichten Mieter</div>
+                        <ul>
+                            <li>Mietzins bezahlen (Art. 257 OR)</li>
+                            <li>Sorgfältige Nutzung (Art. 257f OR)</li>
+                            <li>Mängel melden (Art. 257g OR)</li>
+                            <li>Kleiner Unterhalt selbst (Art. 259 OR)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>Mietobjekt</th><th>Kündigungsfrist</th><th>Kündigung durch Vermieter</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Wohnräume</strong></td>
+                        <td>3 Monate auf ortsübliche Termine (Art. 266c OR)</td>
+                        <td>Amtliches Formular zwingend (Art. 266l OR)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Geschäftsräume</strong></td>
+                        <td>6 Monate auf ortsübliche Termine (Art. 266d OR)</td>
+                        <td>Amtliches Formular zwingend (Art. 266l OR)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="concept-box">
+                <div class="concept-box-title">Missbräuchlicher Mietzins (Art. 269 OR)</div>
+                <p>Mietzins ist missbräuchlich, wenn der Vermieter damit einen <strong>übersetzten Ertrag</strong> aus der Mietsache erzielt. Mieter kann Herabsetzungsbegehren bei der Schlichtungsbehörde einreichen.</p>
+            </div>
+
+            <div class="dropdown" id="dd5">
+                <div class="dropdown-header" onclick="toggleDropdown('dd5')">
+                    <span>📋 Kompetenz-Check (6 Fragen)</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">25. Nennen Sie je drei Hauptpflichten von Vermieter und Mieter.</div>
+                    <div class="answer">Vermieter: 1. Übergabe in gebrauchsfähigem Zustand, 2. Instandhaltung und Unterhalt, 3. Behebung erheblicher Mängel. Mieter: 1. Mietzins bezahlen, 2. Sorgfältige Nutzung, 3. Mängel melden (+ kleiner Unterhalt selbst übernehmen).</div>
+
+                    <div class="question">26. Kündigungsfristen Wohnung vs. Geschäftsraum?</div>
+                    <div class="answer">Wohnungen: 3 Monate auf ortsübliche Termine (Art. 266c OR). Geschäftsräume: 6 Monate auf ortsübliche Termine (Art. 266d OR). Beide: Vermieterkündigung muss auf amtlichem Formular erfolgen (Art. 266l OR).</div>
+
+                    <div class="question">27. Wann ist Mietzins 'missbräuchlich' und was kann der Mieter tun?</div>
+                    <div class="answer">Missbräuchlich gemäss Art. 269 OR, wenn der Vermieter damit einen übersetzten Ertrag aus der Mietsache erzielt oder der Mietzins auf einem offensichtlich übersetzten Kaufpreis beruht. Mieter kann bei der Schlichtungsbehörde ein Herabsetzungsbegehren einreichen.</div>
+
+                    <div class="question">28. Wann ist eine Vermieterkündigung 'gegen Treu und Glauben'? Zwei Beispiele.</div>
+                    <div class="answer">Beispiel 1: Kündigung wegen Geltendmachung von Mängelrechten durch den Mieter (Rachekündigung, Art. 271a OR). Beispiel 2: Kündigung unmittelbar nach einer grossen Investition des Mieters in die Räumlichkeiten. Solche Kündigungen können innert 30 Tagen bei der Schlichtungsbehörde angefochten werden.</div>
+
+                    <div class="question">29. Vermieter kündigt Betriebshalle per sofort mit einfachem Brief. Gültig? Was tun?</div>
+                    <div class="answer">Nein, ungültig aus zwei Gründen: 1. Fehlendes amtliches Formular (Art. 266l OR) → Kündigung ist nichtig. 2. Keine sofortige Kündigung von Geschäftsräumen ohne wichtigen Grund möglich; Frist wäre 6 Monate. Dem Vermieter schriftlich mitteilen, dass die Kündigung wegen Form- und Fristmangel nichtig ist.</div>
+
+                    <div class="question">30. Heizung der Werkstatthalle fällt aus, Vermieter reagiert nicht. Welche Rechte?</div>
+                    <div class="answer">Der Vermieter verletzt seine Unterhaltspflicht (Art. 256 OR). Mögliche Massnahmen: 1. Schriftliche Frist setzen zur Behebung. 2. Bei Untätigkeit: Mietzinshinterlegung bei der Schlichtungsbehörde. 3. Selbst beheben lassen auf Kosten des Vermieters. 4. Bei Unzumutbarkeit: Mietminderung oder ausserordentliche Kündigung.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. Werkvertrag -->
+        <div class="section">
+            <h2 class="section-title">
+                <span>6. Werkvertrag – Begriff, Abgrenzung und Mängelrechte</span>
+                <span class="section-tag">F</span>
+            </h2>
+            <div class="law-refs">
+                <span class="law-ref">Art. 363 OR</span>
+                <span class="law-ref">Art. 367 OR</span>
+                <span class="law-ref">Art. 368 OR</span>
+                <span class="law-ref">Art. 370 OR</span>
+                <span class="law-ref">Art. 371 OR</span>
+                <span class="law-ref">Art. 376 OR</span>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-box-title">Definition (Art. 363 OR)</div>
+                <p>Unternehmer schuldet die <strong>Herstellung eines Werks</strong> (= Erfolg). Besteller schuldet den <strong>Werklohn</strong>.</p>
+                <p>Abgrenzung zum Auftrag: <span class="highlight">Erfolgsschuld</span> (Werkvertrag) vs. <span class="highlight-green">Sorgfaltspflicht</span> (Auftrag)</p>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">4 Mängelrechte Besteller (Art. 368 OR)</div>
+                        <ul>
+                            <li><strong>Wandelung:</strong> nur bei erheblichen Mängeln</li>
+                            <li><strong>Minderung:</strong> Werklohnherabsetzung</li>
+                            <li><strong>Nachbesserung:</strong> kostenlose Verbesserung</li>
+                            <li><strong>Schadenersatz:</strong> bei Verschulden</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Verjährung (Art. 371 OR)</div>
+                        <ul>
+                            <li><strong>2 Jahre:</strong> bewegliche Werke (Reparaturen)</li>
+                            <li><strong>5 Jahre:</strong> unbewegliche Werke (in Boden einbetoniert)</li>
+                        </ul>
+                        <div class="concept-box-title" style="margin-top:8px;">Gefahrtragung (Art. 376 OR)</div>
+                        <p>Bis zur Übergabe: Unternehmer trägt die Gefahr</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown" id="dd6">
+                <div class="dropdown-header" onclick="toggleDropdown('dd6')">
+                    <span>📋 Kompetenz-Check (6 Fragen)</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">31. Zentrales Unterscheidungsmerkmal Werkvertrag vs. Auftrag?</div>
+                    <div class="answer">Beim Werkvertrag schuldet der Unternehmer einen bestimmten Erfolg (das fertige Werk), beim Auftrag nur sorgfältiges Tätigwerden. Für eine Werkstatt: Eine Reparatur = Werkvertrag (Erfolg: funktionierende Maschine). Eine Diagnose ohne Reparatur = Auftrag (kein Erfolg geschuldet).</div>
+
+                    <div class="question">32. Vier Rechte des Bestellers bei mangelhafter Werkleistung. Wann Wandelung, wann Nachbesserung?</div>
+                    <div class="answer">Wandelung: nur bei erheblichen, nicht behebbaren Mängeln. Minderung: bei behebbaren oder geringeren Mängeln. Nachbesserung: Primärrecht bei behebbaren Mängeln (zumutbar). Schadenersatz: bei Verschulden des Unternehmers. Rüge muss sofort nach Entdeckung erfolgen (Art. 367 OR).</div>
+
+                    <div class="question">33. Gefahrtragung Werkvertrag (Art. 376 OR). Wer trägt Risiko vor Übergabe?</div>
+                    <div class="answer">Bis zur Übergabe trägt der Unternehmer die Gefahr. Geht das Werk vor der Abnahme zufällig unter (z.B. Feuerschaden ohne Verschulden), muss er es neu herstellen oder verliert seinen Anspruch auf den Werklohn. Ausnahme: Geht es wegen mangelhaftem Material des Bestellers unter.</div>
+
+                    <div class="question">34. Wann gilt ein Werk als 'genehmigt'?</div>
+                    <div class="answer">Ein Werk gilt als genehmigt, wenn der Besteller es nach Prüfung ohne Mängelrüge abnimmt (Art. 370 Abs. 1 OR). Für erkennbare Mängel verliert der Besteller damit alle Rechte. Für versteckte Mängel bleibt das Rügerecht erhalten (Art. 370 Abs. 3 OR).</div>
+
+                    <div class="question">35. Neue Hydraulikpumpe versagt beim ersten Einsatz. Vier Ansprüche des Kunden?</div>
+                    <div class="answer">Grundlage Art. 368 OR: 1. Nachbesserung (Einbau einer neuen funktionierenden Pumpe), 2. Minderung des Werklohns, 3. Wandelung (nur bei erheblichem Mangel), 4. Schadenersatz (wenn Verschulden der Werkstatt nachweisbar). Rüge muss sofort erfolgt sein.</div>
+
+                    <div class="question">36. Werkzeugmaschine (unbewegliches Werk), nach 4 Jahren Risse. Verjährung abgelaufen?</div>
+                    <div class="answer">Nein. Bei unbeweglichen Werken (Montage im Boden) gilt eine Verjährungsfrist von 5 Jahren (Art. 371 Abs. 2 OR). Nach 4 Jahren ist die Frist noch nicht abgelaufen. Der Besteller kann noch Mängelrechte geltend machen, wenn er sofort nach Entdeckung rügt.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7. Auftrag -->
+        <div class="section">
+            <h2 class="section-title">
+                <span>7. Auftrag – Begriff, Abgrenzung und Haftung</span>
+                <span class="section-tag">G</span>
+            </h2>
+            <div class="law-refs">
+                <span class="law-ref">Art. 394 OR</span>
+                <span class="law-ref">Art. 397 OR</span>
+                <span class="law-ref">Art. 404 OR</span>
+            </div>
+
+            <table class="comparison-table">
+                <thead>
+                    <tr><th>Merkmal</th><th>Werkvertrag (Art. 363 OR)</th><th>Auftrag (Art. 394 OR)</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Was schuldet der Unternehmer/Beauftragte?</strong></td>
+                        <td><span class="highlight">Erfolg</span> (fertiges Werk)</td>
+                        <td><span class="highlight-green">Sorgfaltspflicht</span> (kein Erfolg)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Praxisbeispiel Werkstatt</strong></td>
+                        <td>Reparatur, Einbau von Teilen</td>
+                        <td>Diagnose, Beratung, Gutachten</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Haftung bei Mangel</strong></td>
+                        <td>Wandelung, Minderung, Nachbesserung, Schadenersatz</td>
+                        <td>Schadenersatz bei unsorgfältiger Ausführung (Art. 397 OR)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Kündigung</strong></td>
+                        <td>Jederzeit gegen volle Entschädigung (Art. 377 OR)</td>
+                        <td>Jederzeit (Art. 404 OR); zur Unzeit → Schadenersatz</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="concept-box">
+                <div class="concept-box-title">Kündigung zur Unzeit (Art. 404 Abs. 2 OR)</div>
+                <p>Kündigt eine Partei den Auftrag zu einem Zeitpunkt, der für den anderen Teil besonders ungünstig ist, muss sie den daraus entstandenen Schaden ersetzen.</p>
+            </div>
+
+            <div class="dropdown" id="dd7">
+                <div class="dropdown-header" onclick="toggleDropdown('dd7')">
+                    <span>📋 Kompetenz-Check (6 Fragen)</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">37. Was schuldet der Beauftragte? Was schuldet er NICHT?</div>
+                    <div class="answer">Er schuldet sorgfältiges, fachkundiges Tätigwerden im Interesse des Auftraggebers (Art. 394 OR). Er schuldet NICHT einen bestimmten Erfolg – z.B. schuldet ein Mechaniker bei einer Diagnose nicht, dass die Maschine danach läuft. Im Gegensatz: beim Werkvertrag wird der Erfolg geschuldet.</div>
+
+                    <div class="question">38. Voraussetzungen für jederzeitigen Widerruf/Kündigung (Art. 404 OR)?</div>
+                    <div class="answer">Ein Auftrag kann jederzeit und grundsätzlich ohne Angabe von Gründen widerrufen (durch Auftraggeber) oder gekündigt (durch Beauftragten) werden. Keine besonderen Voraussetzungen erforderlich. Einzige Konsequenz: bei Kündigung zur Unzeit muss Schadenersatz geleistet werden (Art. 404 Abs. 2 OR).</div>
+
+                    <div class="question">39. Wann gilt Tätigkeit als Werkvertrag, wann als Auftrag? Rechtliche Konsequenz?</div>
+                    <div class="answer">Werkvertrag: Reparatur einer Maschine (Erfolg 'funktionierende Maschine' geschuldet → Mängelrechte). Auftrag: Diagnose ohne Reparaturauftrag (kein Erfolg geschuldet → nur Schadenersatz bei Unsorgfalt). Konsequenz: Beim Werkvertrag hat der Kunde vier Mängelrechte; beim Auftrag nur Schadenersatz bei unsorgfältiger Ausführung.</div>
+
+                    <div class="question">40. 'Kündigung zur Unzeit' – Bedeutung und Rechtsfolge?</div>
+                    <div class="answer">Kündigung zur Unzeit liegt vor, wenn der Zeitpunkt für den anderen Teil besonders ungünstig ist (z.B. mitten in einem laufenden Auftrag, kurz vor dem Abschluss). Rechtsfolge: Der Kündigende muss den daraus entstandenen Schaden ersetzen (Art. 404 Abs. 2 OR), z.B. Mehrkosten für kurzfristigen Ersatz.</div>
+
+                    <div class="question">41. Traktor zur Diagnose, kein Reparaturauftrag. Vertragstyp und Erfolgspflicht?</div>
+                    <div class="answer">Es liegt ein Auftrag vor (Art. 394 OR). Der Mechaniker schuldet keinen Erfolg (kein fahrtüchtiger Traktor). Er schuldet eine sorgfältige Diagnose mit korrektem Ergebnis. Hat er die Diagnose korrekt und sorgfältig durchgeführt und den Defekt korrekt identifiziert, hat er seine Pflicht erfüllt.</div>
+
+                    <div class="question">42. Kategorisieren Sie: (a) Reparatur Zapfwelle, (b) Schadensdiagnose, (c) Ersatzteillieferung.</div>
+                    <div class="answer">(a) Reparatur Zapfwelle: Werkvertrag – Erfolg 'funktionierende Zapfwelle' geschuldet (Art. 363 OR). (b) Schadensdiagnose für Versicherungsgutachten: Auftrag – sorgfältige Diagnose und korrekte Dokumentation, kein bestimmter Befund geschuldet (Art. 394 OR). (c) Lieferung von Ersatzteilen: Kaufvertrag – Lieferung und Eigentumsverschaffung (Art. 184 OR).</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 8. AGB -->
+        <div class="section">
+            <h2 class="section-title">
+                <span>8. Allgemeine Geschäftsbedingungen (AGB)</span>
+                <span class="section-tag">H</span>
+            </h2>
+            <div class="law-refs">
+                <span class="law-ref">Art. 1 OR</span>
+                <span class="law-ref">Art. 19 OR</span>
+                <span class="law-ref">Art. 20 OR</span>
+                <span class="law-ref">Art. 100 OR</span>
+                <span class="law-ref">Art. 129 OR</span>
+                <span class="law-ref">Art. 8 UWG</span>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">2 Voraussetzungen für AGB-Einbeziehung</div>
+                        <ul>
+                            <li><strong>1. Globalübernahme</strong> (Konsens, Art. 1 OR): Partei stimmt AGB zu</li>
+                            <li><strong>2. Möglichkeit der Kenntnisnahme:</strong> AGB vor/bei Vertragsabschluss zugänglich</li>
+                        </ul>
+                        <p style="color:#c0392b; font-size:13px; margin-top:6px;">⚠️ Nachträgliches Zusenden = nicht wirksam!</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Grenzen der Vertragsfreiheit (Art. 20 OR)</div>
+                        <ul>
+                            <li><strong>Unmöglichkeit:</strong> Leistung physisch unmöglich</li>
+                            <li><strong>Widerrechtlichkeit:</strong> Verstoss gegen Gesetz</li>
+                            <li><strong>Sittenwidrigkeit:</strong> Verstoss gegen Moral</li>
+                        </ul>
+                        <p>→ Konsequenz: <strong>Nichtigkeit</strong> der Klausel/des Vertrags</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Ungewöhnlichkeitsregel</div>
+                        <p>Klauseln, mit denen der Vertragspartner nach Treu und Glauben nicht rechnen musste (überraschend, atypisch), werden <strong>nicht Vertragsbestandteil</strong> – selbst bei Globalübernahme.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Art. 8 UWG – Unfaire AGB</div>
+                        <p>Gegenüber <strong>Konsumenten</strong>: AGB, die ein erhebliches und ungerechtfertigtes Missverhältnis zwischen den vertraglichen Rechten und Pflichten schaffen, sind <strong>unzulässig</strong>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dropdown" id="dd8">
+                <div class="dropdown-header" onclick="toggleDropdown('dd8')">
+                    <span>📋 Kompetenz-Check (6 Fragen)</span>
+                    <i class="material-icons">expand_more</i>
+                </div>
+                <div class="dropdown-content">
+                    <div class="question">43. Zwei Voraussetzungen für AGB als Vertragsbestandteil?</div>
+                    <div class="answer">1. Globalübernahme: Die Partei hat den AGB zugestimmt (ausdrücklich oder stillschweigend durch Unterzeichnung). 2. Möglichkeit der Kenntnisnahme: Die AGB müssen vor oder bei Vertragsabschluss zugänglich gewesen sein. Beides muss erfüllt sein – fehlt eines, gelten die AGB nicht.</div>
+
+                    <div class="question">44. Drei Grenzen der Vertragsfreiheit (Art. 20 OR) mit Werkstattbeispiel?</div>
+                    <div class="answer">1. Unmöglichkeit: Vertrag verpflichtet zur Lieferung einer bereits zerstörten Maschine. 2. Widerrechtlichkeit: Klausel, die Betrug oder Urkundenfälschung legalisieren soll. 3. Sittenwidrigkeit: Knebelvertrag, der Kunden völlig entrechtet. Rechtsfolge: Nichtigkeit (Art. 20 Abs. 1 OR), bei Teilnichtigkeit bleibt der Rest gültig (Art. 20 Abs. 2 OR).</div>
+
+                    <div class="question">45. Erklären Sie die Ungewöhnlichkeitsregel. Wann kommt sie zur Anwendung?</div>
+                    <div class="answer">Sie schützt vor überraschenden AGB-Klauseln: Inhalte, mit denen der unerfahrene Vertragspartner nach Treu und Glauben nicht rechnen musste, werden nicht Vertragsbestandteil – auch wenn die AGB formal global übernommen wurden. Beispiel: vollständiger Haftungsausschluss für alle Schäden in Werkstatt-AGB ist überraschend.</div>
+
+                    <div class="question">46. Unterschied 'sittenwidrig' und 'widerrechtlich'? Je ein Beispiel.</div>
+                    <div class="answer">Widerrechtlich: Verstoss gegen geltendes Recht/Gesetz, z.B. AGB-Klausel, die Haftung für Vorsatz ausschliesst (verboten durch OR Art. 100). Sittenwidrig: Verstoss gegen das Anstandsgefühl der Gesellschaft ohne direkten Gesetzesbruch, z.B. Wucherklausel, die extreme Ungleichgewichte schafft.</div>
+
+                    <div class="question">47. Werkstatt sendet AGB nach Auftragsbestätigung. Haftungsausschluss wirksam?</div>
+                    <div class="answer">Nein aus zwei Gründen: 1. AGB wurden nach Vertragsabschluss zugesandt → keine Möglichkeit der Kenntnisnahme bei Vertragsschluss → AGB nicht Vertragsbestandteil. 2. Selbst wenn rechtzeitig: Ein vollständiger Haftungsausschluss für Mangelfolgeschäden ist bei grober Fahrlässigkeit/Vorsatz verboten (Art. 100 OR) und aktiviert die Ungewöhnlichkeitsregel.</div>
+
+                    <div class="question">48. AGB 'kein Fall für Folgeschäden haften'. Gilt die Klausel? (Art. 8 UWG, Ungewöhnlichkeitsregel)</div>
+                    <div class="answer">Nicht vollumfänglich: 1. Ungewöhnlichkeitsregel: Ein totaler Folgeschadenausschluss ist für Landwirte (und erst recht für Konsumenten) überraschend und atypisch → tritt nicht in Kraft. 2. Art. 8 UWG: Falls der Landwirt als Konsument gilt, ist die Klausel unzulässig. 3. Art. 100 OR: Haftungsausschluss für grobe Fahrlässigkeit/Vorsatz ist stets nichtig. Empfehlung: Klausel auf leichte Fahrlässigkeit beschränken und explizit kommunizieren.</div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Transfer in die Praxis -->
+        <div class="section" style="border-left-color: var(--success-color);">
+            <h2 class="section-title" style="color: var(--success-color);">
+                <span class="material-icons" style="font-size:22px; vertical-align:middle;">business_center</span>
+                Transfer in die Praxis
+            </h2>
+            <p>Überprüfen Sie Ihren Betrieb anhand dieser drei Fragen:</p>
+            <ul>
+                <li>Werden Ihre <strong>Werkstatt-AGB</strong> dem Kunden <em>vor</em> Unterzeichnung des Auftragsscheins ausgehändigt? Ist der Haftungsausschluss auf leichte Fahrlässigkeit beschränkt?</li>
+                <li>Haben Sie einen klaren <strong>Wareneingangsprozess</strong>? Wer prüft Lieferungen sofort, wer dokumentiert Mängel und sendet die Rüge noch am selben Tag?</li>
+                <li>Haben Sie als Mieter Ihrer Werkstatthalle die <strong>Kündigungsmodalitäten</strong> im Mietvertrag geprüft? Welche Fristen gelten, und wissen Sie, was ein amtliches Formular ist?</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        HFP Meister Landmaschinen- / Baumaschinenmechaniker | Modul 2: Vertragsrecht im Alltag | Quellen: OR, ZGB, UWG | Seiten 55–95, 106, 120–122
+    </div>
+</div>
+
+<script>
+    function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        dropdown.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
