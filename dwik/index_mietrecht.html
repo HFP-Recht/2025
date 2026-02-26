@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mietrecht: Zusammenfassung der prüfungsrelevanten Konzepte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f8f9fa;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #bdc3c7;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .slide {
+            max-width: 1280px;
+            width: 100%;
+            min-height: 720px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 30px 40px;
+            overflow-y: auto;
+        }
+
+        .section {
+            margin-bottom: 25px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 15px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .subsection {
+            margin-bottom: 15px;
+        }
+
+        .subsection-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .two-column {
+            display: flex;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .concept-box {
+            background-color: var(--light-gray);
+            border-radius: 4px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+        }
+
+        .concept-box-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+
+        .dropdown {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .dropdown-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dropdown-content {
+            padding: 15px;
+            background-color: #f9f9f9;
+            display: none;
+        }
+
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+
+        .dropdown.active .dropdown-header .material-icons {
+            transform: rotate(180deg);
+        }
+
+        .question {
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .answer {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            font-style: italic;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        th,
+        td {
+            border: 1px solid var(--border-color);
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: var(--light-gray);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slide">
+        <div class="header">
+            <h1>Mietrecht: Zusammenfassung der prüfungsrelevanten Konzepte</h1>
+        </div>
+
+        <div class="content">
+            <!-- 1. Gebrauchsüberlassungsverträge -->
+            <div class="section">
+                <h2 class="section-title">1. Gebrauchsüberlassungsverträge unterscheiden</h2>
+                <div class="subsection">
+                    <p>Bei einem Vertrag auf Gebrauchsüberlassung überlässt eine Partei einer anderen eine Sache zum
+                        Gebrauch:</p>
+                    <table>
+                        <tr>
+                            <th>Vertragsart</th>
+                            <th>Merkmal</th>
+                            <th>Artikel</th>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Miete</span></td>
+                            <td>Gebrauch gegen Mietzins</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_253"
+                                    target="_blank">Art. 253–273c OR</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Pacht</span></td>
+                            <td>Gebrauch und Nutzung (Erträgnisse) gegen Pachtzins</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_275"
+                                    target="_blank">Art. 275–304 OR</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Leihe</span></td>
+                            <td>Unentgeltliche Überlassung zum Gebrauch</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_305"
+                                    target="_blank">Art. 305–311 OR</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Darlehen</span></td>
+                            <td>Eigentum wird übertragen (Geld oder vertretbare Sachen)</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_312"
+                                    target="_blank">Art. 312–318 OR</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Leasing</span></td>
+                            <td>Gebrauch mit zusätzlichen Risiken und Kosten für den Nehmer</td>
+                            <td>KKG</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="dropdown" id="dropdown1">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welche fünf Arten von Gebrauchsüberlassungsverträgen werden im OR
+                            unterschieden?</div>
+                        <div class="answer">Miete, Pacht, Leihe, Darlehen und Leasing.</div>
+
+                        <div class="question">2. Was ist der zentrale Unterschied zwischen Miete und Pacht?</div>
+                        <div class="answer">Bei der Miete wird die Sache nur zum Gebrauch überlassen, bei der Pacht
+                            zusätzlich zur Nutzung (Bezug der Früchte und Erträgnisse).</div>
+
+                        <div class="question">5. Werkstatthalle mit Hebebühne zur Einnahmenerzielung – Miete oder Pacht?
+                        </div>
+                        <div class="answer">Pachtvertrag, da der Nutzer mit den überlassenen Einrichtungen Erträgnisse
+                            (Einnahmen) erzielen darf.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Pflichten Vermieter und Mieter -->
+            <div class="section">
+                <h2 class="section-title">2. Pflichten von Vermieter und Mieter</h2>
+
+                <div class="two-column">
+                    <div class="column">
+                        <div class="subsection">
+                            <h3 class="subsection-title">Pflichten des Vermieters</h3>
+                            <ul>
+                                <li><strong>Übergabe</strong> der Mietsache in gebrauchstauglichem Zustand (<a
+                                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_256"
+                                        target="_blank">Art. 256 OR</a>)</li>
+                                <li><strong>Unterhalt</strong> – Erhalt in gebrauchsfähigem Zustand</li>
+                                <li><strong>Auskunftspflicht</strong> über Vormietzins (<a
+                                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_256_a"
+                                        target="_blank">Art. 256a OR</a>)</li>
+                                <li><strong>Abgaben und Lasten</strong> tragen (<a
+                                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_256_b"
+                                        target="_blank">Art. 256b OR</a>)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="subsection">
+                            <h3 class="subsection-title">Pflichten des Mieters</h3>
+                            <ul>
+                                <li><strong>Mietzins</strong> bezahlen (<a
+                                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257"
+                                        target="_blank">Art. 257 OR</a>)</li>
+                                <li><strong>Sorgfalt</strong> und Rücksichtnahme (<a
+                                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257_f"
+                                        target="_blank">Art. 257f OR</a>)</li>
+                                <li><strong>Mängel melden</strong> (<a
+                                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257_g"
+                                        target="_blank">Art. 257g OR</a>)</li>
+                                <li><strong>Kleiner Unterhalt</strong> selbst übernehmen (<a
+                                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259"
+                                        target="_blank">Art. 259 OR</a>)</li>
+                                <li><strong>Rückgabe</strong> am Ende (<a
+                                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_267"
+                                        target="_blank">Art. 267 OR</a>)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="concept-box">
+                    <div class="concept-box-title">Kleiner Unterhalt (<a
+                            href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259" target="_blank">Art. 259
+                            OR</a>)</div>
+                    <p>Kleinere Reinigungen und Ausbesserungen, die der Mieter ohne Fachwissen und ohne Dritte selbst
+                        ausführen kann. Richtwert: ca. <span class="highlight">150 Franken</span>. Teurere Arbeiten oder
+                        solche mit Fachwissen → Vermieter.</p>
+                </div>
+
+                <div class="concept-box">
+                    <div class="concept-box-title">Praxis: Mietvertrag Ziffer 14 vs. Gesetz</div>
+                    <p>Der Muster-Mietvertrag definiert den kleinen Unterhalt gemäss <a
+                            href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259" target="_blank">Art. 259
+                            OR</a>. Vergleich: Ein defekter <strong>Rolltor-Motor</strong> (CHF 3'800, Fachwissen nötig)
+                        ist kein kleiner Unterhalt → <strong>Vermieterpflicht</strong>.</p>
+                </div>
+
+                <div class="dropdown" id="dropdown2">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die Hauptpflichten des Vermieters und des Mieters.</div>
+                        <div class="answer">Vermieter: Übergabe und Erhalt der Mietsache in gebrauchstauglichem Zustand.
+                            Mieter: Mietzins bezahlen, sorgfältiger Umgang, Rückgabe.</div>
+
+                        <div class="question">2. Was versteht man unter dem 'kleinen Unterhalt'?</div>
+                        <div class="answer">Kleinere Reinigungen und Ausbesserungen, die der Mieter ohne Fachwissen
+                            selbst ausführen kann. Richtwert ca. 150 Franken.</div>
+
+                        <div class="question">5. Wer zahlt den defekten Rolltor-Motor (CHF 3'800)?</div>
+                        <div class="answer">Der Vermieter. Die Kosten übersteigen den Richtwert bei weitem, und die
+                            Reparatur erfordert Fachwissen – kein kleiner Unterhalt.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Mängelrechte -->
+            <div class="section">
+                <h2 class="section-title">3. Mängelrechte – leicht, mittel, schwer</h2>
+                <div class="subsection">
+                    <table>
+                        <tr>
+                            <th>Mängelstufe</th>
+                            <th>Beispiel</th>
+                            <th>Rechte des Mieters</th>
+                            <th>Artikel</th>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Leicht</span></td>
+                            <td>Verstopfter Abfluss, defekte Glühbirne</td>
+                            <td>Mieter übernimmt selbst (kleiner Unterhalt)</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259"
+                                    target="_blank">Art. 259 OR</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Mittel</span></td>
+                            <td>Defekte Waschmaschine, kaputter Rolltor-Motor</td>
+                            <td>Frist setzen → Ersatzvornahme auf Kosten des Vermieters + Mietzinsherabsetzung</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259_b"
+                                    target="_blank">Art. 259b lit. b OR</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Schwer</span></td>
+                            <td>Unbewohnbare Wohnung (Feuchtigkeitsschaden), Heizungsausfall im Winter</td>
+                            <td>Fristlose Kündigung + Schadenersatz + Mietzinsherabsetzung</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259_b"
+                                    target="_blank">Art. 259b lit. a OR</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="concept-box">
+                    <div class="concept-box-title">Praxis: Mietvertrag Ziffer 16.6 (Temperaturen)</div>
+                    <p>«Mindestens 20°C, maximal 26°C. Werden diese Werte nicht eingehalten, darf die Mieterin nach
+                        erfolgloser Anmahnung von <span class="highlight">14 Tagen</span> die notwendigen Massnahmen auf
+                        Kosten der Vermieterin ergreifen.» → Vertragliches Recht zur Ersatzvornahme.</p>
+                </div>
+
+                <div class="dropdown" id="dropdown3">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown3')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welche drei Stufen von Mängeln gibt es und welche Rechte hat der
+                            Mieter?</div>
+                        <div class="answer">Leicht: Mieter selbst (kleiner Unterhalt). Mittel: Frist setzen, dann
+                            Ersatzvornahme auf Kosten des Vermieters. Schwer: Fristlose Kündigung möglich.</div>
+
+                        <div class="question">5. Heizungsausfall im Dezember, 12°C – welche Schritte?</div>
+                        <div class="answer">Vermieter schriftlich mahnen, angemessene Frist setzen (gemäss Vertrag 14
+                            Tage, bei schweren Mängeln evtl. kürzer). Nach Ablauf: Reparatur auf Kosten des Vermieters
+                            veranlassen (Ersatzvornahme). Zusätzlich Mietzinsherabsetzung verlangen.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Kündigungsfristen und -formen -->
+            <div class="section">
+                <h2 class="section-title">4. Kündigungsfristen und -formen</h2>
+                <div class="subsection">
+                    <table>
+                        <tr>
+                            <th>Sache</th>
+                            <th>Frist</th>
+                            <th>Artikel</th>
+                        </tr>
+                        <tr>
+                            <td>Wohnungen</td>
+                            <td><span class="highlight">3 Monate</span> auf ortsüblichen Termin</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266_c"
+                                    target="_blank">Art. 266c OR</a></td>
+                        </tr>
+                        <tr>
+                            <td>Geschäftsräume</td>
+                            <td><span class="highlight">6 Monate</span> auf ortsüblichen Termin</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266_d"
+                                    target="_blank">Art. 266d OR</a></td>
+                        </tr>
+                        <tr>
+                            <td>Möblierte Zimmer</td>
+                            <td>2 Wochen</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266_e"
+                                    target="_blank">Art. 266e OR</a></td>
+                        </tr>
+                        <tr>
+                            <td>Bewegliche Sachen</td>
+                            <td>3 Tage</td>
+                            <td><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266_f"
+                                    target="_blank">Art. 266f OR</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="concept-box">
+                    <div class="concept-box-title">Formvorschriften (<a
+                            href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266_l" target="_blank">Art.
+                            266l OR</a>)</div>
+                    <p><strong>Vermieter:</strong> Amtliches Formular (qualifizierte Schriftlichkeit).
+                        <strong>Mieter:</strong> Schriftlich (Einschreiben empfohlen). Formfehler → Kündigung <span
+                            class="highlight">nichtig</span>!</p>
+                </div>
+
+                <div class="concept-box">
+                    <div class="concept-box-title">Praxis: Mietvertrag Ziffer 3 vs. Gesetz</div>
+                    <p>Gesetz: 6 Monate bei Geschäftsräumen. Vertrag: <span class="highlight">12 Monate</span>.
+                        Zulässig! Das Gesetz gibt nur das <strong>Minimum</strong> vor. Verträge können längere Fristen
+                        vorsehen.</p>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Nachmieter (<a
+                            href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_264" target="_blank">Art. 264
+                            OR</a>)</h3>
+                    <p>Vorzeitige Rückgabe möglich, wenn ein <strong>zumutbarer, zahlungsfähiger Nachmieter</strong>
+                        gestellt wird, der den Vertrag zu gleichen Bedingungen übernimmt. Kein Nachmieter gefunden →
+                        Mietzins bis zum nächsten Kündigungstermin geschuldet.</p>
+                </div>
+
+                <div class="dropdown" id="dropdown4">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown4')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welche Kündigungsfristen gelten für Wohnungen und Geschäftsräume?</div>
+                        <div class="answer">Wohnungen: 3 Monate. Geschäftsräume: 6 Monate.</div>
+
+                        <div class="question">3. Warum darf der Vertrag eine längere Frist als das Gesetz vorsehen?
+                        </div>
+                        <div class="answer">Das Gesetz definiert nur das Minimum. Verträge können zugunsten beider
+                            Parteien längere Fristen vereinbaren (Vertragsfreiheit).</div>
+
+                        <div class="question">6. Werkstattleiter will vorzeitig raus, 2 Jahre Restlaufzeit – was tun?
+                        </div>
+                        <div class="answer">Er muss dem Vermieter einen zumutbaren, zahlungsfähigen Nachmieter
+                            vorschlagen (<a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_264"
+                                target="_blank">Art. 264 OR</a>). Findet er keinen, muss er den Mietzins bis zum
+                            nächsten ordentlichen Kündigungstermin bezahlen.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Schutz vor missbräuchlichen Mietzinsen -->
+            <div class="section">
+                <h2 class="section-title">5. Schutz vor missbräuchlichen Mietzinsen</h2>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Wann ist ein Mietzins missbräuchlich? (<a
+                                href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_269" target="_blank">Art.
+                                269 OR</a>)</div>
+                        <ul>
+                            <li>Wenn damit ein <span class="highlight">übersetzter Ertrag</span> erzielt wird</li>
+                            <li>Wenn er auf einem <span class="highlight">offensichtlich übersetzten Kaufpreis</span>
+                                beruht</li>
+                        </ul>
+                    </div>
+
+                    <div class="concept-box">
+                        <div class="concept-box-title">Nicht missbräuchlich (<a
+                                href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_269_a"
+                                target="_blank">Art. 269a OR</a>)</div>
+                        <ul>
+                            <li>Im Rahmen der orts- oder quartierüblichen Mietzinse</li>
+                            <li>Begründet durch Kostensteigerungen (z.B. Hypothekarzinsen)</li>
+                            <li>Durch Mehrleistungen des Vermieters (z.B. neue Heizung)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Vorgehen des Mieters</h3>
+                    <ul>
+                        <li><strong>Anfangsmietzins anfechten:</strong> Innert <span class="highlight">30 Tagen</span>
+                            nach Übernahme bei der Schlichtungsbehörde (<a
+                                href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270" target="_blank">Art.
+                                270 OR</a>)</li>
+                        <li><strong>Herabsetzungsbegehren:</strong> Während des Mietverhältnisses bei Senkung des
+                            Referenzzinssatzes (<a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270_a"
+                                target="_blank">Art. 270a OR</a>)</li>
+                        <li><strong>Wichtig:</strong> Mietzins nie eigenmächtig reduzieren!</li>
+                    </ul>
+                </div>
+
+                <div class="dropdown" id="dropdown5">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown5')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">6. Mietzins liegt 30% über Vormieter, keine Umbauten – was tun?</div>
+                        <div class="answer">Innert 30 Tagen nach Übernahme bei der Schlichtungsbehörde ein
+                            Herabsetzungsbegehren für den Anfangsmietzins einreichen (<a
+                                href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270" target="_blank">Art.
+                                270 OR</a>). Zudem Auskunft über Vormietzins verlangen (<a
+                                href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_256_a"
+                                target="_blank">Art. 256a Abs. 2 OR</a>).</div>
+
+                        <div class="question">3. Warum darf der Mieter nicht eigenmächtig reduzieren?</div>
+                        <div class="answer">Die Beurteilung, ob ein Mietzins missbräuchlich ist, obliegt der
+                            Schlichtungsbehörde. Eigenmächtige Reduktion stellt Zahlungsverzug dar und kann zur
+                            Kündigung führen.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Zahlungsverzug des Mieters -->
+            <div class="section">
+                <h2 class="section-title">6. Zahlungsverzug des Mieters (<a
+                        href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257_d" target="_blank">Art. 257d
+                        OR</a>)</h2>
+                <div class="subsection">
+                    <p>Das korrekte Vorgehen des Vermieters bei Zahlungsverzug:</p>
+                    <ol style="font-size: 18px;">
+                        <li><strong>Schriftliche Mahnung</strong> mit Fristsetzung von mind. <span class="highlight">30
+                                Tagen</span></li>
+                        <li>Gleichzeitig <strong>Kündigung androhen</strong></li>
+                        <li>Zahlt der Mieter innerhalb der Frist → Kündigung <strong>abgewendet</strong></li>
+                        <li>Zahlt er nicht → Kündigung mit <span class="highlight">30 Tagen auf Monatsende</span></li>
+                        <li>Bei Geschäftsräumen: <strong>Amtliches Formular</strong> verwenden!</li>
+                    </ol>
+                </div>
+
+                <div class="concept-box">
+                    <div class="concept-box-title">Häufiger Fehler</div>
+                    <p>Mündliche Fristsetzung, zu kurze Frist (z.B. 5 Tage) oder sofortige Räumung → alles <span
+                            class="highlight">rechtlich unwirksam</span>! Der Vermieter muss das gesetzliche Verfahren
+                        einhalten.</p>
+                </div>
+
+                <div class="dropdown" id="dropdown6">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown6')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">6. Vermieter ruft an, setzt 5 Tage Frist, droht mit Räumung – ist das
+                            korrekt?</div>
+                        <div class="answer">Nein, mehrfach fehlerhaft: (1) Mündlich statt schriftlich. (2) 5 Tage statt
+                            mindestens 30 Tage Frist. (3) Sofortige Räumung ist ohne Gerichtsurteil nicht möglich. Das
+                            Vorgehen ist rechtlich unwirksam.</div>
+
+                        <div class="question">2. Welche Frist muss der Vermieter bei Zahlungsverzug setzen?</div>
+                        <div class="answer">Mindestens 30 Tage (<a
+                                href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257_d"
+                                target="_blank">Art. 257d OR</a>), und zwar schriftlich mit gleichzeitiger Androhung der
+                            Kündigung.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
