@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGB-Recht im Werkstatt-Alltag</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        /* Custom animation for tab switching */
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Hide inactive tabs by default */
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen bg-slate-50 font-sans text-slate-800">
+
+    <header class="bg-blue-900 text-white p-6 shadow-lg">
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-3xl font-bold flex items-center gap-3">
+                <i data-lucide="scale" class="w-8 h-8 text-yellow-400"></i>
+                AGB-Recht im Werkstatt-Alltag
+            </h1>
+            <p class="mt-2 text-blue-200">
+                Interaktives Lernmodul für Land- und Baumaschinentechnik in der Schweiz
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto mt-8 p-4">
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+
+            <div class="flex border-b border-slate-200 bg-slate-100 overflow-x-auto" id="tab-nav">
+                <button onclick="switchTab('einbeziehung')" id="btn-einbeziehung"
+                    class="tab-btn active flex items-center gap-2 px-6 py-4 text-sm font-medium transition-colors whitespace-nowrap bg-white text-blue-900 border-b-2 border-blue-600 shadow-sm">
+                    <i data-lucide="file-text" class="w-4 h-4"></i> 1. Einbeziehung & Geltung
+                </button>
+                <button onclick="switchTab('inhaltskontrolle')" id="btn-inhaltskontrolle"
+                    class="tab-btn flex items-center gap-2 px-6 py-4 text-sm font-medium transition-colors whitespace-nowrap text-slate-500 hover:text-blue-700 hover:bg-slate-50">
+                    <i data-lucide="alert-triangle" class="w-4 h-4"></i> 2. Ungewöhnlichkeit & UWG
+                </button>
+                <button onclick="switchTab('grenzen')" id="btn-grenzen"
+                    class="tab-btn flex items-center gap-2 px-6 py-4 text-sm font-medium transition-colors whitespace-nowrap text-slate-500 hover:text-blue-700 hover:bg-slate-50">
+                    <i data-lucide="shield-alert" class="w-4 h-4"></i> 3. Grenzen der Freiheit
+                </button>
+                <button onclick="switchTab('fallstudien')" id="btn-fallstudien"
+                    class="tab-btn flex items-center gap-2 px-6 py-4 text-sm font-medium transition-colors whitespace-nowrap text-slate-500 hover:text-blue-700 hover:bg-slate-50">
+                    <i data-lucide="book-open" class="w-4 h-4"></i> 4. Fallstudien-Training
+                </button>
+            </div>
+
+            <div class="p-6 min-h-[500px]">
+
+                <div id="einbeziehung" class="tab-content active fade-in space-y-8">
+                    <div class="mb-6">
+                        <h2 class="text-2xl font-bold text-slate-800">Wie werden AGB Vertragsbestandteil?</h2>
+                        <p class="text-slate-500">Die Hürde des Vertragsschlusses</p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div
+                            class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="p-2 bg-blue-50 rounded-lg"><i data-lucide="users" class="text-blue-600"></i>
+                                </div>
+                                <h3 class="font-bold text-lg text-slate-800">Voraussetzung 1: Globalübernahme</h3>
+                            </div>
+                            <div class="text-slate-600 text-sm leading-relaxed">
+                                <p class="mb-4">
+                                    Im hektischen Werkstattalltag liest niemand das Kleingedruckte. Das Schweizer Recht
+                                    erlaubt daher die <strong>Globalübernahme</strong>: Der/die Kund/in akzeptiert die
+                                    AGB "ungelesen" als Ganzes.
+                                </p>
+                                <div class="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500 text-sm">
+                                    <strong>Praxis-Realität:</strong> Ein/e Landwirt/in unterschreibt den
+                                    Reparaturauftrag für den Mähdrescher. Damit akzeptiert er/sie oft AGB, die er/sie
+                                    nie gesehen hat. Das ist zulässig, <em>wenn</em> auf sie hingewiesen wurde.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="p-2 bg-blue-50 rounded-lg"><i data-lucide="info" class="text-blue-600"></i>
+                                </div>
+                                <h3 class="font-bold text-lg text-slate-800">Voraussetzung 2: Möglichkeit der
+                                    Kenntnisnahme</h3>
+                            </div>
+                            <div class="text-slate-600 text-sm leading-relaxed">
+                                <p class="mb-4">
+                                    Die Globalübernahme ist nur gültig, wenn der/die Kund/in die <strong>realistische
+                                        Möglichkeit</strong> hatte, die AGB zu lesen.
+                                </p>
+                                <ul class="space-y-2 text-sm">
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle"
+                                            class="text-green-500 min-w-[16px] mt-1 w-4 h-4"></i>
+                                        <span>Aushang in der Werkstatt (gut sichtbar).</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle"
+                                            class="text-green-500 min-w-[16px] mt-1 w-4 h-4"></i>
+                                        <span>Abdruck auf der Rückseite des Auftragsformulars (mit Verweis auf
+                                            Vorderseite).</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i data-lucide="check-circle"
+                                            class="text-green-500 min-w-[16px] mt-1 w-4 h-4"></i>
+                                        <span>Digital: Link/PDF im E-Mail-Angebot.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-6">
+                        <h3 class="text-lg font-bold text-yellow-800 mb-3 flex items-center gap-2">
+                            <i data-lucide="alert-triangle" class="w-5 h-5"></i>
+                            Der kritische Faktor: Der Zeitpunkt
+                        </h3>
+                        <div class="flex flex-col md:flex-row gap-8 items-center justify-center">
+                            <div
+                                class="flex-1 text-center bg-white p-4 rounded shadow-sm border border-red-100 opacity-50">
+                                <div class="text-red-500 font-bold text-lg mb-1">Zu Spät</div>
+                                <div class="text-sm">AGB auf der <strong>Rechnung</strong></div>
+                                <p class="text-xs text-slate-500 mt-2">Der Vertrag wurde bereits beim Reparaturauftrag
+                                    geschlossen. Nachgeschobene AGB sind wirkungslos.</p>
+                            </div>
+                            <div class="text-slate-400 hidden md:block">➔</div>
+                            <div
+                                class="flex-1 text-center bg-white p-4 rounded shadow-md border-2 border-green-500 transform scale-105">
+                                <div class="text-green-600 font-bold text-lg mb-1">Korrekt</div>
+                                <div class="text-sm">AGB beim <strong>Auftrag / Angebot</strong></div>
+                                <p class="text-xs text-slate-500 mt-2">Vor oder spätestens bei Vertragsabschluss (z.B.
+                                    Unterschrift Werkstattauftrag) müssen AGB vorliegen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="inhaltskontrolle" class="tab-content fade-in space-y-8">
+                    <div class="mb-6">
+                        <h2 class="text-2xl font-bold text-slate-800">Was darf in den AGB stehen?</h2>
+                        <p class="text-slate-500">Ungewöhnlichkeitsregel & Art. 8 UWG</p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
+                            <h3 class="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                                1. Die Ungewöhnlichkeitsregel
+                            </h3>
+                            <p class="text-sm text-slate-600 mb-4">
+                                Wer AGB "blind" akzeptiert (Globalübernahme), muss vor Überrumpelung geschützt werden.
+                                Klauseln, die <strong>objektiv und subjektiv ungewöhnlich</strong> sind, werden nicht
+                                Vertragsbestandteil.
+                            </p>
+
+                            <div class="space-y-4">
+                                <div class="flex gap-4 p-4 rounded-lg bg-slate-50 border border-slate-100">
+                                    <div class="flex-shrink-0 mt-1"><i data-lucide="check-circle"
+                                            class="text-green-500 w-5 h-5"></i></div>
+                                    <div>
+                                        <div class="flex justify-between items-start">
+                                            <h4 class="font-bold text-sm text-slate-800">Beispiel: Retentionsrecht</h4>
+                                            <span
+                                                class="text-xs px-2 py-0.5 rounded font-bold bg-green-100 text-green-800">Gültig
+                                                (Üblich)</span>
+                                        </div>
+                                        <p class="text-xs italic text-slate-500 mt-1 mb-2">Klausel: 'Wir behalten Ihren
+                                            Traktor, bis alle offenen Rechnungen bezahlt sind.'</p>
+                                        <p class="text-xs text-slate-700"><span class="font-semibold">Begründung:</span>
+                                            In der Werkstattbranche ist das Retentionsrecht (ZGB 895) branchenüblich.
+                                            Ein/e Kund/in muss damit rechnen.</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex gap-4 p-4 rounded-lg bg-slate-50 border border-slate-100">
+                                    <div class="flex-shrink-0 mt-1"><i data-lucide="x-circle"
+                                            class="text-red-500 w-5 h-5"></i></div>
+                                    <div>
+                                        <div class="flex justify-between items-start">
+                                            <h4 class="font-bold text-sm text-slate-800">Beispiel: Lebensversicherung
+                                            </h4>
+                                            <span
+                                                class="text-xs px-2 py-0.5 rounded font-bold bg-red-100 text-red-800">Ungültig
+                                                (Ungewöhnlich)</span>
+                                        </div>
+                                        <p class="text-xs italic text-slate-500 mt-1 mb-2">Klausel: 'Kund/innen müssen
+                                            eine Lebensversicherung zugunsten des/der Mechaniker/in abschließen.'</p>
+                                        <p class="text-xs text-slate-700"><span class="font-semibold">Begründung:</span>
+                                            Damit muss niemand rechnen, der einen Ölwechsel bestellt. Diese Klausel
+                                            fällt weg.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
+                            <h3 class="text-xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                                2. Artikel 8 UWG (Konsumentenschutz)
+                            </h3>
+                            <p class="text-sm text-slate-600 mb-4">
+                                Verschärfte Kontrolle bei Verträgen mit Konsument/innen (B2C). AGB sind unwirksam, wenn
+                                sie ein <strong>erhebliches und ungerechtfertigtes Missverhältnis</strong> zwischen
+                                Rechten und Pflichten schaffen.
+                            </p>
+
+                            <div class="bg-indigo-50 p-4 rounded-lg mb-4">
+                                <h4 class="font-semibold text-indigo-900 text-sm mb-2">Relevanz für Landtechnik?</h4>
+                                <p class="text-xs text-indigo-800">
+                                    Landwirt/innen gelten meist als Unternehmer/innen (B2B), Hobby-Gärtner/innen mit
+                                    Rasentraktor als Konsument/innen (B2C).
+                                </p>
+                            </div>
+
+                            <div class="space-y-4">
+                                <div class="flex gap-4 p-4 rounded-lg bg-slate-50 border border-slate-100">
+                                    <div class="flex-shrink-0 mt-1"><i data-lucide="x-circle"
+                                            class="text-red-500 w-5 h-5"></i></div>
+                                    <div>
+                                        <div class="flex justify-between items-start">
+                                            <h4 class="font-bold text-sm text-slate-800">Beispiel: Volle Vorauszahlung
+                                            </h4>
+                                            <span
+                                                class="text-xs px-2 py-0.5 rounded font-bold bg-red-100 text-red-800">Problematisch
+                                                (Art. 8 UWG)</span>
+                                        </div>
+                                        <p class="text-xs italic text-slate-500 mt-1 mb-2">Klausel: 'Der gesamte
+                                            Werklohn ist zwingend vor Arbeitsbeginn zu zahlen, ohne Rückerstattungsrecht
+                                            bei Nichterfolg.'</p>
+                                        <p class="text-xs text-slate-700"><span class="font-semibold">Begründung:</span>
+                                            Dies widerspricht dem Wesen des Werkvertrags (Erfolgsgarantie) und
+                                            benachteiligt Konsument/innen massiv.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="grenzen" class="tab-content fade-in space-y-8">
+                    <div class="mb-6">
+                        <h2 class="text-2xl font-bold text-slate-800">Wo endet die Vertragsfreiheit?</h2>
+                        <p class="text-slate-500">Zwingendes Recht schlägt AGB</p>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+                        <h3 class="font-bold text-lg mb-4">Das Ampelsystem der Haftungsklauseln</h3>
+                        <div class="grid gap-4">
+
+                            <div class="flex items-stretch border-l-4 border-red-500 bg-red-50 p-4 rounded-r">
+                                <div class="flex-shrink-0 mr-4 flex items-center">
+                                    <i data-lucide="x-circle" class="text-red-500 h-8 w-8"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-red-900">Verbotener Ausschluss (Nichtigkeit)</h4>
+                                    <p class="text-sm text-red-800 mt-1"><strong>Absicht & Grobe Fahrlässigkeit (Art.
+                                            100 Abs. 1 OR)</strong></p>
+                                    <p class="text-xs text-slate-600 mt-2">
+                                        Beispiel: Der/die Mechaniker/in fährt aus Spaß Rennen mit dem Traktor des/der
+                                        Kund/in und baut einen Unfall. Hier hilft keine AGB-Klausel. Haftung bleibt
+                                        bestehen.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-stretch border-l-4 border-yellow-500 bg-yellow-50 p-4 rounded-r">
+                                <div class="flex-shrink-0 mr-4 flex items-center">
+                                    <i data-lucide="alert-triangle" class="text-yellow-600 h-8 w-8"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-yellow-900">Graubereich (Vorsicht)</h4>
+                                    <p class="text-sm text-yellow-800 mt-1"><strong>Hilfspersonenhaftung (Art. 101 OR) &
+                                            Personenschäden</strong></p>
+                                    <p class="text-xs text-slate-600 mt-2">
+                                        Haftung für Lernende kann ausgeschlossen werden. Personenschäden (Verletzung
+                                        des/der Fahrer/in durch defekte Bremse) können nach Produktehaftpflichtgesetz
+                                        oft nicht ausgeschlossen werden.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-stretch border-l-4 border-green-500 bg-green-50 p-4 rounded-r">
+                                <div class="flex-shrink-0 mr-4 flex items-center">
+                                    <i data-lucide="check-circle" class="text-green-600 h-8 w-8"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-green-900">Erlaubter Ausschluss (Standard)</h4>
+                                    <p class="text-sm text-green-800 mt-1"><strong>Leichte Fahrlässigkeit &
+                                            Folgeschäden</strong></p>
+                                    <p class="text-xs text-slate-600 mt-2">
+                                        Beispiel: Ein/e Mechaniker/in zieht eine Dichtung etwas zu wenig fest (leicht
+                                        fahrlässig). Öl tritt aus. Ernte steht still (Folgeschaden).<br />
+                                        <strong>AGB-Effekt:</strong> Werkstatt zahlt neue Dichtung, aber <em>nicht</em>
+                                        den Ernteausfall von CHF 50'000. Dies ist der wichtigste Schutz für Werkstätten.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="fallstudien" class="tab-content fade-in space-y-8">
+                    <div class="mb-6">
+                        <h2 class="text-2xl font-bold text-slate-800">Training: Theorie in der Praxis</h2>
+                        <p class="text-slate-500">Entscheiden Sie die Rechtslage</p>
+                    </div>
+
+                    <div class="grid gap-6">
+
+                        <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                            <div class="p-6 bg-slate-50 border-b border-slate-100">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-lg text-slate-800">Der Fall 'Ernteausfall'</h3>
+                                    <span class="text-xs font-bold px-2 py-1 bg-blue-100 text-blue-800 rounded">Fall
+                                        1</span>
+                                </div>
+                                <p class="mt-3 text-slate-700 leading-relaxed">Landwirt/in Müller bringt den Mähdrescher
+                                    zur Reparatur. Auf dem Auftragsformular steht: 'Es gelten unsere AGB, einsehbar auf
+                                    der Website'. Müller unterschreibt. Die Werkstatt vergisst eine Schraube (leichte
+                                    Fahrlässigkeit). Der Mähdrescher fällt am ersten Erntetag aus. Müller verliert
+                                    Weizen im Wert von CHF 20'000. Die AGB schließen Haftung für 'indirekte Schäden'
+                                    aus.</p>
+                                <div class="mt-4 font-semibold text-blue-900">Frage: Muss die Werkstatt den Weizen
+                                    bezahlen?</div>
+                            </div>
+                            <div class="p-4 bg-white" id="case-1-container">
+                                <button onclick="toggleCase(1)" id="btn-case-1"
+                                    class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded font-medium transition-colors flex items-center justify-center gap-2">
+                                    <i data-lucide="scale" class="w-4 h-4"></i> Lösung anzeigen
+                                </button>
+                                <div id="sol-case-1"
+                                    class="hidden fade-in bg-green-50 p-4 rounded border border-green-100">
+                                    <div class="font-bold text-green-800 mb-2 flex items-center gap-2">
+                                        <i data-lucide="check-circle" class="w-4 h-4"></i> Antwort: Nein.
+                                    </div>
+                                    <p class="text-sm text-slate-700">1. Einbeziehung: Der Verweis auf die Website beim
+                                        Auftrag reicht im B2B-Verkehr meist aus (Möglichkeit der Kenntnisnahme). 2.
+                                        Inhalt: Der Ausschluss für leichte Fahrlässigkeit und Folgeschäden (indirekte
+                                        Schäden) ist gültig (Art. 100 OR). Müller bleibt auf dem Ernteausfall sitzen.
+                                        Die Werkstatt muss nur die Schraube nachbessern.</p>
+                                    <button onclick="toggleCase(1)"
+                                        class="mt-3 text-xs text-slate-500 hover:text-slate-800 underline">Lösung
+                                        verbergen</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                            <div class="p-6 bg-slate-50 border-b border-slate-100">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-lg text-slate-800">Der Fall 'Nachgeschobene AGB'</h3>
+                                    <span class="text-xs font-bold px-2 py-1 bg-blue-100 text-blue-800 rounded">Fall
+                                        2</span>
+                                </div>
+                                <p class="mt-3 text-slate-700 leading-relaxed">Bauunternehmer/in Rossi ruft an: 'Bagger
+                                    kaputt, kommt sofort!'. Ein/e Mechaniker/in repariert vor Ort. Am nächsten Tag
+                                    schickt die Werkstatt die Rechnung, auf deren Rückseite steht: 'Mängelrügefrist 3
+                                    Tage'. Rossi entdeckt nach 10 Tagen einen Mangel.</p>
+                                <div class="mt-4 font-semibold text-blue-900">Frage: Gilt die 3-Tages-Frist?</div>
+                            </div>
+                            <div class="p-4 bg-white" id="case-2-container">
+                                <button onclick="toggleCase(2)" id="btn-case-2"
+                                    class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded font-medium transition-colors flex items-center justify-center gap-2">
+                                    <i data-lucide="scale" class="w-4 h-4"></i> Lösung anzeigen
+                                </button>
+                                <div id="sol-case-2"
+                                    class="hidden fade-in bg-green-50 p-4 rounded border border-green-100">
+                                    <div class="font-bold text-green-800 mb-2 flex items-center gap-2">
+                                        <i data-lucide="check-circle" class="w-4 h-4"></i> Antwort: Nein.
+                                    </div>
+                                    <p class="text-sm text-slate-700">Die AGB waren beim telefonischen Vertragsabschluss
+                                        nicht Thema. Sie wurden erst mit der Rechnung (nach Vertragserfüllung)
+                                        zugesendet. Das ist zu spät. Es gilt die gesetzliche Regelung (Art. 367 OR:
+                                        'sofortige Prüfung', was in der Praxis oft ca. 7 Tage bedeutet, aber nicht
+                                        strikt 3).</p>
+                                    <button onclick="toggleCase(2)"
+                                        class="mt-3 text-xs text-slate-500 hover:text-slate-800 underline">Lösung
+                                        verbergen</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                            <div class="p-6 bg-slate-50 border-b border-slate-100">
+                                <div class="flex justify-between items-start">
+                                    <h3 class="font-bold text-lg text-slate-800">Der Fall 'Teurer als gedacht'</h3>
+                                    <span class="text-xs font-bold px-2 py-1 bg-blue-100 text-blue-800 rounded">Fall
+                                        3</span>
+                                </div>
+                                <p class="mt-3 text-slate-700 leading-relaxed">Ein Kostenvoranschlag (KV) sagt 'ca. CHF
+                                    10'000'. In den AGB steht: 'Kostenüberschreitungen bis 20% sind ohne Rückfrage
+                                    zulässig'. Die Rechnung beträgt CHF 11'500.</p>
+                                <div class="mt-4 font-semibold text-blue-900">Frage: Muss der/die Kund/in zahlen?</div>
+                            </div>
+                            <div class="p-4 bg-white" id="case-3-container">
+                                <button onclick="toggleCase(3)" id="btn-case-3"
+                                    class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded font-medium transition-colors flex items-center justify-center gap-2">
+                                    <i data-lucide="scale" class="w-4 h-4"></i> Lösung anzeigen
+                                </button>
+                                <div id="sol-case-3"
+                                    class="hidden fade-in bg-green-50 p-4 rounded border border-green-100">
+                                    <div class="font-bold text-green-800 mb-2 flex items-center gap-2">
+                                        <i data-lucide="check-circle" class="w-4 h-4"></i> Antwort: Ja.
+                                    </div>
+                                    <p class="text-sm text-slate-700">Diese Klausel ist in der Branche üblich (nicht
+                                        ungewöhnlich) und deckt die Diagnoseunsicherheit ab. Da 11'500 unter der
+                                        20%-Grenze (12'000) liegen, ist die Erhöhung durch die AGB gedeckt und
+                                        vertragskonform.</p>
+                                    <button onclick="toggleCase(3)"
+                                        class="mt-3 text-xs text-slate-500 hover:text-slate-800 underline">Lösung
+                                        verbergen</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="max-w-5xl mx-auto mt-8 p-4 text-center text-slate-500 text-sm mb-12">
+        Basierend auf dem Forschungsbericht zu AGB im Schweizer Landmaschinen-Sektor (OR/ZGB/UWG).
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Tab Switching Logic
+        function switchTab(tabId) {
+            // 1. Hide all tab content
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            // 2. Show target tab content
+            document.getElementById(tabId).classList.add('active');
+
+            // 3. Reset all tab buttons to default style
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.className = "tab-btn flex items-center gap-2 px-6 py-4 text-sm font-medium transition-colors whitespace-nowrap text-slate-500 hover:text-blue-700 hover:bg-slate-50";
+            });
+            // 4. Set target button to active style
+            const activeBtn = document.getElementById('btn-' + tabId);
+            activeBtn.className = "tab-btn active flex items-center gap-2 px-6 py-4 text-sm font-medium transition-colors whitespace-nowrap bg-white text-blue-900 border-b-2 border-blue-600 shadow-sm";
+        }
+
+        // Toggle Solutions Logic
+        function toggleCase(caseId) {
+            const btn = document.getElementById('btn-case-' + caseId);
+            const sol = document.getElementById('sol-case-' + caseId);
+
+            if (sol.classList.contains('hidden')) {
+                sol.classList.remove('hidden');
+                btn.classList.add('hidden');
+            } else {
+                sol.classList.add('hidden');
+                btn.classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+
+</html>
