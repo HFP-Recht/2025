@@ -161,6 +161,27 @@
             margin-bottom: 15px;
             padding-left: 20px;
             font-style: italic;
+            transition: all 0.3s ease;
+        }
+
+        .answer.spoiler {
+            background-color: #cbd5e0;
+            color: transparent;
+            cursor: pointer;
+            user-select: none;
+            border-radius: 4px;
+        }
+
+        .answer.spoiler.revealed {
+            background-color: transparent;
+            color: inherit;
+            cursor: default;
+            user-select: text;
+        }
+
+        .answer.spoiler:not(.revealed) a {
+            opacity: 0;
+            pointer-events: none;
         }
 
         table {
@@ -248,15 +269,18 @@
                     <div class="dropdown-content">
                         <div class="question">1. Welche fünf Arten von Gebrauchsüberlassungsverträgen werden im OR
                             unterschieden?</div>
-                        <div class="answer">Miete, Pacht, Leihe, Darlehen und Leasing.</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Miete, Pacht, Leihe, Darlehen und
+                            Leasing.</div>
 
                         <div class="question">2. Was ist der zentrale Unterschied zwischen Miete und Pacht?</div>
-                        <div class="answer">Bei der Miete wird die Sache nur zum Gebrauch überlassen, bei der Pacht
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Bei der Miete wird die Sache nur zum
+                            Gebrauch überlassen, bei der Pacht
                             zusätzlich zur Nutzung (Bezug der Früchte und Erträgnisse).</div>
 
                         <div class="question">5. Werkstatthalle mit Hebebühne zur Einnahmenerzielung – Miete oder Pacht?
                         </div>
-                        <div class="answer">Pachtvertrag, da der Nutzer mit den überlassenen Einrichtungen Erträgnisse
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Pachtvertrag, da der Nutzer mit den
+                            überlassenen Einrichtungen Erträgnisse
                             (Einnahmen) erzielen darf.</div>
                     </div>
                 </div>
@@ -333,15 +357,18 @@
                     </div>
                     <div class="dropdown-content">
                         <div class="question">1. Nennen Sie die Hauptpflichten des Vermieters und des Mieters.</div>
-                        <div class="answer">Vermieter: Übergabe und Erhalt der Mietsache in gebrauchstauglichem Zustand.
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Vermieter: Übergabe und Erhalt der
+                            Mietsache in gebrauchstauglichem Zustand.
                             Mieter: Mietzins bezahlen, sorgfältiger Umgang, Rückgabe.</div>
 
                         <div class="question">2. Was versteht man unter dem 'kleinen Unterhalt'?</div>
-                        <div class="answer">Kleinere Reinigungen und Ausbesserungen, die der Mieter ohne Fachwissen
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Kleinere Reinigungen und
+                            Ausbesserungen, die der Mieter ohne Fachwissen
                             selbst ausführen kann. Richtwert ca. 150 Franken.</div>
 
                         <div class="question">5. Wer zahlt den defekten Rolltor-Motor (CHF 3'800)?</div>
-                        <div class="answer">Der Vermieter. Die Kosten übersteigen den Richtwert bei weitem, und die
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Der Vermieter. Die Kosten übersteigen
+                            den Richtwert bei weitem, und die
                             Reparatur erfordert Fachwissen – kein kleiner Unterhalt.</div>
                     </div>
                 </div>
@@ -397,11 +424,13 @@
                     <div class="dropdown-content">
                         <div class="question">1. Welche drei Stufen von Mängeln gibt es und welche Rechte hat der
                             Mieter?</div>
-                        <div class="answer">Leicht: Mieter selbst (kleiner Unterhalt). Mittel: Frist setzen, dann
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Leicht: Mieter selbst (kleiner
+                            Unterhalt). Mittel: Frist setzen, dann
                             Ersatzvornahme auf Kosten des Vermieters. Schwer: Fristlose Kündigung möglich.</div>
 
                         <div class="question">5. Heizungsausfall im Dezember, 12°C – welche Schritte?</div>
-                        <div class="answer">Vermieter schriftlich mahnen, angemessene Frist setzen (gemäss Vertrag 14
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Vermieter schriftlich mahnen,
+                            angemessene Frist setzen (gemäss Vertrag 14
                             Tage, bei schweren Mängeln evtl. kürzer). Nach Ablauf: Reparatur auf Kosten des Vermieters
                             veranlassen (Ersatzvornahme). Zusätzlich Mietzinsherabsetzung verlangen.</div>
                     </div>
@@ -451,7 +480,8 @@
                             266l OR</a>)</div>
                     <p><strong>Vermieter:</strong> Amtliches Formular (qualifizierte Schriftlichkeit).
                         <strong>Mieter:</strong> Schriftlich (Einschreiben empfohlen). Formfehler → Kündigung <span
-                            class="highlight">nichtig</span>!</p>
+                            class="highlight">nichtig</span>!
+                    </p>
                 </div>
 
                 <div class="concept-box">
@@ -477,16 +507,19 @@
                     </div>
                     <div class="dropdown-content">
                         <div class="question">1. Welche Kündigungsfristen gelten für Wohnungen und Geschäftsräume?</div>
-                        <div class="answer">Wohnungen: 3 Monate. Geschäftsräume: 6 Monate.</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Wohnungen: 3 Monate. Geschäftsräume: 6
+                            Monate.</div>
 
                         <div class="question">3. Warum darf der Vertrag eine längere Frist als das Gesetz vorsehen?
                         </div>
-                        <div class="answer">Das Gesetz definiert nur das Minimum. Verträge können zugunsten beider
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Das Gesetz definiert nur das Minimum.
+                            Verträge können zugunsten beider
                             Parteien längere Fristen vereinbaren (Vertragsfreiheit).</div>
 
                         <div class="question">6. Werkstattleiter will vorzeitig raus, 2 Jahre Restlaufzeit – was tun?
                         </div>
-                        <div class="answer">Er muss dem Vermieter einen zumutbaren, zahlungsfähigen Nachmieter
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Er muss dem Vermieter einen
+                            zumutbaren, zahlungsfähigen Nachmieter
                             vorschlagen (<a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_264"
                                 target="_blank">Art. 264 OR</a>). Findet er keinen, muss er den Mietzins bis zum
                             nächsten ordentlichen Kündigungstermin bezahlen.</div>
@@ -542,7 +575,8 @@
                     </div>
                     <div class="dropdown-content">
                         <div class="question">6. Mietzins liegt 30% über Vormieter, keine Umbauten – was tun?</div>
-                        <div class="answer">Innert 30 Tagen nach Übernahme bei der Schlichtungsbehörde ein
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Innert 30 Tagen nach Übernahme bei der
+                            Schlichtungsbehörde ein
                             Herabsetzungsbegehren für den Anfangsmietzins einreichen (<a
                                 href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270" target="_blank">Art.
                                 270 OR</a>). Zudem Auskunft über Vormietzins verlangen (<a
@@ -550,7 +584,8 @@
                                 target="_blank">Art. 256a Abs. 2 OR</a>).</div>
 
                         <div class="question">3. Warum darf der Mieter nicht eigenmächtig reduzieren?</div>
-                        <div class="answer">Die Beurteilung, ob ein Mietzins missbräuchlich ist, obliegt der
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Beurteilung, ob ein Mietzins
+                            missbräuchlich ist, obliegt der
                             Schlichtungsbehörde. Eigenmächtige Reduktion stellt Zahlungsverzug dar und kann zur
                             Kündigung führen.</div>
                     </div>
@@ -589,12 +624,13 @@
                     <div class="dropdown-content">
                         <div class="question">6. Vermieter ruft an, setzt 5 Tage Frist, droht mit Räumung – ist das
                             korrekt?</div>
-                        <div class="answer">Nein, mehrfach fehlerhaft: (1) Mündlich statt schriftlich. (2) 5 Tage statt
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Nein, mehrfach fehlerhaft: (1)
+                            Mündlich statt schriftlich. (2) 5 Tage statt
                             mindestens 30 Tage Frist. (3) Sofortige Räumung ist ohne Gerichtsurteil nicht möglich. Das
                             Vorgehen ist rechtlich unwirksam.</div>
 
                         <div class="question">2. Welche Frist muss der Vermieter bei Zahlungsverzug setzen?</div>
-                        <div class="answer">Mindestens 30 Tage (<a
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Mindestens 30 Tage (<a
                                 href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257_d"
                                 target="_blank">Art. 257d OR</a>), und zwar schriftlich mit gleichzeitiger Androhung der
                             Kündigung.</div>
@@ -608,6 +644,10 @@
         function toggleDropdown(id) {
             const dropdown = document.getElementById(id);
             dropdown.classList.toggle('active');
+        }
+
+        function toggleSpoiler(el) {
+            el.classList.add('revealed');
         }
     </script>
 </body>
