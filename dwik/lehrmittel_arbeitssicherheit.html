@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbeitssicherheit &amp; Gesundheitsschutz im Werkstattbetrieb – Lehrmittel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1b4f72;
+            --primary-light: #2e86c1;
+            --secondary: #117a65;
+            --accent: #d35400;
+            --accent2: #8e44ad;
+            --bg: #f5f7fa;
+            --card-bg: #ffffff;
+            --text: #1c2833;
+            --text-light: #566573;
+            --border: #d5dbdb;
+            --yellow: #f39c12;
+            --red: #c0392b;
+            --green: #27ae60;
+            --blue: #2980b9;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text);
+            background-color: var(--bg);
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* === LAYOUT === */
+        .page-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 0 60px 0;
+            background: white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        }
+
+        /* === HEADER === */
+        .lm-header {
+            background: linear-gradient(135deg, var(--primary) 0%, #154360 100%);
+            color: white;
+            padding: 40px 60px 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lm-header::before {
+            content: '';
+            position: absolute;
+            top: -40px; right: -40px;
+            width: 200px; height: 200px;
+            background: rgba(255,255,255,0.04);
+            border-radius: 50%;
+        }
+
+        .lm-header .module-label {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #85c1e9;
+            margin-bottom: 8px;
+        }
+
+        .lm-header h1 {
+            margin: 0 0 10px 0;
+            font-size: 34px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .lm-header .subtitle {
+            font-size: 16px;
+            color: #aed6f1;
+            margin: 0 0 24px 0;
+        }
+
+        .lm-header .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .lm-header .tag {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        /* === TOC / CHAPTER NAV === */
+        .toc {
+            background: #eaf2ff;
+            border-left: 5px solid var(--primary-light);
+            padding: 20px 30px;
+            margin: 0;
+        }
+
+        .toc h3 {
+            color: var(--primary);
+            margin: 0 0 12px 0;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .toc-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px 20px;
+        }
+
+        .toc a {
+            color: var(--primary-light);
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 2px 0;
+        }
+
+        .toc a:hover { text-decoration: underline; }
+
+        .toc .toc-num {
+            font-weight: 700;
+            color: var(--primary);
+            min-width: 22px;
+        }
+
+        /* === CONTENT SECTIONS === */
+        .lm-content {
+            padding: 0 60px;
+        }
+
+        .lm-chapter {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 3px solid var(--primary);
+        }
+
+        .lm-chapter-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .chapter-num {
+            background: var(--primary);
+            color: white;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .chapter-title-block h2 {
+            margin: 0 0 4px 0;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .chapter-law {
+            font-size: 13px;
+            color: var(--text-light);
+        }
+
+        .chapter-law a {
+            color: var(--primary-light);
+        }
+
+        /* Lead text */
+        .lead-text {
+            font-size: 17px;
+            color: var(--primary);
+            font-style: italic;
+            border-left: 4px solid var(--primary-light);
+            padding: 10px 16px;
+            background: #f0f7ff;
+            margin-bottom: 20px;
+            border-radius: 0 4px 4px 0;
+        }
+
+        /* === CALLOUT BOXES === */
+        .callout {
+            border-radius: 6px;
+            padding: 14px 18px;
+            margin: 14px 0;
+        }
+
+        .callout-info {
+            background: #e8f4fd;
+            border-left: 5px solid var(--blue);
+        }
+
+        .callout-warning {
+            background: #fef9e7;
+            border-left: 5px solid var(--yellow);
+        }
+
+        .callout-danger {
+            background: #fdedec;
+            border-left: 5px solid var(--red);
+        }
+
+        .callout-success {
+            background: #eafaf1;
+            border-left: 5px solid var(--green);
+        }
+
+        .callout-title {
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .callout-info .callout-title { color: #1a5276; }
+        .callout-warning .callout-title { color: #7d6608; }
+        .callout-danger .callout-title { color: #922b21; }
+        .callout-success .callout-title { color: #1e8449; }
+
+        .callout p { margin: 0; font-size: 15px; }
+
+        /* === TABLES === */
+        .lm-table-wrap {
+            overflow-x: auto;
+            margin: 16px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        table th {
+            background: var(--primary);
+            color: white;
+            padding: 10px 14px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        table td {
+            padding: 9px 14px;
+            border-bottom: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+
+        table tr:nth-child(even) td { background: #f8f9fa; }
+        table tr:hover td { background: #eaf2ff; }
+
+        table td a { color: var(--primary-light); font-size: 13px; }
+
+        /* === LISTS === */
+        ul, ol {
+            padding-left: 24px;
+            margin: 8px 0;
+        }
+
+        li {
+            margin-bottom: 6px;
+            font-size: 15px;
+        }
+
+        /* === STOP-Prinzip Grid === */
+        .stop-container {
+            margin: 18px 0;
+        }
+
+        .stop-arrow {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .stop-step {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 4px;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+
+        .stop-badge {
+            width: 54px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 900;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .stop-s .stop-badge { background: var(--red); }
+        .stop-t .stop-badge { background: var(--yellow); }
+        .stop-o .stop-badge { background: var(--green); }
+        .stop-p .stop-badge { background: var(--blue); }
+
+        .stop-body {
+            padding: 12px 16px;
+            flex: 1;
+        }
+
+        .stop-s .stop-body { background: #fdedec; }
+        .stop-t .stop-body { background: #fef9e7; }
+        .stop-o .stop-body { background: #eafaf1; }
+        .stop-p .stop-body { background: #eaf2ff; }
+
+        .stop-title {
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .stop-s .stop-title { color: #922b21; }
+        .stop-t .stop-title { color: #7d6608; }
+        .stop-o .stop-title { color: #1e8449; }
+        .stop-p .stop-title { color: #1a5276; }
+
+        .stop-desc {
+            font-size: 14px;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        .stop-example {
+            font-size: 13px;
+            color: var(--text-light);
+            font-style: italic;
+        }
+
+        .stop-priority {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 2px 8px;
+            border-radius: 3px;
+            display: inline-block;
+            margin-top: 4px;
+        }
+
+        .stop-s .stop-priority { background: #fadbd8; color: #922b21; }
+        .stop-t .stop-priority { background: #fdebd0; color: #7d6608; }
+        .stop-o .stop-priority { background: #d5f5e3; color: #1e8449; }
+        .stop-p .stop-priority { background: #d6eaf8; color: #1a5276; }
+
+        .stop-arrow-icon {
+            text-align: center;
+            color: #aaa;
+            font-size: 20px;
+            line-height: 1;
+            margin: 2px 0;
+        }
+
+        /* === Gefahren Grid === */
+        .gefahr-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin: 16px 0;
+        }
+
+        .gefahr-card {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .gefahr-card-header {
+            padding: 10px 14px;
+            font-weight: 700;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+        }
+
+        .gefahr-hebezeuge .gefahr-card-header { background: #1a5276; }
+        .gefahr-schweissen .gefahr-card-header { background: #7b241c; }
+        .gefahr-chemie .gefahr-card-header { background: #6c3483; }
+        .gefahr-laerm .gefahr-card-header { background: #1e8449; }
+
+        .gefahr-card-body {
+            padding: 12px 14px;
+            background: white;
+        }
+
+        .gefahr-card-body ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        .gefahr-card-body li {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        /* === Haftungs-Steps === */
+        .delegation-steps {
+            background: #f8f9fa;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 14px 0;
+        }
+
+        .delegation-steps h4 {
+            color: var(--primary);
+            margin: 0 0 12px 0;
+            font-size: 16px;
+        }
+
+        .del-step {
+            display: flex;
+            gap: 12px;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+
+        .del-num {
+            width: 28px;
+            height: 28px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .del-text {
+            font-size: 15px;
+            padding-top: 4px;
+        }
+
+        /* === ROP Visualisierung === */
+        .rop-box {
+            background: linear-gradient(135deg, #eafaf1, #d5f5e3);
+            border: 2px solid var(--green);
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin: 16px 0;
+            text-align: center;
+        }
+
+        .rop-number {
+            font-size: 60px;
+            font-weight: 900;
+            color: var(--green);
+            line-height: 1;
+        }
+
+        .rop-label {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1e8449;
+            margin: 4px 0;
+        }
+
+        .rop-desc {
+            font-size: 14px;
+            color: var(--text-light);
+            margin: 8px 0 0 0;
+        }
+
+        /* === Branchenlösungen === */
+        .branch-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 16px 0;
+        }
+
+        .branch-card {
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .branch-card-header {
+            padding: 12px 16px;
+            color: white;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .agritop .branch-card-header { background: #117a65; }
+        .baz .branch-card-header { background: #1a5276; }
+
+        .branch-card-body {
+            padding: 14px 16px;
+        }
+
+        .branch-card-body ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .branch-card-body li { font-size: 14px; margin-bottom: 5px; }
+
+        /* === Compliance Table caption === */
+        .table-caption {
+            font-size: 13px;
+            color: var(--text-light);
+            margin-bottom: 6px;
+            font-style: italic;
+        }
+
+        /* === Key Term === */
+        .key-term {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        /* === Two col layout === */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin: 14px 0;
+        }
+
+        /* === Footer === */
+        .lm-footer {
+            background: var(--primary);
+            color: rgba(255,255,255,0.8);
+            padding: 20px 60px;
+            font-size: 13px;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .lm-footer a { color: #85c1e9; }
+
+        /* === Print-safe headings === */
+        h3 {
+            color: var(--primary);
+            font-size: 18px;
+            margin: 20px 0 8px 0;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 4px;
+        }
+
+        h4 {
+            color: var(--text);
+            font-size: 16px;
+            margin: 14px 0 6px 0;
+        }
+
+        p { margin: 8px 0; font-size: 15px; }
+
+        strong { color: inherit; }
+
+        /* Responsive */
+        @media (max-width: 800px) {
+            .lm-content { padding: 0 24px; }
+            .lm-header { padding: 24px; }
+            .toc-grid { grid-template-columns: 1fr; }
+            .gefahr-grid, .branch-grid, .two-col { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+<div class="page-wrapper">
+
+    <!-- Header -->
+    <div class="lm-header">
+        <div class="module-label">Modul: Arbeitsrecht II &amp; Arbeitssicherheit</div>
+        <h1>Arbeitssicherheit &amp; Gesundheitsschutz<br>im technischen Werkstattbetrieb</h1>
+        <p class="subtitle">Rechtliche Grundlagen, STOP-Prinzip und betriebliche Praxis für Werkstattleiter und Geschäftsführer</p>
+        <div class="tags">
+            <span class="tag">Art. 6 ArG</span>
+            <span class="tag">VUV / UVG</span>
+            <span class="tag">STOP-Prinzip</span>
+            <span class="tag">MaschV / PrSG</span>
+            <span class="tag">EKAS-Richtlinien</span>
+            <span class="tag">agriTOP / BAZ</span>
+        </div>
+    </div>
+
+    <!-- TOC -->
+    <div class="toc">
+        <h3>Inhalt dieses Kapitels</h3>
+        <div class="toc-grid">
+            <a href="#regulatorik"><span class="toc-num">1</span>Regulatorische Architektur der Schweiz</a>
+            <a href="#stop"><span class="toc-num">2</span>STOP-Prinzip: Massnahmenhierarchie</a>
+            <a href="#gefahren"><span class="toc-num">3</span>Spezifische Gefahren in Werkstätten</a>
+            <a href="#psa"><span class="toc-num">4</span>Persönliche Schutzausrüstung (PSA)</a>
+            <a href="#maschv"><span class="toc-num">5</span>Maschinenverordnung &amp; PrSG</a>
+            <a href="#haftung"><span class="toc-num">6</span>Verantwortung &amp; Haftung</a>
+            <a href="#mitwirkung"><span class="toc-num">7</span>Mitwirkung der Arbeitnehmer</a>
+            <a href="#rop"><span class="toc-num">8</span>Return on Prevention</a>
+            <a href="#branche"><span class="toc-num">9</span>Branchenlösungen: agriTOP &amp; BAZ</a>
+        </div>
+    </div>
+
+    <div class="lm-content">
+
+        <!-- ====== 1. REGULATORIK ====== -->
+        <div class="lm-chapter" id="regulatorik">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">1</div>
+                <div class="chapter-title-block">
+                    <h2>Die regulatorische Architektur des schweizerischen Arbeitsschutzes</h2>
+                    <div class="chapter-law">Art. 6 ArG · Art. 82 UVG · Art. 328 OR · VUV</div>
+                </div>
+            </div>
+
+            <div class="lead-text">
+                Das schweizerische System des Arbeitnehmerschutzes ruht auf drei wesentlichen Säulen: dem Arbeitsgesetz (ArG), dem Unfallversicherungsgesetz (UVG) und dem Obligationenrecht (OR). Wer als Werkstattleiter haftet, muss alle drei kennen.
+            </div>
+
+            <div class="lm-table-wrap">
+                <p class="table-caption">Übersicht der gesetzlichen Grundlagen und ihrer Kernverpflichtungen</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Gesetzliche Grundlage</th>
+                            <th>Fokus</th>
+                            <th>Kernverpflichtung</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Arbeitsgesetz (ArG)</strong><br><small>Art. 6 ArG</small></td>
+                            <td>Allgemeiner Gesundheitsschutz</td>
+                            <td>Gewährleistung der physischen und psychischen Gesundheit; Massnahmen nach Erfahrung, Technik, Angemessenheit</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Unfallversicherungsgesetz (UVG)</strong><br><small>Art. 82 UVG</small></td>
+                            <td>Unfallverhütung</td>
+                            <td>Verhütung von Berufsunfällen und Berufskrankheiten; Suva als Vollzugsorgan</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Obligationenrecht (OR)</strong><br><small>Art. 328 OR</small></td>
+                            <td>Privatrechtliche Fürsorge</td>
+                            <td>Schutz der Persönlichkeit und Gesundheit im Einzelarbeitsvertrag; zivilrechtliche Haftung bei Verletzung</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Verordnung über Unfallverhütung (VUV)</strong><br><small>Art. 5, 6, 32b VUV</small></td>
+                            <td>Technische Umsetzung</td>
+                            <td>PSA-Bereitstellungspflicht, Instruktionspflicht, Instandhaltungspflicht</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Art. 6 ArG – Der fundamentale Grundsatz</h3>
+            <p>Artikel 6 ArG bildet das <span class="key-term">Kernstück des Gesundheitsschutzes</span>. Der Arbeitgeber muss alle Massnahmen treffen, die nach folgender <strong>Trias</strong> geboten sind:</p>
+
+            <div class="two-col">
+                <div class="callout callout-info">
+                    <div class="callout-title">Nach der Erfahrung notwendig</div>
+                    <p>Was die Branchenpraxis als Standard etabliert hat. Z.B. Gehörschutz ab 85 dB(A), Schutzbrillen beim Schleifen. Nicht erst bei Unfall reagieren – sondern präventiv.</p>
+                </div>
+                <div class="callout callout-info">
+                    <div class="callout-title">Nach dem Stand der Technik anwendbar</div>
+                    <p>Was mit vertretbarem Aufwand technisch umsetzbar ist. Neue Absaugtechnologien, moderne Schutzvorrichtungen. Der Standard entwickelt sich laufend weiter.</p>
+                </div>
+            </div>
+            <div class="callout callout-info">
+                <div class="callout-title">Den Verhältnissen des Betriebs angemessen</div>
+                <p>Verhältnismässig zum Betrieb: Ein 5-Personen-Betrieb hat andere Möglichkeiten als ein Konzern. Die Massnahme muss zumutbar und verhältnismässig zur Gefahr sein. Kleinbetriebe können trotzdem nicht einfach auf Sicherheit verzichten.</p>
+            </div>
+
+            <div class="callout callout-warning">
+                <div class="callout-title">⚠ Haftung greift schon bei Fahrlässigkeit</div>
+                <p>Zivilrechtlich haftet der Arbeitgeber bereits, wenn er eine Gefährdung <em>kannte oder bei zumutbarer Sorgfalt hätte kennen müssen</em> (Art. 328 OR). Seit 2003 gilt dies für jedes Verschulden, nicht mehr nur bei Grobfahrlässigkeit.</p>
+            </div>
+
+            <!-- Compliance Tabelle -->
+            <h3>Übersicht: Pflichtenbereiche und relevante Richtlinien</h3>
+            <div class="lm-table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pflichtenbereich</th>
+                            <th>Gesetzliche Grundlage</th>
+                            <th>Inhaltliche Anforderung</th>
+                            <th>Werkstattkontext</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Allgemeiner Gesundheitsschutz</strong></td>
+                            <td>Art. 6 ArG / Art. 82 UVG</td>
+                            <td>Alle notwendigen Massnahmen nach Erfahrung, Technik und Angemessenheit</td>
+                            <td>Systematische Beurteilung von Werkstattgefahren und Umsetzung des STOP-Prinzips</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Maschinensicherheit</strong></td>
+                            <td>Art. 4 PrSG / Art. 2 MaschV</td>
+                            <td>Maschinen dürfen nur in Verkehr gebracht werden, wenn sie keine Gefährdung darstellen (Konformitätspflicht)</td>
+                            <td>Nur CE-gekennzeichnete Maschinen mit Betriebsanleitung; Eigenbauten = neue Konformitätsbewertung</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Instruktion &amp; Information</strong></td>
+                            <td>Art. 6 VUV / Art. 6 ArG</td>
+                            <td>Arbeitnehmer müssen ausreichend über Gefahren und Schutzmassnahmen instruiert sein (insb. bei Stellenantritt)</td>
+                            <td>Sicherheitsunterweisung an Maschinen, Erklären von Not-Aus-Funktionen, Verhalten im Brandfall</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Instandhaltung Arbeitsmittel</strong></td>
+                            <td>Art. 32b VUV</td>
+                            <td>Arbeitsmittel sind fachgerecht instand zu halten und Wartung zu dokumentieren</td>
+                            <td>Regelmässige Prüfung von Hebebühnen, Schleifmaschinen; Führen eines Wartungsprotokolls</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Persönliche Schutzausrüstung (PSA)</strong></td>
+                            <td>Art. 5 VUV</td>
+                            <td>Wenn Gefahren nicht anders ausgeschlossen werden können, muss PSA bereitgestellt werden</td>
+                            <td>Gehörschutz, Schutzbrillen, Sicherheitsschuhe, Schutzhandschuhe – Tragepflicht kontrollieren</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Besondere Gefahren / ASA</strong></td>
+                            <td>Art. 11a VUV / Art. 8 VUV</td>
+                            <td>Beizug von Spezialisten bei besonderen Gefahren; Überwachung gefährlicher Alleinarbeit</td>
+                            <td>ASA-Branchenlösung; Überwachung bei Schweissarbeiten in Gruben oder Alleinarbeit</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- ====== 2. STOP ====== -->
+        <div class="lm-chapter" id="stop">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">2</div>
+                <div class="chapter-title-block">
+                    <h2>Das STOP-Prinzip: Massnahmenhierarchie</h2>
+                    <div class="chapter-law">VUV · SECO-Wegleitungen · Art. 6 ArG</div>
+                </div>
+            </div>
+
+            <div class="lead-text">
+                Das STOP-Prinzip stellt eine verbindliche Hierarchie der Schutzmassnahmen dar: Die wirksamsten Massnahmen müssen zuerst geprüft werden – und PSA ist immer die letzte Option, nicht die erste.
+            </div>
+
+            <div class="stop-container">
+                <div class="stop-arrow">
+                    <div class="stop-step stop-s">
+                        <div class="stop-badge">S</div>
+                        <div class="stop-body">
+                            <div class="stop-title">Substitution (Ersatz)</div>
+                            <div class="stop-desc">Gefahrenquelle vollständig beseitigen oder durch ungefährlichere Alternative ersetzen.</div>
+                            <div class="stop-example">Beispiele: Giftigen Reiniger durch biologisch abbaubare Alternative ersetzen; lärmarme Maschine beschaffen statt laute zu betreiben.</div>
+                            <span class="stop-priority">Höchste Wirksamkeit</span>
+                        </div>
+                    </div>
+                    <div class="stop-arrow-icon">▼</div>
+                    <div class="stop-step stop-t">
+                        <div class="stop-badge">T</div>
+                        <div class="stop-body">
+                            <div class="stop-title">Technische Schutzmassnahmen</div>
+                            <div class="stop-desc">Technische Barrieren zwischen Gefahr und Mensch errichten. Wirken unabhängig vom menschlichen Verhalten.</div>
+                            <div class="stop-example">Beispiele: Absaugvorrichtung für Schweissrauch, Schutzhauben an Schleifmaschinen, Lichtschranken an hydraulischen Pressen, Schutzgeländer an Hebebühnengruben.</div>
+                            <span class="stop-priority">Hoch – unabhängig vom Mensch</span>
+                        </div>
+                    </div>
+                    <div class="stop-arrow-icon">▼</div>
+                    <div class="stop-step stop-o">
+                        <div class="stop-badge">O</div>
+                        <div class="stop-body">
+                            <div class="stop-title">Organisatorische Schutzmassnahmen</div>
+                            <div class="stop-desc">Exposition durch Arbeitsgestaltung reduzieren. Erfordert Disziplin und Kontrolle.</div>
+                            <div class="stop-example">Beispiele: Trennung von Fussgänger- und Fahrzeugwegen; Rotationssysteme bei Lärmarbeiten (max. 2 Std./Tag); regelmässige Sicherheitsunterweisungen; Festlegung von Wartungsintervallen.</div>
+                            <span class="stop-priority">Mittel – verhaltensabhängig</span>
+                        </div>
+                    </div>
+                    <div class="stop-arrow-icon">▼</div>
+                    <div class="stop-step stop-p">
+                        <div class="stop-badge">P</div>
+                        <div class="stop-body">
+                            <div class="stop-title">Persönliche Schutzmassnahmen (PSA)</div>
+                            <div class="stop-desc">Wenn alle anderen Stufen ausgeschöpft sind, muss PSA verwendet werden. Letzte Option – aber wenn nötig, verpflichtend!</div>
+                            <div class="stop-example">Beispiele: Gehörschutz (≥85 dB), Schutzbrille beim Schleifen, Atemschutzmaske bei Schweissrauch, Sicherheitsschuhe, Schutzhandschuhe bei Chemikalien.</div>
+                            <span class="stop-priority">Letzte Stufe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="callout callout-danger">
+                <div class="callout-title">❌ Häufiger Fehler in der Praxis</div>
+                <p>Viele Betriebe greifen direkt zur PSA (Stufe P), ohne zuerst technische oder organisatorische Massnahmen zu prüfen. Das ist rechtlich nicht ausreichend und führt zu höherer Unfallgefahr. <strong>PSA ergänzt, ersetzt aber nicht die ersten drei Stufen.</strong></p>
+            </div>
+        </div>
+
+        <!-- ====== 3. GEFAHREN ====== -->
+        <div class="lm-chapter" id="gefahren">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">3</div>
+                <div class="chapter-title-block">
+                    <h2>Spezifische Gefahren in Landmaschinen- und Baumaschinenwerkstätten</h2>
+                    <div class="chapter-law">EKAS-Richtlinie 6203 · Art. 6 ArG · VUV</div>
+                </div>
+            </div>
+
+            <div class="lead-text">
+                Die EKAS-Richtlinie 6203 «Arbeitssicherheit im Fahrzeuggewerbe» ist der massgebliche Leitfaden für Werkstätten. Vier Hauptgefahrenbereiche stehen im Fokus.
+            </div>
+
+            <div class="gefahr-grid">
+                <div class="gefahr-card gefahr-hebezeuge">
+                    <div class="gefahr-card-header">
+                        <span>⚙</span> Hebezeuge &amp; Lasten
+                    </div>
+                    <div class="gefahr-card-body">
+                        <p style="font-size:13px;color:#555;margin-bottom:8px;"><strong>Gesetzliche Grundlage:</strong> Art. 6 VUV (Instruktion), Art. 32b VUV (Wartung)</p>
+                        <ul>
+                            <li>Häufigste Unfallursachen: Mangelnde Ausbildung, falsche Anschlagmittel, technische Mängel</li>
+                            <li>Pflicht: Dokumentierte Wartung und Instandhaltungsprotokolle</li>
+                            <li>Regelmässige Sichtprüfung aller Anschlagmittel durch Benutzer</li>
+                            <li>Tragkraftangaben des Herstellers einhalten</li>
+                            <li>Instandhaltung: Maschinen gegen unbeabsichtigtes Anlaufen sichern (LOTO)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="gefahr-card gefahr-schweissen">
+                    <div class="gefahr-card-header">
+                        <span>🔥</span> Schweissarbeiten
+                    </div>
+                    <div class="gefahr-card-body">
+                        <p style="font-size:13px;color:#555;margin-bottom:8px;"><strong>Gesetzliche Grundlage:</strong> Art. 6 ArG, EKAS-Richtlinien</p>
+                        <ul>
+                            <li>Schweissrauch: Je nach Material toxisch oder krebserregend</li>
+                            <li>Optische Strahlung schädigt Augen und Haut</li>
+                            <li><strong>Primär technisch:</strong> Punktabsaugung direkt an der Entstehungsstelle</li>
+                            <li>Sekundär: Atemschutzmaske (FFP2/3)</li>
+                            <li>Schweisserschutzschirm und Schutzkleidung obligatorisch</li>
+                            <li>Überwachung bei Alleinarbeit in Gruben oder engen Räumen</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="gefahr-card gefahr-chemie">
+                    <div class="gefahr-card-header">
+                        <span>⚗</span> Betriebsstoffe &amp; Chemikalien
+                    </div>
+                    <div class="gefahr-card-body">
+                        <p style="font-size:13px;color:#555;margin-bottom:8px;"><strong>Gesetzliche Grundlage:</strong> ChemV, Art. 6 ArG</p>
+                        <ul>
+                            <li>Hydrauliköle, Kraftstoffe, AdBlue, Batteriesäure, Reinigungsmittel</li>
+                            <li>Chronische Erkrankungen durch Hautkontakt mit Schmierstoffen oft unterschätzt</li>
+                            <li>Pflicht: Sicherheitsdatenblätter bereitstellen</li>
+                            <li>Ernennung einer Chemikalienansprechperson</li>
+                            <li>PSA: Spezifisch – Nitrilhandschuhe statt einfachem Latex</li>
+                            <li>Kontaminierte Schutzkleidung: Reinigung durch Betrieb (nicht Mitarbeiter)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="gefahr-card gefahr-laerm">
+                    <div class="gefahr-card-header">
+                        <span>🔊</span> Lärmbelastung
+                    </div>
+                    <div class="gefahr-card-body">
+                        <p style="font-size:13px;color:#555;margin-bottom:8px;"><strong>Gesetzliche Grundlage:</strong> Art. 5 VUV, EKAS 6203</p>
+                        <ul>
+                            <li>Lärmschwerhörigkeit = häufigste Berufskrankheit in Werkstätten</li>
+                            <li>Schlagschrauber + Schleifmaschinen + Motorentest: summieren sich schnell</li>
+                            <li>Ab 85 dB(A): Gehörschutz <strong>obligatorisch</strong></li>
+                            <li>Arbeitgeber muss geeigneten Gehörschutz bereitstellen und Tragung überwachen</li>
+                            <li>Technisch: Schallschutzabschirmungen, lärmarme Maschinen beschaffen</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====== 4. PSA ====== -->
+        <div class="lm-chapter" id="psa">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">4</div>
+                <div class="chapter-title-block">
+                    <h2>Persönliche Schutzausrüstung (PSA): Bereitstellung und Kosten</h2>
+                    <div class="chapter-law">Art. 5 VUV · Art. 90 VUV · Art. 27 ArGV 3</div>
+                </div>
+            </div>
+
+            <div class="callout callout-success">
+                <div class="callout-title">✅ Grundsatz: Unentgeltliche Bereitstellung durch Arbeitgeber</div>
+                <p>Der Arbeitgeber trägt die <strong>vollständigen Kosten</strong> für PSA – Anschaffung, Ersatz, Reinigung und Instandhaltung. Mitarbeitende dürfen nicht an den Kosten beteiligt werden (Art. 5 VUV, Art. 27 ArGV 3).</p>
+            </div>
+
+            <h3>Umfang der Arbeitgeberpflichten</h3>
+            <div class="two-col">
+                <div>
+                    <h4>Kostenübernahme umfasst:</h4>
+                    <ul>
+                        <li><strong>Anschaffung und Ersatz:</strong> Geeignete Ausrüstung; bei Abnutzung kostenloses Ersetzen</li>
+                        <li><strong>Reinigung:</strong> Bei Kontamination mit Chemikalien oder Altöl – Betrieb organisiert Reinigung (nicht der Mitarbeiter)</li>
+                        <li><strong>Spezialausrüstung:</strong> Korrekturschutzbrillen bei sehschwachen Mitarbeitern, wenn Schutzbrille permanent getragen werden muss</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Gilt für alle Mitarbeitenden:</h4>
+                    <ul>
+                        <li>Festangestellte und Temporärangestellte</li>
+                        <li>Mitarbeitende in der Probezeit</li>
+                        <li>Lernende und Praktikanten</li>
+                        <li>Aushilfen</li>
+                    </ul>
+                    <div class="callout callout-warning" style="margin-top:8px;">
+                        <div class="callout-title">Temporärpersonal</div>
+                        <p style="font-size:13px;">Einsatzbetrieb rüstet aus; Überwachung der Tragpflicht bleibt stets Aufgabe des Einsatzbetriebes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====== 5. MASCHV ====== -->
+        <div class="lm-chapter" id="maschv">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">5</div>
+                <div class="chapter-title-block">
+                    <h2>Maschinenverordnung (MaschV) und Produktesicherheit (PrSG)</h2>
+                    <div class="chapter-law">Art. 4 PrSG · Art. 2 MaschV · EN ISO 12100</div>
+                </div>
+            </div>
+
+            <div class="lead-text">
+                Werkstätten agieren oft nicht nur als Betreiber, sondern als <strong>Hersteller</strong> – wenn sie Spezialgeräte bauen oder bestehende Maschinen wesentlich verändern. Das löst volle Herstellerpflichten aus.
+            </div>
+
+            <div class="callout callout-danger">
+                <div class="callout-title">⚠ Eigenbau = Herstellerpflicht</div>
+                <p>Wer eine Maschine für den Eigengebrauch baut, übernimmt alle Pflichten eines Herstellers (PrSG, MaschV). Vor der ersten Inbetriebnahme ist ein vollständiges Konformitätsbewertungsverfahren durchzuführen.</p>
+            </div>
+
+            <h3>6 Schritte zur CE-Konformität</h3>
+            <ol>
+                <li><strong>Gefahrenanalyse und Risikobeurteilung</strong> – Systematische Identifikation aller Gefahrenstellen nach EN ISO 12100</li>
+                <li><strong>Bau nach Sicherheitsanforderungen</strong> – Einhaltung der grundlegenden Anforderungen der Maschinenrichtlinie</li>
+                <li><strong>Technische Unterlagen</strong> – Zeichnungen, Berechnungen und Prüfberichte dokumentieren</li>
+                <li><strong>Betriebsanleitung</strong> – In der Amtssprache des Einsatzortes verfassen</li>
+                <li><strong>Konformitätserklärung</strong> – Formelles Dokument: Hersteller bestätigt Normeneinhaltung</li>
+                <li><strong>CE-Kennzeichnung</strong> – Physisches Zeichen auf der Maschine anbringen</li>
+            </ol>
+
+            <h3>Wesentliche Veränderung vs. Reparatur</h3>
+            <div class="lm-table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Art der Änderung</th>
+                            <th>Bewertung</th>
+                            <th>Rechtsfolge</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Reparatur / Ersatzteil</strong><br><small>Identische Funktion und Sicherheit</small></td>
+                            <td>Keine neue Gefährdung</td>
+                            <td style="color:#27ae60;"><strong>Keine neue CE erforderlich</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sicherheitstechnisches Upgrade</strong><br><small>Erhöhung des Sicherheitsniveaus ohne Funktionsänderung</small></td>
+                            <td>In der Regel keine wesentliche Veränderung</td>
+                            <td style="color:#27ae60;"><strong>In der Regel keine neue CE</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Leistungssteigerung</strong><br><small>Stärkerer Motor → erhöhte Belastungen</small></td>
+                            <td>Neue / erhöhte Gefährdung</td>
+                            <td style="color:#c0392b;"><strong>Wesentliche Veränderung → CE-Pflicht</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Funktionserweiterung</strong><br><small>Neue Arbeitsaggregate hinzufügen</small></td>
+                            <td>Neue Gefahrenstellen</td>
+                            <td style="color:#c0392b;"><strong>Neue Risikobeurteilung zwingend</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Eigenbau</strong><br><small>Selbst konstruierte Vorrichtung</small></td>
+                            <td>Vollständig neue Maschine</td>
+                            <td style="color:#c0392b;"><strong>Volle Herstellerpflicht (alle 6 Schritte)</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="callout callout-warning">
+                <div class="callout-title">Bei wesentlicher Veränderung:</div>
+                <p>Die ursprüngliche Konformitätserklärung des Herstellers erlischt. Wer den Umbau vornimmt, wird rechtlich zum neuen Hersteller mit voller Verantwortung.</p>
+            </div>
+        </div>
+
+        <!-- ====== 6. HAFTUNG ====== -->
+        <div class="lm-chapter" id="haftung">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">6</div>
+                <div class="chapter-title-block">
+                    <h2>Verantwortung und Haftung des Werkstattleiters</h2>
+                    <div class="chapter-law">Art. 6 ArG · UVG · Strafgesetzbuch</div>
+                </div>
+            </div>
+
+            <div class="lead-text">
+                Der Werkstattleiter ist das Bindeglied zwischen Geschäftsleitung und ausführenden Mitarbeitern. Bei delegierten Arbeitgeberpflichten trägt er persönliche Verantwortung in seinem Zuständigkeitsbereich.
+            </div>
+
+            <h3>Voraussetzungen für wirksame Pflichtenübertragung</h3>
+            <div class="delegation-steps">
+                <h4>Drei kumulative Bedingungen (alle müssen erfüllt sein):</h4>
+                <div class="del-step">
+                    <div class="del-num">1</div>
+                    <div class="del-text"><strong>Sorgfältige Auswahl:</strong> Die Person muss fachlich und persönlich für die Sicherheitsaufgabe geeignet sein</div>
+                </div>
+                <div class="del-step">
+                    <div class="del-num">2</div>
+                    <div class="del-text"><strong>Instruktion und Ausbildung:</strong> Der Werkstattleiter muss über das notwendige Wissen verfügen und regelmässig weitergebildet werden</div>
+                </div>
+                <div class="del-step">
+                    <div class="del-num">3</div>
+                    <div class="del-text"><strong>Überwachung und Kompetenzen:</strong> Er muss über Weisungsrecht und Budget für Instandhaltung verfügen, um Sicherheit tatsächlich durchsetzen zu können</div>
+                </div>
+            </div>
+
+            <h3>Straf- und zivilrechtliche Konsequenzen</h3>
+            <div class="two-col">
+                <div class="callout callout-danger">
+                    <div class="callout-title">Strafrechtlich</div>
+                    <p>Fahrlässige Körperverletzung oder Tötung (StGB), Verstösse gegen UVG/ArG. Die Staatsanwaltschaft prüft bei schwerem Unfall die Verletzung der Sorgfaltspflicht.</p>
+                </div>
+                <div class="callout callout-danger">
+                    <div class="callout-title">Zivilrechtlich</div>
+                    <p>Schadenersatzforderungen seit 2003 schon bei einfacher Fahrlässigkeit (nicht mehr nur Grobfahrlässigkeit). Versicherungen können Regress nehmen bei grobfahrlässiger Verletzung von Sicherheitsvorschriften.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====== 7. MITWIRKUNG ====== -->
+        <div class="lm-chapter" id="mitwirkung">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">7</div>
+                <div class="chapter-title-block">
+                    <h2>Information und Mitwirkung der Arbeitnehmer</h2>
+                    <div class="chapter-law">Art. 6 Abs. 3 ArG · Mitwirkungsgesetz (MitwG)</div>
+                </div>
+            </div>
+
+            <p>Ein effektives Sicherheitssystem entsteht nicht «von oben herab» – es braucht die aktive Beteiligung der Belegschaft.</p>
+
+            <div class="two-col">
+                <div>
+                    <h3>Mitspracherecht</h3>
+                    <p>Arbeitnehmende haben das Recht, <strong>frühzeitig und umfassend</strong> informiert und angehört zu werden bei:</p>
+                    <ul>
+                        <li>Ermittlung von Gefahren am Arbeitsplatz</li>
+                        <li>Planung neuer Schutzmassnahmen oder PSA</li>
+                        <li>Änderung von Arbeitszeit oder -abläufen</li>
+                    </ul>
+                    <p style="font-size:14px;color:#555;">Wenn der Arbeitgeber Vorschläge der Mitarbeitenden ablehnt, muss er seinen Entscheid begründen (MitwG).</p>
+                </div>
+                <div>
+                    <h3>Das Recht auf «STOPP»</h3>
+                    <div class="callout callout-success">
+                        <div class="callout-title">Recht und Pflicht zur Arbeitsunterbrechung</div>
+                        <p>Jeder Mitarbeitende hat das Recht – und die Pflicht – bei drohender unmittelbarer Gefahr «STOPP» zu sagen und die Arbeit zu unterbrechen, bis die Gefahr behoben ist.</p>
+                    </div>
+                    <p style="font-size:14px;">Niemand darf benachteiligt werden, weil er aus Sicherheitsgründen eine Arbeit gestoppt hat. Dies muss von der Werkstattleitung aktiv unterstützt und vorgelebt werden.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ====== 8. ROP ====== -->
+        <div class="lm-chapter" id="rop">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">8</div>
+                <div class="chapter-title-block">
+                    <h2>Wirtschaftlichkeit durch Arbeitssicherheit: Return on Prevention</h2>
+                    <div class="chapter-law">IVSS-Studie · Suva-Daten</div>
+                </div>
+            </div>
+
+            <div class="lead-text">
+                Arbeitssicherheit als reiner Kostenfaktor? Wissenschaftliche Studien zeigen das Gegenteil: Eine hohe Sicherheit korreliert direkt mit wirtschaftlicher Leistungsfähigkeit.
+            </div>
+
+            <div class="rop-box">
+                <div class="rop-number">2.2</div>
+                <div class="rop-label">Return on Prevention (ROP)</div>
+                <div class="rop-desc">Jeder in Prävention investierte Franken generiert durchschnittlich <strong>2.20 Franken</strong> an ökonomischem Nutzen<br><small>(Internationale Vereinigung für Soziale Sicherheit IVSS)</small></div>
+            </div>
+
+            <h3>Woher kommt der Nutzen?</h3>
+            <div class="two-col">
+                <ul>
+                    <li><strong>Reduktion von Ausfallzeiten:</strong> Unfälle führen zu Absenzen, Lohnfortzahlungen und Ersatzkräftebedarf</li>
+                    <li><strong>Keine Betriebsstörungen:</strong> Unfälle beschädigen Maschinen und führen zu Produktionsstopps</li>
+                </ul>
+                <ul>
+                    <li><strong>Höhere Mitarbeitermotivation:</strong> Ein sicherer Betrieb geniesst höheres Vertrauen → weniger Fluktuation</li>
+                    <li><strong>Recruiting-Vorteil:</strong> Fachkräftemangel: ein sicherer Arbeitsplatz ist ein entscheidender Vorteil</li>
+                </ul>
+            </div>
+
+            <div class="callout callout-info">
+                <div class="callout-title">Integrierte Sicherheit als Managementaufgabe</div>
+                <p>Die Suva bietet Programme zur «Integrierten Sicherheit» an, die Sicherheit fest in die Führungssysteme einbauen. Wenn Sicherheit als Teil der Qualitätssicherung verstanden wird, sinken nicht nur die Unfallzahlen – es verbessert sich die gesamte betriebliche Effizienz.</p>
+            </div>
+        </div>
+
+        <!-- ====== 9. BRANCHE ====== -->
+        <div class="lm-chapter" id="branche">
+            <div class="lm-chapter-header">
+                <div class="chapter-num">9</div>
+                <div class="chapter-title-block">
+                    <h2>Branchenlösungen: agriTOP und BAZ</h2>
+                    <div class="chapter-law">EKAS-Richtlinie 6508 (ASA) · Branchenlösungen</div>
+                </div>
+            </div>
+
+            <div class="lead-text">
+                Um KMU bei der Umsetzung der komplexen ASA-Richtlinie zu unterstützen, wurden spezifische Branchenlösungen geschaffen – mit praxisnahen Werkzeugen und rechtlicher Sicherheit.
+            </div>
+
+            <div class="branch-grid">
+                <div class="branch-card agritop">
+                    <div class="branch-card-header">agriTOP</div>
+                    <div class="branch-card-body">
+                        <p style="font-size:13px;color:#555;margin-bottom:8px;"><strong>Träger:</strong> Schweizer Bauernverband, Agrotec Suisse, BUL<br><strong>Zielgruppe:</strong> Landwirtschaft und Landtechnik-Betriebe</p>
+                        <ul>
+                            <li>Branchenspezifische Gefährdungsermittlungen und Checklisten</li>
+                            <li>Schulungen für Kontaktpersonen Arbeitssicherheit (KOPAS)</li>
+                            <li>Unterstützung bei Sicherheitskonzepten und Notfallordnern</li>
+                            <li>Direkter Bezug zu Land- und Baumaschinenwerkstätten</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="branch-card baz">
+                    <div class="branch-card-header">BAZ – Branchenlösung Auto- &amp; Zweiradgewerbe</div>
+                    <div class="branch-card-body">
+                        <p style="font-size:13px;color:#555;margin-bottom:8px;"><strong>Träger:</strong> Auto Gewerbe Verband Schweiz (AGVS)<br><strong>Zielgruppe:</strong> Werkstätten und Carrosserien</p>
+                        <ul>
+                            <li>Spezialisiert auf Werkstatt- und Carrosseriebedürfnisse</li>
+                            <li>Online-Tool «asa-control»: Verwaltung von Sicherheitsdatenblättern bis Instandhaltungsprotokollen</li>
+                            <li>Standardisierte Dokumentation für alle PSA und Chemikalien</li>
+                            <li>Effizienteste Lösung für gesetzliche Anforderungen bei minimalem Adminaufwand</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="callout callout-success">
+                <div class="callout-title">✅ Empfehlung für die Praxis</div>
+                <p>Die Teilnahme an einer Branchenlösung (agriTOP für Landtechnik, BAZ für Fahrzeuggewerbe) ist für Betriebe mit besonderen Gefahren <strong>der effizienteste Weg</strong>, um die gesetzlichen Anforderungen der EKAS-Richtlinie 6508 zu erfüllen. Die vorgefertigten Werkzeuge und Checklisten erleichtern KMU den Einstieg erheblich.</p>
+            </div>
+        </div>
+
+    </div><!-- end lm-content -->
+
+    <!-- Footer -->
+    <div class="lm-footer">
+        <div>Modul: Arbeitsrecht II &amp; Arbeitssicherheit · Werkstattleiter-Meisterkurs HFP</div>
+        <div>Quellen: SECO, Suva, EKAS, BUL, AGVS · Stand 2026</div>
+    </div>
+
+</div><!-- end page-wrapper -->
+</body>
+</html>
