@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbeitsrecht I: Zusammenfassung der prüfungsrelevanten Konzepte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f8f9fa;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #bdc3c7;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .slide {
+            max-width: 1280px;
+            width: 100%;
+            min-height: 720px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .header p {
+            margin: 8px 0 0;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 30px 40px;
+            overflow-y: auto;
+        }
+
+        .section {
+            margin-bottom: 25px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 15px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .subsection {
+            margin-bottom: 15px;
+        }
+
+        .subsection-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .two-column {
+            display: flex;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .concept-box {
+            background-color: var(--light-gray);
+            border-radius: 4px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+        }
+
+        .concept-box-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+
+        .dropdown {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .dropdown-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dropdown-content {
+            padding: 15px;
+            background-color: #f9f9f9;
+            display: none;
+        }
+
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+
+        .dropdown.active .dropdown-header .material-icons {
+            transform: rotate(180deg);
+        }
+
+        .question {
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .answer {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            font-style: italic;
+        }
+
+        .gav-comparison {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .gav-comparison th, .gav-comparison td {
+            border: 1px solid var(--border-color);
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        .gav-comparison th {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .gav-comparison tr:nth-child(even) {
+            background-color: var(--light-gray);
+        }
+
+        @media (max-width: 768px) {
+            .two-column {
+                flex-direction: column;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            .content {
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="header">
+            <h1>Arbeitsrecht I: Zusammenfassung der prüfungsrelevanten Konzepte</h1>
+            <p>Verträge auf Arbeitsleistung · Rechtsquellen · Pflichten AN/AG · Sozialversicherungen</p>
+        </div>
+
+        <div class="content">
+            <!-- 1. Arten von Verträgen auf Arbeitsleistung -->
+            <div class="section">
+                <h2 class="section-title">1. Abgrenzung: Arbeitsvertrag, Werkvertrag, Auftrag</h2>
+                <div class="subsection">
+                    <p>Das OR unterscheidet drei Vertragstypen auf Arbeitsleistung:</p>
+                    <ul>
+                        <li><span class="highlight">Arbeitsvertrag</span> (Art. 319–362 OR): AN arbeitet <strong>unselbstständig</strong>, untersteht Weisungen des AG, gegen Lohn</li>
+                        <li><span class="highlight">Werkvertrag</span> (Art. 363–379 OR): Unternehmer arbeitet <strong>selbstständig</strong>, schuldet einen <strong>messbaren Erfolg</strong> (Werk), gegen Werklohn</li>
+                        <li><span class="highlight">Auftrag</span> (Art. 394–406 OR): Beauftragter arbeitet <strong>selbstständig</strong>, schuldet <strong>sorgfältiges Tätigwerden</strong> (kein Erfolg), gegen Honorar</li>
+                    </ul>
+                </div>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Praxisbeispiel Werkstatt</div>
+                        <p>Ihr Mechaniker (Arbeitsvertrag) repariert den Traktor eines Kunden (Werkvertrag). Ein externer Sachverständiger erstellt ein Gutachten (Auftrag). Der Auftrag gilt als «Sammelbecken» für alle Verträge, die weder Arbeits- noch Werkverträge sind.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown1">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                        <span>Kompetenz-Check: A. Arten von Verträgen auf Arbeitsleistung</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die drei Arten von Verträgen auf Arbeitsleistung und geben Sie für jede Art die massgebenden OR-Artikel an.</div>
+                        <div class="answer">Arbeitsvertrag (Art. 319–362 OR), Werkvertrag (Art. 363–379 OR), Auftrag (Art. 394–406 OR).</div>
+                        <div class="question">2. Welche Leistung und welche Gegenleistung schulden die Parteien beim Werkvertrag?</div>
+                        <div class="answer">Der Unternehmer schuldet die Herstellung eines Werks (Erfolg), der Besteller schuldet die Vergütung (Werklohn).</div>
+                        <div class="question">3. Erklären Sie den Unterschied zwischen einem Arbeitsvertrag und einem Auftrag anhand der Begriffe «Unterordnung» und «Selbstständigkeit».</div>
+                        <div class="answer">Beim Arbeitsvertrag steht der AN in einem Unterordnungsverhältnis und unterliegt den Weisungen des AG. Beim Auftrag handelt der Beauftragte selbstständig nach eigenem Fachwissen.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Rechtsquellen -->
+            <div class="section">
+                <h2 class="section-title">2. Rechtsquellen und Normenhierarchie</h2>
+                <div class="subsection">
+                    <p>Die Rechtsquellen des Arbeitsrechts bilden eine Hierarchie:</p>
+                    <ul>
+                        <li><span class="highlight">Zwingendes Recht</span>: Arbeitsgesetz (ArG), Sozialversicherungsgesetze – nicht abdingbar</li>
+                        <li><span class="highlight">Halbzwingendes Recht</span>: OR (Art. 319–362) – darf nur zugunsten des AN abgeändert werden</li>
+                        <li><span class="highlight">GAV / NAV</span>: Gesamtarbeitsvertrag (z.B. GAV MEM, LGAV Metallgewerbe) – geht über OR hinaus</li>
+                        <li><span class="highlight">EAV / Firmenreglemente</span>: Einzelarbeitsvertrag – darf nicht unter GAV-Standard liegen</li>
+                    </ul>
+                </div>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Günstigkeitsprinzip</div>
+                        <p>Ein GAV darf vom Gesetz nur <strong>zugunsten</strong> der Arbeitnehmenden abweichen. Der EAV darf seinerseits nicht unter den GAV-Standard fallen. Beispiel: GAV MEM = 25 Ferientage &gt; OR = 20 Tage → GAV gilt.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown2">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                        <span>Kompetenz-Check: B. Rechtsquellen des Arbeitsrechts und Rangordnung</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die sechs Rechtsquellen des Arbeitsrechts.</div>
+                        <div class="answer">Einzelarbeitsvertrag (EAV), Obligationenrecht (OR), Arbeitsgesetz (ArG), Gesamtarbeitsvertrag (GAV), Normalarbeitsvertrag (NAV), Firmenreglemente, Sozialversicherungsgesetze.</div>
+                        <div class="question">2. Erklären Sie, weshalb das ArG als zwingendes Recht Vorrang hat.</div>
+                        <div class="answer">Das ArG gehört zum öffentlichen Recht und enthält zwingende Normen zum Arbeitnehmerschutz (z.B. Höchstarbeitszeit 45 Std.), die nicht durch Vertrag zum Nachteil des AN abgeändert werden dürfen.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Abschluss und Inhalt -->
+            <div class="section">
+                <h2 class="section-title">3. Abschluss und Inhalt des Arbeitsvertrags</h2>
+                <div class="subsection">
+                    <ul>
+                        <li><span class="highlight">Formfreiheit</span> (Art. 320 OR): Auch mündlich oder stillschweigend gültig</li>
+                        <li><strong>Schriftform empfohlen</strong> aus Beweisgründen</li>
+                        <li><span class="highlight">Probezeit</span>: Max. 3 Monate (Art. 335b OR), Kündigung mit 7 Tagen Frist</li>
+                        <li><strong>Wesentlicher Inhalt:</strong> Funktion, Lohn, Arbeitszeit, Ferien, Probezeit, Kündigungsfrist</li>
+                    </ul>
+                </div>
+
+                <div class="dropdown" id="dropdown3">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown3')">
+                        <span>Kompetenz-Check: C. Abschluss und Inhalt des Arbeitsvertrags</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welche Form ist für den Abschluss eines Arbeitsvertrags vorgeschrieben?</div>
+                        <div class="answer">Keine besondere Form – Formfreiheit (Art. 320 OR). Der Vertrag kann auch mündlich oder stillschweigend abgeschlossen werden.</div>
+                        <div class="question">2. Weshalb empfiehlt sich trotz Formfreiheit ein schriftlicher Vertrag?</div>
+                        <div class="answer">Zur Beweissicherung bei Streitigkeiten über Lohn, Überstunden oder Ferien. Zudem sind bestimmte Klauseln (z.B. Ausschluss des Überstundenzuschlags) nur schriftlich gültig.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Pflichten AN und AG -->
+            <div class="section">
+                <h2 class="section-title">4. Pflichten des Arbeitnehmers und Arbeitgebers</h2>
+                <div class="two-column">
+                    <div class="column">
+                        <h3 class="subsection-title">Pflichten Arbeitnehmer</h3>
+                        <ul>
+                            <li><span class="highlight">Persönliche Arbeitspflicht</span> (Art. 319/321 OR)</li>
+                            <li><span class="highlight">Sorgfalts- und Treuepflicht</span> (Art. 321a OR)
+                                <ul>
+                                    <li>Sorgfältiger Umgang mit Material</li>
+                                    <li>Schwarzarbeitsverbot (Abs. 3)</li>
+                                    <li>Geheimhaltungspflicht (Abs. 4)</li>
+                                </ul>
+                            </li>
+                            <li><span class="highlight">Überstundenpflicht</span> (Art. 321c OR)</li>
+                            <li><span class="highlight">Weisungsbefolgung</span> (Art. 321d OR)</li>
+                            <li><span class="highlight">Haftung</span> (Art. 321e OR): Bei absichtlichem oder fahrlässigem Schaden</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3 class="subsection-title">Pflichten Arbeitgeber</h3>
+                        <ul>
+                            <li><span class="highlight">Lohnzahlung</span> (Art. 322 ff. OR) – Hauptpflicht</li>
+                            <li><span class="highlight">Überstundenvergütung</span> (Art. 321c OR): Normalstundenlohn + 25% Zuschlag</li>
+                            <li><span class="highlight">Ferien</span> (Art. 329a OR): Min. 4 Wochen (5 Wo. bis 20 J.)</li>
+                            <li><span class="highlight">Lohnfortzahlung</span> (Art. 324a OR): Bei Krankheit/Unfall</li>
+                            <li><span class="highlight">Persönlichkeitsschutz</span> (Art. 328 OR)</li>
+                            <li><span class="highlight">Arbeitszeugnis</span> (Art. 330a OR)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Haftungskriterien (Art. 321e OR)</div>
+                        <p>Das Mass der Sorgfalt bemisst sich nach: <strong>Berufsrisiko</strong>, <strong>Bildungsgrad</strong>, <strong>Fachkenntnisse</strong>, <strong>persönliche Fähigkeiten</strong>. Ein Lehrling wird milder beurteilt als ein erfahrener Meister.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown4">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown4')">
+                        <span>Kompetenz-Check: D. Pflichten des Arbeitnehmers / E. Pflichten des Arbeitgebers</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die Hauptpflicht und vier Nebenpflichten des Arbeitnehmers.</div>
+                        <div class="answer">Hauptpflicht: Persönliche Arbeitsleistung. Nebenpflichten: Sorgfalts-/Treuepflicht, Überstundenpflicht, Weisungsbefolgung, Haftung für Schäden.</div>
+                        <div class="question">2. Was versteht das Gesetz unter «Schwarzarbeit» (Art. 321a Abs. 3 OR)?</div>
+                        <div class="answer">Das Verbot, während des Arbeitsverhältnisses bezahlte Arbeit für Dritte zu verrichten, falls man dadurch den Arbeitgeber konkurrenziert.</div>
+                        <div class="question">3. Erklären Sie den Unterschied zwischen Überstunden (OR) und Überzeit (ArG).</div>
+                        <div class="answer">Überstunden (Art. 321c OR): Stunden über die vertragliche Arbeitszeit bis zur gesetzlichen Höchstarbeitszeit. Zuschlag kann schriftlich wegbedungen werden. Überzeit (Art. 13 ArG): Stunden über die Höchstarbeitszeit (45/50 Std.). 25% Zuschlag ist zwingend (ab 60 Std./Jahr).</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Lohnfortzahlung -->
+            <div class="section">
+                <h2 class="section-title">5. Lohnfortzahlung bei Verhinderung</h2>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Grundregel (Art. 324a OR)</div>
+                        <p>«Ohne Arbeit kein Lohn» – <strong>Ausnahme</strong> bei unverschuldeter persönlicher Verhinderung (Krankheit, Unfall, Schwangerschaft). Voraussetzung: Arbeitsverhältnis länger als 3 Monate. Dauer nach Dienstjahren (Skalen). <strong>Wichtig:</strong> Absenzen innerhalb eines Dienstjahres werden kumuliert!</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <table class="gav-comparison">
+                        <tr>
+                            <th>Regelung</th>
+                            <th>OR (Berner Skala)</th>
+                            <th>GAV MEM</th>
+                            <th>LGAV Metallgewerbe</th>
+                        </tr>
+                        <tr>
+                            <td>1. Dienstjahr</td>
+                            <td>3 Wochen</td>
+                            <td>1 Monat 100%</td>
+                            <td>Taggeldversicherung</td>
+                        </tr>
+                        <tr>
+                            <td>5. Dienstjahr</td>
+                            <td>ca. 9 Wochen</td>
+                            <td>3 Monate 100%</td>
+                            <td>80% / 720 Tage</td>
+                        </tr>
+                        <tr>
+                            <td>20. Dienstjahr</td>
+                            <td>ca. 21 Wochen</td>
+                            <td>6 Monate 100%</td>
+                            <td>80% / 720 Tage</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="dropdown" id="dropdown5">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown5')">
+                        <span>Kompetenz-Check: F. Lohnfortzahlung bei Verhinderung</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Unter welchen Voraussetzungen besteht ein Anspruch auf Lohnfortzahlung bei Krankheit?</div>
+                        <div class="answer">Unverschuldete persönliche Verhinderung + Arbeitsverhältnis länger als 3 Monate (oder für mehr als 3 Monate eingegangen).</div>
+                        <div class="question">2. Weshalb schliessen viele Arbeitgeber eine Krankentaggeldversicherung ab?</div>
+                        <div class="answer">Die gesetzliche Lohnfortzahlung ist relativ kurz. Die Taggeldversicherung übernimmt 80% des Lohns für bis zu 720 Tage und bietet beiden Seiten mehr Sicherheit und planbare Kosten.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Sozialversicherungen -->
+            <div class="section">
+                <h2 class="section-title">6. Lohnabzüge und Sozialversicherungen</h2>
+                <div class="subsection">
+                    <table class="gav-comparison">
+                        <tr>
+                            <th>Abzug</th>
+                            <th>Anteil AN</th>
+                            <th>Anteil AG</th>
+                            <th>Zweck</th>
+                        </tr>
+                        <tr>
+                            <td><strong>AHV/IV/EO</strong></td>
+                            <td>je 5,3%</td>
+                            <td>je 5,3%</td>
+                            <td>Alters-/Invaliden-/Erwerbsersatzrenten</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ALV</strong></td>
+                            <td>je 1,1%</td>
+                            <td>je 1,1%</td>
+                            <td>Arbeitslosenversicherung</td>
+                        </tr>
+                        <tr>
+                            <td><strong>BU</strong></td>
+                            <td>—</td>
+                            <td>Gesamte Prämie</td>
+                            <td>Berufsunfälle</td>
+                        </tr>
+                        <tr>
+                            <td><strong>NBU</strong></td>
+                            <td>Gesamte Prämie</td>
+                            <td>—</td>
+                            <td>Nichtberufsunfälle (ab 8 Std./Wo.)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>BVG</strong></td>
+                            <td>ca. Hälfte</td>
+                            <td>ca. Hälfte</td>
+                            <td>Berufliche Vorsorge (2. Säule)</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Zusätzliche GAV-Abzüge</div>
+                        <p><strong>GAV MEM:</strong> CHF 5.– Solidaritätsbeitrag + CHF 1.– Weiterbildung = CHF 6.–/Mt.<br>
+                        <strong>LGAV Metallgewerbe:</strong> CHF 10.– Vollzugskosten + CHF 10.– Weiterbildung = CHF 20.–/Mt.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown6">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown6')">
+                        <span>Kompetenz-Check: G. Lohnabzüge und Sozialversicherungen</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die fünf obligatorischen Sozialversicherungszweige und deren Zweck.</div>
+                        <div class="answer">AHV/IV/EO (Alters-/Invalidenrenten, Erwerbsersatz), ALV (Arbeitslosigkeit), BU/NBU (Unfallversicherung), BVG (Berufliche Vorsorge), FAK (Familienzulagen).</div>
+                        <div class="question">2. Weshalb trägt der AG die BU-Prämie alleine?</div>
+                        <div class="answer">Berufsunfälle entstehen am Arbeitsplatz. Das Risiko liegt beim Arbeitgeber, daher finanziert er die Versicherung. Nichtberufsunfälle (Freizeit) werden vom AN getragen.</div>
+                        <div class="question">3. Berechnen Sie AHV/IV/EO und ALV bei CHF 5'500 brutto.</div>
+                        <div class="answer">AHV/IV/EO: 5,3% × 5'500 = CHF 291.50. ALV: 1,1% × 5'500 = CHF 60.50. Total dieser Abzüge: CHF 352.–.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. Werkvertrag -->
+            <div class="section">
+                <h2 class="section-title">7. Werkvertrag – Mängelhaftung und Prüfungspflicht</h2>
+                <div class="subsection">
+                    <p>Der Werkunternehmer schuldet einen <strong>Erfolg</strong> (Art. 363 OR) und haftet für <strong>Mängel</strong>:</p>
+                    <ul>
+                        <li><span class="highlight">Wandelung</span>: Verweigerung der Annahme bei schweren Mängeln</li>
+                        <li><span class="highlight">Minderung</span>: Reduktion des Werklohns</li>
+                        <li><span class="highlight">Nachbesserung</span>: Unentgeltliche Verbesserung</li>
+                        <li><span class="highlight">Schadenersatz</span>: Bei Verschulden des Unternehmers</li>
+                    </ul>
+                </div>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Prüfungs- und Rügepflicht (Art. 367/370 OR)</div>
+                        <p><strong>Offene Mängel:</strong> Sofort bei Ablieferung rügen → sonst gilt Werk als genehmigt.<br>
+                        <strong>Versteckte Mängel:</strong> Sofort nach Entdeckung rügen.<br>
+                        <strong>Verjährung:</strong> 2 Jahre (bewegliche Werke) / 5 Jahre (unbewegliche Werke) ab Ablieferung.<br>
+                        <strong>Gefahrtragung:</strong> Unternehmer trägt Gefahr bis zur Übergabe (Art. 376 OR).</p>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown7">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown7')">
+                        <span>Kompetenz-Check: H. Werkvertrag – Mängelhaftung und Prüfungspflicht</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die vier Rechte des Bestellers bei Mängeln am Werk.</div>
+                        <div class="answer">Wandelung, Minderung, Nachbesserung, Schadenersatz (Art. 368 OR).</div>
+                        <div class="question">2. Unterschied offener vs. versteckter Mangel?</div>
+                        <div class="answer">Offene Mängel sind bei ordnungsgemässer Prüfung erkennbar und müssen sofort gerügt werden. Versteckte Mängel sind erst später entdeckbar und müssen sofort nach Entdeckung gerügt werden. In beiden Fällen: Ohne Rüge gilt das Werk als genehmigt.</div>
+                        <div class="question">3. Sie reparieren einen Mähdrescher. Zwei Wochen später reklamiert der Kunde einen offensichtlichen Kratzer. Hat er Mängelrechte?</div>
+                        <div class="answer">Nein. Der Kratzer war ein offener Mangel, der bei der Abholung erkennbar war. Da der Kunde nicht sofort gerügt hat, gilt das Werk als genehmigt – er hat seine Mängelrechte verwirkt.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8. Auftrag -->
+            <div class="section">
+                <h2 class="section-title">8. Auftrag – Abgrenzung und Haftung</h2>
+                <div class="subsection">
+                    <ul>
+                        <li><span class="highlight">Kein Erfolgsversprechen</span> (Art. 394 OR): Nur sorgfältiges Tätigwerden geschuldet</li>
+                        <li><span class="highlight">Haftung</span> (Art. 397 OR): Bei unsorgfältiger Erfüllung → Schadenersatz</li>
+                        <li><span class="highlight">Jederzeitiger Widerruf</span> (Art. 404 OR): Zur Unzeit → Schadenersatzpflicht</li>
+                    </ul>
+                </div>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Kernsatz zur Abgrenzung</div>
+                        <p>Der Arzt schuldet nicht die Heilung (kein Erfolg), aber der Werkstattmechaniker schuldet die funktionierende Maschine (Erfolg). <strong>Diagnose/Gutachten = Auftrag</strong>, <strong>Reparatur = Werkvertrag</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown8">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown8')">
+                        <span>Kompetenz-Check: I. Auftrag – Abgrenzung und Haftung</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Was schuldet der Beauftragte – und was nicht?</div>
+                        <div class="answer">Er schuldet ein sorgfältiges Tätigwerden im Interesse des Auftraggebers, aber keinen bestimmten Erfolg.</div>
+                        <div class="question">2. Welche Folge hat ein Widerruf zur Unzeit?</div>
+                        <div class="answer">Der entstandene Schaden muss ersetzt werden (z.B. entgangener Gewinn bei kurzfristiger Terminabsage).</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9. GAV-Vergleich -->
+            <div class="section">
+                <h2 class="section-title">9. GAV MEM vs. LGAV Metallgewerbe – Überblick</h2>
+                <div class="subsection">
+                    <table class="gav-comparison">
+                        <tr>
+                            <th>Thema</th>
+                            <th>OR (Minimum)</th>
+                            <th>GAV MEM</th>
+                            <th>LGAV Metallgewerbe</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Arbeitszeit/Jahr</strong></td>
+                            <td>45 Std./Wo. (max.)</td>
+                            <td>2'080 Std. (40 Std./Wo.)</td>
+                            <td>2'086–2'190 Std.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Überstundenzuschlag</strong></td>
+                            <td>25% (wegbedingbar)</td>
+                            <td>25% ab 1. Std.</td>
+                            <td>Erste 100 Std. zuschlagsfrei</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ferien (bis 49 J.)</strong></td>
+                            <td>20 Tage</td>
+                            <td>25 Tage (bis 40 J.)</td>
+                            <td>23 Tage</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ferien (ab 50 J.)</strong></td>
+                            <td>20 Tage</td>
+                            <td>30 Tage</td>
+                            <td>25 Tage</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mutterschaftsurlaub</strong></td>
+                            <td>14 Wo. / 80%</td>
+                            <td>16 Wo. / 100%</td>
+                            <td>14 Wo. / 80% (gesetzlich)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vaterschaftsurlaub</strong></td>
+                            <td>2 Wo. / 80%</td>
+                            <td>2 Wo. / 100%</td>
+                            <td>2 Wo. / 100%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Schutz ab 55 J.</strong></td>
+                            <td>—</td>
+                            <td>Zwingendes Gespräch</td>
+                            <td>Zwingendes Gespräch</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="subsection">
+                    <p><strong>PDF-Referenzen:</strong>
+                        <a href="https://www.plkm.ch/fileadmin/media/pdf/de/LGAV_im_Metallgewerbe_2024-2027.pdf" target="_blank">LGAV Metallgewerbe 2024–2027 (PDF)</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
