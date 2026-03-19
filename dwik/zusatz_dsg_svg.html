@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutz und Strassenverkehrsrecht – Lernressource für Werkstattleiter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dsg: #1a5276;
+            --secondary-dsg: #2e86c1;
+            --primary-svg: #1e5c36;
+            --secondary-svg: #27ae60;
+            --accent: #c0392b;
+            --background: #f8f9fa;
+            --text: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border: #bdc3c7;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text);
+            background-color: var(--background);
+        }
+
+        .slide {
+            max-width: 1280px;
+            width: 100%;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* ===== HEADER ===== */
+        .header {
+            background: linear-gradient(135deg, var(--primary-dsg) 50%, var(--primary-svg) 50%);
+            color: white;
+            padding: 24px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0 0 6px 0;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .header .subtitle {
+            margin: 0;
+            font-size: 15px;
+            opacity: 0.88;
+        }
+
+        /* ===== TAB NAVIGATION ===== */
+        .tabs {
+            display: flex;
+            border-bottom: 3px solid var(--border);
+            background: #fafafa;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 14px 24px;
+            font-size: 17px;
+            font-weight: 600;
+            font-family: inherit;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+            color: #7f8c8d;
+            transition: all 0.2s;
+            border-bottom: 3px solid transparent;
+            margin-bottom: -3px;
+        }
+
+        .tab-btn:hover { color: var(--text); }
+
+        .tab-btn.active-dsg {
+            color: var(--primary-dsg);
+            border-bottom-color: var(--primary-dsg);
+            background: white;
+        }
+
+        .tab-btn.active-svg {
+            color: var(--primary-svg);
+            border-bottom-color: var(--primary-svg);
+            background: white;
+        }
+
+        /* ===== TAB CONTENT ===== */
+        .tab-content {
+            display: none;
+            padding: 30px 40px;
+        }
+
+        .tab-content.active { display: block; }
+
+        /* ===== SECTIONS ===== */
+        .section {
+            margin-bottom: 28px;
+        }
+
+        .section.dsg { border-left: 4px solid var(--secondary-dsg); padding-left: 16px; }
+        .section.svg-s { border-left: 4px solid var(--secondary-svg); padding-left: 16px; }
+
+        .section-title {
+            font-size: 21px;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+        }
+
+        .section.dsg .section-title { color: var(--primary-dsg); }
+        .section.svg-s .section-title { color: var(--primary-svg); }
+
+        .section-ref {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        /* ===== CONCEPT BOXES ===== */
+        .concept-box {
+            border-radius: 4px;
+            padding: 12px 16px;
+            margin-bottom: 14px;
+        }
+
+        .concept-box.dsg {
+            background: #eaf4fb;
+            border-left: 3px solid var(--secondary-dsg);
+        }
+
+        .concept-box.svg-s {
+            background: #eafaf1;
+            border-left: 3px solid var(--secondary-svg);
+        }
+
+        .concept-box-title {
+            font-weight: 700;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 4px;
+        }
+
+        .concept-box.dsg .concept-box-title { color: var(--primary-dsg); }
+        .concept-box.svg-s .concept-box-title { color: var(--primary-svg); }
+
+        .concept-box p { margin: 0; font-size: 16px; line-height: 1.55; }
+
+        /* ===== TABLES ===== */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 15px;
+        }
+
+        th {
+            padding: 9px 12px;
+            text-align: left;
+            font-weight: 700;
+            background: var(--light-gray);
+            border: 1px solid var(--border);
+        }
+
+        td {
+            padding: 8px 12px;
+            border: 1px solid var(--border);
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) td { background: #fafafa; }
+
+        /* ===== TWO COLUMN ===== */
+        .two-column {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 14px;
+        }
+
+        .column { flex: 1; }
+
+        /* ===== LISTS ===== */
+        ul { margin: 6px 0; padding-left: 22px; }
+        li { margin-bottom: 5px; font-size: 16px; line-height: 1.4; }
+
+        .highlight-dsg { color: var(--primary-dsg); font-weight: 700; }
+        .highlight-svg { color: var(--primary-svg); font-weight: 700; }
+        .highlight-red { color: var(--accent); font-weight: 700; }
+
+        /* ===== PROCESS FLOW ===== */
+        .process-flow {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 12px 0;
+            font-size: 15px;
+        }
+
+        .process-step {
+            background: var(--secondary-dsg);
+            color: white;
+            padding: 7px 14px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .process-step.svg-step { background: var(--secondary-svg); }
+
+        .process-arrow {
+            color: var(--border);
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        /* ===== DROPDOWN ===== */
+        .dropdown {
+            margin-top: 14px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .dropdown-header {
+            padding: 10px 16px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            font-size: 15px;
+            color: white;
+            user-select: none;
+        }
+
+        .dropdown-header.dsg { background: var(--secondary-dsg); }
+        .dropdown-header.dsg:hover { background: #2471a3; }
+        .dropdown-header.svg-h { background: var(--secondary-svg); }
+        .dropdown-header.svg-h:hover { background: #229954; }
+
+        .dropdown-content {
+            padding: 16px;
+            background: #fafafa;
+            display: none;
+        }
+
+        .dropdown.active .dropdown-content { display: block; }
+
+        .dropdown.active .dropdown-header .material-icons { transform: rotate(180deg); }
+
+        .material-icons { transition: transform 0.2s; }
+
+        /* ===== Q&A ===== */
+        .question {
+            font-weight: 600;
+            margin-bottom: 4px;
+            font-size: 16px;
+        }
+
+        .answer {
+            margin-bottom: 14px;
+            padding: 8px 12px;
+            font-size: 16px;
+            border-radius: 4px;
+            line-height: 1.5;
+        }
+
+        .answer.spoiler {
+            background: #cbd5e0;
+            color: transparent;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .answer.spoiler.revealed {
+            background: #eaf4fb;
+            color: var(--text);
+            cursor: default;
+            user-select: text;
+        }
+
+        .answer.spoiler.revealed.svg-ans { background: #eafaf1; }
+
+        .answer.spoiler:not(.revealed) * { opacity: 0; pointer-events: none; }
+
+        .spoiler-hint {
+            display: block;
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: -10px;
+            margin-bottom: 12px;
+        }
+
+        .q-group-title {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #dce3e9;
+            padding-bottom: 3px;
+        }
+
+        .q-group-title.dsg { color: var(--primary-dsg); }
+        .q-group-title.svg-s { color: var(--primary-svg); }
+
+        /* ===== BADGE / PILL ===== */
+        .badge {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-left: 6px;
+            vertical-align: middle;
+        }
+
+        .badge-new { background: #fadbd8; color: #922b21; }
+        .badge-key { background: #d5f5e3; color: #1e5c36; }
+
+        /* ===== WARNING BOX ===== */
+        .warning-box {
+            background: #fef9e7;
+            border-left: 3px solid #f39c12;
+            border-radius: 4px;
+            padding: 10px 14px;
+            margin: 12px 0;
+            font-size: 15px;
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--primary-dsg);
+            color: rgba(255,255,255,0.7);
+            text-align: center;
+            padding: 12px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+<div class="slide">
+
+    <div class="header">
+        <h1>Datenschutzrecht (revDSG) und Strassenverkehrsrecht (SVG)</h1>
+        <p class="subtitle">Zusatz-Lernressource · Modul 4 · Werkstattleiter-Meisterkurs HFP</p>
+    </div>
+
+    <!-- TAB NAVIGATION -->
+    <div class="tabs">
+        <button class="tab-btn active-dsg" onclick="switchTab('dsg')">🔒 Datenschutz (revDSG)</button>
+        <button class="tab-btn" onclick="switchTab('svg')">🚗 Strassenverkehrsrecht (SVG)</button>
+    </div>
+
+    <!-- ===== TAB 1: revDSG ===== -->
+    <div id="tab-dsg" class="tab-content active">
+
+        <!-- Überblick -->
+        <div class="section dsg">
+            <h2 class="section-title">1. Überblick: Das revidierte Datenschutzgesetz (revDSG) <span class="badge badge-new">neu seit 01.09.2023</span></h2>
+            <p class="section-ref">DSG Art. 1 ff. · OR Art. 328b (Arbeitnehmerdaten) · Datenschutzverordnung (DSV)</p>
+
+            <div class="concept-box dsg">
+                <div class="concept-box-title">Kernaussage</div>
+                <p>Das revidierte DSG gilt seit <strong>1. September 2023</strong>. Es schützt Personendaten natürlicher Personen vor unbefugter Bearbeitung. Jedes Werkstattunternehmen, das Kundendaten, Mitarbeiterdaten oder Fahrzeugdaten bearbeitet, ist <span class="highlight-dsg">betroffen</span>. Das neue DSG stärkt die Rechte der Betroffenen und erhöht die Pflichten der Verantwortlichen.</p>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <strong>Was gilt als «Personendaten»?</strong>
+                    <ul>
+                        <li>Name, Adresse, E-Mail, Telefon</li>
+                        <li>AHV-Nummer, Lohndaten</li>
+                        <li>Kundennummern mit Verknüpfung zur Person</li>
+                        <li>Fotos, Videos (Kamerasysteme)</li>
+                        <li>IP-Adressen, Cookies auf der Website</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <strong>Besonders schützenswerte Personendaten</strong>
+                    <ul>
+                        <li>Gesundheitsdaten (z.B. Arbeitsunfall)</li>
+                        <li>Biometrische Merkmale (Fingerabdruck-Zeiterfassung)</li>
+                        <li>Daten über religiöse/politische Ansichten</li>
+                        <li>Strafrechtliche Verfolgungen</li>
+                        <li>→ Höhere Sorgfaltspflichten!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grundsätze -->
+        <div class="section dsg">
+            <h2 class="section-title">2. Die 6 Grundsätze der Datenbearbeitung (DSG Art. 6)</h2>
+            <p class="section-ref">DSG Art. 6 · OR Art. 328b (Arbeitnehmer)</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Grundsatz</th>
+                        <th>Bedeutung</th>
+                        <th>Beispiel Werkstatt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Rechtmässigkeit</strong></td>
+                        <td>Bearbeitung nur mit Rechtsgrundlage (Einwilligung, Gesetz, Vertrag, überwiegendes Interesse)</td>
+                        <td>Kundendaten für Reparaturauftrag: Vertragserfüllung als Grundlage</td>
+                    </tr>
+                    <tr>
+                        <td><strong class="highlight-dsg">Zweckbindung</strong></td>
+                        <td>Daten nur für den bei der Erhebung festgelegten Zweck verwenden</td>
+                        <td>Mitarbeiter-AHV-Daten dürfen nicht für Vereinswerbung genutzt werden</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Verhältnismässigkeit</strong></td>
+                        <td>Nur so viele Daten erheben wie notwendig (Datensparsamkeit)</td>
+                        <td>Für eine einfache Serviceleistung keine Geburtsdaten verlangen</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Richtigkeit</strong></td>
+                        <td>Daten müssen korrekt und aktuell sein</td>
+                        <td>Kundenadressen regelmässig aktualisieren</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Datensicherheit</strong></td>
+                        <td>Technische und organisatorische Schutzmassnahmen treffen</td>
+                        <td>Passwortschutz, verschlüsselte E-Mails, Zugriffsberechtigungen</td>
+                    </tr>
+                    <tr>
+                        <td><strong class="highlight-dsg">Transparenz</strong></td>
+                        <td>Betroffene über Bearbeitung informieren (Datenschutzerklärung)</td>
+                        <td>Datenschutzerklärung auf der Website und für Mitarbeitende</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Pflichten des Verantwortlichen -->
+        <div class="section dsg">
+            <h2 class="section-title">3. Neue Pflichten für Werkstattunternehmen</h2>
+            <p class="section-ref">DSG Art. 12, 18, 23, 24, 25 (Bearbeitungsverzeichnis, Datenschutz-Folgenabschätzung, Datenschutz by Design)</p>
+
+            <div class="two-column">
+                <div class="column">
+                    <strong>Pflicht 1: Bearbeitungsverzeichnis <span class="badge badge-new">NEU</span></strong>
+                    <ul>
+                        <li>Dokumentation aller Datenbearbeitungen</li>
+                        <li>Für Werkstätten: Kundendaten, Mitarbeiterdaten, Lieferantendaten, Videosysteme</li>
+                        <li>Muss auf Anfrage dem EDÖB vorgelegt werden</li>
+                    </ul>
+
+                    <strong style="display:block;margin-top:12px;">Pflicht 2: Datenschutz-Folgenabschätzung</strong>
+                    <ul>
+                        <li>Pflicht bei Hochrisiko-Bearbeitungen (z.B. biometrische Zeiterfassung)</li>
+                        <li>Risikoanalyse vor Einführung neuer Systeme</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <strong>Pflicht 3: Meldepflicht bei Datenschutzverletzungen <span class="badge badge-new">NEU</span></strong>
+                    <ul>
+                        <li>Verletzung muss dem <strong>EDÖB</strong> gemeldet werden</li>
+                        <li>Nur wenn voraussichtlich hohes Risiko für Betroffene</li>
+                        <li>Meldung so rasch als möglich</li>
+                    </ul>
+
+                    <strong style="display:block;margin-top:12px;">Pflicht 4: Privacy by Design/Default</strong>
+                    <ul>
+                        <li>Datenschutz von Anfang an mitdenken</li>
+                        <li>Standardmässig datenschutzfreundliche Einstellungen</li>
+                        <li>Beispiel: Neue Software → Datenschutz prüfen bevor Einführung</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <strong>Sanktionen (DSG Art. 60/61 NEU):</strong> Vorsätzliche Verletzung der Informationspflicht, Auskunftspflicht oder Mindestanforderungen an die Datensicherheit kann mit einer Busse bis <strong>CHF 250'000.–</strong> bestraft werden. Die Strafbarkeit richtet sich gegen die <strong>natürliche Person</strong> (z.B. Geschäftsführer), nicht die juristische Person.
+            </div>
+        </div>
+
+        <!-- Rechte der Betroffenen -->
+        <div class="section dsg">
+            <h2 class="section-title">4. Rechte der betroffenen Personen</h2>
+            <p class="section-ref">DSG Art. 25, 32, 46 · OR Art. 328b</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Recht</th>
+                        <th>Inhalt</th>
+                        <th>Werkstatt-Praxis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Auskunftsrecht</strong> (Art. 25)</td>
+                        <td>Jede Person kann kostenlos fragen, welche Daten die Werkstatt über sie bearbeitet</td>
+                        <td>Antwort innerhalb von 30 Tagen; vollständige Auskunft erforderlich</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Recht auf Berichtigung</strong></td>
+                        <td>Falsche oder unvollständige Daten müssen korrigiert werden</td>
+                        <td>Adressänderung eines Kunden muss umgesetzt werden</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Recht auf Löschung</strong></td>
+                        <td>Daten löschen wenn kein berechtigter Zweck mehr besteht</td>
+                        <td>Kundendaten nach Ablauf der Aufbewahrungspflicht (10 Jahre OR) löschen</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Recht auf Datenherausgabe</strong></td>
+                        <td>Daten in gängigem Format herausgeben (Portabilität)</td>
+                        <td>Auf Anfrage Kundendaten als CSV exportieren</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Widerspruchsrecht</strong></td>
+                        <td>Gegen bestimmte Datenbearbeitungen (z.B. Direktwerbung) Widerspruch erheben</td>
+                        <td>Kunde will keine Newsletter mehr → sofortige Umsetzung</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Praxis Werkstatt -->
+        <div class="section dsg">
+            <h2 class="section-title">5. DSG-Checkliste für die Werkstatt</h2>
+
+            <div class="two-column">
+                <div class="column">
+                    <strong>Kundendaten</strong>
+                    <ul>
+                        <li>✅ Datenschutzerklärung auf Website + am Empfang</li>
+                        <li>✅ Kundendaten nur für Auftragsabwicklung</li>
+                        <li>✅ Keine Weitergabe an Dritte ohne Einwilligung</li>
+                        <li>✅ Löschung nach Ende Aufbewahrungspflicht</li>
+                        <li>✅ Zugriffsschutz (Passwort, Sperrbildschirm)</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <strong>Mitarbeiterdaten (OR Art. 328b)</strong>
+                    <ul>
+                        <li>✅ Nur Daten erheben, die für das Arbeitsverhältnis nötig sind</li>
+                        <li>✅ Lohndaten: vertraulich, zugangsbeschränkt</li>
+                        <li>✅ Fotos: ausdrückliche Einwilligung einholen</li>
+                        <li>✅ Gesundheitsdaten: besondere Sorgfalt</li>
+                        <li>✅ AHV-Nummer: nur für Sozialversicherungszwecke</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="concept-box dsg" style="margin-top:14px;">
+                <div class="concept-box-title">Merksatz für die Prüfung</div>
+                <p>Jede Datenbearbeitung braucht eine <strong>Rechtsgrundlage</strong> (Einwilligung, Vertrag, Gesetz oder überwiegendes Interesse) und muss dem <strong>Zweckbindungsgebot</strong> entsprechen. Wer Daten für einen anderen Zweck nutzt, verletzt das DSG – unabhängig von der Rechtsform des Unternehmens.</p>
+            </div>
+        </div>
+
+        <!-- Kompetenz-Check DSG -->
+        <div class="dropdown" id="dropDSG">
+            <div class="dropdown-header dsg" onclick="toggleDropdown('dropDSG')">
+                <span>Kompetenz-Check: revDSG in der Werkstatt</span>
+                <i class="material-icons">expand_more</i>
+            </div>
+            <div class="dropdown-content">
+                <div class="q-group-title dsg">Wissen</div>
+                <div class="question">1. Seit wann gilt das revidierte Datenschutzgesetz (revDSG) und welches neue Instrument verpflichtet Werkstätten zur Dokumentation ihrer Datenbearbeitungen?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Das revDSG gilt seit dem <strong>1. September 2023</strong>. Das neue Instrument ist das <strong>Bearbeitungsverzeichnis</strong> (DSG Art. 12): Jedes Unternehmen, das Personendaten bearbeitet, muss die Bearbeitungen dokumentieren (Zweck, Datenkategorien, Empfänger, Aufbewahrungsfristen).</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="question">2. Nennen Sie drei der sechs Grundsätze der Datenbearbeitung nach DSG Art. 6 und erklären Sie den Zweckbindungsgrundsatz.</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Drei Grundsätze (Auswahl): Rechtmässigkeit, Zweckbindung, Verhältnismässigkeit (weitere: Richtigkeit, Datensicherheit, Transparenz). Zweckbindung: Daten dürfen nur für den Zweck verwendet werden, für den sie erhoben wurden. Beispiel: AHV-Daten der Mitarbeitenden dürfen nur für Sozialversicherungszwecke genutzt werden – nicht für Marketingaktionen.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="q-group-title dsg" style="margin-top:16px;">Verstehen</div>
+                <div class="question">3. Ein Werkstattmitarbeiter fragt seinen Chef, welche Daten die Werkstatt über ihn gespeichert hat. Was muss der Chef tun und innerhalb welcher Frist?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Der Chef muss dem Mitarbeiter vollständig Auskunft geben über alle gespeicherten Daten (Art. 25 DSG): welche Daten, zu welchem Zweck, Herkunft, allfällige Weitergaben. Die Antwort muss <strong>kostenlos</strong> und <strong>innerhalb von 30 Tagen</strong> erfolgen. Verweigert der Chef die Auskunft, begeht er eine Rechtsverletzung.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="question">4. Die Werkstatt führt eine neue Fingerabdruck-Zeiterfassung für Mitarbeitende ein. Welche besonderen DSG-Pflichten entstehen dabei?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Fingerabdruckdaten sind <strong>biometrische Daten</strong> und damit besonders schützenswerte Personendaten. Pflichten: (1) Ausdrückliche <strong>Einwilligung</strong> der Mitarbeitenden (oder andere Rechtsgrundlage). (2) Durchführung einer <strong>Datenschutz-Folgenabschätzung</strong> vor Einführung. (3) Besondere <strong>Datensicherheitsmassnahmen</strong>. (4) Eintrag ins Bearbeitungsverzeichnis. OR Art. 328b: Biometriedaten sind für das Arbeitsverhältnis nur nötig, wenn sie den Betrieb direkt betreffen.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="q-group-title dsg" style="margin-top:16px;">Anwenden</div>
+                <div class="question">5. Ein Werkstattleiter fotografiert alle Kundenfahrzeuge bei der Annahme und stellt die Fotos auf die Website, ohne die Kunden zu informieren. Verstösst er gegen das DSG?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Das hängt davon ab, ob auf den Fotos <strong>Personen erkennbar</strong> sind. Fahrzeugfotos ohne erkennbare Personen sind grundsätzlich kein Problem. Sind jedoch Personen erkennbar (z.B. im Fahrzeug oder im Hintergrund), handelt es sich um Personendaten. Für die Veröffentlichung auf der Website braucht der Werkstattleiter eine <strong>Rechtsgrundlage</strong> (Einwilligung) und muss die Datenschutzerklärung entsprechend aktualisieren. Beim Verstoss droht ein Unterlassungsanspruch und ggf. eine Busse nach DSG Art. 60/61.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="question">6. Die Werkstatt-EDV wird von Hackern angegriffen; Kundenadressen und Fahrzeugdaten werden gestohlen. Was muss der Werkstattleiter als Verantwortlicher gemäss revDSG tun?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Bei einer Datenschutzverletzung (Data Breach) prüft der Werkstattleiter: (1) Ist ein <strong>voraussichtlich hohes Risiko</strong> für die Betroffenen gegeben? – Ja, bei gestohlenen Personendaten mit Missbrauchspotenzial. (2) Dann: <strong>Meldung an den EDÖB</strong> (Eidg. Datenschutz- und Öffentlichkeitsbeauftragter) so rasch als möglich. (3) Bei sehr hohem Risiko: <strong>Information der betroffenen Kunden</strong>. (4) Interne Dokumentation der Verletzung und der ergriffenen Massnahmen.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+            </div>
+        </div>
+
+    </div><!-- /tab-dsg -->
+
+    <!-- ===== TAB 2: SVG ===== -->
+    <div id="tab-svg" class="tab-content">
+
+        <!-- Überblick SVG -->
+        <div class="section svg-s">
+            <h2 class="section-title">1. Überblick: Strassenverkehrsgesetz (SVG) – Relevanz für Werkstätten</h2>
+            <p class="section-ref">SVG Art. 37 ff., 58, 59, 63 ff. · OR Art. 55 (Geschäftsherrenhaftung)</p>
+
+            <div class="concept-box svg-s">
+                <div class="concept-box-title">Kernaussage</div>
+                <p>Das SVG ist für Werkstätten in doppelter Hinsicht relevant: Als <strong>Halter von Betriebsfahrzeugen</strong> (Lieferwagen, Werkstattwagen) und bei <strong>Probefahrten mit Kundenfahrzeugen</strong> trägt die Werkstatt die volle <span class="highlight-svg">Kausalhaftung nach Art. 58 SVG</span> – auch ohne Verschulden. Zudem muss sie bei technischen Änderungen an Fahrzeugen die Verkehrssicherheit gewährleisten.</p>
+            </div>
+
+            <div class="two-column">
+                <div class="column">
+                    <strong>Werkstatt als Halterin</strong>
+                    <ul>
+                        <li>Eigene Betriebsfahrzeuge (Lieferwagen, Servicefahrzeuge)</li>
+                        <li>Probefahrten mit Kundenfahrzeugen</li>
+                        <li>Temporäre Fahrzeuge (Leihfahrzeuge für Kunden)</li>
+                        <li>→ Immer: Halterhaftung nach Art. 58 SVG</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <strong>Werkstatt als Reparatursbetrieb</strong>
+                    <ul>
+                        <li>Pflicht zur Wiederherstellung der Verkehrssicherheit</li>
+                        <li>Dokumentationspflicht bei technischen Änderungen</li>
+                        <li>Informationspflicht gegenüber Kunden (MFK-Pflicht)</li>
+                        <li>Haftung für Reparaturmängel (OR Art. 368 ff.)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kausalhaftung Art. 58 -->
+        <div class="section svg-s">
+            <h2 class="section-title">2. Die Motorfahrzeughalter-Kausalhaftung (Art. 58 SVG)</h2>
+            <p class="section-ref">SVG Art. 58, 59 · OR Art. 55 (Geschäftsherrenhaftung)</p>
+
+            <div class="concept-box svg-s">
+                <div class="concept-box-title">Was ist Kausalhaftung?</div>
+                <p>Die Kausalhaftung (auch Gefährdungshaftung) bedeutet: Der <strong>Halter haftet für Schäden durch den Fahrzeugbetrieb, auch wenn er kein Verschulden trifft</strong>. Es genügt ein Kausalzusammenhang zwischen dem Fahrzeugbetrieb und dem Schaden. Verschulden ist kein Tatbestandsmerkmal.</p>
+            </div>
+
+            <strong>Tatbestandsmerkmale der Kausalhaftung (Art. 58 SVG):</strong>
+            <div class="process-flow">
+                <div class="process-step svg-step">Schaden</div>
+                <div class="process-arrow">+</div>
+                <div class="process-step svg-step">Widerrechtlichkeit</div>
+                <div class="process-arrow">+</div>
+                <div class="process-step svg-step">Kausalzusammenhang Fahrzeugbetrieb → Schaden</div>
+                <div class="process-arrow">≠</div>
+                <div class="process-step svg-step" style="background:#7f8c8d;">Kein Verschulden nötig!</div>
+            </div>
+
+            <div class="two-column" style="margin-top:14px;">
+                <div class="column">
+                    <strong>Entlastungsgründe (Art. 59 SVG) – selten erfolgreich</strong>
+                    <ul>
+                        <li><strong>Höhere Gewalt:</strong> aussergewöhnliches, unabwendbares Ereignis (z.B. Naturkatastrophe)</li>
+                        <li><strong>Grobes Selbstverschulden des Geschädigten:</strong> bewusstes, schwerwiegendes Fehlverhalten (gilt nicht bei Kindern!)</li>
+                        <li><strong>Grobes Verschulden eines Dritten:</strong> z.B. ein anderes Fahrzeug verursacht den Aufprall</li>
+                        <li><em>Kein Entlastungsgrund:</em> normale Unaufmerksamkeit, schlechtes Wetter, Fahrzeugpanne</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <strong>Wer ist «Halter» des Fahrzeugs?</strong>
+                    <ul>
+                        <li>Person, die das Fahrzeug dauerhaft in eigenem Interesse und auf eigene Kosten betreibt</li>
+                        <li>Nicht zwingend der Eigentümer!</li>
+                        <li>Bei Probefahrt: <span class="highlight-svg">Werkstatt = Halterin</span> (übernimmt Kontrolle)</li>
+                        <li>Bei Langzeitmiete: Mieter = Halter</li>
+                        <li>Halterschaft im Strassenverkehrsregister eingetragen</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Haftung bei Reparatur -->
+        <div class="section svg-s">
+            <h2 class="section-title">3. Werkstatthaftung bei fehlerhafter Reparatur</h2>
+            <p class="section-ref">OR Art. 55 (Geschäftsherrenhaftung) · OR Art. 368 (Werkvertrag) · SVG (Verkehrssicherheitspflicht)</p>
+
+            <div class="concept-box svg-s">
+                <div class="concept-box-title">Grundsatz</div>
+                <p>Eine Werkstatt, die ein Fahrzeug repariert und als «fachgerecht instand gesetzt» zurückgibt, ist für die Verkehrssicherheit des Fahrzeugs verantwortlich. Verursacht ein Reparaturmangel später einen Unfall, haftet die Werkstatt – auch wenn das Fahrzeug schon zurückgegeben wurde.</p>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Haftungsgrundlage</th>
+                        <th>Voraussetzungen</th>
+                        <th>Bedeutung für Werkstatt</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>OR Art. 55</strong><br>Geschäftsherrenhaftung</td>
+                        <td>Schaden durch einen Angestellten in Ausübung seiner Arbeit; Werkstatt kann Entlastung versuchen</td>
+                        <td>Werkstatt haftet für Fehler ihrer Mitarbeitenden bei Reparaturen</td>
+                    </tr>
+                    <tr>
+                        <td><strong>OR Art. 368</strong><br>Werkvertragsgewährleistung</td>
+                        <td>Reparatur weist Mängel auf (Ablieferung eines fehlerhaften Werks)</td>
+                        <td>Kunde kann Nachbesserung, Minderung oder Wandelung verlangen</td>
+                    </tr>
+                    <tr>
+                        <td><strong>OR Art. 41</strong><br>Unerlaubte Handlung</td>
+                        <td>Widerrechtliche Schädigung (z.B. als «repariert» ausgegebenes Fahrzeug mit gefährlichem Mangel)</td>
+                        <td>Schadenersatz für den Unfall-Geschädigten</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SVG</strong><br>Verkehrssicherheitspflicht</td>
+                        <td>Technische Anforderungen an Fahrzeuge im Strassenverkehr</td>
+                        <td>Werkstatt darf kein Fahrzeug als verkehrssicher bestätigen, das es nicht ist</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="warning-box">
+                <strong>AGB-Haftungsausschluss:</strong> Ein Ausschluss der Haftung für Mangelfolgeschäden in AGB ist bei <strong>grober Fahrlässigkeit oder Vorsatz</strong> unwirksam (OR Art. 100). Bei sicherheitsrelevanten Bauteilen wird ein Gericht grobe Fahrlässigkeit leicht annehmen.
+            </div>
+        </div>
+
+        <!-- Technische Änderungen -->
+        <div class="section svg-s">
+            <h2 class="section-title">4. Technische Änderungen und MFK-Pflicht</h2>
+            <p class="section-ref">SVG Art. 30 ff., 34 · VTS (Verordnung über technische Anforderungen an Strassenfahrzeuge)</p>
+
+            <div class="two-column">
+                <div class="column">
+                    <strong>Zulassungsrelevante Änderungen</strong>
+                    <ul>
+                        <li>Leistungssteigerung (Motor-Tuning)</li>
+                        <li>Fahrwerksveränderungen (Tieferlegung)</li>
+                        <li>Umbau von Sicherheitssystemen (Airbag, ABS)</li>
+                        <li>Reifengrössen-Änderung (über Toleranz)</li>
+                        <li>→ Neue <strong>Motorfahrzeugkontrolle (MFK)</strong> erforderlich</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <strong>Dokumentationspflichten der Werkstatt</strong>
+                    <ul>
+                        <li>Alle Änderungen schriftlich dokumentieren</li>
+                        <li>Kunden über MFK-Pflicht informieren</li>
+                        <li>Zulassungsdokumente (Fahrzeugausweis) aktualisieren lassen</li>
+                        <li>Übergabeprotokoll erstellen</li>
+                        <li>Sicherheitsrelevante Aspekte abhaken</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="concept-box svg-s" style="margin-top:14px;">
+                <div class="concept-box-title">Praxis-Tipp: Übergabeprotokoll</div>
+                <p>Bei jeder Fahrzeugrückgabe nach Reparatur: <strong>Übergabeprotokoll</strong> erstellen und vom Kunden unterschreiben lassen. Dokumentieren: durchgeführte Arbeiten, geprüfte sicherheitsrelevante Bauteile, allfällige Empfehlungen. Dieses Dokument schützt die Werkstatt im Streitfall.</p>
+            </div>
+        </div>
+
+        <!-- Versicherungspflicht -->
+        <div class="section svg-s">
+            <h2 class="section-title">5. Motorfahrzeug-Haftpflichtversicherung (SVG Art. 63 ff.)</h2>
+
+            <div class="two-column">
+                <div class="column">
+                    <strong>Pflichtversicherung für Werkstätten</strong>
+                    <ul>
+                        <li>Jedes Betriebsfahrzeug braucht obligatorische MFH-Versicherung</li>
+                        <li>Mindestdeckung: CHF 5 Mio. pro Schadenereignis</li>
+                        <li>Probefahrten mit Kundenfahrzeugen: Kasko der Werkstatt oder des Kunden prüfen</li>
+                        <li>Leihfahrzeuge für Kunden: Versicherungsdeckung klären</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <strong>Checkliste Werkstatt-Fuhrpark</strong>
+                    <ul>
+                        <li>✅ Alle Betriebsfahrzeuge MFH-versichert?</li>
+                        <li>✅ Probefahrten-Vollmacht und Versicherungsklärung?</li>
+                        <li>✅ Klare Fahrberechtigungsregeln für Mitarbeitende?</li>
+                        <li>✅ Dokumentation aller Probefahrten?</li>
+                        <li>✅ Bei Kundenleihfahrzeugen: schriftliche Haftungsübertragung?</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kompetenz-Check SVG -->
+        <div class="dropdown" id="dropSVG">
+            <div class="dropdown-header svg-h" onclick="toggleDropdown('dropSVG')">
+                <span>Kompetenz-Check: SVG in der Werkstatt</span>
+                <i class="material-icons">expand_more</i>
+            </div>
+            <div class="dropdown-content">
+                <div class="q-group-title svg-s">Wissen</div>
+                <div class="question">1. Was ist die «Kausalhaftung» nach SVG Art. 58 und warum ist sie für Werkstätten besonders relevant?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Kausalhaftung (Gefährdungshaftung) des SVG bedeutet: Der Fahrzeughalter haftet für Schäden durch den Fahrzeugbetrieb auch ohne Verschulden. Es genügt der Kausalzusammenhang zwischen Fahrzeugbetrieb und Schaden. Für Werkstätten relevant: Als Halterin von Betriebsfahrzeugen und bei Probefahrten mit Kundenfahrzeugen trägt die Werkstatt diese volle Haftung – selbst wenn der Fahrer alles richtig gemacht hat.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="question">2. Nennen Sie die drei Entlastungsgründe nach SVG Art. 59 und erklären Sie, warum ein 5-jähriges Kind kein «grobes Selbstverschulden» aufweisen kann.</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Drei Entlastungsgründe: (1) Höhere Gewalt, (2) grobes Selbstverschulden des Geschädigten, (3) grobes Verschulden eines Dritten. Ein 5-jähriges Kind besitzt keine oder nur beschränkte Urteilsfähigkeit – es kann subjektiv kein «grobes» Verschulden treffen, weil es die Gefährlichkeit der Situation nicht erkennen und entsprechend handeln kann. Damit entfällt dieser Entlastungsgrund.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="q-group-title svg-s" style="margin-top:16px;">Verstehen</div>
+                <div class="question">3. Ein Mechaniker repariert fehlerhaft die Bremsen eines Kundenfahrzeugs. Das Fahrzeug wird zurückgegeben. Drei Wochen später versagen die Bremsen und es kommt zu einem Unfall. Welche Haftungsgrundlagen kommen für die Werkstatt in Frage?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">(1) <strong>OR Art. 55 (Geschäftsherrenhaftung):</strong> Die Werkstatt haftet für den Fehler des Mechanikers als Angestellten. Entlastung nur wenn sie alle nötige Sorgfalt aufgewandt hat – bei einem Sicherheitsbauteil kaum möglich. (2) <strong>OR Art. 41 (unerlaubte Handlung):</strong> Widerrechtliche Schädigung durch fehlerhafte Reparatur, die als korrekt übergeben wurde. (3) <strong>SVG-Verkehrssicherheitspflicht:</strong> Die Werkstatt hat die Pflicht, die Verkehrssicherheit bei Reparaturen zu gewährleisten – diese Pflicht endet nicht mit der Übergabe des Fahrzeugs.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="question">4. Warum endet die Haftung der Werkstatt für einen Reparaturmangel nicht mit der Fahrzeugrückgabe an den Kunden?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Werkstatt übernimmt mit der Reparatur eine <strong>Gewährleistungspflicht</strong> (OR Art. 368 ff.): Das Werk (die Reparatur) muss fachgerecht und mangelfrei sein. Zusätzlich besteht nach SVG eine Pflicht zur Verkehrssicherheit. Übergibt die Werkstatt ein Fahrzeug mit einem gefährlichen versteckten Mangel, bleibt sie auch nach der Übergabe haftbar – sofern der Mangel kausal für einen späteren Schaden ist und auf die Reparatur zurückzuführen ist.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="q-group-title svg-s" style="margin-top:16px;">Anwenden (Transfer)</div>
+                <div class="question">5. Ein Mitarbeiter macht mit einem Kundenfahrzeug eine Probefahrt. Dabei hält er alle Verkehrsregeln ein, aber ein Fussgänger springt unvermittelt auf die Strasse – der Unfall ist unvermeidbar. Wer haftet?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">Die <strong>Werkstatt haftet</strong> als Halterin des Fahrzeugs während der Probefahrt nach <strong>SVG Art. 58 (Kausalhaftung)</strong>. Ein Verschulden des Fahrers ist nicht erforderlich. Der Entlastungsgrund «grobes Selbstverschulden des Geschädigten» würde nur greifen, wenn das Verhalten des Fussgängers als grob qualifiziert werden kann – ein plötzliches Auftreten ist dafür allein nicht ausreichend. Ergebnis: Werkstatt haftet trotz sorgfältiger Fahrweise für den Personenschaden.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="question">6. Eine Werkstatt baut in ein Motorrad illegale Leistungssteigernde Teile ein und gibt das Fahrzeug dem Kunden zurück, ohne ihn auf die MFK-Pflicht hinzuweisen. Welche Rechtsfolgen drohen?</div>
+                <div class="answer spoiler" onclick="toggleSpoiler(this)">(1) <strong>SVG-Verstoss:</strong> Das Fahrzeug erfüllt die technischen Anforderungen nicht mehr; die Werkstatt hat eine zulassungsrelevante Änderung ohne MFK durchgeführt. (2) <strong>Werkstatthaftung:</strong> Kommt es wegen der Änderung zu einem Unfall, haftet die Werkstatt nach OR Art. 41 und Art. 55. (3) <strong>Strafrechtliche Konsequenzen</strong> möglich (SVG-Widerhandlung, fahrlässige Körperverletzung). (4) <strong>Informationspflicht verletzt:</strong> Der Kunde hätte über die MFK-Pflicht informiert werden müssen. Die Werkstatt kann für den daraus entstehenden Schaden haftbar gemacht werden.</div>
+                <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+            </div>
+        </div>
+
+    </div><!-- /tab-svg -->
+
+    <div class="footer">
+        Zusatz-Lernressource Modul 4 · revDSG und SVG · HFP Werkstattleiter-Meisterkurs · Stand März 2026
+    </div>
+
+</div><!-- /slide -->
+
+<script>
+    function switchTab(tab) {
+        document.getElementById('tab-dsg').classList.remove('active');
+        document.getElementById('tab-svg').classList.remove('active');
+        document.getElementById('tab-' + tab).classList.add('active');
+
+        const btns = document.querySelectorAll('.tab-btn');
+        btns[0].className = 'tab-btn';
+        btns[1].className = 'tab-btn';
+
+        if (tab === 'dsg') {
+            btns[0].classList.add('active-dsg');
+        } else {
+            btns[1].classList.add('active-svg');
+        }
+    }
+
+    function toggleDropdown(id) {
+        document.getElementById(id).classList.toggle('active');
+    }
+
+    function toggleSpoiler(el) {
+        el.classList.add('revealed');
+    }
+</script>
+</body>
+</html>
