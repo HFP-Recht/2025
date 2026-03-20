@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rechtsformen und Schuldbetreibung im Werkstattunternehmen</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Gesellschaftsrecht: Zusammenfassung der prüfungsrelevanten Konzepte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
         :root {
             --primary-color: #1a5276;
-            --secondary-color: #2e86c1;
-            --accent-color: #c0392b;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
             --background-color: #f8f9fa;
             --text-color: #2c3e50;
             --light-gray: #ecf0f1;
@@ -31,7 +33,7 @@
             min-height: 720px;
             margin: 20px auto;
             background-color: white;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             display: flex;
             flex-direction: column;
         }
@@ -44,94 +46,56 @@
         }
 
         .header h1 {
-            margin: 0 0 6px 0;
-            font-size: 32px;
-            font-weight: 700;
-        }
-
-        .header .subtitle {
             margin: 0;
-            font-size: 16px;
-            opacity: 0.85;
+            font-size: 36px;
+            font-weight: 700;
         }
 
         .content {
             flex-grow: 1;
             padding: 30px 40px;
+            overflow-y: auto;
         }
 
         .section {
-            margin-bottom: 28px;
+            margin-bottom: 25px;
             border-left: 4px solid var(--secondary-color);
-            padding-left: 16px;
+            padding-left: 15px;
         }
 
         .section-title {
-            font-size: 22px;
-            font-weight: 700;
+            font-size: 24px;
+            font-weight: 600;
             color: var(--primary-color);
-            margin: 0 0 10px 0;
-        }
-
-        .section-ref {
-            font-size: 13px;
-            color: #7f8c8d;
+            margin-top: 0;
             margin-bottom: 10px;
         }
 
-        .concept-box {
-            background-color: #eaf4fb;
-            border-left: 3px solid var(--secondary-color);
-            border-radius: 4px;
-            padding: 12px 16px;
-            margin-bottom: 12px;
+        .subsection {
+            margin-bottom: 15px;
         }
 
-        .concept-box-title {
-            font-weight: 700;
-            font-size: 14px;
-            color: var(--primary-color);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 4px;
-        }
-
-        .concept-box p {
-            margin: 0;
-            font-size: 17px;
-            line-height: 1.5;
-        }
-
-        .legal-refs {
-            font-size: 14px;
-            color: #5d6d7e;
-            margin: 0 0 10px 0;
-            padding-left: 0;
-            list-style: none;
-        }
-
-        .legal-refs li {
-            display: inline;
-            margin-right: 8px;
-        }
-
-        .legal-refs li::before {
-            content: '§ ';
+        .subsection-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-top: 0;
+            margin-bottom: 8px;
         }
 
         ul {
-            margin: 6px 0;
-            padding-left: 22px;
+            margin: 5px 0;
+            padding-left: 25px;
         }
 
         li {
-            margin-bottom: 4px;
-            font-size: 17px;
+            margin-bottom: 5px;
+            font-size: 18px;
         }
 
         .highlight {
             color: var(--accent-color);
-            font-weight: 700;
+            font-weight: 600;
         }
 
         .two-column {
@@ -143,8 +107,22 @@
             flex: 1;
         }
 
+        .concept-box {
+            background-color: var(--light-gray);
+            border-radius: 4px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+        }
+
+        .concept-box-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+
         .dropdown {
-            margin-top: 12px;
+            margin-top: 10px;
+            margin-bottom: 15px;
             border: 1px solid var(--border-color);
             border-radius: 4px;
             overflow: hidden;
@@ -153,23 +131,16 @@
         .dropdown-header {
             background-color: var(--secondary-color);
             color: white;
-            padding: 9px 16px;
+            padding: 8px 15px;
             cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-weight: 600;
-            font-size: 15px;
-            user-select: none;
-        }
-
-        .dropdown-header:hover {
-            background-color: #2471a3;
         }
 
         .dropdown-content {
-            padding: 16px;
-            background-color: #fafafa;
+            padding: 15px;
+            background-color: #f9f9f9;
             display: none;
         }
 
@@ -181,37 +152,16 @@
             transform: rotate(180deg);
         }
 
-        .material-icons {
-            transition: transform 0.2s ease;
-        }
-
-        .q-group {
-            margin-bottom: 18px;
-        }
-
-        .q-group-title {
-            font-size: 13px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: var(--primary-color);
-            margin-bottom: 8px;
-            border-bottom: 1px solid #dce3e9;
-            padding-bottom: 3px;
-        }
-
         .question {
-            margin-bottom: 4px;
+            margin-bottom: 12px;
             font-weight: 600;
-            font-size: 16px;
         }
 
         .answer {
-            margin-bottom: 14px;
-            padding: 8px 12px;
-            font-size: 16px;
-            border-radius: 4px;
-            line-height: 1.5;
+            margin-bottom: 15px;
+            padding-left: 20px;
+            font-style: italic;
+            transition: all 0.3s ease;
         }
 
         .answer.spoiler {
@@ -219,711 +169,441 @@
             color: transparent;
             cursor: pointer;
             user-select: none;
+            border-radius: 4px;
         }
 
         .answer.spoiler.revealed {
-            background-color: #eaf4fb;
-            color: var(--text-color);
+            background-color: transparent;
+            color: inherit;
             cursor: default;
             user-select: text;
         }
 
-        .answer.spoiler:not(.revealed) * {
+        .answer.spoiler:not(.revealed) a {
             opacity: 0;
             pointer-events: none;
         }
 
-        .spoiler-hint {
-            display: block;
-            font-size: 12px;
-            color: #7f8c8d;
-            margin-top: -10px;
-            margin-bottom: 10px;
-        }
-
-        .key-concepts {
-            background-color: #fdfefe;
-            border: 1px solid #d0d9e0;
-            border-radius: 4px;
-            padding: 14px 18px;
-            margin-bottom: 28px;
-        }
-
-        .key-concepts h3 {
-            margin: 0 0 8px 0;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
             font-size: 16px;
-            color: var(--primary-color);
         }
 
-        .key-concepts ul {
-            margin: 0;
+        th,
+        td {
+            border: 1px solid var(--border-color);
+            padding: 8px 12px;
+            text-align: left;
         }
 
-        .key-concepts li {
-            font-size: 15px;
-            margin-bottom: 5px;
-        }
-
-        .footer {
+        th {
             background-color: var(--primary-color);
-            color: rgba(255,255,255,0.7);
-            text-align: center;
-            padding: 12px;
-            font-size: 13px;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: var(--light-gray);
         }
     </style>
 </head>
+
 <body>
-<div class="slide">
-
-    <div class="header">
-        <h1>Rechtsformen und Schuldbetreibung im Werkstattunternehmen</h1>
-        <p class="subtitle">Modul 4 · Repetitions-Übersicht · Werkstattleiter-Meisterkurs HFP</p>
-    </div>
-
-    <div class="content">
-
-        <!-- Prüfungsrelevante Konzepte -->
-        <div class="key-concepts">
-            <h3>Prüfungsrelevante Konzepte</h3>
-            <ul>
-                <li><strong>Haftung:</strong> Einzelunternehmen (unbeschränkt) · Personengesellschaften (unbeschränkt, solidarisch) · GmbH/AG (beschränkt auf Gesellschaftsvermögen)</li>
-                <li><strong>Handelsregister:</strong> Konstitutive Wirkung (AG/GmbH) vs. deklaratorische Wirkung (Einzelunternehmen) · Publizitätswirkung</li>
-                <li><strong>Prokura</strong> (Art. 458 ff. OR): Umfassende gewerbliche Vollmacht · Eintrag ins Handelsregister</li>
-                <li><strong>SchKG-Einleitungsverfahren:</strong> Betreibungsbegehren → Zahlungsbefehl (20 Tage) → Rechtsvorschlag (10 Tage) → Rechtsöffnung</li>
-                <li><strong>Drei Betreibungsarten:</strong> Pfändung (Privatpersonen) · Pfandverwertung (bei Pfand) · Konkurs (HR-eingetragene Unternehmen)</li>
-                <li><strong>Konkursklassen 1–3:</strong> Lohnforderungen → Sozialversicherungen → übrige Gläubiger</li>
-                <li><strong>Überschuldungsanzeige</strong> bei AG/GmbH (Art. 725b OR) – Pflicht des VR/Geschäftsführers</li>
-                <li><strong>Konkursverlustschein:</strong> Forderung bleibt 20 Jahre lang bestehen (Art. 149a SchKG)</li>
-            </ul>
+    <div class="slide">
+        <div class="header">
+            <h1>Gesellschaftsrecht: Zusammenfassung der prüfungsrelevanten Konzepte</h1>
         </div>
 
-        <!-- A. Rechtsformen im Überblick -->
-        <div class="section">
-            <h2 class="section-title">A. Rechtsformen im Überblick – Körperschaften und Personengesellschaften</h2>
-            <p class="section-ref">OR Art. 530, 552, 594, 620, 772 · Lehrmittel S. 126–130</p>
-
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Das Schweizer Recht kennt zwei Hauptkategorien: <strong>Körperschaften</strong> (AG, GmbH) als juristische Personen mit eigener Rechtspersönlichkeit und beschränkter Haftung sowie <strong>Personengesellschaften</strong> (einfache G., KlG, KmG) ohne eigene Rechtspersönlichkeit mit persönlicher Haftung der Gesellschafter.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>Körperschaften (juristische Personen)</strong>
-                    <ul>
-                        <li>AG, GmbH, Genossenschaft</li>
-                        <li>Eigene Rechtspersönlichkeit</li>
-                        <li>Gesellschafter haften <span class="highlight">beschränkt</span> (nur Gesellschaftsvermögen)</li>
-                        <li>Entstehen durch Handelsregistereintrag</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <strong>Personengesellschaften</strong>
-                    <ul>
-                        <li>Einfache G., KlG, KmG</li>
-                        <li>Keine eigene Rechtspersönlichkeit</li>
-                        <li>Gesellschafter haften <span class="highlight">persönlich, unbeschränkt, solidarisch</span></li>
-                        <li>Entstehen durch Vertrag / Aufnahme der Tätigkeit</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown" id="dropA">
-                <div class="dropdown-header" onclick="toggleDropdown('dropA')">
-                    <span>Kompetenz-Check A – Rechtsformen im Überblick</span>
-                    <i class="material-icons">expand_more</i>
-                </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Was sind die drei Tatbestandsmerkmale einer Gesellschaft gemäss Art. 530 OR?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Gemäss Art. 530 OR: (1) Vertraglicher Zusammenschluss von Personen, (2) gemeinsamer Zweck, (3) gemeinsamer Einsatz von Mitteln (Einlagen oder Arbeit).</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. Nennen Sie den Unterschied zwischen einer Körperschaft und einer Personengesellschaft bezüglich Rechtspersönlichkeit und Haftung.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Körperschaften (AG, GmbH) besitzen eine eigene Rechtspersönlichkeit – sie haften ausschliesslich mit ihrem Gesellschaftsvermögen. Personengesellschaften (einfache G., KlG, KmG) haben keine eigene Rechtspersönlichkeit – die Gesellschafter haften persönlich, unbeschränkt und solidarisch.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Erklären Sie, warum bei einer GmbH das Privatvermögen geschützt ist, bei einer Kollektivgesellschaft hingegen nicht.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die GmbH ist eine juristische Person (Körperschaft). Für Schulden haftet ausschliesslich das Gesellschaftsvermögen. Bei der Kollektivgesellschaft (Personengesellschaft) fehlt die eigene Rechtspersönlichkeit – wenn das Gesellschaftsvermögen nicht reicht, haften die Gesellschafter persönlich, unbeschränkt und solidarisch mit ihrem Privatvermögen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Was bedeutet «solidarische Haftung» und welche Konsequenzen hat sie für die Gesellschafter einer Kollektivgesellschaft?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Solidarische Haftung bedeutet: Jeder Gesellschafter haftet für die gesamte Schuld. Der Gläubiger kann die volle Forderung von jedem beliebigen Gesellschafter verlangen – unabhängig von der internen Aufgabenteilung. Der zahlende Gesellschafter kann sich danach intern bei den anderen regressieren.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Peter und sein Bruder betreiben gemeinsam eine Werkstatt ohne formellen Gesellschaftsvertrag. Welche Rechtsform liegt vor und welche Haftungsfolgen hat das?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Es handelt sich um eine einfache Gesellschaft (Art. 530 OR). Peter und sein Bruder haften persönlich und solidarisch – mit ihrem gesamten Privat- und Geschäftsvermögen. Ein Gläubiger kann die gesamte Schuld von jedem der Beteiligten verlangen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Ein Lieferant fragt, ob er bei einer Forderung gegen die «Müller Landmaschinen GmbH» das Privatvermögen von Herrn Müller pfänden kann. Beurteilen Sie.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Nein. Die GmbH ist eine juristische Person mit eigener Rechtspersönlichkeit. Schulden der GmbH können nur aus dem Gesellschaftsvermögen beglichen werden. Das Privatvermögen von Herrn Müller ist vollständig geschützt, sofern er nicht als Organ grob fahrlässig gehandelt hat.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+        <div class="content">
+            <!-- 1. Rechtsformen – Überblick -->
+            <div class="section">
+                <h2 class="section-title">1. Rechtsformen – Überblick und Wahlkriterien</h2>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Gesellschaftsbegriff (Art. 530 Abs. 1 OR)</div>
+                        <p>«Gesellschaft ist die vertragsmässige Verbindung von zwei oder mehreren Personen zur
+                            Erreichung eines gemeinsamen Zweckes mit gemeinsamen Kräften oder Mitteln.»</p>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <!-- B. Handelsregister -->
-        <div class="section">
-            <h2 class="section-title">B. Handelsregister und Firma – Transparenz im Geschäftsverkehr</h2>
-            <p class="section-ref">OR Art. 927 ff., 931, 936b, 643, 779, 944 · Lehrmittel S. 130–133</p>
+                <div class="two-column">
+                    <div class="column">
+                        <div class="subsection">
+                            <h3 class="subsection-title">Körperschaften (jur. Personen)</h3>
+                            <ul>
+                                <li><span class="highlight">AG</span> – Aktiengesellschaft</li>
+                                <li><span class="highlight">GmbH</span> – Ges. mit beschränkter Haftung</li>
+                                <li>Genossenschaft</li>
+                                <li>Verein</li>
+                            </ul>
+                            <p>→ Eigene Rechtspersönlichkeit, Haftung mit <strong>Gesellschaftsvermögen</strong></p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="subsection">
+                            <h3 class="subsection-title">Personengesellschaften</h3>
+                            <ul>
+                                <li>Einfache Gesellschaft</li>
+                                <li><span class="highlight">Kollektivgesellschaft (KIG)</span></li>
+                                <li><span class="highlight">Kommanditgesellschaft (KmG)</span></li>
+                            </ul>
+                            <p>→ Keine eigene Rechtspersönlichkeit, Gesellschafter haften <strong>persönlich</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Das Handelsregister ist eine öffentliche Datenbank über Unternehmen. Die Eintragung kann <strong>konstitutiv</strong> (AG, GmbH entstehen erst damit) oder <strong>deklaratorisch</strong> (Einzelunternehmen: bestehende Gesellschaft wird publik gemacht) sein. Eingetragene Unternehmen unterliegen der Betreibung auf Konkurs.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>Wirkungen der Eintragung</strong>
+                <div class="subsection">
+                    <h3 class="subsection-title">Wahlkriterien</h3>
                     <ul>
-                        <li><span class="highlight">Konstitutiv:</span> AG/GmbH entstehen erst durch Eintrag</li>
-                        <li><span class="highlight">Deklaratorisch:</span> Einzelunternehmen – bereits vorher existent</li>
-                        <li><span class="highlight">Positive Publizität:</span> Eingetragenes gilt als bekannt</li>
-                        <li><span class="highlight">Negative Publizität:</span> Nicht Eingetragenes gilt als unbekannt</li>
+                        <li><strong>Haftung:</strong> Persönlich (Einzelunternehmen, KIG) vs. beschränkt (AG, GmbH)</li>
+                        <li><strong>Kapitalbedarf:</strong> Kein Minimum (Einzelunternehmen) vs. CHF 20'000 (GmbH) vs.
+                            CHF 100'000 (AG)</li>
+                        <li><strong>Steuern:</strong> Einfache Besteuerung (Einzelunternehmen) vs. Doppelbesteuerung
+                            (AG, GmbH)</li>
+                        <li><strong>Geschäftsführung, Anonymität, Nachfolge</strong></li>
                     </ul>
                 </div>
-                <div class="column">
-                    <strong>Eintragungspflicht Einzelunternehmen</strong>
+
+                <div class="dropdown" id="dropdown1">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die drei wesentlichen Merkmale einer Gesellschaft gemäss
+                            Art. 530 Abs. 1 OR.</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">1. Personenvereinigung, 2.
+                            Vertragliche Grundlage, 3. Gemeinsame Zweckverfolgung mit gemeinsamen Kräften oder Mitteln.
+                        </div>
+
+                        <div class="question">2. Was ist der Unterschied zwischen einer Körperschaft und einer
+                            Personengesellschaft?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Körperschaften haben eine eigene
+                            Rechtspersönlichkeit (juristische Person) und haften mit dem Gesellschaftsvermögen.
+                            Personengesellschaften haben keine eigene Rechtspersönlichkeit – die Gesellschafter haften
+                            persönlich, unbeschränkt und solidarisch.</div>
+
+                        <div class="question">5. Welche Rechtsformen kommen für zwei Werkstattleiter infrage?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">In Betracht kommen:
+                            Kollektivgesellschaft (KIG), Kommanditgesellschaft (KmG), GmbH oder AG. Kriterien: Haftung
+                            (persönlich vs. beschränkt), Kapitalbedarf, Geschäftsführung, Steuern und Nachfolgeregelung.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Handelsregister und Firmenrecht -->
+            <div class="section">
+                <h2 class="section-title">2. Handelsregister und Firmenrecht</h2>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Zweck des Handelsregisters</div>
+                        <p>Öffentliche Datenbank zur <strong>Transparenz und Rechtssicherheit</strong> im
+                            Geschäftsverkehr (Art. 927 ff. OR). Eintragungspflicht ab CHF 100'000 Jahresumsatz
+                            (Einzelunternehmen).</p>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Wirkungen der Eintragung</h3>
+                    <table>
+                        <tr>
+                            <th>Wirkung</th>
+                            <th>Bedeutung</th>
+                            <th>Beispiel</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Konstitutiv</strong></td>
+                            <td>Gesellschaft entsteht erst mit Eintrag</td>
+                            <td>AG, GmbH, Genossenschaft</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Deklaratorisch</strong></td>
+                            <td>Rechtsverhältnis besteht auch ohne Eintrag</td>
+                            <td>Einzelunternehmen, KIG</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Positive Publizität</strong></td>
+                            <td>Eingetragenes gilt als bekannt</td>
+                            <td>Dritter kann sich auf HR verlassen</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Negative Publizität</strong></td>
+                            <td>Nicht Eingetragenes kann Gutgläubigen nicht entgegengehalten werden</td>
+                            <td>Vergessene Löschung eines Prokuristen</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Firmenrecht – drei Grundsätze</h3>
                     <ul>
-                        <li>Ab CHF 100'000.– Jahresumsatz (Art. 931 Abs. 1 OR)</li>
-                        <li>Folge: Betreibung auf Konkurs (statt Pfändung)</li>
+                        <li><span class="highlight">Firmenwahrheit:</span> Name darf nicht täuschen</li>
+                        <li><span class="highlight">Firmenbildung:</span> Einzelunternehmen = Familienname; AG/GmbH =
+                            frei + Rechtsform</li>
+                        <li><span class="highlight">Firmenausschliesslichkeit:</span> Einzelunternehmen = am Ort;
+                            AG/GmbH = ganze Schweiz</li>
+                    </ul>
+                </div>
+
+                <div class="dropdown" id="dropdown2">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">3. Erklären Sie den Unterschied zwischen konstitutiver und
+                            deklaratorischer Wirkung.</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Konstitutiv: Die Gesellschaft entsteht
+                            erst mit dem Handelsregistereintrag (z.B. AG, GmbH). Deklaratorisch: Das Rechtsverhältnis
+                            besteht bereits ohne Eintrag; der Eintrag macht es nur öffentlich bekannt (z.B.
+                            Einzelunternehmen).</div>
+
+                        <div class="question">5. Ein Prokurist wird entlassen, aber der HR-Eintrag bleibt. Ist ein von
+                            ihm geschlossener Vertrag bindend?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ja. Wegen der negativen
+                            Publizitätswirkung (Art. 933 Abs. 2 OR) kann die nicht gelöschte Eintragung einem
+                            gutgläubigen Dritten nicht entgegengehalten werden. Der Vertrag ist für die Werkstatt
+                            bindend.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Einzelunternehmen und Personengesellschaften -->
+            <div class="section">
+                <h2 class="section-title">3. Einzelunternehmen und Personengesellschaften</h2>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Einzelunternehmen</h3>
+                    <ul>
+                        <li>Keine Gründungsformalitäten, kein Mindestkapital</li>
+                        <li>Haftung: <span class="highlight">Unbeschränkt</span> mit Geschäfts- und Privatvermögen</li>
                         <li>Firma muss Familiennamen enthalten (Art. 945 OR)</li>
+                        <li>Keine eigene Rechtspersönlichkeit, keine Doppelbesteuerung</li>
                     </ul>
+                </div>
+
+                <div class="two-column">
+                    <div class="column">
+                        <div class="subsection">
+                            <h3 class="subsection-title">Kollektivgesellschaft (KIG)</h3>
+                            <ul>
+                                <li>Nur natürliche Personen</li>
+                                <li>Kaufmännisches Gewerbe</li>
+                                <li>Haftung: Primär Gesellschaftsvermögen, subsidiär <span
+                                        class="highlight">unbeschränkt und solidarisch</span> (Art. 568 OR)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="subsection">
+                            <h3 class="subsection-title">Kommanditgesellschaft (KmG)</h3>
+                            <ul>
+                                <li><strong>Komplementär:</strong> unbeschränkte Haftung</li>
+                                <li><strong>Kommanditär:</strong> Haftung nur bis zur <span
+                                        class="highlight">Kommanditsumme</span> (Art. 604 OR)</li>
+                                <li>Geschäftsführung nur durch Komplementäre</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown3">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown3')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">3. Was bedeutet 'subsidiäre, unbeschränkte und solidarische Haftung'?
+                        </div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Subsidiär: Erst wenn das
+                            Gesellschaftsvermögen nicht reicht. Unbeschränkt: Mit dem gesamten Privatvermögen.
+                            Solidarisch: Jeder Gesellschafter haftet für die gesamte Schuld; der Gläubiger kann sich den
+                            zahlungsfähigen Gesellschafter aussuchen.</div>
+
+                        <div class="question">5. Kann der Lieferant von Meier (KIG) die vollen CHF 50'000 verlangen?
+                        </div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ja. Wegen der subsidiären,
+                            unbeschränkten und solidarischen Haftung kann der Lieferant die gesamte Forderung von dem
+                            zahlungsfähigen Gesellschafter Meier verlangen. Meier müsste dann intern den Anteil von
+                            Müller einfordern (Regress).</div>
+                    </div>
                 </div>
             </div>
 
-            <div class="dropdown" id="dropB">
-                <div class="dropdown-header" onclick="toggleDropdown('dropB')">
-                    <span>Kompetenz-Check B – Handelsregister und Firma</span>
-                    <i class="material-icons">expand_more</i>
+            <!-- 4. AG und GmbH -->
+            <div class="section">
+                <h2 class="section-title">4. Aktiengesellschaft (AG) und GmbH</h2>
+
+                <div class="subsection">
+                    <table>
+                        <tr>
+                            <th>Merkmal</th>
+                            <th>AG (Art. 620 ff. OR)</th>
+                            <th>GmbH (Art. 772 ff. OR)</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Mindestkapital</strong></td>
+                            <td>CHF 100'000 (min. 20% / CHF 50'000 einbezahlt)</td>
+                            <td>CHF 20'000 (voll liberiert)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Haftung</strong></td>
+                            <td>Nur Gesellschaftsvermögen</td>
+                            <td>Nur Gesellschaftsvermögen</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Organe</strong></td>
+                            <td>GV, Verwaltungsrat, Revisionsstelle</td>
+                            <td>Gesellschafterversammlung, Geschäftsführung, Revisionsstelle</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Anonymität</strong></td>
+                            <td>Aktionäre anonym</td>
+                            <td>Gesellschafter namentlich im HR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Steuern</strong></td>
+                            <td>Doppelbesteuerung</td>
+                            <td>Doppelbesteuerung</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nachfolge</strong></td>
+                            <td>Einfach (Aktienübertragung)</td>
+                            <td>Erschwert (Zustimmung nötig)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Treuepflicht</strong></td>
+                            <td>Nein</td>
+                            <td>Ja (Art. 803 OR)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>HR-Eintrag</strong></td>
+                            <td>Konstitutiv</td>
+                            <td>Konstitutiv</td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Ab welchem Jahresumsatz ist ein Einzelunternehmer zur Eintragung ins Handelsregister verpflichtet?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ab einem Jahresumsatz von CHF 100'000.– (Art. 931 Abs. 1 OR) besteht für Einzelunternehmer die Pflicht zur Eintragung ins Handelsregister.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. Was bedeutet «konstitutive Wirkung» einer Handelsregistereintragung? Nennen Sie zwei Gesellschaftsformen, bei denen dies gilt.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Konstitutive Wirkung bedeutet: Die Gesellschaft entsteht erst durch den Handelsregistereintrag. Ohne Eintragung existiert sie rechtlich nicht. Dies gilt für die AG (Art. 643 OR) und die GmbH (Art. 779 OR).</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+
+                <div class="subsection">
+                    <h3 class="subsection-title">Kapitalverlust und Überschuldung (AG)</h3>
+                    <ul>
+                        <li><span class="highlight">Kapitalverlust (Art. 725a OR):</span> Hälfte des AK + gesperrte
+                            Reserven nicht mehr gedeckt → VR muss Sanierungsmassnahmen ergreifen</li>
+                        <li><span class="highlight">Überschuldung (Art. 725b OR):</span> Fremdkapital > Aktiven → VR
+                            muss Gericht benachrichtigen (Konkurs)</li>
+                    </ul>
+                </div>
+
+                <div class="dropdown" id="dropdown4">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown4')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
                     </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Erklären Sie den Unterschied zwischen konstitutiver und deklaratorischer Wirkung anhand eines Beispiels.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Konstitutiv (GmbH): Die GmbH «Müller Technik GmbH» existiert erst ab dem Tag des Handelsregistereintrags. Vorher gibt es keine GmbH. Deklaratorisch (Einzelunternehmen): Hans Müller beginnt seine Werkstatt zu betreiben – die Firma existiert sofort. Der Handelsregistereintrag macht sie öffentlich bekannt, ändert aber nichts an ihrer Existenz.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Was versteht man unter der «negativen Publizitätswirkung» des Handelsregisters und warum ist sie für Werkstätten relevant?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Negative Publizitätswirkung: Wenn eine Änderung (z.B. Löschung einer Prokura) nicht ins Handelsregister eingetragen wurde, kann sich ein gutgläubiger Dritter auf den alten Eintrag berufen. Die Werkstatt trägt das Risiko: Wer einen entlassenen Prokuristen nicht löschen lässt, haftet für dessen Handlungen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+                    <div class="dropdown-content">
+                        <div class="question">1. Wie hoch ist das Mindestkapital bei der AG und bei der GmbH?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">AG: CHF 100'000 (davon mindestens 20%
+                            und mindestens CHF 50'000 bei Gründung einbezahlt). GmbH: CHF 20'000 (muss vollständig
+                            liberiert werden).</div>
+
+                        <div class="question">3. Weshalb wird die GmbH als 'kleine Schwester der AG' bezeichnet?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Weil die GmbH wie die AG eine
+                            Kapitalgesellschaft mit beschränkter Haftung ist, aber ein tieferes Mindestkapital erfordert
+                            und stärker personenbezogen ist (Treuepflicht, namentliche Eintragung). Sie ist daher
+                            besonders für KMU geeignet.</div>
+
+                        <div class="question">5. Welche Rechtsform für drei Mechaniker mit CHF 60'000?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die GmbH ist empfehlenswert. Das
+                            Mindestkapital von CHF 20'000 ist gedeckt (Stammkapital CHF 60'000), die persönliche Haftung
+                            ist beschränkt, und die Gründungskosten sind tiefer als bei der AG (Mindestkapital CHF
+                            100'000 wäre nicht gedeckt).</div>
                     </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Rolf Huber vergisst, die Prokura seines entlassenen Mitarbeiters zu löschen. Dieser bestellt danach eine Maschine im Namen der Firma. Ist die Werkstatt gebunden?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ja. Die Prokura steht weiterhin im Handelsregister. Gemäss negativer Publizitätswirkung darf der gutgläubige Lieferant auf den Eintrag vertrauen. Die Werkstatt ist an den Vertrag gebunden und muss sich beim ehemaligen Mitarbeiter intern regressieren.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Eine Werkstatt-GmbH erzielt CHF 80'000.– Jahresumsatz. Muss sie sich ins Handelsregister eintragen?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ja, zwingend. Der Eintrag der GmbH hat konstitutive Wirkung (Art. 779 OR): Ohne Eintragung existiert die GmbH als Rechtsform überhaupt nicht. Der Jahresumsatz ist für die GmbH irrelevant – die Umsatzgrenze von CHF 100'000.– gilt nur für Einzelunternehmen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
+                </div>
+            </div>
+
+            <!-- 5. Handlungsvollmachten -->
+            <div class="section">
+                <h2 class="section-title">5. Handlungsvollmachten – Prokura und Handlungsvollmacht</h2>
+
+                <div class="subsection">
+                    <table>
+                        <tr>
+                            <th>Merkmal</th>
+                            <th>Prokura (Art. 458 ff. OR)</th>
+                            <th>Handlungsvollmacht (Art. 462 OR)</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Umfang</strong></td>
+                            <td>Alle Rechtshandlungen, die der Zweck <strong>mit sich bringen kann</strong></td>
+                            <td>Alle Rechtshandlungen, die der Zweck <strong>gewöhnlich mit sich bringt</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>HR-Eintrag</strong></td>
+                            <td>Ja</td>
+                            <td>Nein</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Unterschrift</strong></td>
+                            <td>ppa. / per procura</td>
+                            <td>i.V. / i.A.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Interne Beschränkungen</strong></td>
+                            <td>Gegenüber Gutgläubigen <span class="highlight">unwirksam</span></td>
+                            <td>Gegenüber Gutgläubigen unwirksam</td>
+                        </tr>
+                        <tr>
+                            <td><strong>HR-eintragbare Beschränkungen</strong></td>
+                            <td>Kollektivprokura, Filialprokura</td>
+                            <td>Keine (kein HR-Eintrag)</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="dropdown" id="dropdown5">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown5')">
+                        <span>Kompetenz-Check</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Was ist der Unterschied zwischen Prokura und Handlungsvollmacht?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Prokura ermächtigt zu allen
+                            Rechtshandlungen, die der Unternehmenszweck mit sich bringen kann (auch aussergewöhnliche).
+                            Die Handlungsvollmacht beschränkt sich auf gewöhnliche (alltägliche) Geschäfte. Die Prokura
+                            wird im Handelsregister eingetragen, die Handlungsvollmacht nicht.</div>
+
+                        <div class="question">3. Warum sind interne Beschränkungen der Prokura gegenüber Gutgläubigen
+                            unwirksam?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Weil das Gesetz nur die
+                            Kollektivprokura und die Filialprokura als eintragbare Beschränkungen zulässt. Betragliche
+                            oder sachliche Beschränkungen können nicht im HR eingetragen werden. Der gutgläubige Dritte
+                            darf sich auf den HR-Eintrag verlassen (Publizitätswirkung).</div>
+
+                        <div class="question">6. Prokura intern auf CHF 50'000 beschränkt – Vertrag über CHF 70'000
+                            bindend?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ja, der Vertrag ist bindend. Die
+                            interne Betragslimite kann dem gutgläubigen Lieferanten nicht entgegengehalten werden, da
+                            sie nicht im Handelsregister eintragbar ist. Das Unternehmen hat nur einen internen
+                            Schadenersatzanspruch gegen den Prokuristen.</div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- C. Einzelunternehmen -->
-        <div class="section">
-            <h2 class="section-title">C. Einzelunternehmen – Die häufigste Rechtsform für Werkstätten</h2>
-            <p class="section-ref">OR Art. 945, 931 · Lehrmittel S. 133–134</p>
-
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Das Einzelunternehmen entsteht <strong>formlos</strong> mit der Aufnahme der Geschäftstätigkeit, erfordert kein Mindestkapital und wird in eigenem Namen geführt. Der Inhaber haftet jedoch <span class="highlight">unbeschränkt</span> mit dem gesamten Geschäfts- und Privatvermögen.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>Vorteile</strong>
-                    <ul>
-                        <li>Kein Mindestkapital, keine Formalitäten</li>
-                        <li>Volle Entscheidungsfreiheit</li>
-                        <li>Einfache Buchführung (unter CHF 100k)</li>
-                        <li>Steuerlich günstiger (nur einmal besteuert)</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <strong>Nachteile</strong>
-                    <ul>
-                        <li><span class="highlight">Unbeschränkte Haftung</span> mit Privat- und Geschäftsvermögen</li>
-                        <li>Nur eine Person kann Inhaber sein</li>
-                        <li>Schwierige Nachfolgeregelung</li>
-                        <li>Kein Kapital von aussen aufnehmbar</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown" id="dropC">
-                <div class="dropdown-header" onclick="toggleDropdown('dropC')">
-                    <span>Kompetenz-Check C – Einzelunternehmen</span>
-                    <i class="material-icons">expand_more</i>
-                </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Wie entsteht ein Einzelunternehmen und welches Mindestkapital ist erforderlich?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Das Einzelunternehmen entsteht formlos mit der Aufnahme der Geschäftstätigkeit. Es ist kein Mindestkapital erforderlich. Ab CHF 100'000.– Jahresumsatz entsteht die Pflicht zur Handelsregistereintragung (Art. 931 Abs. 1 OR).</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. Welche Vorschriften gelten für die Firma (den Namen) eines Einzelunternehmens?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Firma muss den Familiennamen des Inhabers enthalten (Art. 945 OR). Fantasiebezeichnungen sind als Zusatz erlaubt, aber der Familienname ist obligatorisch. Beispiel: «Müller Landmaschinentechnik» ist korrekt; «Alpine Werkstatt» ohne Familienname nicht.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Erklären Sie, warum die unbeschränkte Haftung beim Einzelunternehmen für einen Werkstattleiter besonders riskant ist.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ein Haftungsfall – z.B. ein schwerer Unfall durch eine mangelhafte Reparatur – kann zur Pfändung von Eigenheim, Ersparnissen und Altersguthaben führen. Es gibt keine Trennung zwischen Betriebs- und Privatvermögen. Ein einzelner Schadensfall kann den Werkstattleiter in den Privatkonkurs treiben.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Warum ist die Nachfolgeregelung beim Einzelunternehmen schwieriger als bei GmbH oder AG?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Das Einzelunternehmen ist an die Person des Inhabers gebunden und nicht übertragbar. Bei Tod oder Rücktritt muss es aufgelöst werden. Bei GmbH und AG können Anteile (Stammanteile, Aktien) übertragen werden, ohne dass der Betrieb aufgehört werden muss – die juristische Person besteht weiter.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Sandra Bieri möchte eine kleine Werkstatt gründen. Sie hat CHF 30'000.– Ersparnisse und möchte alleine arbeiten. Welche Rechtsform empfehlen Sie?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Empfehlung: GmbH. Obwohl das Einzelunternehmen einfacher ist (formlos, kein Mindestkapital), ist die GmbH angesichts der Haftungsrisiken im Werkstattbetrieb sinnvoller. Mit CHF 20'000.– Stammkapital schützt die GmbH die restlichen CHF 10'000.– Privatvermögen – und vor allem künftiges Privatvermögen (Eigenheim etc.).</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Karl Frei betreibt ein Einzelunternehmen seit 10 Jahren und möchte mit einem Partner expandieren. Was müssen die beiden beachten?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ein Einzelunternehmen kann nur von einer Person geführt werden. Bei Aufnahme eines Partners muss die Rechtsform gewechselt werden: Kollektivgesellschaft (KlG – formlos, aber wieder unbeschränkte Haftung), GmbH (CHF 20'000.– Kapital, beschränkte Haftung) oder AG (CHF 100'000.– Kapital). Für eine Werkstatt ist die GmbH meist die sinnvollste Lösung.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- D. AG -->
-        <div class="section">
-            <h2 class="section-title">D. Aktiengesellschaft (AG) – Gründung, Organe und beschränkte Haftung</h2>
-            <p class="section-ref">OR Art. 620, 621, 698 ff., 707 ff., 716a, 725a/b, 643 · Lehrmittel S. 140–148</p>
-
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Die AG ist eine Kapitalgesellschaft mit drei Organen (Generalversammlung, Verwaltungsrat, Revisionsstelle). Mindestkapital: <strong>CHF 100'000.–</strong>. Für Schulden haftet <span class="highlight">ausschliesslich das Gesellschaftsvermögen</span> – das Privatvermögen der Aktionäre ist vollständig geschützt.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>Drei Organe der AG</strong>
-                    <ul>
-                        <li><strong>Generalversammlung (GV):</strong> Oberstes Organ, wählt VR, entscheidet über Strategie</li>
-                        <li><strong>Verwaltungsrat (VR):</strong> Oberleitungsorgan, unübertragbare Aufgaben (Art. 716a OR)</li>
-                        <li><strong>Revisionsstelle:</strong> Prüft Buchhaltung, erstattet Bericht an GV</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <strong>Kapital und Haftung</strong>
-                    <ul>
-                        <li>Mindestkapital: CHF 100'000.– (Art. 621 OR)</li>
-                        <li>Mind. 50% bei Gründung einbezahlen</li>
-                        <li>Aktionäre anonym (keine HR-Eintragung der Aktionäre)</li>
-                        <li>Doppelbesteuerung (Gewinnsteuer + Dividendensteuer)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown" id="dropD">
-                <div class="dropdown-header" onclick="toggleDropdown('dropD')">
-                    <span>Kompetenz-Check D – Aktiengesellschaft (AG)</span>
-                    <i class="material-icons">expand_more</i>
-                </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Wie hoch ist das Mindestkapital einer AG und wie viel muss bei der Gründung mindestens einbezahlt werden?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Mindestkapital der AG: CHF 100'000.– (Art. 621 OR). Bei der Gründung müssen mindestens CHF 50'000.– oder 50% des Aktienkapitals einbezahlt sein – je nachdem, welcher Betrag höher ist.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. Nennen Sie die drei Organe der AG und deren Hauptaufgabe.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">(1) Generalversammlung: Oberstes Organ, wählt VR und Revisionsstelle, beschliesst Statutenänderungen. (2) Verwaltungsrat: Oberleitung und Aufsicht der Gesellschaft, unübertragbare Aufgaben nach Art. 716a OR. (3) Revisionsstelle: Prüft Buchhaltung und Jahresrechnung, erstattet Bericht an GV.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Erklären Sie, was «Doppelbesteuerung» bei der AG bedeutet und warum dies ein Nachteil sein kann.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Bei der AG wird der Gewinn zunächst auf Stufe der Gesellschaft mit Gewinnsteuer besteuert. Wenn die AG danach Dividenden ausschüttet, werden diese als Einkommen der Aktionäre nochmals besteuert – «Doppelbesteuerung». Beim Einzelunternehmen fliesst der Gewinn direkt ans Privatvermögen und wird nur einmal besteuert.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Was muss der Verwaltungsrat tun, wenn die AG überschuldet ist, und warum schützt diese Pflicht die Gläubiger?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Bei Überschuldung muss der VR unverzüglich den Richter benachrichtigen (Art. 725b OR). Das Gericht eröffnet den Konkurs. Handelt der VR nicht rechtzeitig, macht er sich persönlich schadenersatzpflichtig. Diese Pflicht schützt Gläubiger, weil sie verhindert, dass ein überschuldetes Unternehmen noch weitere Verbindlichkeiten eingeht.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Die «Huber Baumaschinentechnik AG» hat finanzielle Schwierigkeiten. Kann ein Lieferant das Privatvermögen von Verwaltungsrat Huber pfänden?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Grundsätzlich nein. Die AG haftet beschränkt – ausschliesslich mit dem Gesellschaftsvermögen. Das Privatvermögen von VR Huber ist geschützt, solange er seine Pflichten ordnungsgemäss erfüllt hat. Nur bei schuldhafter Pflichtverletzung (z.B. Unterlassen der Überschuldungsanzeige) haftet er persönlich via Verantwortlichkeitsklage.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Eine Werkstatt-AG hat 8 Vollzeitstellen. Muss sie eine Revisionsstelle einsetzen? Was ist die Alternative?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Nein, eine ordentliche Revision ist nicht zwingend. Kleinere AGs können ein «Opting-out» (Verzicht auf Revision) beschliessen, wenn alle Aktionäre zustimmen. Alternativ ist eine eingeschränkte Revision durch einen zugelassenen Revisionsexperten möglich, was günstiger ist als die Vollrevision.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- E. GmbH -->
-        <div class="section">
-            <h2 class="section-title">E. Gesellschaft mit beschränkter Haftung (GmbH) – Die ideale KMU-Rechtsform</h2>
-            <p class="section-ref">OR Art. 772, 773, 779, 794, 814, 820 · Lehrmittel S. 147–153</p>
-
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Die GmbH kombiniert <strong>beschränkte Haftung</strong> (nur Gesellschaftsvermögen) mit aktiver Mitwirkung der Gesellschafter. Stammkapital mind. <strong>CHF 20'000.–</strong> (vollständig einzubezahlen). Im Unterschied zur AG werden <span class="highlight">alle Gesellschafter im Handelsregister eingetragen</span> – keine Anonymität.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>GmbH vs. AG – Hauptunterschiede</strong>
-                    <ul>
-                        <li>Stammkapital CHF 20'000.– (AG: CHF 100'000.–)</li>
-                        <li>Muss vollständig einbezahlt sein</li>
-                        <li>Gesellschafter im HR eingetragen (AG: anonym)</li>
-                        <li>Personenbezogen: Gesellschafter arbeiten aktiv mit</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <strong>Organe der GmbH</strong>
-                    <ul>
-                        <li><strong>Gesellschafterversammlung:</strong> Oberstes Organ</li>
-                        <li><strong>Geschäftsführung:</strong> Vertretung und Leitung (Art. 794, 814 OR)</li>
-                        <li>Jeder Geschäftsführer grundsätzlich einzelvertretungsberechtigt (einschränkbar)</li>
-                        <li>Überschuldungsanzeige Pflicht (Art. 820 OR)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown" id="dropE">
-                <div class="dropdown-header" onclick="toggleDropdown('dropE')">
-                    <span>Kompetenz-Check E – GmbH</span>
-                    <i class="material-icons">expand_more</i>
-                </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Wie hoch ist das Mindestkapital einer GmbH und muss es vollständig einbezahlt werden?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Das Mindestkapital der GmbH beträgt CHF 20'000.– (Art. 773 OR) und muss vollständig einbezahlt (liberiert) sein. Im Unterschied zur AG gibt es keine teilweise Liberierung.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. Worin unterscheidet sich die GmbH von der AG bezüglich der Anonymität der Gesellschafter?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Bei der GmbH werden alle Gesellschafter und ihre Stammanteile im Handelsregister eingetragen – es gibt keine Anonymität. Bei der AG werden nur Verwaltungsräte eingetragen; Aktionäre können anonym bleiben (Inhaberaktien wurden zwar beschränkt, aber das Prinzip gilt weiter).</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Erklären Sie, weshalb die GmbH als «personenbezogene Kapitalgesellschaft» bezeichnet wird.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Wie eine AG hat die GmbH eine eigene Rechtspersönlichkeit und beschränkte Haftung (Kapitalgesellschaft-Elemente). Wie eine Personengesellschaft sind die Gesellschafter persönlich bekannt und eingetragen, häufig aktiv im Betrieb tätig und können Stammanteile nicht beliebig übertragen (personenbezogene Elemente). Die GmbH ist eine Hybridform.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Welche Vorteile hat eine GmbH für einen Werkstattleiter im Vergleich zum Einzelunternehmen – und was ist der Preis dafür?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Vorteile: beschränkte Haftung (Privatvermögen geschützt), geringeres Kapital als AG (CHF 20'000.–), aktive Mitarbeit der Gesellschafter möglich, ideal für KMU. Preis: Mehr Formalitäten (Handelsregistereintrag, Statuten, Buchhaltung), Gesellschafter sind öffentlich eingetragen (kein Datenschutz), Gründungsaufwand.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Bär und Maspoli sind GmbH-Geschäftsführer mit «Kollektivunterschrift zu zweien». David Zehnder ist reiner Gesellschafter. Wer kann die GmbH beim Mietvertragsabschluss vertreten?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Nur Julia Bär und Marco Maspoli gemeinsam können die GmbH rechtsgültig vertreten. Die «Kollektivunterschrift zu zweien» ist eine Beschränkung der Vertretungsmacht im Handelsregister. David Zehnder hat keine Zeichnungsberechtigung – eine Unterschrift seinerseits hat keine rechtliche Wirkung für die GmbH.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Die «Werkstatt Meier GmbH» ist überschuldet. Was sind die rechtlichen Pflichten der Geschäftsführer?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Geschäftsführer müssen unverzüglich den Richter benachrichtigen (Art. 820 OR i.V.m. Art. 725b OR). Das Gericht eröffnet den Konkurs. Unterliessen sie die Anzeige, machen sie sich persönlich schadenersatzpflichtig gegenüber den Gläubigern. Es gibt keine Schonfrist.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- F. Handlungsvollmachten -->
-        <div class="section">
-            <h2 class="section-title">F. Handlungsvollmachten – Prokura und Handlungsvollmacht im Werkstattalltag</h2>
-            <p class="section-ref">OR Art. 458 ff. (Prokura), Art. 462 ff. (Handlungsvollmacht) · Lehrmittel S. 154–155</p>
-
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Die <strong>Prokura</strong> (Art. 458 ff. OR) ist die umfassendste Vollmacht für ein Gewerbe und berechtigt zu <em>allen</em> Rechtshandlungen im Geschäftsbetrieb. Die <strong>Handlungsvollmacht</strong> (Art. 462 ff. OR) gilt nur für bestimmte Geschäfte. Interne Beschränkungen der Prokura sind gegenüber gutgläubigen Dritten <span class="highlight">nicht wirksam</span>.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>Prokura (Art. 458 ff. OR)</strong>
-                    <ul>
-                        <li>Umfassendste Vollmacht für alle gewerblichen Handlungen</li>
-                        <li>Ausnahme: Kauf/Belastung von Grundstücken</li>
-                        <li>Wird ins Handelsregister eingetragen</li>
-                        <li>Interne Beschränkungen gegenüber Dritten unwirksam</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <strong>Handlungsvollmacht (Art. 462 ff. OR)</strong>
-                    <ul>
-                        <li>Enger gefasst: nur bestimmte Geschäfte</li>
-                        <li>Kein HR-Eintrag nötig</li>
-                        <li>Flexibel – aber weniger umfassend</li>
-                        <li>Beispiel: Verkäufer darf Kaufverträge abschliessen</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown" id="dropF">
-                <div class="dropdown-header" onclick="toggleDropdown('dropF')">
-                    <span>Kompetenz-Check F – Handlungsvollmachten</span>
-                    <i class="material-icons">expand_more</i>
-                </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Was ist eine Prokura und welche Handlungen berechtigt sie?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Prokura (Art. 458 ff. OR) ist die umfassendste handelsbezogene Vollmacht. Sie berechtigt zu allen Rechtshandlungen, die der Geschäftsbetrieb mit sich bringen kann – ausgenommen der Kauf und die Belastung von Grundstücken. Sie wird ins Handelsregister eingetragen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. Worin unterscheidet sich die Handlungsvollmacht von der Prokura?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Handlungsvollmacht (Art. 462 ff. OR) ist enger gefasst: Sie gilt nur für bestimmte Geschäfte oder eine bestimmte Art von Geschäften (z.B. Ersatzteileinkauf). Sie wird nicht ins Handelsregister eingetragen und muss im Einzelfall nachgewiesen werden. Die Prokura gilt dagegen umfassend für alle gewerblichen Handlungen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Welche Risiken entstehen, wenn ein Werkstattleiter einem Mitarbeiter eine Prokura erteilt, ohne sie einzutragen?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ohne HR-Eintrag kennen Dritte den Umfang der Vollmacht nicht. Dennoch kann der Mitarbeiter im Namen der Werkstatt verbindliche Geschäfte abschliessen. Zudem greift die negative Publizitätswirkung nicht schützend: Wenn die Prokura nie eingetragen war, kann sich die Werkstatt bei einer Löschung nicht auf den Eintrag berufen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Welchen Vorteil hat die Prokura gegenüber der allgemeinen Stellvertretung für Dritte?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Bei einer im Handelsregister eingetragenen Prokura können Dritte sofort und rechtssicher erkennen, dass der Prokurist umfassend vertretungsberechtigt ist. Eine einfache Stellvertretung muss im Einzelfall nachgewiesen werden, was unsicher und aufwendig ist. Die Prokura schafft Rechtssicherheit und Vertrauen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Stellvertreter Thomas bestellt eigenmächtig Ersatzteile für CHF 15'000.– ohne spezielle Vollmacht. Ist die Werkstatt gebunden?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Wahrscheinlich ja. Als Werkstattmitarbeiter hat Thomas eine konkludente Handlungsvollmacht für betriebsübliche Geschäfte. Ersatzteilbestellungen sind typische Werkstattgeschäfte – auch CHF 15'000.– können branchenüblich sein. Bei offensichtlich ungewöhnlichen oder betriebsfremden Bestellungen wäre die Bindungswirkung fraglich.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Ein Prokurist einer Werkstatt-GmbH verkauft ohne Wissen des Geschäftsführers eine firmeneigene Maschine für CHF 80'000.–. Verbindlich?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ja, grundsätzlich verbindlich. Die Prokura berechtigt zu allen gewerblichen Handlungen einschliesslich des Verkaufs von Betriebsmitteln. Interne Beschränkungen (z.B. «nur bis CHF 20'000.–») sind gegenüber gutgläubigen Dritten nicht wirksam. Nur der Verkauf von Grundstücken ist von Gesetzes wegen ausgeschlossen.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- G. Einleitungsverfahren -->
-        <div class="section">
-            <h2 class="section-title">G. Einleitungsverfahren – Betreibungsbegehren, Zahlungsbefehl und Rechtsvorschlag</h2>
-            <p class="section-ref">SchKG Art. 67, 69 ff., 74 ff., 78, 80 f., 82 f. · Lehrmittel S. 200–203</p>
-
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Das SchKG-Einleitungsverfahren: <strong>Betreibungsbegehren</strong> → <strong>Zahlungsbefehl</strong> (20 Tage zur Zahlung / 10 Tage Rechtsvorschlag) → Blockade durch Rechtsvorschlag → Beseitigung via <span class="highlight">Rechtsöffnung oder Zivilprozess</span>.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>Ablauf Einleitungsverfahren</strong>
-                    <ul>
-                        <li>1. Gläubiger: Betreibungsbegehren beim Betreibungsamt</li>
-                        <li>2. Betreibungsamt stellt Zahlungsbefehl zu</li>
-                        <li>3a. Schuldner zahlt → Verfahren erledigt</li>
-                        <li>3b. Schuldner erhebt Rechtsvorschlag (10 Tage) → blockiert Verfahren</li>
-                        <li>3c. Keine Reaktion → Gläubiger stellt Fortsetzungsbegehren</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <strong>Drei Wege zur Beseitigung des Rechtsvorschlags</strong>
-                    <ul>
-                        <li><strong>Definitive Rechtsöffnung</strong> (Art. 80/81): bei vollstreckbarem Urteil</li>
-                        <li><strong>Provisorische Rechtsöffnung</strong> (Art. 82): bei schriftlicher Schuldanerkennung (z.B. unterschriebenem Vertrag)</li>
-                        <li><strong>Ordentlicher Zivilprozess</strong> (Anerkennungsklage): wenn keine Urkunde vorliegt</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown" id="dropG">
-                <div class="dropdown-header" onclick="toggleDropdown('dropG')">
-                    <span>Kompetenz-Check G – SchKG Einleitungsverfahren</span>
-                    <i class="material-icons">expand_more</i>
-                </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Welches sind die ersten zwei Schritte des SchKG-Einleitungsverfahrens und welche Frist hat der Schuldner auf den Zahlungsbefehl zu reagieren?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Schritt 1: Gläubiger stellt Betreibungsbegehren beim Betreibungsamt (Art. 67 SchKG). Schritt 2: Betreibungsamt stellt Zahlungsbefehl zu. Der Schuldner hat 20 Tage zur Zahlung oder 10 Tage zur Erhebung des Rechtsvorschlags.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. Nennen Sie die drei Möglichkeiten, mit denen ein Gläubiger einen Rechtsvorschlag des Schuldners beseitigen kann.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">(1) Definitive Rechtsöffnung (Art. 80/81 SchKG): bei vollstreckbarem Urteil oder öffentlicher Urkunde. (2) Provisorische Rechtsöffnung (Art. 82 SchKG): bei schriftlicher Schuldanerkennung (z.B. unterschriebenem Vertrag). (3) Ordentlicher Zivilprozess (Anerkennungsklage): wenn keine der genannten Grundlagen vorliegt.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Warum prüft das Betreibungsamt bei der Ausstellung des Zahlungsbefehls nicht, ob die Forderung wirklich berechtigt ist?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Das SchKG sieht das Betreibungsamt als reines Vollzugsorgan. Die materielle Prüfung von Forderungen ist Sache der Gerichte. Durch den Rechtsvorschlag (10 Tage) kann der Schuldner die Betreibung blockieren und die Berechtigung muss dann gerichtlich geklärt werden. Dieses System trennt Vollstreckung und materielle Rechtsprüfung.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Erklären Sie den Unterschied zwischen definitiver und provisorischer Rechtsöffnung.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Definitive Rechtsöffnung: basiert auf einem vollstreckbaren Urteil oder einer öffentlichen Urkunde. Sie ist endgültig; der Schuldner hat keine weitere Anfechtungsmöglichkeit. Provisorische Rechtsöffnung: basiert auf einer schriftlichen Schuldanerkennung (z.B. unterschriebenem Kaufvertrag). Der Schuldner hat danach noch 20 Tage für eine Aberkennungsklage im ordentlichen Verfahren.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Die Werkstatt hat eine Rechnung von CHF 8'500.– mit unterschriebenem Werkvertrag. Der Kunde zahlt trotz Mahnung nicht und erhebt Rechtsvorschlag. Wie geht die Werkstatt vor?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">1. Betreibungsbegehren beim Betreibungsamt. 2. Betreibungsamt stellt Zahlungsbefehl zu. 3. Kunde erhebt Rechtsvorschlag → Werkstatt beantragt provisorische Rechtsöffnung: Der unterschriebene Werkvertrag ist eine Schuldanerkennung (Art. 82 SchKG). 4. Nach Rechtsöffnung: Fortsetzungsbegehren stellen und Pfändung/Konkurs einleiten.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Ein Kunde erhebt Rechtsvorschlag, obwohl er die Schuld anerkennt. Die Werkstatt hat nur eine mündliche Absprache. Wie geht sie vor?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ohne schriftliche Schuldanerkennung ist keine provisorische Rechtsöffnung möglich. Die Werkstatt muss eine Anerkennungsklage im ordentlichen Zivilprozess einreichen – das dauert Monate und kostet mehr. Wichtige Lehre: Immer schriftliche Auftragsbestätigungen mit Kundenunterschrift verwenden, damit im Streitfall eine Grundlage für die provisorische Rechtsöffnung vorliegt!</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- H. Betreibungsarten -->
-        <div class="section">
-            <h2 class="section-title">H. Betreibungsarten – Pfändung, Pfandverwertung und Konkurs</h2>
-            <p class="section-ref">SchKG Art. 39, 41, 42, 43, 92 · Lehrmittel S. 203–205</p>
-
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Nach dem Fortsetzungsbegehren wird die Betreibungsart festgelegt: <strong>Privatpersonen</strong> → Pfändung (Spezialexekution). <strong>HR-eingetragene Unternehmen</strong> → Konkurs (Generalexekution). <strong>Ausnahme Art. 43:</strong> Öffentlich-rechtliche Forderungen (Steuern, AHV) immer auf <span class="highlight">Pfändung</span>, unabhängig von der Rechtsform.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>Drei Betreibungsarten</strong>
-                    <ul>
-                        <li><strong>Pfändung</strong> (Art. 42): Privatpersonen, Einzelunternehmen ohne HR-Eintrag</li>
-                        <li><strong>Pfandverwertung</strong> (Art. 41): bei gesicherter Forderung (Hypothek, Pfand)</li>
-                        <li><strong>Konkurs</strong> (Art. 39): AG, GmbH, KlG, im HR eingetragene Einzelunternehmen</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <strong>Kompetenzstücke (Art. 92 SchKG)</strong>
-                    <ul>
-                        <li>Unpfändbare Gegenstände</li>
-                        <li>Zwingend nötig für Berufsausübung</li>
-                        <li>Beispiel: Werkzeug des Handwerkers</li>
-                        <li>Notwendige Kleidung, Möbel</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown" id="dropH">
-                <div class="dropdown-header" onclick="toggleDropdown('dropH')">
-                    <span>Kompetenz-Check H – Betreibungsarten</span>
-                    <i class="material-icons">expand_more</i>
-                </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Nennen Sie die drei Betreibungsarten und beschreiben Sie kurz, für welche Schuldner sie jeweils angewendet werden.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">(1) Pfändung (Art. 42 SchKG): Privatpersonen und Einzelunternehmen ohne HR-Eintrag. (2) Pfandverwertung (Art. 41 SchKG): wenn die Forderung durch ein Pfand gesichert ist (z.B. Hypothek). (3) Konkurs (Art. 39 SchKG): im Handelsregister eingetragene Unternehmen (AG, GmbH, KlG, eingetragene Einzelunternehmen).</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. Was sind «Kompetenzstücke» und können diese gepfändet werden?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Kompetenzstücke (Art. 92 SchKG) sind Gegenstände, die für die Berufsausübung oder das Leben des Schuldners zwingend notwendig sind – z.B. Werkzeuge für die Berufsausübung, notwendige Kleidung, Haushaltsgeräte. Sie sind unpfändbar und können nicht zur Schuldendeckung herangezogen werden.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Erklären Sie, warum Betreibung auf Pfändung «Spezialexekution» und Betreibung auf Konkurs «Generalexekution» heisst.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Pfändung (Spezialexekution): Nur einzelne, konkrete Vermögenswerte werden beschlagnahmt – genau so viele, wie zur Deckung der Forderung nötig. Nur der betreibende Gläubiger profitiert. Konkurs (Generalexekution): Das gesamte Vermögen des Schuldners wird beschlagnahmt und unter alle Gläubiger nach Klassen verteilt – eine kollektive Vollstreckung.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Warum ist die Betreibung auf Konkurs potenziell effektiver – aber auch riskanter?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Effektiver: Der Konkurs erfasst das gesamte Vermögen; der Schuldner kann keine einzelnen Vermögenswerte verstecken. Riskanter: Wenn der Schuldner wenig Vermögen hat, geht der Gläubiger (besonders 3. Klasse) leer aus. Ausserdem sind die Verfahrenskosten hoch und es konkurrieren viele Gläubiger.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Die Werkstatt hat offene Forderungen gegen (a) eine GmbH, (b) einen im HR eingetragenen Landwirt und (c) eine Privatperson. Welche Betreibungsart kommt jeweils zur Anwendung?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">(a) GmbH: Betreibung auf Konkurs (Art. 39 SchKG – im HR eingetragen). (b) Im HR eingetragener Einzelunternehmer: Betreibung auf Konkurs (Art. 39 SchKG). (c) Privatperson: Betreibung auf Pfändung (Art. 42 SchKG).</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Eine im HR eingetragene AG zahlt die Steuerrechnung des Steueramts nicht. Auf welchem Weg und warum betreibt das Steueramt?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Das Steueramt betreibt auf Pfändung, nicht auf Konkurs. Art. 43 Ziff. 1 SchKG sieht eine zwingende Ausnahme vor: Öffentlich-rechtliche Forderungen (Steuern, AHV, Bussen) werden immer auf Pfändung betrieben – unabhängig davon, ob der Schuldner im HR eingetragen ist. Diese Ausnahme verhindert, dass ein Unternehmen wegen einer Steuerschuld vollständig liquidiert werden muss.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- I. Konkurs -->
-        <div class="section">
-            <h2 class="section-title">I. Konkurs – Eröffnung, Wirkungen und Verfahren</h2>
-            <p class="section-ref">SchKG Art. 159 ff., 166 ff., 190, 192, 197, 204, 219/220 · OR Art. 725b · Lehrmittel S. 205–208</p>
-
-            <div class="concept-box">
-                <div class="concept-box-title">Kernaussage</div>
-                <p>Der Konkurs ist die <strong>Generalexekution</strong> über das gesamte Schuldnervermögen. Mit Eröffnung verliert der Schuldner die Verfügungsmacht. Gläubigerbefriedigung nach drei Klassen: <span class="highlight">1. Lohnforderungen → 2. Sozialversicherungen → 3. Übrige Gläubiger</span>. Konkursverlustschein: Forderung bleibt 20 Jahre bestehen.</p>
-            </div>
-
-            <div class="two-column">
-                <div class="column">
-                    <strong>Wirkungen der Konkurseröffnung</strong>
-                    <ul>
-                        <li>Bildung der Konkursmasse (alles pfändbare Vermögen)</li>
-                        <li>Verfügungsunfähigkeit des Schuldners (Art. 204)</li>
-                        <li>Betreibungsverbot für alle Gläubiger</li>
-                        <li>Alle Forderungen werden sofort fällig</li>
-                        <li>Einstellung laufender Betreibungen</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <strong>Drei Gläubigerklassen (Art. 219/220 SchKG)</strong>
-                    <ul>
-                        <li><strong>1. Klasse:</strong> Lohnforderungen (bis 6 Monatslöhne), AHV/IV/ALV-Arbeitnehmerbeiträge</li>
-                        <li><strong>2. Klasse:</strong> Sozialversicherungen (AHV, IV, Pensionskasse)</li>
-                        <li><strong>3. Klasse:</strong> Alle übrigen Gläubiger (Lieferanten, Banken etc.)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown" id="dropI">
-                <div class="dropdown-header" onclick="toggleDropdown('dropI')">
-                    <span>Kompetenz-Check I – Konkurs</span>
-                    <i class="material-icons">expand_more</i>
-                </div>
-                <div class="dropdown-content">
-                    <div class="q-group">
-                        <div class="q-group-title">Wissen</div>
-                        <div class="question">1. Welche fünf wichtigsten Wirkungen treten mit der Konkurseröffnung sofort ein?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">(1) Bildung der Konkursmasse: gesamtes pfändbares Vermögen des Schuldners wird erfasst. (2) Verfügungsunfähigkeit des Schuldners (Art. 204 SchKG). (3) Betreibungsverbot für alle Gläubiger. (4) Sofortige Fälligkeit aller Forderungen. (5) Einstellung laufender Betreibungen gegen den Schuldner.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">2. In welche drei Klassen werden Gläubigerforderungen eingeteilt? Welche Forderungen gehören zur ersten Klasse?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Erste Klasse: Lohnforderungen der Arbeitnehmer (bis 6 Monatslöhne) und AHV/IV/ALV-Arbeitnehmerbeiträge. Zweite Klasse: AHV-, IV- und Pensionskassenbeiträge (Sozialversicherungen). Dritte Klasse: Alle übrigen Forderungen – Lieferanten, Banken, gewöhnliche Handelsschulden.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Verstehen</div>
-                        <div class="question">3. Erklären Sie, warum ein Werkstattlieferant als dritte-Klasse-Gläubiger oft leer ausgeht.</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Befriedigung erfolgt hierarchisch: Erst werden 1. Klasse (Löhne) und 2. Klasse (Sozialversicherungen) vollständig ausgezahlt. Erst was danach noch übrig bleibt, fällt den 3.-Klasse-Gläubigern zu – anteilsmässig. In vielen Konkursen deckt die Masse nur die ersten zwei Klassen; für Lieferanten verbleibt wenig bis nichts.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">4. Was bedeutet ein «Konkursverlustschein» für die Werkstatt als Gläubigerin – ist die Forderung damit erloschen?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Nein, die Forderung erlischt nicht. Der Konkursverlustschein ist der Nachweis, dass eine Forderung im Konkurs nicht vollständig gedeckt wurde. Die Forderung bleibt 20 Jahre lang bestehen (Art. 149a SchKG). Die Werkstatt kann denselben Schuldner jederzeit erneut betreiben, wenn er zu neuem Vermögen kommt.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                    <div class="q-group">
-                        <div class="q-group-title">Anwenden</div>
-                        <div class="question">5. Die Werkstatt hat als dritte-Klasse-Gläubigerin CHF 120'000.– Forderung. Im Konkurs verbleiben nach 1. und 2. Klasse noch 15% für die dritte Klasse. Wie viel erhält die Werkstatt?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">15% von CHF 120'000.– = CHF 18'000.–. Die restlichen CHF 102'000.– werden mit einem Konkursverlustschein belegt. Diese Forderung bleibt 20 Jahre bestehen (Art. 149a SchKG) und kann erneut geltend gemacht werden, wenn der Schuldner zu Vermögen kommt.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                        <div class="question">6. Der VR der «Meier Technik AG» erkennt, dass die AG überschuldet ist. Welche Pflicht hat er und was passiert bei Untätigkeit?</div>
-                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Der VR muss unverzüglich den Richter benachrichtigen (Art. 725b OR i.V.m. Art. 192 SchKG). Das Gericht eröffnet den Konkurs. Es gibt keine Schonfrist. Handelt der VR nicht, macht er sich persönlich schadenersatzpflichtig gegenüber den Gläubigern, die durch die Verzögerung einen zusätzlichen Schaden erlitten haben.</div>
-                        <span class="spoiler-hint">↑ Antwort durch Klicken anzeigen</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div><!-- /content -->
-
-    <div class="footer">
-        Modul 4 · Gesellschaftsrecht und Schuldbetreibung · HFP Werkstattleiter-Meisterkurs · Stand März 2026
     </div>
 
-</div><!-- /slide -->
+    <script>
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.classList.toggle('active');
+        }
 
-<script>
-    function toggleDropdown(id) {
-        const dropdown = document.getElementById(id);
-        dropdown.classList.toggle('active');
-    }
-
-    function toggleSpoiler(el) {
-        el.classList.add('revealed');
-    }
-</script>
+        function toggleSpoiler(el) {
+            el.classList.add('revealed');
+        }
+    </script>
 </body>
+
 </html>
