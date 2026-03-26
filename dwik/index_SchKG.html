@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schuldbetreibung und Konkurs: Zusammenfassung der prüfungsrelevanten Konzepte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5276;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f8f9fa;
+            --text-color: #2c3e50;
+            --light-gray: #ecf0f1;
+            --border-color: #bdc3c7;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        .slide {
+            max-width: 1280px;
+            width: 100%;
+            min-height: 720px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 30px 40px;
+            overflow-y: auto;
+        }
+
+        .section {
+            margin-bottom: 25px;
+            border-left: 4px solid var(--secondary-color);
+            padding-left: 15px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .subsection {
+            margin-bottom: 15px;
+        }
+
+        .subsection-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--secondary-color);
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .two-column {
+            display: flex;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .concept-box {
+            background-color: var(--light-gray);
+            border-radius: 4px;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+        }
+
+        .concept-box-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+        }
+
+        .dropdown {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .dropdown-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 8px 15px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dropdown-content {
+            padding: 15px;
+            background-color: #f9f9f9;
+            display: none;
+        }
+
+        .dropdown.active .dropdown-content {
+            display: block;
+        }
+
+        .dropdown.active .dropdown-header .material-icons {
+            transform: rotate(180deg);
+        }
+
+        .question {
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .answer {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            font-style: italic;
+            transition: all 0.3s ease;
+        }
+
+        .answer.spoiler {
+            background-color: #cbd5e0;
+            color: transparent;
+            cursor: pointer;
+            user-select: none;
+            border-radius: 4px;
+        }
+
+        .answer.spoiler.revealed {
+            background-color: transparent;
+            color: inherit;
+            cursor: default;
+            user-select: text;
+        }
+
+        .answer.spoiler:not(.revealed) a {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .flow-diagram {
+            background-color: var(--light-gray);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .flow-step {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            margin: 4px;
+        }
+
+        .flow-arrow {
+            display: inline-block;
+            color: var(--primary-color);
+            font-size: 24px;
+            vertical-align: middle;
+            margin: 0 4px;
+        }
+
+        .three-column {
+            display: flex;
+            gap: 15px;
+        }
+
+        .three-column .column {
+            flex: 1;
+            background-color: var(--light-gray);
+            border-radius: 4px;
+            padding: 12px;
+        }
+
+        .column-title {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="header">
+            <h1>Schuldbetreibung und Konkurs: Zusammenfassung</h1>
+        </div>
+
+        <div class="content">
+            <!-- 1. Einleitungsverfahren -->
+            <div class="section">
+                <h2 class="section-title">1. Einleitungsverfahren</h2>
+                <div class="subsection">
+                    <div class="flow-diagram">
+                        <span class="flow-step">Gläubiger: Betreibungsbegehren</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-step">Betreibungsamt</span>
+                        <span class="flow-arrow">→</span>
+                        <span class="flow-step">Zahlungsbefehl an Schuldner</span>
+                    </div>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Reaktion des Schuldners (3 Möglichkeiten)</h3>
+                    <ul>
+                        <li><span class="highlight">Bezahlung</span>: Verfahren beendet</li>
+                        <li><span class="highlight">Rechtsvorschlag</span>: Innert 10 Tagen, Betreibung wird vorläufig eingestellt (Art. 74 ff. SchKG)</li>
+                        <li><span class="highlight">Keine Reaktion</span>: Gläubiger kann Betreibung fortsetzen</li>
+                    </ul>
+                </div>
+                <div class="subsection">
+                    <div class="concept-box">
+                        <div class="concept-box-title">Wichtig</div>
+                        <p>Das Betreibungsamt prüft <strong>nicht</strong>, ob die Forderung berechtigt ist. Betreibungsort = Wohnsitz/Geschäftssitz des Schuldners (Art. 46 SchKG). Die Kosten trägt der Schuldner, der Gläubiger muss sie aber vorschiessen (Art. 68 SchKG).</p>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown1">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown1')">
+                        <span>Kompetenz-Check: Einleitungsverfahren</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Was muss ein Gläubiger im Betreibungsbegehren angeben und wo muss er es einreichen?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Angaben zu seiner Person, zum Schuldner, zur Forderungshöhe und zum Forderungsgrund. Einreichung beim Betreibungsamt am Wohnsitz bzw. Geschäftssitz des Schuldners (Art. 67 und 46 SchKG).</div>
+
+                        <div class="question">2. Innerhalb welcher Frist muss der Schuldner Rechtsvorschlag erheben?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Innert 10 Tagen nach Zustellung des Zahlungsbefehls (Art. 74 SchKG). Der Rechtsvorschlag bewirkt die vorläufige Einstellung der Betreibung (Art. 78 SchKG). Er muss nicht begründet werden.</div>
+
+                        <div class="question">3. Warum prüft das Betreibungsamt die Berechtigung der Forderung nicht?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Die Prüfung der materiellen Berechtigung ist Aufgabe des Gerichts, nicht des Betreibungsamts. Das Betreibungsamt führt lediglich das Verfahren durch. Das bedeutet, dass auch unberechtigte Forderungen betrieben werden können – der Schuldner muss sich mit Rechtsvorschlag wehren.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Rechtsvorschlag und Rechtsöffnung -->
+            <div class="section">
+                <h2 class="section-title">2. Rechtsvorschlag und Rechtsöffnung</h2>
+                <div class="subsection">
+                    <p>Drei Wege zur Beseitigung des Rechtsvorschlags:</p>
+                    <div class="three-column">
+                        <div class="column">
+                            <div class="column-title">Definitive Rechtsöffnung</div>
+                            <p>Voraussetzung: <span class="highlight">Vollstreckbares Urteil oder Verfügung</span></p>
+                            <p>Art. 80 f. SchKG</p>
+                        </div>
+                        <div class="column">
+                            <div class="column-title">Provisorische Rechtsöffnung</div>
+                            <p>Voraussetzung: <span class="highlight">Schriftliche Schuldanerkennung</span></p>
+                            <p>Art. 82 f. SchKG</p>
+                            <p>Schuldner kann Aberkennungsklage erheben (20 Tage)</p>
+                        </div>
+                        <div class="column">
+                            <div class="column-title">Ordentlicher Prozess</div>
+                            <p>Voraussetzung: <span class="highlight">Keine Belege</span></p>
+                            <p>Zeit- und kostenaufwendig</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown2">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown2')">
+                        <span>Kompetenz-Check: Rechtsöffnung</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welchen Beleg braucht der Gläubiger für eine definitive bzw. provisorische Rechtsöffnung?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Definitive Rechtsöffnung: ein vollstreckbares Urteil oder eine behördliche Verfügung (Art. 80 SchKG). Provisorische Rechtsöffnung: eine schriftliche Schuldanerkennung, z.B. ein unterschriebener Vertrag mit Quittung (Art. 82 SchKG).</div>
+
+                        <div class="question">2. Weshalb erheben viele Schuldner Rechtsvorschlag, obwohl sie die Forderung nicht bestreiten?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Um das Verfahren zu verzögern. Der Gläubiger muss dann zuerst beim Gericht eine Rechtsöffnung erwirken, was Zeit und Geld kostet. In der Zwischenzeit gewinnt der Schuldner Zeit.</div>
+
+                        <div class="question">3. Ein Kunde hat den Reparaturauftrag schriftlich unterschrieben. Er erhebt Rechtsvorschlag. Welche Art der Rechtsöffnung?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Provisorische Rechtsöffnung (Art. 82 SchKG). Der unterschriebene Reparaturauftrag gilt als schriftliche Schuldanerkennung. Eine definitive Rechtsöffnung wäre nur mit einem Gerichtsurteil möglich.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Betreibungsarten -->
+            <div class="section">
+                <h2 class="section-title">3. Betreibungsarten</h2>
+                <div class="subsection">
+                    <div class="three-column">
+                        <div class="column">
+                            <div class="column-title">Betreibung auf Pfändung</div>
+                            <p><span class="highlight">Privatpersonen</span></p>
+                            <p>Art. 42 SchKG</p>
+                            <p>= Spezialexekution (nur einzelne Vermögenswerte)</p>
+                        </div>
+                        <div class="column">
+                            <div class="column-title">Betreibung auf Pfandverwertung</div>
+                            <p><span class="highlight">Pfandgesicherte Forderungen</span></p>
+                            <p>Art. 41 SchKG</p>
+                            <p>= Spezialexekution (nur das Pfand)</p>
+                        </div>
+                        <div class="column">
+                            <div class="column-title">Betreibung auf Konkurs</div>
+                            <p><span class="highlight">HR-eingetragene Unternehmen</span></p>
+                            <p>Art. 39 SchKG</p>
+                            <p>= Generalexekution (alles Vermögen, alle Gläubiger)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Pfändbarkeit von Vermögenswerten</h3>
+                    <div class="three-column">
+                        <div class="column">
+                            <div class="column-title">Pfändbar (Art. 89 ff.)</div>
+                            <ul>
+                                <li>Geld, Bankguthaben</li>
+                                <li>Wertpapiere</li>
+                                <li>Wertsachen</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <div class="column-title">Unpfändbar (Art. 92)</div>
+                            <ul>
+                                <li>Persönliche Gegenstände</li>
+                                <li>Berufsausrüstung</li>
+                                <li>Wertlose Gegenstände</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <div class="column-title">Beschränkt pfändbar (Art. 93)</div>
+                            <ul>
+                                <li>Erwerbseinkommen: nur was über dem Existenzminimum liegt</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown3">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown3')">
+                        <span>Kompetenz-Check: Betreibungsarten</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welche drei Betreibungsarten gibt es und wann kommt welche zur Anwendung?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Pfändung bei Privatpersonen (Art. 42), Pfandverwertung bei pfandgesicherten Forderungen (Art. 41), Konkurs bei im Handelsregister eingetragenen Unternehmen (Art. 39). Die Betreibungsart wird vom Gesetz bestimmt, nicht vom Gläubiger gewählt.</div>
+
+                        <div class="question">2. Was ist der Unterschied zwischen Spezialexekution und Generalexekution?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Spezialexekution (Pfändung/Pfandverwertung): Nur einzelne Vermögenswerte werden verwertet, nur die Forderung des betreibenden Gläubigers wird berücksichtigt. Generalexekution (Konkurs): Das gesamte Vermögen wird verwertet und unter alle Gläubiger verteilt.</div>
+
+                        <div class="question">3. Was bedeutet der Verlustschein für Gläubiger und Schuldner?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Der Verlustschein bestätigt die ungedeckte Forderung. Die Forderung ist nicht erloschen – sie verjährt erst nach 20 Jahren (Art. 149a SchKG). Der Gläubiger kann erneut betreiben, wenn der Schuldner zu neuem Vermögen kommt.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Konkurs -->
+            <div class="section">
+                <h2 class="section-title">4. Konkurs – Eröffnung, Wirkungen und Verfahren</h2>
+                <div class="subsection">
+                    <h3 class="subsection-title">Wirkungen der Konkurseröffnung</h3>
+                    <ul>
+                        <li><span class="highlight">Konkursmasse</span>: Alle pfändbaren Vermögenswerte werden zusammengeführt (Art. 197 SchKG)</li>
+                        <li><span class="highlight">Verfügungsunfähigkeit</span>: Schuldner verliert Verfügungsrecht über sein Vermögen (Art. 204 SchKG)</li>
+                        <li><span class="highlight">Betreibungsverbot</span>: Keine neuen Betreibungen für alte Forderungen möglich (Art. 206 SchKG)</li>
+                        <li><span class="highlight">Fälligkeit</span>: Alle Forderungen werden sofort fällig (Art. 208 SchKG)</li>
+                        <li><span class="highlight">Zinsenlauf</span>: Zinsen stoppen ab Konkurseröffnung (Art. 209 SchKG)</li>
+                    </ul>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Rangordnung der Gläubigerforderungen (Art. 219 SchKG)</h3>
+                    <div class="three-column">
+                        <div class="column" style="border-left: 4px solid #27ae60;">
+                            <div class="column-title">1. Klasse</div>
+                            <p>Lohnforderungen (letzte 6 Monate) + Pensionskasse</p>
+                        </div>
+                        <div class="column" style="border-left: 4px solid #f39c12;">
+                            <div class="column-title">2. Klasse</div>
+                            <p>Übrige Sozialversicherungsbeiträge (AHV/IV/EO)</p>
+                        </div>
+                        <div class="column" style="border-left: 4px solid #e74c3c;">
+                            <div class="column-title">3. Klasse</div>
+                            <p>Alle übrigen Forderungen (Bank, Lieferanten, etc.)</p>
+                        </div>
+                    </div>
+                    <div class="concept-box">
+                        <div class="concept-box-title">Verteilungsregel</div>
+                        <p>Klasse 2 erhält erst Geld, wenn Klasse 1 <strong>vollständig</strong> befriedigt ist. Klasse 3 erst, wenn Klasse 1 und 2 gedeckt sind. Innerhalb einer Klasse: anteilsmässige Befriedigung (<strong>Konkursdividende</strong>).</p>
+                    </div>
+                </div>
+                <div class="subsection">
+                    <h3 class="subsection-title">Konkurseröffnung ohne Betreibung (Art. 190 ff. SchKG)</h3>
+                    <ul>
+                        <li><span class="highlight">Gläubiger</span>: Bei Zahlungseinstellung oder unredlichem Verhalten des Schuldners</li>
+                        <li><span class="highlight">Schuldner</span>: Insolvenzerklärung (Privatkonkurs, Art. 191 SchKG)</li>
+                        <li><span class="highlight">Überschuldete AG/GmbH</span>: Organe müssen Richter benachrichtigen – «Bilanz deponieren» (Art. 192 SchKG, Art. 725 OR)</li>
+                    </ul>
+                </div>
+
+                <div class="dropdown" id="dropdown4">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown4')">
+                        <span>Kompetenz-Check: Konkurs</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Nennen Sie die fünf wichtigsten Wirkungen einer Konkurseröffnung.</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">1. Bildung der Konkursmasse (alle pfändbaren Vermögenswerte). 2. Verfügungsunfähigkeit des Schuldners. 3. Betreibungsverbot für alte Forderungen. 4. Sofortige Fälligkeit aller Forderungen. 5. Stopp des Zinsenlaufs.</div>
+
+                        <div class="question">2. In welcher Reihenfolge werden die drei Klassen befriedigt?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">1. Klasse: Lohnforderungen (letzte 6 Monate) und Pensionskassenbeiträge. 2. Klasse: Übrige Sozialversicherungsbeiträge (AHV/IV/EO). 3. Klasse: Alle übrigen Forderungen. Jede Klasse wird erst befriedigt, wenn die vorherige vollständig gedeckt ist.</div>
+
+                        <div class="question">3. Rechenbeispiel: Konkursmasse CHF 200'000. Klasse 1: CHF 80'000, Klasse 2: CHF 50'000, Klasse 3: CHF 300'000. Wie viel erhalten die Gläubiger der 3. Klasse?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Klasse 1 erhält CHF 80'000 (voll). Rest: CHF 120'000. Klasse 2 erhält CHF 50'000 (voll). Rest: CHF 70'000. Klasse 3 hat Forderungen von CHF 300'000. Konkursdividende: 70'000 / 300'000 × 100 = ca. 23,3 %. Jeder Gläubiger der 3. Klasse erhält ca. 23,3 % seiner Forderung.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Sicherungsmittel -->
+            <div class="section">
+                <h2 class="section-title">5. Sicherungsmittel</h2>
+                <div class="subsection">
+                    <div class="three-column">
+                        <div class="column">
+                            <div class="column-title">Arrest (Art. 271 ff.)</div>
+                            <p><span class="highlight">Vorsorgliche Beschlagnahmung</span> von Vermögenswerten</p>
+                            <p>Voraussetzungen: Arrestforderung + Arrestgegenstand in CH + Arrestgrund</p>
+                            <p>Ohne Anhörung des Schuldners!</p>
+                        </div>
+                        <div class="column">
+                            <div class="column-title">Retentionsrecht (Art. 268 OR)</div>
+                            <p><span class="highlight">Nur bei Geschäftsräumen</span></p>
+                            <p>Vermieter kann Gegenstände im Mietobjekt zurückbehalten</p>
+                            <p>Rückschaffung heimlich entfernter Gegenstände möglich</p>
+                        </div>
+                        <div class="column">
+                            <div class="column-title">Anfechtung (Art. 286–288)</div>
+                            <p>Rückgängigmachung von Vermögensverschiebungen:</p>
+                            <ul>
+                                <li>Schenkung (1 Jahr)</li>
+                                <li>Überschuldung (1 Jahr)</li>
+                                <li>Absicht (5 Jahre)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown5">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown5')">
+                        <span>Kompetenz-Check: Sicherungsmittel</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welche drei Sicherungsmittel kennt das SchKG?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Arrest (vorsorgliche Beschlagnahmung), Retentionsrecht des Vermieters von Geschäftsräumen und Anfechtungsklagen (Schenkungsanfechtung, Überschuldungsanfechtung, Absichtsanfechtung).</div>
+
+                        <div class="question">2. Was ist der Unterschied zwischen Arrest und Pfändung?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Der Arrest ist eine vorsorgliche, überfallsartige Massnahme, die auch vor oder ohne Betreibung möglich ist. Die Pfändung ist Teil des ordentlichen Betreibungsverfahrens nach dem Fortsetzungsbegehren. Beide sind Beschlagnahmungen, aber der Arrest dient nur der Sicherung, die Pfändung der tatsächlichen Verwertung.</div>
+
+                        <div class="question">3. Ein Werkstattinhaber verschenkt kurz vor dem Konkurs seinen Firmenwagen an seinen Sohn. Können die Gläubiger dagegen vorgehen?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Ja, mittels Schenkungsanfechtung (Art. 286 SchKG). Alle Schenkungen innerhalb eines Jahres vor der Pfändung oder Konkurseröffnung können angefochten werden. Der Firmenwagen würde in die Konkursmasse zurückgeführt.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Sanierungsmöglichkeiten -->
+            <div class="section">
+                <h2 class="section-title">6. Sanierungsmöglichkeiten</h2>
+                <div class="subsection">
+                    <ul>
+                        <li><span class="highlight">Forderungsverzicht</span> (Art. 115 OR): Freiwillige Vereinbarung zwischen Gläubiger und Schuldner</li>
+                        <li><span class="highlight">Aussergerichtlicher Nachlassvertrag</span>: Private Einigung mit <strong>allen</strong> Gläubigern nötig</li>
+                        <li><span class="highlight">Einvernehmliche private Schuldenbereinigung</span> (Art. 333 ff. SchKG): Gerichtlich begleitete Verhandlung, nur für Nicht-Konkurs-Schuldner</li>
+                        <li><span class="highlight">Gerichtlicher Nachlassvertrag</span> (Art. 314 ff. SchKG):
+                            <ul>
+                                <li><strong>Ordentlicher Nachlassvertrag</strong> (Prozentvergleich): Gläubiger verzichten auf einen Teil → Betrieb läuft weiter</li>
+                                <li><strong>Nachlassvertrag mit Vermögensabtretung</strong> (Liquidationsvergleich): Vermögen wird an Gläubiger abgetreten</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="concept-box">
+                        <div class="concept-box-title">Entscheidender Vorteil des gerichtlichen Nachlassvertrags</div>
+                        <p>Es reicht die Zustimmung der <strong>Mehrheit</strong> der Gläubiger. Das Gericht kann den Vertrag für <strong>alle</strong> verbindlich erklären – auch für diejenigen, die nicht zugestimmt haben.</p>
+                    </div>
+                </div>
+
+                <div class="dropdown" id="dropdown6">
+                    <div class="dropdown-header" onclick="toggleDropdown('dropdown6')">
+                        <span>Kompetenz-Check: Sanierung</span>
+                        <i class="material-icons">expand_more</i>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="question">1. Welche Sanierungsmöglichkeiten kennt das Gesetz?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Forderungsverzicht (Art. 115 OR), aussergerichtlicher Nachlassvertrag, einvernehmliche private Schuldenbereinigung (Art. 333 ff. SchKG) und gerichtlicher Nachlassvertrag (Art. 314 ff. SchKG – ordentlich oder mit Vermögensabtretung).</div>
+
+                        <div class="question">2. Warum könnte ein Gläubiger freiwillig auf einen Teil seiner Forderung verzichten?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Nach dem Motto «Besser etwas als gar nichts»: Ein Gläubiger akzeptiert lieber eine Teilzahlung sofort, als ein langwieriges Betreibungsverfahren durchzuführen, an dessen Ende möglicherweise nur ein Verlustschein steht. Zudem kann ein Lieferant Interesse daran haben, dass sich der Schuldner wirtschaftlich erholt und weiterhin Kunde bleibt.</div>
+
+                        <div class="question">3. Ihre Werkstatt ist überschuldet, aber rentabel. Welche Sanierungsmöglichkeit empfehlen Sie?</div>
+                        <div class="answer spoiler" onclick="toggleSpoiler(this)">Einen ordentlichen Nachlassvertrag (Prozentvergleich) via Nachlassstundung. Die Nachlassstundung schützt vor neuen Betreibungen. Im Nachlassvertrag verzichten die Gläubiger auf einen Teil ihrer Forderungen, der Betrieb läuft weiter und die verbleibenden Schulden werden aus zukünftigen Gewinnen bezahlt. Vorteil: Es reicht die Zustimmung der Mehrheit.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDropdown(id) {
+            const dropdown = document.getElementById(id);
+            dropdown.classList.toggle('active');
+        }
+
+        function toggleSpoiler(el) {
+            el.classList.add('revealed');
+        }
+    </script>
+</body>
+</html>
